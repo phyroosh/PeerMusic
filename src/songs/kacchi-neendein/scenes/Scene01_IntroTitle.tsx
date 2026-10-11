@@ -38,7 +38,7 @@ export const Scene01_IntroTitle: React.FC<Scene01IntroTitleProps> = ({ scene }) 
         }}
       >
         {titleLine.words.map((w) => (
-          <WordReveal key={w.id} word={w} fontSize={68} isAccent={w.accent} />
+          <WordReveal key={w.id} word={w} fontSize={68} isAccent={w.accent} sceneStartFrame={scene.startFrame} />
         ))}
       </div>
 

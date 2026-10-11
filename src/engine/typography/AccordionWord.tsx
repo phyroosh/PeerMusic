@@ -8,6 +8,7 @@ interface AccordionWordProps {
   endFrame: number;
   isAccent?: boolean;
   fontSize?: number;
+  sceneStartFrame?: number;
 }
 
 /**
@@ -21,17 +22,21 @@ export const AccordionWord: React.FC<AccordionWordProps> = ({
   endFrame,
   isAccent = false,
   fontSize = 58,
+  sceneStartFrame = 0,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  if (frame < startFrame) {
+  const relStart = startFrame >= sceneStartFrame ? startFrame - sceneStartFrame : startFrame;
+  const relEnd = endFrame >= sceneStartFrame ? endFrame - sceneStartFrame : endFrame;
+
+  if (frame < relStart) {
     return <span style={{ opacity: 0, margin: "0 0.3em" }}>{text}</span>;
   }
 
   // Entrance spring
   const entrySpring = spring({
-    frame: frame - startFrame,
+    frame: frame - relStart,
     fps,
     config: { damping: 12, stiffness: 170, mass: 0.5 },
   });
@@ -39,7 +44,7 @@ export const AccordionWord: React.FC<AccordionWordProps> = ({
   // Breathing expansion across word duration
   const activeProgress = Math.min(
     1,
-    Math.max(0, (frame - startFrame) / Math.max(1, endFrame - startFrame))
+    Math.max(0, (frame - relStart) / Math.max(1, relEnd - relStart))
   );
 
   // Expands letter spacing from wide to tight snap

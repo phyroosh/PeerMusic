@@ -145,22 +145,26 @@ npm run dev
 # or: npx remotion preview src/index.ts
 ```
 
-### 4. Render Still Frames
+### 4. High-Performance Video Rendering Commands
 ```bash
-# 16:9 Landscape Still (Frame 180 - Chai & Clock Scene)
-npx remotion still src/index.ts KacchiNeendein-Landscape out/landscape_chai.png --frame=180
+# 1. Master Quality Render (CRF 16, Rec.709, 320k Audio)
+npm run render
 
-# 9:16 Vertical Still (Frame 180 - Mobile Stacked Layout)
-npx remotion still src/index.ts KacchiNeendein-Vertical out/vertical_chai.png --frame=180
-```
+# 2. Maximum Lossless Master (CRF 14, JPEG 98, Concurrency 8)
+npm run render:max
 
-### 5. Render Video
-```bash
-# Landscape MP4
-npm run render:landscape
+# 3. High-Speed Draft Render (3x faster for rapid testing)
+npm run render:fast
 
-# Vertical MP4 (Reels / Shorts)
+# 4. Vertical 9:16 Master (Instagram Reels / YouTube Shorts)
 npm run render:vertical
+
+# 5. Broadcast Apple ProRes 422 HQ Master (for post-production & grading)
+npm run render:prores
+
+# 6. Render Still Frame Previews
+npm run still:landscape
+npm run still:vertical
 ```
 
 ---

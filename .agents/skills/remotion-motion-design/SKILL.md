@@ -181,3 +181,57 @@ Before marking any music video scene complete, verify:
 - [ ] **Audio Synesthesia**: Do major beat drops trigger optical bursts (`AudioSynesthesiaFlash`) or spectrum pulses (`AudioWaveformBars`)?
 - [ ] **Dual Aspect Ratios Validated**: Did you test renders in both `Landscape` and `Vertical`?
 - [ ] **Timeline Verified**: Did you run `python3 scripts/validate_timeline.py` with zero errors?
+
+---
+
+## 🚀 Maximum Render Quality & Speed Optimization Architecture
+
+To maximize render speed and visual fidelity across long compositions (e.g., 6,960 frames / 4-minute full songs):
+
+### 1. Frame Capture Throughput (3x Faster Canvas Streaming)
+- Capture frames as high-quality JPEG (`quality: 96`) instead of PNG:
+  ```typescript
+  Config.setVideoImageFormat("jpeg");
+  Config.setJpegQuality(96);
+  ```
+  *Why:* Chromium's canvas utilizes SIMD-accelerated `libjpeg-turbo`, capturing frames **up to 3x faster** than synchronous CPU-heavy PNG deflate compression while remaining visually indistinguishable from PNG.
+
+### 2. Multi-Process Linux Concurrency
+- Configure worker tabs to ~75% of logical CPU threads (e.g., `8` workers on a 12-thread CPU):
+  ```typescript
+  Config.setConcurrency(8);
+  Config.setChromiumMultiProcessOnLinux(true);
+  Config.setChromiumOpenGlRenderer("angle");
+  Config.setCachingEnabled(true);
+  ```
+  *Why:* Leaves 4 threads dedicated to FFmpeg encoding and disk I/O, preventing CPU thread starvation and context-switch bottlenecks.
+
+### 3. Studio Master Quality (Visually Lossless H.264 + BT.709)
+- Enforce CRF 16 with Rec.709 broadcast color primaries:
+  ```typescript
+  Config.setCodec("h264");
+  Config.setCrf(16); // Visually lossless (eliminates gradient banding)
+  Config.setX264Preset("veryfast");
+  Config.setPixelFormat("yuv420p"); // Universal Apple/Android/Web compatibility
+  Config.setColorSpace("bt709"); // Prevents washed-out colors on YouTube
+  Config.setAudioBitrate("320k");
+  Config.setPreferLosslessAudio(true);
+  ```
+
+### 4. Production CLI Command Suite
+```bash
+# 1. Realtime Interactive Preview
+npm run dev
+
+# 2. Maximum Quality Master Render (CRF 14 Lossless, 320k Audio)
+npm run render:max
+
+# 3. Fast Draft Render (3x Speed for rapid testing)
+npm run render:fast
+
+# 4. Vertical 9:16 Render (Instagram Reels & YouTube Shorts)
+npm run render:vertical
+
+# 5. Broadcast Apple ProRes 422 HQ (Color grading master)
+npm run render:prores
+```

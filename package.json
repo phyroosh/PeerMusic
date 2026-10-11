@@ -5,8 +5,13 @@
   "scripts": {
     "dev": "remotion preview src/index.ts",
     "build": "tsc --noEmit",
-    "render:landscape": "remotion render src/index.ts KacchiNeendein-Landscape out/landscape.mp4",
-    "render:vertical": "remotion render src/index.ts KacchiNeendein-Vertical out/vertical.mp4",
+    "validate": "python3 scripts/validate_timeline.py src/songs/kacchi-neendein/timeline.json",
+    "render": "remotion render src/index.ts KacchiNeendein-Landscape out/master_landscape.mp4",
+    "render:fast": "remotion render src/index.ts KacchiNeendein-Landscape out/draft_landscape.mp4 --jpeg-quality=85 --crf=20 --concurrency=8",
+    "render:max": "remotion render src/index.ts KacchiNeendein-Landscape out/master_lossless.mp4 --crf=14 --jpeg-quality=98 --concurrency=8",
+    "render:vertical": "remotion render src/index.ts KacchiNeendein-Vertical out/master_vertical.mp4",
+    "render:vertical:fast": "remotion render src/index.ts KacchiNeendein-Vertical out/draft_vertical.mp4 --jpeg-quality=85 --crf=20 --concurrency=8",
+    "render:prores": "remotion render src/index.ts KacchiNeendein-Landscape out/master_prores.mov --codec=prores --prores-profile=hq",
     "still:landscape": "remotion still src/index.ts KacchiNeendein-Landscape out/still_landscape.png --frame=180",
     "still:vertical": "remotion still src/index.ts KacchiNeendein-Vertical out/still_vertical.png --frame=180"
   },

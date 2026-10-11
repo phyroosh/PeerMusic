@@ -8,6 +8,7 @@ interface WordRevealProps {
   isAccent?: boolean;
   fontSize?: number;
   baseColor?: string;
+  sceneStartFrame?: number;
 }
 
 export const WordReveal: React.FC<WordRevealProps> = ({
@@ -15,12 +16,17 @@ export const WordReveal: React.FC<WordRevealProps> = ({
   isAccent = false,
   fontSize = 54,
   baseColor = VIDEO_CONFIG.colors.primaryText,
+  sceneStartFrame = 0,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
+  // Support absolute timeline timestamps inside relative Sequence containers
+  const wordStart = word.startFrame >= sceneStartFrame ? word.startFrame - sceneStartFrame : word.startFrame;
+  const wordEnd = word.endFrame >= sceneStartFrame ? word.endFrame - sceneStartFrame : word.endFrame;
+
   // If frame has not reached the word start, keep completely invisible
-  if (frame < word.startFrame) {
+  if (frame < wordStart) {
     return (
       <span
         style={{
@@ -37,7 +43,7 @@ export const WordReveal: React.FC<WordRevealProps> = ({
 
   // Calculate entrance spring
   const progress = spring({
-    frame: frame - word.startFrame,
+    frame: frame - wordStart,
     fps,
     config: {
       damping: 13,
@@ -47,7 +53,7 @@ export const WordReveal: React.FC<WordRevealProps> = ({
   });
 
   // Calculate active pulse if current frame is between word start and end
-  const isActive = frame >= word.startFrame && frame <= word.endFrame;
+  const isActive = frame >= wordStart && frame <= wordEnd;
 
   const translateY = (1 - progress) * 28; // Upward spring reveal
   const opacity = Math.min(1, progress * 1.5);
