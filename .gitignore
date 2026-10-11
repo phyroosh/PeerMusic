@@ -34,6 +34,7 @@ env/
 lyrics_sync.json
 beats_sync.json
 concat_list.txt
+scratch_*
 
 # OS metadata
 .DS_Store

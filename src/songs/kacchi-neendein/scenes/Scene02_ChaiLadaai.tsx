@@ -41,7 +41,15 @@ export const Scene02_ChaiLadaai: React.FC<Scene02ChaiLadaaiProps> = ({ scene }) 
       {/* Line 1: "Raat ke do baje ki thandi si chai" */}
       <div style={{ display: "flex", flexWrap: "wrap", lineHeight: 1.35 }}>
         {line1.words.map((w) => (
-          <WordReveal key={w.id} word={w} fontSize={46} isAccent={w.accent} sceneStartFrame={scene.startFrame} />
+          <WordReveal
+            key={w.id}
+            word={w}
+            fontSize={46}
+            isAccent={w.accent}
+            sceneStartFrame={scene.startFrame}
+            lineEndFrame={line1.words[line1.words.length - 1].endFrame}
+            holdFrames={14}
+          />
         ))}
       </div>
 
@@ -49,7 +57,15 @@ export const Scene02_ChaiLadaai: React.FC<Scene02ChaiLadaaiProps> = ({ scene }) 
       {line2 && (
         <div style={{ display: "flex", flexWrap: "wrap", lineHeight: 1.35 }}>
           {line2.words.map((w) => (
-            <WordReveal key={w.id} word={w} fontSize={42} isAccent={w.accent} sceneStartFrame={scene.startFrame} />
+            <WordReveal
+              key={w.id}
+              word={w}
+              fontSize={42}
+              isAccent={w.accent}
+              sceneStartFrame={scene.startFrame}
+              lineEndFrame={line2.words[line2.words.length - 1].endFrame}
+              holdFrames={18}
+            />
           ))}
         </div>
       )}

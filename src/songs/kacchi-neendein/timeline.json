@@ -6,7 +6,7 @@
   "scenes": [
     {
       "id": "scene_01_intro",
-      "name": "Intro & Title Reveal",
+      "name": "Intro Title & Room 204 Atmosphere",
       "sectionTag": "01 // INTRO  •  ROOM 204",
       "startFrame": 0,
       "endFrame": 462,
@@ -21,28 +21,28 @@
               "id": "w_s01_01",
               "text": "KACCHI",
               "startFrame": 60,
-              "endFrame": 150,
+              "endFrame": 120,
               "accent": false
             },
             {
               "id": "w_s01_02",
               "text": "NEENDEIN,",
-              "startFrame": 150,
-              "endFrame": 240,
+              "startFrame": 120,
+              "endFrame": 180,
               "accent": false
             },
             {
               "id": "w_s01_03",
               "text": "PAKKE",
-              "startFrame": 240,
-              "endFrame": 330,
+              "startFrame": 180,
+              "endFrame": 240,
               "accent": false
             },
             {
               "id": "w_s01_04",
               "text": "KHWAAB",
-              "startFrame": 330,
-              "endFrame": 450,
+              "startFrame": 240,
+              "endFrame": 360,
               "accent": true
             }
           ]
@@ -54,7 +54,7 @@
       "name": "2 AM Chai & Dosti",
       "sectionTag": "02 // MUKHDA  •  02:00 AM",
       "startFrame": 462,
-      "endFrame": 759,
+      "endFrame": 785,
       "hierarchy": "SYMBOLIC_DOMINANT",
       "symbolKey": "chai_clock",
       "lines": [
@@ -65,57 +65,57 @@
             {
               "id": "w_s02_01",
               "text": "Raat",
-              "startFrame": 464,
-              "endFrame": 490,
+              "startFrame": 462,
+              "endFrame": 502,
               "accent": false
             },
             {
               "id": "w_s02_02",
               "text": "ke",
-              "startFrame": 492,
+              "startFrame": 502,
               "endFrame": 508,
               "accent": false
             },
             {
               "id": "w_s02_03",
               "text": "do",
-              "startFrame": 510,
-              "endFrame": 526,
+              "startFrame": 508,
+              "endFrame": 517,
               "accent": true
             },
             {
               "id": "w_s02_04",
               "text": "baje",
-              "startFrame": 528,
-              "endFrame": 550,
+              "startFrame": 517,
+              "endFrame": 529,
               "accent": false
             },
             {
               "id": "w_s02_05",
               "text": "ki",
-              "startFrame": 552,
-              "endFrame": 568,
+              "startFrame": 529,
+              "endFrame": 548,
               "accent": false
             },
             {
               "id": "w_s02_06",
               "text": "thandi",
-              "startFrame": 570,
-              "endFrame": 594,
+              "startFrame": 548,
+              "endFrame": 560,
               "accent": false
             },
             {
               "id": "w_s02_07",
               "text": "si",
-              "startFrame": 596,
-              "endFrame": 608,
+              "startFrame": 560,
+              "endFrame": 571,
               "accent": false
             },
             {
               "id": "w_s02_08",
               "text": "chai,",
-              "startFrame": 610,
-              "endFrame": 630,
+              "startFrame": 571,
+              "endFrame": 591,
               "accent": true
             }
           ]
@@ -127,43 +127,43 @@
             {
               "id": "w_s02_09",
               "text": "Chaar",
-              "startFrame": 637,
-              "endFrame": 660,
+              "startFrame": 614,
+              "endFrame": 665,
               "accent": true
             },
             {
               "id": "w_s02_10",
               "text": "doston",
-              "startFrame": 662,
-              "endFrame": 684,
+              "startFrame": 665,
+              "endFrame": 679,
               "accent": false
             },
             {
               "id": "w_s02_11",
               "text": "ki",
-              "startFrame": 686,
-              "endFrame": 700,
+              "startFrame": 679,
+              "endFrame": 691,
               "accent": false
             },
             {
               "id": "w_s02_12",
               "text": "be-wajah",
-              "startFrame": 702,
-              "endFrame": 724,
+              "startFrame": 691,
+              "endFrame": 719,
               "accent": false
             },
             {
               "id": "w_s02_13",
               "text": "si",
-              "startFrame": 726,
-              "endFrame": 738,
+              "startFrame": 719,
+              "endFrame": 727,
               "accent": false
             },
             {
               "id": "w_s02_14",
               "text": "ladaai.",
-              "startFrame": 740,
-              "endFrame": 758,
+              "startFrame": 727,
+              "endFrame": 755,
               "accent": true
             }
           ]
@@ -174,8 +174,8 @@
       "id": "scene_03_umeedon",
       "name": "Wall of Hope & Distant Dreams",
       "sectionTag": "03 // MUKHDA  •  BLUEPRINTS",
-      "startFrame": 759,
-      "endFrame": 1080,
+      "startFrame": 785,
+      "endFrame": 1098,
       "hierarchy": "SYMBOLIC_DOMINANT",
       "symbolKey": "origami_blueprints",
       "lines": [
@@ -186,43 +186,43 @@
             {
               "id": "w_s03_01",
               "text": "Deewaron",
-              "startFrame": 762,
-              "endFrame": 800,
+              "startFrame": 785,
+              "endFrame": 803,
               "accent": false
             },
             {
               "id": "w_s03_02",
               "text": "pe",
-              "startFrame": 802,
-              "endFrame": 820,
+              "startFrame": 803,
+              "endFrame": 812,
               "accent": false
             },
             {
               "id": "w_s03_03",
               "text": "chipke",
-              "startFrame": 822,
-              "endFrame": 850,
+              "startFrame": 812,
+              "endFrame": 833,
               "accent": false
             },
             {
               "id": "w_s03_04",
               "text": "umeedon",
-              "startFrame": 852,
-              "endFrame": 890,
+              "startFrame": 833,
+              "endFrame": 889,
               "accent": true
             },
             {
               "id": "w_s03_05",
               "text": "ke",
-              "startFrame": 892,
-              "endFrame": 905,
+              "startFrame": 889,
+              "endFrame": 895,
               "accent": false
             },
             {
               "id": "w_s03_06",
               "text": "panne,",
-              "startFrame": 907,
-              "endFrame": 930,
+              "startFrame": 895,
+              "endFrame": 917,
               "accent": true
             }
           ]
@@ -234,43 +234,43 @@
             {
               "id": "w_s03_07",
               "text": "Ghar",
-              "startFrame": 942,
-              "endFrame": 966,
+              "startFrame": 958,
+              "endFrame": 965,
               "accent": true
             },
             {
               "id": "w_s03_08",
               "text": "se",
-              "startFrame": 968,
-              "endFrame": 980,
+              "startFrame": 965,
+              "endFrame": 971,
               "accent": false
             },
             {
               "id": "w_s03_09",
               "text": "bahut",
-              "startFrame": 982,
-              "endFrame": 1004,
+              "startFrame": 971,
+              "endFrame": 991,
               "accent": false
             },
             {
               "id": "w_s03_10",
               "text": "door",
-              "startFrame": 1006,
-              "endFrame": 1030,
+              "startFrame": 991,
+              "endFrame": 1006,
               "accent": true
             },
             {
               "id": "w_s03_11",
               "text": "sapne",
-              "startFrame": 1032,
-              "endFrame": 1056,
+              "startFrame": 1006,
+              "endFrame": 1034,
               "accent": false
             },
             {
               "id": "w_s03_12",
               "text": "sajaaye.",
-              "startFrame": 1058,
-              "endFrame": 1078,
+              "startFrame": 1034,
+              "endFrame": 1090,
               "accent": true
             }
           ]
@@ -281,8 +281,8 @@
       "id": "scene_04_hook",
       "name": "Hook Climax 1 - Neendein & Khwaab",
       "sectionTag": "04 // HOOK CLIMAX  •  KHWAAB",
-      "startFrame": 1080,
-      "endFrame": 1890,
+      "startFrame": 1098,
+      "endFrame": 1567,
       "hierarchy": "TYPOGRAPHY_DOMINANT",
       "symbolKey": "floating_notes",
       "lines": [
@@ -293,229 +293,181 @@
             {
               "id": "w_s04_01",
               "text": "Yeh",
-              "startFrame": 1082,
-              "endFrame": 1110,
+              "startFrame": 1100,
+              "endFrame": 1120,
               "accent": false
             },
             {
               "id": "w_s04_02",
               "text": "kacchi",
-              "startFrame": 1112,
-              "endFrame": 1145,
+              "startFrame": 1120,
+              "endFrame": 1133,
               "accent": false
             },
             {
               "id": "w_s04_03",
               "text": "si",
-              "startFrame": 1147,
-              "endFrame": 1165,
+              "startFrame": 1133,
+              "endFrame": 1139,
               "accent": false
             },
             {
               "id": "w_s04_04",
               "text": "neendein,",
-              "startFrame": 1167,
-              "endFrame": 1205,
-              "accent": false
+              "startFrame": 1139,
+              "endFrame": 1174,
+              "accent": true
             },
             {
               "id": "w_s04_05",
               "text": "yeh",
-              "startFrame": 1207,
-              "endFrame": 1222,
+              "startFrame": 1190,
+              "endFrame": 1196,
               "accent": false
             },
             {
               "id": "w_s04_06",
               "text": "pakke",
-              "startFrame": 1224,
-              "endFrame": 1250,
+              "startFrame": 1196,
+              "endFrame": 1212,
               "accent": false
             },
             {
               "id": "w_s04_07",
               "text": "se",
-              "startFrame": 1252,
-              "endFrame": 1265,
+              "startFrame": 1212,
+              "endFrame": 1220,
               "accent": false
             },
             {
               "id": "w_s04_08",
-              "text": "khwaab,",
-              "startFrame": 1267,
-              "endFrame": 1310,
+              "text": "khwaab.",
+              "startFrame": 1220,
+              "endFrame": 1246,
               "accent": true
             }
           ]
         },
         {
-          "id": "line_04_hisaab",
+          "id": "line_04_jeb",
           "text": "Chhoti si jeb mein bada sa hisaab.",
           "words": [
             {
               "id": "w_s04_09",
               "text": "Chhoti",
-              "startFrame": 1320,
-              "endFrame": 1350,
-              "accent": false
+              "startFrame": 1279,
+              "endFrame": 1292,
+              "accent": true
             },
             {
               "id": "w_s04_10",
               "text": "si",
-              "startFrame": 1352,
-              "endFrame": 1365,
+              "startFrame": 1292,
+              "endFrame": 1303,
               "accent": false
             },
             {
               "id": "w_s04_11",
               "text": "jeb",
-              "startFrame": 1367,
-              "endFrame": 1385,
+              "startFrame": 1303,
+              "endFrame": 1323,
               "accent": false
             },
             {
               "id": "w_s04_12",
               "text": "mein",
-              "startFrame": 1387,
-              "endFrame": 1400,
+              "startFrame": 1323,
+              "endFrame": 1333,
               "accent": false
             },
             {
               "id": "w_s04_13",
               "text": "bada",
-              "startFrame": 1402,
-              "endFrame": 1420,
+              "startFrame": 1333,
+              "endFrame": 1364,
               "accent": true
             },
             {
               "id": "w_s04_14",
               "text": "sa",
-              "startFrame": 1422,
-              "endFrame": 1435,
+              "startFrame": 1364,
+              "endFrame": 1375,
               "accent": false
             },
             {
               "id": "w_s04_15",
               "text": "hisaab.",
-              "startFrame": 1437,
-              "endFrame": 1465,
-              "accent": true
+              "startFrame": 1375,
+              "endFrame": 1394,
+              "accent": false
             }
           ]
         },
         {
           "id": "line_04_darr",
-          "text": "Haan thoda sa darr hai, haan thodi thakan hai,",
+          "text": "Haan thoda sa darr hai, haan thodi thakan hai.",
           "words": [
             {
               "id": "w_s04_16",
               "text": "Haan",
-              "startFrame": 1475,
-              "endFrame": 1495,
+              "startFrame": 1429,
+              "endFrame": 1448,
               "accent": false
             },
             {
               "id": "w_s04_17",
               "text": "thoda",
-              "startFrame": 1497,
-              "endFrame": 1515,
+              "startFrame": 1448,
+              "endFrame": 1454,
               "accent": false
             },
             {
               "id": "w_s04_18",
               "text": "sa",
-              "startFrame": 1517,
-              "endFrame": 1528,
+              "startFrame": 1454,
+              "endFrame": 1466,
               "accent": false
             },
             {
               "id": "w_s04_19",
               "text": "darr",
-              "startFrame": 1530,
-              "endFrame": 1550,
+              "startFrame": 1466,
+              "endFrame": 1475,
               "accent": true
             },
             {
               "id": "w_s04_20",
               "text": "hai,",
-              "startFrame": 1552,
-              "endFrame": 1565,
+              "startFrame": 1475,
+              "endFrame": 1484,
               "accent": false
             },
             {
               "id": "w_s04_21",
               "text": "haan",
-              "startFrame": 1567,
-              "endFrame": 1580,
+              "startFrame": 1500,
+              "endFrame": 1526,
               "accent": false
             },
             {
               "id": "w_s04_22",
               "text": "thodi",
-              "startFrame": 1582,
-              "endFrame": 1600,
+              "startFrame": 1526,
+              "endFrame": 1539,
               "accent": false
             },
             {
               "id": "w_s04_23",
               "text": "thakan",
-              "startFrame": 1602,
-              "endFrame": 1625,
+              "startFrame": 1539,
+              "endFrame": 1555,
               "accent": false
             },
             {
               "id": "w_s04_24",
-              "text": "hai,",
-              "startFrame": 1627,
-              "endFrame": 1640,
-              "accent": false
-            }
-          ]
-        },
-        {
-          "id": "line_04_aasmaan",
-          "text": "Magar hauslon ka naya aasmaan hai!",
-          "words": [
-            {
-              "id": "w_s04_25",
-              "text": "Magar",
-              "startFrame": 1650,
-              "endFrame": 1675,
-              "accent": false
-            },
-            {
-              "id": "w_s04_26",
-              "text": "hauslon",
-              "startFrame": 1677,
-              "endFrame": 1710,
-              "accent": true
-            },
-            {
-              "id": "w_s04_27",
-              "text": "ka",
-              "startFrame": 1712,
-              "endFrame": 1725,
-              "accent": false
-            },
-            {
-              "id": "w_s04_28",
-              "text": "naya",
-              "startFrame": 1727,
-              "endFrame": 1748,
-              "accent": false
-            },
-            {
-              "id": "w_s04_29",
-              "text": "aasmaan",
-              "startFrame": 1750,
-              "endFrame": 1800,
-              "accent": true
-            },
-            {
-              "id": "w_s04_30",
-              "text": "hai!",
-              "startFrame": 1802,
-              "endFrame": 1835,
+              "text": "hai.",
+              "startFrame": 1555,
+              "endFrame": 1567,
               "accent": true
             }
           ]
@@ -523,338 +475,303 @@
       ]
     },
     {
-      "id": "scene_05_syllabus",
-      "name": "Antara 1 - Syllabus & Deadlines",
-      "sectionTag": "05 // ANTARA 1  •  SYLLABUS",
-      "startFrame": 1890,
-      "endFrame": 2760,
-      "hierarchy": "SYMBOLIC_DOMINANT",
+      "id": "scene_05_interlude1",
+      "name": "Instrumental Interlude 1 & Syllabus Mountain",
+      "sectionTag": "05 // INTERLUDE  •  RESONANCE",
+      "startFrame": 1567,
+      "endFrame": 2439,
+      "hierarchy": "ATMOSPHERE_DOMINANT",
       "symbolKey": "syllabus_mountain",
+      "lines": []
+    },
+    {
+      "id": "scene_06_syllabus",
+      "name": "Antara 1 - Syllabus & Deadlines",
+      "sectionTag": "06 // ANTARA 1  •  DEADLINES",
+      "startFrame": 2439,
+      "endFrame": 3000,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "canteen_dosti",
       "lines": [
         {
-          "id": "line_05_savera",
-          "text": "Photocopy ke panno mein dooba savera,",
-          "words": [
-            {
-              "id": "w_s05_01",
-              "text": "Photocopy",
-              "startFrame": 1895,
-              "endFrame": 1945,
-              "accent": true
-            },
-            {
-              "id": "w_s05_02",
-              "text": "ke",
-              "startFrame": 1947,
-              "endFrame": 1965,
-              "accent": false
-            },
-            {
-              "id": "w_s05_03",
-              "text": "panno",
-              "startFrame": 1967,
-              "endFrame": 1995,
-              "accent": false
-            },
-            {
-              "id": "w_s05_04",
-              "text": "mein",
-              "startFrame": 1997,
-              "endFrame": 2012,
-              "accent": false
-            },
-            {
-              "id": "w_s05_05",
-              "text": "dooba",
-              "startFrame": 2014,
-              "endFrame": 2045,
-              "accent": false
-            },
-            {
-              "id": "w_s05_06",
-              "text": "savera,",
-              "startFrame": 2047,
-              "endFrame": 2085,
-              "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_05_pahad",
+          "id": "line_06_syllabus",
           "text": "Syllabus pahad sa, dil mein basera.",
           "words": [
             {
-              "id": "w_s05_07",
-              "text": "Syllabus",
-              "startFrame": 2100,
-              "endFrame": 2145,
-              "accent": true
-            },
-            {
-              "id": "w_s05_08",
-              "text": "pahad",
-              "startFrame": 2147,
-              "endFrame": 2180,
-              "accent": true
-            },
-            {
-              "id": "w_s05_09",
-              "text": "sa,",
-              "startFrame": 2182,
-              "endFrame": 2200,
-              "accent": false
-            },
-            {
-              "id": "w_s05_10",
-              "text": "dil",
-              "startFrame": 2202,
-              "endFrame": 2225,
-              "accent": false
-            },
-            {
-              "id": "w_s05_11",
-              "text": "mein",
-              "startFrame": 2227,
-              "endFrame": 2240,
-              "accent": false
-            },
-            {
-              "id": "w_s05_12",
-              "text": "basera.",
-              "startFrame": 2242,
-              "endFrame": 2280,
-              "accent": false
-            }
-          ]
-        },
-        {
-          "id": "line_05_bench",
-          "text": "Subah ki attendance, woh aakhri bench,",
-          "words": [
-            {
-              "id": "w_s05_13",
-              "text": "Subah",
-              "startFrame": 2300,
-              "endFrame": 2330,
-              "accent": false
-            },
-            {
-              "id": "w_s05_14",
-              "text": "ki",
-              "startFrame": 2332,
-              "endFrame": 2345,
-              "accent": false
-            },
-            {
-              "id": "w_s05_15",
-              "text": "attendance,",
-              "startFrame": 2347,
-              "endFrame": 2390,
-              "accent": true
-            },
-            {
-              "id": "w_s05_16",
-              "text": "woh",
-              "startFrame": 2392,
-              "endFrame": 2410,
-              "accent": false
-            },
-            {
-              "id": "w_s05_17",
-              "text": "aakhri",
-              "startFrame": 2412,
-              "endFrame": 2445,
-              "accent": false
-            },
-            {
-              "id": "w_s05_18",
-              "text": "bench,",
-              "startFrame": 2447,
-              "endFrame": 2480,
-              "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_05_deadline",
-          "text": "Assignment ki deadline ka aakhri inch.",
-          "words": [
-            {
-              "id": "w_s05_19",
-              "text": "Assignment",
-              "startFrame": 2500,
-              "endFrame": 2555,
-              "accent": true
-            },
-            {
-              "id": "w_s05_20",
-              "text": "ki",
-              "startFrame": 2557,
-              "endFrame": 2570,
-              "accent": false
-            },
-            {
-              "id": "w_s05_21",
-              "text": "deadline",
-              "startFrame": 2572,
-              "endFrame": 2620,
-              "accent": true
-            },
-            {
-              "id": "w_s05_22",
-              "text": "ka",
-              "startFrame": 2622,
-              "endFrame": 2635,
-              "accent": false
-            },
-            {
-              "id": "w_s05_23",
-              "text": "aakhri",
-              "startFrame": 2637,
-              "endFrame": 2670,
-              "accent": false
-            },
-            {
-              "id": "w_s05_24",
-              "text": "inch.",
-              "startFrame": 2672,
-              "endFrame": 2720,
-              "accent": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "scene_06_canteen",
-      "name": "Antara 1 - Canteen & Dosti",
-      "sectionTag": "06 // ANTARA 1  •  CANTEEN",
-      "startFrame": 2760,
-      "endFrame": 3150,
-      "hierarchy": "SYMBOLIC_DOMINANT",
-      "symbolKey": "canteen_resonance",
-      "lines": [
-        {
-          "id": "line_06_hansi",
-          "text": "Magar canteen ki hansi mein har gam ghula hai,",
-          "words": [
-            {
               "id": "w_s06_01",
-              "text": "Magar",
-              "startFrame": 2765,
-              "endFrame": 2795,
-              "accent": false
+              "text": "Syllabus",
+              "startFrame": 2439,
+              "endFrame": 2462,
+              "accent": true
             },
             {
               "id": "w_s06_02",
-              "text": "canteen",
-              "startFrame": 2797,
-              "endFrame": 2835,
+              "text": "pahad",
+              "startFrame": 2462,
+              "endFrame": 2477,
               "accent": true
             },
             {
               "id": "w_s06_03",
-              "text": "ki",
-              "startFrame": 2837,
-              "endFrame": 2850,
+              "text": "sa,",
+              "startFrame": 2477,
+              "endFrame": 2483,
               "accent": false
             },
             {
               "id": "w_s06_04",
-              "text": "hansi",
-              "startFrame": 2852,
-              "endFrame": 2885,
-              "accent": true
+              "text": "dil",
+              "startFrame": 2491,
+              "endFrame": 2495,
+              "accent": false
             },
             {
               "id": "w_s06_05",
               "text": "mein",
-              "startFrame": 2887,
-              "endFrame": 2902,
+              "startFrame": 2495,
+              "endFrame": 2502,
               "accent": false
             },
             {
               "id": "w_s06_06",
-              "text": "har",
-              "startFrame": 2904,
-              "endFrame": 2920,
-              "accent": false
-            },
-            {
-              "id": "w_s06_07",
-              "text": "gam",
-              "startFrame": 2922,
-              "endFrame": 2945,
-              "accent": false
-            },
-            {
-              "id": "w_s06_08",
-              "text": "ghula",
-              "startFrame": 2947,
-              "endFrame": 2975,
-              "accent": false
-            },
-            {
-              "id": "w_s06_09",
-              "text": "hai,",
-              "startFrame": 2977,
-              "endFrame": 3000,
+              "text": "basera.",
+              "startFrame": 2502,
+              "endFrame": 2521,
               "accent": false
             }
           ]
         },
         {
-          "id": "line_06_kandha",
-          "text": "Ek doosre ke kandhe pe darr sab bhula hai.",
+          "id": "line_06_attendance",
+          "text": "Subah ki attendance, woh aakhri bench,",
           "words": [
             {
+              "id": "w_s06_07",
+              "text": "Subah",
+              "startFrame": 2528,
+              "endFrame": 2538,
+              "accent": false
+            },
+            {
+              "id": "w_s06_08",
+              "text": "ki",
+              "startFrame": 2538,
+              "endFrame": 2546,
+              "accent": false
+            },
+            {
+              "id": "w_s06_09",
+              "text": "attendance,",
+              "startFrame": 2546,
+              "endFrame": 2564,
+              "accent": true
+            },
+            {
               "id": "w_s06_10",
-              "text": "Ek",
-              "startFrame": 3010,
-              "endFrame": 3030,
+              "text": "woh",
+              "startFrame": 2572,
+              "endFrame": 2573,
               "accent": false
             },
             {
               "id": "w_s06_11",
-              "text": "doosre",
-              "startFrame": 3032,
-              "endFrame": 3065,
+              "text": "aakhri",
+              "startFrame": 2573,
+              "endFrame": 2591,
               "accent": false
             },
             {
               "id": "w_s06_12",
-              "text": "ke",
-              "startFrame": 3067,
-              "endFrame": 3080,
-              "accent": false
-            },
+              "text": "bench,",
+              "startFrame": 2591,
+              "endFrame": 2602,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_06_deadline",
+          "text": "Assignment ki deadline ka aakhri inch.",
+          "words": [
             {
               "id": "w_s06_13",
-              "text": "kandhe",
-              "startFrame": 3082,
-              "endFrame": 3110,
+              "text": "Assignment",
+              "startFrame": 2611,
+              "endFrame": 2623,
               "accent": true
             },
             {
               "id": "w_s06_14",
-              "text": "pe",
-              "startFrame": 3112,
-              "endFrame": 3122,
+              "text": "ki",
+              "startFrame": 2623,
+              "endFrame": 2633,
               "accent": false
             },
             {
               "id": "w_s06_15",
-              "text": "darr",
-              "startFrame": 3124,
-              "endFrame": 3138,
-              "accent": false
+              "text": "deadline",
+              "startFrame": 2633,
+              "endFrame": 2642,
+              "accent": true
             },
             {
               "id": "w_s06_16",
-              "text": "bhula",
-              "startFrame": 3140,
-              "endFrame": 3148,
+              "text": "ka",
+              "startFrame": 2642,
+              "endFrame": 2654,
+              "accent": false
+            },
+            {
+              "id": "w_s06_17",
+              "text": "aakhri",
+              "startFrame": 2654,
+              "endFrame": 2674,
+              "accent": false
+            },
+            {
+              "id": "w_s06_18",
+              "text": "inch.",
+              "startFrame": 2674,
+              "endFrame": 2683,
               "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_06_canteen",
+          "text": "Magar canteen ki hansi mein har gam ghula hai,",
+          "words": [
+            {
+              "id": "w_s06_19",
+              "text": "Magar",
+              "startFrame": 2686,
+              "endFrame": 2695,
+              "accent": false
+            },
+            {
+              "id": "w_s06_20",
+              "text": "canteen",
+              "startFrame": 2695,
+              "endFrame": 2722,
+              "accent": true
+            },
+            {
+              "id": "w_s06_21",
+              "text": "ki",
+              "startFrame": 2722,
+              "endFrame": 2727,
+              "accent": false
+            },
+            {
+              "id": "w_s06_22",
+              "text": "hansi",
+              "startFrame": 2727,
+              "endFrame": 2744,
+              "accent": true
+            },
+            {
+              "id": "w_s06_23",
+              "text": "mein",
+              "startFrame": 2744,
+              "endFrame": 2752,
+              "accent": false
+            },
+            {
+              "id": "w_s06_24",
+              "text": "har",
+              "startFrame": 2752,
+              "endFrame": 2774,
+              "accent": false
+            },
+            {
+              "id": "w_s06_25",
+              "text": "gam",
+              "startFrame": 2774,
+              "endFrame": 2794,
+              "accent": false
+            },
+            {
+              "id": "w_s06_26",
+              "text": "ghula",
+              "startFrame": 2794,
+              "endFrame": 2824,
+              "accent": false
+            },
+            {
+              "id": "w_s06_27",
+              "text": "hai,",
+              "startFrame": 2824,
+              "endFrame": 2835,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_06_bhula",
+          "text": "Ek doosre ke kandhe pe darr sab bhula hai.",
+          "words": [
+            {
+              "id": "w_s06_28",
+              "text": "Ek",
+              "startFrame": 2850,
+              "endFrame": 2857,
+              "accent": false
+            },
+            {
+              "id": "w_s06_29",
+              "text": "doosre",
+              "startFrame": 2857,
+              "endFrame": 2879,
+              "accent": false
+            },
+            {
+              "id": "w_s06_30",
+              "text": "ke",
+              "startFrame": 2879,
+              "endFrame": 2898,
+              "accent": false
+            },
+            {
+              "id": "w_s06_31",
+              "text": "kandhe",
+              "startFrame": 2898,
+              "endFrame": 2917,
+              "accent": true
+            },
+            {
+              "id": "w_s06_32",
+              "text": "pe",
+              "startFrame": 2917,
+              "endFrame": 2927,
+              "accent": false
+            },
+            {
+              "id": "w_s06_33",
+              "text": "darr",
+              "startFrame": 2927,
+              "endFrame": 2949,
+              "accent": false
+            },
+            {
+              "id": "w_s06_34",
+              "text": "sab",
+              "startFrame": 2949,
+              "endFrame": 2974,
+              "accent": false
+            },
+            {
+              "id": "w_s06_35",
+              "text": "bhula",
+              "startFrame": 2974,
+              "endFrame": 2986,
+              "accent": true
+            },
+            {
+              "id": "w_s06_36",
+              "text": "hai.",
+              "startFrame": 2986,
+              "endFrame": 2997,
+              "accent": false
             }
           ]
         }
@@ -862,174 +779,277 @@
     },
     {
       "id": "scene_07_reprise",
-      "name": "Mukhda Reprise - Kinetic Drive",
-      "sectionTag": "07 // CHORUS REPRISE  •  HAUSLE",
-      "startFrame": 3150,
-      "endFrame": 3780,
+      "name": "Mukhda Reprise & Chhoti Jeb",
+      "sectionTag": "07 // CHORUS REPRISE  •  ANTHEM",
+      "startFrame": 3000,
+      "endFrame": 3800,
       "hierarchy": "TYPOGRAPHY_DOMINANT",
-      "symbolKey": "kinetic_burst",
+      "symbolKey": "floating_notes",
       "lines": [
         {
-          "id": "line_07_rep1",
+          "id": "line_07_khwaab",
           "text": "Yeh kacchi si neendein, yeh pakke se khwaab,",
           "words": [
             {
               "id": "w_s07_01",
-              "text": "YEH",
-              "startFrame": 3155,
-              "endFrame": 3180,
+              "text": "Yeh",
+              "startFrame": 3023,
+              "endFrame": 3046,
               "accent": false
             },
             {
               "id": "w_s07_02",
-              "text": "KACCHI",
-              "startFrame": 3182,
-              "endFrame": 3215,
+              "text": "pakke",
+              "startFrame": 3046,
+              "endFrame": 3095,
               "accent": false
             },
             {
               "id": "w_s07_03",
-              "text": "SI",
-              "startFrame": 3217,
-              "endFrame": 3230,
+              "text": "se",
+              "startFrame": 3095,
+              "endFrame": 3103,
               "accent": false
             },
             {
               "id": "w_s07_04",
-              "text": "NEENDEIN,",
-              "startFrame": 3232,
-              "endFrame": 3270,
-              "accent": false
-            },
+              "text": "khwaab.",
+              "startFrame": 3103,
+              "endFrame": 3161,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_jeb",
+          "text": "Chhoti si jeb mein bada sa hisaab.",
+          "words": [
             {
               "id": "w_s07_05",
-              "text": "YEH",
-              "startFrame": 3272,
-              "endFrame": 3288,
-              "accent": false
+              "text": "Chhoti",
+              "startFrame": 3161,
+              "endFrame": 3175,
+              "accent": true
             },
             {
               "id": "w_s07_06",
-              "text": "PAKKE",
-              "startFrame": 3290,
-              "endFrame": 3320,
+              "text": "si",
+              "startFrame": 3175,
+              "endFrame": 3186,
               "accent": false
             },
             {
               "id": "w_s07_07",
-              "text": "SE",
-              "startFrame": 3322,
-              "endFrame": 3335,
+              "text": "jeb",
+              "startFrame": 3186,
+              "endFrame": 3206,
               "accent": false
             },
             {
               "id": "w_s07_08",
-              "text": "KHWAAB,",
-              "startFrame": 3337,
-              "endFrame": 3380,
-              "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_07_rep2",
-          "text": "Chhoti si jeb mein bada sa hisaab.",
-          "words": [
-            {
-              "id": "w_s07_09",
-              "text": "Chhoti",
-              "startFrame": 3390,
-              "endFrame": 3420,
+              "text": "mein",
+              "startFrame": 3206,
+              "endFrame": 3217,
               "accent": false
             },
             {
+              "id": "w_s07_09",
+              "text": "bada",
+              "startFrame": 3217,
+              "endFrame": 3248,
+              "accent": true
+            },
+            {
               "id": "w_s07_10",
-              "text": "si",
-              "startFrame": 3422,
-              "endFrame": 3435,
+              "text": "sa",
+              "startFrame": 3248,
+              "endFrame": 3259,
               "accent": false
             },
             {
               "id": "w_s07_11",
-              "text": "jeb",
-              "startFrame": 3437,
-              "endFrame": 3455,
+              "text": "hisaab.",
+              "startFrame": 3259,
+              "endFrame": 3278,
               "accent": false
-            },
+            }
+          ]
+        },
+        {
+          "id": "line_07_darr",
+          "text": "Haan thoda sa darr hai, haan thodi thakan hai,",
+          "words": [
             {
               "id": "w_s07_12",
-              "text": "mein",
-              "startFrame": 3457,
-              "endFrame": 3470,
+              "text": "Haan",
+              "startFrame": 3305,
+              "endFrame": 3333,
               "accent": false
             },
             {
               "id": "w_s07_13",
-              "text": "bada",
-              "startFrame": 3472,
-              "endFrame": 3495,
-              "accent": true
+              "text": "thoda",
+              "startFrame": 3333,
+              "endFrame": 3339,
+              "accent": false
             },
             {
               "id": "w_s07_14",
               "text": "sa",
-              "startFrame": 3497,
-              "endFrame": 3510,
+              "startFrame": 3339,
+              "endFrame": 3350,
               "accent": false
             },
             {
               "id": "w_s07_15",
-              "text": "hisaab.",
-              "startFrame": 3512,
-              "endFrame": 3550,
+              "text": "darr",
+              "startFrame": 3350,
+              "endFrame": 3359,
               "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_07_rep3",
-          "text": "Magar hauslon ka naya aasmaan hai!",
-          "words": [
+            },
             {
               "id": "w_s07_16",
-              "text": "Magar",
-              "startFrame": 3560,
-              "endFrame": 3590,
+              "text": "hai,",
+              "startFrame": 3359,
+              "endFrame": 3368,
               "accent": false
             },
             {
               "id": "w_s07_17",
-              "text": "hauslon",
-              "startFrame": 3592,
-              "endFrame": 3635,
-              "accent": true
+              "text": "haan",
+              "startFrame": 3400,
+              "endFrame": 3414,
+              "accent": false
             },
             {
               "id": "w_s07_18",
-              "text": "ka",
-              "startFrame": 3637,
-              "endFrame": 3650,
+              "text": "thodi",
+              "startFrame": 3414,
+              "endFrame": 3423,
               "accent": false
             },
             {
               "id": "w_s07_19",
-              "text": "naya",
-              "startFrame": 3652,
-              "endFrame": 3680,
+              "text": "thakan",
+              "startFrame": 3423,
+              "endFrame": 3439,
               "accent": false
             },
             {
               "id": "w_s07_20",
-              "text": "aasmaan",
-              "startFrame": 3682,
-              "endFrame": 3735,
+              "text": "hai,",
+              "startFrame": 3439,
+              "endFrame": 3461,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_aasmaan",
+          "text": "Magar hauslon ka naya aasmaan hai.",
+          "words": [
+            {
+              "id": "w_s07_21",
+              "text": "Magar",
+              "startFrame": 3477,
+              "endFrame": 3511,
+              "accent": false
+            },
+            {
+              "id": "w_s07_22",
+              "text": "hauslon",
+              "startFrame": 3511,
+              "endFrame": 3538,
               "accent": true
             },
             {
-              "id": "w_s07_21",
-              "text": "hai!",
-              "startFrame": 3737,
-              "endFrame": 3770,
+              "id": "w_s07_23",
+              "text": "ka",
+              "startFrame": 3538,
+              "endFrame": 3547,
+              "accent": false
+            },
+            {
+              "id": "w_s07_24",
+              "text": "naya",
+              "startFrame": 3547,
+              "endFrame": 3560,
+              "accent": false
+            },
+            {
+              "id": "w_s07_25",
+              "text": "aasmaan",
+              "startFrame": 3560,
+              "endFrame": 3620,
+              "accent": true
+            },
+            {
+              "id": "w_s07_26",
+              "text": "hai.",
+              "startFrame": 3620,
+              "endFrame": 3633,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_final",
+          "text": "Yeh kacchi si neendein, yeh pakke se khwaab.",
+          "words": [
+            {
+              "id": "w_s07_27",
+              "text": "Yeh",
+              "startFrame": 3652,
+              "endFrame": 3662,
+              "accent": false
+            },
+            {
+              "id": "w_s07_28",
+              "text": "kacchi",
+              "startFrame": 3662,
+              "endFrame": 3673,
+              "accent": false
+            },
+            {
+              "id": "w_s07_29",
+              "text": "si",
+              "startFrame": 3673,
+              "endFrame": 3679,
+              "accent": false
+            },
+            {
+              "id": "w_s07_30",
+              "text": "neendein,",
+              "startFrame": 3679,
+              "endFrame": 3724,
+              "accent": true
+            },
+            {
+              "id": "w_s07_31",
+              "text": "yeh",
+              "startFrame": 3733,
+              "endFrame": 3739,
+              "accent": false
+            },
+            {
+              "id": "w_s07_32",
+              "text": "pakke",
+              "startFrame": 3739,
+              "endFrame": 3753,
+              "accent": false
+            },
+            {
+              "id": "w_s07_33",
+              "text": "se",
+              "startFrame": 3753,
+              "endFrame": 3761,
+              "accent": false
+            },
+            {
+              "id": "w_s07_34",
+              "text": "khwaab.",
+              "startFrame": 3761,
+              "endFrame": 3800,
               "accent": true
             }
           ]
@@ -1037,665 +1057,805 @@
       ]
     },
     {
-      "id": "scene_08_maa",
-      "name": "Interlude & Antara 2 - Maa's Call",
-      "sectionTag": "08 // ANTARA 2  •  MAA KI CALL",
-      "startFrame": 3780,
-      "endFrame": 5460,
+      "id": "scene_08_interlude2",
+      "name": "Instrumental Interlude 2 & Telephone Dawn",
+      "sectionTag": "08 // INTERLUDE  •  04:00 AM CALL",
+      "startFrame": 3800,
+      "endFrame": 4471,
+      "hierarchy": "ATMOSPHERE_DOMINANT",
+      "symbolKey": "telephone_dawn",
+      "lines": []
+    },
+    {
+      "id": "scene_09_maacall",
+      "name": "Antara 2 - Maa Call & Bojh",
+      "sectionTag": "09 // ANTARA 2  •  HOME",
+      "startFrame": 4471,
+      "endFrame": 5457,
       "hierarchy": "SYMBOLIC_DOMINANT",
       "symbolKey": "telephone_dawn",
       "lines": [
         {
-          "id": "line_08_call",
+          "id": "line_09_call",
           "text": "Maa ki call aati hai: \"Khaana toh khaaya?\"",
           "words": [
             {
-              "id": "w_s08_01",
-              "text": "Maa",
-              "startFrame": 4380,
-              "endFrame": 4410,
-              "accent": true
-            },
-            {
-              "id": "w_s08_02",
-              "text": "ki",
-              "startFrame": 4412,
-              "endFrame": 4425,
-              "accent": false
-            },
-            {
-              "id": "w_s08_03",
-              "text": "call",
-              "startFrame": 4427,
-              "endFrame": 4455,
-              "accent": true
-            },
-            {
-              "id": "w_s08_04",
-              "text": "aati",
-              "startFrame": 4457,
-              "endFrame": 4485,
-              "accent": false
-            },
-            {
-              "id": "w_s08_05",
-              "text": "hai:",
-              "startFrame": 4487,
-              "endFrame": 4510,
-              "accent": false
-            },
-            {
-              "id": "w_s08_06",
-              "text": "\"Khaana",
-              "startFrame": 4520,
-              "endFrame": 4560,
-              "accent": true
-            },
-            {
-              "id": "w_s08_07",
-              "text": "toh",
-              "startFrame": 4562,
-              "endFrame": 4580,
-              "accent": false
-            },
-            {
-              "id": "w_s08_08",
-              "text": "khaaya?\"",
-              "startFrame": 4582,
-              "endFrame": 4640,
-              "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_08_jhooth",
-          "text": "\"Haan bilkul theek hoon,\" jhooth keh ke chupaya.",
-          "words": [
-            {
-              "id": "w_s08_09",
-              "text": "\"Haan",
-              "startFrame": 4655,
-              "endFrame": 4680,
-              "accent": false
-            },
-            {
-              "id": "w_s08_10",
-              "text": "bilkul",
-              "startFrame": 4682,
-              "endFrame": 4710,
-              "accent": false
-            },
-            {
-              "id": "w_s08_11",
-              "text": "theek",
-              "startFrame": 4712,
-              "endFrame": 4735,
-              "accent": false
-            },
-            {
-              "id": "w_s08_12",
-              "text": "hoon,\"",
-              "startFrame": 4737,
-              "endFrame": 4760,
-              "accent": false
-            },
-            {
-              "id": "w_s08_13",
-              "text": "jhooth",
-              "startFrame": 4765,
-              "endFrame": 4795,
-              "accent": true
-            },
-            {
-              "id": "w_s08_14",
-              "text": "keh",
-              "startFrame": 4797,
-              "endFrame": 4810,
-              "accent": false
-            },
-            {
-              "id": "w_s08_15",
-              "text": "ke",
-              "startFrame": 4812,
-              "endFrame": 4822,
-              "accent": false
-            },
-            {
-              "id": "w_s08_16",
-              "text": "chupaya.",
-              "startFrame": 4824,
-              "endFrame": 4860,
-              "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_08_aansu",
-          "text": "Kambal mein chup kar jo aansu bahaye,",
-          "words": [
-            {
-              "id": "w_s08_17",
-              "text": "Kambal",
-              "startFrame": 4875,
-              "endFrame": 4910,
-              "accent": false
-            },
-            {
-              "id": "w_s08_18",
-              "text": "mein",
-              "startFrame": 4912,
-              "endFrame": 4925,
-              "accent": false
-            },
-            {
-              "id": "w_s08_19",
-              "text": "chup",
-              "startFrame": 4927,
-              "endFrame": 4945,
-              "accent": false
-            },
-            {
-              "id": "w_s08_20",
-              "text": "kar",
-              "startFrame": 4947,
-              "endFrame": 4960,
-              "accent": false
-            },
-            {
-              "id": "w_s08_21",
-              "text": "jo",
-              "startFrame": 4962,
-              "endFrame": 4975,
-              "accent": false
-            },
-            {
-              "id": "w_s08_22",
-              "text": "aansu",
-              "startFrame": 4977,
-              "endFrame": 5015,
-              "accent": true
-            },
-            {
-              "id": "w_s08_23",
-              "text": "bahaye,",
-              "startFrame": 5017,
-              "endFrame": 5055,
-              "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_08_muskaan",
-          "text": "Subah phir muskaan ban kar woh chhaaye.",
-          "words": [
-            {
-              "id": "w_s08_24",
-              "text": "Subah",
-              "startFrame": 5065,
-              "endFrame": 5095,
-              "accent": false
-            },
-            {
-              "id": "w_s08_25",
-              "text": "phir",
-              "startFrame": 5097,
-              "endFrame": 5115,
-              "accent": false
-            },
-            {
-              "id": "w_s08_26",
-              "text": "muskaan",
-              "startFrame": 5117,
-              "endFrame": 5160,
-              "accent": true
-            },
-            {
-              "id": "w_s08_27",
-              "text": "ban",
-              "startFrame": 5162,
-              "endFrame": 5180,
-              "accent": false
-            },
-            {
-              "id": "w_s08_28",
-              "text": "kar",
-              "startFrame": 5182,
-              "endFrame": 5195,
-              "accent": false
-            },
-            {
-              "id": "w_s08_29",
-              "text": "woh",
-              "startFrame": 5197,
-              "endFrame": 5210,
-              "accent": false
-            },
-            {
-              "id": "w_s08_30",
-              "text": "chhaaye.",
-              "startFrame": 5212,
-              "endFrame": 5250,
-              "accent": true
-            }
-          ]
-        },
-        {
-          "id": "line_08_bojh",
-          "text": "Apne hi kandhon pe kal ka yeh bojh hai, Khud ko talaashne ki ek nayi khoj hai.",
-          "words": [
-            {
-              "id": "w_s08_31",
-              "text": "Apne",
-              "startFrame": 5260,
-              "endFrame": 5285,
-              "accent": false
-            },
-            {
-              "id": "w_s08_32",
-              "text": "hi",
-              "startFrame": 5287,
-              "endFrame": 5300,
-              "accent": false
-            },
-            {
-              "id": "w_s08_33",
-              "text": "kandhon",
-              "startFrame": 5302,
-              "endFrame": 5335,
-              "accent": true
-            },
-            {
-              "id": "w_s08_34",
-              "text": "pe",
-              "startFrame": 5337,
-              "endFrame": 5348,
-              "accent": false
-            },
-            {
-              "id": "w_s08_35",
-              "text": "kal",
-              "startFrame": 5350,
-              "endFrame": 5370,
-              "accent": false
-            },
-            {
-              "id": "w_s08_36",
-              "text": "ka",
-              "startFrame": 5372,
-              "endFrame": 5385,
-              "accent": false
-            },
-            {
-              "id": "w_s08_37",
-              "text": "bojh",
-              "startFrame": 5387,
-              "endFrame": 5415,
-              "accent": true
-            },
-            {
-              "id": "w_s08_38",
-              "text": "hai...",
-              "startFrame": 5417,
-              "endFrame": 5445,
-              "accent": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "scene_09_bridge",
-      "name": "Bridge - Degree & Diverging Roads",
-      "sectionTag": "09 // BRIDGE  •  RASTE",
-      "startFrame": 5460,
-      "endFrame": 5970,
-      "hierarchy": "TYPOGRAPHY_DOMINANT",
-      "symbolKey": "diverging_tracks",
-      "lines": [
-        {
-          "id": "line_09_chhutenge",
-          "text": "Ek din yeh kamre bhi peeche chhutenge,",
-          "words": [
-            {
               "id": "w_s09_01",
-              "text": "Ek",
-              "startFrame": 5465,
-              "endFrame": 5485,
-              "accent": false
+              "text": "Maa",
+              "startFrame": 4471,
+              "endFrame": 4502,
+              "accent": true
             },
             {
               "id": "w_s09_02",
-              "text": "din",
-              "startFrame": 5487,
-              "endFrame": 5510,
+              "text": "ki",
+              "startFrame": 4502,
+              "endFrame": 4505,
               "accent": false
             },
             {
               "id": "w_s09_03",
-              "text": "yeh",
-              "startFrame": 5512,
-              "endFrame": 5525,
-              "accent": false
-            },
-            {
-              "id": "w_s09_04",
-              "text": "kamre",
-              "startFrame": 5527,
-              "endFrame": 5560,
+              "text": "call",
+              "startFrame": 4505,
+              "endFrame": 4516,
               "accent": true
             },
             {
+              "id": "w_s09_04",
+              "text": "aati",
+              "startFrame": 4516,
+              "endFrame": 4537,
+              "accent": false
+            },
+            {
               "id": "w_s09_05",
-              "text": "bhi",
-              "startFrame": 5562,
-              "endFrame": 5575,
+              "text": "hai,",
+              "startFrame": 4537,
+              "endFrame": 4546,
               "accent": false
             },
             {
               "id": "w_s09_06",
-              "text": "peeche",
-              "startFrame": 5577,
-              "endFrame": 5610,
-              "accent": false
+              "text": "Khana",
+              "startFrame": 4562,
+              "endFrame": 4600,
+              "accent": true
             },
             {
               "id": "w_s09_07",
-              "text": "chhutenge,",
-              "startFrame": 5612,
-              "endFrame": 5650,
+              "text": "toh",
+              "startFrame": 4600,
+              "endFrame": 4615,
+              "accent": false
+            },
+            {
+              "id": "w_s09_08",
+              "text": "khaaya?",
+              "startFrame": 4615,
+              "endFrame": 4634,
               "accent": true
             }
           ]
         },
         {
-          "id": "line_09_degree",
-          "text": "Degree milegi, yeh raste battenge.",
+          "id": "line_09_theek",
+          "text": "\"Haan bilkul theek hoon,\" jhooth keh ke chupaya.",
           "words": [
             {
-              "id": "w_s09_08",
-              "text": "Degree",
-              "startFrame": 5660,
-              "endFrame": 5700,
-              "accent": true
-            },
-            {
               "id": "w_s09_09",
-              "text": "milegi,",
-              "startFrame": 5702,
-              "endFrame": 5735,
+              "text": "Haan",
+              "startFrame": 4662,
+              "endFrame": 4672,
               "accent": false
             },
             {
               "id": "w_s09_10",
-              "text": "yeh",
-              "startFrame": 5737,
-              "endFrame": 5750,
+              "text": "bilkul",
+              "startFrame": 4672,
+              "endFrame": 4689,
               "accent": false
             },
             {
               "id": "w_s09_11",
-              "text": "raste",
-              "startFrame": 5752,
-              "endFrame": 5785,
+              "text": "theek",
+              "startFrame": 4689,
+              "endFrame": 4712,
               "accent": true
             },
             {
               "id": "w_s09_12",
-              "text": "battenge.",
-              "startFrame": 5787,
-              "endFrame": 5825,
+              "text": "hoon,",
+              "startFrame": 4712,
+              "endFrame": 4733,
+              "accent": false
+            },
+            {
+              "id": "w_s09_13",
+              "text": "jhooth",
+              "startFrame": 4738,
+              "endFrame": 4752,
+              "accent": true
+            },
+            {
+              "id": "w_s09_14",
+              "text": "keh",
+              "startFrame": 4752,
+              "endFrame": 4760,
+              "accent": false
+            },
+            {
+              "id": "w_s09_15",
+              "text": "ke",
+              "startFrame": 4760,
+              "endFrame": 4769,
+              "accent": false
+            },
+            {
+              "id": "w_s09_16",
+              "text": "chupaya.",
+              "startFrame": 4769,
+              "endFrame": 4791,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_kambal",
+          "text": "Kambal mein chup kar jo aansu bahaye,",
+          "words": [
+            {
+              "id": "w_s09_17",
+              "text": "Kambal",
+              "startFrame": 4826,
+              "endFrame": 4847,
+              "accent": true
+            },
+            {
+              "id": "w_s09_18",
+              "text": "mein",
+              "startFrame": 4847,
+              "endFrame": 4855,
+              "accent": false
+            },
+            {
+              "id": "w_s09_19",
+              "text": "chup",
+              "startFrame": 4855,
+              "endFrame": 4866,
+              "accent": false
+            },
+            {
+              "id": "w_s09_20",
+              "text": "kar",
+              "startFrame": 4866,
+              "endFrame": 4878,
+              "accent": false
+            },
+            {
+              "id": "w_s09_21",
+              "text": "jo",
+              "startFrame": 4878,
+              "endFrame": 4916,
+              "accent": false
+            },
+            {
+              "id": "w_s09_22",
+              "text": "aansu",
+              "startFrame": 4916,
+              "endFrame": 4936,
+              "accent": true
+            },
+            {
+              "id": "w_s09_23",
+              "text": "bahaye,",
+              "startFrame": 4936,
+              "endFrame": 4957,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_muskaan",
+          "text": "Subah phir muskaan ban kar woh chhaaye.",
+          "words": [
+            {
+              "id": "w_s09_24",
+              "text": "Subah",
+              "startFrame": 4990,
+              "endFrame": 5006,
+              "accent": false
+            },
+            {
+              "id": "w_s09_25",
+              "text": "phir",
+              "startFrame": 5006,
+              "endFrame": 5021,
+              "accent": false
+            },
+            {
+              "id": "w_s09_26",
+              "text": "muskaan",
+              "startFrame": 5021,
+              "endFrame": 5068,
+              "accent": true
+            },
+            {
+              "id": "w_s09_27",
+              "text": "ban",
+              "startFrame": 5068,
+              "endFrame": 5083,
+              "accent": false
+            },
+            {
+              "id": "w_s09_28",
+              "text": "kar",
+              "startFrame": 5083,
+              "endFrame": 5093,
+              "accent": false
+            },
+            {
+              "id": "w_s09_29",
+              "text": "woh",
+              "startFrame": 5093,
+              "endFrame": 5102,
+              "accent": false
+            },
+            {
+              "id": "w_s09_30",
+              "text": "chhaaye.",
+              "startFrame": 5102,
+              "endFrame": 5132,
               "accent": true
             }
           ]
         },
         {
-          "id": "line_09_dhoondhenge",
-          "text": "Inhi be-parwah lamhon ko dhoondhenge... Haan inhi lamhon ko dhoondhenge!",
+          "id": "line_09_bojh",
+          "text": "Apne hi kandhon pe kal ka yeh bojh hai,",
           "words": [
             {
-              "id": "w_s09_13",
-              "text": "Inhi",
-              "startFrame": 5835,
-              "endFrame": 5860,
+              "id": "w_s09_31",
+              "text": "Apne",
+              "startFrame": 5156,
+              "endFrame": 5161,
               "accent": false
             },
             {
-              "id": "w_s09_14",
-              "text": "be-parwah",
-              "startFrame": 5862,
-              "endFrame": 5900,
+              "id": "w_s09_32",
+              "text": "hi",
+              "startFrame": 5161,
+              "endFrame": 5173,
+              "accent": false
+            },
+            {
+              "id": "w_s09_33",
+              "text": "kandhon",
+              "startFrame": 5173,
+              "endFrame": 5186,
               "accent": true
             },
             {
-              "id": "w_s09_15",
-              "text": "lamhon",
-              "startFrame": 5902,
-              "endFrame": 5930,
+              "id": "w_s09_34",
+              "text": "pe",
+              "startFrame": 5186,
+              "endFrame": 5196,
               "accent": false
             },
             {
-              "id": "w_s09_16",
+              "id": "w_s09_35",
+              "text": "kal",
+              "startFrame": 5196,
+              "endFrame": 5233,
+              "accent": false
+            },
+            {
+              "id": "w_s09_36",
+              "text": "ka",
+              "startFrame": 5233,
+              "endFrame": 5242,
+              "accent": false
+            },
+            {
+              "id": "w_s09_37",
+              "text": "yeh",
+              "startFrame": 5242,
+              "endFrame": 5251,
+              "accent": false
+            },
+            {
+              "id": "w_s09_38",
+              "text": "bojh",
+              "startFrame": 5251,
+              "endFrame": 5270,
+              "accent": true
+            },
+            {
+              "id": "w_s09_39",
+              "text": "hai.",
+              "startFrame": 5270,
+              "endFrame": 5275,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_khoj",
+          "text": "Khud ko talaashne ki ek nayi khoj hai.",
+          "words": [
+            {
+              "id": "w_s09_40",
+              "text": "Khud",
+              "startFrame": 5275,
+              "endFrame": 5317,
+              "accent": false
+            },
+            {
+              "id": "w_s09_41",
               "text": "ko",
-              "startFrame": 5932,
-              "endFrame": 5942,
+              "startFrame": 5317,
+              "endFrame": 5326,
               "accent": false
             },
             {
-              "id": "w_s09_17",
-              "text": "DHOONDHENGE!",
-              "startFrame": 5944,
-              "endFrame": 5968,
+              "id": "w_s09_42",
+              "text": "talaashne",
+              "startFrame": 5326,
+              "endFrame": 5356,
               "accent": true
+            },
+            {
+              "id": "w_s09_43",
+              "text": "ki",
+              "startFrame": 5356,
+              "endFrame": 5372,
+              "accent": false
+            },
+            {
+              "id": "w_s09_44",
+              "text": "ek",
+              "startFrame": 5372,
+              "endFrame": 5401,
+              "accent": false
+            },
+            {
+              "id": "w_s09_45",
+              "text": "nayi",
+              "startFrame": 5401,
+              "endFrame": 5419,
+              "accent": false
+            },
+            {
+              "id": "w_s09_46",
+              "text": "khoj",
+              "startFrame": 5419,
+              "endFrame": 5432,
+              "accent": true
+            },
+            {
+              "id": "w_s09_47",
+              "text": "hai.",
+              "startFrame": 5432,
+              "endFrame": 5437,
+              "accent": false
             }
           ]
         }
       ]
     },
     {
-      "id": "scene_10_outro",
-      "name": "Outro - Hostel Rooftop Stars",
-      "sectionTag": "10 // OUTRO  •  TAARE",
-      "startFrame": 5970,
+      "id": "scene_10_bridge_outro",
+      "name": "Bridge & Hostel Rooftop Outro",
+      "sectionTag": "10 // BRIDGE & OUTRO  •  ROOFTOP",
+      "startFrame": 5457,
       "endFrame": 6960,
-      "hierarchy": "ATMOSPHERE_DOMINANT",
-      "symbolKey": "rooftop_constellations",
+      "hierarchy": "TYPOGRAPHY_DOMINANT",
+      "symbolKey": "rooftop_stars",
       "lines": [
+        {
+          "id": "line_10_kamre",
+          "text": "Ek din yeh kamre bhi peeche chhutenge,",
+          "words": [
+            {
+              "id": "w_s10_01",
+              "text": "Ek",
+              "startFrame": 5457,
+              "endFrame": 5476,
+              "accent": false
+            },
+            {
+              "id": "w_s10_02",
+              "text": "din",
+              "startFrame": 5476,
+              "endFrame": 5485,
+              "accent": false
+            },
+            {
+              "id": "w_s10_03",
+              "text": "yeh",
+              "startFrame": 5485,
+              "endFrame": 5503,
+              "accent": false
+            },
+            {
+              "id": "w_s10_04",
+              "text": "kamre",
+              "startFrame": 5503,
+              "endFrame": 5517,
+              "accent": true
+            },
+            {
+              "id": "w_s10_05",
+              "text": "bhi",
+              "startFrame": 5517,
+              "endFrame": 5540,
+              "accent": false
+            },
+            {
+              "id": "w_s10_06",
+              "text": "peeche",
+              "startFrame": 5540,
+              "endFrame": 5554,
+              "accent": false
+            },
+            {
+              "id": "w_s10_07",
+              "text": "chhutenge,",
+              "startFrame": 5554,
+              "endFrame": 5577,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_10_degree",
+          "text": "Degree milegi, yeh raste battenge.",
+          "words": [
+            {
+              "id": "w_s10_08",
+              "text": "Degree",
+              "startFrame": 5585,
+              "endFrame": 5592,
+              "accent": true
+            },
+            {
+              "id": "w_s10_09",
+              "text": "milegi,",
+              "startFrame": 5592,
+              "endFrame": 5614,
+              "accent": false
+            },
+            {
+              "id": "w_s10_10",
+              "text": "yeh",
+              "startFrame": 5620,
+              "endFrame": 5624,
+              "accent": false
+            },
+            {
+              "id": "w_s10_11",
+              "text": "raste",
+              "startFrame": 5624,
+              "endFrame": 5637,
+              "accent": false
+            },
+            {
+              "id": "w_s10_12",
+              "text": "battenge.",
+              "startFrame": 5637,
+              "endFrame": 5660,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_10_paison",
+          "text": "Paison ki daud mein jab hum ulajhenge,",
+          "words": [
+            {
+              "id": "w_s10_13",
+              "text": "Paison",
+              "startFrame": 5668,
+              "endFrame": 5677,
+              "accent": true
+            },
+            {
+              "id": "w_s10_14",
+              "text": "ki",
+              "startFrame": 5677,
+              "endFrame": 5687,
+              "accent": false
+            },
+            {
+              "id": "w_s10_15",
+              "text": "daud",
+              "startFrame": 5687,
+              "endFrame": 5696,
+              "accent": false
+            },
+            {
+              "id": "w_s10_16",
+              "text": "mein",
+              "startFrame": 5696,
+              "endFrame": 5702,
+              "accent": false
+            },
+            {
+              "id": "w_s10_17",
+              "text": "jab",
+              "startFrame": 5702,
+              "endFrame": 5707,
+              "accent": false
+            },
+            {
+              "id": "w_s10_18",
+              "text": "hum",
+              "startFrame": 5707,
+              "endFrame": 5715,
+              "accent": false
+            },
+            {
+              "id": "w_s10_19",
+              "text": "ulajhenge,",
+              "startFrame": 5715,
+              "endFrame": 5743,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_10_lamhon",
+          "text": "Inhi be-parwah lamhon ko dhoondhenge...",
+          "words": [
+            {
+              "id": "w_s10_20",
+              "text": "Inhi",
+              "startFrame": 5752,
+              "endFrame": 5757,
+              "accent": false
+            },
+            {
+              "id": "w_s10_21",
+              "text": "be-parwah",
+              "startFrame": 5757,
+              "endFrame": 5777,
+              "accent": true
+            },
+            {
+              "id": "w_s10_22",
+              "text": "lamhon",
+              "startFrame": 5777,
+              "endFrame": 5798,
+              "accent": false
+            },
+            {
+              "id": "w_s10_23",
+              "text": "ko",
+              "startFrame": 5798,
+              "endFrame": 5806,
+              "accent": false
+            },
+            {
+              "id": "w_s10_24",
+              "text": "dhoondhenge...",
+              "startFrame": 5806,
+              "endFrame": 5899,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_10_haan",
+          "text": "Haan inhi lamhon ko dhoondhenge!",
+          "words": [
+            {
+              "id": "w_s10_25",
+              "text": "Haan",
+              "startFrame": 5899,
+              "endFrame": 5912,
+              "accent": false
+            },
+            {
+              "id": "w_s10_26",
+              "text": "inhi",
+              "startFrame": 5912,
+              "endFrame": 5917,
+              "accent": false
+            },
+            {
+              "id": "w_s10_27",
+              "text": "lamhon",
+              "startFrame": 5917,
+              "endFrame": 5929,
+              "accent": false
+            },
+            {
+              "id": "w_s10_28",
+              "text": "ko",
+              "startFrame": 5929,
+              "endFrame": 5936,
+              "accent": false
+            },
+            {
+              "id": "w_s10_29",
+              "text": "dhoondhenge...",
+              "startFrame": 5936,
+              "endFrame": 6022,
+              "accent": true
+            }
+          ]
+        },
         {
           "id": "line_10_taare",
           "text": "Hostel ki chhat pe woh taare ginna,",
           "words": [
             {
-              "id": "w_s10_01",
+              "id": "w_s10_30",
               "text": "Hostel",
-              "startFrame": 5980,
-              "endFrame": 6020,
-              "accent": false
-            },
-            {
-              "id": "w_s10_02",
-              "text": "ki",
               "startFrame": 6022,
-              "endFrame": 6035,
-              "accent": false
-            },
-            {
-              "id": "w_s10_03",
-              "text": "chhat",
-              "startFrame": 6037,
-              "endFrame": 6070,
+              "endFrame": 6064,
               "accent": true
             },
             {
-              "id": "w_s10_04",
+              "id": "w_s10_31",
+              "text": "ki",
+              "startFrame": 6064,
+              "endFrame": 6075,
+              "accent": false
+            },
+            {
+              "id": "w_s10_32",
+              "text": "chhat",
+              "startFrame": 6075,
+              "endFrame": 6094,
+              "accent": false
+            },
+            {
+              "id": "w_s10_33",
               "text": "pe",
-              "startFrame": 6072,
-              "endFrame": 6085,
+              "startFrame": 6094,
+              "endFrame": 6104,
               "accent": false
             },
             {
-              "id": "w_s10_05",
+              "id": "w_s10_34",
               "text": "woh",
-              "startFrame": 6087,
-              "endFrame": 6105,
+              "startFrame": 6104,
+              "endFrame": 6119,
               "accent": false
             },
             {
-              "id": "w_s10_06",
+              "id": "w_s10_35",
               "text": "taare",
-              "startFrame": 6107,
+              "startFrame": 6119,
               "endFrame": 6140,
               "accent": true
             },
             {
-              "id": "w_s10_07",
+              "id": "w_s10_36",
               "text": "ginna,",
-              "startFrame": 6142,
-              "endFrame": 6180,
+              "startFrame": 6140,
+              "endFrame": 6185,
               "accent": false
             }
           ]
         },
         {
-          "id": "line_10_hansna",
+          "id": "line_10_doston",
           "text": "Doston ke saath be-matlab sa hansna.",
           "words": [
             {
-              "id": "w_s10_08",
+              "id": "w_s10_37",
               "text": "Doston",
-              "startFrame": 6195,
-              "endFrame": 6235,
+              "startFrame": 6185,
+              "endFrame": 6221,
               "accent": true
             },
             {
-              "id": "w_s10_09",
+              "id": "w_s10_38",
               "text": "ke",
-              "startFrame": 6237,
-              "endFrame": 6250,
+              "startFrame": 6221,
+              "endFrame": 6239,
               "accent": false
             },
             {
-              "id": "w_s10_10",
+              "id": "w_s10_39",
               "text": "saath",
-              "startFrame": 6252,
-              "endFrame": 6280,
+              "startFrame": 6239,
+              "endFrame": 6262,
               "accent": false
             },
             {
-              "id": "w_s10_11",
+              "id": "w_s10_40",
               "text": "be-matlab",
-              "startFrame": 6282,
-              "endFrame": 6325,
-              "accent": true
-            },
-            {
-              "id": "w_s10_12",
-              "text": "sa",
-              "startFrame": 6327,
-              "endFrame": 6340,
+              "startFrame": 6262,
+              "endFrame": 6295,
               "accent": false
             },
             {
-              "id": "w_s10_13",
+              "id": "w_s10_41",
+              "text": "sa",
+              "startFrame": 6295,
+              "endFrame": 6307,
+              "accent": false
+            },
+            {
+              "id": "w_s10_42",
               "text": "hansna.",
-              "startFrame": 6342,
-              "endFrame": 6380,
+              "startFrame": 6307,
+              "endFrame": 6329,
               "accent": true
             }
           ]
         },
         {
-          "id": "line_10_fade",
-          "text": "Yeh kacchi si neendein... Yeh pakke se khwaab...",
+          "id": "line_10_outro1",
+          "text": "Yeh kacchi si neendein...",
           "words": [
             {
-              "id": "w_s10_14",
+              "id": "w_s10_43",
               "text": "Yeh",
-              "startFrame": 6480,
-              "endFrame": 6520,
+              "startFrame": 6345,
+              "endFrame": 6350,
               "accent": false
             },
             {
-              "id": "w_s10_15",
+              "id": "w_s10_44",
               "text": "kacchi",
-              "startFrame": 6522,
-              "endFrame": 6570,
+              "startFrame": 6350,
+              "endFrame": 6366,
               "accent": false
             },
             {
-              "id": "w_s10_16",
+              "id": "w_s10_45",
               "text": "si",
-              "startFrame": 6572,
-              "endFrame": 6600,
+              "startFrame": 6366,
+              "endFrame": 6373,
               "accent": false
             },
             {
-              "id": "w_s10_17",
+              "id": "w_s10_46",
               "text": "neendein...",
-              "startFrame": 6602,
-              "endFrame": 6660,
-              "accent": false
-            },
+              "startFrame": 6373,
+              "endFrame": 6430,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_10_outro2",
+          "text": "Yeh pakke se khwaab...",
+          "words": [
             {
-              "id": "w_s10_18",
+              "id": "w_s10_47",
               "text": "Yeh",
-              "startFrame": 6670,
-              "endFrame": 6700,
+              "startFrame": 6430,
+              "endFrame": 6434,
               "accent": false
             },
             {
-              "id": "w_s10_19",
+              "id": "w_s10_48",
               "text": "pakke",
-              "startFrame": 6702,
-              "endFrame": 6745,
+              "startFrame": 6434,
+              "endFrame": 6448,
               "accent": false
             },
             {
-              "id": "w_s10_20",
+              "id": "w_s10_49",
               "text": "se",
-              "startFrame": 6747,
-              "endFrame": 6770,
+              "startFrame": 6448,
+              "endFrame": 6455,
               "accent": false
             },
             {
-              "id": "w_s10_21",
-              "text": "KHWAAB.",
-              "startFrame": 6772,
-              "endFrame": 6860,
+              "id": "w_s10_50",
+              "text": "khwaab...",
+              "startFrame": 6455,
+              "endFrame": 6502,
               "accent": true
             }
           ]
         }
       ]
     }
-  ],
-  "overrides": {
-    "w_s01_04": {
-      "scale": 1.15,
-      "isAccent": true
-    },
-    "w_s04_08": {
-      "scale": 1.2,
-      "isAccent": true
-    },
-    "w_s04_29": {
-      "scale": 1.25,
-      "isAccent": true
-    },
-    "w_s07_08": {
-      "scale": 1.25,
-      "isAccent": true
-    },
-    "w_s07_20": {
-      "scale": 1.3,
-      "isAccent": true
-    },
-    "w_s09_17": {
-      "scale": 1.25,
-      "isAccent": true
-    },
-    "w_s10_21": {
-      "scale": 1.2,
-      "isAccent": true
-    }
-  }
+  ]
 }

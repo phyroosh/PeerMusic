@@ -11,14 +11,10 @@ interface Scene10HostelRooftopOutroProps {
 }
 
 export const Scene10_HostelRooftopOutro: React.FC<Scene10HostelRooftopOutroProps> = ({ scene }) => {
-  const line1 = scene.lines[0]; // Hostel ki chhat pe woh taare ginna,
-  const line2 = scene.lines[1]; // Doston ke saath be-matlab sa hansna.
-  const line3 = scene.lines[2]; // Yeh kacchi si neendein... Yeh pakke se khwaab...
-
   const symbolicVisual = (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "20px" }}>
-      <RooftopConstellations size={270} />
-      <AudioWaveformBars barsCount={24} barWidth={3} maxHeight={24} opacity={0.4} />
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "24px" }}>
+      <RooftopConstellations size={280} />
+      <AudioWaveformBars barsCount={32} barWidth={3.5} maxHeight={32} opacity={0.5} />
     </div>
   );
 
@@ -27,64 +23,44 @@ export const Scene10_HostelRooftopOutro: React.FC<Scene10HostelRooftopOutroProps
       style={{
         display: "flex",
         flexDirection: "column",
-        gap: "28px",
-        maxWidth: "750px",
+        gap: "22px",
+        maxWidth: "780px",
       }}
     >
-      {/* Line 1: Hostel ki chhat */}
-      <div style={{ display: "flex", flexWrap: "wrap", lineHeight: 1.35 }}>
-        {line1.words.map((w) => (
-          <WordReveal
-            key={w.id}
-            word={w}
-            fontSize={44}
-            isAccent={w.accent}
-            sceneStartFrame={scene.startFrame}
-          />
-        ))}
-      </div>
+      {scene.lines.map((line) => {
+        if (!line.words || line.words.length === 0) return null;
+        const lineEnd = line.words[line.words.length - 1].endFrame;
 
-      {/* Line 2: Doston ke saath hansna */}
-      {line2 && (
-        <div style={{ display: "flex", flexWrap: "wrap", lineHeight: 1.35 }}>
-          {line2.words.map((w) => (
-            <WordReveal
-              key={w.id}
-              word={w}
-              fontSize={44}
-              isAccent={w.accent}
-              sceneStartFrame={scene.startFrame}
-            />
-          ))}
-        </div>
-      )}
-
-      {/* Line 3: Final Emotional Fade */}
-      {line3 && (
-        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", lineHeight: 1.35, marginTop: "12px" }}>
-          {line3.words.map((w) =>
-            w.text === "KHWAAB." ? (
-              <AccordionWord
-                key={w.id}
-                text="KHWAAB."
-                startFrame={w.startFrame}
-                endFrame={w.endFrame}
-                isAccent={true}
-                fontSize={56}
-                sceneStartFrame={scene.startFrame}
-              />
-            ) : (
-              <WordReveal
-                key={w.id}
-                word={w}
-                fontSize={46}
-                isAccent={w.accent}
-                sceneStartFrame={scene.startFrame}
-              />
-            )
-          )}
-        </div>
-      )}
+        return (
+          <div key={line.id} style={{ display: "flex", flexWrap: "wrap", alignItems: "center", lineHeight: 1.35 }}>
+            {line.words.map((w) =>
+              w.text.toLowerCase().includes("khwaab") ? (
+                <AccordionWord
+                  key={w.id}
+                  text={w.text.toUpperCase()}
+                  startFrame={w.startFrame}
+                  endFrame={w.endFrame}
+                  isAccent={true}
+                  fontSize={54}
+                  sceneStartFrame={scene.startFrame}
+                  lineEndFrame={lineEnd}
+                  holdFrames={18}
+                />
+              ) : (
+                <WordReveal
+                  key={w.id}
+                  word={w}
+                  fontSize={44}
+                  isAccent={w.accent}
+                  sceneStartFrame={scene.startFrame}
+                  lineEndFrame={lineEnd}
+                  holdFrames={14}
+                />
+              )
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 

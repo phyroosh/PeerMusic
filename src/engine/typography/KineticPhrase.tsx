@@ -8,6 +8,9 @@ interface KineticPhraseProps {
   textAlign?: "left" | "center" | "right";
   lineHeight?: number;
   maxWidth?: string | number;
+  sceneStartFrame?: number;
+  lineEndFrame?: number;
+  holdFrames?: number;
 }
 
 export const KineticPhrase: React.FC<KineticPhraseProps> = ({
@@ -16,7 +19,18 @@ export const KineticPhrase: React.FC<KineticPhraseProps> = ({
   textAlign = "center",
   lineHeight = 1.35,
   maxWidth = "90%",
+  sceneStartFrame = 0,
+  lineEndFrame,
+  holdFrames = 18,
 }) => {
+  // If lineEndFrame is not explicitly provided, infer it from the last word in the phrase
+  const effectiveLineEndFrame =
+    lineEndFrame !== undefined
+      ? lineEndFrame
+      : words.length > 0
+      ? Math.max(...words.map((w) => w.endFrame))
+      : undefined;
+
   return (
     <div
       style={{
@@ -41,6 +55,9 @@ export const KineticPhrase: React.FC<KineticPhraseProps> = ({
           word={word}
           fontSize={fontSize}
           isAccent={word.accent}
+          sceneStartFrame={sceneStartFrame}
+          lineEndFrame={effectiveLineEndFrame}
+          holdFrames={holdFrames}
         />
       ))}
     </div>

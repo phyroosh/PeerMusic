@@ -35,29 +35,35 @@ export const Scene04_NeendeinHook: React.FC<Scene04NeendeinHookProps> = ({ scene
       }}
     >
       {/* Primary Hook Line: "Yeh kacchi si neendein, yeh pakke se khwaab" */}
-      <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", lineHeight: 1.35 }}>
-        {line1.words.map((w) =>
-          w.text === "khwaab," ? (
-            <AccordionWord
-              key={w.id}
-              text="KHWAAB,"
-              startFrame={w.startFrame}
-              endFrame={w.endFrame}
-              isAccent={true}
-              fontSize={58}
-              sceneStartFrame={scene.startFrame}
-            />
-          ) : (
-            <WordReveal
-              key={w.id}
-              word={w}
-              fontSize={52}
-              isAccent={w.accent}
-              sceneStartFrame={scene.startFrame}
-            />
-          )
-        )}
-      </div>
+      {line1 && (
+        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", lineHeight: 1.35 }}>
+          {line1.words.map((w) =>
+            w.text.toLowerCase().includes("khwaab") ? (
+              <AccordionWord
+                key={w.id}
+                text={w.text.toUpperCase()}
+                startFrame={w.startFrame}
+                endFrame={w.endFrame}
+                isAccent={true}
+                fontSize={58}
+                sceneStartFrame={scene.startFrame}
+                lineEndFrame={line1.words[line1.words.length - 1].endFrame}
+                holdFrames={14}
+              />
+            ) : (
+              <WordReveal
+                key={w.id}
+                word={w}
+                fontSize={52}
+                isAccent={w.accent}
+                sceneStartFrame={scene.startFrame}
+                lineEndFrame={line1.words[line1.words.length - 1].endFrame}
+                holdFrames={14}
+              />
+            )
+          )}
+        </div>
+      )}
 
       {/* Line 2: "Chhoti si jeb mein bada sa hisaab" */}
       {line2 && (
@@ -69,6 +75,8 @@ export const Scene04_NeendeinHook: React.FC<Scene04NeendeinHookProps> = ({ scene
               fontSize={44}
               isAccent={w.accent}
               sceneStartFrame={scene.startFrame}
+              lineEndFrame={line2.words[line2.words.length - 1].endFrame}
+              holdFrames={14}
             />
           ))}
         </div>
@@ -76,43 +84,18 @@ export const Scene04_NeendeinHook: React.FC<Scene04NeendeinHookProps> = ({ scene
 
       {/* Line 3: "Haan thoda sa darr hai, haan thodi thakan hai" */}
       {line3 && (
-        <div style={{ display: "flex", flexWrap: "wrap", lineHeight: 1.35, opacity: 0.9 }}>
+        <div style={{ display: "flex", flexWrap: "wrap", lineHeight: 1.35, opacity: 0.95 }}>
           {line3.words.map((w) => (
             <WordReveal
               key={w.id}
               word={w}
-              fontSize={38}
+              fontSize={40}
               isAccent={w.accent}
               sceneStartFrame={scene.startFrame}
+              lineEndFrame={line3.words[line3.words.length - 1].endFrame}
+              holdFrames={14}
             />
           ))}
-        </div>
-      )}
-
-      {/* Line 4: "Magar hauslon ka naya aasmaan hai!" */}
-      {line4 && (
-        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", lineHeight: 1.35 }}>
-          {line4.words.map((w) =>
-            w.text === "aasmaan" ? (
-              <AccordionWord
-                key={w.id}
-                text="AASMAAN"
-                startFrame={w.startFrame}
-                endFrame={w.endFrame}
-                isAccent={true}
-                fontSize={56}
-                sceneStartFrame={scene.startFrame}
-              />
-            ) : (
-              <WordReveal
-                key={w.id}
-                word={w}
-                fontSize={48}
-                isAccent={w.accent}
-                sceneStartFrame={scene.startFrame}
-              />
-            )
-          )}
         </div>
       )}
     </div>

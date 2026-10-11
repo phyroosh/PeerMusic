@@ -10,11 +10,11 @@ import { Scene01_IntroTitle } from "./scenes/Scene01_IntroTitle";
 import { Scene02_ChaiLadaai } from "./scenes/Scene02_ChaiLadaai";
 import { Scene03_UmeedonPanne } from "./scenes/Scene03_UmeedonPanne";
 import { Scene04_NeendeinHook } from "./scenes/Scene04_NeendeinHook";
-import { Scene05_SyllabusDeadline } from "./scenes/Scene05_SyllabusDeadline";
-import { Scene06_CanteenDosti } from "./scenes/Scene06_CanteenDosti";
+import { Scene05_InterludeOne } from "./scenes/Scene05_InterludeOne";
+import { Scene06_SyllabusDeadline } from "./scenes/Scene06_SyllabusDeadline";
 import { Scene07_MukhdaReprise } from "./scenes/Scene07_MukhdaReprise";
-import { Scene08_MaaCallAansu } from "./scenes/Scene08_MaaCallAansu";
-import { Scene09_BridgeDegree } from "./scenes/Scene09_BridgeDegree";
+import { Scene08_InterludeTwo } from "./scenes/Scene08_InterludeTwo";
+import { Scene09_MaaCallAansu } from "./scenes/Scene09_MaaCallAansu";
 import { Scene10_HostelRooftopOutro } from "./scenes/Scene10_HostelRooftopOutro";
 import { VIDEO_CONFIG } from "../../config/videoConfig";
 
@@ -56,7 +56,7 @@ export const KacchiNeendeinSong: React.FC = () => {
           </Sequence>
         )}
 
-        {/* Scene 02: 2 AM Chai & Dosti (462 - 759 frames) */}
+        {/* Scene 02: 2 AM Chai & Dosti (462 - 785 frames) */}
         {timeline.scenes[1] && (
           <Sequence
             from={timeline.scenes[1].startFrame}
@@ -66,7 +66,7 @@ export const KacchiNeendeinSong: React.FC = () => {
           </Sequence>
         )}
 
-        {/* Scene 03: Wall of Hope & Blueprints (759 - 1080 frames) */}
+        {/* Scene 03: Wall of Hope & Blueprints (785 - 1098 frames) */}
         {timeline.scenes[2] && (
           <Sequence
             from={timeline.scenes[2].startFrame}
@@ -76,7 +76,7 @@ export const KacchiNeendeinSong: React.FC = () => {
           </Sequence>
         )}
 
-        {/* Scene 04: Hook Climax 1 (1080 - 1890 frames) */}
+        {/* Scene 04: Hook Climax 1 (1098 - 1567 frames) */}
         {timeline.scenes[3] && (
           <Sequence
             from={timeline.scenes[3].startFrame}
@@ -86,27 +86,27 @@ export const KacchiNeendeinSong: React.FC = () => {
           </Sequence>
         )}
 
-        {/* Scene 05: Antara 1 - Syllabus & Deadlines (1890 - 2760 frames) */}
+        {/* Scene 05: Instrumental Interlude 1 & Syllabus Mountain (1567 - 2439 frames) */}
         {timeline.scenes[4] && (
           <Sequence
             from={timeline.scenes[4].startFrame}
             durationInFrames={timeline.scenes[4].endFrame - timeline.scenes[4].startFrame}
           >
-            <Scene05_SyllabusDeadline scene={timeline.scenes[4]} />
+            <Scene05_InterludeOne scene={timeline.scenes[4]} />
           </Sequence>
         )}
 
-        {/* Scene 06: Antara 1 - Canteen & Dosti (2760 - 3150 frames) */}
+        {/* Scene 06: Antara 1 - Syllabus & Deadlines (2439 - 3000 frames) */}
         {timeline.scenes[5] && (
           <Sequence
             from={timeline.scenes[5].startFrame}
             durationInFrames={timeline.scenes[5].endFrame - timeline.scenes[5].startFrame}
           >
-            <Scene06_CanteenDosti scene={timeline.scenes[5]} />
+            <Scene06_SyllabusDeadline scene={timeline.scenes[5]} />
           </Sequence>
         )}
 
-        {/* Scene 07: Mukhda Reprise (3150 - 3780 frames) */}
+        {/* Scene 07: Mukhda Reprise (3000 - 3800 frames) */}
         {timeline.scenes[6] && (
           <Sequence
             from={timeline.scenes[6].startFrame}
@@ -116,27 +116,27 @@ export const KacchiNeendeinSong: React.FC = () => {
           </Sequence>
         )}
 
-        {/* Scene 08: Interlude & Antara 2 - Maa's Call (3780 - 5460 frames) */}
+        {/* Scene 08: Instrumental Interlude 2 & Telephone Dawn (3800 - 4471 frames) */}
         {timeline.scenes[7] && (
           <Sequence
             from={timeline.scenes[7].startFrame}
             durationInFrames={timeline.scenes[7].endFrame - timeline.scenes[7].startFrame}
           >
-            <Scene08_MaaCallAansu scene={timeline.scenes[7]} />
+            <Scene08_InterludeTwo scene={timeline.scenes[7]} />
           </Sequence>
         )}
 
-        {/* Scene 09: Bridge - Degree & Diverging Roads (5460 - 5970 frames) */}
+        {/* Scene 09: Antara 2 - Maa Call & Bojh (4471 - 5457 frames) */}
         {timeline.scenes[8] && (
           <Sequence
             from={timeline.scenes[8].startFrame}
             durationInFrames={timeline.scenes[8].endFrame - timeline.scenes[8].startFrame}
           >
-            <Scene09_BridgeDegree scene={timeline.scenes[8]} />
+            <Scene09_MaaCallAansu scene={timeline.scenes[8]} />
           </Sequence>
         )}
 
-        {/* Scene 10: Outro - Hostel Rooftop Stars (5970 - 6960 frames) */}
+        {/* Scene 10: Bridge & Hostel Rooftop Outro (5457 - 6960 frames) */}
         {timeline.scenes[9] && (
           <Sequence
             from={timeline.scenes[9].startFrame}

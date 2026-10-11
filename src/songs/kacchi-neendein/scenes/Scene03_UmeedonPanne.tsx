@@ -38,6 +38,8 @@ export const Scene03_UmeedonPanne: React.FC<Scene03UmeedonPanneProps> = ({ scene
             fontSize={46}
             isAccent={w.accent}
             sceneStartFrame={scene.startFrame}
+            lineEndFrame={line1.words[line1.words.length - 1].endFrame}
+            holdFrames={14}
           />
         ))}
       </div>
@@ -52,6 +54,8 @@ export const Scene03_UmeedonPanne: React.FC<Scene03UmeedonPanneProps> = ({ scene
               fontSize={44}
               isAccent={w.accent}
               sceneStartFrame={scene.startFrame}
+              lineEndFrame={line2.words[line2.words.length - 1].endFrame}
+              holdFrames={16}
             />
           ))}
         </div>
