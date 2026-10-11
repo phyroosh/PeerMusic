@@ -1,11 +1,11 @@
 ---
 name: lyric-motion-design-master
-description: "End-to-end music creation and motion design system. Connects Bollywood lyric writing (Topic -> Lyrics pasted in chat for Suno AI) with industry-grade Manim + Python kinetic typography (Suno MP3 -> 60fps Music Video) with Swiss minimalism, bespoke Bézier physics, and millisecond-accurate sync."
+description: "End-to-end music creation and motion design system. Connects Bollywood lyric writing (Topic -> Lyrics pasted in chat for Suno AI) with industry-grade Remotion (React + TypeScript) motion graphics (Suno MP3 -> 60fps / 30fps Cinematic Video) with symbolic visual metaphors, word-level kinetic typography, and Swiss minimalism."
 ---
 
-# PeerMusic: End-to-End Lyrical Motion Design System
+# PeerMusic: End-to-End Cinematic Motion Graphics Music Video System
 
-Welcome to the **PeerMusic Motion Design Engine**. This repository is equipped with an integrated production pipeline specifically designed for human-in-the-loop AI music video creation:
+Welcome to the **PeerMusic Motion Design Suite**. This repository is equipped with an integrated production pipeline specifically designed for human-in-the-loop AI music video creation:
 
 ```
 [ Step 1: User provides Topic / Story / Mood in Chat ]
@@ -25,17 +25,20 @@ Welcome to the **PeerMusic Motion Design Engine**. This repository is equipped w
                                │
                                ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  STAGE 2: MANIM KINETIC MOTION ENGINE (MP3 + LYRICS)        │
-│  • Agent ingests the Suno MP3 audio file                    │
-│  • Runs Whisper word-level alignment (transcribe_sync.py)   │
-│  • Runs Librosa BPM & beat transient detector               │
-│  • Selects locked Visual Archetype (Swiss / Sufi / Cyber)   │
-│  • Authors modular MovingCameraScene classes in Manim       │
-│  • Renders at 60 FPS and losslessly muxes original Suno MP3 │
+│  STAGE 2: REMOTION MOTION GRAPHICS ENGINE (MP3 + LYRICS)    │
+│  • Generic Engine (`src/engine/`) + Song Assets             │
+│  • 3-Layer Visual Architecture:                             │
+│    1. Symbolic Visual Representation (Chai glass, Clock)    │
+│    2. Kinetic Typography (Spring word reveals, accents)     │
+│    3. Polish & Atmosphere (35mm grain, Swiss HUD, camera)   │
+│  • Scene-Dependent Hierarchy (Atmosphere / Symbol / Typo)   │
+│  • Bespoke Layouts: 16:9 Landscape & 9:16 Vertical          │
+│  • Configurable Frame Rate (30 FPS prototype, 60 FPS prod)  │
+│  • Dynamic duration derived from timeline                   │
 └──────────────────────────────┬──────────────────────────────┘
                                │
                                ▼
-[ Step 3: Industry-Level 60 FPS Lyrical Music Video Delivered ]
+[ Step 3: Industry-Level Cinematic Motion Graphics Video Delivered ]
 ```
 
 ---
@@ -59,43 +62,41 @@ When interacting with the user, agents MUST follow this exact 2-step conversatio
    - Also save a copy to `lyrics.txt` in the workspace.
    - Provide a **Recommended Suno AI Style Prompt** (e.g. `Bollywood acoustic ballad, soulful male vocals, emotive acoustic guitar, soft strings, 85 bpm, intimate`).
 5. **Prompt the user**:
-   > *"Copy the lyrics above, paste them into Suno AI using the suggested style prompt, generate your song, and provide the MP3 audio file back here so we can animate the music video!"*
+   > *"Copy the lyrics above, paste them into Suno AI using the suggested style prompt, generate your song, and provide the MP3 audio file back here so we can animate the motion graphics video!"*
 
 ---
 
-### Phase 2: Suno MP3 to 60 FPS Motion Video
+### Phase 2: Suno MP3 to Motion Graphics Video (Remotion)
 When the user provides the Suno MP3 audio file:
-1. **Save / locate the audio file** (e.g. `suno_song.mp3`).
-2. **Extract word-level timestamps & transients**:
+1. **Save audio** to `public/audio/`.
+2. **Synchronize lyrics & generate timeline**:
+   - Align words to vocals (not just drum transients).
+   - Assign unique IDs (`w_s01_01`, `w_s02_chai`) to every word.
+   - Validate with `python3 scripts/validate_timeline.py <timeline.json>`.
+3. **Design symbolic visual motifs** matching the poetic metaphors.
+4. **Assign scene visual hierarchy** (`ATMOSPHERE_DOMINANT`, `SYMBOLIC_DOMINANT`, or `TYPOGRAPHY_DOMINANT`).
+5. **Preview in Remotion Studio**:
    ```bash
-   python3 scripts/transcribe_sync.py suno_song.mp3 --lyrics lyrics.txt --output lyrics_sync.json
-   python3 scripts/beat_analyzer.py suno_song.mp3 --output beats_sync.json
+   npx remotion preview src/index.ts
    ```
-3. **Author the Manim scene script**:
-   - Pick a visual archetype from [`references/design_archetypes.md`](references/design_archetypes.md).
-   - Use `KineticPhrase` and `MinimalEditorialHUD` from [`references/motion_primitives.py`](references/motion_primitives.py).
-   - Apply `EASE_OUT_EXPO` on word reveals and `punch_emphasis_word` on vocal crests.
-   - Implement continuous camera drift (`MovingCameraScene`).
-4. **Render at 60 FPS & Mux Audio**:
+6. **Render Master Videos**:
    ```bash
-   python3 scripts/render_pipeline.py scenes.py --scene MukhdaScene --audio suno_song.mp3 --quality high --fps 60 --output final_music_video.mp4
+   # Landscape (16:9)
+   npx remotion render src/index.ts KacchiNeendein-Landscape out/landscape.mp4
+
+   # Vertical (9:16 Reels/Shorts)
+   npx remotion render src/index.ts KacchiNeendein-Vertical out/vertical.mp4
    ```
-5. **Verify against [`references/anti_slop_checklist.md`](references/anti_slop_checklist.md)**:
-   - Check sync offset < 30ms, no default math fonts, 60 FPS, no frozen camera.
 
 ---
 
-## Project Structure & Quick Links
+## Directory & Component Map
 
 | Component | Path | Description |
 | :--- | :--- | :--- |
-| **Motion Skill** | [`.agents/skills/manim-lyric-motion/SKILL.md`](.agents/skills/manim-lyric-motion/SKILL.md) | Motion design manual & prompt directives |
+| **Motion Skill** | [`.agents/skills/remotion-motion-design/SKILL.md`](.agents/skills/remotion-motion-design/SKILL.md) | Remotion design manual & architecture |
 | **Lyrics Skill** | [`.agents/skills/bollywood-lyrics-writer/SKILL.md`](.agents/skills/bollywood-lyrics-writer/SKILL.md) | Bollywood songwriting craft & Suno tagging |
-| **Easing Curves** | [`references/easing_curves.py`](references/easing_curves.py) | Bézier curves, spring dynamics & pulses |
-| **Motion Primitives** | [`references/motion_primitives.py`](references/motion_primitives.py) | `KineticPhrase`, `MinimalEditorialHUD`, camera drift |
-| **Visual Archetypes**| [`references/design_archetypes.md`](references/design_archetypes.md) | Swiss Brutalist, Sufi Midnight, Cyber-Y2K, Folk |
-| **Anti-Slop Checklist**| [`references/anti_slop_checklist.md`](references/anti_slop_checklist.md) | Mandatory quality gates for AI models |
-| **Transcription Sync**| [`scripts/transcribe_sync.py`](scripts/transcribe_sync.py) | Whisper audio to word timestamps |
-| **Beat Analyzer** | [`scripts/beat_analyzer.py`](scripts/beat_analyzer.py) | Librosa BPM & transient onset detector |
-| **Render Pipeline** | [`scripts/render_pipeline.py`](scripts/render_pipeline.py) | 60 FPS scene compiler & lossless audio muxer |
-| **Sample Demo** | [`examples/lyrical_scene_demo.py`](examples/lyrical_scene_demo.py) | Working reference scene implementation |
+| **Generic Engine**| [`src/engine/`](src/engine/) | Reusable typography, layout, camera & HUD |
+| **Song Showcase** | [`src/songs/kacchi-neendein/`](src/songs/kacchi-neendein/) | Flagship 3-scene sequence with Chai & Clock motifs |
+| **Root Registry** | [`src/Root.tsx`](src/Root.tsx) | Registers 16:9 & 9:16 compositions dynamically |
+| **Validator**     | [`scripts/validate_timeline.py`](scripts/validate_timeline.py) | Monotonic timestamp & override validator |

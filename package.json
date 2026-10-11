@@ -1,0 +1,26 @@
+{
+  "name": "peermusic",
+  "version": "1.0.0",
+  "description": "Cinematic Motion Graphics Music Video & Symbolic Visual Lyric Video Engine using Remotion and React",
+  "scripts": {
+    "dev": "remotion preview src/index.ts",
+    "build": "tsc --noEmit",
+    "render:landscape": "remotion render src/index.ts KacchiNeendein-Landscape out/landscape.mp4",
+    "render:vertical": "remotion render src/index.ts KacchiNeendein-Vertical out/vertical.mp4",
+    "still:landscape": "remotion still src/index.ts KacchiNeendein-Landscape out/still_landscape.png --frame=180",
+    "still:vertical": "remotion still src/index.ts KacchiNeendein-Vertical out/still_vertical.png --frame=180"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.534",
+    "@remotion/media-utils": "^4.0.534",
+    "lucide-react": "^0.475.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}

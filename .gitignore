@@ -1,3 +1,14 @@
+# Node & Package Managers
+node_modules/
+.npm/
+
+# Remotion & Video render outputs
+out/
+media/
+*.mp4
+*.mov
+*.avi
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -11,12 +22,6 @@ __pycache__/
 venv/
 ENV/
 env/
-
-# Manim render outputs
-media/
-*.mp4
-*.mov
-*.avi
 
 # Audio files (user-generated or downloaded)
 *.mp3

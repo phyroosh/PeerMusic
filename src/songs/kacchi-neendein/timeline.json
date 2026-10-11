@@ -1,0 +1,111 @@
+{
+  "songTitle": "Kacchi Neendein, Pakke Khwaab",
+  "fps": 30,
+  "bpm": 86,
+  "audioFile": "audio/kacchi_neendein.mp3",
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "Intro & Title Reveal",
+      "sectionTag": "01 // INTRO",
+      "startFrame": 0,
+      "endFrame": 90,
+      "hierarchy": "ATMOSPHERE_DOMINANT",
+      "symbolKey": "title_hud",
+      "lines": [
+        {
+          "id": "line_01_title",
+          "text": "KACCHI NEENDEIN, PAKKE KHWAAB",
+          "words": [
+            { "id": "w_s01_01", "text": "KACCHI", "startFrame": 15, "endFrame": 45, "accent": false },
+            { "id": "w_s01_02", "text": "NEENDEIN,", "startFrame": 28, "endFrame": 55, "accent": false },
+            { "id": "w_s01_03", "text": "PAKKE", "startFrame": 42, "endFrame": 70, "accent": false },
+            { "id": "w_s01_04", "text": "KHWAAB", "startFrame": 52, "endFrame": 88, "accent": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_02_chai",
+      "name": "2 AM Chai & Dosti",
+      "sectionTag": "02 // MUKHDA",
+      "startFrame": 90,
+      "endFrame": 270,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "chai_clock",
+      "lines": [
+        {
+          "id": "line_02_chai",
+          "text": "Raat ke do baje ki thandi si chai",
+          "words": [
+            { "id": "w_s02_01", "text": "Raat", "startFrame": 92, "endFrame": 110, "accent": false },
+            { "id": "w_s02_02", "text": "ke", "startFrame": 111, "endFrame": 120, "accent": false },
+            { "id": "w_s02_03", "text": "do", "startFrame": 121, "endFrame": 135, "accent": true },
+            { "id": "w_s02_04", "text": "baje", "startFrame": 136, "endFrame": 155, "accent": false },
+            { "id": "w_s02_05", "text": "ki", "startFrame": 156, "endFrame": 168, "accent": false },
+            { "id": "w_s02_06", "text": "thandi", "startFrame": 169, "endFrame": 190, "accent": false },
+            { "id": "w_s02_07", "text": "si", "startFrame": 191, "endFrame": 202, "accent": false },
+            { "id": "w_s02_08", "text": "chai,", "startFrame": 203, "endFrame": 240, "accent": true }
+          ]
+        },
+        {
+          "id": "line_02_ladaai",
+          "text": "Chaar doston ki be-wajah si ladaai",
+          "words": [
+            { "id": "w_s02_09", "text": "Chaar", "startFrame": 215, "endFrame": 230, "accent": false },
+            { "id": "w_s02_10", "text": "doston", "startFrame": 231, "endFrame": 245, "accent": false },
+            { "id": "w_s02_11", "text": "ki", "startFrame": 246, "endFrame": 252, "accent": false },
+            { "id": "w_s02_12", "text": "be-wajah", "startFrame": 253, "endFrame": 262, "accent": false },
+            { "id": "w_s02_13", "text": "si", "startFrame": 263, "endFrame": 266, "accent": false },
+            { "id": "w_s02_14", "text": "ladaai.", "startFrame": 267, "endFrame": 270, "accent": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_hook",
+      "name": "Hook Climax - Neendein & Khwaab",
+      "sectionTag": "03 // HOOK CLIMAX",
+      "startFrame": 270,
+      "endFrame": 480,
+      "hierarchy": "TYPOGRAPHY_DOMINANT",
+      "symbolKey": "floating_notes",
+      "lines": [
+        {
+          "id": "line_03_hook1",
+          "text": "Yeh kacchi si neendein, yeh pakke se khwaab",
+          "words": [
+            { "id": "w_s03_01", "text": "Yeh", "startFrame": 272, "endFrame": 286, "accent": false },
+            { "id": "w_s03_02", "text": "kacchi", "startFrame": 287, "endFrame": 310, "accent": false },
+            { "id": "w_s03_03", "text": "si", "startFrame": 311, "endFrame": 322, "accent": false },
+            { "id": "w_s03_04", "text": "neendein,", "startFrame": 323, "endFrame": 355, "accent": false },
+            { "id": "w_s03_05", "text": "yeh", "startFrame": 356, "endFrame": 368, "accent": false },
+            { "id": "w_s03_06", "text": "pakke", "startFrame": 369, "endFrame": 395, "accent": false },
+            { "id": "w_s03_07", "text": "se", "startFrame": 396, "endFrame": 408, "accent": false },
+            { "id": "w_s03_08", "text": "khwaab,", "startFrame": 409, "endFrame": 450, "accent": true }
+          ]
+        },
+        {
+          "id": "line_03_hook2",
+          "text": "Magar hauslon ka naya aasmaan hai!",
+          "words": [
+            { "id": "w_s03_09", "text": "Magar", "startFrame": 420, "endFrame": 435, "accent": false },
+            { "id": "w_s03_10", "text": "hauslon", "startFrame": 436, "endFrame": 452, "accent": false },
+            { "id": "w_s03_11", "text": "ka", "startFrame": 453, "endFrame": 458, "accent": false },
+            { "id": "w_s03_12", "text": "naya", "startFrame": 459, "endFrame": 468, "accent": false },
+            { "id": "w_s03_13", "text": "aasmaan", "startFrame": 469, "endFrame": 476, "accent": true },
+            { "id": "w_s03_14", "text": "hai!", "startFrame": 477, "endFrame": 480, "accent": true }
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": {
+    "w_s02_08": {
+      "accent": true
+    },
+    "w_s03_08": {
+      "accent": true
+    }
+  }
+}
