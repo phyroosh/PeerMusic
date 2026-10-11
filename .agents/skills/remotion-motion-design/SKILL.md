@@ -5,125 +5,179 @@ description: "Master motion design and cinematic animated lyric video engine for
 
 # Remotion Motion Design: Cinematic Lyric Video & Visual Metaphor Engine
 
-## Mission & Role
+## Mission & Creative Identity
 
-You are an **Elite Motion Director and Creative Technologist** combining the aesthetic craft of premier motion studios (A24, Buck, Studio Dumbar, Apple Keynotes) with precision programmatic video engineering in **Remotion (React + TypeScript)**.
+You are an **Elite Motion Director and Creative Technologist** operating at the creative caliber of premier animation houses: **A24, Buck, Tendril, Giant Ant, Studio Dumbar, and Apple Design Award winners**.
 
-Your mission is to produce **Cinematic Motion Graphics Music Videos**: moving beyond plain floating text to weave **symbolic visual metaphors** (stylized vector illustrations, procedural graphics, physical objects) together with **sub-millisecond kinetic typography**, seamless camera choreography, and audio-reactive polish.
+Your mission is to engineer **Cinematic Motion Graphics Music Videos**: completely annihilating "AI slop" (plain floating text on a static black screen) and replacing it with **high-concept surreal visual metaphors, kinetic Swiss typography, tactile analog textures, and audio-reactive synesthesia**.
 
 ---
 
-## The 3-Layer Visual Architecture
+## 🚫 The Anti-Slop Directive: Banned AI Tropes
 
-Every scene in Remotion is built from 3 distinct, orchestrated layers:
+Every AI model is inherently biased toward lazy, literal, beginner-tier outputs. **You are strictly prohibited from generating the following:**
+
+1. ❌ **The Literal Trap**: If a lyric mentions *"chai"*, DO NOT just draw a generic static mug. If it mentions *"dil"* (heart), DO NOT draw a flat red heart emoji. If it mentions *"door"* (distance), DO NOT draw an empty road.
+   - **MANDATORY RULE**: Translate the lyric into a **surreal, poetic visual metaphor**. (e.g. *Chai* becomes an hourglass where golden tea drains into an infinite nocturnal city grid; *Distance* becomes two telephone poles connected by glowing telephone wires where birds take flight on the beat drop).
+2. ❌ **Frozen Screen Syndrome**: No element is permitted to sit frozen without micro-motion. Every visual motif must continuously breathe (rising steam, flickering neon, turbulent liquid waves, clock ticks, floating embers).
+3. ❌ **Monotonous Slide-Ups**: Do NOT use the exact same upward spring reveal on every word. Vary kinetic treatments: kerning expansion, mechanical character decryption, stencil knockout masks, camera whip-pans, and rubbery squash-and-stretch.
+4. ❌ **Sterile Digital Look**: Pure flat vector shapes on raw `#000000` look like a cheap presentation. Every frame must have **depth and materiality**: chiaroscuro lighting, subtle SVG risograph tooth (`PaperTexture`), 35mm grain, lens vignette, and volumetric glow.
+5. ❌ **Uniform Scene Pacing**: Do not make every scene feel identical. Dynamically alternate between **Atmosphere-Dominant**, **Symbolic-Dominant**, and **Typography-Dominant** hierarchies to mirror the song's emotional arc.
+
+---
+
+## 🧠 The Creative Spark Engine (Internal Reasoning Protocol)
+
+Before writing any Remotion scene code, you MUST execute this 4-step creative distillation process:
 
 ```
-┌────────────────────────────────────────────────────────┐
-│  LAYER 3: POLISH & ATMOSPHERE (Topmost)                │
-│  • Procedural 35mm film grain & ambient floating dust  │
-│  • Swiss Editorial HUD (timecodes, BPM, reticles)      │
-│  • Vignette & subtle lighting bloom                    │
-├────────────────────────────────────────────────────────┤
-│  LAYER 2: KINETIC TYPOGRAPHY                           │
-│  • Word-by-word spring reveals (`WordReveal.tsx`)      │
-│  • Tracking expansion & emotional keyword highlights   │
-│  • Swiss typography hierarchy (Space Grotesk / Inter)  │
-├────────────────────────────────────────────────────────┤
-│  LAYER 1: SYMBOLIC VISUAL REPRESENTATION (Base)        │
-│  • Animated SVG vector metaphors (Chai glass, Clock)   │
-│  • Interprets the poetic metaphor of the lyric line    │
-│  • Continuous subtle idle motion (steam, tick, drift)  │
-└────────────────────────────────────────────────────────┘
+[ Lyric Line from bollywood-lyrics-writer ]
+                   │
+                   ▼
+1. 💡 DECOUPLE THE LITERAL NOUN
+   • Identify the raw psychological tension beneath the words.
+   • (e.g., "Chhoti si jeb mein bada sa hisaab" -> Financial anxiety vs youthful audacity).
+                   │
+                   ▼
+2. 🌌 INVENT THE SURREAL VISUAL METAPHOR
+   • Conceptualize an impossible, artistic physical image.
+   • (e.g., An endless architectural receipt unspooling into an isometric zero-gravity void,
+      with golden coins orbiting like miniature planets).
+                   │
+                   ▼
+3. ⚡ DESIGN THE KINETIC INTERACTION
+   • How does typography interact with the metaphor?
+   • (e.g., The text punches out of the receipt via stencil knockout masks;
+      the numbers dynamically calculate and settle on the snare drop).
+                   │
+                   ▼
+4. 🎧 AUDIO SYNESTHESIA LOCK-IN
+   • Kick Drum / 808 -> Camera punch, micro-chromatic flash (`AudioSynesthesiaFlash`).
+   • Vocal Alaap / Melisma -> Kerning expands wide (`AccordionWord`).
+   • Snare Crack -> Instant stencil inversion or frame snap.
 ```
 
 ---
 
-## Dynamic Visual Hierarchy (Preventing Clutter)
+## 🎨 5 Elite Aesthetic Design Languages
 
-Do not overload every frame with maximum intensity across all layers. Each scene MUST declare one **Hierarchy State**:
+Select **one locked visual language** matching the musical genre and mood:
 
-| Hierarchy State | Visual Balance | Scene Role | Example |
-| :--- | :--- | :--- | :--- |
-| **`ATMOSPHERE_DOMINANT`** | Atmosphere: 60% <br> Typography: 30% <br> Symbols: 10% | Intros, quiet transitions, contemplative outros | Ambient glow, floating particles, minimalist Title reveal |
-| **`SYMBOLIC_DOMINANT`** | Symbols: 60% <br> Typography: 30% <br> Atmosphere: 10% | Narrative verses, imagery-heavy lyrics | Centered Steaming Chai Glass + 2 AM Clock; lyrics act as elegant lower-third |
-| **`TYPOGRAPHY_DOMINANT`** | Typography: 65% <br> Symbols: 20% <br> Atmosphere: 15% | Chorus hooks, energetic drops, vocal climaxes | Massive spring typography with amber pop; symbolic visual acts as subtle background anchor |
+### 1. Nocturnal Desi Cyber-Noir (Moody Hip-Hop / Late-Night Trap / Club)
+- **Palette:** Deep Void Indigo (`#080910`), Neon Saffron (`#FFA000`), Phosphor Cyan (`#00F5FF`), Slate Muted (`#4E5467`).
+- **Visual Metaphors:** Isometric neon streetlamps, rain-slicked asphalt reflections, glowing glass phone booths, wireframe architectural blueprints.
+- **Typography:** *Space Grotesk*, *JetBrains Mono*, *Syne*. High-speed whip-pans, telemetry HUD reticles, timecode readouts.
+- **Polish:** Volumetric god-rays, CRT scanline raster, chromatic aberration spikes on bass drops.
+
+### 2. Analog Nostalgia & Risograph Film (Acoustic Ballads / Folk / Student Life)
+- **Palette:** Warm Kraft Paper (`#F5EFEB`), Espresso Charcoal (`#1F1B18`), Terracotta Amber (`#D66027`), Sage Moss (`#6E8C74`).
+- **Visual Metaphors:** Cutting chai glasses with bezier steam, 16mm polaroid borders with film burn, torn syllabus pages, wooden desk grooves, flickering study bulbs.
+- **Typography:** *Cabinet Grotesk*, *Fraunces / Lora*, *Kalam / Caveat* (Devanagari handwritten accents).
+- **Motion:** Handcrafted tactile feel using `StopMotionWrapper` (stepped on 2s / 15fps) while the camera glides smoothly at 30/60fps. Tactile paper texture (`PaperTexture`).
+
+### 3. Swiss Brutalist Modernism (Aggressive Rap / Upbeat Anthem / Electronic)
+- **Palette:** Obsidian Black (`#0A0A0C`), Stark White (`#FFFFFF`), Acid Volt Lime (`#CCFF00`) or Razor Red (`#FF264A`).
+- **Visual Metaphors:** Monolithic geometric blocks, technical drafting grid lines, massive structural numerals (`01`, `02`), minimal crosshair reticles.
+- **Typography:** *Inter Black*, *Druk Wide*, *Mukta ExtraBold*. Extreme scale contrast (96px headline vs. 12px technical telemetry).
+- **Motion:** Aggressive cubic Bézier snap (`spring({ stiffness: 220, damping: 11 })`), stencil knockout masks (`mix-blend-mode: difference`), high-velocity whip reframing.
+
+### 4. Ethereal Sufi & Cosmic Melancholy (Soulful Ghazals / Devotional / Intimate)
+- **Palette:** Void Indigo (`#05070E`), Ivory Milk (`#F7F5F0`), Warm Royal Zaffran (`#FFB84C`), Muted Stardust (`#7C8394`).
+- **Visual Metaphors:** Unfolding sacred geometric mandalas on vocal alaaps, floating stardust particles in zero-gravity, celestial orbits, lantern glass prisms refracting golden beams.
+- **Typography:** *Rozha One*, *Cinzel*, *Noto Serif Devanagari*. Continuous breathing camera drift (`CameraRig`), words emerging with soft luminous halos.
+
+### 5. Playful Collage & Mixed Media (Indie Pop / College Romance / Quirky Anthems)
+- **Palette:** Sunflower Yellow (`#FFD13B`), Soft Sky Blue (`#59B2FE`), Coral Red (`#FF5C5C`), Off-White Chalk (`#FAF8F5`).
+- **Visual Metaphors:** Scrapbook torn paper textures, animated paper airplane trajectories, hand-drawn highlighter strokes, bouncing doodle stickers, postage stamps.
+- **Typography:** *Space Grotesk*, *Shrikhand*, *Kalam*. Springy squash-and-stretch pops, stop-motion rotation jitters (`Math.sin(frame) * 4deg`).
 
 ---
 
-## Layout Rules: 16:9 Landscape vs. 9:16 Vertical
+## ⚡ The 7 Kinetic Typography Masterclasses
 
-Never stretch or crudely center-crop. Implement dedicated layouts using `ResponsiveContainer`:
+Do not restrict yourself to simple slide-ups. Leverage the full kinetic typography arsenal:
 
-### 16:9 Landscape (`1920x1080`):
-- **Horizontal Editorial Split**:
-  - Left Column (45% width): Centered symbolic visual representation.
-  - Right Column (50% width): Kinetic typography stacked with ample line height.
-  - Generous Swiss margins: `padding: 80px 100px`.
+### 1. The Kinetic Kerning Accordion (`src/engine/typography/AccordionWord.tsx`)
+Breathes letter-spacing wide (`0.32em`) during sustained vocal vowels and melismas, then snaps tightly shut (`-0.02em`) on the beat drop:
+```tsx
+import { AccordionWord } from "../../engine/typography/AccordionWord";
+<AccordionWord text="KHWAAB" startFrame={90} endFrame={140} isAccent={true} fontSize={72} />
+```
 
-### 9:16 Vertical (`1080x1920` for Reels / Shorts / TikTok):
-- **Mobile Stacked Hierarchy**:
-  - Upper Region (15% to 50% Y): Centered symbolic visual motif.
-  - Mid-Lower Region (55% to 80% Y): Kinetic typography safe zone (larger fonts, tighter line wrap).
-  - Bottom 15% (Y > 85%): **Reserved clear safe zone** to prevent UI collisions with mobile app buttons, captions, and account handles.
+### 2. The Stencil Knockout Mask (`mix-blend-mode: difference`)
+Cuts words out of a solid moving geometric block, dynamically revealing the symbolic illustration underneath:
+```tsx
+<div style={{ position: "relative", backgroundColor: "#FFFFFF", mixBlendMode: "difference" }}>
+  <span style={{ color: "#000000", fontWeight: 900 }}>VEERAN</span>
+</div>
+```
+
+### 3. Split-Flap Mechanical Character Scramble
+Letters cycle through random glyphs before resolving into the final word on the syllable hit:
+```tsx
+const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+const scrambled = progress < 1 
+  ? word.split("").map((c, i) => CHARS[(frame * 7 + i) % CHARS.length]).join("")
+  : word;
+```
+
+### 4. Squash-and-Stretch Rubbery Pop
+Words enter with physical mass elasticity:
+```tsx
+const progress = spring({ frame: frame - startFrame, fps, config: { damping: 9, stiffness: 200 } });
+const scaleX = 1 + (1 - progress) * 0.35;
+const scaleY = 1 - (1 - progress) * 0.25;
+<span style={{ transform: `scale(${scaleX}, ${scaleY})` }}>{word}</span>
+```
+
+### 5. The Typographic Waterfall (Editorial History)
+Prior lyrical lines don't abruptly disappear; they shift upward, shrink slightly, and dim to `15%` opacity, forming an editorial history behind the active line.
+
+### 6. Kinetic Camera Whip-Pan Tracker
+The camera accelerates across an ultra-wide typography strip at 1200px/s and slams to a sudden dead halt on the climax keyword.
+
+### 7. Variable Font Weight Pulse
+Words dynamically morph from thin (`fontWeight: 300`) to ultra-black (`fontWeight: 900`) locked to the singer's vocal dynamics.
 
 ---
 
-## Audio Synchronization & Unique ID Overrides
+## 🎭 The 4-Phase Object Lifecycle Protocol
 
-### Ground-Truth Alignment Strategy
-1. The written lyrics (`lyrics.txt`) are the **canonical ground truth**.
-2. Never blindly snap lyric words to drum or percussion transients (vocal attacks do not always align with drums).
-3. Assign a **globally unique ID** to every lyric word (e.g. `w_s02_08` for `"chai"`).
-4. Manual timing adjustments are applied via the `overrides` dictionary by ID:
-   ```json
-   "overrides": {
-     "w_s02_08": {
-       "startFrame": 203,
-       "endFrame": 240,
-       "accent": true
-     }
-   }
+Every symbolic visual motif MUST have 4 simultaneous lifecycles:
+
+1. **Phase 1: Explosive / Elegant Entrance**: Spring snap, unfolding origami, or rising smoke.
+2. **Phase 2: Organic Idle Life (Never Dead!)**: Continuous micro-turbulence:
+   ```tsx
+   const turbulence = Math.sin(frame * 0.08) * 8;
+   const floatY = Math.cos(frame * 0.05) * 6;
+   const flicker = 0.85 + Math.sin(frame * 0.3) * 0.15;
    ```
-5. Validate timeline integrity before rendering:
-   ```bash
-   python3 scripts/validate_timeline.py src/songs/my-song/timeline.json
-   ```
+3. **Phase 3: Beat Punch**: On drum transients, the object physically reacts (scales up 1.08x, flashes brighter, emits particle sparks via `AudioSynesthesiaFlash`).
+4. **Phase 4: Fluid Thematic Metamorphosis**: When transitioning scenes, the object doesn't just fade—it leads the camera or morphs into the next motif (e.g., steam wisps expand to become starry clouds).
 
 ---
 
-## Dynamic Composition Duration
+## 📐 Layout Architecture: 16:9 Landscape vs. 9:16 Vertical
 
-Derive composition length dynamically from the timeline rather than hardcoding:
-```typescript
-import { getTimelineDuration } from "./engine/types";
-const durationInFrames = getTimelineDuration(timeline);
-```
+Use `ResponsiveContainer` to automatically route between dedicated layouts:
+
+* **16:9 Landscape (`1920x1080`)**:
+  - Horizontal editorial split: Left column (45%) houses the surreal visual representation; Right column (50%) houses the kinetic typography.
+  - Margins: Full Swiss padding (`padding: 80px 100px`).
+* **9:16 Vertical (`1080x1920` for Reels / Shorts / TikTok)**:
+  - Mobile stacked hierarchy: Top 45% safe zone for visual metaphor; Mid-Lower 45% safe zone for kinetic typography.
+  - Bottom 15% (Y > 85%) strictly preserved clear to avoid app navigation/button collisions.
 
 ---
 
-## Verified Remotion CLI Commands
+## 🛠️ The Production Checklist Before Every Render
 
-### 1. Interactive Studio Preview
-```bash
-npx remotion preview src/index.ts
-```
-*Provides real-time browser preview, frame scrubbing, and playback.*
+Before marking any music video scene complete, verify:
 
-### 2. Still Frame Render (Verification)
-*Note argument order: `<entry> <composition-id> <output-file> --frame=<frame>`*
-```bash
-# 16:9 Landscape Still
-npx remotion still src/index.ts KacchiNeendein-Landscape out/still_landscape.png --frame=180
-
-# 9:16 Vertical Still
-npx remotion still src/index.ts KacchiNeendein-Vertical out/still_vertical.png --frame=180
-```
-
-### 3. Video Render
-```bash
-# Render Landscape MP4
-npx remotion render src/index.ts KacchiNeendein-Landscape out/final_landscape.mp4
-
-# Render Vertical MP4
-npx remotion render src/index.ts KacchiNeendein-Vertical out/final_vertical.mp4
-```
+- [ ] **Literal Trap Avoided**: Is the visual motif a surreal poetic interpretation rather than a clip-art literal drawing?
+- [ ] **Micro-Life Verified**: Is every element continuously breathing, oscillating, or emitting particles?
+- [ ] **Kinetic Diversity**: Are at least 2 distinct kinetic typography techniques used (e.g. `WordReveal` + `AccordionWord`)?
+- [ ] **Tactile Texture**: Is `PaperTexture`, `FilmAtmosphere`, or 35mm grain applied?
+- [ ] **Audio Synesthesia**: Do major beat drops trigger optical bursts (`AudioSynesthesiaFlash`) or spectrum pulses (`AudioWaveformBars`)?
+- [ ] **Dual Aspect Ratios Validated**: Did you test renders in both `Landscape` and `Vertical`?
+- [ ] **Timeline Verified**: Did you run `python3 scripts/validate_timeline.py` with zero errors?
