@@ -30,9 +30,10 @@ Welcome to the **PeerMusic Motion Design Suite**. This repository is equipped wi
 │  • Surreal Metaphor Engine (Anti-Literal Trap Enforcement)  │
 │  • 7 Kinetic Typography Masterclasses (Accordion, Stencil)  │
 │  • Scene-Dependent Hierarchy (Atmosphere / Symbol / Typo)   │
-│  • Bespoke Layouts: 16:9 Landscape & 9:16 Vertical          │
+│  • Dual Layouts: 16:9 Landscape & 9:16 Vertical (Reels/Shorts)  │
 │  • Audio-Reactive Synesthesia (Optical bursts, FFT bars)    │
-│  • Configurable Frame Rate (30 FPS prototype, 60 FPS prod)  │
+│  • 60 FPS Standard Default (Silky fluid motion & springs)   │
+│  • Cinematic Purity: Clean canvas (Zero unwanted HUD text)  │
 └──────────────────────────────┬──────────────────────────────┘
                                │
                                ▼
@@ -96,11 +97,19 @@ When the user provides the Suno MP3 audio file:
 | :--- | :--- | :--- |
 | **Motion Skill** | [`.agents/skills/remotion-motion-design/SKILL.md`](.agents/skills/remotion-motion-design/SKILL.md) | Master creative design manual, anti-slop rules, & recipes |
 | **Lyrics Skill** | [`.agents/skills/bollywood-lyrics-writer/SKILL.md`](.agents/skills/bollywood-lyrics-writer/SKILL.md) | Bollywood songwriting craft & Suno tagging |
-| **Generic Engine**| [`src/engine/`](src/engine/) | Reusable typography, layout, camera, textures & HUD |
+| **Generic Engine**| [`src/engine/`](src/engine/) | Reusable typography, layout, camera & atmospheric textures |
 | **Kinetic Accords**| [`src/engine/typography/AccordionWord.tsx`](src/engine/typography/AccordionWord.tsx) | Dynamic letter-spacing accordion breathing |
 | **Stop Motion**   | [`src/engine/camera/StopMotionWrapper.tsx`](src/engine/camera/StopMotionWrapper.tsx) | Handcrafted animated-on-2s indie tactile frame stepper |
 | **Synesthesia**   | [`src/engine/camera/AudioSynesthesiaFlash.tsx`](src/engine/camera/AudioSynesthesiaFlash.tsx) | Transient optical bursts and chromatic flashes |
 | **Paper Texture** | [`src/engine/camera/PaperTexture.tsx`](src/engine/camera/PaperTexture.tsx) | Procedural analog risograph tooth & film grain |
-| **Song Showcase** | [`src/songs/kacchi-neendein/`](src/songs/kacchi-neendein/) | Flagship 3-scene sequence with Chai & Clock motifs |
-| **Root Registry** | [`src/Root.tsx`](src/Root.tsx) | Registers 16:9 & 9:16 compositions dynamically |
+| **Song Showcase** | [`src/songs/kacchi-neendein/`](src/songs/kacchi-neendein/) | Full 10-scene sequence with Chai, Clock, Hostel & Syllabus motifs |
+| **Root Registry** | [`src/Root.tsx`](src/Root.tsx) | Registers 60 FPS 16:9 & 9:16 compositions dynamically |
 | **Validator**     | [`scripts/validate_timeline.py`](scripts/validate_timeline.py) | Monotonic timestamp & override validator |
+
+---
+
+## 🎬 Core Technical Standards
+
+1. **60 FPS Standard Default**: All compositions (`defaultFps: 60`), animation springs, camera drift rigs, and word timelines MUST be authored and rendered at **60 FPS** for silky-smooth motion graphics.
+2. **Cinematic Canvas Purity (NO HUD / Telemetry Overlays)**: Never render technical overlays, corner timestamps, section badges (e.g. `02 // MUKHDA`), BPM readouts, or reticles at the top of the screen. Keep the artistic canvas clean, open, and cinematic so the symbolic visuals and lyrics command full attention.
+

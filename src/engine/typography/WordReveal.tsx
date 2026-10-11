@@ -37,8 +37,15 @@ export const WordReveal: React.FC<WordRevealProps> = ({
         : lineEndFrame
       : undefined;
 
-  const exitStart = relLineEnd !== undefined ? relLineEnd + holdFrames : undefined;
-  const exitDuration = 10; // 0.33s smooth fade-out and upward drift
+  const effectiveHold =
+    holdFrames !== undefined
+      ? holdFrames > 20
+        ? holdFrames
+        : Math.round(holdFrames * (fps / 30))
+      : Math.round(fps * 0.5);
+
+  const exitStart = relLineEnd !== undefined ? relLineEnd + effectiveHold : undefined;
+  const exitDuration = Math.round(fps * 0.25); // 0.25s smooth fade-out and upward drift
 
   // 1. Pre-entrance: completely hidden before singer onsets the word
   if (frame < wordStart) {

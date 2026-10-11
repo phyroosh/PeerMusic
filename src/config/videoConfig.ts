@@ -1,5 +1,5 @@
 export const VIDEO_CONFIG = {
-  defaultFps: 30,
+  defaultFps: 60,
   highFps: 60,
   cinematicFps: 24,
   landscape: {

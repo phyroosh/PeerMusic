@@ -23,6 +23,7 @@ Every AI model is inherently biased toward lazy, literal, beginner-tier outputs.
 3. ❌ **Monotonous Slide-Ups**: Do NOT use the exact same upward spring reveal on every word. Vary kinetic treatments: kerning expansion, mechanical character decryption, stencil knockout masks, camera whip-pans, and rubbery squash-and-stretch.
 4. ❌ **Sterile Digital Look**: Pure flat vector shapes on raw `#000000` look like a cheap presentation. Every frame must have **depth and materiality**: chiaroscuro lighting, subtle SVG risograph tooth (`PaperTexture`), 35mm grain, lens vignette, and volumetric glow.
 5. ❌ **Uniform Scene Pacing**: Do not make every scene feel identical. Dynamically alternate between **Atmosphere-Dominant**, **Symbolic-Dominant**, and **Typography-Dominant** hierarchies to mirror the song's emotional arc.
+6. ❌ **The Distracting HUD / Telemetry Trap (Cinematic Purity Violation)**: NEVER place technical corner HUD text, section markers (e.g., `02 // MUKHDA`), timecodes, BPM counters, or camera reticles across the top of the video canvas. Music videos are emotional, cinematic art pieces—not software interfaces or telemetry dashboards. Keep the top screen space pristine, open, and completely free of clutter. The symbolic visuals and lyrics must command the canvas without distraction.
 
 ---
 
@@ -66,19 +67,19 @@ Select **one locked visual language** matching the musical genre and mood:
 ### 1. Nocturnal Desi Cyber-Noir (Moody Hip-Hop / Late-Night Trap / Club)
 - **Palette:** Deep Void Indigo (`#080910`), Neon Saffron (`#FFA000`), Phosphor Cyan (`#00F5FF`), Slate Muted (`#4E5467`).
 - **Visual Metaphors:** Isometric neon streetlamps, rain-slicked asphalt reflections, glowing glass phone booths, wireframe architectural blueprints.
-- **Typography:** *Space Grotesk*, *JetBrains Mono*, *Syne*. High-speed whip-pans, telemetry HUD reticles, timecode readouts.
+- **Typography:** *Space Grotesk*, *JetBrains Mono*, *Syne*. High-speed whip-pans, monospace micro-accents (pure canvas, zero top HUD clutter).
 - **Polish:** Volumetric god-rays, CRT scanline raster, chromatic aberration spikes on bass drops.
 
 ### 2. Analog Nostalgia & Risograph Film (Acoustic Ballads / Folk / Student Life)
 - **Palette:** Warm Kraft Paper (`#F5EFEB`), Espresso Charcoal (`#1F1B18`), Terracotta Amber (`#D66027`), Sage Moss (`#6E8C74`).
 - **Visual Metaphors:** Cutting chai glasses with bezier steam, 16mm polaroid borders with film burn, torn syllabus pages, wooden desk grooves, flickering study bulbs.
 - **Typography:** *Cabinet Grotesk*, *Fraunces / Lora*, *Kalam / Caveat* (Devanagari handwritten accents).
-- **Motion:** Handcrafted tactile feel using `StopMotionWrapper` (stepped on 2s / 15fps) while the camera glides smoothly at 30/60fps. Tactile paper texture (`PaperTexture`).
+- **Motion:** Handcrafted tactile feel using `StopMotionWrapper` (stepped on 2s / 15fps) while the camera glides smoothly at 60fps. Tactile paper texture (`PaperTexture`).
 
 ### 3. Swiss Brutalist Modernism (Aggressive Rap / Upbeat Anthem / Electronic)
 - **Palette:** Obsidian Black (`#0A0A0C`), Stark White (`#FFFFFF`), Acid Volt Lime (`#CCFF00`) or Razor Red (`#FF264A`).
-- **Visual Metaphors:** Monolithic geometric blocks, technical drafting grid lines, massive structural numerals (`01`, `02`), minimal crosshair reticles.
-- **Typography:** *Inter Black*, *Druk Wide*, *Mukta ExtraBold*. Extreme scale contrast (96px headline vs. 12px technical telemetry).
+- **Visual Metaphors:** Monolithic geometric blocks, technical drafting grid lines, massive structural numerals (`01`, `02`).
+- **Typography:** *Inter Black*, *Druk Wide*, *Mukta ExtraBold*. Extreme scale contrast (96px headline vs. minimal secondary accents, clean margins).
 - **Motion:** Aggressive cubic Bézier snap (`spring({ stiffness: 220, damping: 11 })`), stencil knockout masks (`mix-blend-mode: difference`), high-velocity whip reframing.
 
 ### 4. Ethereal Sufi & Cosmic Melancholy (Soulful Ghazals / Devotional / Intimate)
@@ -179,6 +180,8 @@ Before marking any music video scene complete, verify:
 - [ ] **Kinetic Diversity**: Are at least 2 distinct kinetic typography techniques used (e.g. `WordReveal` + `AccordionWord`)?
 - [ ] **Tactile Texture**: Is `PaperTexture`, `FilmAtmosphere`, or 35mm grain applied?
 - [ ] **Audio Synesthesia**: Do major beat drops trigger optical bursts (`AudioSynesthesiaFlash`) or spectrum pulses (`AudioWaveformBars`)?
+- [ ] **Cinematic Purity (Zero Top HUD)**: Are the top corners completely free of technical HUD text, timecodes, section tags, and telemetry reticles?
+- [ ] **60 FPS Standard Enforced**: Is the composition configured at 60 FPS default with all timeline frame calculations correctly scaled?
 - [ ] **Dual Aspect Ratios Validated**: Did you test renders in both `Landscape` and `Vertical`?
 - [ ] **Timeline Verified**: Did you run `python3 scripts/validate_timeline.py` with zero errors?
 
@@ -186,7 +189,7 @@ Before marking any music video scene complete, verify:
 
 ## 🚀 Maximum Render Quality & Speed Optimization Architecture
 
-To maximize render speed and visual fidelity across long compositions (e.g., 6,960 frames / 4-minute full songs):
+To maximize render speed and visual fidelity across long compositions (e.g., 13,920 frames / 4-minute full songs at 60 FPS):
 
 ### 1. Frame Capture Throughput (3x Faster Canvas Streaming)
 - Capture frames as high-quality JPEG (`quality: 96`) instead of PNG:

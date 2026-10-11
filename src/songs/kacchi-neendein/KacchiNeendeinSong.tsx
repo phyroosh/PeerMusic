@@ -5,7 +5,6 @@ import { TimelineData, SceneConfig } from "../../engine/types";
 import { applyOverridesAndValidate } from "../../engine/validation";
 import { CameraRig } from "../../engine/camera/CameraRig";
 import { FilmAtmosphere } from "../../engine/camera/FilmAtmosphere";
-import { EditorialHUD } from "../../engine/typography/EditorialHUD";
 import { Scene01_IntroTitle } from "./scenes/Scene01_IntroTitle";
 import { Scene02_ChaiLadaai } from "./scenes/Scene02_ChaiLadaai";
 import { Scene03_UmeedonPanne } from "./scenes/Scene03_UmeedonPanne";
@@ -23,13 +22,6 @@ const validation = applyOverridesAndValidate(rawTimeline as unknown as TimelineD
 const timeline = validation.timeline;
 
 export const KacchiNeendeinSong: React.FC = () => {
-  const frame = useCurrentFrame();
-
-  // Find currently active scene for HUD telemetry
-  const activeScene: SceneConfig | undefined = timeline.scenes.find(
-    (s) => frame >= s.startFrame && frame < s.endFrame
-  );
-  const activeTag = activeScene ? activeScene.sectionTag : "01 // INTRO";
 
   return (
     <div
@@ -149,14 +141,6 @@ export const KacchiNeendeinSong: React.FC = () => {
 
       {/* Polish Layer: 35mm Film Grain & Ambient Embers */}
       <FilmAtmosphere dustCount={20} vignetteStrength={0.6} />
-
-      {/* Polish Layer: Swiss Editorial Telemetry HUD */}
-      <EditorialHUD
-        sectionTag={activeTag}
-        bpm={timeline.bpm || 86}
-        trackTitle="KACCHI NEENDEIN"
-        opacity={0.3}
-      />
     </div>
   );
 };

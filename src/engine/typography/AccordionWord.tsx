@@ -42,8 +42,15 @@ export const AccordionWord: React.FC<AccordionWordProps> = ({
         : lineEndFrame
       : undefined;
 
-  const exitStart = relLineEnd !== undefined ? relLineEnd + holdFrames : undefined;
-  const exitDuration = 10;
+  const effectiveHold =
+    holdFrames !== undefined
+      ? holdFrames > 20
+        ? holdFrames
+        : Math.round(holdFrames * (fps / 30))
+      : Math.round(fps * 0.5);
+
+  const exitStart = relLineEnd !== undefined ? relLineEnd + effectiveHold : undefined;
+  const exitDuration = Math.round(fps * 0.25);
 
   if (frame < relStart) {
     return <span style={{ opacity: 0, margin: "0 0.3em" }}>{text}</span>;
