@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Manim render outputs
+media/
+*.mp4
+*.mov
+*.avi
+
+# Audio files (user-generated or downloaded)
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.aac
+
+# Temporary sync & concat artifacts
+lyrics_sync.json
+beats_sync.json
+concat_list.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
