@@ -1,23 +1,61 @@
 import React from "react";
+import { interpolate, useCurrentFrame } from "remotion";
 import { SceneConfig } from "../../../engine/types";
 import { ResponsiveContainer } from "../../../engine/layout/ResponsiveContainer";
 import { WordReveal } from "../../../engine/typography/WordReveal";
 import { SyllabusMountain } from "../assets/SyllabusMountain";
+import { CanteenResonance } from "../assets/CanteenResonance";
 
 interface Scene06SyllabusDeadlineProps {
   scene: SceneConfig;
 }
 
 export const Scene06_SyllabusDeadline: React.FC<Scene06SyllabusDeadlineProps> = ({ scene }) => {
+  const frame = useCurrentFrame();
   const line1 = scene.lines[0]; // Syllabus pahad sa, dil mein basera
   const line2 = scene.lines[1]; // Subah ki attendance, woh aakhri bench
   const line3 = scene.lines[2]; // Assignment ki deadline ka aakhri inch
   const line4 = scene.lines[3]; // Magar canteen ki hansi mein har gam ghula hai
   const line5 = scene.lines[4]; // Ek doosre ke kandhe pe darr sab bhula hai
 
+  // Transition from SyllabusMountain to CanteenResonance when line 4 starts (frame 5372 -> rel 494)
+  const relCanteenStart = line4 && line4.words[0] ? line4.words[0].startFrame - scene.startFrame : 494;
+  const transitionProgress = interpolate(
+    frame,
+    [relCanteenStart - 25, relCanteenStart + 15],
+    [0, 1],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
+  );
+
   const symbolicVisual = (
-    <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <SyllabusMountain size={260} />
+    <div
+      style={{
+        position: "relative",
+        width: "260px",
+        height: "260px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        style={{
+          position: "absolute",
+          opacity: 1 - transitionProgress,
+          transform: `scale(${1 - transitionProgress * 0.08})`,
+        }}
+      >
+        <SyllabusMountain size={260} />
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          opacity: transitionProgress,
+          transform: `scale(${0.92 + transitionProgress * 0.08})`,
+        }}
+      >
+        <CanteenResonance size={260} />
+      </div>
     </div>
   );
 

@@ -5,6 +5,7 @@ import { TimelineData, SceneConfig } from "../../engine/types";
 import { applyOverridesAndValidate } from "../../engine/validation";
 import { CameraRig } from "../../engine/camera/CameraRig";
 import { FilmAtmosphere } from "../../engine/camera/FilmAtmosphere";
+import { PaperTexture } from "../../engine/camera/PaperTexture";
 import { Scene01_IntroTitle } from "./scenes/Scene01_IntroTitle";
 import { Scene02_ChaiLadaai } from "./scenes/Scene02_ChaiLadaai";
 import { Scene03_UmeedonPanne } from "./scenes/Scene03_UmeedonPanne";
@@ -139,8 +140,9 @@ export const KacchiNeendeinSong: React.FC = () => {
         )}
       </CameraRig>
 
-      {/* Polish Layer: 35mm Film Grain & Ambient Embers */}
+      {/* Polish Layer: 35mm Film Grain, Tactile Paper & Ambient Embers */}
       <FilmAtmosphere dustCount={20} vignetteStrength={0.6} />
+      <PaperTexture opacity={0.06} />
     </div>
   );
 };
