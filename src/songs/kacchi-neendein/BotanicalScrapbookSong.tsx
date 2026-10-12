@@ -1,10 +1,13 @@
 import React from "react";
-import { Audio, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Audio, Easing, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import rawTimeline from "./timeline.json";
 import { TimelineData, SceneConfig, LyricLine } from "../../engine/types";
 import { applyOverridesAndValidate } from "../../engine/validation";
 import { PaperTexture } from "../../engine/camera/PaperTexture";
 import { VIDEO_CONFIG } from "../../config/videoConfig";
+import { WaveformInterlude } from "../../engine/audio/WaveformInterlude";
+import { ThumbnailCard } from "../../engine/thumbnail/ThumbnailCard";
+import { KacchiNeendeinArtwork } from "./KacchiNeendeinArtwork";
 
 // Validate timeline at module load
 const validation = applyOverridesAndValidate(rawTimeline as unknown as TimelineData);
@@ -15,43 +18,80 @@ export const BotanicalScrapbookSong: React.FC = () => {
   const { width, height } = useVideoConfig();
   const isLandscape = width >= height;
 
-  // Find active scene based on current frame
+  // 1. Calculate first sung vocal across all non-intro scenes
+  const firstSungScene = timeline.scenes.find(
+    (s) => !s.id.toLowerCase().includes("intro") && s.lines && s.lines.length > 0
+  );
+  const firstVocalStart = firstSungScene?.lines[0]?.words[0]?.startFrame ?? 924;
+
+  // 2. Intro Showcase & Smooth Pan Animation
+  // Intro stays centered until ~2.5s before vocals, then glides to the left
+  const introTransitionStart = Math.max(0, firstVocalStart - 150);
+  const introTransitionEnd = Math.max(introTransitionStart + 1, firstVocalStart - 30);
+
+  const introProgress = interpolate(frame, [introTransitionStart, introTransitionEnd], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+    easing: Easing.bezier(0.25, 0.1, 0.25, 1),
+  });
+
+  const thumbnailTranslateX = isLandscape
+    ? interpolate(introProgress, [0, 1], [580, 0])
+    : 0;
+  const thumbnailTranslateY = !isLandscape
+    ? interpolate(introProgress, [0, 1], [220, 0])
+    : 0;
+  const thumbnailScale = interpolate(introProgress, [0, 1], [1.1, 1]);
+  const lyricsOpacity = interpolate(introProgress, [0.35, 1], [0, 1]);
+  const lyricsTranslateX = isLandscape
+    ? interpolate(introProgress, [0.35, 1], [40, 0])
+    : 0;
+
+  // 3. Find active scene based on current frame
   const currentScene: SceneConfig | undefined = timeline.scenes.find(
     (s) => frame >= s.startFrame && frame < s.endFrame
   ) || timeline.scenes[timeline.scenes.length - 1];
 
-  // Subtle breathing of the pressed petals and shadows
-  const shadowFloat = Math.sin(frame * 0.04) * 2;
-
-  // Determine current active line within scene
+  // 4. Determine Active Lyric Line with 60-frame (1 sec) anticipation window
+  const anticipationFrames = 60;
   let activeLine: LyricLine | undefined;
-  if (currentScene && currentScene.lines && currentScene.lines.length > 0) {
-    activeLine = currentScene.lines.find((line) => {
-      const firstWordStart = line.words[0]?.startFrame ?? currentScene.startFrame;
-      const lastWordEnd = line.words[line.words.length - 1]?.endFrame ?? currentScene.endFrame;
-      return frame >= firstWordStart && frame <= lastWordEnd + 60; // hold for 1 sec after line ends
-    });
 
-    // If no line currently speaking, default to the latest line passed or the first line
+  if (frame >= introTransitionEnd) {
+    if (currentScene && !currentScene.id.toLowerCase().includes("intro")) {
+      for (const line of currentScene.lines) {
+        if (!line.words || line.words.length === 0) continue;
+        const firstWordStart = line.words[0].startFrame;
+        const lastWordEnd = line.words[line.words.length - 1].endFrame;
+
+        if (frame >= firstWordStart - anticipationFrames && frame <= lastWordEnd + 35) {
+          activeLine = line;
+          break;
+        }
+      }
+    }
+
+    // Check if next scene's first line is approaching during scene transition
     if (!activeLine) {
-      const pastLines = currentScene.lines.filter((line) => {
-        const lastWordEnd = line.words[line.words.length - 1]?.endFrame ?? currentScene.endFrame;
-        return frame >= lastWordEnd;
-      });
-      if (pastLines.length > 0) {
-        activeLine = pastLines[pastLines.length - 1];
-      } else {
-        activeLine = currentScene.lines[0];
+      const nextScene = timeline.scenes.find(
+        (s) => s.startFrame > frame && !s.id.toLowerCase().includes("intro")
+      );
+      if (nextScene && nextScene.lines && nextScene.lines.length > 0) {
+        const firstLine = nextScene.lines[0];
+        if (firstLine && firstLine.words && firstLine.words.length > 0) {
+          const firstWordStart = firstLine.words[0].startFrame;
+          if (frame >= firstWordStart - anticipationFrames && frame < firstWordStart) {
+            activeLine = firstLine;
+          }
+        }
       }
     }
   }
 
-  // Derive section badge
+  // 5. Derive Section Tag and Emotional Subtitle
   const sectionBadge = currentScene?.sectionTag
     ? currentScene.sectionTag.replace("•", "//")
     : "HERBARIUM // VOL. 04";
 
-  // Derive subtitle or emotional context
   let subtitleText = "Pressed rose petals inside unread letters • Room 204 Memories";
   if (currentScene?.name.includes("Chai")) {
     subtitleText = "2 AM cutting chai & midnight brotherhood • Warm Acoustic Folk";
@@ -114,147 +154,28 @@ export const BotanicalScrapbookSong: React.FC = () => {
         />
       </svg>
 
-      {/* Left (or Top in Vertical): Pressed Botanical Herbarium Specimen Card */}
+      {/* Left: Song-Specific Thumbnail Card with Centered Intro Animation */}
       <div
         style={{
-          position: "relative",
-          width: isLandscape ? "500px" : "380px",
-          height: isLandscape ? "520px" : "400px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          flexShrink: 0,
+          transform: `translate(${thumbnailTranslateX}px, ${thumbnailTranslateY}px) scale(${thumbnailScale})`,
+          transition: "transform 0.05s ease-out",
+          zIndex: 10,
         }}
       >
-        <svg
-          width="100%"
-          height="100%"
-          viewBox="0 0 500 520"
-          style={{ overflow: "visible" }}
+        <ThumbnailCard
+          stampTitle="G.P.O. ARCHIVE"
+          stampDate="OCT 1974"
+          stampLocation="CALCUTTA"
+          specimenTag="SPECIMEN: Rosa indica (Dried 1974)"
+          trackTitle={`TRACK: ${timeline.songTitle}`}
+          width={isLandscape ? 500 : 420}
+          height={isLandscape ? 520 : 440}
         >
-          <defs>
-            {/* Washi Tape Shadow */}
-            <filter id="tapeShadow" x="-20%" y="-20%" width="140%" height="140%">
-              <feDropShadow dx="2" dy="4" stdDeviation="3" floodOpacity="0.15" />
-            </filter>
-
-            {/* Pressed Rose Petal Gradient */}
-            <linearGradient id="rosePetal" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="#C93B4E" />
-              <stop offset="60%" stopColor={VIDEO_CONFIG.colors.accentRose} />
-              <stop offset="100%" stopColor="#52121C" />
-            </linearGradient>
-
-            {/* Dried Olive Fern Gradient */}
-            <linearGradient id="fernLeaf" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#526E48" />
-              <stop offset="50%" stopColor="#3B5234" />
-              <stop offset="100%" stopColor="#253520" />
-            </linearGradient>
-          </defs>
-
-          {/* Pressed Cardboard Herbarium Backing Sheet */}
-          <rect
-            x="40"
-            y="30"
-            width="420"
-            height="460"
-            rx="6"
-            fill={VIDEO_CONFIG.colors.paperCard}
-            stroke={VIDEO_CONFIG.colors.cardBorder}
-            strokeWidth="1.5"
-            filter="drop-shadow(0 16px 35px rgba(60, 45, 30, 0.12))"
-          />
-
-          {/* Postal Cancellation Rubber Stamp (Vintage Kolkata 1974) */}
-          <g transform="translate(100, 110) rotate(-14)" opacity="0.45">
-            <circle cx="0" cy="0" r="42" fill="none" stroke={VIDEO_CONFIG.colors.stampInk} strokeWidth="2.5" strokeDasharray="6 3" />
-            <circle cx="0" cy="0" r="34" fill="none" stroke={VIDEO_CONFIG.colors.stampInk} strokeWidth="1" />
-            <text x="0" y="-8" textAnchor="middle" fontFamily="'Space Grotesk', serif" fontSize="9" fontWeight="700" fill={VIDEO_CONFIG.colors.stampInk}>
-              G.P.O. ARCHIVE
-            </text>
-            <text x="0" y="8" textAnchor="middle" fontFamily="'Space Grotesk', serif" fontSize="11" fontWeight="700" fill={VIDEO_CONFIG.colors.stampInk}>
-              OCT 1974
-            </text>
-            <text x="0" y="22" textAnchor="middle" fontFamily="'Space Grotesk', serif" fontSize="8" fill={VIDEO_CONFIG.colors.stampInk}>
-              CALCUTTA
-            </text>
-          </g>
-
-          {/* Botanical Specimen: Pressed Stem & Fern Leaves with organic micro-float */}
-          <g transform={`translate(250, ${260 + shadowFloat})`}>
-            {/* Main Curved Stem */}
-            <path
-              d="M 0 160 Q -15 40, -40 -120"
-              fill="none"
-              stroke="url(#fernLeaf)"
-              strokeWidth="4"
-              strokeLinecap="round"
-            />
-
-            {/* Alternating Pressed Leaves */}
-            {[-80, -40, 0, 40, 80, 120].map((ly, i) => {
-              const isLeft = i % 2 === 0;
-              return (
-                <path
-                  key={`leaf-${i}`}
-                  d={
-                    isLeft
-                      ? `M ${-10 - i * 3} ${ly} Q ${-65 - i * 4} ${ly - 30}, ${-85 - i * 2} ${ly - 15} Q ${-50} ${ly + 10}, ${-10 - i * 3} ${ly}`
-                      : `M ${-5 - i * 2} ${ly} Q ${50 + i * 4} ${ly - 25}, ${75 + i * 2} ${ly - 10} Q ${40} ${ly + 12}, ${-5 - i * 2} ${ly}`
-                  }
-                  fill="url(#fernLeaf)"
-                  opacity="0.88"
-                />
-              );
-            })}
-
-            {/* Pressed Dried Rose Flower at Apex */}
-            <g transform="translate(-40, -125)">
-              <ellipse cx="0" cy="0" rx="36" ry="24" fill="url(#rosePetal)" transform="rotate(-15)" />
-              <ellipse cx="-8" cy="-5" rx="26" ry="18" fill="url(#rosePetal)" opacity="0.9" />
-              <ellipse cx="6" cy="4" rx="22" ry="15" fill="#52121C" opacity="0.8" />
-              <circle cx="0" cy="0" r="12" fill="#3B0C14" />
-            </g>
-          </g>
-
-          {/* Translucent Japanese Washi Tape Strips */}
-          <rect
-            x="180"
-            y="110"
-            width="80"
-            height="22"
-            rx="1"
-            fill={VIDEO_CONFIG.colors.washiTape}
-            opacity="0.75"
-            transform="rotate(-6, 220, 121)"
-            filter="url(#tapeShadow)"
-          />
-          <rect
-            x="210"
-            y="370"
-            width="90"
-            height="24"
-            rx="1"
-            fill={VIDEO_CONFIG.colors.washiTape}
-            opacity="0.75"
-            transform="rotate(4, 255, 382)"
-            filter="url(#tapeShadow)"
-          />
-
-          {/* Handwritten Specimen Tag in pencil */}
-          <g transform="translate(70, 430)">
-            <text fontFamily={VIDEO_CONFIG.fonts.tag} fontSize="11" fill={VIDEO_CONFIG.colors.secondaryText} letterSpacing="1">
-              SPECIMEN: Rosa indica (Dried 1974)
-            </text>
-            <text fontFamily={VIDEO_CONFIG.fonts.tag} fontSize="10" fill="#8C7D6B" y="16">
-              TRACK: {timeline.songTitle}
-            </text>
-          </g>
-        </svg>
+          <KacchiNeendeinArtwork />
+        </ThumbnailCard>
       </div>
 
-      {/* Right (or Bottom in Vertical): Synchronized Literary Vintage Typography */}
+      {/* Right: Synchronized Literary Lyrics OR Fluid Audio Waveform Interlude */}
       <div
         style={{
           display: "flex",
@@ -266,85 +187,95 @@ export const BotanicalScrapbookSong: React.FC = () => {
           width: isLandscape ? "auto" : "100%",
           padding: isLandscape ? "0" : "10px 10px 0 10px",
           boxSizing: "border-box",
+          opacity: lyricsOpacity,
+          transform: `translateX(${lyricsTranslateX}px)`,
+          transition: "opacity 0.15s ease",
+          zIndex: 5,
         }}
       >
-        {/* Section Pill Badge */}
-        <div
-          style={{
-            display: "inline-block",
-            padding: "6px 16px",
-            borderRadius: "3px",
-            backgroundColor: VIDEO_CONFIG.colors.accentFern,
-            color: "#FAF6EE",
-            fontFamily: VIDEO_CONFIG.fonts.accent,
-            fontSize: "12px",
-            fontWeight: 700,
-            letterSpacing: "0.26em",
-            width: "fit-content",
-          }}
-        >
-          {sectionBadge}
-        </div>
+        {activeLine ? (
+          <>
+            {/* Section Pill Badge */}
+            <div
+              style={{
+                display: "inline-block",
+                padding: "6px 16px",
+                borderRadius: "3px",
+                backgroundColor: VIDEO_CONFIG.colors.accentFern,
+                color: "#FAF6EE",
+                fontFamily: VIDEO_CONFIG.fonts.accent,
+                fontSize: "12px",
+                fontWeight: 700,
+                letterSpacing: "0.26em",
+                width: "fit-content",
+              }}
+            >
+              {sectionBadge}
+            </div>
 
-        {/* Dynamic Synchronized Lyrics Line */}
-        <div
-          style={{
-            fontFamily: VIDEO_CONFIG.fonts.heading,
-            fontSize: isLandscape ? "46px" : "36px",
-            fontWeight: 700,
-            color: VIDEO_CONFIG.colors.primaryText,
-            lineHeight: 1.3,
-            letterSpacing: "-0.01em",
-            minHeight: isLandscape ? "120px" : "80px",
-            display: "flex",
-            flexWrap: "wrap",
-            alignItems: "baseline",
-            justifyContent: isLandscape ? "flex-start" : "center",
-            gap: "10px",
-          }}
-        >
-          {activeLine ? (
-            activeLine.words.map((word) => {
-              const isSung = frame >= word.startFrame;
-              const isCurrentlyActive = frame >= word.startFrame && frame <= word.endFrame;
+            {/* Dynamic Synchronized Lyrics Line with Advance Dimmed Preview */}
+            <div
+              style={{
+                fontFamily: VIDEO_CONFIG.fonts.heading,
+                fontSize: isLandscape ? "46px" : "36px",
+                fontWeight: 700,
+                color: VIDEO_CONFIG.colors.primaryText,
+                lineHeight: 1.3,
+                letterSpacing: "-0.01em",
+                minHeight: isLandscape ? "120px" : "80px",
+                display: "flex",
+                flexWrap: "wrap",
+                alignItems: "baseline",
+                justifyContent: isLandscape ? "flex-start" : "center",
+                gap: "10px",
+              }}
+            >
+              {activeLine.words.map((word) => {
+                const isSung = frame > word.endFrame;
+                const isCurrentlyActive = frame >= word.startFrame && frame <= word.endFrame;
 
-              return (
-                <span
-                  key={word.id}
-                  style={{
-                    opacity: isSung ? 1 : 0.28,
-                    color: isCurrentlyActive
-                      ? VIDEO_CONFIG.colors.accentRose
-                      : VIDEO_CONFIG.colors.primaryText,
-                    textDecoration: isCurrentlyActive ? "underline" : "none",
-                    textDecorationColor: VIDEO_CONFIG.colors.accentRose,
-                    textUnderlineOffset: "6px",
-                    transition: "opacity 0.15s ease, color 0.15s ease",
-                    display: "inline-block",
-                  }}
-                >
-                  {word.text}
-                </span>
-              );
-            })
-          ) : (
-            <span style={{ fontStyle: "italic", opacity: 0.6 }}>
-              {currentScene?.name || "Kacchi neendein, pakke khwaab..."}
-            </span>
-          )}
-        </div>
+                return (
+                  <span
+                    key={word.id}
+                    style={{
+                      opacity: isCurrentlyActive || isSung ? 1 : 0.32,
+                      color: isCurrentlyActive
+                        ? VIDEO_CONFIG.colors.accentRose
+                        : VIDEO_CONFIG.colors.primaryText,
+                      textDecoration: isCurrentlyActive ? "underline" : "none",
+                      textDecorationColor: VIDEO_CONFIG.colors.accentRose,
+                      textUnderlineOffset: "6px",
+                      transition: "opacity 0.15s ease, color 0.15s ease",
+                      display: "inline-block",
+                    }}
+                  >
+                    {word.text}
+                  </span>
+                );
+              })}
+            </div>
 
-        {/* Poetic Subtitle / Emotional Context */}
-        <div
-          style={{
-            fontFamily: VIDEO_CONFIG.fonts.tag,
-            fontSize: isLandscape ? "15px" : "13px",
-            color: VIDEO_CONFIG.colors.secondaryText,
-            lineHeight: 1.6,
-          }}
-        >
-          {subtitleText}
-        </div>
+            {/* Poetic Subtitle / Emotional Context */}
+            <div
+              style={{
+                fontFamily: VIDEO_CONFIG.fonts.tag,
+                fontSize: isLandscape ? "15px" : "13px",
+                color: VIDEO_CONFIG.colors.secondaryText,
+                lineHeight: 1.6,
+              }}
+            >
+              {subtitleText}
+            </div>
+          </>
+        ) : (
+          /* Pure Audio Waveform Interlude when singer is not singing */
+          <WaveformInterlude
+            label={currentScene?.name.toUpperCase() || "ACOUSTIC INTERLUDE"}
+            sublabel={subtitleText}
+            width={isLandscape ? "640px" : "100%"}
+            height={130}
+          />
+        )}
       </div>
 
       {/* Tactile Paper Texture */}

@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { BotanicalScrapbookSong } from "./songs/kacchi-neendein/BotanicalScrapbookSong";
 import { KacchiNeendeinSong } from "./songs/kacchi-neendein/KacchiNeendeinSong";
 import rawTimeline from "./songs/kacchi-neendein/timeline.json";
+import { RoughCopySong } from "./songs/rough-copy/RoughCopySong";
+import roughCopyTimeline from "./songs/rough-copy/timeline.json";
 import { TimelineData, getTimelineDuration } from "./engine/types";
 import { VIDEO_CONFIG } from "./config/videoConfig";
 
@@ -33,9 +35,31 @@ import { Theme20_MilkyWayCampfire } from "./themes/diverse/Theme20_MilkyWayCampf
 const durationInFrames = getTimelineDuration(rawTimeline as unknown as TimelineData);
 const fps = rawTimeline.fps || VIDEO_CONFIG.defaultFps;
 
+const roughCopyDurationInFrames = getTimelineDuration(roughCopyTimeline as unknown as TimelineData);
+const roughCopyFps = roughCopyTimeline.fps || VIDEO_CONFIG.defaultFps;
+
 export const Root: React.FC = () => {
   return (
     <>
+      {/* 0. Rough Copy (School Crush Song): Botanical Scrapbook Landscape (16:9 60 FPS) */}
+      <Composition
+        id="RoughCopy-Landscape"
+        component={RoughCopySong}
+        durationInFrames={roughCopyDurationInFrames}
+        fps={roughCopyFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+
+      {/* 0. Rough Copy (School Crush Song): Botanical Scrapbook Vertical (9:16 60 FPS Reels/Shorts) */}
+      <Composition
+        id="RoughCopy-Vertical"
+        component={RoughCopySong}
+        durationInFrames={roughCopyDurationInFrames}
+        fps={roughCopyFps}
+        width={VIDEO_CONFIG.vertical.width}
+        height={VIDEO_CONFIG.vertical.height}
+      />
       {/* 1. Official DEFAULT Composition: Botanical Scrapbook Landscape (YouTube / Desktop / TV) */}
       <Composition
         id="KacchiNeendein-Landscape"

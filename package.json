@@ -12,6 +12,10 @@
     "render:vertical": "remotion render src/index.ts KacchiNeendein-Vertical out/master_vertical.mp4",
     "render:vertical:fast": "remotion render src/index.ts KacchiNeendein-Vertical out/draft_vertical.mp4 --jpeg-quality=85 --crf=20 --concurrency=8",
     "render:prores": "remotion render src/index.ts KacchiNeendein-Landscape out/master_prores.mov --codec=prores --prores-profile=hq",
+    "render:roughcopy": "remotion render src/index.ts RoughCopy-Landscape out/rough_copy_landscape.mp4 --jpeg-quality=90 --crf=18 --concurrency=8",
+    "render:roughcopy:vertical": "remotion render src/index.ts RoughCopy-Vertical out/rough_copy_vertical.mp4 --jpeg-quality=90 --crf=18 --concurrency=8",
+    "render:roughcopy:preview": "remotion render src/index.ts RoughCopy-Landscape out/rough_copy_preview.mp4 --frames=0-1800 --jpeg-quality=85 --crf=20 --concurrency=8",
+    "render:roughcopy:vertical:preview": "remotion render src/index.ts RoughCopy-Vertical out/rough_copy_vertical_preview.mp4 --frames=0-1800 --jpeg-quality=85 --crf=20 --concurrency=8",
     "still:landscape": "remotion still src/index.ts KacchiNeendein-Landscape out/still_landscape.png --frame=180",
     "still:vertical": "remotion still src/index.ts KacchiNeendein-Vertical out/still_vertical.png --frame=180"
   },

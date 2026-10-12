@@ -74,19 +74,31 @@ Before writing any Remotion scene code, you MUST execute this 4-step creative di
    - Journal Ruled Grid: Subtle 40×40px square grid lines (`#7A6F5D`, 0.8px stroke, 0.15 opacity).
    - Notebook Red Margin: Vertical guideline at `x=180px` in Landscape, `x=40px` in Vertical (`#D9534F`, 1.5px stroke, 0.6 opacity).
    - Tactile Paper Texture: `PaperTexture` overlay at `0.12` opacity.
-2. **Pressed Herbarium Specimen Card**:
-   - Sheet: `#FAF6EE` archival cardboard with soft shadow (`drop-shadow(0 16px 35px rgba(60, 45, 30, 0.12))`) and `#D6CBBA` border.
-   - Cancellation Rubber Stamp: Vintage 1974 Calcutta G.P.O. archive postmark stamp in `#2C3E50` ink at `0.45` opacity, rotated `-14deg`.
-   - Botanical Specimen: Pressed rose stem with olive-fern leaves (`#526E48` -> `#253520`) and dried red rose petal apex (`#C93B4E` -> `#8A2434` -> `#52121C`).
-   - Micro-Motion: Organic continuous breathing float using `Math.sin(frame * 0.04) * 2`.
-   - Washi Tape Strips: Translucent Japanese washi tape (`#EADBBA`, 0.75 opacity) holding down the stem at top and bottom.
-   - Specimen Tag: Handwritten pencil monospace tag (`'Courier New'`) with `SPECIMEN: Rosa indica (Dried 1974)` and track name.
-3. **Literary Vintage Typography**:
-   - Section Capsule: Deep olive-fern green pill badge (`#2A4436`, text `#FAF6EE`, `Space Grotesk`, bold, letter-spacing `0.26em`).
-   - Active Lyrics Headline: *Georgia / Times New Roman* serif font (46px landscape, 36px vertical, 700 weight, `#2C261F`).
-   - Word Synchronicity: Upcoming words at `0.28` opacity; current sung word illuminated in dried rose crimson (`#8A2434`) with a delicate underline; past words in solid charcoal (`#2C261F`).
-   - Poetic Subtitle: Monospace / Courier New (`#6B5E4D`, 15px, line-height 1.6) conveying emotional context.
-4. **Cinematic Standard**:
+2. **Bespoke Thumbnail Artwork System (MANDATORY PER-SONG CRAFT)**:
+   - > [!CAUTION]
+     > **NEVER REUSE THE SAME THUMBNAIL ARTWORK ACROSS DIFFERENT SONGS.**
+     > Reusing the dried rose for a school crush song, breakup ballad, or club track is considered lazy AI slop.
+   - Every song **MUST** receive a newly designed, high-effort, bespoke artwork SVG component inside [`ThumbnailCard`](file:///home/phyroosh/PeerMusic/src/engine/thumbnail/ThumbnailCard.tsx).
+   - **Examples of Bespoke Artwork**:
+     - *Kacchi Neendein (Late Night Aspirations)*: Pressed rose, fluted chai glass, midnight clock, or nocturnal stardust.
+     - *Rough Copy (School Crush Romance)*: Lined notebook page with spiral holes, classic Hero fountain pen with ink drop, compass arcs, and folded secret love note with hand-drawn pencil heart.
+     - *Future Songs*: Design bespoke visual artifacts (e.g. vintage train ticket, cassette tape with pulled ribbon, brass pocket watch, Polaroid with paperclip).
+   - The [`ThumbnailCard`](file:///home/phyroosh/PeerMusic/src/engine/thumbnail/ThumbnailCard.tsx) frame provides the archival `#FAF6EE` sheet, custom postal stamp (title, date, location), washi tape strips, and handwritten pencil specimen metadata.
+3. **Intro Showcase & Smooth Pan Transition**:
+   - **Intro Phase (Frame 0 to `vocalStart - 150`)**: The thumbnail card MUST be centered in full beauty on the canvas (`scale: 1.1`, centered position). The lyrics container is completely hidden (`opacity: 0`). **NEVER display the song title as lyrics during the intro.**
+   - **Transition Phase (`vocalStart - 150` to `vocalStart - 30`)**: ~2.5 seconds before the singer begins singing, the thumbnail smoothly glides from center to its docked position on the left, and the lyrics area fades in.
+4. **Anticipation Window & Word Highlight Precision**:
+   - **Lead-Time Preview**: An upcoming lyric line appears `45–60` frames (0.75–1.0s) before its first word is sung.
+   - **Dimmed Preview State**: During the anticipation window, **all words in the line are dimmed** (`opacity: 0.32`, charcoal `#2C261F`, no underline, no crimson).
+   - **Exact Word Highlighting**: A word only highlights (`#8A2434` crimson with underline) when the singer actually delivers it (`frame >= word.startFrame && frame <= word.endFrame`).
+   - **Settled State**: Sung words settle in solid charcoal (`#2C261F`, `opacity: 1`, no underline).
+5. **Pure Audio Waveform Interludes**:
+   - Whenever the singer is silent during background tunes, solos, or instrumental interludes, the lyrics side MUST NOT display stale text or arbitrary labels.
+   - Automatically display [`WaveformInterlude`](file:///home/phyroosh/PeerMusic/src/engine/audio/WaveformInterlude.tsx) with harmonic multi-frequency sine wave curves and scene metadata.
+6. **Default Aspect Ratio**:
+   - Always produce 16:9 Landscape (1920×1080) by default.
+   - Do NOT generate vertical video alongside landscape unless explicitly requested by the user.
+7. **Cinematic Standard**:
    - Always 60 FPS.
    - Clean canvas: Zero top HUD clutter or technical telemetry tickers.
 

@@ -1,0 +1,2063 @@
+{
+  "audio_file": "public/audio/rough_copy.mp3",
+  "duration": 198.367,
+  "language": "hi",
+  "words": [
+    {
+      "word": "Rav",
+      "start": 18.74,
+      "end": 19.86,
+      "probability": 0.406
+    },
+    {
+      "word": "Kapi",
+      "start": 19.86,
+      "end": 20.38,
+      "probability": 0.617
+    },
+    {
+      "word": "ke",
+      "start": 20.38,
+      "end": 20.62,
+      "probability": 0.715
+    },
+    {
+      "word": "Aakhari",
+      "start": 20.62,
+      "end": 21.18,
+      "probability": 0.503
+    },
+    {
+      "word": "Panne",
+      "start": 21.18,
+      "end": 21.72,
+      "probability": 0.381
+    },
+    {
+      "word": "Petraahi",
+      "start": 21.72,
+      "end": 22.98,
+      "probability": 0.236
+    },
+    {
+      "word": "Nam",
+      "start": 22.98,
+      "end": 23.4,
+      "probability": 0.522
+    },
+    {
+      "word": "Likha",
+      "start": 23.4,
+      "end": 23.98,
+      "probability": 0.508
+    },
+    {
+      "word": "Manin",
+      "start": 23.98,
+      "end": 24.54,
+      "probability": 0.569
+    },
+    {
+      "word": "Formula",
+      "start": 24.54,
+      "end": 25.48,
+      "probability": 0.469
+    },
+    {
+      "word": "Sarib",
+      "start": 25.48,
+      "end": 26.14,
+      "probability": 0.127
+    },
+    {
+      "word": "hula",
+      "start": 26.14,
+      "end": 26.38,
+      "probability": 0.531
+    },
+    {
+      "word": "ke",
+      "start": 26.38,
+      "end": 26.74,
+      "probability": 0.521
+    },
+    {
+      "word": "Vibas",
+      "start": 26.74,
+      "end": 27.36,
+      "probability": 0.501
+    },
+    {
+      "word": "tuji",
+      "start": 27.36,
+      "end": 27.78,
+      "probability": 0.397
+    },
+    {
+      "word": "ko",
+      "start": 27.78,
+      "end": 27.98,
+      "probability": 0.751
+    },
+    {
+      "word": "yaad",
+      "start": 27.98,
+      "end": 28.58,
+      "probability": 0.613
+    },
+    {
+      "word": "rekha",
+      "start": 28.58,
+      "end": 29.02,
+      "probability": 0.272
+    },
+    {
+      "word": "manin",
+      "start": 29.02,
+      "end": 29.6,
+      "probability": 0.481
+    },
+    {
+      "word": "Klasme",
+      "start": 29.6,
+      "end": 30.48,
+      "probability": 0.544
+    },
+    {
+      "word": "dihan",
+      "start": 30.48,
+      "end": 31.0,
+      "probability": 0.365
+    },
+    {
+      "word": "lagata",
+      "start": 31.0,
+      "end": 31.72,
+      "probability": 0.732
+    },
+    {
+      "word": "hum",
+      "start": 31.72,
+      "end": 32.14,
+      "probability": 0.085
+    },
+    {
+      "word": "parna",
+      "start": 32.14,
+      "end": 32.68,
+      "probability": 0.475
+    },
+    {
+      "word": "zere",
+      "start": 32.68,
+      "end": 33.02,
+      "probability": 0.086
+    },
+    {
+      "word": "tuji",
+      "start": 33.02,
+      "end": 33.46,
+      "probability": 0.702
+    },
+    {
+      "word": "perethi",
+      "start": 33.46,
+      "end": 34.38,
+      "probability": 0.118
+    },
+    {
+      "word": "hai",
+      "start": 34.38,
+      "end": 34.62,
+      "probability": 0.342
+    },
+    {
+      "word": "Thad",
+      "start": 34.62,
+      "end": 35.34,
+      "probability": 0.505
+    },
+    {
+      "word": "ka",
+      "start": 35.34,
+      "end": 35.52,
+      "probability": 0.26
+    },
+    {
+      "word": "ne",
+      "start": 35.52,
+      "end": 35.7,
+      "probability": 0.59
+    },
+    {
+      "word": "meryi",
+      "start": 35.7,
+      "end": 36.24,
+      "probability": 0.307
+    },
+    {
+      "word": "bhanaka",
+      "start": 36.24,
+      "end": 36.74,
+      "probability": 0.298
+    },
+    {
+      "word": "ke",
+      "start": 36.74,
+      "end": 37.2,
+      "probability": 0.118
+    },
+    {
+      "word": "kitna",
+      "start": 37.2,
+      "end": 37.78,
+      "probability": 0.654
+    },
+    {
+      "word": "kuch",
+      "start": 37.78,
+      "end": 38.14,
+      "probability": 0.588
+    },
+    {
+      "word": "tajse",
+      "start": 38.14,
+      "end": 38.66,
+      "probability": 0.318
+    },
+    {
+      "word": "kethi",
+      "start": 38.66,
+      "end": 39.44,
+      "probability": 0.656
+    },
+    {
+      "word": "hai",
+      "start": 39.44,
+      "end": 39.7,
+      "probability": 0.849
+    },
+    {
+      "word": "Haa",
+      "start": 39.7,
+      "end": 40.2,
+      "probability": 0.217
+    },
+    {
+      "word": "chutti",
+      "start": 40.2,
+      "end": 40.6,
+      "probability": 0.391
+    },
+    {
+      "word": "ki",
+      "start": 40.6,
+      "end": 40.76,
+      "probability": 0.966
+    },
+    {
+      "word": "ganti",
+      "start": 40.76,
+      "end": 41.16,
+      "probability": 0.576
+    },
+    {
+      "word": "wajde",
+      "start": 41.16,
+      "end": 41.94,
+      "probability": 0.622
+    },
+    {
+      "word": "he",
+      "start": 41.94,
+      "end": 42.18,
+      "probability": 0.031
+    },
+    {
+      "word": "Dil",
+      "start": 42.18,
+      "end": 42.72,
+      "probability": 0.057
+    },
+    {
+      "word": "cycle",
+      "start": 42.72,
+      "end": 43.2,
+      "probability": 0.312
+    },
+    {
+      "word": "desh",
+      "start": 43.2,
+      "end": 43.82,
+      "probability": 0.343
+    },
+    {
+      "word": "chalata",
+      "start": 43.82,
+      "end": 44.34,
+      "probability": 0.718
+    },
+    {
+      "word": "hai",
+      "start": 44.34,
+      "end": 44.72,
+      "probability": 0.921
+    },
+    {
+      "word": "Rav",
+      "start": 44.72,
+      "end": 45.14,
+      "probability": 0.438
+    },
+    {
+      "word": "Kapi",
+      "start": 45.14,
+      "end": 45.58,
+      "probability": 0.473
+    },
+    {
+      "word": "ke",
+      "start": 45.58,
+      "end": 45.82,
+      "probability": 0.926
+    },
+    {
+      "word": "Aakhari",
+      "start": 45.82,
+      "end": 46.44,
+      "probability": 0.175
+    },
+    {
+      "word": "Panne",
+      "start": 46.44,
+      "end": 46.96,
+      "probability": 0.402
+    },
+    {
+      "word": "Petraahi",
+      "start": 46.96,
+      "end": 48.18,
+      "probability": 0.079
+    },
+    {
+      "word": "Nam",
+      "start": 48.18,
+      "end": 48.6,
+      "probability": 0.056
+    },
+    {
+      "word": "Likha",
+      "start": 48.6,
+      "end": 49.22,
+      "probability": 0.416
+    },
+    {
+      "word": "manin",
+      "start": 49.22,
+      "end": 49.8,
+      "probability": 0.879
+    },
+    {
+      "word": "Vureses",
+      "start": 60.06,
+      "end": 60.74,
+      "probability": 0.441
+    },
+    {
+      "word": "ki",
+      "start": 60.74,
+      "end": 60.98,
+      "probability": 0.516
+    },
+    {
+      "word": "thodi",
+      "start": 60.98,
+      "end": 61.42,
+      "probability": 0.234
+    },
+    {
+      "word": "jaldi",
+      "start": 61.42,
+      "end": 62.18,
+      "probability": 0.689
+    },
+    {
+      "word": "me",
+      "start": 62.18,
+      "end": 62.36,
+      "probability": 0.244
+    },
+    {
+      "word": "kauri",
+      "start": 62.36,
+      "end": 63.12,
+      "probability": 0.4
+    },
+    {
+      "word": "dhur",
+      "start": 63.12,
+      "end": 63.28,
+      "probability": 0.346
+    },
+    {
+      "word": "me",
+      "start": 63.28,
+      "end": 63.46,
+      "probability": 0.775
+    },
+    {
+      "word": "takara",
+      "start": 63.46,
+      "end": 63.98,
+      "probability": 0.178
+    },
+    {
+      "word": "na",
+      "start": 63.98,
+      "end": 64.3,
+      "probability": 0.689
+    },
+    {
+      "word": "tera",
+      "start": 64.3,
+      "end": 64.84,
+      "probability": 0.446
+    },
+    {
+      "word": "Sauri",
+      "start": 64.84,
+      "end": 66.06,
+      "probability": 0.688
+    },
+    {
+      "word": "kai",
+      "start": 66.06,
+      "end": 66.28,
+      "probability": 0.448
+    },
+    {
+      "word": "kara",
+      "start": 66.28,
+      "end": 66.6,
+      "probability": 0.571
+    },
+    {
+      "word": "hal",
+      "start": 66.6,
+      "end": 66.96,
+      "probability": 0.355
+    },
+    {
+      "word": "ke",
+      "start": 66.96,
+      "end": 67.12,
+      "probability": 0.414
+    },
+    {
+      "word": "se",
+      "start": 67.12,
+      "end": 67.44,
+      "probability": 0.189
+    },
+    {
+      "word": "na",
+      "start": 67.44,
+      "end": 67.74,
+      "probability": 0.564
+    },
+    {
+      "word": "zere",
+      "start": 67.74,
+      "end": 67.98,
+      "probability": 0.086
+    },
+    {
+      "word": "juka",
+      "start": 67.98,
+      "end": 68.38,
+      "probability": 0.165
+    },
+    {
+      "word": "ke",
+      "start": 68.38,
+      "end": 68.72,
+      "probability": 0.532
+    },
+    {
+      "word": "muskara",
+      "start": 68.72,
+      "end": 69.38,
+      "probability": 0.762
+    },
+    {
+      "word": "na",
+      "start": 69.38,
+      "end": 69.54,
+      "probability": 0.97
+    },
+    {
+      "word": "tera",
+      "start": 69.54,
+      "end": 69.96,
+      "probability": 0.961
+    },
+    {
+      "word": "Ik",
+      "start": 69.96,
+      "end": 70.92,
+      "probability": 0.108
+    },
+    {
+      "word": "blue",
+      "start": 70.92,
+      "end": 71.24,
+      "probability": 0.25
+    },
+    {
+      "word": "ink",
+      "start": 71.24,
+      "end": 71.64,
+      "probability": 0.943
+    },
+    {
+      "word": "pen,",
+      "start": 71.64,
+      "end": 71.92,
+      "probability": 0.499
+    },
+    {
+      "word": "jo",
+      "start": 72.24,
+      "end": 72.32,
+      "probability": 0.109
+    },
+    {
+      "word": "manghi",
+      "start": 72.32,
+      "end": 72.84,
+      "probability": 0.469
+    },
+    {
+      "word": "thi",
+      "start": 72.84,
+      "end": 73.22,
+      "probability": 0.207
+    },
+    {
+      "word": "me",
+      "start": 73.22,
+      "end": 73.42,
+      "probability": 0.377
+    },
+    {
+      "word": "ne",
+      "start": 73.42,
+      "end": 73.56,
+      "probability": 0.625
+    },
+    {
+      "word": "haa",
+      "start": 73.56,
+      "end": 73.86,
+      "probability": 0.166
+    },
+    {
+      "word": "chta",
+      "start": 73.86,
+      "end": 74.22,
+      "probability": 0.097
+    },
+    {
+      "word": "laklao",
+      "start": 74.22,
+      "end": 74.78,
+      "probability": 0.403
+    },
+    {
+      "word": "tai",
+      "start": 74.78,
+      "end": 75.22,
+      "probability": 0.206
+    },
+    {
+      "word": "nahi",
+      "start": 75.22,
+      "end": 75.72,
+      "probability": 0.695
+    },
+    {
+      "word": "Uz",
+      "start": 75.72,
+      "end": 76.06,
+      "probability": 0.238
+    },
+    {
+      "word": "dhin",
+      "start": 76.06,
+      "end": 76.32,
+      "probability": 0.35
+    },
+    {
+      "word": "se",
+      "start": 76.32,
+      "end": 76.62,
+      "probability": 0.788
+    },
+    {
+      "word": "dosti",
+      "start": 76.62,
+      "end": 77.3,
+      "probability": 0.509
+    },
+    {
+      "word": "dhundi",
+      "start": 77.3,
+      "end": 77.92,
+      "probability": 0.594
+    },
+    {
+      "word": "thi",
+      "start": 77.92,
+      "end": 78.26,
+      "probability": 0.7
+    },
+    {
+      "word": "pari",
+      "start": 78.26,
+      "end": 78.72,
+      "probability": 0.515
+    },
+    {
+      "word": "haa",
+      "start": 78.72,
+      "end": 78.9,
+      "probability": 0.247
+    },
+    {
+      "word": "ke",
+      "start": 78.9,
+      "end": 79.1,
+      "probability": 0.334
+    },
+    {
+      "word": "bati",
+      "start": 79.1,
+      "end": 79.54,
+      "probability": 0.158
+    },
+    {
+      "word": "pari",
+      "start": 79.54,
+      "end": 80.1,
+      "probability": 0.673
+    },
+    {
+      "word": "nahi",
+      "start": 80.1,
+      "end": 80.68,
+      "probability": 0.98
+    },
+    {
+      "word": "Jabrol",
+      "start": 80.68,
+      "end": 81.04,
+      "probability": 0.159
+    },
+    {
+      "word": "koal",
+      "start": 81.04,
+      "end": 81.64,
+      "probability": 0.409
+    },
+    {
+      "word": "pethu",
+      "start": 81.64,
+      "end": 82.06,
+      "probability": 0.624
+    },
+    {
+      "word": "prezant",
+      "start": 82.06,
+      "end": 82.76,
+      "probability": 0.445
+    },
+    {
+      "word": "tha",
+      "start": 82.76,
+      "end": 82.94,
+      "probability": 0.032
+    },
+    {
+      "word": "hai",
+      "start": 82.94,
+      "end": 83.12,
+      "probability": 0.774
+    },
+    {
+      "word": "Mera",
+      "start": 83.12,
+      "end": 83.66,
+      "probability": 0.285
+    },
+    {
+      "word": "dhulpe",
+      "start": 83.66,
+      "end": 84.08,
+      "probability": 0.421
+    },
+    {
+      "word": "wajahi",
+      "start": 84.08,
+      "end": 84.9,
+      "probability": 0.408
+    },
+    {
+      "word": "jhumme",
+      "start": 84.9,
+      "end": 85.54,
+      "probability": 0.327
+    },
+    {
+      "word": "hai",
+      "start": 85.54,
+      "end": 85.76,
+      "probability": 0.199
+    },
+    {
+      "word": "Tu",
+      "start": 85.76,
+      "end": 86.22,
+      "probability": 0.12
+    },
+    {
+      "word": "hake",
+      "start": 86.22,
+      "end": 86.56,
+      "probability": 0.193
+    },
+    {
+      "word": "ki",
+      "start": 86.56,
+      "end": 86.86,
+      "probability": 0.938
+    },
+    {
+      "word": "bench",
+      "start": 86.86,
+      "end": 87.26,
+      "probability": 0.495
+    },
+    {
+      "word": "pe",
+      "start": 87.26,
+      "end": 87.46,
+      "probability": 0.294
+    },
+    {
+      "word": "bethi",
+      "start": 87.46,
+      "end": 87.92,
+      "probability": 0.284
+    },
+    {
+      "word": "rahi",
+      "start": 87.92,
+      "end": 88.32,
+      "probability": 0.452
+    },
+    {
+      "word": "aur",
+      "start": 88.32,
+      "end": 88.66,
+      "probability": 0.62
+    },
+    {
+      "word": "adhukte",
+      "start": 88.66,
+      "end": 89.34,
+      "probability": 0.461
+    },
+    {
+      "word": "rahi",
+      "start": 89.34,
+      "end": 89.68,
+      "probability": 0.446
+    },
+    {
+      "word": "rukh",
+      "start": 89.68,
+      "end": 89.96,
+      "probability": 0.64
+    },
+    {
+      "word": "jhumme",
+      "start": 89.96,
+      "end": 90.6,
+      "probability": 0.681
+    },
+    {
+      "word": "Rav",
+      "start": 92.2,
+      "end": 93.12,
+      "probability": 0.439
+    },
+    {
+      "word": "Kapi",
+      "start": 93.12,
+      "end": 93.58,
+      "probability": 0.436
+    },
+    {
+      "word": "ke",
+      "start": 93.58,
+      "end": 93.8,
+      "probability": 0.865
+    },
+    {
+      "word": "Aakhari",
+      "start": 93.8,
+      "end": 94.38,
+      "probability": 0.227
+    },
+    {
+      "word": "Panne",
+      "start": 94.38,
+      "end": 94.94,
+      "probability": 0.423
+    },
+    {
+      "word": "Petraahi",
+      "start": 94.94,
+      "end": 96.14,
+      "probability": 0.003
+    },
+    {
+      "word": "Nam",
+      "start": 96.14,
+      "end": 96.52,
+      "probability": 0.06
+    },
+    {
+      "word": "Likha",
+      "start": 96.52,
+      "end": 97.2,
+      "probability": 0.502
+    },
+    {
+      "word": "manin",
+      "start": 97.2,
+      "end": 97.88,
+      "probability": 0.156
+    },
+    {
+      "word": "Formula",
+      "start": 97.88,
+      "end": 98.68,
+      "probability": 0.059
+    },
+    {
+      "word": "Sarib",
+      "start": 98.68,
+      "end": 99.34,
+      "probability": 0.094
+    },
+    {
+      "word": "hula",
+      "start": 99.34,
+      "end": 99.62,
+      "probability": 0.3
+    },
+    {
+      "word": "ke",
+      "start": 99.62,
+      "end": 99.94,
+      "probability": 0.334
+    },
+    {
+      "word": "Vibas",
+      "start": 99.94,
+      "end": 100.58,
+      "probability": 0.336
+    },
+    {
+      "word": "tuji",
+      "start": 100.58,
+      "end": 101.02,
+      "probability": 0.317
+    },
+    {
+      "word": "ko",
+      "start": 101.02,
+      "end": 101.22,
+      "probability": 0.818
+    },
+    {
+      "word": "yaad",
+      "start": 101.22,
+      "end": 101.8,
+      "probability": 0.586
+    },
+    {
+      "word": "rekha",
+      "start": 101.8,
+      "end": 102.22,
+      "probability": 0.479
+    },
+    {
+      "word": "manin",
+      "start": 102.22,
+      "end": 102.82,
+      "probability": 0.854
+    },
+    {
+      "word": "Haa",
+      "start": 102.82,
+      "end": 103.24,
+      "probability": 0.209
+    },
+    {
+      "word": "chutti",
+      "start": 103.24,
+      "end": 103.7,
+      "probability": 0.392
+    },
+    {
+      "word": "ki",
+      "start": 103.7,
+      "end": 103.92,
+      "probability": 0.958
+    },
+    {
+      "word": "ganti",
+      "start": 103.92,
+      "end": 104.26,
+      "probability": 0.373
+    },
+    {
+      "word": "wajde",
+      "start": 104.26,
+      "end": 105.08,
+      "probability": 0.195
+    },
+    {
+      "word": "he",
+      "start": 105.08,
+      "end": 105.32,
+      "probability": 0.002
+    },
+    {
+      "word": "Dil",
+      "start": 105.32,
+      "end": 105.88,
+      "probability": 0.214
+    },
+    {
+      "word": "cycle",
+      "start": 105.88,
+      "end": 106.32,
+      "probability": 0.207
+    },
+    {
+      "word": "desh",
+      "start": 106.32,
+      "end": 106.94,
+      "probability": 0.273
+    },
+    {
+      "word": "chalata",
+      "start": 106.94,
+      "end": 107.44,
+      "probability": 0.492
+    },
+    {
+      "word": "hai",
+      "start": 107.44,
+      "end": 107.88,
+      "probability": 0.916
+    },
+    {
+      "word": "Rav",
+      "start": 107.88,
+      "end": 108.22,
+      "probability": 0.892
+    },
+    {
+      "word": "Kapi",
+      "start": 108.22,
+      "end": 108.7,
+      "probability": 0.969
+    },
+    {
+      "word": "ke",
+      "start": 108.7,
+      "end": 108.92,
+      "probability": 0.988
+    },
+    {
+      "word": "Aakhari",
+      "start": 108.92,
+      "end": 109.48,
+      "probability": 0.935
+    },
+    {
+      "word": "Panne",
+      "start": 109.48,
+      "end": 110.06,
+      "probability": 0.978
+    },
+    {
+      "word": "Petraahi",
+      "start": 110.06,
+      "end": 110.66,
+      "probability": 0.837
+    },
+    {
+      "word": "Nam",
+      "start": 110.66,
+      "end": 110.66,
+      "probability": 0.158
+    },
+    {
+      "word": "Likha",
+      "start": 110.66,
+      "end": 110.66,
+      "probability": 0.934
+    },
+    {
+      "word": "manin",
+      "start": 110.66,
+      "end": 110.66,
+      "probability": 0.758
+    },
+    {
+      "word": "Rav",
+      "start": 110.66,
+      "end": 111.12,
+      "probability": 0.002
+    },
+    {
+      "word": "Kapi",
+      "start": 111.12,
+      "end": 111.12,
+      "probability": 0.01
+    },
+    {
+      "word": "ke",
+      "start": 111.12,
+      "end": 111.12,
+      "probability": 0.0
+    },
+    {
+      "word": "Aakhari",
+      "start": 111.12,
+      "end": 111.28,
+      "probability": 0.002
+    },
+    {
+      "word": "Panne",
+      "start": 111.28,
+      "end": 111.28,
+      "probability": 0.001
+    },
+    {
+      "word": "Petraahi",
+      "start": 111.28,
+      "end": 111.28,
+      "probability": 0.103
+    },
+    {
+      "word": "Nam",
+      "start": 111.28,
+      "end": 111.76,
+      "probability": 0.006
+    },
+    {
+      "word": "Likha",
+      "start": 111.76,
+      "end": 112.34,
+      "probability": 0.41
+    },
+    {
+      "word": "manin",
+      "start": 112.34,
+      "end": 113.22,
+      "probability": 0.022
+    },
+    {
+      "word": "Paveh",
+      "start": 115.56,
+      "end": 116.94,
+      "probability": 0.047
+    },
+    {
+      "word": "ki",
+      "start": 116.94,
+      "end": 117.78,
+      "probability": 0.001
+    },
+    {
+      "word": "Aakhari",
+      "start": 117.78,
+      "end": 118.6,
+      "probability": 0.336
+    },
+    {
+      "word": "Panne",
+      "start": 118.6,
+      "end": 123.24,
+      "probability": 0.812
+    },
+    {
+      "word": "Petraahi",
+      "start": 123.24,
+      "end": 123.28,
+      "probability": 0.802
+    },
+    {
+      "word": "Nam",
+      "start": 123.28,
+      "end": 123.28,
+      "probability": 0.478
+    },
+    {
+      "word": "Likha",
+      "start": 123.28,
+      "end": 123.28,
+      "probability": 0.977
+    },
+    {
+      "word": "manin��",
+      "start": 123.28,
+      "end": 123.28,
+      "probability": 0.613
+    },
+    {
+      "word": "Rahi",
+      "start": 123.28,
+      "end": 123.28,
+      "probability": 0.03
+    },
+    {
+      "word": "naa",
+      "start": 123.28,
+      "end": 123.28,
+      "probability": 0.419
+    },
+    {
+      "word": "Likha",
+      "start": 123.28,
+      "end": 123.28,
+      "probability": 0.622
+    },
+    {
+      "word": "manin",
+      "start": 123.28,
+      "end": 123.28,
+      "probability": 0.916
+    },
+    {
+      "word": "Cycle",
+      "start": 123.28,
+      "end": 124.48,
+      "probability": 0.119
+    },
+    {
+      "word": "STEM",
+      "start": 124.48,
+      "end": 124.98,
+      "probability": 0.008
+    },
+    {
+      "word": "Pherokta",
+      "start": 124.98,
+      "end": 125.78,
+      "probability": 0.39
+    },
+    {
+      "word": "hun",
+      "start": 125.78,
+      "end": 126.18,
+      "probability": 0.079
+    },
+    {
+      "word": "Jabh",
+      "start": 126.18,
+      "end": 126.48,
+      "probability": 0.088
+    },
+    {
+      "word": "taktubhe",
+      "start": 126.48,
+      "end": 127.42,
+      "probability": 0.192
+    },
+    {
+      "word": "gyodhati",
+      "start": 127.42,
+      "end": 128.24,
+      "probability": 0.353
+    },
+    {
+      "word": "nahi",
+      "start": 128.24,
+      "end": 128.7,
+      "probability": 0.606
+    },
+    {
+      "word": "тери",
+      "start": 128.7,
+      "end": 129.18,
+      "probability": 0.066
+    },
+    {
+      "word": "بس",
+      "start": 129.18,
+      "end": 129.7,
+      "probability": 0.599
+    },
+    {
+      "word": "جب",
+      "start": 129.7,
+      "end": 129.98,
+      "probability": 0.344
+    },
+    {
+      "word": "تک",
+      "start": 129.98,
+      "end": 130.28,
+      "probability": 0.83
+    },
+    {
+      "word": "مڑنا",
+      "start": 130.28,
+      "end": 130.8,
+      "probability": 0.663
+    },
+    {
+      "word": "جائے",
+      "start": 130.8,
+      "end": 131.52,
+      "probability": 0.774
+    },
+    {
+      "word": "چین",
+      "start": 131.52,
+      "end": 131.98,
+      "probability": 0.703
+    },
+    {
+      "word": "سے",
+      "start": 131.98,
+      "end": 132.2,
+      "probability": 0.807
+    },
+    {
+      "word": "شاماتی",
+      "start": 132.2,
+      "end": 133.26,
+      "probability": 0.572
+    },
+    {
+      "word": "نہیں",
+      "start": 133.26,
+      "end": 133.52,
+      "probability": 0.894
+    },
+    {
+      "word": "گھر",
+      "start": 133.52,
+      "end": 134.08,
+      "probability": 0.679
+    },
+    {
+      "word": "آکے",
+      "start": 134.08,
+      "end": 134.54,
+      "probability": 0.609
+    },
+    {
+      "word": "کتابے",
+      "start": 134.54,
+      "end": 135.34,
+      "probability": 0.599
+    },
+    {
+      "word": "کھولتا",
+      "start": 135.34,
+      "end": 135.94,
+      "probability": 0.606
+    },
+    {
+      "word": "ہوں",
+      "start": 135.94,
+      "end": 136.3,
+      "probability": 0.634
+    },
+    {
+      "word": "وقت",
+      "start": 136.3,
+      "end": 137.04,
+      "probability": 0.666
+    },
+    {
+      "word": "تو",
+      "start": 137.04,
+      "end": 137.28,
+      "probability": 0.665
+    },
+    {
+      "word": "بس",
+      "start": 137.28,
+      "end": 137.56,
+      "probability": 0.772
+    },
+    {
+      "word": "دوبانا",
+      "start": 137.56,
+      "end": 138.4,
+      "probability": 0.633
+    },
+    {
+      "word": "ہے",
+      "start": 138.4,
+      "end": 138.84,
+      "probability": 0.98
+    },
+    {
+      "word": "حس",
+      "start": 138.84,
+      "end": 139.48,
+      "probability": 0.461
+    },
+    {
+      "word": "تری",
+      "start": 139.48,
+      "end": 139.76,
+      "probability": 0.159
+    },
+    {
+      "word": "کے",
+      "start": 139.76,
+      "end": 139.92,
+      "probability": 0.151
+    },
+    {
+      "word": "سوے",
+      "start": 139.92,
+      "end": 140.28,
+      "probability": 0.728
+    },
+    {
+      "word": "پنوں",
+      "start": 140.28,
+      "end": 140.94,
+      "probability": 0.671
+    },
+    {
+      "word": "میں",
+      "start": 140.94,
+      "end": 141.24,
+      "probability": 0.963
+    },
+    {
+      "word": "بس",
+      "start": 141.24,
+      "end": 141.62,
+      "probability": 0.982
+    },
+    {
+      "word": "تیرا",
+      "start": 141.62,
+      "end": 142.22,
+      "probability": 0.601
+    },
+    {
+      "word": "زکرسا",
+      "start": 142.22,
+      "end": 142.92,
+      "probability": 0.599
+    },
+    {
+      "word": "جانا",
+      "start": 142.92,
+      "end": 143.44,
+      "probability": 0.914
+    },
+    {
+      "word": "ہے",
+      "start": 143.44,
+      "end": 143.84,
+      "probability": 0.994
+    },
+    {
+      "word": "دوستوں",
+      "start": 143.84,
+      "end": 144.7,
+      "probability": 0.718
+    },
+    {
+      "word": "میں",
+      "start": 144.7,
+      "end": 144.86,
+      "probability": 0.108
+    },
+    {
+      "word": "چیرا",
+      "start": 144.86,
+      "end": 145.14,
+      "probability": 0.605
+    },
+    {
+      "word": "کتنی",
+      "start": 145.14,
+      "end": 145.9,
+      "probability": 0.622
+    },
+    {
+      "word": "دفا",
+      "start": 145.9,
+      "end": 146.28,
+      "probability": 0.677
+    },
+    {
+      "word": "میں",
+      "start": 146.28,
+      "end": 146.56,
+      "probability": 0.317
+    },
+    {
+      "word": "جو",
+      "start": 146.56,
+      "end": 146.9,
+      "probability": 0.855
+    },
+    {
+      "word": "ٹی",
+      "start": 146.9,
+      "end": 147.22,
+      "probability": 0.593
+    },
+    {
+      "word": "کس",
+      "start": 147.22,
+      "end": 147.56,
+      "probability": 0.661
+    },
+    {
+      "word": "میں",
+      "start": 147.56,
+      "end": 147.76,
+      "probability": 0.945
+    },
+    {
+      "word": "خطا",
+      "start": 147.76,
+      "end": 148.2,
+      "probability": 0.564
+    },
+    {
+      "word": "ہوں",
+      "start": 148.2,
+      "end": 148.46,
+      "probability": 0.996
+    },
+    {
+      "word": "برا",
+      "start": 148.46,
+      "end": 149.2,
+      "probability": 0.494
+    },
+    {
+      "word": "آینے",
+      "start": 149.2,
+      "end": 149.62,
+      "probability": 0.53
+    },
+    {
+      "word": "کے",
+      "start": 149.62,
+      "end": 149.88,
+      "probability": 0.855
+    },
+    {
+      "word": "آگے",
+      "start": 149.88,
+      "end": 150.3,
+      "probability": 0.925
+    },
+    {
+      "word": "خڑے",
+      "start": 150.3,
+      "end": 150.68,
+      "probability": 0.699
+    },
+    {
+      "word": "تو",
+      "start": 150.68,
+      "end": 151.08,
+      "probability": 0.951
+    },
+    {
+      "word": "جہی",
+      "start": 151.08,
+      "end": 151.6,
+      "probability": 0.713
+    },
+    {
+      "word": "کہ",
+      "start": 151.6,
+      "end": 152.18,
+      "probability": 0.781
+    },
+    {
+      "word": "نے",
+      "start": 152.18,
+      "end": 152.48,
+      "probability": 0.138
+    },
+    {
+      "word": "شرماتا",
+      "start": 152.48,
+      "end": 153.52,
+      "probability": 0.783
+    },
+    {
+      "word": "ہوں",
+      "start": 153.52,
+      "end": 153.76,
+      "probability": 0.996
+    },
+    {
+      "word": "کبھی",
+      "start": 153.76,
+      "end": 154.08,
+      "probability": 0.665
+    },
+    {
+      "word": "تو",
+      "start": 154.08,
+      "end": 154.28,
+      "probability": 0.99
+    },
+    {
+      "word": "آخری",
+      "start": 154.28,
+      "end": 154.84,
+      "probability": 0.663
+    },
+    {
+      "word": "بنچے",
+      "start": 154.84,
+      "end": 155.34,
+      "probability": 0.593
+    },
+    {
+      "word": "سے",
+      "start": 155.34,
+      "end": 155.5,
+      "probability": 0.992
+    },
+    {
+      "word": "آگی",
+      "start": 155.5,
+      "end": 156.04,
+      "probability": 0.75
+    },
+    {
+      "word": "میں",
+      "start": 156.04,
+      "end": 156.48,
+      "probability": 0.063
+    },
+    {
+      "word": "مد",
+      "start": 156.48,
+      "end": 157.0,
+      "probability": 0.187
+    },
+    {
+      "word": "کر",
+      "start": 157.0,
+      "end": 157.26,
+      "probability": 0.882
+    },
+    {
+      "word": "کے",
+      "start": 157.26,
+      "end": 157.6,
+      "probability": 0.729
+    },
+    {
+      "word": "آہوں",
+      "start": 157.6,
+      "end": 158.02,
+      "probability": 0.326
+    },
+    {
+      "word": "گا",
+      "start": 158.02,
+      "end": 158.34,
+      "probability": 0.564
+    },
+    {
+      "word": "دو",
+      "start": 158.34,
+      "end": 159.16,
+      "probability": 0.337
+    },
+    {
+      "word": "جھ",
+      "start": 159.16,
+      "end": 159.4,
+      "probability": 0.551
+    },
+    {
+      "word": "رف",
+      "start": 159.4,
+      "end": 159.56,
+      "probability": 0.612
+    },
+    {
+      "word": "کوپی",
+      "start": 159.56,
+      "end": 160.08,
+      "probability": 0.752
+    },
+    {
+      "word": "کا",
+      "start": 160.08,
+      "end": 160.24,
+      "probability": 0.719
+    },
+    {
+      "word": "ہر",
+      "start": 160.24,
+      "end": 160.5,
+      "probability": 0.8
+    },
+    {
+      "word": "پنانا",
+      "start": 160.5,
+      "end": 161.26,
+      "probability": 0.331
+    },
+    {
+      "word": "چھوب",
+      "start": 161.26,
+      "end": 161.74,
+      "probability": 0.262
+    },
+    {
+      "word": "کیسے",
+      "start": 161.74,
+      "end": 162.3,
+      "probability": 0.482
+    },
+    {
+      "word": "دکھلا",
+      "start": 162.3,
+      "end": 162.78,
+      "probability": 0.765
+    },
+    {
+      "word": "ہوں",
+      "start": 162.78,
+      "end": 163.02,
+      "probability": 0.636
+    },
+    {
+      "word": "گا",
+      "start": 163.02,
+      "end": 163.38,
+      "probability": 0.986
+    },
+    {
+      "word": "یہ",
+      "start": 163.38,
+      "end": 164.04,
+      "probability": 0.77
+    },
+    {
+      "word": "در",
+      "start": 164.04,
+      "end": 164.56,
+      "probability": 0.508
+    },
+    {
+      "word": "بھی",
+      "start": 164.56,
+      "end": 164.86,
+      "probability": 0.778
+    },
+    {
+      "word": "ہے",
+      "start": 164.86,
+      "end": 165.06,
+      "probability": 0.938
+    },
+    {
+      "word": "کہ",
+      "start": 165.06,
+      "end": 165.22,
+      "probability": 0.811
+    },
+    {
+      "word": "تو",
+      "start": 165.22,
+      "end": 165.58,
+      "probability": 0.498
+    },
+    {
+      "word": "حسنا",
+      "start": 165.58,
+      "end": 166.02,
+      "probability": 0.647
+    },
+    {
+      "word": "دیکھ",
+      "start": 166.02,
+      "end": 166.42,
+      "probability": 0.675
+    },
+    {
+      "word": "پروں",
+      "start": 166.42,
+      "end": 166.78,
+      "probability": 0.58
+    },
+    {
+      "word": "مید",
+      "start": 166.78,
+      "end": 167.24,
+      "probability": 0.618
+    },
+    {
+      "word": "بھی",
+      "start": 167.24,
+      "end": 167.46,
+      "probability": 0.746
+    },
+    {
+      "word": "تھوڑی",
+      "start": 167.46,
+      "end": 168.02,
+      "probability": 0.757
+    },
+    {
+      "word": "باکی",
+      "start": 168.02,
+      "end": 168.6,
+      "probability": 0.866
+    },
+    {
+      "word": "ہے",
+      "start": 168.6,
+      "end": 168.94,
+      "probability": 0.925
+    },
+    {
+      "word": "تیرا",
+      "start": 168.94,
+      "end": 169.3,
+      "probability": 0.463
+    },
+    {
+      "word": "مڑ",
+      "start": 169.3,
+      "end": 169.62,
+      "probability": 0.786
+    },
+    {
+      "word": "کے",
+      "start": 169.62,
+      "end": 169.84,
+      "probability": 0.575
+    },
+    {
+      "word": "ایک",
+      "start": 169.84,
+      "end": 170.22,
+      "probability": 0.837
+    },
+    {
+      "word": "دفا",
+      "start": 170.22,
+      "end": 170.6,
+      "probability": 0.682
+    },
+    {
+      "word": "دیکھنا",
+      "start": 170.6,
+      "end": 171.24,
+      "probability": 0.845
+    },
+    {
+      "word": "بس",
+      "start": 171.24,
+      "end": 171.9,
+      "probability": 0.657
+    },
+    {
+      "word": "تنائی",
+      "start": 171.9,
+      "end": 172.52,
+      "probability": 0.591
+    },
+    {
+      "word": "کافی",
+      "start": 172.52,
+      "end": 173.08,
+      "probability": 0.832
+    },
+    {
+      "word": "ہے",
+      "start": 173.08,
+      "end": 173.42,
+      "probability": 0.988
+    },
+    {
+      "word": "آئتنائی",
+      "start": 173.42,
+      "end": 175.0,
+      "probability": 0.632
+    },
+    {
+      "word": "کافی",
+      "start": 175.0,
+      "end": 175.56,
+      "probability": 0.995
+    },
+    {
+      "word": "ہے",
+      "start": 175.56,
+      "end": 175.86,
+      "probability": 0.997
+    },
+    {
+      "word": "رف",
+      "start": 175.86,
+      "end": 176.26,
+      "probability": 0.963
+    },
+    {
+      "word": "کوپی",
+      "start": 176.26,
+      "end": 176.68,
+      "probability": 0.985
+    },
+    {
+      "word": "کے",
+      "start": 176.68,
+      "end": 176.92,
+      "probability": 0.907
+    },
+    {
+      "word": "آخری",
+      "start": 176.92,
+      "end": 177.48,
+      "probability": 0.633
+    },
+    {
+      "word": "کنے",
+      "start": 177.48,
+      "end": 178.08,
+      "probability": 0.497
+    },
+    {
+      "word": "پے",
+      "start": 178.08,
+      "end": 178.38,
+      "probability": 0.403
+    },
+    {
+      "word": "تیرا",
+      "start": 178.38,
+      "end": 178.88,
+      "probability": 0.767
+    },
+    {
+      "word": "آئی",
+      "start": 178.88,
+      "end": 179.32,
+      "probability": 0.692
+    },
+    {
+      "word": "نام",
+      "start": 179.32,
+      "end": 179.74,
+      "probability": 0.548
+    },
+    {
+      "word": "لکھا",
+      "start": 179.74,
+      "end": 180.3,
+      "probability": 0.732
+    },
+    {
+      "word": "میں",
+      "start": 180.3,
+      "end": 180.56,
+      "probability": 0.723
+    },
+    {
+      "word": "بس",
+      "start": 180.56,
+      "end": 181.2,
+      "probability": 0.454
+    },
+    {
+      "word": "مدس",
+      "start": 181.2,
+      "end": 181.7,
+      "probability": 0.684
+    },
+    {
+      "word": "کے",
+      "start": 181.7,
+      "end": 181.92,
+      "probability": 0.98
+    },
+    {
+      "word": "آخری",
+      "start": 181.92,
+      "end": 182.48,
+      "probability": 0.99
+    },
+    {
+      "word": "پیڑے",
+      "start": 182.48,
+      "end": 183.1,
+      "probability": 0.473
+    },
+    {
+      "word": "میں",
+      "start": 183.1,
+      "end": 183.34,
+      "probability": 0.988
+    },
+    {
+      "word": "تو",
+      "start": 183.34,
+      "end": 183.8,
+      "probability": 0.02
+    },
+    {
+      "word": "جھ",
+      "start": 183.8,
+      "end": 183.98,
+      "probability": 0.021
+    },
+    {
+      "word": "کو",
+      "start": 183.98,
+      "end": 184.16,
+      "probability": 0.192
+    },
+    {
+      "word": "ہی",
+      "start": 184.16,
+      "end": 184.46,
+      "probability": 0.689
+    },
+    {
+      "word": "آڑے",
+      "start": 184.46,
+      "end": 184.92,
+      "probability": 0.264
+    },
+    {
+      "word": "دکھا",
+      "start": 184.92,
+      "end": 185.3,
+      "probability": 0.306
+    },
+    {
+      "word": "میں",
+      "start": 185.3,
+      "end": 185.54,
+      "probability": 0.179
+    },
+    {
+      "word": "نے",
+      "start": 185.54,
+      "end": 185.94,
+      "probability": 0.66
+    }
+  ],
+  "structured_sections": [
+    {
+      "name": "Intro",
+      "lines": [
+        "Title: Rough Copy (School Crush Song)"
+      ]
+    },
+    {
+      "name": "Intro",
+      "lines": [
+        "(Upbeat acoustic guitar strumming, light whistling, distant school bell chime)"
+      ]
+    },
+    {
+      "name": "Mukhda / Chorus",
+      "lines": [
+        "Rough copy ke aakhri panne pe, tera hi naam likha maine,",
+        "Formula saare bhula ke bhi, bas tujhko yaad rakha maine.",
+        "Class mein dhyan lagata hoon, par nazrein tujh pe rehti hain,",
+        "Dhadkanein meri bina kahe, kitna kuch tujhse kehti hain!",
+        "Haan chhutti ki ghanti bajte hi, dil cycle tez chalata hai,",
+        "Rough copy ke aakhri panne pe, tera hi naam likha maine."
+      ]
+    },
+    {
+      "name": "Antara 1 / Verse 1",
+      "lines": [
+        "Woh recess ki thodi jaldi mein, corridor mein takraana tera,",
+        "\"Sorry\" keh kar halke se, nazrein jhuka ke muskuraana tera.",
+        "Ik blue ink pen jo maangi thi, maine aaj talak lautayi nahi,",
+        "Us din se dosti dhoondhi thi, par aage baat badhayi nahi.",
+        "Jab roll call pe tu \"Present\" kahe, mera dil be-wajah hi jhoome hai,",
+        "Tu aage ki bench pe baithi rahe, aur dhoop tere rukh choome hai."
+      ]
+    },
+    {
+      "name": "Mukhda Reprise / Chorus",
+      "lines": [
+        "Rough copy ke aakhri panne pe, tera hi naam likha maine,",
+        "Formula saare bhula ke bhi, bas tujhko yaad rakha maine.",
+        "Haan chhutti ki ghanti bajte hi, dil cycle tez chalata hai,",
+        "Rough copy ke aakhri panne pe, tera hi naam likha maine."
+      ]
+    },
+    {
+      "name": "Antara 2 / Verse 2",
+      "lines": [
+        "Cycle stand pe rukta hoon, jab tak tu bag uthati nahi,",
+        "Teri bus jab tak mud na jaaye, chain se shaam aati nahi.",
+        "Ghar aake kitaabein kholta hoon, homework toh bas bahaana hai,",
+        "History ke soye panno mein, bas tera zikr sajaana hai.",
+        "Doston ne chheda kitni dafa, main jhoothi kasmein khata hoon,",
+        "Par aaine ke aage khade, tujhe \"Hi\" kehne sharmata hoon!"
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        "Kabhi toh aakhri bench se aage, main himmat karke aaunga,",
+        "Tujhe rough copy ka har panna, chupke se dikhlaunga.",
+        "Yeh darr bhi hai ke tu hans na de, par umeed bhi thodi baaqi hai,",
+        "Tera mud ke ek dafa dekhna, bas itna hi kaafi hai...",
+        "Haan itna hi kaafi hai!"
+      ]
+    },
+    {
+      "name": "Outro",
+      "lines": [
+        "Rough copy ke aakhri panne pe...",
+        "Tera hi naam likha maine...",
+        "Bas maths ke aakhri period mein,",
+        "Tujhko hi yaad rakha maine...",
+        "(Bicycle bell ding, soft acoustic fade out)"
+      ]
+    }
+  ]
+}
