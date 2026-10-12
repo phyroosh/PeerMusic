@@ -1,5 +1,6 @@
 import React from "react";
 import { Composition } from "remotion";
+import { BotanicalScrapbookSong } from "./songs/kacchi-neendein/BotanicalScrapbookSong";
 import { KacchiNeendeinSong } from "./songs/kacchi-neendein/KacchiNeendeinSong";
 import rawTimeline from "./songs/kacchi-neendein/timeline.json";
 import { TimelineData, getTimelineDuration } from "./engine/types";
@@ -35,19 +36,37 @@ const fps = rawTimeline.fps || VIDEO_CONFIG.defaultFps;
 export const Root: React.FC = () => {
   return (
     <>
-      {/* 1. Master 16:9 Landscape Composition (YouTube / Desktop / TV) */}
+      {/* 1. Official DEFAULT Composition: Botanical Scrapbook Landscape (YouTube / Desktop / TV) */}
       <Composition
         id="KacchiNeendein-Landscape"
-        component={KacchiNeendeinSong}
+        component={BotanicalScrapbookSong}
         durationInFrames={durationInFrames}
         fps={fps}
         width={VIDEO_CONFIG.landscape.width}
         height={VIDEO_CONFIG.landscape.height}
       />
 
-      {/* 2. Master 9:16 Vertical Composition (Instagram Reels / YouTube Shorts / TikTok) */}
+      {/* 2. Official DEFAULT Composition: Botanical Scrapbook Vertical (Instagram Reels / YouTube Shorts / TikTok) */}
       <Composition
         id="KacchiNeendein-Vertical"
+        component={BotanicalScrapbookSong}
+        durationInFrames={durationInFrames}
+        fps={fps}
+        width={VIDEO_CONFIG.vertical.width}
+        height={VIDEO_CONFIG.vertical.height}
+      />
+
+      {/* 3. Dark Void Noir Variant (Secondary / Alternative) */}
+      <Composition
+        id="KacchiNeendein-DarkVoid-Landscape"
+        component={KacchiNeendeinSong}
+        durationInFrames={durationInFrames}
+        fps={fps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="KacchiNeendein-DarkVoid-Vertical"
         component={KacchiNeendeinSong}
         durationInFrames={durationInFrames}
         fps={fps}

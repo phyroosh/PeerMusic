@@ -60,9 +60,42 @@ Before writing any Remotion scene code, you MUST execute this 4-step creative di
 
 ---
 
-## 🎨 5 Elite Aesthetic Design Languages
+---
 
-Select **one locked visual language** matching the musical genre and mood:
+## 🌿 The Official Locked Default: Botanical Scrapbook (Herbarium)
+
+> [!IMPORTANT]
+> **Theme 11: Botanical Scrapbook is the PERMANENT DEFAULT THEME for PeerMusic.**
+> Do not randomly rotate or switch themes. All music videos, lyrical scenes, and visual compositions must strictly default to this locked aesthetic system.
+
+### Visual Architecture & Design Tokens
+1. **Background Canvas**:
+   - Base Color: `#EFE8DC` (Warm Oatmeal Kraft Paper).
+   - Journal Ruled Grid: Subtle 40×40px square grid lines (`#7A6F5D`, 0.8px stroke, 0.15 opacity).
+   - Notebook Red Margin: Vertical guideline at `x=180px` in Landscape, `x=40px` in Vertical (`#D9534F`, 1.5px stroke, 0.6 opacity).
+   - Tactile Paper Texture: `PaperTexture` overlay at `0.12` opacity.
+2. **Pressed Herbarium Specimen Card**:
+   - Sheet: `#FAF6EE` archival cardboard with soft shadow (`drop-shadow(0 16px 35px rgba(60, 45, 30, 0.12))`) and `#D6CBBA` border.
+   - Cancellation Rubber Stamp: Vintage 1974 Calcutta G.P.O. archive postmark stamp in `#2C3E50` ink at `0.45` opacity, rotated `-14deg`.
+   - Botanical Specimen: Pressed rose stem with olive-fern leaves (`#526E48` -> `#253520`) and dried red rose petal apex (`#C93B4E` -> `#8A2434` -> `#52121C`).
+   - Micro-Motion: Organic continuous breathing float using `Math.sin(frame * 0.04) * 2`.
+   - Washi Tape Strips: Translucent Japanese washi tape (`#EADBBA`, 0.75 opacity) holding down the stem at top and bottom.
+   - Specimen Tag: Handwritten pencil monospace tag (`'Courier New'`) with `SPECIMEN: Rosa indica (Dried 1974)` and track name.
+3. **Literary Vintage Typography**:
+   - Section Capsule: Deep olive-fern green pill badge (`#2A4436`, text `#FAF6EE`, `Space Grotesk`, bold, letter-spacing `0.26em`).
+   - Active Lyrics Headline: *Georgia / Times New Roman* serif font (46px landscape, 36px vertical, 700 weight, `#2C261F`).
+   - Word Synchronicity: Upcoming words at `0.28` opacity; current sung word illuminated in dried rose crimson (`#8A2434`) with a delicate underline; past words in solid charcoal (`#2C261F`).
+   - Poetic Subtitle: Monospace / Courier New (`#6B5E4D`, 15px, line-height 1.6) conveying emotional context.
+4. **Cinematic Standard**:
+   - Always 60 FPS.
+   - Clean canvas: Zero top HUD clutter or technical telemetry tickers.
+
+---
+
+## 🎨 Alternative Creative Design Languages (Secondary Reference Only)
+
+The following alternate themes exist in the library for reference, but **Botanical Scrapbook is always the locked default**:
+
 
 ### 1. Nocturnal Desi Cyber-Noir (Moody Hip-Hop / Late-Night Trap / Club)
 - **Palette:** Deep Void Indigo (`#080910`), Neon Saffron (`#FFA000`), Phosphor Cyan (`#00F5FF`), Slate Muted (`#4E5467`).

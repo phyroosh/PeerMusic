@@ -39,6 +39,7 @@ export interface WordOverride {
 export type TimelineOverrides = Record<string, WordOverride>;
 
 export interface TimelineData {
+  songTitle?: string;
   audioFile?: string;
   fps: number;
   bpm?: number;
