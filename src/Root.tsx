@@ -17,6 +17,17 @@ import { Theme09_FoggyKettle } from "./themes/lofi/Theme09_FoggyKettle";
 import { Theme10_RetroCrtDreams } from "./themes/lofi/Theme10_RetroCrtDreams";
 import { LofiThemesShowcase } from "./themes/lofi/LofiThemesShowcase";
 
+import { Theme11_BotanicalScrapbook } from "./themes/diverse/Theme11_BotanicalScrapbook";
+import { Theme12_SwissBrutalism } from "./themes/diverse/Theme12_SwissBrutalism";
+import { Theme13_NeonRainPuddle } from "./themes/diverse/Theme13_NeonRainPuddle";
+import { Theme14_SufiMandala } from "./themes/diverse/Theme14_SufiMandala";
+import { Theme15_FilmBurnCelluloid } from "./themes/diverse/Theme15_FilmBurnCelluloid";
+import { Theme16_BlueprintAirplane } from "./themes/diverse/Theme16_BlueprintAirplane";
+import { Theme17_HighwayLightTrails } from "./themes/diverse/Theme17_HighwayLightTrails";
+import { Theme18_KintsugiGold } from "./themes/diverse/Theme18_KintsugiGold";
+import { Theme19_HologramMemoryCube } from "./themes/diverse/Theme19_HologramMemoryCube";
+import { Theme20_MilkyWayCampfire } from "./themes/diverse/Theme20_MilkyWayCampfire";
+
 // Derive exact total duration dynamically from the complete timeline
 const durationInFrames = getTimelineDuration(rawTimeline as unknown as TimelineData);
 const fps = rawTimeline.fps || VIDEO_CONFIG.defaultFps;
@@ -131,6 +142,88 @@ export const Root: React.FC = () => {
         id="Lofi-Themes-Showcase"
         component={LofiThemesShowcase}
         durationInFrames={600}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+
+      {/* 5. Diverse Aesthetic Themes 11-20 (60 FPS, 120 frames each) */}
+      <Composition
+        id="Theme11-BotanicalScrapbook"
+        component={Theme11_BotanicalScrapbook}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme12-SwissBrutalism"
+        component={Theme12_SwissBrutalism}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme13-NeonRainPuddle"
+        component={Theme13_NeonRainPuddle}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme14-SufiMandala"
+        component={Theme14_SufiMandala}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme15-FilmBurnCelluloid"
+        component={Theme15_FilmBurnCelluloid}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme16-BlueprintAirplane"
+        component={Theme16_BlueprintAirplane}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme17-HighwayLightTrails"
+        component={Theme17_HighwayLightTrails}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme18-KintsugiGold"
+        component={Theme18_KintsugiGold}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme19-HologramMemoryCube"
+        component={Theme19_HologramMemoryCube}
+        durationInFrames={120}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="Theme20-MilkyWayCampfire"
+        component={Theme20_MilkyWayCampfire}
+        durationInFrames={120}
         fps={VIDEO_CONFIG.defaultFps}
         width={VIDEO_CONFIG.landscape.width}
         height={VIDEO_CONFIG.landscape.height}
