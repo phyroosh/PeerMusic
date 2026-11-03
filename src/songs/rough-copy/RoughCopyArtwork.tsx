@@ -1,7 +1,24 @@
 import React from "react";
+import { useCurrentFrame } from "remotion";
 import { VIDEO_CONFIG } from "../../config/videoConfig";
 
 export const RoughCopyArtwork: React.FC = () => {
+  const frame = useCurrentFrame();
+
+  // Continuous organic micro-motion (never frozen: subtle breathing, paper float & ink pulse)
+  const sheetFloatY = Math.sin(frame * 0.035) * 1.5;
+  const sheetTilt = -4 + Math.sin(frame * 0.025) * 0.5;
+
+  const noteFloatY = Math.cos(frame * 0.04) * 1.8;
+  const noteTilt = 7 + Math.sin(frame * 0.03) * 0.6;
+  const heartScale = 0.9 + Math.sin(frame * 0.075) * 0.035;
+
+  const penFloatX = Math.sin(frame * 0.045) * 1.2;
+  const penFloatY = Math.cos(frame * 0.045) * 1.2;
+  const penTilt = -42 + Math.sin(frame * 0.035) * 0.8;
+  const inkDropRadius = 2.5 + Math.sin(frame * 0.09) * 0.45;
+  const inkGlowOpacity = 0.75 + Math.sin(frame * 0.09) * 0.2;
+
   return (
     <g transform="translate(0, 0)">
       <defs>
@@ -26,7 +43,7 @@ export const RoughCopyArtwork: React.FC = () => {
       </defs>
 
       {/* 1. Miniature Rough Copy Notebook Sheet */}
-      <g transform="translate(-140, -150) rotate(-4)">
+      <g transform={`translate(-140, ${-150 + sheetFloatY}) rotate(${sheetTilt})`}>
         {/* Notebook Page Background */}
         <rect
           x="0"
@@ -79,7 +96,7 @@ export const RoughCopyArtwork: React.FC = () => {
       </g>
 
       {/* 2. Folded Paper Secret Note with Hand-Drawn Heart */}
-      <g transform="translate(-50, -40) rotate(7)">
+      <g transform={`translate(-50, ${-40 + noteFloatY}) rotate(${noteTilt})`}>
         {/* Triangular/Square Folded Note */}
         <polygon
           points="0,0 120,-15 135,90 10,105"
@@ -91,8 +108,8 @@ export const RoughCopyArtwork: React.FC = () => {
         {/* Fold crease */}
         <line x1="0" y1="0" x2="135" y2="90" stroke="#E0D7C9" strokeWidth="1" strokeDasharray="2 2" />
 
-        {/* Hand-Drawn Romantic Heart Doodle */}
-        <g transform="translate(65, 48) scale(0.9)">
+        {/* Hand-Drawn Romantic Heart Doodle with Gentle Heartbeat */}
+        <g transform={`translate(65, 48) scale(${heartScale})`}>
           {/* Soft Watercolor Fill */}
           <path
             d="M 0 -8 C -15 -28, -35 -5, 0 24 C 35 -5, 15 -28, 0 -8 Z"
@@ -133,7 +150,7 @@ export const RoughCopyArtwork: React.FC = () => {
       </g>
 
       {/* 3. Classic Vintage Blue Fountain Pen resting diagonally across the page */}
-      <g transform="translate(50, 40) rotate(-42)">
+      <g transform={`translate(${50 + penFloatX}, ${40 + penFloatY}) rotate(${penTilt})`}>
         {/* Pen Barrel */}
         <rect x="-10" y="-70" width="20" height="150" rx="4" fill="url(#penBody)" filter="url(#noteShadow)" />
         {/* Golden Clip */}
@@ -150,8 +167,8 @@ export const RoughCopyArtwork: React.FC = () => {
         {/* Nib Breathing Hole & Slit */}
         <circle cx="0" cy="126" r="1.5" fill="#1C1D21" />
         <line x1="0" y1="126" x2="0" y2="146" stroke="#1C1D21" strokeWidth="0.8" />
-        {/* Fresh Blue Ink Drop at the Nib Tip */}
-        <circle cx="0" cy="149" r="2.5" fill="#1E3A5F" opacity="0.85" />
+        {/* Fresh Blue Ink Drop at the Nib Tip with micro-glow */}
+        <circle cx="0" cy="149" r={inkDropRadius} fill="#1E3A5F" opacity={inkGlowOpacity} />
       </g>
     </g>
   );

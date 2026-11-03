@@ -1,0 +1,1809 @@
+{
+  "text": " Music You lean against the heavy oak shelf Flipping through pages in the quiet space Dustmoats are floating in golden light I am just staring at your hands Sorting through a stack of old books You do not even know I am here It is just a small crush Watching you in the quiet rush It is just a small crush Wish that you would look up You move your head behind your ear Writing something down in your notebook The clock on the wall takes slow Nobody else is in this corner but us I should probably be studying for French But I am just lost in your world It is just a small crush Watching you in the quiet rush It is just a small crush Wish that you would look up Music It is just a small crush Watching you in the quiet rush It is just a small crush Wish that you would look up The sun is going down now And you are packing up your bag It is just a small crush Wish that you would look up",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.2400000000000002,
+      "end": 2.08,
+      "text": " Music",
+      "tokens": [
+        50364,
+        7609,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3234214349226518,
+      "compression_ratio": 1.3025210084033614,
+      "no_speech_prob": 0.5281647443771362,
+      "words": [
+        {
+          "word": " Music",
+          "start": 1.2400000000000002,
+          "end": 2.08,
+          "probability": 0.007493383251130581
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 11.02,
+      "end": 14.68,
+      "text": " You lean against the heavy oak shelf",
+      "tokens": [
+        50964,
+        509,
+        11659,
+        1970,
+        264,
+        4676,
+        31322,
+        15222,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3234214349226518,
+      "compression_ratio": 1.3025210084033614,
+      "no_speech_prob": 0.5281647443771362,
+      "words": [
+        {
+          "word": " You",
+          "start": 11.02,
+          "end": 11.86,
+          "probability": 0.00958313886076212
+        },
+        {
+          "word": " lean",
+          "start": 11.86,
+          "end": 12.7,
+          "probability": 0.9636071920394897
+        },
+        {
+          "word": " against",
+          "start": 12.7,
+          "end": 13.06,
+          "probability": 0.9928668737411499
+        },
+        {
+          "word": " the",
+          "start": 13.06,
+          "end": 13.24,
+          "probability": 0.6276063919067383
+        },
+        {
+          "word": " heavy",
+          "start": 13.24,
+          "end": 13.58,
+          "probability": 0.9911426305770874
+        },
+        {
+          "word": " oak",
+          "start": 13.58,
+          "end": 14.1,
+          "probability": 0.9767058491706848
+        },
+        {
+          "word": " shelf",
+          "start": 14.1,
+          "end": 14.68,
+          "probability": 0.9869216680526733
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 14.68,
+      "end": 17.86,
+      "text": " Flipping through pages in the quiet space",
+      "tokens": [
+        51114,
+        479,
+        2081,
+        3759,
+        807,
+        7183,
+        294,
+        264,
+        5677,
+        1901,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3234214349226518,
+      "compression_ratio": 1.3025210084033614,
+      "no_speech_prob": 0.5281647443771362,
+      "words": [
+        {
+          "word": " Flipping",
+          "start": 14.68,
+          "end": 15.68,
+          "probability": 0.8697828849156698
+        },
+        {
+          "word": " through",
+          "start": 15.68,
+          "end": 15.98,
+          "probability": 0.9837719798088074
+        },
+        {
+          "word": " pages",
+          "start": 15.98,
+          "end": 16.46,
+          "probability": 0.9834414720535278
+        },
+        {
+          "word": " in",
+          "start": 16.46,
+          "end": 16.72,
+          "probability": 0.9831651449203491
+        },
+        {
+          "word": " the",
+          "start": 16.72,
+          "end": 16.82,
+          "probability": 0.9877464771270752
+        },
+        {
+          "word": " quiet",
+          "start": 16.82,
+          "end": 17.18,
+          "probability": 0.9967713952064514
+        },
+        {
+          "word": " space",
+          "start": 17.18,
+          "end": 17.86,
+          "probability": 0.9945434331893921
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 17.86,
+      "end": 21.3,
+      "text": " Dustmoats are floating in golden light",
+      "tokens": [
+        51264,
+        26483,
+        3280,
+        1720,
+        366,
+        12607,
+        294,
+        9729,
+        1442,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3234214349226518,
+      "compression_ratio": 1.3025210084033614,
+      "no_speech_prob": 0.5281647443771362,
+      "words": [
+        {
+          "word": " Dustmoats",
+          "start": 17.86,
+          "end": 18.96,
+          "probability": 0.6755811125040054
+        },
+        {
+          "word": " are",
+          "start": 18.96,
+          "end": 19.06,
+          "probability": 0.8642169237136841
+        },
+        {
+          "word": " floating",
+          "start": 19.06,
+          "end": 19.44,
+          "probability": 0.9701359868049622
+        },
+        {
+          "word": " in",
+          "start": 19.44,
+          "end": 19.8,
+          "probability": 0.9834225177764893
+        },
+        {
+          "word": " golden",
+          "start": 19.8,
+          "end": 20.22,
+          "probability": 0.971123456954956
+        },
+        {
+          "word": " light",
+          "start": 20.22,
+          "end": 21.3,
+          "probability": 0.9769740700721741
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 23.56,
+      "end": 27.0,
+      "text": " I am just staring at your hands",
+      "tokens": [
+        51564,
+        286,
+        669,
+        445,
+        18043,
+        412,
+        428,
+        2377,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3234214349226518,
+      "compression_ratio": 1.3025210084033614,
+      "no_speech_prob": 0.5281647443771362,
+      "words": [
+        {
+          "word": " I",
+          "start": 23.56,
+          "end": 24.4,
+          "probability": 0.612642228603363
+        },
+        {
+          "word": " am",
+          "start": 24.4,
+          "end": 24.68,
+          "probability": 0.9172762632369995
+        },
+        {
+          "word": " just",
+          "start": 24.68,
+          "end": 24.88,
+          "probability": 0.9932447075843811
+        },
+        {
+          "word": " staring",
+          "start": 24.88,
+          "end": 25.3,
+          "probability": 0.9940411448478699
+        },
+        {
+          "word": " at",
+          "start": 25.3,
+          "end": 25.74,
+          "probability": 0.9940299987792969
+        },
+        {
+          "word": " your",
+          "start": 25.74,
+          "end": 26.1,
+          "probability": 0.9929846525192261
+        },
+        {
+          "word": " hands",
+          "start": 26.1,
+          "end": 27.0,
+          "probability": 0.9518573880195618
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2700,
+      "start": 27.0,
+      "end": 29.46,
+      "text": " Sorting through a stack of old books",
+      "tokens": [
+        50364,
+        26149,
+        278,
+        807,
+        257,
+        8630,
+        295,
+        1331,
+        3642,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1265624606091043,
+      "compression_ratio": 1.4230769230769231,
+      "no_speech_prob": 0.013515857048332691,
+      "words": [
+        {
+          "word": " Sorting",
+          "start": 27.0,
+          "end": 27.5,
+          "probability": 0.32389286160469055
+        },
+        {
+          "word": " through",
+          "start": 27.5,
+          "end": 27.68,
+          "probability": 0.9461821913719177
+        },
+        {
+          "word": " a",
+          "start": 27.68,
+          "end": 27.86,
+          "probability": 0.9102937579154968
+        },
+        {
+          "word": " stack",
+          "start": 27.86,
+          "end": 28.04,
+          "probability": 0.9875305891036987
+        },
+        {
+          "word": " of",
+          "start": 28.04,
+          "end": 28.4,
+          "probability": 0.9937121868133545
+        },
+        {
+          "word": " old",
+          "start": 28.4,
+          "end": 28.82,
+          "probability": 0.9798069000244141
+        },
+        {
+          "word": " books",
+          "start": 28.82,
+          "end": 29.46,
+          "probability": 0.9123097658157349
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2700,
+      "start": 30.0,
+      "end": 32.98,
+      "text": " You do not even know I am here",
+      "tokens": [
+        50514,
+        509,
+        360,
+        406,
+        754,
+        458,
+        286,
+        669,
+        510,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1265624606091043,
+      "compression_ratio": 1.4230769230769231,
+      "no_speech_prob": 0.013515857048332691,
+      "words": [
+        {
+          "word": " You",
+          "start": 29.84,
+          "end": 30.26,
+          "probability": 0.3829478621482849
+        },
+        {
+          "word": " do",
+          "start": 30.26,
+          "end": 30.42,
+          "probability": 0.9863477945327759
+        },
+        {
+          "word": " not",
+          "start": 30.42,
+          "end": 30.76,
+          "probability": 0.9990046620368958
+        },
+        {
+          "word": " even",
+          "start": 30.76,
+          "end": 31.1,
+          "probability": 0.9958025813102722
+        },
+        {
+          "word": " know",
+          "start": 31.1,
+          "end": 31.48,
+          "probability": 0.9988961219787598
+        },
+        {
+          "word": " I",
+          "start": 31.48,
+          "end": 31.84,
+          "probability": 0.9607763886451721
+        },
+        {
+          "word": " am",
+          "start": 31.84,
+          "end": 32.54,
+          "probability": 0.9818567633628845
+        },
+        {
+          "word": " here",
+          "start": 32.54,
+          "end": 32.98,
+          "probability": 0.9854317307472229
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2700,
+      "start": 37.519999999999996,
+      "end": 41.16,
+      "text": " It is just a small crush",
+      "tokens": [
+        50914,
+        467,
+        307,
+        445,
+        257,
+        1359,
+        10321,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1265624606091043,
+      "compression_ratio": 1.4230769230769231,
+      "no_speech_prob": 0.013515857048332691,
+      "words": [
+        {
+          "word": " It",
+          "start": 37.519999999999996,
+          "end": 38.36,
+          "probability": 0.788092315196991
+        },
+        {
+          "word": " is",
+          "start": 38.36,
+          "end": 38.76,
+          "probability": 0.9633637070655823
+        },
+        {
+          "word": " just",
+          "start": 38.76,
+          "end": 39.14,
+          "probability": 0.9947222471237183
+        },
+        {
+          "word": " a",
+          "start": 39.14,
+          "end": 39.42,
+          "probability": 0.9920464754104614
+        },
+        {
+          "word": " small",
+          "start": 39.42,
+          "end": 40.2,
+          "probability": 0.9944835305213928
+        },
+        {
+          "word": " crush",
+          "start": 40.2,
+          "end": 41.16,
+          "probability": 0.1282031387090683
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2700,
+      "start": 43.16,
+      "end": 47.06,
+      "text": " Watching you in the quiet rush",
+      "tokens": [
+        51164,
+        28482,
+        291,
+        294,
+        264,
+        5677,
+        9300,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1265624606091043,
+      "compression_ratio": 1.4230769230769231,
+      "no_speech_prob": 0.013515857048332691,
+      "words": [
+        {
+          "word": " Watching",
+          "start": 43.16,
+          "end": 44.0,
+          "probability": 0.8734614849090576
+        },
+        {
+          "word": " you",
+          "start": 44.0,
+          "end": 44.6,
+          "probability": 0.9984837174415588
+        },
+        {
+          "word": " in",
+          "start": 44.6,
+          "end": 45.04,
+          "probability": 0.9871670603752136
+        },
+        {
+          "word": " the",
+          "start": 45.04,
+          "end": 45.24,
+          "probability": 0.8511332869529724
+        },
+        {
+          "word": " quiet",
+          "start": 45.24,
+          "end": 46.1,
+          "probability": 0.9932600855827332
+        },
+        {
+          "word": " rush",
+          "start": 46.1,
+          "end": 47.06,
+          "probability": 0.9900193214416504
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2700,
+      "start": 50.0,
+      "end": 53.52,
+      "text": " It is just a small crush",
+      "tokens": [
+        51514,
+        467,
+        307,
+        445,
+        257,
+        1359,
+        10321,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1265624606091043,
+      "compression_ratio": 1.4230769230769231,
+      "no_speech_prob": 0.013515857048332691,
+      "words": [
+        {
+          "word": " It",
+          "start": 49.64,
+          "end": 50.06,
+          "probability": 0.9676083326339722
+        },
+        {
+          "word": " is",
+          "start": 50.06,
+          "end": 50.46,
+          "probability": 0.9899963140487671
+        },
+        {
+          "word": " just",
+          "start": 50.46,
+          "end": 50.84,
+          "probability": 0.9980931878089905
+        },
+        {
+          "word": " a",
+          "start": 50.84,
+          "end": 51.1,
+          "probability": 0.9940527081489563
+        },
+        {
+          "word": " small",
+          "start": 51.1,
+          "end": 51.92,
+          "probability": 0.9984650611877441
+        },
+        {
+          "word": " crush",
+          "start": 51.92,
+          "end": 53.52,
+          "probability": 0.8919499516487122
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5352,
+      "start": 53.52,
+      "end": 57.64,
+      "text": " Wish that you would look up",
+      "tokens": [
+        50364,
+        27697,
+        300,
+        291,
+        576,
+        574,
+        493,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1278278437527743,
+      "compression_ratio": 1.4105960264900663,
+      "no_speech_prob": 0.014504682272672653,
+      "words": [
+        {
+          "word": " Wish",
+          "start": 53.52,
+          "end": 54.86,
+          "probability": 0.4655727446079254
+        },
+        {
+          "word": " that",
+          "start": 54.86,
+          "end": 55.22,
+          "probability": 0.9688277840614319
+        },
+        {
+          "word": " you",
+          "start": 55.22,
+          "end": 55.54,
+          "probability": 0.9915743470191956
+        },
+        {
+          "word": " would",
+          "start": 55.54,
+          "end": 56.0,
+          "probability": 0.9663798213005066
+        },
+        {
+          "word": " look",
+          "start": 56.0,
+          "end": 56.58,
+          "probability": 0.9716391563415527
+        },
+        {
+          "word": " up",
+          "start": 56.58,
+          "end": 57.64,
+          "probability": 0.7910084128379822
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5352,
+      "start": 59.16,
+      "end": 62.2,
+      "text": " You move your head behind your ear",
+      "tokens": [
+        50664,
+        509,
+        1286,
+        428,
+        1378,
+        2261,
+        428,
+        1273,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1278278437527743,
+      "compression_ratio": 1.4105960264900663,
+      "no_speech_prob": 0.014504682272672653,
+      "words": [
+        {
+          "word": " You",
+          "start": 59.16,
+          "end": 59.96,
+          "probability": 0.7802305221557617
+        },
+        {
+          "word": " move",
+          "start": 59.96,
+          "end": 60.24,
+          "probability": 0.2614761292934418
+        },
+        {
+          "word": " your",
+          "start": 60.24,
+          "end": 60.38,
+          "probability": 0.9877917170524597
+        },
+        {
+          "word": " head",
+          "start": 60.38,
+          "end": 60.58,
+          "probability": 0.9584829211235046
+        },
+        {
+          "word": " behind",
+          "start": 60.58,
+          "end": 61.0,
+          "probability": 0.9965466856956482
+        },
+        {
+          "word": " your",
+          "start": 61.0,
+          "end": 61.52,
+          "probability": 0.9721163511276245
+        },
+        {
+          "word": " ear",
+          "start": 61.52,
+          "end": 62.2,
+          "probability": 0.9204146862030029
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5352,
+      "start": 65.35999999999999,
+      "end": 67.88,
+      "text": " Writing something down in your notebook",
+      "tokens": [
+        50964,
+        32774,
+        746,
+        760,
+        294,
+        428,
+        21060,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1278278437527743,
+      "compression_ratio": 1.4105960264900663,
+      "no_speech_prob": 0.014504682272672653,
+      "words": [
+        {
+          "word": " Writing",
+          "start": 65.35999999999999,
+          "end": 66.16,
+          "probability": 0.21531730890274048
+        },
+        {
+          "word": " something",
+          "start": 66.16,
+          "end": 66.48,
+          "probability": 0.9885702729225159
+        },
+        {
+          "word": " down",
+          "start": 66.48,
+          "end": 66.94,
+          "probability": 0.9985835552215576
+        },
+        {
+          "word": " in",
+          "start": 66.94,
+          "end": 67.18,
+          "probability": 0.9737337231636047
+        },
+        {
+          "word": " your",
+          "start": 67.18,
+          "end": 67.3,
+          "probability": 0.9907900094985962
+        },
+        {
+          "word": " notebook",
+          "start": 67.3,
+          "end": 67.88,
+          "probability": 0.995381772518158
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5352,
+      "start": 68.52000000000001,
+      "end": 70.8,
+      "text": " The clock on the wall takes slow",
+      "tokens": [
+        51114,
+        440,
+        7830,
+        322,
+        264,
+        2929,
+        2516,
+        2964,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1278278437527743,
+      "compression_ratio": 1.4105960264900663,
+      "no_speech_prob": 0.014504682272672653,
+      "words": [
+        {
+          "word": " The",
+          "start": 68.33999999999999,
+          "end": 68.74,
+          "probability": 0.9137324690818787
+        },
+        {
+          "word": " clock",
+          "start": 68.74,
+          "end": 69.0,
+          "probability": 0.9976829290390015
+        },
+        {
+          "word": " on",
+          "start": 69.0,
+          "end": 69.36,
+          "probability": 0.9978244304656982
+        },
+        {
+          "word": " the",
+          "start": 69.36,
+          "end": 69.52,
+          "probability": 0.9951421022415161
+        },
+        {
+          "word": " wall",
+          "start": 69.52,
+          "end": 69.8,
+          "probability": 0.9946957230567932
+        },
+        {
+          "word": " takes",
+          "start": 69.8,
+          "end": 70.12,
+          "probability": 0.5214431285858154
+        },
+        {
+          "word": " slow",
+          "start": 70.12,
+          "end": 70.8,
+          "probability": 0.8183223605155945
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5352,
+      "start": 71.52000000000001,
+      "end": 75.18,
+      "text": " Nobody else is in this corner but us",
+      "tokens": [
+        51264,
+        9297,
+        1646,
+        307,
+        294,
+        341,
+        4538,
+        457,
+        505,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1278278437527743,
+      "compression_ratio": 1.4105960264900663,
+      "no_speech_prob": 0.014504682272672653,
+      "words": [
+        {
+          "word": " Nobody",
+          "start": 71.52000000000001,
+          "end": 72.2,
+          "probability": 0.9750716686248779
+        },
+        {
+          "word": " else",
+          "start": 72.2,
+          "end": 72.9,
+          "probability": 0.989560604095459
+        },
+        {
+          "word": " is",
+          "start": 72.9,
+          "end": 73.24,
+          "probability": 0.9884201288223267
+        },
+        {
+          "word": " in",
+          "start": 73.24,
+          "end": 73.58,
+          "probability": 0.890505313873291
+        },
+        {
+          "word": " this",
+          "start": 73.58,
+          "end": 73.88,
+          "probability": 0.9938107132911682
+        },
+        {
+          "word": " corner",
+          "start": 73.88,
+          "end": 74.28,
+          "probability": 0.9994043111801147
+        },
+        {
+          "word": " but",
+          "start": 74.28,
+          "end": 74.64,
+          "probability": 0.9164045453071594
+        },
+        {
+          "word": " us",
+          "start": 74.64,
+          "end": 75.18,
+          "probability": 0.7975620627403259
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 5352,
+      "start": 76.06,
+      "end": 79.38,
+      "text": " I should probably be studying for French",
+      "tokens": [
+        51514,
+        286,
+        820,
+        1391,
+        312,
+        7601,
+        337,
+        5522,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1278278437527743,
+      "compression_ratio": 1.4105960264900663,
+      "no_speech_prob": 0.014504682272672653,
+      "words": [
+        {
+          "word": " I",
+          "start": 76.06,
+          "end": 76.86,
+          "probability": 0.8657227158546448
+        },
+        {
+          "word": " should",
+          "start": 76.86,
+          "end": 77.48,
+          "probability": 0.9923880100250244
+        },
+        {
+          "word": " probably",
+          "start": 77.48,
+          "end": 77.96,
+          "probability": 0.992254376411438
+        },
+        {
+          "word": " be",
+          "start": 77.96,
+          "end": 78.18,
+          "probability": 0.9945200085639954
+        },
+        {
+          "word": " studying",
+          "start": 78.18,
+          "end": 78.66,
+          "probability": 0.9455468654632568
+        },
+        {
+          "word": " for",
+          "start": 78.66,
+          "end": 78.98,
+          "probability": 0.921428918838501
+        },
+        {
+          "word": " French",
+          "start": 78.98,
+          "end": 79.38,
+          "probability": 0.9364634156227112
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 7938,
+      "start": 79.38,
+      "end": 83.38,
+      "text": " But I am just lost in your world",
+      "tokens": [
+        50364,
+        583,
+        286,
+        669,
+        445,
+        2731,
+        294,
+        428,
+        1002,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10956803033518236,
+      "compression_ratio": 1.4842105263157894,
+      "no_speech_prob": 0.01409798115491867,
+      "words": [
+        {
+          "word": " But",
+          "start": 79.38,
+          "end": 79.76,
+          "probability": 0.7362184524536133
+        },
+        {
+          "word": " I",
+          "start": 79.76,
+          "end": 80.08,
+          "probability": 0.970388650894165
+        },
+        {
+          "word": " am",
+          "start": 80.08,
+          "end": 80.28,
+          "probability": 0.947420060634613
+        },
+        {
+          "word": " just",
+          "start": 80.28,
+          "end": 80.5,
+          "probability": 0.9734530448913574
+        },
+        {
+          "word": " lost",
+          "start": 80.5,
+          "end": 80.96,
+          "probability": 0.9986190795898438
+        },
+        {
+          "word": " in",
+          "start": 80.96,
+          "end": 81.42,
+          "probability": 0.9959088563919067
+        },
+        {
+          "word": " your",
+          "start": 81.42,
+          "end": 81.82,
+          "probability": 0.9710645079612732
+        },
+        {
+          "word": " world",
+          "start": 81.82,
+          "end": 83.38,
+          "probability": 0.9654050469398499
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 7938,
+      "start": 84.36,
+      "end": 88.38,
+      "text": " It is just a small crush",
+      "tokens": [
+        50614,
+        467,
+        307,
+        445,
+        257,
+        1359,
+        10321,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10956803033518236,
+      "compression_ratio": 1.4842105263157894,
+      "no_speech_prob": 0.01409798115491867,
+      "words": [
+        {
+          "word": " It",
+          "start": 84.36,
+          "end": 85.28,
+          "probability": 0.7980080246925354
+        },
+        {
+          "word": " is",
+          "start": 85.28,
+          "end": 85.6,
+          "probability": 0.9676730632781982
+        },
+        {
+          "word": " just",
+          "start": 85.6,
+          "end": 85.96,
+          "probability": 0.9974250793457031
+        },
+        {
+          "word": " a",
+          "start": 85.96,
+          "end": 86.26,
+          "probability": 0.9936503767967224
+        },
+        {
+          "word": " small",
+          "start": 86.26,
+          "end": 86.94,
+          "probability": 0.9960532188415527
+        },
+        {
+          "word": " crush",
+          "start": 86.94,
+          "end": 88.38,
+          "probability": 0.4182446002960205
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 7938,
+      "start": 89.94,
+      "end": 94.26,
+      "text": " Watching you in the quiet rush",
+      "tokens": [
+        50914,
+        28482,
+        291,
+        294,
+        264,
+        5677,
+        9300,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10956803033518236,
+      "compression_ratio": 1.4842105263157894,
+      "no_speech_prob": 0.01409798115491867,
+      "words": [
+        {
+          "word": " Watching",
+          "start": 89.94,
+          "end": 90.86,
+          "probability": 0.9107877016067505
+        },
+        {
+          "word": " you",
+          "start": 90.86,
+          "end": 91.44,
+          "probability": 0.9982315897941589
+        },
+        {
+          "word": " in",
+          "start": 91.44,
+          "end": 91.88,
+          "probability": 0.990856409072876
+        },
+        {
+          "word": " the",
+          "start": 91.88,
+          "end": 92.06,
+          "probability": 0.911213219165802
+        },
+        {
+          "word": " quiet",
+          "start": 92.06,
+          "end": 92.88,
+          "probability": 0.9921031594276428
+        },
+        {
+          "word": " rush",
+          "start": 92.88,
+          "end": 94.26,
+          "probability": 0.5197613835334778
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 7938,
+      "start": 95.98,
+      "end": 100.32,
+      "text": " It is just a small crush",
+      "tokens": [
+        51214,
+        467,
+        307,
+        445,
+        257,
+        1359,
+        10321,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10956803033518236,
+      "compression_ratio": 1.4842105263157894,
+      "no_speech_prob": 0.01409798115491867,
+      "words": [
+        {
+          "word": " It",
+          "start": 95.98,
+          "end": 96.9,
+          "probability": 0.9657270312309265
+        },
+        {
+          "word": " is",
+          "start": 96.9,
+          "end": 97.28,
+          "probability": 0.9910733103752136
+        },
+        {
+          "word": " just",
+          "start": 97.28,
+          "end": 97.66,
+          "probability": 0.9987773299217224
+        },
+        {
+          "word": " a",
+          "start": 97.66,
+          "end": 97.94,
+          "probability": 0.9958606362342834
+        },
+        {
+          "word": " small",
+          "start": 97.94,
+          "end": 98.62,
+          "probability": 0.9991663694381714
+        },
+        {
+          "word": " crush",
+          "start": 98.62,
+          "end": 100.32,
+          "probability": 0.9569227695465088
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 7938,
+      "start": 101.38,
+      "end": 103.92,
+      "text": " Wish that you would look up",
+      "tokens": [
+        51464,
+        27697,
+        300,
+        291,
+        576,
+        574,
+        493,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10956803033518236,
+      "compression_ratio": 1.4842105263157894,
+      "no_speech_prob": 0.01409798115491867,
+      "words": [
+        {
+          "word": " Wish",
+          "start": 101.14,
+          "end": 101.6,
+          "probability": 0.9319053888320923
+        },
+        {
+          "word": " that",
+          "start": 101.6,
+          "end": 102.04,
+          "probability": 0.9963114857673645
+        },
+        {
+          "word": " you",
+          "start": 102.04,
+          "end": 102.38,
+          "probability": 0.998537540435791
+        },
+        {
+          "word": " would",
+          "start": 102.38,
+          "end": 102.84,
+          "probability": 0.9873829483985901
+        },
+        {
+          "word": " look",
+          "start": 102.84,
+          "end": 103.46,
+          "probability": 0.9960533380508423
+        },
+        {
+          "word": " up",
+          "start": 103.46,
+          "end": 103.92,
+          "probability": 0.00040670219459570944
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 10938,
+      "start": 130.92000000000002,
+      "end": 131.38,
+      "text": " Music",
+      "tokens": [
+        50364,
+        7609,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1804023522597093,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 0.01111228484660387,
+      "words": [
+        {
+          "word": " Music",
+          "start": 130.92000000000002,
+          "end": 131.47000000000003,
+          "probability": 0.002190328435972333
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 10938,
+      "start": 132.02,
+      "end": 135.54,
+      "text": " It is just a small crush",
+      "tokens": [
+        51464,
+        467,
+        307,
+        445,
+        257,
+        1359,
+        10321,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1804023522597093,
+      "compression_ratio": 0.7894736842105263,
+      "no_speech_prob": 0.01111228484660387,
+      "words": [
+        {
+          "word": " It",
+          "start": 132.02,
+          "end": 132.02,
+          "probability": 0.032248690724372864
+        },
+        {
+          "word": " is",
+          "start": 132.02,
+          "end": 132.42,
+          "probability": 0.8543243408203125
+        },
+        {
+          "word": " just",
+          "start": 132.42,
+          "end": 132.76,
+          "probability": 0.9677081108093262
+        },
+        {
+          "word": " a",
+          "start": 132.76,
+          "end": 133.04,
+          "probability": 0.9798687100410461
+        },
+        {
+          "word": " small",
+          "start": 133.04,
+          "end": 133.74,
+          "probability": 0.980346143245697
+        },
+        {
+          "word": " crush",
+          "start": 133.74,
+          "end": 135.54,
+          "probability": 0.19933854043483734
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 13554,
+      "start": 135.54,
+      "end": 140.92,
+      "text": " Watching you in the quiet rush",
+      "tokens": [
+        50364,
+        28482,
+        291,
+        294,
+        264,
+        5677,
+        9300,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16670538130260648,
+      "compression_ratio": 1.3055555555555556,
+      "no_speech_prob": 0.03211811184883118,
+      "words": [
+        {
+          "word": " Watching",
+          "start": 135.54,
+          "end": 137.72,
+          "probability": 0.021477900445461273
+        },
+        {
+          "word": " you",
+          "start": 137.72,
+          "end": 138.28,
+          "probability": 0.9247236847877502
+        },
+        {
+          "word": " in",
+          "start": 138.28,
+          "end": 138.7,
+          "probability": 0.9679621458053589
+        },
+        {
+          "word": " the",
+          "start": 138.7,
+          "end": 138.92,
+          "probability": 0.9443920850753784
+        },
+        {
+          "word": " quiet",
+          "start": 138.92,
+          "end": 139.68,
+          "probability": 0.9863859415054321
+        },
+        {
+          "word": " rush",
+          "start": 139.68,
+          "end": 140.92,
+          "probability": 0.004572657402604818
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 13554,
+      "start": 142.34,
+      "end": 147.3,
+      "text": " It is just a small crush",
+      "tokens": [
+        50664,
+        467,
+        307,
+        445,
+        257,
+        1359,
+        10321,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16670538130260648,
+      "compression_ratio": 1.3055555555555556,
+      "no_speech_prob": 0.03211811184883118,
+      "words": [
+        {
+          "word": " It",
+          "start": 142.34,
+          "end": 143.74,
+          "probability": 0.7537481784820557
+        },
+        {
+          "word": " is",
+          "start": 143.74,
+          "end": 144.12,
+          "probability": 0.9296002984046936
+        },
+        {
+          "word": " just",
+          "start": 144.12,
+          "end": 144.48,
+          "probability": 0.9942631125450134
+        },
+        {
+          "word": " a",
+          "start": 144.48,
+          "end": 144.8,
+          "probability": 0.991847038269043
+        },
+        {
+          "word": " small",
+          "start": 144.8,
+          "end": 145.54,
+          "probability": 0.9978004097938538
+        },
+        {
+          "word": " crush",
+          "start": 145.54,
+          "end": 147.3,
+          "probability": 0.07357152551412582
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 13554,
+      "start": 147.3,
+      "end": 152.08,
+      "text": " Wish that you would look up",
+      "tokens": [
+        50914,
+        27697,
+        300,
+        291,
+        576,
+        574,
+        493,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16670538130260648,
+      "compression_ratio": 1.3055555555555556,
+      "no_speech_prob": 0.03211811184883118,
+      "words": [
+        {
+          "word": " Wish",
+          "start": 147.3,
+          "end": 149.06,
+          "probability": 0.7268272638320923
+        },
+        {
+          "word": " that",
+          "start": 149.06,
+          "end": 149.34,
+          "probability": 0.9510928988456726
+        },
+        {
+          "word": " you",
+          "start": 149.34,
+          "end": 149.56,
+          "probability": 0.990741491317749
+        },
+        {
+          "word": " would",
+          "start": 149.56,
+          "end": 150.2,
+          "probability": 0.9158973693847656
+        },
+        {
+          "word": " look",
+          "start": 150.2,
+          "end": 151.06,
+          "probability": 0.9623651504516602
+        },
+        {
+          "word": " up",
+          "start": 151.06,
+          "end": 152.08,
+          "probability": 0.9387194514274597
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 13554,
+      "start": 152.08,
+      "end": 158.28,
+      "text": " The sun is going down now",
+      "tokens": [
+        51214,
+        440,
+        3295,
+        307,
+        516,
+        760,
+        586,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16670538130260648,
+      "compression_ratio": 1.3055555555555556,
+      "no_speech_prob": 0.03211811184883118,
+      "words": [
+        {
+          "word": " The",
+          "start": 152.08,
+          "end": 154.46,
+          "probability": 0.8847205638885498
+        },
+        {
+          "word": " sun",
+          "start": 154.46,
+          "end": 154.86,
+          "probability": 0.9507162570953369
+        },
+        {
+          "word": " is",
+          "start": 154.86,
+          "end": 155.74,
+          "probability": 0.9945647716522217
+        },
+        {
+          "word": " going",
+          "start": 155.74,
+          "end": 156.28,
+          "probability": 0.9486465454101562
+        },
+        {
+          "word": " down",
+          "start": 156.28,
+          "end": 157.16,
+          "probability": 0.9975433349609375
+        },
+        {
+          "word": " now",
+          "start": 157.16,
+          "end": 158.28,
+          "probability": 0.9824037551879883
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 13554,
+      "start": 158.28,
+      "end": 164.52,
+      "text": " And you are packing up your bag",
+      "tokens": [
+        51514,
+        400,
+        291,
+        366,
+        20815,
+        493,
+        428,
+        3411,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16670538130260648,
+      "compression_ratio": 1.3055555555555556,
+      "no_speech_prob": 0.03211811184883118,
+      "words": [
+        {
+          "word": " And",
+          "start": 158.28,
+          "end": 160.12,
+          "probability": 0.8224231004714966
+        },
+        {
+          "word": " you",
+          "start": 160.12,
+          "end": 160.68,
+          "probability": 0.9949010610580444
+        },
+        {
+          "word": " are",
+          "start": 160.68,
+          "end": 161.52,
+          "probability": 0.982822835445404
+        },
+        {
+          "word": " packing",
+          "start": 161.52,
+          "end": 162.8,
+          "probability": 0.9336006045341492
+        },
+        {
+          "word": " up",
+          "start": 162.8,
+          "end": 163.5,
+          "probability": 0.9971060156822205
+        },
+        {
+          "word": " your",
+          "start": 163.5,
+          "end": 163.78,
+          "probability": 0.9969756603240967
+        },
+        {
+          "word": " bag",
+          "start": 163.78,
+          "end": 164.52,
+          "probability": 0.978750467300415
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 16554,
+      "start": 165.54,
+      "end": 169.44,
+      "text": " It is just a small crush",
+      "tokens": [
+        50364,
+        467,
+        307,
+        445,
+        257,
+        1359,
+        10321,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09663323093863095,
+      "compression_ratio": 0.896551724137931,
+      "no_speech_prob": 0.03177713602781296,
+      "words": [
+        {
+          "word": " It",
+          "start": 165.54,
+          "end": 166.1,
+          "probability": 0.030104180797934532
+        },
+        {
+          "word": " is",
+          "start": 166.1,
+          "end": 166.22,
+          "probability": 0.006326851900666952
+        },
+        {
+          "word": " just",
+          "start": 166.22,
+          "end": 166.7,
+          "probability": 0.00878180656582117
+        },
+        {
+          "word": " a",
+          "start": 166.7,
+          "end": 167.8,
+          "probability": 0.8170323967933655
+        },
+        {
+          "word": " small",
+          "start": 167.8,
+          "end": 168.3,
+          "probability": 0.9856401681900024
+        },
+        {
+          "word": " crush",
+          "start": 168.3,
+          "end": 169.44,
+          "probability": 0.024084512144327164
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 16554,
+      "start": 171.42,
+      "end": 175.26,
+      "text": " Wish that you would look up",
+      "tokens": [
+        50664,
+        27697,
+        300,
+        291,
+        576,
+        574,
+        493,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09663323093863095,
+      "compression_ratio": 0.896551724137931,
+      "no_speech_prob": 0.03177713602781296,
+      "words": [
+        {
+          "word": " Wish",
+          "start": 171.42,
+          "end": 172.48,
+          "probability": 0.6766178011894226
+        },
+        {
+          "word": " that",
+          "start": 172.48,
+          "end": 172.74,
+          "probability": 0.9054083228111267
+        },
+        {
+          "word": " you",
+          "start": 172.74,
+          "end": 173.1,
+          "probability": 0.9867286086082458
+        },
+        {
+          "word": " would",
+          "start": 173.1,
+          "end": 173.5,
+          "probability": 0.013787048868834972
+        },
+        {
+          "word": " look",
+          "start": 173.5,
+          "end": 174.38,
+          "probability": 0.082176074385643
+        },
+        {
+          "word": " up",
+          "start": 174.38,
+          "end": 175.26,
+          "probability": 0.05647813901305199
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

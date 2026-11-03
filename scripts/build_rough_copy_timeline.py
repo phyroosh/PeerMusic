@@ -20,18 +20,7 @@ scenes_raw = [
         "startSec": 0.0,
         "endSec": 18.5,
         "subtitle": "Last bench window breeze • Doodling on the back page",
-        "lines": [
-            {
-                "id": "line_01_intro",
-                "text": "Rough copy ke aakhri panne pe...",
-                "words": [
-                    {"text": "Rough", "start": 8.0, "end": 10.5, "accent": False},
-                    {"text": "Copy", "start": 10.5, "end": 13.0, "accent": True},
-                    {"text": "Classroom", "start": 13.0, "end": 15.5, "accent": False},
-                    {"text": "Romance", "start": 15.5, "end": 18.0, "accent": True}
-                ]
-            }
-        ]
+        "lines": []
     },
     {
         "id": "scene_02_mukhda",
@@ -159,18 +148,7 @@ scenes_raw = [
         "startSec": 50.0,
         "endSec": 60.1,
         "subtitle": "Chalk dust floating in afternoon sunbeams • Acoustic warmth",
-        "lines": [
-            {
-                "id": "line_04_interlude",
-                "text": "Woh recess ki thodi jaldi mein...",
-                "words": [
-                    {"text": "Afternoon", "start": 51.0, "end": 53.0, "accent": False},
-                    {"text": "Bell", "start": 53.0, "end": 55.0, "accent": True},
-                    {"text": "Corridor", "start": 55.0, "end": 57.5, "accent": False},
-                    {"text": "Echoes", "start": 57.5, "end": 59.8, "accent": True}
-                ]
-            }
-        ]
+        "lines": []
     },
     {
         "id": "scene_05_antara1",
@@ -381,18 +359,7 @@ scenes_raw = [
         "startSec": 114.0,
         "endSec": 123.3,
         "subtitle": "Waiting by the pedals • Shadows lengthening across the playground",
-        "lines": [
-            {
-                "id": "line_08_interlude",
-                "text": "Cycle stand pe rukta hoon...",
-                "words": [
-                    {"text": "School", "start": 115.0, "end": 117.0, "accent": False},
-                    {"text": "Gate", "start": 117.0, "end": 119.0, "accent": False},
-                    {"text": "Evening", "start": 119.0, "end": 121.0, "accent": True},
-                    {"text": "Glow", "start": 121.0, "end": 123.0, "accent": True}
-                ]
-            }
-        ]
+        "lines": []
     },
     {
         "id": "scene_09_antara2",

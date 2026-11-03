@@ -1,39 +1,42 @@
 import React from "react";
 import { Audio, Easing, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import rawTimeline from "./timeline.json";
-import { TimelineData, SceneConfig, LyricLine } from "../../engine/types";
+import { TimelineData, SceneConfig } from "../../engine/types";
 import { applyOverridesAndValidate } from "../../engine/validation";
+import { getActiveAndNextLyricLines } from "../../engine/lyricTiming";
 import { PaperTexture } from "../../engine/camera/PaperTexture";
 import { VIDEO_CONFIG } from "../../config/videoConfig";
 import { WaveformInterlude } from "../../engine/audio/WaveformInterlude";
 import { ThumbnailCard } from "../../engine/thumbnail/ThumbnailCard";
 import { KacchiNeendeinArtwork } from "./KacchiNeendeinArtwork";
+import { CinematicLyricLine } from "../../engine/typography/CinematicLyricLine";
 
 // Validate timeline at module load
 const validation = applyOverridesAndValidate(rawTimeline as unknown as TimelineData);
 const timeline = validation.timeline;
+
+// Precompute vocal timing once at module load to eliminate per-frame array allocations
+const allWordStartFrames = timeline.scenes
+  .flatMap((s) => s.lines || [])
+  .flatMap((l) => l.words || [])
+  .map((w) => w.startFrame)
+  .filter((sf) => typeof sf === "number");
+const firstVocalStart = allWordStartFrames.length > 0 ? Math.min(...allWordStartFrames) : 0;
+const introTransitionEnd = Math.max(0, firstVocalStart - 30);
+const introTransitionStart = Math.max(0, introTransitionEnd - 120);
 
 export const BotanicalScrapbookSong: React.FC = () => {
   const frame = useCurrentFrame();
   const { width, height } = useVideoConfig();
   const isLandscape = width >= height;
 
-  // 1. Calculate first sung vocal across all non-intro scenes
-  const firstSungScene = timeline.scenes.find(
-    (s) => !s.id.toLowerCase().includes("intro") && s.lines && s.lines.length > 0
-  );
-  const firstVocalStart = firstSungScene?.lines[0]?.words[0]?.startFrame ?? 924;
-
-  // 2. Intro Showcase & Smooth Pan Animation
-  // Intro stays centered until ~2.5s before vocals, then glides to the left
-  const introTransitionStart = Math.max(0, firstVocalStart - 150);
-  const introTransitionEnd = Math.max(introTransitionStart + 1, firstVocalStart - 30);
-
-  const introProgress = interpolate(frame, [introTransitionStart, introTransitionEnd], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-    easing: Easing.bezier(0.25, 0.1, 0.25, 1),
-  });
+  const introProgress = introTransitionStart === introTransitionEnd
+    ? 1
+    : interpolate(frame, [introTransitionStart, introTransitionEnd], [0, 1], {
+        extrapolateLeft: "clamp",
+        extrapolateRight: "clamp",
+        easing: Easing.bezier(0.25, 0.1, 0.25, 1),
+      });
 
   const thumbnailTranslateX = isLandscape
     ? interpolate(introProgress, [0, 1], [580, 0])
@@ -52,62 +55,33 @@ export const BotanicalScrapbookSong: React.FC = () => {
     (s) => frame >= s.startFrame && frame < s.endFrame
   ) || timeline.scenes[timeline.scenes.length - 1];
 
-  // 4. Determine Active Lyric Line with 60-frame (1 sec) anticipation window
-  const anticipationFrames = 60;
-  let activeLine: LyricLine | undefined;
-
-  if (frame >= introTransitionEnd) {
-    if (currentScene && !currentScene.id.toLowerCase().includes("intro")) {
-      for (const line of currentScene.lines) {
-        if (!line.words || line.words.length === 0) continue;
-        const firstWordStart = line.words[0].startFrame;
-        const lastWordEnd = line.words[line.words.length - 1].endFrame;
-
-        if (frame >= firstWordStart - anticipationFrames && frame <= lastWordEnd + 35) {
-          activeLine = line;
-          break;
-        }
-      }
-    }
-
-    // Check if next scene's first line is approaching during scene transition
-    if (!activeLine) {
-      const nextScene = timeline.scenes.find(
-        (s) => s.startFrame > frame && !s.id.toLowerCase().includes("intro")
-      );
-      if (nextScene && nextScene.lines && nextScene.lines.length > 0) {
-        const firstLine = nextScene.lines[0];
-        if (firstLine && firstLine.words && firstLine.words.length > 0) {
-          const firstWordStart = firstLine.words[0].startFrame;
-          if (frame >= firstWordStart - anticipationFrames && frame < firstWordStart) {
-            activeLine = firstLine;
-          }
-        }
-      }
-    }
-  }
+  // 4. Always dynamically get active and upcoming lyric line
+  const { activeLine, nextLine } = getActiveAndNextLyricLines(timeline.scenes, frame);
 
   // 5. Derive Section Tag and Emotional Subtitle
   const sectionBadge = currentScene?.sectionTag
     ? currentScene.sectionTag.replace("•", "//")
-    : "HERBARIUM // VOL. 04";
+    : "HOSTEL // ROOM 204";
 
-  let subtitleText = "Pressed rose petals inside unread letters • Room 204 Memories";
-  if (currentScene?.name.includes("Chai")) {
-    subtitleText = "2 AM cutting chai & midnight brotherhood • Warm Acoustic Folk";
-  } else if (currentScene?.name.includes("Wall of Hope") || currentScene?.name.includes("Panne")) {
-    subtitleText = "Blueprints pinned to damp hostel walls • Striving in the dark";
-  } else if (currentScene?.name.includes("Hook") || currentScene?.name.includes("Neendein")) {
-    subtitleText = "Kacchi neendein, pakke khwaab • Sleepless dreams taking flight";
-  } else if (currentScene?.name.includes("Interlude")) {
-    subtitleText = "Instrumental Interlude • Sitar resonance & acoustic night breeze";
-  } else if (currentScene?.name.includes("Deadline") || currentScene?.name.includes("Syllabus")) {
-    subtitleText = "Mountain of pages & ticking clock • The weight of expectations";
-  } else if (currentScene?.name.includes("Maa")) {
-    subtitleText = "Maa ki aawaaz aur dabe hue aansu • Distant love across telephone wires";
-  } else if (currentScene?.name.includes("Outro") || currentScene?.name.includes("Rooftop")) {
-    subtitleText = "Hostel terrace dawn • Tomorrow belongs to the restless";
-  }
+  const subtitleText =
+    currentScene?.subtitle ||
+    (currentScene?.name.includes("Chai")
+      ? "2 AM cutting chai & midnight brotherhood • Warm Acoustic Folk"
+      : currentScene?.name.includes("Wall of Hope") || currentScene?.name.includes("Panne")
+      ? "Blueprints pinned to damp hostel walls • Striving in the dark"
+      : currentScene?.name.includes("Hook") || currentScene?.name.includes("Neendein")
+      ? "Kacchi neendein, pakke khwaab • Sleepless dreams taking flight"
+      : currentScene?.name.includes("Interlude")
+      ? "Instrumental Interlude • Sitar resonance & acoustic night breeze"
+      : currentScene?.name.includes("Deadline") || currentScene?.name.includes("Syllabus")
+      ? "Mountain of pages & ticking clock • The weight of expectations"
+      : currentScene?.name.includes("Reprise")
+      ? "Chhoti si jeb mein bada sa hisaab • Unbreakable courage"
+      : currentScene?.name.includes("Maa")
+      ? "Maa ki aawaaz aur dabe hue aansu • Distant love across telephone wires"
+      : currentScene?.name.includes("Outro") || currentScene?.name.includes("Rooftop")
+      ? "Hostel terrace dawn • Tomorrow belongs to the restless"
+      : "Pressed rose petals inside unread letters • Room 204 Memories");
 
   return (
     <div
@@ -157,16 +131,16 @@ export const BotanicalScrapbookSong: React.FC = () => {
       {/* Left: Song-Specific Thumbnail Card with Centered Intro Animation */}
       <div
         style={{
-          transform: `translate(${thumbnailTranslateX}px, ${thumbnailTranslateY}px) scale(${thumbnailScale})`,
-          transition: "transform 0.05s ease-out",
+          transform: `translate3d(${thumbnailTranslateX.toFixed(2)}px, ${thumbnailTranslateY.toFixed(2)}px, 0) scale(${thumbnailScale.toFixed(4)})`,
+          willChange: "transform",
           zIndex: 10,
         }}
       >
         <ThumbnailCard
-          stampTitle="G.P.O. ARCHIVE"
-          stampDate="OCT 1974"
-          stampLocation="CALCUTTA"
-          specimenTag="SPECIMEN: Rosa indica (Dried 1974)"
+          stampTitle="HOSTEL ARCHIVE"
+          stampDate="ROOM 204"
+          stampLocation="MIDNIGHT 02:00 AM"
+          specimenTag="SPECIMEN: Late-Night Aspirations & Cutting Chai"
           trackTitle={`TRACK: ${timeline.songTitle}`}
           width={isLandscape ? 500 : 420}
           height={isLandscape ? 520 : 440}
@@ -188,85 +162,20 @@ export const BotanicalScrapbookSong: React.FC = () => {
           padding: isLandscape ? "0" : "10px 10px 0 10px",
           boxSizing: "border-box",
           opacity: lyricsOpacity,
-          transform: `translateX(${lyricsTranslateX}px)`,
-          transition: "opacity 0.15s ease",
+          transform: `translate3d(${lyricsTranslateX.toFixed(2)}px, 0, 0)`,
+          willChange: "transform, opacity",
           zIndex: 5,
         }}
       >
         {activeLine ? (
-          <>
-            {/* Section Pill Badge */}
-            <div
-              style={{
-                display: "inline-block",
-                padding: "6px 16px",
-                borderRadius: "3px",
-                backgroundColor: VIDEO_CONFIG.colors.accentFern,
-                color: "#FAF6EE",
-                fontFamily: VIDEO_CONFIG.fonts.accent,
-                fontSize: "12px",
-                fontWeight: 700,
-                letterSpacing: "0.26em",
-                width: "fit-content",
-              }}
-            >
-              {sectionBadge}
-            </div>
-
-            {/* Dynamic Synchronized Lyrics Line with Advance Dimmed Preview */}
-            <div
-              style={{
-                fontFamily: VIDEO_CONFIG.fonts.heading,
-                fontSize: isLandscape ? "46px" : "36px",
-                fontWeight: 700,
-                color: VIDEO_CONFIG.colors.primaryText,
-                lineHeight: 1.3,
-                letterSpacing: "-0.01em",
-                minHeight: isLandscape ? "120px" : "80px",
-                display: "flex",
-                flexWrap: "wrap",
-                alignItems: "baseline",
-                justifyContent: isLandscape ? "flex-start" : "center",
-                gap: "10px",
-              }}
-            >
-              {activeLine.words.map((word) => {
-                const isSung = frame > word.endFrame;
-                const isCurrentlyActive = frame >= word.startFrame && frame <= word.endFrame;
-
-                return (
-                  <span
-                    key={word.id}
-                    style={{
-                      opacity: isCurrentlyActive || isSung ? 1 : 0.32,
-                      color: isCurrentlyActive
-                        ? VIDEO_CONFIG.colors.accentRose
-                        : VIDEO_CONFIG.colors.primaryText,
-                      textDecoration: isCurrentlyActive ? "underline" : "none",
-                      textDecorationColor: VIDEO_CONFIG.colors.accentRose,
-                      textUnderlineOffset: "6px",
-                      transition: "opacity 0.15s ease, color 0.15s ease",
-                      display: "inline-block",
-                    }}
-                  >
-                    {word.text}
-                  </span>
-                );
-              })}
-            </div>
-
-            {/* Poetic Subtitle / Emotional Context */}
-            <div
-              style={{
-                fontFamily: VIDEO_CONFIG.fonts.tag,
-                fontSize: isLandscape ? "15px" : "13px",
-                color: VIDEO_CONFIG.colors.secondaryText,
-                lineHeight: 1.6,
-              }}
-            >
-              {subtitleText}
-            </div>
-          </>
+          <CinematicLyricLine
+            line={activeLine}
+            nextLine={nextLine}
+            isLandscape={isLandscape}
+            accentColor={VIDEO_CONFIG.colors.accentRose}
+            sectionBadge={sectionBadge}
+            subtitle={subtitleText}
+          />
         ) : (
           /* Pure Audio Waveform Interlude when singer is not singing */
           <WaveformInterlude

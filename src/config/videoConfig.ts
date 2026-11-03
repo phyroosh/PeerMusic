@@ -1,5 +1,5 @@
 export const VIDEO_CONFIG = {
-  defaultTheme: "BotanicalScrapbook",
+  defaultTheme: "SongCoverArtwork",
   defaultFps: 60,
   highFps: 60,
   cinematicFps: 24,
@@ -11,7 +11,37 @@ export const VIDEO_CONFIG = {
     width: 1080,
     height: 1920,
   },
-  // Default Aesthetic: Botanical Scrapbook (Herbarium) with full design system tokens
+  // Dynamic Song Cover Artwork Design & Motion Tokens
+  songCover: {
+    kenBurnsMinScale: 1.0,
+    kenBurnsMaxScale: 1.06,
+    driftRangePx: 18,
+    ambientBreathingRate: 0.03,
+    ambientBreathingAmp: 0.06,
+    // Restrained starlight / cinematic drop shadow for pristine readability directly over artwork
+    textShadow: "0 2px 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.75), 0 0 16px rgba(255, 230, 160, 0.35)",
+    textPrimary: "#FFFFFF",
+    textSecondary: "rgba(255, 255, 255, 0.65)",
+    // Feathered gradient scrim to elevate negative space contrast without cards or boxes
+    scrimBottom: "linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.35) 45%, transparent 100%)",
+    scrimTop: "linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.35) 45%, transparent 100%)",
+  },
+  // Celestial Eclipse (Cosmic Void & Golden Corona) Design Tokens
+  celestial: {
+    voidBg: "#030206",
+    nebulaCenter: "#1A0D33",
+    nebulaMid: "#080314",
+    nebulaOuter: "#020106",
+    coronaGold: "#FDE68A",
+    coronaAmber: "#F59E0B",
+    coronaPurple: "#C084FC",
+    coronaViolet: "#A855F7",
+    starGold: "#FDE68A",
+    textPrimary: "#FAF5FF",
+    textSecondary: "rgba(233, 213, 255, 0.45)",
+    textShadow: "0 0 20px rgba(253, 230, 138, 0.65), 0 0 45px rgba(192, 132, 252, 0.38), 0 2px 10px rgba(0, 0, 0, 0.8)",
+  },
+  // Historical Aesthetic: Botanical Scrapbook (Herbarium) tokens
   colors: {
     background: "#EFE8DC",        // Oatmeal Kraft Paper
     paperCard: "#FAF6EE",         // Pressed Herbarium Cardboard Sheet
@@ -29,7 +59,9 @@ export const VIDEO_CONFIG = {
     warmCream: "#FAF6EE",         // Warm Cream
   },
   fonts: {
-    heading: "Georgia, 'Times New Roman', serif",
+    heading: "Georgia, 'Playfair Display', 'Times New Roman', serif",
+    devanagari: "'Noto Serif Devanagari', 'Rozha One', 'Noto Sans Devanagari', serif",
+    englishSerif: "'Georgia', 'Playfair Display', 'Times New Roman', serif",
     body: "'Inter', -apple-system, sans-serif",
     accent: "'Space Grotesk', sans-serif",
     tag: "'Courier New', monospace",

@@ -1,0 +1,4213 @@
+{
+  "audio_file": "public/audio/khumaar.mp3",
+  "duration": 252.74,
+  "language": "fa",
+  "words": [
+    {
+      "word": "Hm",
+      "start": 0.0,
+      "end": 2.2,
+      "probability": 0.0
+    },
+    {
+      "word": "hm",
+      "start": 2.2,
+      "end": 8.28,
+      "probability": 0.038
+    },
+    {
+      "word": "hm",
+      "start": 8.28,
+      "end": 16.02,
+      "probability": 0.797
+    },
+    {
+      "word": "hm",
+      "start": 16.02,
+      "end": 16.02,
+      "probability": 0.692
+    },
+    {
+      "word": "hm",
+      "start": 16.02,
+      "end": 16.02,
+      "probability": 0.705
+    },
+    {
+      "word": "hm",
+      "start": 16.02,
+      "end": 16.02,
+      "probability": 0.76
+    },
+    {
+      "word": "hm",
+      "start": 16.02,
+      "end": 16.02,
+      "probability": 0.799
+    },
+    {
+      "word": "hm",
+      "start": 16.02,
+      "end": 16.02,
+      "probability": 0.809
+    },
+    {
+      "word": "hm",
+      "start": 16.02,
+      "end": 16.02,
+      "probability": 0.816
+    },
+    {
+      "word": "hmm",
+      "start": 16.02,
+      "end": 19.6,
+      "probability": 0.401
+    },
+    {
+      "word": "».",
+      "start": 19.6,
+      "end": 19.8,
+      "probability": 0.0
+    },
+    {
+      "word": "Ad",
+      "start": 19.8,
+      "end": 20.66,
+      "probability": 0.172
+    },
+    {
+      "word": "Een",
+      "start": 20.66,
+      "end": 20.92,
+      "probability": 0.0
+    },
+    {
+      "word": "Sc",
+      "start": 20.92,
+      "end": 21.28,
+      "probability": 0.001
+    },
+    {
+      "word": "beide,",
+      "start": 21.28,
+      "end": 21.42,
+      "probability": 0.0
+    },
+    {
+      "word": "Hham",
+      "start": 22.32,
+      "end": 23.0,
+      "probability": 0.009
+    },
+    {
+      "word": "-O",
+      "start": 23.0,
+      "end": 23.26,
+      "probability": 0.092
+    },
+    {
+      "word": "-ne'",
+      "start": 23.26,
+      "end": 23.4,
+      "probability": 0.106
+    },
+    {
+      "word": "deshxér",
+      "start": 23.56,
+      "end": 24.24,
+      "probability": 0.042
+    },
+    {
+      "word": "endpoint",
+      "start": 24.24,
+      "end": 25.06,
+      "probability": 0.0
+    },
+    {
+      "word": "تو",
+      "start": 25.06,
+      "end": 25.5,
+      "probability": 0.295
+    },
+    {
+      "word": "سامن",
+      "start": 25.5,
+      "end": 26.14,
+      "probability": 0.658
+    },
+    {
+      "word": "ای",
+      "start": 26.14,
+      "end": 26.38,
+      "probability": 0.352
+    },
+    {
+      "word": "بیتی",
+      "start": 26.38,
+      "end": 27.24,
+      "probability": 0.597
+    },
+    {
+      "word": "بس",
+      "start": 27.24,
+      "end": 28.18,
+      "probability": 0.784
+    },
+    {
+      "word": "تیرای",
+      "start": 28.18,
+      "end": 28.88,
+      "probability": 0.468
+    },
+    {
+      "word": "ایسر",
+      "start": 28.88,
+      "end": 29.46,
+      "probability": 0.398
+    },
+    {
+      "word": "ای",
+      "start": 29.46,
+      "end": 30.24,
+      "probability": 0.318
+    },
+    {
+      "word": "نزر",
+      "start": 30.24,
+      "end": 31.16,
+      "probability": 0.299
+    },
+    {
+      "word": "ای",
+      "start": 31.16,
+      "end": 31.46,
+      "probability": 0.652
+    },
+    {
+      "word": "چراکی",
+      "start": 31.46,
+      "end": 32.3,
+      "probability": 0.488
+    },
+    {
+      "word": "جو",
+      "start": 32.3,
+      "end": 33.42,
+      "probability": 0.615
+    },
+    {
+      "word": "حلکیس",
+      "start": 33.42,
+      "end": 34.02,
+      "probability": 0.539
+    },
+    {
+      "word": "ای",
+      "start": 34.02,
+      "end": 34.3,
+      "probability": 0.593
+    },
+    {
+      "word": "حسی",
+      "start": 34.3,
+      "end": 34.84,
+      "probability": 0.676
+    },
+    {
+      "word": "ای",
+      "start": 34.84,
+      "end": 36.02,
+      "probability": 0.505
+    },
+    {
+      "word": "سین",
+      "start": 36.02,
+      "end": 36.4,
+      "probability": 0.479
+    },
+    {
+      "word": "ای",
+      "start": 36.4,
+      "end": 36.98,
+      "probability": 0.467
+    },
+    {
+      "word": "می",
+      "start": 36.98,
+      "end": 37.2,
+      "probability": 0.454
+    },
+    {
+      "word": "میری",
+      "start": 37.2,
+      "end": 37.74,
+      "probability": 0.254
+    },
+    {
+      "word": "کجیب",
+      "start": 37.74,
+      "end": 38.98,
+      "probability": 0.752
+    },
+    {
+      "word": "ای",
+      "start": 38.98,
+      "end": 39.1,
+      "probability": 0.691
+    },
+    {
+      "word": "خلش",
+      "start": 39.1,
+      "end": 40.1,
+      "probability": 0.549
+    },
+    {
+      "word": "ای",
+      "start": 40.1,
+      "end": 40.84,
+      "probability": 0.682
+    },
+    {
+      "word": "ای",
+      "start": 40.84,
+      "end": 40.96,
+      "probability": 0.589
+    },
+    {
+      "word": "کیس",
+      "start": 40.96,
+      "end": 41.52,
+      "probability": 0.337
+    },
+    {
+      "word": "اخومار",
+      "start": 41.52,
+      "end": 42.8,
+      "probability": 0.327
+    },
+    {
+      "word": "ای",
+      "start": 42.8,
+      "end": 43.18,
+      "probability": 0.789
+    },
+    {
+      "word": "کیس",
+      "start": 43.18,
+      "end": 44.04,
+      "probability": 0.73
+    },
+    {
+      "word": "ایس",
+      "start": 44.04,
+      "end": 44.7,
+      "probability": 0.695
+    },
+    {
+      "word": "رور",
+      "start": 44.7,
+      "end": 45.44,
+      "probability": 0.317
+    },
+    {
+      "word": "ای",
+      "start": 45.44,
+      "end": 45.82,
+      "probability": 0.591
+    },
+    {
+      "word": "پاسه",
+      "start": 45.82,
+      "end": 46.84,
+      "probability": 0.35
+    },
+    {
+      "word": "او",
+      "start": 46.84,
+      "end": 47.08,
+      "probability": 0.4
+    },
+    {
+      "word": "که",
+      "start": 47.08,
+      "end": 47.28,
+      "probability": 0.579
+    },
+    {
+      "word": "بیتو",
+      "start": 47.28,
+      "end": 47.82,
+      "probability": 0.47
+    },
+    {
+      "word": "کیم",
+      "start": 47.82,
+      "end": 48.22,
+      "probability": 0.483
+    },
+    {
+      "word": "اگتی",
+      "start": 48.22,
+      "end": 49.24,
+      "probability": 0.559
+    },
+    {
+      "word": "ایتو",
+      "start": 49.24,
+      "end": 49.84,
+      "probability": 0.284
+    },
+    {
+      "word": "دی",
+      "start": 49.84,
+      "end": 50.14,
+      "probability": 0.194
+    },
+    {
+      "word": "دور",
+      "start": 50.14,
+      "end": 50.76,
+      "probability": 0.594
+    },
+    {
+      "word": "ای",
+      "start": 50.76,
+      "end": 51.14,
+      "probability": 0.883
+    },
+    {
+      "word": "تو",
+      "start": 51.14,
+      "end": 51.5,
+      "probability": 0.33
+    },
+    {
+      "word": "حسق",
+      "start": 51.5,
+      "end": 52.1,
+      "probability": 0.495
+    },
+    {
+      "word": "ای",
+      "start": 52.1,
+      "end": 52.38,
+      "probability": 0.561
+    },
+    {
+      "word": "باہانا",
+      "start": 52.38,
+      "end": 53.1,
+      "probability": 0.509
+    },
+    {
+      "word": "کوی",
+      "start": 53.1,
+      "end": 53.98,
+      "probability": 0.321
+    },
+    {
+      "word": "بنا",
+      "start": 53.98,
+      "end": 54.34,
+      "probability": 0.482
+    },
+    {
+      "word": "دگی",
+      "start": 54.34,
+      "end": 55.28,
+      "probability": 0.642
+    },
+    {
+      "word": "کیا",
+      "start": 55.28,
+      "end": 55.88,
+      "probability": 0.122
+    },
+    {
+      "word": "میساش",
+      "start": 55.88,
+      "end": 56.7,
+      "probability": 0.178
+    },
+    {
+      "word": "بول",
+      "start": 56.7,
+      "end": 57.3,
+      "probability": 0.435
+    },
+    {
+      "word": "دمگه",
+      "start": 57.3,
+      "end": 58.3,
+      "probability": 0.339
+    },
+    {
+      "word": "تو",
+      "start": 58.3,
+      "end": 58.72,
+      "probability": 0.337
+    },
+    {
+      "word": "مسکورا",
+      "start": 58.72,
+      "end": 59.7,
+      "probability": 0.556
+    },
+    {
+      "word": "دگی",
+      "start": 59.7,
+      "end": 60.52,
+      "probability": 0.937
+    },
+    {
+      "word": "کیا",
+      "start": 60.52,
+      "end": 61.08,
+      "probability": 0.869
+    },
+    {
+      "word": "جو",
+      "start": 61.34,
+      "end": 62.0,
+      "probability": 0.515
+    },
+    {
+      "word": "او",
+      "start": 62.0,
+      "end": 62.2,
+      "probability": 0.09
+    },
+    {
+      "word": "اوز",
+      "start": 62.2,
+      "end": 62.46,
+      "probability": 0.192
+    },
+    {
+      "word": "دبه",
+      "start": 62.46,
+      "end": 62.94,
+      "probability": 0.364
+    },
+    {
+      "word": "کبسه",
+      "start": 62.94,
+      "end": 63.94,
+      "probability": 0.334
+    },
+    {
+      "word": "سینمه",
+      "start": 64.6,
+      "end": 65.6,
+      "probability": 0.524
+    },
+    {
+      "word": "میره",
+      "start": 65.6,
+      "end": 66.68,
+      "probability": 0.633
+    },
+    {
+      "word": "اون",
+      "start": 66.68,
+      "end": 67.2,
+      "probability": 0.644
+    },
+    {
+      "word": "ای",
+      "start": 67.2,
+      "end": 67.38,
+      "probability": 0.468
+    },
+    {
+      "word": "آجتو",
+      "start": 67.38,
+      "end": 68.18,
+      "probability": 0.598
+    },
+    {
+      "word": "سون",
+      "start": 68.18,
+      "end": 68.52,
+      "probability": 0.646
+    },
+    {
+      "word": "کرگلی",
+      "start": 68.52,
+      "end": 69.48,
+      "probability": 0.515
+    },
+    {
+      "word": "سی",
+      "start": 69.48,
+      "end": 69.76,
+      "probability": 0.49
+    },
+    {
+      "word": "لگا",
+      "start": 69.76,
+      "end": 70.42,
+      "probability": 0.664
+    },
+    {
+      "word": "دگی",
+      "start": 70.42,
+      "end": 71.04,
+      "probability": 0.969
+    },
+    {
+      "word": "کیا",
+      "start": 71.04,
+      "end": 72.74,
+      "probability": 0.928
+    },
+    {
+      "word": "کنش",
+      "start": 81.38,
+      "end": 82.0,
+      "probability": 0.535
+    },
+    {
+      "word": "کے",
+      "start": 82.0,
+      "end": 82.2,
+      "probability": 0.192
+    },
+    {
+      "word": "گیلاز",
+      "start": 82.2,
+      "end": 82.58,
+      "probability": 0.54
+    },
+    {
+      "word": "میں",
+      "start": 82.58,
+      "end": 82.82,
+      "probability": 0.341
+    },
+    {
+      "word": "برف",
+      "start": 82.82,
+      "end": 83.1,
+      "probability": 0.826
+    },
+    {
+      "word": "پیگلتی",
+      "start": 83.1,
+      "end": 84.22,
+      "probability": 0.524
+    },
+    {
+      "word": "ہے",
+      "start": 84.22,
+      "end": 84.84,
+      "probability": 0.596
+    },
+    {
+      "word": "تو",
+      "start": 86.08,
+      "end": 86.7,
+      "probability": 0.782
+    },
+    {
+      "word": "جسین",
+      "start": 86.7,
+      "end": 87.14,
+      "probability": 0.676
+    },
+    {
+      "word": "از",
+      "start": 87.14,
+      "end": 87.34,
+      "probability": 0.623
+    },
+    {
+      "word": "اره",
+      "start": 87.34,
+      "end": 87.54,
+      "probability": 0.28
+    },
+    {
+      "word": "بلتی",
+      "start": 87.54,
+      "end": 87.94,
+      "probability": 0.747
+    },
+    {
+      "word": "ہے",
+      "start": 87.94,
+      "end": 88.1,
+      "probability": 0.829
+    },
+    {
+      "word": "از",
+      "start": 88.1,
+      "end": 88.32,
+      "probability": 0.427
+    },
+    {
+      "word": "آسی",
+      "start": 88.32,
+      "end": 88.72,
+      "probability": 0.49
+    },
+    {
+      "word": "سمهلتی",
+      "start": 88.72,
+      "end": 89.5,
+      "probability": 0.688
+    },
+    {
+      "word": "ہے",
+      "start": 89.5,
+      "end": 90.76,
+      "probability": 0.965
+    },
+    {
+      "word": "دنی",
+      "start": 90.76,
+      "end": 91.9,
+      "probability": 0.445
+    },
+    {
+      "word": "آکی",
+      "start": 91.9,
+      "end": 92.14,
+      "probability": 0.582
+    },
+    {
+      "word": "بات",
+      "start": 92.14,
+      "end": 92.48,
+      "probability": 0.719
+    },
+    {
+      "word": "او",
+      "start": 92.48,
+      "end": 92.84,
+      "probability": 0.13
+    },
+    {
+      "word": "کب",
+      "start": 92.84,
+      "end": 93.26,
+      "probability": 0.246
+    },
+    {
+      "word": "در",
+      "start": 93.26,
+      "end": 93.78,
+      "probability": 0.622
+    },
+    {
+      "word": "نہیں",
+      "start": 93.78,
+      "end": 94.02,
+      "probability": 0.408
+    },
+    {
+      "word": "کی",
+      "start": 94.02,
+      "end": 94.68,
+      "probability": 0.519
+    },
+    {
+      "word": "در",
+      "start": 94.68,
+      "end": 95.24,
+      "probability": 0.331
+    },
+    {
+      "word": "ایسی",
+      "start": 95.24,
+      "end": 95.5,
+      "probability": 0.754
+    },
+    {
+      "word": "بایدل",
+      "start": 95.5,
+      "end": 95.82,
+      "probability": 0.481
+    },
+    {
+      "word": "کب",
+      "start": 95.82,
+      "end": 96.1,
+      "probability": 0.461
+    },
+    {
+      "word": "هر",
+      "start": 96.1,
+      "end": 96.42,
+      "probability": 0.573
+    },
+    {
+      "word": "نہیں",
+      "start": 96.42,
+      "end": 96.66,
+      "probability": 0.787
+    },
+    {
+      "word": "کی",
+      "start": 96.66,
+      "end": 97.22,
+      "probability": 0.935
+    },
+    {
+      "word": "زفوم",
+      "start": 97.22,
+      "end": 97.98,
+      "probability": 0.336
+    },
+    {
+      "word": "ککا",
+      "start": 97.98,
+      "end": 98.24,
+      "probability": 0.397
+    },
+    {
+      "word": "که",
+      "start": 98.24,
+      "end": 98.42,
+      "probability": 0.532
+    },
+    {
+      "word": "پیچه",
+      "start": 98.42,
+      "end": 98.72,
+      "probability": 0.732
+    },
+    {
+      "word": "جو",
+      "start": 98.72,
+      "end": 98.92,
+      "probability": 0.898
+    },
+    {
+      "word": "تو",
+      "start": 98.92,
+      "end": 99.06,
+      "probability": 0.392
+    },
+    {
+      "word": "گرتی",
+      "start": 99.06,
+      "end": 99.64,
+      "probability": 0.63
+    },
+    {
+      "word": "ہے",
+      "start": 99.64,
+      "end": 99.76,
+      "probability": 0.515
+    },
+    {
+      "word": "سچکی",
+      "start": 99.76,
+      "end": 100.16,
+      "probability": 0.51
+    },
+    {
+      "word": "که",
+      "start": 100.16,
+      "end": 100.32,
+      "probability": 0.397
+    },
+    {
+      "word": "نا",
+      "start": 100.32,
+      "end": 100.6,
+      "probability": 0.467
+    },
+    {
+      "word": "تو",
+      "start": 100.6,
+      "end": 100.74,
+      "probability": 0.77
+    },
+    {
+      "word": "بی",
+      "start": 100.74,
+      "end": 100.92,
+      "probability": 0.865
+    },
+    {
+      "word": "کم",
+      "start": 100.92,
+      "end": 101.16,
+      "probability": 0.288
+    },
+    {
+      "word": "اوچی",
+      "start": 101.16,
+      "end": 101.4,
+      "probability": 0.383
+    },
+    {
+      "word": "پیم",
+      "start": 101.4,
+      "end": 101.84,
+      "probability": 0.582
+    },
+    {
+      "word": "ارتی",
+      "start": 101.84,
+      "end": 102.28,
+      "probability": 0.637
+    },
+    {
+      "word": "ہے",
+      "start": 102.28,
+      "end": 102.42,
+      "probability": 0.971
+    },
+    {
+      "word": "بゃ",
+      "start": 132.42,
+      "end": 132.42,
+      "probability": 0.063
+    },
+    {
+      "word": "ببک",
+      "start": 132.42,
+      "end": 132.84,
+      "probability": 0.08
+    },
+    {
+      "word": "بہدب",
+      "start": 132.84,
+      "end": 133.36,
+      "probability": 0.065
+    },
+    {
+      "word": "و",
+      "start": 133.36,
+      "end": 133.56,
+      "probability": 0.027
+    },
+    {
+      "word": "oluyorکا",
+      "start": 133.56,
+      "end": 139.46,
+      "probability": 0.024
+    },
+    {
+      "word": "ولو",
+      "start": 141.68,
+      "end": 142.7,
+      "probability": 0.018
+    },
+    {
+      "word": "با",
+      "start": 142.7,
+      "end": 143.3,
+      "probability": 0.11
+    },
+    {
+      "word": "جه",
+      "start": 143.3,
+      "end": 143.42,
+      "probability": 0.131
+    },
+    {
+      "word": "کbornی",
+      "start": 143.42,
+      "end": 144.72,
+      "probability": 0.186
+    },
+    {
+      "word": "را",
+      "start": 144.72,
+      "end": 148.02,
+      "probability": 0.277
+    },
+    {
+      "word": "eman",
+      "start": 148.02,
+      "end": 148.02,
+      "probability": 0.0
+    },
+    {
+      "word": "کشکا",
+      "start": 148.02,
+      "end": 148.6,
+      "probability": 0.114
+    },
+    {
+      "word": "چارن",
+      "start": 148.6,
+      "end": 149.1,
+      "probability": 0.016
+    },
+    {
+      "word": "ایت",
+      "start": 149.1,
+      "end": 149.1,
+      "probability": 0.186
+    },
+    {
+      "word": "حرج",
+      "start": 149.1,
+      "end": 149.46,
+      "probability": 0.007
+    },
+    {
+      "word": "و",
+      "start": 149.46,
+      "end": 149.8,
+      "probability": 0.013
+    },
+    {
+      "word": "یت",
+      "start": 149.8,
+      "end": 149.8,
+      "probability": 0.031
+    },
+    {
+      "word": "برا",
+      "start": 149.8,
+      "end": 149.8,
+      "probability": 0.05
+    },
+    {
+      "word": "أراد",
+      "start": 149.8,
+      "end": 149.8,
+      "probability": 0.062
+    },
+    {
+      "word": "این��ď",
+      "start": 149.8,
+      "end": 152.92,
+      "probability": 0.076
+    },
+    {
+      "word": "ری",
+      "start": 152.92,
+      "end": 156.8,
+      "probability": 0.046
+    },
+    {
+      "word": "tapa",
+      "start": 156.8,
+      "end": 156.8,
+      "probability": 0.0
+    },
+    {
+      "word": "idé",
+      "start": 156.8,
+      "end": 156.92,
+      "probability": 0.0
+    },
+    {
+      "word": "pardon",
+      "start": 156.92,
+      "end": 157.08,
+      "probability": 0.0
+    },
+    {
+      "word": "didn",
+      "start": 160.38,
+      "end": 161.4,
+      "probability": 0.0
+    },
+    {
+      "word": "you",
+      "start": 161.4,
+      "end": 162.0,
+      "probability": 0.009
+    },
+    {
+      "word": "where",
+      "start": 162.0,
+      "end": 162.22,
+      "probability": 0.0
+    },
+    {
+      "word": "i",
+      "start": 162.22,
+      "end": 162.3,
+      "probability": 0.017
+    },
+    {
+      "word": "could",
+      "start": 162.3,
+      "end": 162.4,
+      "probability": 0.006
+    },
+    {
+      "word": "مور",
+      "start": 162.4,
+      "end": 162.66,
+      "probability": 0.263
+    },
+    {
+      "word": "چبا",
+      "start": 162.66,
+      "end": 163.24,
+      "probability": 0.27
+    },
+    {
+      "word": "هی",
+      "start": 163.24,
+      "end": 163.4,
+      "probability": 0.213
+    },
+    {
+      "word": "آگر",
+      "start": 163.4,
+      "end": 163.74,
+      "probability": 0.48
+    },
+    {
+      "word": "هات",
+      "start": 163.74,
+      "end": 164.24,
+      "probability": 0.26
+    },
+    {
+      "word": "پڑاکی",
+      "start": 164.24,
+      "end": 164.84,
+      "probability": 0.573
+    },
+    {
+      "word": "مروک",
+      "start": 164.84,
+      "end": 165.42,
+      "probability": 0.467
+    },
+    {
+      "word": "دلومت",
+      "start": 165.42,
+      "end": 165.96,
+      "probability": 0.515
+    },
+    {
+      "word": "اج",
+      "start": 165.96,
+      "end": 166.14,
+      "probability": 0.447
+    },
+    {
+      "word": "بکانا",
+      "start": 166.14,
+      "end": 166.88,
+      "probability": 0.481
+    },
+    {
+      "word": "یه",
+      "start": 166.88,
+      "end": 167.7,
+      "probability": 0.268
+    },
+    {
+      "word": "دلبی",
+      "start": 167.7,
+      "end": 168.24,
+      "probability": 0.663
+    },
+    {
+      "word": "کسورینا",
+      "start": 168.24,
+      "end": 169.02,
+      "probability": 0.575
+    },
+    {
+      "word": "آک",
+      "start": 171.18,
+      "end": 172.34,
+      "probability": 0.173
+    },
+    {
+      "word": "خومی",
+      "start": 172.34,
+      "end": 172.94,
+      "probability": 0.274
+    },
+    {
+      "word": "دیکھا",
+      "start": 172.94,
+      "end": 173.68,
+      "probability": 0.692
+    },
+    {
+      "word": "هیمانی",
+      "start": 173.68,
+      "end": 174.4,
+      "probability": 0.269
+    },
+    {
+      "word": "ایک",
+      "start": 174.4,
+      "end": 174.94,
+      "probability": 0.554
+    },
+    {
+      "word": "پلکلی",
+      "start": 174.94,
+      "end": 175.82,
+      "probability": 0.659
+    },
+    {
+      "word": "ای",
+      "start": 175.82,
+      "end": 176.12,
+      "probability": 0.455
+    },
+    {
+      "word": "تو",
+      "start": 176.12,
+      "end": 177.5,
+      "probability": 0.038
+    },
+    {
+      "word": "بی",
+      "start": 177.5,
+      "end": 178.0,
+      "probability": 0.653
+    },
+    {
+      "word": "تو",
+      "start": 178.0,
+      "end": 178.24,
+      "probability": 0.361
+    },
+    {
+      "word": "رکی",
+      "start": 178.24,
+      "end": 178.7,
+      "probability": 0.827
+    },
+    {
+      "word": "هیبس",
+      "start": 178.7,
+      "end": 179.7,
+      "probability": 0.331
+    },
+    {
+      "word": "ایک",
+      "start": 179.7,
+      "end": 180.38,
+      "probability": 0.791
+    },
+    {
+      "word": "حلکلی",
+      "start": 180.38,
+      "end": 181.2,
+      "probability": 0.751
+    },
+    {
+      "word": "ای",
+      "start": 181.2,
+      "end": 181.56,
+      "probability": 0.608
+    },
+    {
+      "word": "کل",
+      "start": 181.56,
+      "end": 182.12,
+      "probability": 0.459
+    },
+    {
+      "word": "سب",
+      "start": 182.12,
+      "end": 182.56,
+      "probability": 0.642
+    },
+    {
+      "word": "آج",
+      "start": 182.56,
+      "end": 183.58,
+      "probability": 0.369
+    },
+    {
+      "word": "براش",
+      "start": 183.58,
+      "end": 184.12,
+      "probability": 0.52
+    },
+    {
+      "word": "نکید",
+      "start": 184.12,
+      "end": 184.76,
+      "probability": 0.445
+    },
+    {
+      "word": "کی",
+      "start": 184.76,
+      "end": 185.0,
+      "probability": 0.56
+    },
+    {
+      "word": "سے",
+      "start": 185.0,
+      "end": 185.18,
+      "probability": 0.256
+    },
+    {
+      "word": "آئی",
+      "start": 185.18,
+      "end": 185.82,
+      "probability": 0.672
+    },
+    {
+      "word": "آئیگی",
+      "start": 185.82,
+      "end": 186.86,
+      "probability": 0.603
+    },
+    {
+      "word": "تو",
+      "start": 186.86,
+      "end": 187.58,
+      "probability": 0.778
+    },
+    {
+      "word": "کی",
+      "start": 187.58,
+      "end": 188.08,
+      "probability": 0.453
+    },
+    {
+      "word": "ای",
+      "start": 188.08,
+      "end": 188.38,
+      "probability": 0.527
+    },
+    {
+      "word": "ساری",
+      "start": 188.38,
+      "end": 189.18,
+      "probability": 0.643
+    },
+    {
+      "word": "بات",
+      "start": 189.18,
+      "end": 189.68,
+      "probability": 0.866
+    },
+    {
+      "word": "ای",
+      "start": 189.68,
+      "end": 189.88,
+      "probability": 0.525
+    },
+    {
+      "word": "بول",
+      "start": 189.88,
+      "end": 190.48,
+      "probability": 0.523
+    },
+    {
+      "word": "جائیگی",
+      "start": 190.48,
+      "end": 191.34,
+      "probability": 0.763
+    },
+    {
+      "word": "بولنا",
+      "start": 191.34,
+      "end": 192.9,
+      "probability": 0.316
+    },
+    {
+      "word": "کیا",
+      "start": 192.9,
+      "end": 194.6,
+      "probability": 0.175
+    },
+    {
+      "word": "سچ",
+      "start": 194.6,
+      "end": 194.94,
+      "probability": 0.748
+    },
+    {
+      "word": "میں",
+      "start": 194.94,
+      "end": 195.16,
+      "probability": 0.173
+    },
+    {
+      "word": "بول",
+      "start": 195.16,
+      "end": 195.98,
+      "probability": 0.751
+    },
+    {
+      "word": "جائیگی؟",
+      "start": 195.98,
+      "end": 197.16,
+      "probability": 0.471
+    },
+    {
+      "word": "یک",
+      "start": 197.16,
+      "end": 197.42,
+      "probability": 0.339
+    },
+    {
+      "word": "ایسا",
+      "start": 197.42,
+      "end": 198.04,
+      "probability": 0.322
+    },
+    {
+      "word": "خماره",
+      "start": 198.04,
+      "end": 199.54,
+      "probability": 0.328
+    },
+    {
+      "word": "کسای",
+      "start": 199.54,
+      "end": 200.96,
+      "probability": 0.349
+    },
+    {
+      "word": "سوروره",
+      "start": 200.96,
+      "end": 202.2,
+      "probability": 0.594
+    },
+    {
+      "word": "پاسه",
+      "start": 202.2,
+      "end": 203.42,
+      "probability": 0.415
+    },
+    {
+      "word": "که",
+      "start": 203.42,
+      "end": 203.8,
+      "probability": 0.347
+    },
+    {
+      "word": "بی",
+      "start": 203.8,
+      "end": 204.04,
+      "probability": 0.86
+    },
+    {
+      "word": "توکی",
+      "start": 204.04,
+      "end": 204.66,
+      "probability": 0.548
+    },
+    {
+      "word": "مولکتی",
+      "start": 204.66,
+      "end": 205.84,
+      "probability": 0.614
+    },
+    {
+      "word": "توڑی",
+      "start": 205.84,
+      "end": 206.8,
+      "probability": 0.507
+    },
+    {
+      "word": "دوره",
+      "start": 206.8,
+      "end": 207.66,
+      "probability": 0.773
+    },
+    {
+      "word": "تو",
+      "start": 207.66,
+      "end": 208.0,
+      "probability": 0.401
+    },
+    {
+      "word": "حسقی",
+      "start": 208.0,
+      "end": 208.94,
+      "probability": 0.463
+    },
+    {
+      "word": "بہانا",
+      "start": 208.94,
+      "end": 209.9,
+      "probability": 0.575
+    },
+    {
+      "word": "که",
+      "start": 209.9,
+      "end": 210.62,
+      "probability": 0.531
+    },
+    {
+      "word": "بنا",
+      "start": 210.62,
+      "end": 211.02,
+      "probability": 0.582
+    },
+    {
+      "word": "دیگی",
+      "start": 211.02,
+      "end": 211.96,
+      "probability": 0.769
+    },
+    {
+      "word": "کی؟",
+      "start": 211.96,
+      "end": 212.88,
+      "probability": 0.196
+    },
+    {
+      "word": "مستش",
+      "start": 212.88,
+      "end": 213.5,
+      "probability": 0.156
+    },
+    {
+      "word": "بول",
+      "start": 213.5,
+      "end": 214.1,
+      "probability": 0.641
+    },
+    {
+      "word": "دوم",
+      "start": 214.1,
+      "end": 214.46,
+      "probability": 0.56
+    },
+    {
+      "word": "آگر",
+      "start": 214.46,
+      "end": 215.04,
+      "probability": 0.591
+    },
+    {
+      "word": "تو",
+      "start": 215.04,
+      "end": 215.54,
+      "probability": 0.688
+    },
+    {
+      "word": "مسکورا",
+      "start": 215.54,
+      "end": 216.46,
+      "probability": 0.559
+    },
+    {
+      "word": "دیگی",
+      "start": 216.46,
+      "end": 217.34,
+      "probability": 0.937
+    },
+    {
+      "word": "کی؟",
+      "start": 217.34,
+      "end": 218.4,
+      "probability": 0.706
+    },
+    {
+      "word": "جو",
+      "start": 218.4,
+      "end": 218.84,
+      "probability": 0.695
+    },
+    {
+      "word": "لبزد",
+      "start": 218.84,
+      "end": 219.52,
+      "probability": 0.481
+    },
+    {
+      "word": "بیه",
+      "start": 219.52,
+      "end": 220.06,
+      "probability": 0.319
+    },
+    {
+      "word": "کمسی",
+      "start": 220.06,
+      "end": 220.88,
+      "probability": 0.517
+    },
+    {
+      "word": "سینه",
+      "start": 220.88,
+      "end": 222.2,
+      "probability": 0.579
+    },
+    {
+      "word": "میره",
+      "start": 222.2,
+      "end": 223.04,
+      "probability": 0.444
+    },
+    {
+      "word": "و",
+      "start": 223.04,
+      "end": 224.08,
+      "probability": 0.182
+    },
+    {
+      "word": "نی",
+      "start": 224.08,
+      "end": 224.34,
+      "probability": 0.299
+    },
+    {
+      "word": "آجتو",
+      "start": 224.34,
+      "end": 225.18,
+      "probability": 0.66
+    },
+    {
+      "word": "سنکر",
+      "start": 225.18,
+      "end": 225.88,
+      "probability": 0.468
+    },
+    {
+      "word": "گلی",
+      "start": 225.88,
+      "end": 226.5,
+      "probability": 0.458
+    },
+    {
+      "word": "سلگا",
+      "start": 226.5,
+      "end": 227.32,
+      "probability": 0.519
+    },
+    {
+      "word": "ده",
+      "start": 227.32,
+      "end": 227.7,
+      "probability": 0.584
+    },
+    {
+      "word": "گی",
+      "start": 227.7,
+      "end": 228.04,
+      "probability": 0.498
+    },
+    {
+      "word": "کی",
+      "start": 228.04,
+      "end": 228.32,
+      "probability": 0.213
+    },
+    {
+      "word": "که",
+      "start": 228.32,
+      "end": 230.36,
+      "probability": 0.21
+    },
+    {
+      "word": "ها",
+      "start": 230.36,
+      "end": 230.68,
+      "probability": 0.27
+    },
+    {
+      "word": "ها",
+      "start": 230.68,
+      "end": 231.5,
+      "probability": 0.28
+    },
+    {
+      "word": "گلی",
+      "start": 231.5,
+      "end": 231.88,
+      "probability": 0.696
+    },
+    {
+      "word": "سلگا",
+      "start": 231.88,
+      "end": 232.7,
+      "probability": 0.958
+    },
+    {
+      "word": "ده",
+      "start": 232.7,
+      "end": 233.06,
+      "probability": 0.989
+    },
+    {
+      "word": "گی",
+      "start": 233.06,
+      "end": 233.38,
+      "probability": 0.869
+    },
+    {
+      "word": "کی",
+      "start": 233.38,
+      "end": 233.94,
+      "probability": 0.705
+    },
+    {
+      "word": "که",
+      "start": 233.94,
+      "end": 234.4,
+      "probability": 0.673
+    },
+    {
+      "word": "ای",
+      "start": 234.4,
+      "end": 237.66,
+      "probability": 0.244
+    },
+    {
+      "word": "که",
+      "start": 237.66,
+      "end": 237.9,
+      "probability": 0.576
+    },
+    {
+      "word": "سا",
+      "start": 237.9,
+      "end": 238.32,
+      "probability": 0.555
+    },
+    {
+      "word": "خماره",
+      "start": 238.32,
+      "end": 239.82,
+      "probability": 0.6
+    },
+    {
+      "word": "بستوی",
+      "start": 239.82,
+      "end": 240.96,
+      "probability": 0.616
+    },
+    {
+      "word": "توهه",
+      "start": 240.96,
+      "end": 241.82,
+      "probability": 0.394
+    },
+    {
+      "word": "و",
+      "start": 241.82,
+      "end": 242.92,
+      "probability": 0.345
+    },
+    {
+      "word": "رتی",
+      "start": 242.92,
+      "end": 243.36,
+      "probability": 0.72
+    },
+    {
+      "word": "را",
+      "start": 243.36,
+      "end": 243.68,
+      "probability": 0.788
+    },
+    {
+      "word": "خماره",
+      "start": 243.68,
+      "end": 245.16,
+      "probability": 0.989
+    },
+    {
+      "word": "hadn't",
+      "start": 251.34,
+      "end": 252.74,
+      "probability": 0.455
+    },
+    {
+      "word": "youост",
+      "start": 252.74,
+      "end": 252.74,
+      "probability": 0.062
+    },
+    {
+      "word": "a",
+      "start": 252.74,
+      "end": 252.74,
+      "probability": 0.077
+    }
+  ],
+  "alignment_method": "openai-whisper-transcribe",
+  "structured_sections": [
+    {
+      "name": "Intro",
+      "lines": [
+        "Title: Khumaar",
+        "Duration: ~4:12",
+        "Genre: Bollywood Acoustic Indie Ballad / Late-Night Unplugged Pop"
+      ]
+    },
+    {
+      "name": "Intro",
+      "lines": [
+        "(Gentle fingerpicked acoustic guitar, subtle ambient room reverb, soft rhythmic palm mute, warm low hum)",
+        "(Mmm... haan... hmm...)"
+      ]
+    },
+    {
+      "name": "Mukhda / Chorus",
+      "lines": [
+        "Aadhi si raat hai, khamosh yeh shehar hai,",
+        "Tu saamne hai baithi, bas tera hi asar hai.",
+        "Nazrein chura ke tu jo halke se hasi hai,",
+        "Seene mein mere ik ajeeb si khalish hai.",
+        "Yeh kaisa khumaar hai, kaisa yeh suroor hai,",
+        "Paas hoke bhi tu kyun lagti thodi door hai?",
+        "Tu hans ke bahaana koi bana degi kya?",
+        "Main sach bol doon agar, toh muskura degi kya?",
+        "Jo lafz dabe hain kabse seene mein mere,",
+        "Unhein aaj tu sun kar, gale se laga degi kya?"
+      ]
+    },
+    {
+      "name": "Antara 1 / Verse 1",
+      "lines": [
+        "Kanch ke gilaas mein baraf pighalti hai,",
+        "Tujhse nazar milti hai, saans sambhalti hai.",
+        "Duniya ki baaton ka ab darr nahi koi,",
+        "Tere siwa dil ka ab ghar nahi koi.",
+        "Zulfon ko kaan ke peeche jo tu karti hai,",
+        "Sach kehna, tu bhi kya mujhpe hi marti hai?",
+        "Thoda sa jhooth hi sahi, tu keh ke dikha,",
+        "Is bhatke musafir ko raasta tu dikha!"
+      ]
+    },
+    {
+      "name": "Mukhda Reprise / Chorus",
+      "lines": [
+        "Yeh kaisa khumaar hai, kaisa yeh suroor hai,",
+        "Paas hoke bhi tu kyun lagti thodi door hai?",
+        "Tu hans ke bahaana koi bana degi kya?",
+        "Main sach bol doon agar, toh muskura degi kya?"
+      ]
+    },
+    {
+      "name": "Antara 2 / Verse 2",
+      "lines": [
+        "Do baje ki chai ho ya chaar baje ki baat,",
+        "Kash koi thehra de yeh haseen raat.",
+        "Log kehte hain ke main thoda sa deewaana hoon,",
+        "Tere shehar mein bhatka ek be-ghar puraana hoon.",
+        "Meri khamoshi mein jo shor chupa hai,",
+        "Tere hi naam ka ik mod chupa hai.",
+        "Agar haath badha ke main rokk loon tujhe,",
+        "Bata na, yeh dil be-qasoor hai na?"
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        "Aankhon mein dekha hai maine ek pal ke liye,",
+        "Tu bhi toh ruki hai bas ek hal ke liye.",
+        "Kal subah jab roshni khidki se aayegi,",
+        "Tu kya yeh saari baatein bhool jaayegi?",
+        "Bol na...",
+        "Kya sach mein bhool jaayegi?"
+      ]
+    },
+    {
+      "name": "Chorus / Climax",
+      "lines": [
+        "Yeh kaisa khumaar hai, kaisa yeh suroor hai!",
+        "Paas hoke bhi tu kyun lagti thodi door hai!",
+        "Tu hans ke bahaana koi bana degi kya?",
+        "Main sach bol doon agar, toh muskura degi kya?",
+        "Jo lafz dabe hain kabse seene mein mere,",
+        "Unhein aaj tu sun kar, gale se laga degi kya?"
+      ]
+    },
+    {
+      "name": "Outro",
+      "lines": [
+        "Haan gale se laga degi kya...",
+        "Yeh kaisa khumaar hai...",
+        "Bas tu hi tu hai...",
+        "Aur tera khumaar hai...",
+        "(Soft acoustic guitar strum fading, warm resonant open chord, gentle breath out)"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "line_01",
+      "text": "Title: Khumaar",
+      "startTime": 0.0,
+      "endTime": 8.28,
+      "startFrame": 0,
+      "endFrame": 497,
+      "accentWords": [
+        "Khumaar"
+      ],
+      "words": [
+        {
+          "id": "w_01_01",
+          "text": "Hm",
+          "startFrame": 0,
+          "endFrame": 132
+        },
+        {
+          "id": "w_01_02",
+          "text": "hm",
+          "startFrame": 132,
+          "endFrame": 497
+        }
+      ]
+    },
+    {
+      "id": "line_02",
+      "text": "Duration: ~4:12",
+      "startTime": 8.28,
+      "endTime": 16.02,
+      "startFrame": 497,
+      "endFrame": 961,
+      "accentWords": [
+        "Duration"
+      ],
+      "words": [
+        {
+          "id": "w_02_01",
+          "text": "hm",
+          "startFrame": 497,
+          "endFrame": 961
+        },
+        {
+          "id": "w_02_02",
+          "text": "hm",
+          "startFrame": 961,
+          "endFrame": 961
+        }
+      ]
+    },
+    {
+      "id": "line_03",
+      "text": "Genre: Bollywood Acoustic Indie Ballad / Late-Night Unplugged Pop",
+      "startTime": 16.02,
+      "endTime": 20.92,
+      "startFrame": 961,
+      "endFrame": 1255,
+      "accentWords": [
+        "Bollywood"
+      ],
+      "words": [
+        {
+          "id": "w_03_01",
+          "text": "hm",
+          "startFrame": 961,
+          "endFrame": 961
+        },
+        {
+          "id": "w_03_02",
+          "text": "hm",
+          "startFrame": 961,
+          "endFrame": 961
+        },
+        {
+          "id": "w_03_03",
+          "text": "hm",
+          "startFrame": 961,
+          "endFrame": 961
+        },
+        {
+          "id": "w_03_04",
+          "text": "hm",
+          "startFrame": 961,
+          "endFrame": 961
+        },
+        {
+          "id": "w_03_05",
+          "text": "hm",
+          "startFrame": 961,
+          "endFrame": 961
+        },
+        {
+          "id": "w_03_06",
+          "text": "hmm",
+          "startFrame": 961,
+          "endFrame": 1176
+        },
+        {
+          "id": "w_03_07",
+          "text": "».",
+          "startFrame": 1176,
+          "endFrame": 1188
+        },
+        {
+          "id": "w_03_08",
+          "text": "Ad",
+          "startFrame": 1188,
+          "endFrame": 1240
+        },
+        {
+          "id": "w_03_09",
+          "text": "Een",
+          "startFrame": 1240,
+          "endFrame": 1255
+        }
+      ]
+    },
+    {
+      "id": "line_04",
+      "text": "(Gentle fingerpicked acoustic guitar, subtle ambient room reverb, soft rhythmic palm mute, warm low hum)",
+      "startTime": 20.92,
+      "endTime": 30.24,
+      "startFrame": 1255,
+      "endFrame": 1814,
+      "accentWords": [
+        "fingerpicked"
+      ],
+      "words": [
+        {
+          "id": "w_04_01",
+          "text": "Sc",
+          "startFrame": 1255,
+          "endFrame": 1277
+        },
+        {
+          "id": "w_04_02",
+          "text": "beide,",
+          "startFrame": 1277,
+          "endFrame": 1285
+        },
+        {
+          "id": "w_04_03",
+          "text": "Hham",
+          "startFrame": 1339,
+          "endFrame": 1380
+        },
+        {
+          "id": "w_04_04",
+          "text": "-O",
+          "startFrame": 1380,
+          "endFrame": 1396
+        },
+        {
+          "id": "w_04_05",
+          "text": "-ne'",
+          "startFrame": 1396,
+          "endFrame": 1404
+        },
+        {
+          "id": "w_04_06",
+          "text": "deshxér",
+          "startFrame": 1414,
+          "endFrame": 1454
+        },
+        {
+          "id": "w_04_07",
+          "text": "endpoint",
+          "startFrame": 1454,
+          "endFrame": 1504
+        },
+        {
+          "id": "w_04_08",
+          "text": "تو",
+          "startFrame": 1504,
+          "endFrame": 1530
+        },
+        {
+          "id": "w_04_09",
+          "text": "سامن",
+          "startFrame": 1530,
+          "endFrame": 1568
+        },
+        {
+          "id": "w_04_10",
+          "text": "ای",
+          "startFrame": 1568,
+          "endFrame": 1583
+        },
+        {
+          "id": "w_04_11",
+          "text": "بیتی",
+          "startFrame": 1583,
+          "endFrame": 1634
+        },
+        {
+          "id": "w_04_12",
+          "text": "بس",
+          "startFrame": 1634,
+          "endFrame": 1691
+        },
+        {
+          "id": "w_04_13",
+          "text": "تیرای",
+          "startFrame": 1691,
+          "endFrame": 1733
+        },
+        {
+          "id": "w_04_14",
+          "text": "ایسر",
+          "startFrame": 1733,
+          "endFrame": 1768
+        },
+        {
+          "id": "w_04_15",
+          "text": "ای",
+          "startFrame": 1768,
+          "endFrame": 1814
+        }
+      ]
+    },
+    {
+      "id": "line_05",
+      "text": "(Mmm... haan... hmm...)",
+      "startTime": 30.24,
+      "endTime": 32.3,
+      "startFrame": 1814,
+      "endFrame": 1938,
+      "accentWords": [
+        "haan"
+      ],
+      "words": [
+        {
+          "id": "w_05_01",
+          "text": "نزر",
+          "startFrame": 1814,
+          "endFrame": 1870
+        },
+        {
+          "id": "w_05_02",
+          "text": "ای",
+          "startFrame": 1870,
+          "endFrame": 1888
+        },
+        {
+          "id": "w_05_03",
+          "text": "چراکی",
+          "startFrame": 1888,
+          "endFrame": 1938
+        }
+      ]
+    },
+    {
+      "id": "line_06",
+      "text": "Aadhi si raat hai, khamosh yeh shehar hai,",
+      "startTime": 32.3,
+      "endTime": 37.2,
+      "startFrame": 1938,
+      "endFrame": 2232,
+      "accentWords": [
+        "khamosh"
+      ],
+      "words": [
+        {
+          "id": "w_06_01",
+          "text": "جو",
+          "startFrame": 1938,
+          "endFrame": 2005
+        },
+        {
+          "id": "w_06_02",
+          "text": "حلکیس",
+          "startFrame": 2005,
+          "endFrame": 2041
+        },
+        {
+          "id": "w_06_03",
+          "text": "ای",
+          "startFrame": 2041,
+          "endFrame": 2058
+        },
+        {
+          "id": "w_06_04",
+          "text": "حسی",
+          "startFrame": 2058,
+          "endFrame": 2090
+        },
+        {
+          "id": "w_06_05",
+          "text": "ای",
+          "startFrame": 2090,
+          "endFrame": 2161
+        },
+        {
+          "id": "w_06_06",
+          "text": "سین",
+          "startFrame": 2161,
+          "endFrame": 2184
+        },
+        {
+          "id": "w_06_07",
+          "text": "ای",
+          "startFrame": 2184,
+          "endFrame": 2219
+        },
+        {
+          "id": "w_06_08",
+          "text": "می",
+          "startFrame": 2219,
+          "endFrame": 2232
+        }
+      ]
+    },
+    {
+      "id": "line_07",
+      "text": "Tu saamne hai baithi, bas tera hi asar hai.",
+      "startTime": 37.2,
+      "endTime": 43.18,
+      "startFrame": 2232,
+      "endFrame": 2591,
+      "accentWords": [
+        "saamne"
+      ],
+      "words": [
+        {
+          "id": "w_07_01",
+          "text": "میری",
+          "startFrame": 2232,
+          "endFrame": 2264
+        },
+        {
+          "id": "w_07_02",
+          "text": "کجیب",
+          "startFrame": 2264,
+          "endFrame": 2339
+        },
+        {
+          "id": "w_07_03",
+          "text": "ای",
+          "startFrame": 2339,
+          "endFrame": 2346
+        },
+        {
+          "id": "w_07_04",
+          "text": "خلش",
+          "startFrame": 2346,
+          "endFrame": 2406
+        },
+        {
+          "id": "w_07_05",
+          "text": "ای",
+          "startFrame": 2406,
+          "endFrame": 2450
+        },
+        {
+          "id": "w_07_06",
+          "text": "ای",
+          "startFrame": 2450,
+          "endFrame": 2458
+        },
+        {
+          "id": "w_07_07",
+          "text": "کیس",
+          "startFrame": 2458,
+          "endFrame": 2491
+        },
+        {
+          "id": "w_07_08",
+          "text": "اخومار",
+          "startFrame": 2491,
+          "endFrame": 2568
+        },
+        {
+          "id": "w_07_09",
+          "text": "ای",
+          "startFrame": 2568,
+          "endFrame": 2591
+        }
+      ]
+    },
+    {
+      "id": "line_08",
+      "text": "Nazrein chura ke tu jo halke se hasi hai,",
+      "startTime": 43.18,
+      "endTime": 48.22,
+      "startFrame": 2591,
+      "endFrame": 2893,
+      "accentWords": [
+        "Nazrein"
+      ],
+      "words": [
+        {
+          "id": "w_08_01",
+          "text": "کیس",
+          "startFrame": 2591,
+          "endFrame": 2642
+        },
+        {
+          "id": "w_08_02",
+          "text": "ایس",
+          "startFrame": 2642,
+          "endFrame": 2682
+        },
+        {
+          "id": "w_08_03",
+          "text": "رور",
+          "startFrame": 2682,
+          "endFrame": 2726
+        },
+        {
+          "id": "w_08_04",
+          "text": "ای",
+          "startFrame": 2726,
+          "endFrame": 2749
+        },
+        {
+          "id": "w_08_05",
+          "text": "پاسه",
+          "startFrame": 2749,
+          "endFrame": 2810
+        },
+        {
+          "id": "w_08_06",
+          "text": "او",
+          "startFrame": 2810,
+          "endFrame": 2825
+        },
+        {
+          "id": "w_08_07",
+          "text": "که",
+          "startFrame": 2825,
+          "endFrame": 2837
+        },
+        {
+          "id": "w_08_08",
+          "text": "بیتو",
+          "startFrame": 2837,
+          "endFrame": 2869
+        },
+        {
+          "id": "w_08_09",
+          "text": "کیم",
+          "startFrame": 2869,
+          "endFrame": 2893
+        }
+      ]
+    },
+    {
+      "id": "line_09",
+      "text": "Seene mein mere ik ajeeb si khalish hai.",
+      "startTime": 48.22,
+      "endTime": 52.38,
+      "startFrame": 2893,
+      "endFrame": 3143,
+      "accentWords": [
+        "khalish"
+      ],
+      "words": [
+        {
+          "id": "w_09_01",
+          "text": "اگتی",
+          "startFrame": 2893,
+          "endFrame": 2954
+        },
+        {
+          "id": "w_09_02",
+          "text": "ایتو",
+          "startFrame": 2954,
+          "endFrame": 2990
+        },
+        {
+          "id": "w_09_03",
+          "text": "دی",
+          "startFrame": 2990,
+          "endFrame": 3008
+        },
+        {
+          "id": "w_09_04",
+          "text": "دور",
+          "startFrame": 3008,
+          "endFrame": 3046
+        },
+        {
+          "id": "w_09_05",
+          "text": "ای",
+          "startFrame": 3046,
+          "endFrame": 3068
+        },
+        {
+          "id": "w_09_06",
+          "text": "تو",
+          "startFrame": 3068,
+          "endFrame": 3090
+        },
+        {
+          "id": "w_09_07",
+          "text": "حسق",
+          "startFrame": 3090,
+          "endFrame": 3126
+        },
+        {
+          "id": "w_09_08",
+          "text": "ای",
+          "startFrame": 3126,
+          "endFrame": 3143
+        }
+      ]
+    },
+    {
+      "id": "line_10",
+      "text": "Yeh kaisa khumaar hai, kaisa yeh suroor hai,",
+      "startTime": 52.38,
+      "endTime": 58.3,
+      "startFrame": 3143,
+      "endFrame": 3498,
+      "accentWords": [
+        "khumaar"
+      ],
+      "words": [
+        {
+          "id": "w_10_01",
+          "text": "باہانا",
+          "startFrame": 3143,
+          "endFrame": 3186
+        },
+        {
+          "id": "w_10_02",
+          "text": "کوی",
+          "startFrame": 3186,
+          "endFrame": 3239
+        },
+        {
+          "id": "w_10_03",
+          "text": "بنا",
+          "startFrame": 3239,
+          "endFrame": 3260
+        },
+        {
+          "id": "w_10_04",
+          "text": "دگی",
+          "startFrame": 3260,
+          "endFrame": 3317
+        },
+        {
+          "id": "w_10_05",
+          "text": "کیا",
+          "startFrame": 3317,
+          "endFrame": 3353
+        },
+        {
+          "id": "w_10_06",
+          "text": "میساش",
+          "startFrame": 3353,
+          "endFrame": 3402
+        },
+        {
+          "id": "w_10_07",
+          "text": "بول",
+          "startFrame": 3402,
+          "endFrame": 3438
+        },
+        {
+          "id": "w_10_08",
+          "text": "دمگه",
+          "startFrame": 3438,
+          "endFrame": 3498
+        }
+      ]
+    },
+    {
+      "id": "line_11",
+      "text": "Paas hoke bhi tu kyun lagti thodi door hai?",
+      "startTime": 58.3,
+      "endTime": 63.94,
+      "startFrame": 3498,
+      "endFrame": 3836,
+      "accentWords": [
+        "lagti"
+      ],
+      "words": [
+        {
+          "id": "w_11_01",
+          "text": "تو",
+          "startFrame": 3498,
+          "endFrame": 3523
+        },
+        {
+          "id": "w_11_02",
+          "text": "مسکورا",
+          "startFrame": 3523,
+          "endFrame": 3582
+        },
+        {
+          "id": "w_11_03",
+          "text": "دگی",
+          "startFrame": 3582,
+          "endFrame": 3631
+        },
+        {
+          "id": "w_11_04",
+          "text": "کیا",
+          "startFrame": 3631,
+          "endFrame": 3665
+        },
+        {
+          "id": "w_11_05",
+          "text": "جو",
+          "startFrame": 3680,
+          "endFrame": 3720
+        },
+        {
+          "id": "w_11_06",
+          "text": "او",
+          "startFrame": 3720,
+          "endFrame": 3732
+        },
+        {
+          "id": "w_11_07",
+          "text": "اوز",
+          "startFrame": 3732,
+          "endFrame": 3748
+        },
+        {
+          "id": "w_11_08",
+          "text": "دبه",
+          "startFrame": 3748,
+          "endFrame": 3776
+        },
+        {
+          "id": "w_11_09",
+          "text": "کبسه",
+          "startFrame": 3776,
+          "endFrame": 3836
+        }
+      ]
+    },
+    {
+      "id": "line_12",
+      "text": "Tu hans ke bahaana koi bana degi kya?",
+      "startTime": 64.6,
+      "endTime": 69.76,
+      "startFrame": 3876,
+      "endFrame": 4186,
+      "accentWords": [
+        "bahaana"
+      ],
+      "words": [
+        {
+          "id": "w_12_01",
+          "text": "سینمه",
+          "startFrame": 3876,
+          "endFrame": 3936
+        },
+        {
+          "id": "w_12_02",
+          "text": "میره",
+          "startFrame": 3936,
+          "endFrame": 4001
+        },
+        {
+          "id": "w_12_03",
+          "text": "اون",
+          "startFrame": 4001,
+          "endFrame": 4032
+        },
+        {
+          "id": "w_12_04",
+          "text": "ای",
+          "startFrame": 4032,
+          "endFrame": 4043
+        },
+        {
+          "id": "w_12_05",
+          "text": "آجتو",
+          "startFrame": 4043,
+          "endFrame": 4091
+        },
+        {
+          "id": "w_12_06",
+          "text": "سون",
+          "startFrame": 4091,
+          "endFrame": 4111
+        },
+        {
+          "id": "w_12_07",
+          "text": "کرگلی",
+          "startFrame": 4111,
+          "endFrame": 4169
+        },
+        {
+          "id": "w_12_08",
+          "text": "سی",
+          "startFrame": 4169,
+          "endFrame": 4186
+        }
+      ]
+    },
+    {
+      "id": "line_13",
+      "text": "Main sach bol doon agar, toh muskura degi kya?",
+      "startTime": 69.76,
+      "endTime": 84.22,
+      "startFrame": 4186,
+      "endFrame": 5053,
+      "accentWords": [
+        "muskura"
+      ],
+      "words": [
+        {
+          "id": "w_13_01",
+          "text": "لگا",
+          "startFrame": 4186,
+          "endFrame": 4225
+        },
+        {
+          "id": "w_13_02",
+          "text": "دگی",
+          "startFrame": 4225,
+          "endFrame": 4262
+        },
+        {
+          "id": "w_13_03",
+          "text": "کیا",
+          "startFrame": 4262,
+          "endFrame": 4364
+        },
+        {
+          "id": "w_13_04",
+          "text": "کنش",
+          "startFrame": 4883,
+          "endFrame": 4920
+        },
+        {
+          "id": "w_13_05",
+          "text": "کے",
+          "startFrame": 4920,
+          "endFrame": 4932
+        },
+        {
+          "id": "w_13_06",
+          "text": "گیلاز",
+          "startFrame": 4932,
+          "endFrame": 4955
+        },
+        {
+          "id": "w_13_07",
+          "text": "میں",
+          "startFrame": 4955,
+          "endFrame": 4969
+        },
+        {
+          "id": "w_13_08",
+          "text": "برف",
+          "startFrame": 4969,
+          "endFrame": 4986
+        },
+        {
+          "id": "w_13_09",
+          "text": "پیگلتی",
+          "startFrame": 4986,
+          "endFrame": 5053
+        }
+      ]
+    },
+    {
+      "id": "line_14",
+      "text": "Jo lafz dabe hain kabse seene mein mere,",
+      "startTime": 84.22,
+      "endTime": 88.32,
+      "startFrame": 5053,
+      "endFrame": 5299,
+      "accentWords": [
+        "kabse"
+      ],
+      "words": [
+        {
+          "id": "w_14_01",
+          "text": "ہے",
+          "startFrame": 5053,
+          "endFrame": 5090
+        },
+        {
+          "id": "w_14_02",
+          "text": "تو",
+          "startFrame": 5165,
+          "endFrame": 5202
+        },
+        {
+          "id": "w_14_03",
+          "text": "جسین",
+          "startFrame": 5202,
+          "endFrame": 5228
+        },
+        {
+          "id": "w_14_04",
+          "text": "از",
+          "startFrame": 5228,
+          "endFrame": 5240
+        },
+        {
+          "id": "w_14_05",
+          "text": "اره",
+          "startFrame": 5240,
+          "endFrame": 5252
+        },
+        {
+          "id": "w_14_06",
+          "text": "بلتی",
+          "startFrame": 5252,
+          "endFrame": 5276
+        },
+        {
+          "id": "w_14_07",
+          "text": "ہے",
+          "startFrame": 5276,
+          "endFrame": 5286
+        },
+        {
+          "id": "w_14_08",
+          "text": "از",
+          "startFrame": 5286,
+          "endFrame": 5299
+        }
+      ]
+    },
+    {
+      "id": "line_15",
+      "text": "Unhein aaj tu sun kar, gale se laga degi kya?",
+      "startTime": 88.32,
+      "endTime": 94.02,
+      "startFrame": 5299,
+      "endFrame": 5641,
+      "accentWords": [
+        "Unhein"
+      ],
+      "words": [
+        {
+          "id": "w_15_01",
+          "text": "آسی",
+          "startFrame": 5299,
+          "endFrame": 5323
+        },
+        {
+          "id": "w_15_02",
+          "text": "سمهلتی",
+          "startFrame": 5323,
+          "endFrame": 5370
+        },
+        {
+          "id": "w_15_03",
+          "text": "ہے",
+          "startFrame": 5370,
+          "endFrame": 5446
+        },
+        {
+          "id": "w_15_04",
+          "text": "دنی",
+          "startFrame": 5446,
+          "endFrame": 5514
+        },
+        {
+          "id": "w_15_05",
+          "text": "آکی",
+          "startFrame": 5514,
+          "endFrame": 5528
+        },
+        {
+          "id": "w_15_06",
+          "text": "بات",
+          "startFrame": 5528,
+          "endFrame": 5549
+        },
+        {
+          "id": "w_15_07",
+          "text": "او",
+          "startFrame": 5549,
+          "endFrame": 5570
+        },
+        {
+          "id": "w_15_08",
+          "text": "کب",
+          "startFrame": 5570,
+          "endFrame": 5596
+        },
+        {
+          "id": "w_15_09",
+          "text": "در",
+          "startFrame": 5596,
+          "endFrame": 5627
+        },
+        {
+          "id": "w_15_10",
+          "text": "نہیں",
+          "startFrame": 5627,
+          "endFrame": 5641
+        }
+      ]
+    },
+    {
+      "id": "line_16",
+      "text": "Kanch ke gilaas mein baraf pighalti hai,",
+      "startTime": 94.02,
+      "endTime": 96.66,
+      "startFrame": 5641,
+      "endFrame": 5800,
+      "accentWords": [
+        "pighalti"
+      ],
+      "words": [
+        {
+          "id": "w_16_01",
+          "text": "کی",
+          "startFrame": 5641,
+          "endFrame": 5681
+        },
+        {
+          "id": "w_16_02",
+          "text": "در",
+          "startFrame": 5681,
+          "endFrame": 5714
+        },
+        {
+          "id": "w_16_03",
+          "text": "ایسی",
+          "startFrame": 5714,
+          "endFrame": 5730
+        },
+        {
+          "id": "w_16_04",
+          "text": "بایدل",
+          "startFrame": 5730,
+          "endFrame": 5749
+        },
+        {
+          "id": "w_16_05",
+          "text": "کب",
+          "startFrame": 5749,
+          "endFrame": 5766
+        },
+        {
+          "id": "w_16_06",
+          "text": "هر",
+          "startFrame": 5766,
+          "endFrame": 5785
+        },
+        {
+          "id": "w_16_07",
+          "text": "نہیں",
+          "startFrame": 5785,
+          "endFrame": 5800
+        }
+      ]
+    },
+    {
+      "id": "line_17",
+      "text": "Tujhse nazar milti hai, saans sambhalti hai.",
+      "startTime": 96.66,
+      "endTime": 99.06,
+      "startFrame": 5800,
+      "endFrame": 5944,
+      "accentWords": [
+        "sambhalti"
+      ],
+      "words": [
+        {
+          "id": "w_17_01",
+          "text": "کی",
+          "startFrame": 5800,
+          "endFrame": 5833
+        },
+        {
+          "id": "w_17_02",
+          "text": "زفوم",
+          "startFrame": 5833,
+          "endFrame": 5879
+        },
+        {
+          "id": "w_17_03",
+          "text": "ککا",
+          "startFrame": 5879,
+          "endFrame": 5894
+        },
+        {
+          "id": "w_17_04",
+          "text": "که",
+          "startFrame": 5894,
+          "endFrame": 5905
+        },
+        {
+          "id": "w_17_05",
+          "text": "پیچه",
+          "startFrame": 5905,
+          "endFrame": 5923
+        },
+        {
+          "id": "w_17_06",
+          "text": "جو",
+          "startFrame": 5923,
+          "endFrame": 5935
+        },
+        {
+          "id": "w_17_07",
+          "text": "تو",
+          "startFrame": 5935,
+          "endFrame": 5944
+        }
+      ]
+    },
+    {
+      "id": "line_18",
+      "text": "Duniya ki baaton ka ab darr nahi koi,",
+      "startTime": 99.06,
+      "endTime": 101.16,
+      "startFrame": 5944,
+      "endFrame": 6070,
+      "accentWords": [
+        "Duniya"
+      ],
+      "words": [
+        {
+          "id": "w_18_01",
+          "text": "گرتی",
+          "startFrame": 5944,
+          "endFrame": 5978
+        },
+        {
+          "id": "w_18_02",
+          "text": "ہے",
+          "startFrame": 5978,
+          "endFrame": 5986
+        },
+        {
+          "id": "w_18_03",
+          "text": "سچکی",
+          "startFrame": 5986,
+          "endFrame": 6010
+        },
+        {
+          "id": "w_18_04",
+          "text": "که",
+          "startFrame": 6010,
+          "endFrame": 6019
+        },
+        {
+          "id": "w_18_05",
+          "text": "نا",
+          "startFrame": 6019,
+          "endFrame": 6036
+        },
+        {
+          "id": "w_18_06",
+          "text": "تو",
+          "startFrame": 6036,
+          "endFrame": 6044
+        },
+        {
+          "id": "w_18_07",
+          "text": "بی",
+          "startFrame": 6044,
+          "endFrame": 6055
+        },
+        {
+          "id": "w_18_08",
+          "text": "کم",
+          "startFrame": 6055,
+          "endFrame": 6070
+        }
+      ]
+    },
+    {
+      "id": "line_19",
+      "text": "Tere siwa dil ka ab ghar nahi koi.",
+      "startTime": 101.16,
+      "endTime": 133.56,
+      "startFrame": 6070,
+      "endFrame": 8014,
+      "accentWords": [
+        "siwa"
+      ],
+      "words": [
+        {
+          "id": "w_19_01",
+          "text": "اوچی",
+          "startFrame": 6070,
+          "endFrame": 6084
+        },
+        {
+          "id": "w_19_02",
+          "text": "پیم",
+          "startFrame": 6084,
+          "endFrame": 6110
+        },
+        {
+          "id": "w_19_03",
+          "text": "ارتی",
+          "startFrame": 6110,
+          "endFrame": 6137
+        },
+        {
+          "id": "w_19_04",
+          "text": "ہے",
+          "startFrame": 6137,
+          "endFrame": 6145
+        },
+        {
+          "id": "w_19_05",
+          "text": "بゃ",
+          "startFrame": 7945,
+          "endFrame": 7945
+        },
+        {
+          "id": "w_19_06",
+          "text": "ببک",
+          "startFrame": 7945,
+          "endFrame": 7970
+        },
+        {
+          "id": "w_19_07",
+          "text": "بہدب",
+          "startFrame": 7970,
+          "endFrame": 8002
+        },
+        {
+          "id": "w_19_08",
+          "text": "و",
+          "startFrame": 8002,
+          "endFrame": 8014
+        }
+      ]
+    },
+    {
+      "id": "line_20",
+      "text": "Zulfon ko kaan ke peeche jo tu karti hai,",
+      "startTime": 133.56,
+      "endTime": 149.1,
+      "startFrame": 8014,
+      "endFrame": 8946,
+      "accentWords": [
+        "Zulfon"
+      ],
+      "words": [
+        {
+          "id": "w_20_01",
+          "text": "oluyorکا",
+          "startFrame": 8014,
+          "endFrame": 8368
+        },
+        {
+          "id": "w_20_02",
+          "text": "ولو",
+          "startFrame": 8501,
+          "endFrame": 8562
+        },
+        {
+          "id": "w_20_03",
+          "text": "با",
+          "startFrame": 8562,
+          "endFrame": 8598
+        },
+        {
+          "id": "w_20_04",
+          "text": "جه",
+          "startFrame": 8598,
+          "endFrame": 8605
+        },
+        {
+          "id": "w_20_05",
+          "text": "کbornی",
+          "startFrame": 8605,
+          "endFrame": 8683
+        },
+        {
+          "id": "w_20_06",
+          "text": "را",
+          "startFrame": 8683,
+          "endFrame": 8881
+        },
+        {
+          "id": "w_20_07",
+          "text": "eman",
+          "startFrame": 8881,
+          "endFrame": 8881
+        },
+        {
+          "id": "w_20_08",
+          "text": "کشکا",
+          "startFrame": 8881,
+          "endFrame": 8916
+        },
+        {
+          "id": "w_20_09",
+          "text": "چارن",
+          "startFrame": 8916,
+          "endFrame": 8946
+        }
+      ]
+    },
+    {
+      "id": "line_21",
+      "text": "Sach kehna, tu bhi kya mujhpe hi marti hai?",
+      "startTime": 149.1,
+      "endTime": 156.8,
+      "startFrame": 8946,
+      "endFrame": 9408,
+      "accentWords": [
+        "mujhpe"
+      ],
+      "words": [
+        {
+          "id": "w_21_01",
+          "text": "ایت",
+          "startFrame": 8946,
+          "endFrame": 8946
+        },
+        {
+          "id": "w_21_02",
+          "text": "حرج",
+          "startFrame": 8946,
+          "endFrame": 8968
+        },
+        {
+          "id": "w_21_03",
+          "text": "و",
+          "startFrame": 8968,
+          "endFrame": 8988
+        },
+        {
+          "id": "w_21_04",
+          "text": "یت",
+          "startFrame": 8988,
+          "endFrame": 8988
+        },
+        {
+          "id": "w_21_05",
+          "text": "برا",
+          "startFrame": 8988,
+          "endFrame": 8988
+        },
+        {
+          "id": "w_21_06",
+          "text": "أراد",
+          "startFrame": 8988,
+          "endFrame": 8988
+        },
+        {
+          "id": "w_21_07",
+          "text": "این��ď",
+          "startFrame": 8988,
+          "endFrame": 9175
+        },
+        {
+          "id": "w_21_08",
+          "text": "ری",
+          "startFrame": 9175,
+          "endFrame": 9408
+        },
+        {
+          "id": "w_21_09",
+          "text": "tapa",
+          "startFrame": 9408,
+          "endFrame": 9408
+        }
+      ]
+    },
+    {
+      "id": "line_22",
+      "text": "Thoda sa jhooth hi sahi, tu keh ke dikha,",
+      "startTime": 156.8,
+      "endTime": 163.24,
+      "startFrame": 9408,
+      "endFrame": 9794,
+      "accentWords": [
+        "jhooth"
+      ],
+      "words": [
+        {
+          "id": "w_22_01",
+          "text": "idé",
+          "startFrame": 9408,
+          "endFrame": 9415
+        },
+        {
+          "id": "w_22_02",
+          "text": "pardon",
+          "startFrame": 9415,
+          "endFrame": 9425
+        },
+        {
+          "id": "w_22_03",
+          "text": "didn",
+          "startFrame": 9623,
+          "endFrame": 9684
+        },
+        {
+          "id": "w_22_04",
+          "text": "you",
+          "startFrame": 9684,
+          "endFrame": 9720
+        },
+        {
+          "id": "w_22_05",
+          "text": "where",
+          "startFrame": 9720,
+          "endFrame": 9733
+        },
+        {
+          "id": "w_22_06",
+          "text": "i",
+          "startFrame": 9733,
+          "endFrame": 9738
+        },
+        {
+          "id": "w_22_07",
+          "text": "could",
+          "startFrame": 9738,
+          "endFrame": 9744
+        },
+        {
+          "id": "w_22_08",
+          "text": "مور",
+          "startFrame": 9744,
+          "endFrame": 9760
+        },
+        {
+          "id": "w_22_09",
+          "text": "چبا",
+          "startFrame": 9760,
+          "endFrame": 9794
+        }
+      ]
+    },
+    {
+      "id": "line_23",
+      "text": "Is bhatke musafir ko raasta tu dikha!",
+      "startTime": 163.24,
+      "endTime": 166.14,
+      "startFrame": 9794,
+      "endFrame": 9968,
+      "accentWords": [
+        "musafir"
+      ],
+      "words": [
+        {
+          "id": "w_23_01",
+          "text": "هی",
+          "startFrame": 9794,
+          "endFrame": 9804
+        },
+        {
+          "id": "w_23_02",
+          "text": "آگر",
+          "startFrame": 9804,
+          "endFrame": 9824
+        },
+        {
+          "id": "w_23_03",
+          "text": "هات",
+          "startFrame": 9824,
+          "endFrame": 9854
+        },
+        {
+          "id": "w_23_04",
+          "text": "پڑاکی",
+          "startFrame": 9854,
+          "endFrame": 9890
+        },
+        {
+          "id": "w_23_05",
+          "text": "مروک",
+          "startFrame": 9890,
+          "endFrame": 9925
+        },
+        {
+          "id": "w_23_06",
+          "text": "دلومت",
+          "startFrame": 9925,
+          "endFrame": 9958
+        },
+        {
+          "id": "w_23_07",
+          "text": "اج",
+          "startFrame": 9958,
+          "endFrame": 9968
+        }
+      ]
+    },
+    {
+      "id": "line_24",
+      "text": "Yeh kaisa khumaar hai, kaisa yeh suroor hai,",
+      "startTime": 166.14,
+      "endTime": 174.4,
+      "startFrame": 9968,
+      "endFrame": 10464,
+      "accentWords": [
+        "khumaar"
+      ],
+      "words": [
+        {
+          "id": "w_24_01",
+          "text": "بکانا",
+          "startFrame": 9968,
+          "endFrame": 10013
+        },
+        {
+          "id": "w_24_02",
+          "text": "یه",
+          "startFrame": 10013,
+          "endFrame": 10062
+        },
+        {
+          "id": "w_24_03",
+          "text": "دلبی",
+          "startFrame": 10062,
+          "endFrame": 10094
+        },
+        {
+          "id": "w_24_04",
+          "text": "کسورینا",
+          "startFrame": 10094,
+          "endFrame": 10141
+        },
+        {
+          "id": "w_24_05",
+          "text": "آک",
+          "startFrame": 10271,
+          "endFrame": 10340
+        },
+        {
+          "id": "w_24_06",
+          "text": "خومی",
+          "startFrame": 10340,
+          "endFrame": 10376
+        },
+        {
+          "id": "w_24_07",
+          "text": "دیکھا",
+          "startFrame": 10376,
+          "endFrame": 10421
+        },
+        {
+          "id": "w_24_08",
+          "text": "هیمانی",
+          "startFrame": 10421,
+          "endFrame": 10464
+        }
+      ]
+    },
+    {
+      "id": "line_25",
+      "text": "Paas hoke bhi tu kyun lagti thodi door hai?",
+      "startTime": 174.4,
+      "endTime": 180.38,
+      "startFrame": 10464,
+      "endFrame": 10823,
+      "accentWords": [
+        "lagti"
+      ],
+      "words": [
+        {
+          "id": "w_25_01",
+          "text": "ایک",
+          "startFrame": 10464,
+          "endFrame": 10496
+        },
+        {
+          "id": "w_25_02",
+          "text": "پلکلی",
+          "startFrame": 10496,
+          "endFrame": 10549
+        },
+        {
+          "id": "w_25_03",
+          "text": "ای",
+          "startFrame": 10549,
+          "endFrame": 10567
+        },
+        {
+          "id": "w_25_04",
+          "text": "تو",
+          "startFrame": 10567,
+          "endFrame": 10650
+        },
+        {
+          "id": "w_25_05",
+          "text": "بی",
+          "startFrame": 10650,
+          "endFrame": 10680
+        },
+        {
+          "id": "w_25_06",
+          "text": "تو",
+          "startFrame": 10680,
+          "endFrame": 10694
+        },
+        {
+          "id": "w_25_07",
+          "text": "رکی",
+          "startFrame": 10694,
+          "endFrame": 10722
+        },
+        {
+          "id": "w_25_08",
+          "text": "هیبس",
+          "startFrame": 10722,
+          "endFrame": 10782
+        },
+        {
+          "id": "w_25_09",
+          "text": "ایک",
+          "startFrame": 10782,
+          "endFrame": 10823
+        }
+      ]
+    },
+    {
+      "id": "line_26",
+      "text": "Tu hans ke bahaana koi bana degi kya?",
+      "startTime": 180.38,
+      "endTime": 185.0,
+      "startFrame": 10823,
+      "endFrame": 11100,
+      "accentWords": [
+        "bahaana"
+      ],
+      "words": [
+        {
+          "id": "w_26_01",
+          "text": "حلکلی",
+          "startFrame": 10823,
+          "endFrame": 10872
+        },
+        {
+          "id": "w_26_02",
+          "text": "ای",
+          "startFrame": 10872,
+          "endFrame": 10894
+        },
+        {
+          "id": "w_26_03",
+          "text": "کل",
+          "startFrame": 10894,
+          "endFrame": 10927
+        },
+        {
+          "id": "w_26_04",
+          "text": "سب",
+          "startFrame": 10927,
+          "endFrame": 10954
+        },
+        {
+          "id": "w_26_05",
+          "text": "آج",
+          "startFrame": 10954,
+          "endFrame": 11015
+        },
+        {
+          "id": "w_26_06",
+          "text": "براش",
+          "startFrame": 11015,
+          "endFrame": 11047
+        },
+        {
+          "id": "w_26_07",
+          "text": "نکید",
+          "startFrame": 11047,
+          "endFrame": 11086
+        },
+        {
+          "id": "w_26_08",
+          "text": "کی",
+          "startFrame": 11086,
+          "endFrame": 11100
+        }
+      ]
+    },
+    {
+      "id": "line_27",
+      "text": "Main sach bol doon agar, toh muskura degi kya?",
+      "startTime": 185.0,
+      "endTime": 189.88,
+      "startFrame": 11100,
+      "endFrame": 11393,
+      "accentWords": [
+        "muskura"
+      ],
+      "words": [
+        {
+          "id": "w_27_01",
+          "text": "سے",
+          "startFrame": 11100,
+          "endFrame": 11111
+        },
+        {
+          "id": "w_27_02",
+          "text": "آئی",
+          "startFrame": 11111,
+          "endFrame": 11149
+        },
+        {
+          "id": "w_27_03",
+          "text": "آئیگی",
+          "startFrame": 11149,
+          "endFrame": 11212
+        },
+        {
+          "id": "w_27_04",
+          "text": "تو",
+          "startFrame": 11212,
+          "endFrame": 11255
+        },
+        {
+          "id": "w_27_05",
+          "text": "کی",
+          "startFrame": 11255,
+          "endFrame": 11285
+        },
+        {
+          "id": "w_27_06",
+          "text": "ای",
+          "startFrame": 11285,
+          "endFrame": 11303
+        },
+        {
+          "id": "w_27_07",
+          "text": "ساری",
+          "startFrame": 11303,
+          "endFrame": 11351
+        },
+        {
+          "id": "w_27_08",
+          "text": "بات",
+          "startFrame": 11351,
+          "endFrame": 11381
+        },
+        {
+          "id": "w_27_09",
+          "text": "ای",
+          "startFrame": 11381,
+          "endFrame": 11393
+        }
+      ]
+    },
+    {
+      "id": "line_28",
+      "text": "Do baje ki chai ho ya chaar baje ki baat,",
+      "startTime": 189.88,
+      "endTime": 198.04,
+      "startFrame": 11393,
+      "endFrame": 11882,
+      "accentWords": [
+        "chaar"
+      ],
+      "words": [
+        {
+          "id": "w_28_01",
+          "text": "بول",
+          "startFrame": 11393,
+          "endFrame": 11429
+        },
+        {
+          "id": "w_28_02",
+          "text": "جائیگی",
+          "startFrame": 11429,
+          "endFrame": 11480
+        },
+        {
+          "id": "w_28_03",
+          "text": "بولنا",
+          "startFrame": 11480,
+          "endFrame": 11574
+        },
+        {
+          "id": "w_28_04",
+          "text": "کیا",
+          "startFrame": 11574,
+          "endFrame": 11676
+        },
+        {
+          "id": "w_28_05",
+          "text": "سچ",
+          "startFrame": 11676,
+          "endFrame": 11696
+        },
+        {
+          "id": "w_28_06",
+          "text": "میں",
+          "startFrame": 11696,
+          "endFrame": 11710
+        },
+        {
+          "id": "w_28_07",
+          "text": "بول",
+          "startFrame": 11710,
+          "endFrame": 11759
+        },
+        {
+          "id": "w_28_08",
+          "text": "جائیگی؟",
+          "startFrame": 11759,
+          "endFrame": 11830
+        },
+        {
+          "id": "w_28_09",
+          "text": "یک",
+          "startFrame": 11830,
+          "endFrame": 11845
+        },
+        {
+          "id": "w_28_10",
+          "text": "ایسا",
+          "startFrame": 11845,
+          "endFrame": 11882
+        }
+      ]
+    },
+    {
+      "id": "line_29",
+      "text": "Kash koi thehra de yeh haseen raat.",
+      "startTime": 198.04,
+      "endTime": 204.66,
+      "startFrame": 11882,
+      "endFrame": 12280,
+      "accentWords": [
+        "thehra"
+      ],
+      "words": [
+        {
+          "id": "w_29_01",
+          "text": "خماره",
+          "startFrame": 11882,
+          "endFrame": 11972
+        },
+        {
+          "id": "w_29_02",
+          "text": "کسای",
+          "startFrame": 11972,
+          "endFrame": 12058
+        },
+        {
+          "id": "w_29_03",
+          "text": "سوروره",
+          "startFrame": 12058,
+          "endFrame": 12132
+        },
+        {
+          "id": "w_29_04",
+          "text": "پاسه",
+          "startFrame": 12132,
+          "endFrame": 12205
+        },
+        {
+          "id": "w_29_05",
+          "text": "که",
+          "startFrame": 12205,
+          "endFrame": 12228
+        },
+        {
+          "id": "w_29_06",
+          "text": "بی",
+          "startFrame": 12228,
+          "endFrame": 12242
+        },
+        {
+          "id": "w_29_07",
+          "text": "توکی",
+          "startFrame": 12242,
+          "endFrame": 12280
+        }
+      ]
+    },
+    {
+      "id": "line_30",
+      "text": "Log kehte hain ke main thoda sa deewaana hoon,",
+      "startTime": 204.66,
+      "endTime": 211.96,
+      "startFrame": 12280,
+      "endFrame": 12718,
+      "accentWords": [
+        "deewaana"
+      ],
+      "words": [
+        {
+          "id": "w_30_01",
+          "text": "مولکتی",
+          "startFrame": 12280,
+          "endFrame": 12350
+        },
+        {
+          "id": "w_30_02",
+          "text": "توڑی",
+          "startFrame": 12350,
+          "endFrame": 12408
+        },
+        {
+          "id": "w_30_03",
+          "text": "دوره",
+          "startFrame": 12408,
+          "endFrame": 12460
+        },
+        {
+          "id": "w_30_04",
+          "text": "تو",
+          "startFrame": 12460,
+          "endFrame": 12480
+        },
+        {
+          "id": "w_30_05",
+          "text": "حسقی",
+          "startFrame": 12480,
+          "endFrame": 12536
+        },
+        {
+          "id": "w_30_06",
+          "text": "بہانا",
+          "startFrame": 12536,
+          "endFrame": 12594
+        },
+        {
+          "id": "w_30_07",
+          "text": "که",
+          "startFrame": 12594,
+          "endFrame": 12637
+        },
+        {
+          "id": "w_30_08",
+          "text": "بنا",
+          "startFrame": 12637,
+          "endFrame": 12661
+        },
+        {
+          "id": "w_30_09",
+          "text": "دیگی",
+          "startFrame": 12661,
+          "endFrame": 12718
+        }
+      ]
+    },
+    {
+      "id": "line_31",
+      "text": "Tere shehar mein bhatka ek be-ghar puraana hoon.",
+      "startTime": 211.96,
+      "endTime": 217.34,
+      "startFrame": 12718,
+      "endFrame": 13040,
+      "accentWords": [
+        "puraana"
+      ],
+      "words": [
+        {
+          "id": "w_31_01",
+          "text": "کی؟",
+          "startFrame": 12718,
+          "endFrame": 12773
+        },
+        {
+          "id": "w_31_02",
+          "text": "مستش",
+          "startFrame": 12773,
+          "endFrame": 12810
+        },
+        {
+          "id": "w_31_03",
+          "text": "بول",
+          "startFrame": 12810,
+          "endFrame": 12846
+        },
+        {
+          "id": "w_31_04",
+          "text": "دوم",
+          "startFrame": 12846,
+          "endFrame": 12868
+        },
+        {
+          "id": "w_31_05",
+          "text": "آگر",
+          "startFrame": 12868,
+          "endFrame": 12902
+        },
+        {
+          "id": "w_31_06",
+          "text": "تو",
+          "startFrame": 12902,
+          "endFrame": 12932
+        },
+        {
+          "id": "w_31_07",
+          "text": "مسکورا",
+          "startFrame": 12932,
+          "endFrame": 12988
+        },
+        {
+          "id": "w_31_08",
+          "text": "دیگی",
+          "startFrame": 12988,
+          "endFrame": 13040
+        }
+      ]
+    },
+    {
+      "id": "line_32",
+      "text": "Meri khamoshi mein jo shor chupa hai,",
+      "startTime": 217.34,
+      "endTime": 223.04,
+      "startFrame": 13040,
+      "endFrame": 13382,
+      "accentWords": [
+        "khamoshi"
+      ],
+      "words": [
+        {
+          "id": "w_32_01",
+          "text": "کی؟",
+          "startFrame": 13040,
+          "endFrame": 13104
+        },
+        {
+          "id": "w_32_02",
+          "text": "جو",
+          "startFrame": 13104,
+          "endFrame": 13130
+        },
+        {
+          "id": "w_32_03",
+          "text": "لبزد",
+          "startFrame": 13130,
+          "endFrame": 13171
+        },
+        {
+          "id": "w_32_04",
+          "text": "بیه",
+          "startFrame": 13171,
+          "endFrame": 13204
+        },
+        {
+          "id": "w_32_05",
+          "text": "کمسی",
+          "startFrame": 13204,
+          "endFrame": 13253
+        },
+        {
+          "id": "w_32_06",
+          "text": "سینه",
+          "startFrame": 13253,
+          "endFrame": 13332
+        },
+        {
+          "id": "w_32_07",
+          "text": "میره",
+          "startFrame": 13332,
+          "endFrame": 13382
+        }
+      ]
+    },
+    {
+      "id": "line_33",
+      "text": "Tere hi naam ka ik mod chupa hai.",
+      "startTime": 223.04,
+      "endTime": 228.04,
+      "startFrame": 13382,
+      "endFrame": 13682,
+      "accentWords": [
+        "chupa"
+      ],
+      "words": [
+        {
+          "id": "w_33_01",
+          "text": "و",
+          "startFrame": 13382,
+          "endFrame": 13445
+        },
+        {
+          "id": "w_33_02",
+          "text": "نی",
+          "startFrame": 13445,
+          "endFrame": 13460
+        },
+        {
+          "id": "w_33_03",
+          "text": "آجتو",
+          "startFrame": 13460,
+          "endFrame": 13511
+        },
+        {
+          "id": "w_33_04",
+          "text": "سنکر",
+          "startFrame": 13511,
+          "endFrame": 13553
+        },
+        {
+          "id": "w_33_05",
+          "text": "گلی",
+          "startFrame": 13553,
+          "endFrame": 13590
+        },
+        {
+          "id": "w_33_06",
+          "text": "سلگا",
+          "startFrame": 13590,
+          "endFrame": 13639
+        },
+        {
+          "id": "w_33_07",
+          "text": "ده",
+          "startFrame": 13639,
+          "endFrame": 13662
+        },
+        {
+          "id": "w_33_08",
+          "text": "گی",
+          "startFrame": 13662,
+          "endFrame": 13682
+        }
+      ]
+    },
+    {
+      "id": "line_34",
+      "text": "Agar haath badha ke main rokk loon tujhe,",
+      "startTime": 228.04,
+      "endTime": 233.38,
+      "startFrame": 13682,
+      "endFrame": 14003,
+      "accentWords": [
+        "haath"
+      ],
+      "words": [
+        {
+          "id": "w_34_01",
+          "text": "کی",
+          "startFrame": 13682,
+          "endFrame": 13699
+        },
+        {
+          "id": "w_34_02",
+          "text": "که",
+          "startFrame": 13699,
+          "endFrame": 13822
+        },
+        {
+          "id": "w_34_03",
+          "text": "ها",
+          "startFrame": 13822,
+          "endFrame": 13841
+        },
+        {
+          "id": "w_34_04",
+          "text": "ها",
+          "startFrame": 13841,
+          "endFrame": 13890
+        },
+        {
+          "id": "w_34_05",
+          "text": "گلی",
+          "startFrame": 13890,
+          "endFrame": 13913
+        },
+        {
+          "id": "w_34_06",
+          "text": "سلگا",
+          "startFrame": 13913,
+          "endFrame": 13962
+        },
+        {
+          "id": "w_34_07",
+          "text": "ده",
+          "startFrame": 13962,
+          "endFrame": 13984
+        },
+        {
+          "id": "w_34_08",
+          "text": "گی",
+          "startFrame": 13984,
+          "endFrame": 14003
+        }
+      ]
+    },
+    {
+      "id": "line_35",
+      "text": "Bata na, yeh dil be-qasoor hai na?",
+      "startTime": 233.38,
+      "endTime": 240.96,
+      "startFrame": 14003,
+      "endFrame": 14458,
+      "accentWords": [
+        "be-qasoor"
+      ],
+      "words": [
+        {
+          "id": "w_35_01",
+          "text": "کی",
+          "startFrame": 14003,
+          "endFrame": 14036
+        },
+        {
+          "id": "w_35_02",
+          "text": "که",
+          "startFrame": 14036,
+          "endFrame": 14064
+        },
+        {
+          "id": "w_35_03",
+          "text": "ای",
+          "startFrame": 14064,
+          "endFrame": 14260
+        },
+        {
+          "id": "w_35_04",
+          "text": "که",
+          "startFrame": 14260,
+          "endFrame": 14274
+        },
+        {
+          "id": "w_35_05",
+          "text": "سا",
+          "startFrame": 14274,
+          "endFrame": 14299
+        },
+        {
+          "id": "w_35_06",
+          "text": "خماره",
+          "startFrame": 14299,
+          "endFrame": 14389
+        },
+        {
+          "id": "w_35_07",
+          "text": "بستوی",
+          "startFrame": 14389,
+          "endFrame": 14458
+        }
+      ]
+    },
+    {
+      "id": "line_36",
+      "text": "Aankhon mein dekha hai maine ek pal ke liye,",
+      "startTime": 240.96,
+      "endTime": 168.0,
+      "startFrame": 14458,
+      "endFrame": 10080,
+      "accentWords": [
+        "Aankhon"
+      ],
+      "words": [
+        {
+          "id": "w_36_01",
+          "text": "توهه",
+          "startFrame": 14458,
+          "endFrame": 14509
+        },
+        {
+          "id": "w_36_02",
+          "text": "و",
+          "startFrame": 14509,
+          "endFrame": 14575
+        },
+        {
+          "id": "w_36_03",
+          "text": "رتی",
+          "startFrame": 14575,
+          "endFrame": 14602
+        },
+        {
+          "id": "w_36_04",
+          "text": "را",
+          "startFrame": 14602,
+          "endFrame": 14621
+        },
+        {
+          "id": "w_36_05",
+          "text": "خماره",
+          "startFrame": 14621,
+          "endFrame": 14710
+        },
+        {
+          "id": "w_36_06",
+          "text": "hadn't",
+          "startFrame": 15080,
+          "endFrame": 15164
+        },
+        {
+          "id": "w_36_07",
+          "text": "youост",
+          "startFrame": 15164,
+          "endFrame": 15164
+        },
+        {
+          "id": "w_36_08",
+          "text": "a",
+          "startFrame": 15164,
+          "endFrame": 15164
+        }
+      ]
+    },
+    {
+      "id": "line_37",
+      "text": "Tu bhi toh ruki hai bas ek hal ke liye.",
+      "startTime": 168.0,
+      "endTime": 172.0,
+      "startFrame": 10080,
+      "endFrame": 10320,
+      "accentWords": [
+        "ruki"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_38",
+      "text": "Kal subah jab roshni khidki se aayegi,",
+      "startTime": 172.0,
+      "endTime": 174.8,
+      "startFrame": 10320,
+      "endFrame": 10488,
+      "accentWords": [
+        "roshni"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_39",
+      "text": "Tu kya yeh saari baatein bhool jaayegi?",
+      "startTime": 176.0,
+      "endTime": 178.8,
+      "startFrame": 10560,
+      "endFrame": 10728,
+      "accentWords": [
+        "baatein"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_40",
+      "text": "Bol na...",
+      "startTime": 180.0,
+      "endTime": 182.5,
+      "startFrame": 10800,
+      "endFrame": 10950,
+      "accentWords": [
+        "Bol"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_41",
+      "text": "Kya sach mein bhool jaayegi?",
+      "startTime": 184.0,
+      "endTime": 186.5,
+      "startFrame": 11040,
+      "endFrame": 11190,
+      "accentWords": [
+        "jaayegi"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_42",
+      "text": "Yeh kaisa khumaar hai, kaisa yeh suroor hai!",
+      "startTime": 192.0,
+      "endTime": 195.2,
+      "startFrame": 11520,
+      "endFrame": 11712,
+      "accentWords": [
+        "khumaar"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_43",
+      "text": "Paas hoke bhi tu kyun lagti thodi door hai!",
+      "startTime": 196.0,
+      "endTime": 199.6,
+      "startFrame": 11760,
+      "endFrame": 11976,
+      "accentWords": [
+        "lagti"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_44",
+      "text": "Tu hans ke bahaana koi bana degi kya?",
+      "startTime": 200.0,
+      "endTime": 203.2,
+      "startFrame": 12000,
+      "endFrame": 12192,
+      "accentWords": [
+        "bahaana"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_45",
+      "text": "Main sach bol doon agar, toh muskura degi kya?",
+      "startTime": 204.0,
+      "endTime": 207.6,
+      "startFrame": 12240,
+      "endFrame": 12456,
+      "accentWords": [
+        "muskura"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_46",
+      "text": "Jo lafz dabe hain kabse seene mein mere,",
+      "startTime": 208.0,
+      "endTime": 211.2,
+      "startFrame": 12480,
+      "endFrame": 12672,
+      "accentWords": [
+        "kabse"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_47",
+      "text": "Unhein aaj tu sun kar, gale se laga degi kya?",
+      "startTime": 212.0,
+      "endTime": 216.0,
+      "startFrame": 12720,
+      "endFrame": 12960,
+      "accentWords": [
+        "Unhein"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_48",
+      "text": "Haan gale se laga degi kya...",
+      "startTime": 220.0,
+      "endTime": 222.5,
+      "startFrame": 13200,
+      "endFrame": 13350,
+      "accentWords": [
+        "Haan"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_49",
+      "text": "Yeh kaisa khumaar hai...",
+      "startTime": 224.0,
+      "endTime": 226.5,
+      "startFrame": 13440,
+      "endFrame": 13590,
+      "accentWords": [
+        "khumaar"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_50",
+      "text": "Bas tu hi tu hai...",
+      "startTime": 228.0,
+      "endTime": 230.5,
+      "startFrame": 13680,
+      "endFrame": 13830,
+      "accentWords": [
+        "Bas"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_51",
+      "text": "Aur tera khumaar hai...",
+      "startTime": 232.0,
+      "endTime": 234.5,
+      "startFrame": 13920,
+      "endFrame": 14070,
+      "accentWords": [
+        "khumaar"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_52",
+      "text": "(Soft acoustic guitar strum fading, warm resonant open chord, gentle breath out)",
+      "startTime": 236.0,
+      "endTime": 240.8,
+      "startFrame": 14160,
+      "endFrame": 14448,
+      "accentWords": [
+        "acoustic"
+      ],
+      "words": []
+    }
+  ]
+}

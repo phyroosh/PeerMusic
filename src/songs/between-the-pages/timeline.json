@@ -1,0 +1,1555 @@
+{
+  "songTitle": "Between the Pages",
+  "theme": "CelestialEclipse",
+  "fps": 60,
+  "totalFrames": 10800,
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "Quiet Library & Dust Motes",
+      "sectionTag": "01 // INTRO  •  LIBRARY SPECIMEN",
+      "startFrame": 0,
+      "endFrame": 648,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "Bedroom pop fingerstyle prelude • Sunlight streaming across quiet oak bookshelves",
+      "lines": []
+    },
+    {
+      "id": "scene_02_verse_1",
+      "name": "Heavy Oak Shelf & Pages Turning",
+      "sectionTag": "02 // VERSE 1  •  QUIET AFTERNOON",
+      "startFrame": 648,
+      "endFrame": 2028,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "Flipping through pages in the quiet space • Dust motes floating in golden light",
+      "lines": [
+        {
+          "id": "line_02_01",
+          "text": "You lean against the heavy oak shelf,",
+          "words": [
+            {
+              "id": "w_02_0001",
+              "text": "You",
+              "startFrame": 661,
+              "endFrame": 712,
+              "accent": false
+            },
+            {
+              "id": "w_02_0002",
+              "text": "lean",
+              "startFrame": 712,
+              "endFrame": 762,
+              "accent": false
+            },
+            {
+              "id": "w_02_0003",
+              "text": "against",
+              "startFrame": 762,
+              "endFrame": 784,
+              "accent": true
+            },
+            {
+              "id": "w_02_0004",
+              "text": "the",
+              "startFrame": 784,
+              "endFrame": 794,
+              "accent": false
+            },
+            {
+              "id": "w_02_0005",
+              "text": "heavy",
+              "startFrame": 794,
+              "endFrame": 815,
+              "accent": true
+            },
+            {
+              "id": "w_02_0006",
+              "text": "oak",
+              "startFrame": 815,
+              "endFrame": 846,
+              "accent": false
+            },
+            {
+              "id": "w_02_0007",
+              "text": "shelf,",
+              "startFrame": 846,
+              "endFrame": 881,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_02",
+          "text": "Flipping through pages in the quiet space,",
+          "words": [
+            {
+              "id": "w_02_0008",
+              "text": "Flipping",
+              "startFrame": 881,
+              "endFrame": 941,
+              "accent": true
+            },
+            {
+              "id": "w_02_0009",
+              "text": "through",
+              "startFrame": 941,
+              "endFrame": 959,
+              "accent": true
+            },
+            {
+              "id": "w_02_0010",
+              "text": "pages",
+              "startFrame": 959,
+              "endFrame": 988,
+              "accent": false
+            },
+            {
+              "id": "w_02_0011",
+              "text": "in",
+              "startFrame": 988,
+              "endFrame": 1003,
+              "accent": false
+            },
+            {
+              "id": "w_02_0012",
+              "text": "the",
+              "startFrame": 1003,
+              "endFrame": 1009,
+              "accent": false
+            },
+            {
+              "id": "w_02_0013",
+              "text": "quiet",
+              "startFrame": 1009,
+              "endFrame": 1031,
+              "accent": true
+            },
+            {
+              "id": "w_02_0014",
+              "text": "space,",
+              "startFrame": 1031,
+              "endFrame": 1072,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_03",
+          "text": "Dust motes are floating in golden light,",
+          "words": [
+            {
+              "id": "w_02_0015",
+              "text": "Dust",
+              "startFrame": 1072,
+              "endFrame": 1138,
+              "accent": false
+            },
+            {
+              "id": "w_02_0016",
+              "text": "motes",
+              "startFrame": 1138,
+              "endFrame": 1144,
+              "accent": false
+            },
+            {
+              "id": "w_02_0017",
+              "text": "are",
+              "startFrame": 1144,
+              "endFrame": 1166,
+              "accent": false
+            },
+            {
+              "id": "w_02_0018",
+              "text": "floating",
+              "startFrame": 1166,
+              "endFrame": 1188,
+              "accent": true
+            },
+            {
+              "id": "w_02_0019",
+              "text": "in",
+              "startFrame": 1188,
+              "endFrame": 1213,
+              "accent": false
+            },
+            {
+              "id": "w_02_0020",
+              "text": "golden",
+              "startFrame": 1213,
+              "endFrame": 1278,
+              "accent": true
+            },
+            {
+              "id": "w_02_0021",
+              "text": "light,",
+              "startFrame": 1278,
+              "endFrame": 1284,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_04",
+          "text": "I am just staring at your hands,",
+          "words": [
+            {
+              "id": "w_02_0022",
+              "text": "I",
+              "startFrame": 1414,
+              "endFrame": 1464,
+              "accent": false
+            },
+            {
+              "id": "w_02_0023",
+              "text": "am",
+              "startFrame": 1464,
+              "endFrame": 1481,
+              "accent": false
+            },
+            {
+              "id": "w_02_0024",
+              "text": "just",
+              "startFrame": 1481,
+              "endFrame": 1493,
+              "accent": false
+            },
+            {
+              "id": "w_02_0025",
+              "text": "staring",
+              "startFrame": 1493,
+              "endFrame": 1518,
+              "accent": true
+            },
+            {
+              "id": "w_02_0026",
+              "text": "at",
+              "startFrame": 1518,
+              "endFrame": 1544,
+              "accent": false
+            },
+            {
+              "id": "w_02_0027",
+              "text": "your",
+              "startFrame": 1544,
+              "endFrame": 1566,
+              "accent": false
+            },
+            {
+              "id": "w_02_0028",
+              "text": "hands,",
+              "startFrame": 1566,
+              "endFrame": 1620,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_02_05",
+          "text": "Sorting through a stack of old books,",
+          "words": [
+            {
+              "id": "w_02_0029",
+              "text": "Sorting",
+              "startFrame": 1620,
+              "endFrame": 1650,
+              "accent": true
+            },
+            {
+              "id": "w_02_0030",
+              "text": "through",
+              "startFrame": 1650,
+              "endFrame": 1661,
+              "accent": true
+            },
+            {
+              "id": "w_02_0031",
+              "text": "a",
+              "startFrame": 1661,
+              "endFrame": 1672,
+              "accent": false
+            },
+            {
+              "id": "w_02_0032",
+              "text": "stack",
+              "startFrame": 1672,
+              "endFrame": 1682,
+              "accent": false
+            },
+            {
+              "id": "w_02_0033",
+              "text": "of",
+              "startFrame": 1682,
+              "endFrame": 1704,
+              "accent": false
+            },
+            {
+              "id": "w_02_0034",
+              "text": "old",
+              "startFrame": 1704,
+              "endFrame": 1729,
+              "accent": false
+            },
+            {
+              "id": "w_02_0035",
+              "text": "books,",
+              "startFrame": 1729,
+              "endFrame": 1768,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_02_06",
+          "text": "You do not even know I am here.",
+          "words": [
+            {
+              "id": "w_02_0036",
+              "text": "You",
+              "startFrame": 1800,
+              "endFrame": 1816,
+              "accent": false
+            },
+            {
+              "id": "w_02_0037",
+              "text": "do",
+              "startFrame": 1816,
+              "endFrame": 1825,
+              "accent": false
+            },
+            {
+              "id": "w_02_0038",
+              "text": "not",
+              "startFrame": 1825,
+              "endFrame": 1846,
+              "accent": false
+            },
+            {
+              "id": "w_02_0039",
+              "text": "even",
+              "startFrame": 1846,
+              "endFrame": 1866,
+              "accent": false
+            },
+            {
+              "id": "w_02_0040",
+              "text": "know",
+              "startFrame": 1866,
+              "endFrame": 1889,
+              "accent": false
+            },
+            {
+              "id": "w_02_0041",
+              "text": "I",
+              "startFrame": 1889,
+              "endFrame": 1910,
+              "accent": false
+            },
+            {
+              "id": "w_02_0042",
+              "text": "am",
+              "startFrame": 1910,
+              "endFrame": 1952,
+              "accent": false
+            },
+            {
+              "id": "w_02_0043",
+              "text": "here.",
+              "startFrame": 1952,
+              "endFrame": 1979,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_prechorus_1",
+      "name": "Silent Stacks & Turnaround",
+      "sectionTag": "03 // TURNAROUND  •  HEARTBEAT",
+      "startFrame": 2028,
+      "endFrame": 2244,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "Soft acoustic pause • The quiet moment right before the chorus arrives",
+      "lines": []
+    },
+    {
+      "id": "scene_04_chorus_1",
+      "name": "It's Just a Small Crush",
+      "sectionTag": "04 // CHORUS  •  QUIET RUSH",
+      "startFrame": 2244,
+      "endFrame": 3504,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "Watching you in the quiet rush • Wish that you would look up",
+      "lines": [
+        {
+          "id": "line_04_01",
+          "text": "It is just a small crush,",
+          "words": [
+            {
+              "id": "w_04_0044",
+              "text": "It",
+              "startFrame": 2251,
+              "endFrame": 2302,
+              "accent": false
+            },
+            {
+              "id": "w_04_0045",
+              "text": "is",
+              "startFrame": 2302,
+              "endFrame": 2326,
+              "accent": false
+            },
+            {
+              "id": "w_04_0046",
+              "text": "just",
+              "startFrame": 2326,
+              "endFrame": 2348,
+              "accent": false
+            },
+            {
+              "id": "w_04_0047",
+              "text": "a",
+              "startFrame": 2348,
+              "endFrame": 2365,
+              "accent": false
+            },
+            {
+              "id": "w_04_0048",
+              "text": "small",
+              "startFrame": 2365,
+              "endFrame": 2412,
+              "accent": false
+            },
+            {
+              "id": "w_04_0049",
+              "text": "crush,",
+              "startFrame": 2412,
+              "endFrame": 2470,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_04_02",
+          "text": "Watching you in the quiet rush.",
+          "words": [
+            {
+              "id": "w_04_0050",
+              "text": "Watching",
+              "startFrame": 2590,
+              "endFrame": 2640,
+              "accent": true
+            },
+            {
+              "id": "w_04_0051",
+              "text": "you",
+              "startFrame": 2640,
+              "endFrame": 2676,
+              "accent": false
+            },
+            {
+              "id": "w_04_0052",
+              "text": "in",
+              "startFrame": 2676,
+              "endFrame": 2702,
+              "accent": false
+            },
+            {
+              "id": "w_04_0053",
+              "text": "the",
+              "startFrame": 2702,
+              "endFrame": 2714,
+              "accent": false
+            },
+            {
+              "id": "w_04_0054",
+              "text": "quiet",
+              "startFrame": 2714,
+              "endFrame": 2766,
+              "accent": false
+            },
+            {
+              "id": "w_04_0055",
+              "text": "rush.",
+              "startFrame": 2766,
+              "endFrame": 2824,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_04_03",
+          "text": "It is just a small crush,",
+          "words": [
+            {
+              "id": "w_04_0056",
+              "text": "It",
+              "startFrame": 3000,
+              "endFrame": 3005,
+              "accent": false
+            },
+            {
+              "id": "w_04_0057",
+              "text": "is",
+              "startFrame": 3005,
+              "endFrame": 3028,
+              "accent": false
+            },
+            {
+              "id": "w_04_0058",
+              "text": "just",
+              "startFrame": 3028,
+              "endFrame": 3050,
+              "accent": false
+            },
+            {
+              "id": "w_04_0059",
+              "text": "a",
+              "startFrame": 3050,
+              "endFrame": 3066,
+              "accent": false
+            },
+            {
+              "id": "w_04_0060",
+              "text": "small",
+              "startFrame": 3066,
+              "endFrame": 3115,
+              "accent": false
+            },
+            {
+              "id": "w_04_0061",
+              "text": "crush,",
+              "startFrame": 3115,
+              "endFrame": 3211,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_04_04",
+          "text": "Wish that you would look up.",
+          "words": [
+            {
+              "id": "w_04_0062",
+              "text": "Wish",
+              "startFrame": 3211,
+              "endFrame": 3292,
+              "accent": false
+            },
+            {
+              "id": "w_04_0063",
+              "text": "that",
+              "startFrame": 3292,
+              "endFrame": 3313,
+              "accent": false
+            },
+            {
+              "id": "w_04_0064",
+              "text": "you",
+              "startFrame": 3313,
+              "endFrame": 3332,
+              "accent": false
+            },
+            {
+              "id": "w_04_0065",
+              "text": "would",
+              "startFrame": 3332,
+              "endFrame": 3360,
+              "accent": false
+            },
+            {
+              "id": "w_04_0066",
+              "text": "look",
+              "startFrame": 3360,
+              "endFrame": 3395,
+              "accent": true
+            },
+            {
+              "id": "w_04_0067",
+              "text": "up.",
+              "startFrame": 3395,
+              "endFrame": 3458,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_verse_2",
+      "name": "French Notes & Ticking Wall Clock",
+      "sectionTag": "05 // VERSE 2  •  AFTERNOON LESSONS",
+      "startFrame": 3504,
+      "endFrame": 5028,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "The clock on the wall ticks slow • Studying for French, lost in your world",
+      "lines": [
+        {
+          "id": "line_05_01",
+          "text": "You move your hair behind your ear,",
+          "words": [
+            {
+              "id": "w_05_0068",
+              "text": "You",
+              "startFrame": 3550,
+              "endFrame": 3598,
+              "accent": false
+            },
+            {
+              "id": "w_05_0069",
+              "text": "move",
+              "startFrame": 3598,
+              "endFrame": 3614,
+              "accent": false
+            },
+            {
+              "id": "w_05_0070",
+              "text": "your",
+              "startFrame": 3614,
+              "endFrame": 3623,
+              "accent": false
+            },
+            {
+              "id": "w_05_0071",
+              "text": "hair",
+              "startFrame": 3623,
+              "endFrame": 3635,
+              "accent": true
+            },
+            {
+              "id": "w_05_0072",
+              "text": "behind",
+              "startFrame": 3635,
+              "endFrame": 3660,
+              "accent": false
+            },
+            {
+              "id": "w_05_0073",
+              "text": "your",
+              "startFrame": 3660,
+              "endFrame": 3691,
+              "accent": false
+            },
+            {
+              "id": "w_05_0074",
+              "text": "ear,",
+              "startFrame": 3691,
+              "endFrame": 3732,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_02",
+          "text": "Writing something down in your notebook.",
+          "words": [
+            {
+              "id": "w_05_0075",
+              "text": "Writing",
+              "startFrame": 3922,
+              "endFrame": 3970,
+              "accent": true
+            },
+            {
+              "id": "w_05_0076",
+              "text": "something",
+              "startFrame": 3970,
+              "endFrame": 3989,
+              "accent": true
+            },
+            {
+              "id": "w_05_0077",
+              "text": "down",
+              "startFrame": 3989,
+              "endFrame": 4016,
+              "accent": false
+            },
+            {
+              "id": "w_05_0078",
+              "text": "in",
+              "startFrame": 4016,
+              "endFrame": 4031,
+              "accent": false
+            },
+            {
+              "id": "w_05_0079",
+              "text": "your",
+              "startFrame": 4031,
+              "endFrame": 4038,
+              "accent": false
+            },
+            {
+              "id": "w_05_0080",
+              "text": "notebook.",
+              "startFrame": 4038,
+              "endFrame": 4073,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_05_03",
+          "text": "The clock on the wall ticks slow,",
+          "words": [
+            {
+              "id": "w_05_0081",
+              "text": "The",
+              "startFrame": 4111,
+              "endFrame": 4124,
+              "accent": false
+            },
+            {
+              "id": "w_05_0082",
+              "text": "clock",
+              "startFrame": 4124,
+              "endFrame": 4140,
+              "accent": false
+            },
+            {
+              "id": "w_05_0083",
+              "text": "on",
+              "startFrame": 4140,
+              "endFrame": 4162,
+              "accent": false
+            },
+            {
+              "id": "w_05_0084",
+              "text": "the",
+              "startFrame": 4162,
+              "endFrame": 4171,
+              "accent": false
+            },
+            {
+              "id": "w_05_0085",
+              "text": "wall",
+              "startFrame": 4171,
+              "endFrame": 4188,
+              "accent": false
+            },
+            {
+              "id": "w_05_0086",
+              "text": "ticks",
+              "startFrame": 4188,
+              "endFrame": 4207,
+              "accent": true
+            },
+            {
+              "id": "w_05_0087",
+              "text": "slow,",
+              "startFrame": 4207,
+              "endFrame": 4248,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_04",
+          "text": "Nobody else is in this corner but us.",
+          "words": [
+            {
+              "id": "w_05_0088",
+              "text": "Nobody",
+              "startFrame": 4291,
+              "endFrame": 4332,
+              "accent": false
+            },
+            {
+              "id": "w_05_0089",
+              "text": "else",
+              "startFrame": 4332,
+              "endFrame": 4374,
+              "accent": false
+            },
+            {
+              "id": "w_05_0090",
+              "text": "is",
+              "startFrame": 4374,
+              "endFrame": 4394,
+              "accent": false
+            },
+            {
+              "id": "w_05_0091",
+              "text": "in",
+              "startFrame": 4394,
+              "endFrame": 4415,
+              "accent": false
+            },
+            {
+              "id": "w_05_0092",
+              "text": "this",
+              "startFrame": 4415,
+              "endFrame": 4433,
+              "accent": false
+            },
+            {
+              "id": "w_05_0093",
+              "text": "corner",
+              "startFrame": 4433,
+              "endFrame": 4457,
+              "accent": true
+            },
+            {
+              "id": "w_05_0094",
+              "text": "but",
+              "startFrame": 4457,
+              "endFrame": 4478,
+              "accent": false
+            },
+            {
+              "id": "w_05_0095",
+              "text": "us.",
+              "startFrame": 4478,
+              "endFrame": 4511,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_05",
+          "text": "I should probably be studying for French,",
+          "words": [
+            {
+              "id": "w_05_0096",
+              "text": "I",
+              "startFrame": 4564,
+              "endFrame": 4612,
+              "accent": false
+            },
+            {
+              "id": "w_05_0097",
+              "text": "should",
+              "startFrame": 4612,
+              "endFrame": 4649,
+              "accent": false
+            },
+            {
+              "id": "w_05_0098",
+              "text": "probably",
+              "startFrame": 4649,
+              "endFrame": 4678,
+              "accent": true
+            },
+            {
+              "id": "w_05_0099",
+              "text": "be",
+              "startFrame": 4678,
+              "endFrame": 4691,
+              "accent": false
+            },
+            {
+              "id": "w_05_0100",
+              "text": "studying",
+              "startFrame": 4691,
+              "endFrame": 4720,
+              "accent": true
+            },
+            {
+              "id": "w_05_0101",
+              "text": "for",
+              "startFrame": 4720,
+              "endFrame": 4739,
+              "accent": false
+            },
+            {
+              "id": "w_05_0102",
+              "text": "French,",
+              "startFrame": 4739,
+              "endFrame": 4763,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_05_06",
+          "text": "But I am just lost in your world.",
+          "words": [
+            {
+              "id": "w_05_0103",
+              "text": "But",
+              "startFrame": 4763,
+              "endFrame": 4786,
+              "accent": false
+            },
+            {
+              "id": "w_05_0104",
+              "text": "I",
+              "startFrame": 4786,
+              "endFrame": 4805,
+              "accent": false
+            },
+            {
+              "id": "w_05_0105",
+              "text": "am",
+              "startFrame": 4805,
+              "endFrame": 4817,
+              "accent": false
+            },
+            {
+              "id": "w_05_0106",
+              "text": "just",
+              "startFrame": 4817,
+              "endFrame": 4830,
+              "accent": false
+            },
+            {
+              "id": "w_05_0107",
+              "text": "lost",
+              "startFrame": 4830,
+              "endFrame": 4858,
+              "accent": false
+            },
+            {
+              "id": "w_05_0108",
+              "text": "in",
+              "startFrame": 4858,
+              "endFrame": 4885,
+              "accent": false
+            },
+            {
+              "id": "w_05_0109",
+              "text": "your",
+              "startFrame": 4885,
+              "endFrame": 4909,
+              "accent": false
+            },
+            {
+              "id": "w_05_0110",
+              "text": "world.",
+              "startFrame": 4909,
+              "endFrame": 5003,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_chorus_2",
+      "name": "Watching You in the Quiet Rush",
+      "sectionTag": "06 // CHORUS 2  •  UNSAID FEELINGS",
+      "startFrame": 5028,
+      "endFrame": 6270,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "Wish that you would look up • A secret kept between the pages",
+      "lines": [
+        {
+          "id": "line_06_01",
+          "text": "It is just a small crush,",
+          "words": [
+            {
+              "id": "w_06_0111",
+              "text": "It",
+              "startFrame": 5062,
+              "endFrame": 5117,
+              "accent": false
+            },
+            {
+              "id": "w_06_0112",
+              "text": "is",
+              "startFrame": 5117,
+              "endFrame": 5136,
+              "accent": false
+            },
+            {
+              "id": "w_06_0113",
+              "text": "just",
+              "startFrame": 5136,
+              "endFrame": 5158,
+              "accent": false
+            },
+            {
+              "id": "w_06_0114",
+              "text": "a",
+              "startFrame": 5158,
+              "endFrame": 5176,
+              "accent": false
+            },
+            {
+              "id": "w_06_0115",
+              "text": "small",
+              "startFrame": 5176,
+              "endFrame": 5216,
+              "accent": false
+            },
+            {
+              "id": "w_06_0116",
+              "text": "crush,",
+              "startFrame": 5216,
+              "endFrame": 5303,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_06_02",
+          "text": "Watching you in the quiet rush.",
+          "words": [
+            {
+              "id": "w_06_0117",
+              "text": "Watching",
+              "startFrame": 5396,
+              "endFrame": 5452,
+              "accent": true
+            },
+            {
+              "id": "w_06_0118",
+              "text": "you",
+              "startFrame": 5452,
+              "endFrame": 5486,
+              "accent": false
+            },
+            {
+              "id": "w_06_0119",
+              "text": "in",
+              "startFrame": 5486,
+              "endFrame": 5513,
+              "accent": false
+            },
+            {
+              "id": "w_06_0120",
+              "text": "the",
+              "startFrame": 5513,
+              "endFrame": 5524,
+              "accent": false
+            },
+            {
+              "id": "w_06_0121",
+              "text": "quiet",
+              "startFrame": 5524,
+              "endFrame": 5573,
+              "accent": false
+            },
+            {
+              "id": "w_06_0122",
+              "text": "rush.",
+              "startFrame": 5573,
+              "endFrame": 5656,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_06_03",
+          "text": "It is just a small crush,",
+          "words": [
+            {
+              "id": "w_06_0123",
+              "text": "It",
+              "startFrame": 5759,
+              "endFrame": 5814,
+              "accent": false
+            },
+            {
+              "id": "w_06_0124",
+              "text": "is",
+              "startFrame": 5814,
+              "endFrame": 5837,
+              "accent": false
+            },
+            {
+              "id": "w_06_0125",
+              "text": "just",
+              "startFrame": 5837,
+              "endFrame": 5860,
+              "accent": false
+            },
+            {
+              "id": "w_06_0126",
+              "text": "a",
+              "startFrame": 5860,
+              "endFrame": 5876,
+              "accent": false
+            },
+            {
+              "id": "w_06_0127",
+              "text": "small",
+              "startFrame": 5876,
+              "endFrame": 5917,
+              "accent": false
+            },
+            {
+              "id": "w_06_0128",
+              "text": "crush,",
+              "startFrame": 5917,
+              "endFrame": 6019,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_06_04",
+          "text": "Wish that you would look up.",
+          "words": [
+            {
+              "id": "w_06_0129",
+              "text": "Wish",
+              "startFrame": 6083,
+              "endFrame": 6096,
+              "accent": false
+            },
+            {
+              "id": "w_06_0130",
+              "text": "that",
+              "startFrame": 6096,
+              "endFrame": 6122,
+              "accent": false
+            },
+            {
+              "id": "w_06_0131",
+              "text": "you",
+              "startFrame": 6122,
+              "endFrame": 6143,
+              "accent": false
+            },
+            {
+              "id": "w_06_0132",
+              "text": "would",
+              "startFrame": 6143,
+              "endFrame": 6170,
+              "accent": false
+            },
+            {
+              "id": "w_06_0133",
+              "text": "look",
+              "startFrame": 6170,
+              "endFrame": 6208,
+              "accent": true
+            },
+            {
+              "id": "w_06_0134",
+              "text": "up.",
+              "startFrame": 6208,
+              "endFrame": 6235,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_07_bridge",
+      "name": "Library Reverie & Dust Mote Solitude",
+      "sectionTag": "07 // INTERLUDE  •  GOLDEN HOUR",
+      "startFrame": 6270,
+      "endFrame": 7908,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "Warm Rhodes & acoustic guitar solo • Golden sunlight drifting across ancient bindings",
+      "lines": []
+    },
+    {
+      "id": "scene_08_chorus_climax",
+      "name": "Wish That You Would Look Up",
+      "sectionTag": "08 // CLIMAX  •  THE FINAL HOOK",
+      "startFrame": 7908,
+      "endFrame": 9125,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "It's just a small crush • Watching you in the quiet rush",
+      "lines": [
+        {
+          "id": "line_08_01",
+          "text": "It is just a small crush,",
+          "words": [
+            {
+              "id": "w_08_0135",
+              "text": "It",
+              "startFrame": 7921,
+              "endFrame": 7926,
+              "accent": false
+            },
+            {
+              "id": "w_08_0136",
+              "text": "is",
+              "startFrame": 7926,
+              "endFrame": 7945,
+              "accent": false
+            },
+            {
+              "id": "w_08_0137",
+              "text": "just",
+              "startFrame": 7945,
+              "endFrame": 7966,
+              "accent": false
+            },
+            {
+              "id": "w_08_0138",
+              "text": "a",
+              "startFrame": 7966,
+              "endFrame": 7982,
+              "accent": false
+            },
+            {
+              "id": "w_08_0139",
+              "text": "small",
+              "startFrame": 7982,
+              "endFrame": 8024,
+              "accent": false
+            },
+            {
+              "id": "w_08_0140",
+              "text": "crush,",
+              "startFrame": 8024,
+              "endFrame": 8132,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_08_02",
+          "text": "Watching you in the quiet rush.",
+          "words": [
+            {
+              "id": "w_08_0141",
+              "text": "Watching",
+              "startFrame": 8132,
+              "endFrame": 8263,
+              "accent": true
+            },
+            {
+              "id": "w_08_0142",
+              "text": "you",
+              "startFrame": 8263,
+              "endFrame": 8297,
+              "accent": false
+            },
+            {
+              "id": "w_08_0143",
+              "text": "in",
+              "startFrame": 8297,
+              "endFrame": 8322,
+              "accent": false
+            },
+            {
+              "id": "w_08_0144",
+              "text": "the",
+              "startFrame": 8322,
+              "endFrame": 8335,
+              "accent": false
+            },
+            {
+              "id": "w_08_0145",
+              "text": "quiet",
+              "startFrame": 8335,
+              "endFrame": 8381,
+              "accent": false
+            },
+            {
+              "id": "w_08_0146",
+              "text": "rush.",
+              "startFrame": 8381,
+              "endFrame": 8455,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_08_03",
+          "text": "It is just a small crush,",
+          "words": [
+            {
+              "id": "w_08_0147",
+              "text": "It",
+              "startFrame": 8540,
+              "endFrame": 8624,
+              "accent": false
+            },
+            {
+              "id": "w_08_0148",
+              "text": "is",
+              "startFrame": 8624,
+              "endFrame": 8647,
+              "accent": false
+            },
+            {
+              "id": "w_08_0149",
+              "text": "just",
+              "startFrame": 8647,
+              "endFrame": 8669,
+              "accent": false
+            },
+            {
+              "id": "w_08_0150",
+              "text": "a",
+              "startFrame": 8669,
+              "endFrame": 8688,
+              "accent": false
+            },
+            {
+              "id": "w_08_0151",
+              "text": "small",
+              "startFrame": 8688,
+              "endFrame": 8732,
+              "accent": false
+            },
+            {
+              "id": "w_08_0152",
+              "text": "crush,",
+              "startFrame": 8732,
+              "endFrame": 8838,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_08_04",
+          "text": "Wish that you would look up.",
+          "words": [
+            {
+              "id": "w_08_0153",
+              "text": "Wish",
+              "startFrame": 8838,
+              "endFrame": 8944,
+              "accent": false
+            },
+            {
+              "id": "w_08_0154",
+              "text": "that",
+              "startFrame": 8944,
+              "endFrame": 8960,
+              "accent": false
+            },
+            {
+              "id": "w_08_0155",
+              "text": "you",
+              "startFrame": 8960,
+              "endFrame": 8974,
+              "accent": false
+            },
+            {
+              "id": "w_08_0156",
+              "text": "would",
+              "startFrame": 8974,
+              "endFrame": 9012,
+              "accent": false
+            },
+            {
+              "id": "w_08_0157",
+              "text": "look",
+              "startFrame": 9012,
+              "endFrame": 9064,
+              "accent": true
+            },
+            {
+              "id": "w_08_0158",
+              "text": "up.",
+              "startFrame": 9064,
+              "endFrame": 9125,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_09_outro",
+      "name": "Sunset Through the Stacks",
+      "sectionTag": "09 // OUTRO  •  PACKING UP",
+      "startFrame": 9125,
+      "endFrame": 10800,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "library_books",
+      "subtitle": "The sun is going down now • Still just a small crush",
+      "lines": [
+        {
+          "id": "line_09_01",
+          "text": "The sun is going down now,",
+          "words": [
+            {
+              "id": "w_09_0159",
+              "text": "The",
+              "startFrame": 9125,
+              "endFrame": 9268,
+              "accent": false
+            },
+            {
+              "id": "w_09_0160",
+              "text": "sun",
+              "startFrame": 9268,
+              "endFrame": 9292,
+              "accent": false
+            },
+            {
+              "id": "w_09_0161",
+              "text": "is",
+              "startFrame": 9292,
+              "endFrame": 9344,
+              "accent": false
+            },
+            {
+              "id": "w_09_0162",
+              "text": "going",
+              "startFrame": 9344,
+              "endFrame": 9377,
+              "accent": false
+            },
+            {
+              "id": "w_09_0163",
+              "text": "down",
+              "startFrame": 9377,
+              "endFrame": 9430,
+              "accent": false
+            },
+            {
+              "id": "w_09_0164",
+              "text": "now,",
+              "startFrame": 9430,
+              "endFrame": 9497,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_02",
+          "text": "And you are packing up your bag.",
+          "words": [
+            {
+              "id": "w_09_0165",
+              "text": "And",
+              "startFrame": 9497,
+              "endFrame": 9607,
+              "accent": false
+            },
+            {
+              "id": "w_09_0166",
+              "text": "you",
+              "startFrame": 9607,
+              "endFrame": 9641,
+              "accent": false
+            },
+            {
+              "id": "w_09_0167",
+              "text": "are",
+              "startFrame": 9641,
+              "endFrame": 9691,
+              "accent": false
+            },
+            {
+              "id": "w_09_0168",
+              "text": "packing",
+              "startFrame": 9691,
+              "endFrame": 9768,
+              "accent": true
+            },
+            {
+              "id": "w_09_0169",
+              "text": "up",
+              "startFrame": 9768,
+              "endFrame": 9810,
+              "accent": false
+            },
+            {
+              "id": "w_09_0170",
+              "text": "your",
+              "startFrame": 9810,
+              "endFrame": 9827,
+              "accent": false
+            },
+            {
+              "id": "w_09_0171",
+              "text": "bag.",
+              "startFrame": 9827,
+              "endFrame": 9871,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_09_03",
+          "text": "Still just a small crush,",
+          "words": [
+            {
+              "id": "w_09_0172",
+              "text": "Still",
+              "startFrame": 9932,
+              "endFrame": 9966,
+              "accent": false
+            },
+            {
+              "id": "w_09_0173",
+              "text": "just",
+              "startFrame": 9966,
+              "endFrame": 9973,
+              "accent": false
+            },
+            {
+              "id": "w_09_0174",
+              "text": "a",
+              "startFrame": 9973,
+              "endFrame": 10002,
+              "accent": false
+            },
+            {
+              "id": "w_09_0175",
+              "text": "small",
+              "startFrame": 10002,
+              "endFrame": 10068,
+              "accent": false
+            },
+            {
+              "id": "w_09_0176",
+              "text": "crush,",
+              "startFrame": 10068,
+              "endFrame": 10166,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_09_04",
+          "text": "Wish that you had looked up.",
+          "words": [
+            {
+              "id": "w_09_0177",
+              "text": "Wish",
+              "startFrame": 10285,
+              "endFrame": 10349,
+              "accent": false
+            },
+            {
+              "id": "w_09_0178",
+              "text": "that",
+              "startFrame": 10349,
+              "endFrame": 10364,
+              "accent": false
+            },
+            {
+              "id": "w_09_0179",
+              "text": "you",
+              "startFrame": 10364,
+              "endFrame": 10386,
+              "accent": false
+            },
+            {
+              "id": "w_09_0180",
+              "text": "had",
+              "startFrame": 10386,
+              "endFrame": 10410,
+              "accent": false
+            },
+            {
+              "id": "w_09_0181",
+              "text": "looked",
+              "startFrame": 10410,
+              "endFrame": 10463,
+              "accent": true
+            },
+            {
+              "id": "w_09_0182",
+              "text": "up.",
+              "startFrame": 10463,
+              "endFrame": 10516,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

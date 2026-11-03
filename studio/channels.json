@@ -1,0 +1,29 @@
+{
+  "channels": [
+    {
+      "channelId": "UCsRmyC_93fGmQSk3rMJa9pA",
+      "title": "Judy Insights",
+      "customUrl": "@thejudyinsights",
+      "avatar": "https://yt3.ggpht.com/d7nWvcY0kRbW1WYYZhEek4runc2WvI4uX6lNmEtkC8LxHYy23F_wGRtOA-PnLtYzMKMiXmLV=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": "0",
+      "videoCount": "27",
+      "uploadsPlaylistId": "UUsRmyC_93fGmQSk3rMJa9pA",
+      "credentialId": "gcp_muxyzkcg",
+      "tokenFile": "tokens/yt_UCsRmyC_93fGmQSk3rMJa9pA.json",
+      "connectedAt": "2026-10-07T10:34:38.564Z"
+    },
+    {
+      "channelId": "UCoLDVBA531j8BFTcrS-regQ",
+      "title": "Peer Music",
+      "customUrl": "@peermusicecho",
+      "avatar": "https://yt3.ggpht.com/sAXg8ZzexZoE8CbqFrMuS_tBDDTea6t7-lrobIYyZ2ak10T7nzjkrGGIx3u3vGfalrL7v4Uc=s800-c-k-c0x00ffffff-no-rj",
+      "subscriberCount": "36",
+      "videoCount": "20",
+      "uploadsPlaylistId": "UUoLDVBA531j8BFTcrS-regQ",
+      "credentialId": "gcp_muxyzkcg",
+      "tokenFile": "tokens/yt_UCoLDVBA531j8BFTcrS-regQ.json",
+      "connectedAt": "2026-10-17T17:36:37.691Z"
+    }
+  ],
+  "activeChannelId": "UCoLDVBA531j8BFTcrS-regQ"
+}

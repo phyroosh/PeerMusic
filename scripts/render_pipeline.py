@@ -13,6 +13,17 @@ import subprocess
 import glob
 from typing import List, Optional
 
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+from scripts.duration_guard import (
+    validate_audio_duration,
+    enforce_duration_limit,
+    measure_audio_duration,
+    MAX_DURATION_SECONDS,
+)
+
 
 def run_command(cmd: List[str]) -> bool:
     print(f"[RUN] {' '.join(cmd)}")
@@ -70,11 +81,21 @@ def mux_audio(
         print(f"[-] Audio file not found: {audio_path}")
         return False
 
+    # Enforce duration guard (<= 180.0s hard maximum)
+    audio_dur = measure_audio_duration(audio_path)
+    final_audio_path = audio_path
+    if audio_dur > MAX_DURATION_SECONDS:
+        print(f"[!] Overlength audio detected: {audio_dur:.2f}s > {MAX_DURATION_SECONDS}s. Applying controlled trimming fallback...")
+        final_audio_path, new_dur, _ = enforce_duration_limit(audio_path)
+        print(f"[✓] Audio safely shortened to {new_dur:.2f}s <= {MAX_DURATION_SECONDS}s.")
+    else:
+        print(f"[✓] Audio duration validated: {audio_dur:.2f}s <= {MAX_DURATION_SECONDS}s.")
+
     cmd = [
         "ffmpeg", "-y",
         "-i", video_path,
         "-ss", str(audio_offset),
-        "-i", audio_path,
+        "-i", final_audio_path,
         "-map", "0:v:0",
         "-map", "1:a:0",
         "-c:v", "copy",

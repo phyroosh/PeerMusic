@@ -12,42 +12,7 @@
       "endFrame": 924,
       "hierarchy": "ATMOSPHERE_DOMINANT",
       "symbolKey": "title_hud",
-      "lines": [
-        {
-          "id": "line_01_title",
-          "text": "KACCHI NEENDEIN, PAKKE KHWAAB",
-          "words": [
-            {
-              "id": "w_s01_01",
-              "text": "KACCHI",
-              "startFrame": 120,
-              "endFrame": 240,
-              "accent": false
-            },
-            {
-              "id": "w_s01_02",
-              "text": "NEENDEIN,",
-              "startFrame": 240,
-              "endFrame": 360,
-              "accent": false
-            },
-            {
-              "id": "w_s01_03",
-              "text": "PAKKE",
-              "startFrame": 360,
-              "endFrame": 480,
-              "accent": false
-            },
-            {
-              "id": "w_s01_04",
-              "text": "KHWAAB",
-              "startFrame": 480,
-              "endFrame": 720,
-              "accent": true
-            }
-          ]
-        }
-      ]
+      "lines": []
     },
     {
       "id": "scene_02_chai",

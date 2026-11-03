@@ -1,0 +1,4782 @@
+{
+  "audio_file": "public/audio/trying_to_fit_in.mp3",
+  "duration": 233.1,
+  "language": "en",
+  "words": [
+    {
+      "word": "I'm",
+      "start": 7.94,
+      "end": 9.0,
+      "probability": 0.126
+    },
+    {
+      "word": "not",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.094
+    },
+    {
+      "word": "sure",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.058
+    },
+    {
+      "word": "if",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.077
+    },
+    {
+      "word": "I'm",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.276
+    },
+    {
+      "word": "right",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.079
+    },
+    {
+      "word": "or",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.374
+    },
+    {
+      "word": "wrong,",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.54
+    },
+    {
+      "word": "but",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.407
+    },
+    {
+      "word": "I'm",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.39
+    },
+    {
+      "word": "sure",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.213
+    },
+    {
+      "word": "I'm",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.549
+    },
+    {
+      "word": "right.",
+      "start": 9.0,
+      "end": 9.0,
+      "probability": 0.308
+    },
+    {
+      "word": "Laughing",
+      "start": 11.55,
+      "end": 12.08,
+      "probability": 0.0
+    },
+    {
+      "word": "two",
+      "start": 12.08,
+      "end": 12.46,
+      "probability": 0.089
+    },
+    {
+      "word": "beats",
+      "start": 12.46,
+      "end": 12.9,
+      "probability": 0.217
+    },
+    {
+      "word": "late",
+      "start": 12.9,
+      "end": 13.54,
+      "probability": 0.006
+    },
+    {
+      "word": "at",
+      "start": 13.54,
+      "end": 13.8,
+      "probability": 0.973
+    },
+    {
+      "word": "jokes",
+      "start": 13.8,
+      "end": 14.2,
+      "probability": 0.918
+    },
+    {
+      "word": "I",
+      "start": 14.2,
+      "end": 14.5,
+      "probability": 0.43
+    },
+    {
+      "word": "barely",
+      "start": 14.5,
+      "end": 14.86,
+      "probability": 0.997
+    },
+    {
+      "word": "understand,",
+      "start": 14.86,
+      "end": 15.62,
+      "probability": 0.99
+    },
+    {
+      "word": "Checking",
+      "start": 16.5,
+      "end": 18.44,
+      "probability": 0.535
+    },
+    {
+      "word": "my",
+      "start": 18.44,
+      "end": 18.58,
+      "probability": 0.988
+    },
+    {
+      "word": "reflection",
+      "start": 18.58,
+      "end": 19.34,
+      "probability": 0.983
+    },
+    {
+      "word": "with",
+      "start": 19.34,
+      "end": 19.98,
+      "probability": 0.922
+    },
+    {
+      "word": "a",
+      "start": 19.98,
+      "end": 20.18,
+      "probability": 0.901
+    },
+    {
+      "word": "cold",
+      "start": 20.18,
+      "end": 20.58,
+      "probability": 0.995
+    },
+    {
+      "word": "cup",
+      "start": 20.58,
+      "end": 20.94,
+      "probability": 0.491
+    },
+    {
+      "word": "in",
+      "start": 20.94,
+      "end": 21.3,
+      "probability": 0.923
+    },
+    {
+      "word": "my",
+      "start": 21.3,
+      "end": 21.6,
+      "probability": 0.999
+    },
+    {
+      "word": "hand.",
+      "start": 21.6,
+      "end": 22.62,
+      "probability": 0.884
+    },
+    {
+      "word": "Ordering",
+      "start": 23.4,
+      "end": 24.1,
+      "probability": 0.65
+    },
+    {
+      "word": "the",
+      "start": 24.1,
+      "end": 24.22,
+      "probability": 0.713
+    },
+    {
+      "word": "bitter",
+      "start": 24.22,
+      "end": 24.46,
+      "probability": 0.824
+    },
+    {
+      "word": "drink",
+      "start": 24.46,
+      "end": 25.08,
+      "probability": 0.994
+    },
+    {
+      "word": "because",
+      "start": 25.08,
+      "end": 26.34,
+      "probability": 0.499
+    },
+    {
+      "word": "it",
+      "start": 26.34,
+      "end": 26.56,
+      "probability": 0.833
+    },
+    {
+      "word": "looks",
+      "start": 26.56,
+      "end": 26.84,
+      "probability": 0.987
+    },
+    {
+      "word": "mature,",
+      "start": 26.84,
+      "end": 27.54,
+      "probability": 0.981
+    },
+    {
+      "word": "Walking",
+      "start": 28.8,
+      "end": 29.98,
+      "probability": 0.529
+    },
+    {
+      "word": "in",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.071
+    },
+    {
+      "word": "the",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.5
+    },
+    {
+      "word": "room",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.002
+    },
+    {
+      "word": "like",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.013
+    },
+    {
+      "word": "I",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.066
+    },
+    {
+      "word": "was",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.134
+    },
+    {
+      "word": "confident",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.0
+    },
+    {
+      "word": "and",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.049
+    },
+    {
+      "word": "sure.",
+      "start": 29.98,
+      "end": 29.98,
+      "probability": 0.004
+    },
+    {
+      "word": "In",
+      "start": 29.98,
+      "end": 30.24,
+      "probability": 0.117
+    },
+    {
+      "word": "the",
+      "start": 30.24,
+      "end": 30.48,
+      "probability": 0.952
+    },
+    {
+      "word": "room",
+      "start": 30.48,
+      "end": 30.76,
+      "probability": 0.991
+    },
+    {
+      "word": "like",
+      "start": 30.76,
+      "end": 31.18,
+      "probability": 0.923
+    },
+    {
+      "word": "I",
+      "start": 31.18,
+      "end": 31.62,
+      "probability": 0.969
+    },
+    {
+      "word": "was",
+      "start": 31.62,
+      "end": 32.3,
+      "probability": 0.994
+    },
+    {
+      "word": "confident",
+      "start": 32.3,
+      "end": 33.46,
+      "probability": 0.941
+    },
+    {
+      "word": "in",
+      "start": 33.46,
+      "end": 34.14,
+      "probability": 0.487
+    },
+    {
+      "word": "short",
+      "start": 34.14,
+      "end": 34.68,
+      "probability": 0.62
+    },
+    {
+      "word": "Practicing",
+      "start": 35.9,
+      "end": 36.62,
+      "probability": 0.68
+    },
+    {
+      "word": "my",
+      "start": 36.62,
+      "end": 37.12,
+      "probability": 0.994
+    },
+    {
+      "word": "hello",
+      "start": 37.12,
+      "end": 37.78,
+      "probability": 0.449
+    },
+    {
+      "word": "in",
+      "start": 37.78,
+      "end": 38.64,
+      "probability": 0.452
+    },
+    {
+      "word": "the",
+      "start": 38.64,
+      "end": 38.82,
+      "probability": 0.986
+    },
+    {
+      "word": "review",
+      "start": 38.82,
+      "end": 39.32,
+      "probability": 0.546
+    },
+    {
+      "word": "mirror",
+      "start": 39.32,
+      "end": 40.0,
+      "probability": 0.657
+    },
+    {
+      "word": "twice",
+      "start": 40.0,
+      "end": 40.98,
+      "probability": 0.983
+    },
+    {
+      "word": "Memorizing",
+      "start": 41.58,
+      "end": 42.42,
+      "probability": 0.908
+    },
+    {
+      "word": "playlist",
+      "start": 42.42,
+      "end": 43.22,
+      "probability": 0.439
+    },
+    {
+      "word": "tracks",
+      "start": 43.22,
+      "end": 43.96,
+      "probability": 0.953
+    },
+    {
+      "word": "to",
+      "start": 43.96,
+      "end": 44.48,
+      "probability": 0.852
+    },
+    {
+      "word": "seem",
+      "start": 44.48,
+      "end": 44.92,
+      "probability": 0.652
+    },
+    {
+      "word": "easy",
+      "start": 44.92,
+      "end": 45.96,
+      "probability": 0.987
+    },
+    {
+      "word": "and",
+      "start": 45.96,
+      "end": 46.46,
+      "probability": 0.638
+    },
+    {
+      "word": "nice",
+      "start": 46.46,
+      "end": 47.24,
+      "probability": 0.893
+    },
+    {
+      "word": "Standing",
+      "start": 47.24,
+      "end": 47.84,
+      "probability": 0.86
+    },
+    {
+      "word": "by",
+      "start": 47.84,
+      "end": 48.14,
+      "probability": 0.995
+    },
+    {
+      "word": "the",
+      "start": 48.14,
+      "end": 48.38,
+      "probability": 0.994
+    },
+    {
+      "word": "hallway",
+      "start": 48.38,
+      "end": 48.88,
+      "probability": 0.985
+    },
+    {
+      "word": "door",
+      "start": 48.88,
+      "end": 49.38,
+      "probability": 0.943
+    },
+    {
+      "word": "staring",
+      "start": 49.38,
+      "end": 50.22,
+      "probability": 0.463
+    },
+    {
+      "word": "at",
+      "start": 50.22,
+      "end": 50.5,
+      "probability": 0.971
+    },
+    {
+      "word": "my",
+      "start": 50.5,
+      "end": 50.7,
+      "probability": 0.998
+    },
+    {
+      "word": "screen",
+      "start": 50.7,
+      "end": 51.74,
+      "probability": 0.959
+    },
+    {
+      "word": "Terrified",
+      "start": 51.74,
+      "end": 52.88,
+      "probability": 0.873
+    },
+    {
+      "word": "they'll",
+      "start": 52.88,
+      "end": 53.46,
+      "probability": 0.864
+    },
+    {
+      "word": "see",
+      "start": 53.46,
+      "end": 53.74,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 53.74,
+      "end": 53.96,
+      "probability": 0.996
+    },
+    {
+      "word": "boy",
+      "start": 53.96,
+      "end": 54.22,
+      "probability": 0.939
+    },
+    {
+      "word": "behind",
+      "start": 54.22,
+      "end": 54.86,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 54.86,
+      "end": 55.14,
+      "probability": 0.979
+    },
+    {
+      "word": "magazine",
+      "start": 55.14,
+      "end": 55.84,
+      "probability": 0.965
+    },
+    {
+      "word": "I've",
+      "start": 59.54,
+      "end": 60.28,
+      "probability": 0.397
+    },
+    {
+      "word": "been",
+      "start": 60.28,
+      "end": 60.4,
+      "probability": 0.995
+    },
+    {
+      "word": "trying",
+      "start": 60.4,
+      "end": 61.02,
+      "probability": 0.889
+    },
+    {
+      "word": "so",
+      "start": 61.02,
+      "end": 61.36,
+      "probability": 0.977
+    },
+    {
+      "word": "hard",
+      "start": 61.36,
+      "end": 61.76,
+      "probability": 0.998
+    },
+    {
+      "word": "to",
+      "start": 61.76,
+      "end": 61.9,
+      "probability": 0.742
+    },
+    {
+      "word": "fit",
+      "start": 61.9,
+      "end": 62.26,
+      "probability": 0.978
+    },
+    {
+      "word": "in",
+      "start": 62.26,
+      "end": 62.96,
+      "probability": 0.411
+    },
+    {
+      "word": "Trading",
+      "start": 65.04,
+      "end": 65.78,
+      "probability": 0.382
+    },
+    {
+      "word": "at",
+      "start": 65.78,
+      "end": 66.08,
+      "probability": 0.119
+    },
+    {
+      "word": "the",
+      "start": 66.08,
+      "end": 66.24,
+      "probability": 0.542
+    },
+    {
+      "word": "honest",
+      "start": 66.24,
+      "end": 66.68,
+      "probability": 0.843
+    },
+    {
+      "word": "piece",
+      "start": 66.68,
+      "end": 67.02,
+      "probability": 0.798
+    },
+    {
+      "word": "of",
+      "start": 67.02,
+      "end": 67.52,
+      "probability": 0.987
+    },
+    {
+      "word": "who",
+      "start": 67.52,
+      "end": 67.82,
+      "probability": 0.758
+    },
+    {
+      "word": "I've",
+      "start": 67.82,
+      "end": 69.0,
+      "probability": 0.785
+    },
+    {
+      "word": "been",
+      "start": 69.0,
+      "end": 69.36,
+      "probability": 0.997
+    },
+    {
+      "word": "Not",
+      "start": 70.34,
+      "end": 71.08,
+      "probability": 0.385
+    },
+    {
+      "word": "enough",
+      "start": 71.08,
+      "end": 71.34,
+      "probability": 0.171
+    },
+    {
+      "word": "the",
+      "start": 71.34,
+      "end": 71.58,
+      "probability": 0.418
+    },
+    {
+      "word": "things",
+      "start": 71.58,
+      "end": 71.92,
+      "probability": 0.993
+    },
+    {
+      "word": "they",
+      "start": 71.92,
+      "end": 72.28,
+      "probability": 0.955
+    },
+    {
+      "word": "say",
+      "start": 72.28,
+      "end": 73.04,
+      "probability": 0.991
+    },
+    {
+      "word": "Laughing",
+      "start": 73.04,
+      "end": 73.68,
+      "probability": 0.212
+    },
+    {
+      "word": "right",
+      "start": 73.68,
+      "end": 74.04,
+      "probability": 0.965
+    },
+    {
+      "word": "on",
+      "start": 74.04,
+      "end": 74.46,
+      "probability": 0.97
+    },
+    {
+      "word": "cue",
+      "start": 74.46,
+      "end": 74.96,
+      "probability": 0.898
+    },
+    {
+      "word": "Tell",
+      "start": 74.96,
+      "end": 75.68,
+      "probability": 0.737
+    },
+    {
+      "word": "me",
+      "start": 75.68,
+      "end": 75.9,
+      "probability": 0.968
+    },
+    {
+      "word": "if",
+      "start": 75.9,
+      "end": 76.16,
+      "probability": 0.959
+    },
+    {
+      "word": "I've",
+      "start": 76.16,
+      "end": 76.46,
+      "probability": 0.71
+    },
+    {
+      "word": "had",
+      "start": 76.46,
+      "end": 76.66,
+      "probability": 0.212
+    },
+    {
+      "word": "a",
+      "start": 76.66,
+      "end": 76.9,
+      "probability": 0.472
+    },
+    {
+      "word": "slip",
+      "start": 76.9,
+      "end": 77.22,
+      "probability": 0.814
+    },
+    {
+      "word": "Would",
+      "start": 77.22,
+      "end": 77.62,
+      "probability": 0.283
+    },
+    {
+      "word": "they",
+      "start": 77.62,
+      "end": 77.82,
+      "probability": 0.997
+    },
+    {
+      "word": "want",
+      "start": 77.82,
+      "end": 78.1,
+      "probability": 0.889
+    },
+    {
+      "word": "me",
+      "start": 78.1,
+      "end": 78.46,
+      "probability": 0.993
+    },
+    {
+      "word": "to",
+      "start": 78.46,
+      "end": 78.86,
+      "probability": 0.976
+    },
+    {
+      "word": "yet",
+      "start": 78.86,
+      "end": 79.24,
+      "probability": 0.435
+    },
+    {
+      "word": "try",
+      "start": 79.24,
+      "end": 79.68,
+      "probability": 0.43
+    },
+    {
+      "word": "and",
+      "start": 79.68,
+      "end": 80.24,
+      "probability": 0.442
+    },
+    {
+      "word": "so",
+      "start": 80.24,
+      "end": 80.4,
+      "probability": 0.554
+    },
+    {
+      "word": "hard",
+      "start": 80.4,
+      "end": 81.5,
+      "probability": 0.928
+    },
+    {
+      "word": "Just",
+      "start": 81.5,
+      "end": 82.66,
+      "probability": 0.793
+    },
+    {
+      "word": "to",
+      "start": 82.66,
+      "end": 83.04,
+      "probability": 0.977
+    },
+    {
+      "word": "fit",
+      "start": 83.04,
+      "end": 83.44,
+      "probability": 0.999
+    },
+    {
+      "word": "in",
+      "start": 83.44,
+      "end": 84.46,
+      "probability": 0.993
+    },
+    {
+      "word": "Trying",
+      "start": 84.46,
+      "end": 85.88,
+      "probability": 0.274
+    },
+    {
+      "word": "so",
+      "start": 85.88,
+      "end": 86.54,
+      "probability": 0.782
+    },
+    {
+      "word": "hard,",
+      "start": 86.54,
+      "end": 87.82,
+      "probability": 0.999
+    },
+    {
+      "word": "just",
+      "start": 87.82,
+      "end": 89.04,
+      "probability": 0.943
+    },
+    {
+      "word": "to",
+      "start": 89.04,
+      "end": 89.22,
+      "probability": 0.782
+    },
+    {
+      "word": "fit",
+      "start": 89.22,
+      "end": 89.68,
+      "probability": 0.991
+    },
+    {
+      "word": "in",
+      "start": 89.68,
+      "end": 91.64,
+      "probability": 0.915
+    },
+    {
+      "word": "Untie",
+      "start": 91.64,
+      "end": 92.74,
+      "probability": 0.506
+    },
+    {
+      "word": "my",
+      "start": 92.74,
+      "end": 93.1,
+      "probability": 0.914
+    },
+    {
+      "word": "sneakers",
+      "start": 93.1,
+      "end": 93.78,
+      "probability": 0.903
+    },
+    {
+      "word": "as",
+      "start": 93.78,
+      "end": 94.34,
+      "probability": 0.846
+    },
+    {
+      "word": "I",
+      "start": 94.34,
+      "end": 94.46,
+      "probability": 0.97
+    },
+    {
+      "word": "finally",
+      "start": 94.46,
+      "end": 95.16,
+      "probability": 0.975
+    },
+    {
+      "word": "lock",
+      "start": 95.16,
+      "end": 95.62,
+      "probability": 0.504
+    },
+    {
+      "word": "the",
+      "start": 95.62,
+      "end": 95.94,
+      "probability": 0.983
+    },
+    {
+      "word": "door",
+      "start": 95.94,
+      "end": 96.46,
+      "probability": 0.994
+    },
+    {
+      "word": "Letting",
+      "start": 97.46,
+      "end": 98.32,
+      "probability": 0.606
+    },
+    {
+      "word": "all",
+      "start": 98.32,
+      "end": 98.52,
+      "probability": 0.991
+    },
+    {
+      "word": "the",
+      "start": 98.52,
+      "end": 98.66,
+      "probability": 0.946
+    },
+    {
+      "word": "practice",
+      "start": 98.66,
+      "end": 99.16,
+      "probability": 0.986
+    },
+    {
+      "word": "smiles",
+      "start": 99.16,
+      "end": 100.24,
+      "probability": 0.827
+    },
+    {
+      "word": "crumble",
+      "start": 100.24,
+      "end": 101.28,
+      "probability": 0.314
+    },
+    {
+      "word": "to",
+      "start": 101.28,
+      "end": 101.78,
+      "probability": 0.985
+    },
+    {
+      "word": "the",
+      "start": 101.78,
+      "end": 102.18,
+      "probability": 0.997
+    },
+    {
+      "word": "floor",
+      "start": 102.18,
+      "end": 103.22,
+      "probability": 1.0
+    },
+    {
+      "word": "Silence",
+      "start": 103.22,
+      "end": 104.36,
+      "probability": 0.513
+    },
+    {
+      "word": "in",
+      "start": 104.36,
+      "end": 104.66,
+      "probability": 0.995
+    },
+    {
+      "word": "my",
+      "start": 104.66,
+      "end": 104.86,
+      "probability": 0.998
+    },
+    {
+      "word": "bedroom",
+      "start": 104.86,
+      "end": 105.18,
+      "probability": 0.935
+    },
+    {
+      "word": "feels",
+      "start": 105.18,
+      "end": 105.46,
+      "probability": 0.892
+    },
+    {
+      "word": "like",
+      "start": 105.46,
+      "end": 105.68,
+      "probability": 0.99
+    },
+    {
+      "word": "breathing",
+      "start": 105.68,
+      "end": 106.12,
+      "probability": 0.654
+    },
+    {
+      "word": "for",
+      "start": 106.12,
+      "end": 106.58,
+      "probability": 0.86
+    },
+    {
+      "word": "the",
+      "start": 106.58,
+      "end": 106.8,
+      "probability": 0.995
+    },
+    {
+      "word": "first",
+      "start": 106.8,
+      "end": 107.36,
+      "probability": 0.996
+    },
+    {
+      "word": "time",
+      "start": 107.36,
+      "end": 107.84,
+      "probability": 0.999
+    },
+    {
+      "word": "No",
+      "start": 107.84,
+      "end": 108.56,
+      "probability": 0.785
+    },
+    {
+      "word": "lines",
+      "start": 108.56,
+      "end": 109.18,
+      "probability": 0.363
+    },
+    {
+      "word": "to",
+      "start": 109.18,
+      "end": 109.68,
+      "probability": 0.982
+    },
+    {
+      "word": "remember,",
+      "start": 109.68,
+      "end": 110.68,
+      "probability": 0.995
+    },
+    {
+      "word": "no",
+      "start": 111.08,
+      "end": 111.48,
+      "probability": 0.968
+    },
+    {
+      "word": "awkward",
+      "start": 111.48,
+      "end": 112.12,
+      "probability": 0.956
+    },
+    {
+      "word": "-hield",
+      "start": 112.12,
+      "end": 112.94,
+      "probability": 0.43
+    },
+    {
+      "word": "climb",
+      "start": 112.94,
+      "end": 113.52,
+      "probability": 0.31
+    },
+    {
+      "word": "I",
+      "start": 113.52,
+      "end": 114.82,
+      "probability": 0.345
+    },
+    {
+      "word": "wonder",
+      "start": 114.82,
+      "end": 115.22,
+      "probability": 0.891
+    },
+    {
+      "word": "if",
+      "start": 115.22,
+      "end": 115.52,
+      "probability": 0.986
+    },
+    {
+      "word": "they",
+      "start": 115.52,
+      "end": 115.64,
+      "probability": 0.98
+    },
+    {
+      "word": "notice",
+      "start": 115.64,
+      "end": 115.98,
+      "probability": 0.517
+    },
+    {
+      "word": "that",
+      "start": 115.98,
+      "end": 116.26,
+      "probability": 0.887
+    },
+    {
+      "word": "my",
+      "start": 116.26,
+      "end": 116.48,
+      "probability": 0.98
+    },
+    {
+      "word": "hands",
+      "start": 116.48,
+      "end": 116.82,
+      "probability": 0.945
+    },
+    {
+      "word": "were",
+      "start": 116.82,
+      "end": 116.96,
+      "probability": 0.887
+    },
+    {
+      "word": "shaking",
+      "start": 116.96,
+      "end": 117.56,
+      "probability": 0.939
+    },
+    {
+      "word": "You'll",
+      "start": 117.56,
+      "end": 118.3,
+      "probability": 0.399
+    },
+    {
+      "word": "slide",
+      "start": 118.3,
+      "end": 118.8,
+      "probability": 0.624
+    },
+    {
+      "word": "Or",
+      "start": 119.9,
+      "end": 120.66,
+      "probability": 0.499
+    },
+    {
+      "word": "if",
+      "start": 120.66,
+      "end": 120.88,
+      "probability": 0.991
+    },
+    {
+      "word": "the",
+      "start": 120.88,
+      "end": 121.04,
+      "probability": 0.993
+    },
+    {
+      "word": "version",
+      "start": 121.04,
+      "end": 121.54,
+      "probability": 0.396
+    },
+    {
+      "word": "of",
+      "start": 121.54,
+      "end": 122.08,
+      "probability": 0.768
+    },
+    {
+      "word": "me",
+      "start": 122.08,
+      "end": 122.46,
+      "probability": 0.993
+    },
+    {
+      "word": "did",
+      "start": 122.46,
+      "end": 122.84,
+      "probability": 0.805
+    },
+    {
+      "word": "its",
+      "start": 122.84,
+      "end": 123.34,
+      "probability": 0.59
+    },
+    {
+      "word": "job",
+      "start": 123.34,
+      "end": 123.72,
+      "probability": 0.999
+    },
+    {
+      "word": "tonight",
+      "start": 123.72,
+      "end": 124.3,
+      "probability": 0.941
+    },
+    {
+      "word": "I've",
+      "start": 124.86,
+      "end": 125.24,
+      "probability": 0.745
+    },
+    {
+      "word": "been",
+      "start": 125.24,
+      "end": 125.36,
+      "probability": 0.999
+    },
+    {
+      "word": "trying",
+      "start": 125.36,
+      "end": 125.92,
+      "probability": 0.968
+    },
+    {
+      "word": "so",
+      "start": 125.92,
+      "end": 126.28,
+      "probability": 0.991
+    },
+    {
+      "word": "hard",
+      "start": 126.28,
+      "end": 126.68,
+      "probability": 1.0
+    },
+    {
+      "word": "to",
+      "start": 126.68,
+      "end": 126.88,
+      "probability": 0.99
+    },
+    {
+      "word": "fit",
+      "start": 126.88,
+      "end": 127.36,
+      "probability": 0.967
+    },
+    {
+      "word": "Trading",
+      "start": 129.98,
+      "end": 130.74,
+      "probability": 0.063
+    },
+    {
+      "word": "in",
+      "start": 130.74,
+      "end": 130.96,
+      "probability": 0.269
+    },
+    {
+      "word": "every",
+      "start": 130.96,
+      "end": 131.2,
+      "probability": 0.743
+    },
+    {
+      "word": "honest",
+      "start": 131.2,
+      "end": 131.64,
+      "probability": 0.389
+    },
+    {
+      "word": "piece",
+      "start": 131.64,
+      "end": 132.0,
+      "probability": 0.996
+    },
+    {
+      "word": "of",
+      "start": 132.0,
+      "end": 132.54,
+      "probability": 0.98
+    },
+    {
+      "word": "what",
+      "start": 132.54,
+      "end": 133.1,
+      "probability": 0.099
+    },
+    {
+      "word": "I've",
+      "start": 133.1,
+      "end": 133.94,
+      "probability": 0.346
+    },
+    {
+      "word": "been",
+      "start": 133.94,
+      "end": 134.24,
+      "probability": 0.806
+    },
+    {
+      "word": "Not",
+      "start": 135.26,
+      "end": 136.02,
+      "probability": 0.911
+    },
+    {
+      "word": "enough",
+      "start": 136.02,
+      "end": 136.28,
+      "probability": 0.281
+    },
+    {
+      "word": "to",
+      "start": 136.28,
+      "end": 136.52,
+      "probability": 0.324
+    },
+    {
+      "word": "think",
+      "start": 136.52,
+      "end": 136.82,
+      "probability": 0.437
+    },
+    {
+      "word": "as",
+      "start": 136.82,
+      "end": 137.04,
+      "probability": 0.651
+    },
+    {
+      "word": "they",
+      "start": 137.04,
+      "end": 137.2,
+      "probability": 0.98
+    },
+    {
+      "word": "say",
+      "start": 137.2,
+      "end": 138.02,
+      "probability": 0.994
+    },
+    {
+      "word": "Laughing",
+      "start": 138.02,
+      "end": 138.6,
+      "probability": 0.534
+    },
+    {
+      "word": "right",
+      "start": 138.6,
+      "end": 138.98,
+      "probability": 0.974
+    },
+    {
+      "word": "on",
+      "start": 138.98,
+      "end": 139.46,
+      "probability": 0.996
+    },
+    {
+      "word": "cue",
+      "start": 139.46,
+      "end": 139.98,
+      "probability": 0.895
+    },
+    {
+      "word": "Tell",
+      "start": 139.98,
+      "end": 140.66,
+      "probability": 0.136
+    },
+    {
+      "word": "me",
+      "start": 140.66,
+      "end": 140.88,
+      "probability": 0.961
+    },
+    {
+      "word": "if",
+      "start": 140.88,
+      "end": 141.12,
+      "probability": 0.926
+    },
+    {
+      "word": "I",
+      "start": 141.12,
+      "end": 141.26,
+      "probability": 0.923
+    },
+    {
+      "word": "let",
+      "start": 141.26,
+      "end": 141.52,
+      "probability": 0.68
+    },
+    {
+      "word": "it",
+      "start": 141.52,
+      "end": 141.82,
+      "probability": 0.626
+    },
+    {
+      "word": "slip,",
+      "start": 141.82,
+      "end": 142.22,
+      "probability": 0.821
+    },
+    {
+      "word": "but",
+      "start": 142.5,
+      "end": 142.58,
+      "probability": 0.765
+    },
+    {
+      "word": "they",
+      "start": 142.58,
+      "end": 142.78,
+      "probability": 0.989
+    },
+    {
+      "word": "won't",
+      "start": 142.78,
+      "end": 143.12,
+      "probability": 0.852
+    },
+    {
+      "word": "meet",
+      "start": 143.12,
+      "end": 143.46,
+      "probability": 0.433
+    },
+    {
+      "word": "till",
+      "start": 143.46,
+      "end": 143.9,
+      "probability": 0.113
+    },
+    {
+      "word": "you're",
+      "start": 143.9,
+      "end": 144.38,
+      "probability": 0.681
+    },
+    {
+      "word": "trying",
+      "start": 144.38,
+      "end": 144.76,
+      "probability": 0.87
+    },
+    {
+      "word": "so",
+      "start": 144.76,
+      "end": 145.36,
+      "probability": 0.905
+    },
+    {
+      "word": "hard",
+      "start": 145.36,
+      "end": 146.48,
+      "probability": 0.995
+    },
+    {
+      "word": "Just",
+      "start": 146.48,
+      "end": 147.68,
+      "probability": 0.577
+    },
+    {
+      "word": "to",
+      "start": 147.68,
+      "end": 148.02,
+      "probability": 0.908
+    },
+    {
+      "word": "fit",
+      "start": 148.02,
+      "end": 148.4,
+      "probability": 0.992
+    },
+    {
+      "word": "in,",
+      "start": 148.4,
+      "end": 149.2,
+      "probability": 0.987
+    },
+    {
+      "word": "trying",
+      "start": 149.2,
+      "end": 150.9,
+      "probability": 0.889
+    },
+    {
+      "word": "so",
+      "start": 150.9,
+      "end": 151.52,
+      "probability": 0.998
+    },
+    {
+      "word": "hard,",
+      "start": 151.52,
+      "end": 152.7,
+      "probability": 0.999
+    },
+    {
+      "word": "just",
+      "start": 152.7,
+      "end": 153.94,
+      "probability": 0.953
+    },
+    {
+      "word": "to",
+      "start": 153.94,
+      "end": 154.24,
+      "probability": 0.99
+    },
+    {
+      "word": "fit",
+      "start": 154.24,
+      "end": 154.8,
+      "probability": 0.999
+    },
+    {
+      "word": "in",
+      "start": 154.8,
+      "end": 157.4,
+      "probability": 0.972
+    },
+    {
+      "word": "What",
+      "start": 157.4,
+      "end": 157.7,
+      "probability": 0.5
+    },
+    {
+      "word": "if",
+      "start": 157.7,
+      "end": 158.7,
+      "probability": 0.98
+    },
+    {
+      "word": "I",
+      "start": 158.7,
+      "end": 158.86,
+      "probability": 0.925
+    },
+    {
+      "word": "stop",
+      "start": 158.86,
+      "end": 159.04,
+      "probability": 0.3
+    },
+    {
+      "word": "running",
+      "start": 159.04,
+      "end": 159.36,
+      "probability": 0.959
+    },
+    {
+      "word": "for",
+      "start": 159.36,
+      "end": 159.62,
+      "probability": 0.963
+    },
+    {
+      "word": "a",
+      "start": 159.62,
+      "end": 159.84,
+      "probability": 0.902
+    },
+    {
+      "word": "seat,",
+      "start": 159.84,
+      "end": 160.04,
+      "probability": 0.975
+    },
+    {
+      "word": "or",
+      "start": 160.3,
+      "end": 160.44,
+      "probability": 0.772
+    },
+    {
+      "word": "a",
+      "start": 160.44,
+      "end": 160.6,
+      "probability": 0.472
+    },
+    {
+      "word": "seat",
+      "start": 160.6,
+      "end": 160.8,
+      "probability": 0.803
+    },
+    {
+      "word": "at",
+      "start": 160.8,
+      "end": 161.04,
+      "probability": 0.892
+    },
+    {
+      "word": "every",
+      "start": 161.04,
+      "end": 161.34,
+      "probability": 0.973
+    },
+    {
+      "word": "table,",
+      "start": 161.34,
+      "end": 162.06,
+      "probability": 0.988
+    },
+    {
+      "word": "hey,",
+      "start": 162.58,
+      "end": 162.82,
+      "probability": 0.394
+    },
+    {
+      "word": "boy",
+      "start": 163.2,
+      "end": 163.36,
+      "probability": 0.383
+    },
+    {
+      "word": "What",
+      "start": 163.36,
+      "end": 164.1,
+      "probability": 0.115
+    },
+    {
+      "word": "if",
+      "start": 164.1,
+      "end": 164.38,
+      "probability": 0.977
+    },
+    {
+      "word": "I",
+      "start": 164.38,
+      "end": 164.64,
+      "probability": 0.958
+    },
+    {
+      "word": "stop",
+      "start": 164.64,
+      "end": 165.04,
+      "probability": 0.755
+    },
+    {
+      "word": "pretending",
+      "start": 165.04,
+      "end": 165.46,
+      "probability": 0.756
+    },
+    {
+      "word": "that",
+      "start": 165.46,
+      "end": 165.82,
+      "probability": 0.909
+    },
+    {
+      "word": "I'm",
+      "start": 165.82,
+      "end": 166.14,
+      "probability": 0.975
+    },
+    {
+      "word": "always",
+      "start": 166.14,
+      "end": 166.68,
+      "probability": 0.984
+    },
+    {
+      "word": "strong",
+      "start": 166.68,
+      "end": 167.38,
+      "probability": 0.989
+    },
+    {
+      "word": "and",
+      "start": 167.38,
+      "end": 168.02,
+      "probability": 0.708
+    },
+    {
+      "word": "able?",
+      "start": 168.02,
+      "end": 168.68,
+      "probability": 0.578
+    },
+    {
+      "word": "If",
+      "start": 169.38,
+      "end": 169.7,
+      "probability": 0.964
+    },
+    {
+      "word": "I",
+      "start": 169.7,
+      "end": 169.88,
+      "probability": 0.995
+    },
+    {
+      "word": "show",
+      "start": 169.88,
+      "end": 170.28,
+      "probability": 0.967
+    },
+    {
+      "word": "up",
+      "start": 170.28,
+      "end": 171.12,
+      "probability": 0.558
+    },
+    {
+      "word": "ordinary,",
+      "start": 171.12,
+      "end": 172.14,
+      "probability": 0.882
+    },
+    {
+      "word": "quiet,",
+      "start": 172.82,
+      "end": 173.16,
+      "probability": 0.909
+    },
+    {
+      "word": "slightly",
+      "start": 173.62,
+      "end": 174.02,
+      "probability": 0.966
+    },
+    {
+      "word": "bruised,",
+      "start": 174.02,
+      "end": 175.54,
+      "probability": 0.988
+    },
+    {
+      "word": "is",
+      "start": 175.64,
+      "end": 175.72,
+      "probability": 0.801
+    },
+    {
+      "word": "it",
+      "start": 175.72,
+      "end": 175.94,
+      "probability": 0.996
+    },
+    {
+      "word": "really",
+      "start": 175.94,
+      "end": 176.4,
+      "probability": 0.988
+    },
+    {
+      "word": "love?",
+      "start": 176.4,
+      "end": 177.0,
+      "probability": 0.838
+    },
+    {
+      "word": "If",
+      "start": 177.5,
+      "end": 177.5,
+      "probability": 0.939
+    },
+    {
+      "word": "it's",
+      "start": 177.5,
+      "end": 177.8,
+      "probability": 0.984
+    },
+    {
+      "word": "the",
+      "start": 177.8,
+      "end": 177.96,
+      "probability": 0.996
+    },
+    {
+      "word": "costume",
+      "start": 177.96,
+      "end": 178.72,
+      "probability": 0.858
+    },
+    {
+      "word": "that",
+      "start": 178.72,
+      "end": 179.38,
+      "probability": 0.971
+    },
+    {
+      "word": "they",
+      "start": 179.38,
+      "end": 179.9,
+      "probability": 0.994
+    },
+    {
+      "word": "choose,",
+      "start": 179.9,
+      "end": 181.2,
+      "probability": 0.829
+    },
+    {
+      "word": "no",
+      "start": 182.14,
+      "end": 182.48,
+      "probability": 0.699
+    },
+    {
+      "word": "more",
+      "start": 182.48,
+      "end": 182.84,
+      "probability": 0.997
+    },
+    {
+      "word": "trying",
+      "start": 182.84,
+      "end": 183.32,
+      "probability": 0.677
+    },
+    {
+      "word": "so",
+      "start": 183.32,
+      "end": 183.72,
+      "probability": 0.913
+    },
+    {
+      "word": "hard",
+      "start": 183.72,
+      "end": 184.08,
+      "probability": 0.991
+    },
+    {
+      "word": "of",
+      "start": 184.08,
+      "end": 184.34,
+      "probability": 0.676
+    },
+    {
+      "word": "it",
+      "start": 184.34,
+      "end": 184.76,
+      "probability": 0.698
+    },
+    {
+      "word": "in.",
+      "start": 184.76,
+      "end": 185.48,
+      "probability": 0.269
+    },
+    {
+      "word": "I'm",
+      "start": 187.06,
+      "end": 187.62,
+      "probability": 0.985
+    },
+    {
+      "word": "picking",
+      "start": 187.62,
+      "end": 188.1,
+      "probability": 0.967
+    },
+    {
+      "word": "up",
+      "start": 188.1,
+      "end": 188.38,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 188.38,
+      "end": 188.52,
+      "probability": 0.36
+    },
+    {
+      "word": "pieces",
+      "start": 188.52,
+      "end": 188.9,
+      "probability": 0.998
+    },
+    {
+      "word": "from",
+      "start": 188.9,
+      "end": 189.42,
+      "probability": 0.99
+    },
+    {
+      "word": "beneath",
+      "start": 189.42,
+      "end": 190.18,
+      "probability": 0.956
+    },
+    {
+      "word": "my",
+      "start": 190.18,
+      "end": 190.7,
+      "probability": 0.997
+    },
+    {
+      "word": "skin.",
+      "start": 190.7,
+      "end": 192.08,
+      "probability": 0.999
+    },
+    {
+      "word": "I",
+      "start": 192.08,
+      "end": 193.44,
+      "probability": 0.726
+    },
+    {
+      "word": "don't",
+      "start": 193.44,
+      "end": 193.66,
+      "probability": 0.962
+    },
+    {
+      "word": "need",
+      "start": 193.66,
+      "end": 193.82,
+      "probability": 0.985
+    },
+    {
+      "word": "the",
+      "start": 193.82,
+      "end": 193.98,
+      "probability": 0.792
+    },
+    {
+      "word": "spotlight",
+      "start": 193.98,
+      "end": 194.56,
+      "probability": 0.997
+    },
+    {
+      "word": "or",
+      "start": 194.56,
+      "end": 195.14,
+      "probability": 0.647
+    },
+    {
+      "word": "a",
+      "start": 195.14,
+      "end": 195.72,
+      "probability": 0.826
+    },
+    {
+      "word": "chorus",
+      "start": 195.72,
+      "end": 196.16,
+      "probability": 0.883
+    },
+    {
+      "word": "of",
+      "start": 196.16,
+      "end": 196.54,
+      "probability": 0.881
+    },
+    {
+      "word": "applause",
+      "start": 196.54,
+      "end": 197.08,
+      "probability": 0.979
+    },
+    {
+      "word": "I",
+      "start": 197.08,
+      "end": 198.16,
+      "probability": 0.784
+    },
+    {
+      "word": "just",
+      "start": 198.16,
+      "end": 198.34,
+      "probability": 0.998
+    },
+    {
+      "word": "wanna",
+      "start": 198.34,
+      "end": 198.62,
+      "probability": 0.567
+    },
+    {
+      "word": "be",
+      "start": 198.62,
+      "end": 198.94,
+      "probability": 0.63
+    },
+    {
+      "word": "myself",
+      "start": 198.94,
+      "end": 199.5,
+      "probability": 0.993
+    },
+    {
+      "word": "without",
+      "start": 199.5,
+      "end": 200.06,
+      "probability": 0.746
+    },
+    {
+      "word": "a",
+      "start": 200.06,
+      "end": 200.36,
+      "probability": 0.635
+    },
+    {
+      "word": "hidden",
+      "start": 200.36,
+      "end": 200.74,
+      "probability": 0.95
+    },
+    {
+      "word": "cause",
+      "start": 200.74,
+      "end": 201.2,
+      "probability": 0.554
+    },
+    {
+      "word": "No",
+      "start": 201.2,
+      "end": 201.62,
+      "probability": 0.565
+    },
+    {
+      "word": "more",
+      "start": 201.62,
+      "end": 201.8,
+      "probability": 0.966
+    },
+    {
+      "word": "trying",
+      "start": 201.8,
+      "end": 202.2,
+      "probability": 0.783
+    },
+    {
+      "word": "so",
+      "start": 202.2,
+      "end": 202.82,
+      "probability": 0.99
+    },
+    {
+      "word": "hard",
+      "start": 202.82,
+      "end": 203.94,
+      "probability": 0.999
+    },
+    {
+      "word": "to",
+      "start": 203.94,
+      "end": 205.52,
+      "probability": 0.858
+    },
+    {
+      "word": "fit",
+      "start": 205.52,
+      "end": 206.02,
+      "probability": 0.996
+    },
+    {
+      "word": "in",
+      "start": 206.02,
+      "end": 207.22,
+      "probability": 0.946
+    },
+    {
+      "word": "Just",
+      "start": 207.22,
+      "end": 208.64,
+      "probability": 0.791
+    },
+    {
+      "word": "an",
+      "start": 208.64,
+      "end": 209.26,
+      "probability": 0.997
+    },
+    {
+      "word": "ordinary",
+      "start": 209.26,
+      "end": 210.42,
+      "probability": 0.995
+    },
+    {
+      "word": "guy",
+      "start": 210.42,
+      "end": 211.44,
+      "probability": 0.991
+    },
+    {
+      "word": "Learning",
+      "start": 211.44,
+      "end": 213.1,
+      "probability": 0.498
+    },
+    {
+      "word": "how",
+      "start": 213.1,
+      "end": 213.9,
+      "probability": 0.995
+    },
+    {
+      "word": "to",
+      "start": 213.9,
+      "end": 214.08,
+      "probability": 0.999
+    },
+    {
+      "word": "breathe",
+      "start": 214.08,
+      "end": 214.68,
+      "probability": 0.972
+    },
+    {
+      "word": "again",
+      "start": 214.68,
+      "end": 215.86,
+      "probability": 0.994
+    },
+    {
+      "word": "Good",
+      "start": 231.7,
+      "end": 233.1,
+      "probability": 0.001
+    },
+    {
+      "word": "Bye!!",
+      "start": 233.1,
+      "end": 233.1,
+      "probability": 0.03
+    }
+  ],
+  "alignment_method": "openai-whisper-transcribe",
+  "structured_sections": [
+    {
+      "name": "Intro",
+      "lines": [
+        "Title: Trying to Fit In (Rehearsals in the Mirror)"
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "lines": [
+        "Laughing two beats late at jokes I barely understand,",
+        "Checking my reflection with a cold cup in my hand.",
+        "Ordering the bitter drink because it looks mature,",
+        "Walking in the room like I was confident and sure."
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "lines": [
+        "Practicing my hello in the rear-view mirror twice,",
+        "Memorizing playlist tracks to seem easy and nice.",
+        "Standing by the hallway door, staring at my screen,",
+        "Terrified they'll see the boy behind the magazine."
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        "I’ve been trying so hard to fit in,",
+        "Trading every honest piece of who I’ve been.",
+        "Nodding at the things they say, laughing right on cue,",
+        "Tell me, if I let it slip—would they want me too?",
+        "Yeah, trying so hard just to fit in...",
+        "Trying so hard just to fit in."
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "lines": [
+        "Untying my sneakers as I finally lock the door,",
+        "Letting all the practiced smiles crumble to the floor.",
+        "Silence in my bedroom feels like breathing for the first time,",
+        "No lines to remember, no awkward hill to climb."
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "lines": [
+        "I wonder if they noticed that my hands were shaking slight,",
+        "Or if the version of me did its job tonight."
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        "I’ve been trying so hard to fit in,",
+        "Trading every honest piece of who I’ve been.",
+        "Nodding at the things they say, laughing right on cue,",
+        "Tell me, if I let it slip—would they want me too?",
+        "Yeah, trying so hard just to fit in...",
+        "Trying so hard just to fit in."
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        "What if I stopped running for a seat at every table?",
+        "What if I stopped pretending that I’m always strong and able?",
+        "If I show up ordinary, quiet, slightly bruised...",
+        "Is it really love if it’s the costume that they choose?"
+      ]
+    },
+    {
+      "name": "Final Chorus",
+      "lines": [
+        "No more trying so hard to fit in,",
+        "I’m picking up the pieces from beneath my skin.",
+        "I don't need the spotlight or a chorus of applause,",
+        "I just want to be myself, without a hidden clause.",
+        "No more trying so hard to fit in..."
+      ]
+    },
+    {
+      "name": "Outro",
+      "lines": [
+        "Just an ordinary guy...",
+        "Learning how to breathe again."
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "line_01",
+      "text": "Title: Trying to Fit In (Rehearsals in the Mirror)",
+      "startTime": 7.94,
+      "endTime": 9.0,
+      "startFrame": 476,
+      "endFrame": 540,
+      "accentWords": [
+        "Rehearsals"
+      ],
+      "words": [
+        {
+          "id": "w_01_01",
+          "text": "I'm",
+          "startFrame": 476,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_02",
+          "text": "not",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_03",
+          "text": "sure",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_04",
+          "text": "if",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_05",
+          "text": "I'm",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_06",
+          "text": "right",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_07",
+          "text": "or",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_08",
+          "text": "wrong,",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_01_09",
+          "text": "but",
+          "startFrame": 540,
+          "endFrame": 540
+        }
+      ]
+    },
+    {
+      "id": "line_02",
+      "text": "Laughing two beats late at jokes I barely understand,",
+      "startTime": 9.0,
+      "endTime": 13.8,
+      "startFrame": 540,
+      "endFrame": 828,
+      "accentWords": [
+        "understand"
+      ],
+      "words": [
+        {
+          "id": "w_02_01",
+          "text": "I'm",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_02_02",
+          "text": "sure",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_02_03",
+          "text": "I'm",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_02_04",
+          "text": "right.",
+          "startFrame": 540,
+          "endFrame": 540
+        },
+        {
+          "id": "w_02_05",
+          "text": "Laughing",
+          "startFrame": 693,
+          "endFrame": 725
+        },
+        {
+          "id": "w_02_06",
+          "text": "two",
+          "startFrame": 725,
+          "endFrame": 748
+        },
+        {
+          "id": "w_02_07",
+          "text": "beats",
+          "startFrame": 748,
+          "endFrame": 774
+        },
+        {
+          "id": "w_02_08",
+          "text": "late",
+          "startFrame": 774,
+          "endFrame": 812
+        },
+        {
+          "id": "w_02_09",
+          "text": "at",
+          "startFrame": 812,
+          "endFrame": 828
+        }
+      ]
+    },
+    {
+      "id": "line_03",
+      "text": "Checking my reflection with a cold cup in my hand.",
+      "startTime": 13.8,
+      "endTime": 20.58,
+      "startFrame": 828,
+      "endFrame": 1235,
+      "accentWords": [
+        "reflection"
+      ],
+      "words": [
+        {
+          "id": "w_03_01",
+          "text": "jokes",
+          "startFrame": 828,
+          "endFrame": 852
+        },
+        {
+          "id": "w_03_02",
+          "text": "I",
+          "startFrame": 852,
+          "endFrame": 870
+        },
+        {
+          "id": "w_03_03",
+          "text": "barely",
+          "startFrame": 870,
+          "endFrame": 892
+        },
+        {
+          "id": "w_03_04",
+          "text": "understand,",
+          "startFrame": 892,
+          "endFrame": 937
+        },
+        {
+          "id": "w_03_05",
+          "text": "Checking",
+          "startFrame": 990,
+          "endFrame": 1106
+        },
+        {
+          "id": "w_03_06",
+          "text": "my",
+          "startFrame": 1106,
+          "endFrame": 1115
+        },
+        {
+          "id": "w_03_07",
+          "text": "reflection",
+          "startFrame": 1115,
+          "endFrame": 1160
+        },
+        {
+          "id": "w_03_08",
+          "text": "with",
+          "startFrame": 1160,
+          "endFrame": 1199
+        },
+        {
+          "id": "w_03_09",
+          "text": "a",
+          "startFrame": 1199,
+          "endFrame": 1211
+        },
+        {
+          "id": "w_03_10",
+          "text": "cold",
+          "startFrame": 1211,
+          "endFrame": 1235
+        }
+      ]
+    },
+    {
+      "id": "line_04",
+      "text": "Ordering the bitter drink because it looks mature,",
+      "startTime": 20.58,
+      "endTime": 25.08,
+      "startFrame": 1235,
+      "endFrame": 1505,
+      "accentWords": [
+        "Ordering"
+      ],
+      "words": [
+        {
+          "id": "w_04_01",
+          "text": "cup",
+          "startFrame": 1235,
+          "endFrame": 1256
+        },
+        {
+          "id": "w_04_02",
+          "text": "in",
+          "startFrame": 1256,
+          "endFrame": 1278
+        },
+        {
+          "id": "w_04_03",
+          "text": "my",
+          "startFrame": 1278,
+          "endFrame": 1296
+        },
+        {
+          "id": "w_04_04",
+          "text": "hand.",
+          "startFrame": 1296,
+          "endFrame": 1357
+        },
+        {
+          "id": "w_04_05",
+          "text": "Ordering",
+          "startFrame": 1404,
+          "endFrame": 1446
+        },
+        {
+          "id": "w_04_06",
+          "text": "the",
+          "startFrame": 1446,
+          "endFrame": 1453
+        },
+        {
+          "id": "w_04_07",
+          "text": "bitter",
+          "startFrame": 1453,
+          "endFrame": 1468
+        },
+        {
+          "id": "w_04_08",
+          "text": "drink",
+          "startFrame": 1468,
+          "endFrame": 1505
+        }
+      ]
+    },
+    {
+      "id": "line_05",
+      "text": "Walking in the room like I was confident and sure.",
+      "startTime": 25.08,
+      "endTime": 29.98,
+      "startFrame": 1505,
+      "endFrame": 1799,
+      "accentWords": [
+        "confident"
+      ],
+      "words": [
+        {
+          "id": "w_05_01",
+          "text": "because",
+          "startFrame": 1505,
+          "endFrame": 1580
+        },
+        {
+          "id": "w_05_02",
+          "text": "it",
+          "startFrame": 1580,
+          "endFrame": 1594
+        },
+        {
+          "id": "w_05_03",
+          "text": "looks",
+          "startFrame": 1594,
+          "endFrame": 1610
+        },
+        {
+          "id": "w_05_04",
+          "text": "mature,",
+          "startFrame": 1610,
+          "endFrame": 1652
+        },
+        {
+          "id": "w_05_05",
+          "text": "Walking",
+          "startFrame": 1728,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_05_06",
+          "text": "in",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_05_07",
+          "text": "the",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_05_08",
+          "text": "room",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_05_09",
+          "text": "like",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_05_10",
+          "text": "I",
+          "startFrame": 1799,
+          "endFrame": 1799
+        }
+      ]
+    },
+    {
+      "id": "line_06",
+      "text": "Practicing my hello in the rear-view mirror twice,",
+      "startTime": 29.98,
+      "endTime": 31.18,
+      "startFrame": 1799,
+      "endFrame": 1871,
+      "accentWords": [
+        "Practicing"
+      ],
+      "words": [
+        {
+          "id": "w_06_01",
+          "text": "was",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_06_02",
+          "text": "confident",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_06_03",
+          "text": "and",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_06_04",
+          "text": "sure.",
+          "startFrame": 1799,
+          "endFrame": 1799
+        },
+        {
+          "id": "w_06_05",
+          "text": "In",
+          "startFrame": 1799,
+          "endFrame": 1814
+        },
+        {
+          "id": "w_06_06",
+          "text": "the",
+          "startFrame": 1814,
+          "endFrame": 1829
+        },
+        {
+          "id": "w_06_07",
+          "text": "room",
+          "startFrame": 1829,
+          "endFrame": 1846
+        },
+        {
+          "id": "w_06_08",
+          "text": "like",
+          "startFrame": 1846,
+          "endFrame": 1871
+        }
+      ]
+    },
+    {
+      "id": "line_07",
+      "text": "Memorizing playlist tracks to seem easy and nice.",
+      "startTime": 31.18,
+      "endTime": 37.78,
+      "startFrame": 1871,
+      "endFrame": 2267,
+      "accentWords": [
+        "Memorizing"
+      ],
+      "words": [
+        {
+          "id": "w_07_01",
+          "text": "I",
+          "startFrame": 1871,
+          "endFrame": 1897
+        },
+        {
+          "id": "w_07_02",
+          "text": "was",
+          "startFrame": 1897,
+          "endFrame": 1938
+        },
+        {
+          "id": "w_07_03",
+          "text": "confident",
+          "startFrame": 1938,
+          "endFrame": 2008
+        },
+        {
+          "id": "w_07_04",
+          "text": "in",
+          "startFrame": 2008,
+          "endFrame": 2048
+        },
+        {
+          "id": "w_07_05",
+          "text": "short",
+          "startFrame": 2048,
+          "endFrame": 2081
+        },
+        {
+          "id": "w_07_06",
+          "text": "Practicing",
+          "startFrame": 2154,
+          "endFrame": 2197
+        },
+        {
+          "id": "w_07_07",
+          "text": "my",
+          "startFrame": 2197,
+          "endFrame": 2227
+        },
+        {
+          "id": "w_07_08",
+          "text": "hello",
+          "startFrame": 2227,
+          "endFrame": 2267
+        }
+      ]
+    },
+    {
+      "id": "line_08",
+      "text": "Standing by the hallway door, staring at my screen,",
+      "startTime": 37.78,
+      "endTime": 44.48,
+      "startFrame": 2267,
+      "endFrame": 2669,
+      "accentWords": [
+        "Standing"
+      ],
+      "words": [
+        {
+          "id": "w_08_01",
+          "text": "in",
+          "startFrame": 2267,
+          "endFrame": 2318
+        },
+        {
+          "id": "w_08_02",
+          "text": "the",
+          "startFrame": 2318,
+          "endFrame": 2329
+        },
+        {
+          "id": "w_08_03",
+          "text": "review",
+          "startFrame": 2329,
+          "endFrame": 2359
+        },
+        {
+          "id": "w_08_04",
+          "text": "mirror",
+          "startFrame": 2359,
+          "endFrame": 2400
+        },
+        {
+          "id": "w_08_05",
+          "text": "twice",
+          "startFrame": 2400,
+          "endFrame": 2459
+        },
+        {
+          "id": "w_08_06",
+          "text": "Memorizing",
+          "startFrame": 2495,
+          "endFrame": 2545
+        },
+        {
+          "id": "w_08_07",
+          "text": "playlist",
+          "startFrame": 2545,
+          "endFrame": 2593
+        },
+        {
+          "id": "w_08_08",
+          "text": "tracks",
+          "startFrame": 2593,
+          "endFrame": 2638
+        },
+        {
+          "id": "w_08_09",
+          "text": "to",
+          "startFrame": 2638,
+          "endFrame": 2669
+        }
+      ]
+    },
+    {
+      "id": "line_09",
+      "text": "Terrified they'll see the boy behind the magazine.",
+      "startTime": 44.48,
+      "endTime": 48.88,
+      "startFrame": 2669,
+      "endFrame": 2933,
+      "accentWords": [
+        "Terrified"
+      ],
+      "words": [
+        {
+          "id": "w_09_01",
+          "text": "seem",
+          "startFrame": 2669,
+          "endFrame": 2695
+        },
+        {
+          "id": "w_09_02",
+          "text": "easy",
+          "startFrame": 2695,
+          "endFrame": 2758
+        },
+        {
+          "id": "w_09_03",
+          "text": "and",
+          "startFrame": 2758,
+          "endFrame": 2788
+        },
+        {
+          "id": "w_09_04",
+          "text": "nice",
+          "startFrame": 2788,
+          "endFrame": 2834
+        },
+        {
+          "id": "w_09_05",
+          "text": "Standing",
+          "startFrame": 2834,
+          "endFrame": 2870
+        },
+        {
+          "id": "w_09_06",
+          "text": "by",
+          "startFrame": 2870,
+          "endFrame": 2888
+        },
+        {
+          "id": "w_09_07",
+          "text": "the",
+          "startFrame": 2888,
+          "endFrame": 2903
+        },
+        {
+          "id": "w_09_08",
+          "text": "hallway",
+          "startFrame": 2903,
+          "endFrame": 2933
+        }
+      ]
+    },
+    {
+      "id": "line_10",
+      "text": "I’ve been trying so hard to fit in,",
+      "startTime": 48.88,
+      "endTime": 53.74,
+      "startFrame": 2933,
+      "endFrame": 3224,
+      "accentWords": [
+        "trying"
+      ],
+      "words": [
+        {
+          "id": "w_10_01",
+          "text": "door",
+          "startFrame": 2933,
+          "endFrame": 2963
+        },
+        {
+          "id": "w_10_02",
+          "text": "staring",
+          "startFrame": 2963,
+          "endFrame": 3013
+        },
+        {
+          "id": "w_10_03",
+          "text": "at",
+          "startFrame": 3013,
+          "endFrame": 3030
+        },
+        {
+          "id": "w_10_04",
+          "text": "my",
+          "startFrame": 3030,
+          "endFrame": 3042
+        },
+        {
+          "id": "w_10_05",
+          "text": "screen",
+          "startFrame": 3042,
+          "endFrame": 3104
+        },
+        {
+          "id": "w_10_06",
+          "text": "Terrified",
+          "startFrame": 3104,
+          "endFrame": 3173
+        },
+        {
+          "id": "w_10_07",
+          "text": "they'll",
+          "startFrame": 3173,
+          "endFrame": 3208
+        },
+        {
+          "id": "w_10_08",
+          "text": "see",
+          "startFrame": 3208,
+          "endFrame": 3224
+        }
+      ]
+    },
+    {
+      "id": "line_11",
+      "text": "Trading every honest piece of who I’ve been.",
+      "startTime": 53.74,
+      "endTime": 61.02,
+      "startFrame": 3224,
+      "endFrame": 3661,
+      "accentWords": [
+        "Trading"
+      ],
+      "words": [
+        {
+          "id": "w_11_01",
+          "text": "the",
+          "startFrame": 3224,
+          "endFrame": 3238
+        },
+        {
+          "id": "w_11_02",
+          "text": "boy",
+          "startFrame": 3238,
+          "endFrame": 3253
+        },
+        {
+          "id": "w_11_03",
+          "text": "behind",
+          "startFrame": 3253,
+          "endFrame": 3292
+        },
+        {
+          "id": "w_11_04",
+          "text": "the",
+          "startFrame": 3292,
+          "endFrame": 3308
+        },
+        {
+          "id": "w_11_05",
+          "text": "magazine",
+          "startFrame": 3308,
+          "endFrame": 3350
+        },
+        {
+          "id": "w_11_06",
+          "text": "I've",
+          "startFrame": 3572,
+          "endFrame": 3617
+        },
+        {
+          "id": "w_11_07",
+          "text": "been",
+          "startFrame": 3617,
+          "endFrame": 3624
+        },
+        {
+          "id": "w_11_08",
+          "text": "trying",
+          "startFrame": 3624,
+          "endFrame": 3661
+        }
+      ]
+    },
+    {
+      "id": "line_12",
+      "text": "Nodding at the things they say, laughing right on cue,",
+      "startTime": 61.02,
+      "endTime": 67.02,
+      "startFrame": 3661,
+      "endFrame": 4021,
+      "accentWords": [
+        "laughing"
+      ],
+      "words": [
+        {
+          "id": "w_12_01",
+          "text": "so",
+          "startFrame": 3661,
+          "endFrame": 3682
+        },
+        {
+          "id": "w_12_02",
+          "text": "hard",
+          "startFrame": 3682,
+          "endFrame": 3706
+        },
+        {
+          "id": "w_12_03",
+          "text": "to",
+          "startFrame": 3706,
+          "endFrame": 3714
+        },
+        {
+          "id": "w_12_04",
+          "text": "fit",
+          "startFrame": 3714,
+          "endFrame": 3736
+        },
+        {
+          "id": "w_12_05",
+          "text": "in",
+          "startFrame": 3736,
+          "endFrame": 3778
+        },
+        {
+          "id": "w_12_06",
+          "text": "Trading",
+          "startFrame": 3902,
+          "endFrame": 3947
+        },
+        {
+          "id": "w_12_07",
+          "text": "at",
+          "startFrame": 3947,
+          "endFrame": 3965
+        },
+        {
+          "id": "w_12_08",
+          "text": "the",
+          "startFrame": 3965,
+          "endFrame": 3974
+        },
+        {
+          "id": "w_12_09",
+          "text": "honest",
+          "startFrame": 3974,
+          "endFrame": 4001
+        },
+        {
+          "id": "w_12_10",
+          "text": "piece",
+          "startFrame": 4001,
+          "endFrame": 4021
+        }
+      ]
+    },
+    {
+      "id": "line_13",
+      "text": "Tell me, if I let it slip—would they want me too?",
+      "startTime": 67.02,
+      "endTime": 73.68,
+      "startFrame": 4021,
+      "endFrame": 4421,
+      "accentWords": [
+        "slip—would"
+      ],
+      "words": [
+        {
+          "id": "w_13_01",
+          "text": "of",
+          "startFrame": 4021,
+          "endFrame": 4051
+        },
+        {
+          "id": "w_13_02",
+          "text": "who",
+          "startFrame": 4051,
+          "endFrame": 4069
+        },
+        {
+          "id": "w_13_03",
+          "text": "I've",
+          "startFrame": 4069,
+          "endFrame": 4140
+        },
+        {
+          "id": "w_13_04",
+          "text": "been",
+          "startFrame": 4140,
+          "endFrame": 4162
+        },
+        {
+          "id": "w_13_05",
+          "text": "Not",
+          "startFrame": 4220,
+          "endFrame": 4265
+        },
+        {
+          "id": "w_13_06",
+          "text": "enough",
+          "startFrame": 4265,
+          "endFrame": 4280
+        },
+        {
+          "id": "w_13_07",
+          "text": "the",
+          "startFrame": 4280,
+          "endFrame": 4295
+        },
+        {
+          "id": "w_13_08",
+          "text": "things",
+          "startFrame": 4295,
+          "endFrame": 4315
+        },
+        {
+          "id": "w_13_09",
+          "text": "they",
+          "startFrame": 4315,
+          "endFrame": 4337
+        },
+        {
+          "id": "w_13_10",
+          "text": "say",
+          "startFrame": 4337,
+          "endFrame": 4382
+        },
+        {
+          "id": "w_13_11",
+          "text": "Laughing",
+          "startFrame": 4382,
+          "endFrame": 4421
+        }
+      ]
+    },
+    {
+      "id": "line_14",
+      "text": "Yeah, trying so hard just to fit in...",
+      "startTime": 73.68,
+      "endTime": 76.66,
+      "startFrame": 4421,
+      "endFrame": 4600,
+      "accentWords": [
+        "trying"
+      ],
+      "words": [
+        {
+          "id": "w_14_01",
+          "text": "right",
+          "startFrame": 4421,
+          "endFrame": 4442
+        },
+        {
+          "id": "w_14_02",
+          "text": "on",
+          "startFrame": 4442,
+          "endFrame": 4468
+        },
+        {
+          "id": "w_14_03",
+          "text": "cue",
+          "startFrame": 4468,
+          "endFrame": 4498
+        },
+        {
+          "id": "w_14_04",
+          "text": "Tell",
+          "startFrame": 4498,
+          "endFrame": 4541
+        },
+        {
+          "id": "w_14_05",
+          "text": "me",
+          "startFrame": 4541,
+          "endFrame": 4554
+        },
+        {
+          "id": "w_14_06",
+          "text": "if",
+          "startFrame": 4554,
+          "endFrame": 4570
+        },
+        {
+          "id": "w_14_07",
+          "text": "I've",
+          "startFrame": 4570,
+          "endFrame": 4588
+        },
+        {
+          "id": "w_14_08",
+          "text": "had",
+          "startFrame": 4588,
+          "endFrame": 4600
+        }
+      ]
+    },
+    {
+      "id": "line_15",
+      "text": "Trying so hard just to fit in.",
+      "startTime": 76.66,
+      "endTime": 78.86,
+      "startFrame": 4600,
+      "endFrame": 4732,
+      "accentWords": [
+        "Trying"
+      ],
+      "words": [
+        {
+          "id": "w_15_01",
+          "text": "a",
+          "startFrame": 4600,
+          "endFrame": 4614
+        },
+        {
+          "id": "w_15_02",
+          "text": "slip",
+          "startFrame": 4614,
+          "endFrame": 4633
+        },
+        {
+          "id": "w_15_03",
+          "text": "Would",
+          "startFrame": 4633,
+          "endFrame": 4657
+        },
+        {
+          "id": "w_15_04",
+          "text": "they",
+          "startFrame": 4657,
+          "endFrame": 4669
+        },
+        {
+          "id": "w_15_05",
+          "text": "want",
+          "startFrame": 4669,
+          "endFrame": 4686
+        },
+        {
+          "id": "w_15_06",
+          "text": "me",
+          "startFrame": 4686,
+          "endFrame": 4708
+        },
+        {
+          "id": "w_15_07",
+          "text": "to",
+          "startFrame": 4708,
+          "endFrame": 4732
+        }
+      ]
+    },
+    {
+      "id": "line_16",
+      "text": "Untying my sneakers as I finally lock the door,",
+      "startTime": 78.86,
+      "endTime": 84.46,
+      "startFrame": 4732,
+      "endFrame": 5068,
+      "accentWords": [
+        "sneakers"
+      ],
+      "words": [
+        {
+          "id": "w_16_01",
+          "text": "yet",
+          "startFrame": 4732,
+          "endFrame": 4754
+        },
+        {
+          "id": "w_16_02",
+          "text": "try",
+          "startFrame": 4754,
+          "endFrame": 4781
+        },
+        {
+          "id": "w_16_03",
+          "text": "and",
+          "startFrame": 4781,
+          "endFrame": 4814
+        },
+        {
+          "id": "w_16_04",
+          "text": "so",
+          "startFrame": 4814,
+          "endFrame": 4824
+        },
+        {
+          "id": "w_16_05",
+          "text": "hard",
+          "startFrame": 4824,
+          "endFrame": 4890
+        },
+        {
+          "id": "w_16_06",
+          "text": "Just",
+          "startFrame": 4890,
+          "endFrame": 4960
+        },
+        {
+          "id": "w_16_07",
+          "text": "to",
+          "startFrame": 4960,
+          "endFrame": 4982
+        },
+        {
+          "id": "w_16_08",
+          "text": "fit",
+          "startFrame": 4982,
+          "endFrame": 5006
+        },
+        {
+          "id": "w_16_09",
+          "text": "in",
+          "startFrame": 5006,
+          "endFrame": 5068
+        }
+      ]
+    },
+    {
+      "id": "line_17",
+      "text": "Letting all the practiced smiles crumble to the floor.",
+      "startTime": 84.46,
+      "endTime": 93.1,
+      "startFrame": 5068,
+      "endFrame": 5586,
+      "accentWords": [
+        "practiced"
+      ],
+      "words": [
+        {
+          "id": "w_17_01",
+          "text": "Trying",
+          "startFrame": 5068,
+          "endFrame": 5153
+        },
+        {
+          "id": "w_17_02",
+          "text": "so",
+          "startFrame": 5153,
+          "endFrame": 5192
+        },
+        {
+          "id": "w_17_03",
+          "text": "hard,",
+          "startFrame": 5192,
+          "endFrame": 5269
+        },
+        {
+          "id": "w_17_04",
+          "text": "just",
+          "startFrame": 5269,
+          "endFrame": 5342
+        },
+        {
+          "id": "w_17_05",
+          "text": "to",
+          "startFrame": 5342,
+          "endFrame": 5353
+        },
+        {
+          "id": "w_17_06",
+          "text": "fit",
+          "startFrame": 5353,
+          "endFrame": 5381
+        },
+        {
+          "id": "w_17_07",
+          "text": "in",
+          "startFrame": 5381,
+          "endFrame": 5498
+        },
+        {
+          "id": "w_17_08",
+          "text": "Untie",
+          "startFrame": 5498,
+          "endFrame": 5564
+        },
+        {
+          "id": "w_17_09",
+          "text": "my",
+          "startFrame": 5564,
+          "endFrame": 5586
+        }
+      ]
+    },
+    {
+      "id": "line_18",
+      "text": "Silence in my bedroom feels like breathing for the first time,",
+      "startTime": 93.1,
+      "endTime": 99.16,
+      "startFrame": 5586,
+      "endFrame": 5950,
+      "accentWords": [
+        "breathing"
+      ],
+      "words": [
+        {
+          "id": "w_18_01",
+          "text": "sneakers",
+          "startFrame": 5586,
+          "endFrame": 5627
+        },
+        {
+          "id": "w_18_02",
+          "text": "as",
+          "startFrame": 5627,
+          "endFrame": 5660
+        },
+        {
+          "id": "w_18_03",
+          "text": "I",
+          "startFrame": 5660,
+          "endFrame": 5668
+        },
+        {
+          "id": "w_18_04",
+          "text": "finally",
+          "startFrame": 5668,
+          "endFrame": 5710
+        },
+        {
+          "id": "w_18_05",
+          "text": "lock",
+          "startFrame": 5710,
+          "endFrame": 5737
+        },
+        {
+          "id": "w_18_06",
+          "text": "the",
+          "startFrame": 5737,
+          "endFrame": 5756
+        },
+        {
+          "id": "w_18_07",
+          "text": "door",
+          "startFrame": 5756,
+          "endFrame": 5788
+        },
+        {
+          "id": "w_18_08",
+          "text": "Letting",
+          "startFrame": 5848,
+          "endFrame": 5899
+        },
+        {
+          "id": "w_18_09",
+          "text": "all",
+          "startFrame": 5899,
+          "endFrame": 5911
+        },
+        {
+          "id": "w_18_10",
+          "text": "the",
+          "startFrame": 5911,
+          "endFrame": 5920
+        },
+        {
+          "id": "w_18_11",
+          "text": "practice",
+          "startFrame": 5920,
+          "endFrame": 5950
+        }
+      ]
+    },
+    {
+      "id": "line_19",
+      "text": "No lines to remember, no awkward hill to climb.",
+      "startTime": 99.16,
+      "endTime": 105.18,
+      "startFrame": 5950,
+      "endFrame": 6311,
+      "accentWords": [
+        "remember"
+      ],
+      "words": [
+        {
+          "id": "w_19_01",
+          "text": "smiles",
+          "startFrame": 5950,
+          "endFrame": 6014
+        },
+        {
+          "id": "w_19_02",
+          "text": "crumble",
+          "startFrame": 6014,
+          "endFrame": 6077
+        },
+        {
+          "id": "w_19_03",
+          "text": "to",
+          "startFrame": 6077,
+          "endFrame": 6107
+        },
+        {
+          "id": "w_19_04",
+          "text": "the",
+          "startFrame": 6107,
+          "endFrame": 6131
+        },
+        {
+          "id": "w_19_05",
+          "text": "floor",
+          "startFrame": 6131,
+          "endFrame": 6193
+        },
+        {
+          "id": "w_19_06",
+          "text": "Silence",
+          "startFrame": 6193,
+          "endFrame": 6262
+        },
+        {
+          "id": "w_19_07",
+          "text": "in",
+          "startFrame": 6262,
+          "endFrame": 6280
+        },
+        {
+          "id": "w_19_08",
+          "text": "my",
+          "startFrame": 6280,
+          "endFrame": 6292
+        },
+        {
+          "id": "w_19_09",
+          "text": "bedroom",
+          "startFrame": 6292,
+          "endFrame": 6311
+        }
+      ]
+    },
+    {
+      "id": "line_20",
+      "text": "I wonder if they noticed that my hands were shaking slight,",
+      "startTime": 105.18,
+      "endTime": 110.68,
+      "startFrame": 6311,
+      "endFrame": 6641,
+      "accentWords": [
+        "noticed"
+      ],
+      "words": [
+        {
+          "id": "w_20_01",
+          "text": "feels",
+          "startFrame": 6311,
+          "endFrame": 6328
+        },
+        {
+          "id": "w_20_02",
+          "text": "like",
+          "startFrame": 6328,
+          "endFrame": 6341
+        },
+        {
+          "id": "w_20_03",
+          "text": "breathing",
+          "startFrame": 6341,
+          "endFrame": 6367
+        },
+        {
+          "id": "w_20_04",
+          "text": "for",
+          "startFrame": 6367,
+          "endFrame": 6395
+        },
+        {
+          "id": "w_20_05",
+          "text": "the",
+          "startFrame": 6395,
+          "endFrame": 6408
+        },
+        {
+          "id": "w_20_06",
+          "text": "first",
+          "startFrame": 6408,
+          "endFrame": 6442
+        },
+        {
+          "id": "w_20_07",
+          "text": "time",
+          "startFrame": 6442,
+          "endFrame": 6470
+        },
+        {
+          "id": "w_20_08",
+          "text": "No",
+          "startFrame": 6470,
+          "endFrame": 6514
+        },
+        {
+          "id": "w_20_09",
+          "text": "lines",
+          "startFrame": 6514,
+          "endFrame": 6551
+        },
+        {
+          "id": "w_20_10",
+          "text": "to",
+          "startFrame": 6551,
+          "endFrame": 6581
+        },
+        {
+          "id": "w_20_11",
+          "text": "remember,",
+          "startFrame": 6581,
+          "endFrame": 6641
+        }
+      ]
+    },
+    {
+      "id": "line_21",
+      "text": "Or if the version of me did its job tonight.",
+      "startTime": 111.08,
+      "endTime": 116.26,
+      "startFrame": 6665,
+      "endFrame": 6976,
+      "accentWords": [
+        "version"
+      ],
+      "words": [
+        {
+          "id": "w_21_01",
+          "text": "no",
+          "startFrame": 6665,
+          "endFrame": 6689
+        },
+        {
+          "id": "w_21_02",
+          "text": "awkward",
+          "startFrame": 6689,
+          "endFrame": 6727
+        },
+        {
+          "id": "w_21_03",
+          "text": "-hield",
+          "startFrame": 6727,
+          "endFrame": 6776
+        },
+        {
+          "id": "w_21_04",
+          "text": "climb",
+          "startFrame": 6776,
+          "endFrame": 6811
+        },
+        {
+          "id": "w_21_05",
+          "text": "I",
+          "startFrame": 6811,
+          "endFrame": 6889
+        },
+        {
+          "id": "w_21_06",
+          "text": "wonder",
+          "startFrame": 6889,
+          "endFrame": 6913
+        },
+        {
+          "id": "w_21_07",
+          "text": "if",
+          "startFrame": 6913,
+          "endFrame": 6931
+        },
+        {
+          "id": "w_21_08",
+          "text": "they",
+          "startFrame": 6931,
+          "endFrame": 6938
+        },
+        {
+          "id": "w_21_09",
+          "text": "notice",
+          "startFrame": 6938,
+          "endFrame": 6959
+        },
+        {
+          "id": "w_21_10",
+          "text": "that",
+          "startFrame": 6959,
+          "endFrame": 6976
+        }
+      ]
+    },
+    {
+      "id": "line_22",
+      "text": "I’ve been trying so hard to fit in,",
+      "startTime": 116.26,
+      "endTime": 120.88,
+      "startFrame": 6976,
+      "endFrame": 7253,
+      "accentWords": [
+        "trying"
+      ],
+      "words": [
+        {
+          "id": "w_22_01",
+          "text": "my",
+          "startFrame": 6976,
+          "endFrame": 6989
+        },
+        {
+          "id": "w_22_02",
+          "text": "hands",
+          "startFrame": 6989,
+          "endFrame": 7009
+        },
+        {
+          "id": "w_22_03",
+          "text": "were",
+          "startFrame": 7009,
+          "endFrame": 7018
+        },
+        {
+          "id": "w_22_04",
+          "text": "shaking",
+          "startFrame": 7018,
+          "endFrame": 7054
+        },
+        {
+          "id": "w_22_05",
+          "text": "You'll",
+          "startFrame": 7054,
+          "endFrame": 7098
+        },
+        {
+          "id": "w_22_06",
+          "text": "slide",
+          "startFrame": 7098,
+          "endFrame": 7128
+        },
+        {
+          "id": "w_22_07",
+          "text": "Or",
+          "startFrame": 7194,
+          "endFrame": 7240
+        },
+        {
+          "id": "w_22_08",
+          "text": "if",
+          "startFrame": 7240,
+          "endFrame": 7253
+        }
+      ]
+    },
+    {
+      "id": "line_23",
+      "text": "Trading every honest piece of who I’ve been.",
+      "startTime": 120.88,
+      "endTime": 124.3,
+      "startFrame": 7253,
+      "endFrame": 7458,
+      "accentWords": [
+        "Trading"
+      ],
+      "words": [
+        {
+          "id": "w_23_01",
+          "text": "the",
+          "startFrame": 7253,
+          "endFrame": 7262
+        },
+        {
+          "id": "w_23_02",
+          "text": "version",
+          "startFrame": 7262,
+          "endFrame": 7292
+        },
+        {
+          "id": "w_23_03",
+          "text": "of",
+          "startFrame": 7292,
+          "endFrame": 7325
+        },
+        {
+          "id": "w_23_04",
+          "text": "me",
+          "startFrame": 7325,
+          "endFrame": 7348
+        },
+        {
+          "id": "w_23_05",
+          "text": "did",
+          "startFrame": 7348,
+          "endFrame": 7370
+        },
+        {
+          "id": "w_23_06",
+          "text": "its",
+          "startFrame": 7370,
+          "endFrame": 7400
+        },
+        {
+          "id": "w_23_07",
+          "text": "job",
+          "startFrame": 7400,
+          "endFrame": 7423
+        },
+        {
+          "id": "w_23_08",
+          "text": "tonight",
+          "startFrame": 7423,
+          "endFrame": 7458
+        }
+      ]
+    },
+    {
+      "id": "line_24",
+      "text": "Nodding at the things they say, laughing right on cue,",
+      "startTime": 124.86,
+      "endTime": 131.2,
+      "startFrame": 7492,
+      "endFrame": 7872,
+      "accentWords": [
+        "laughing"
+      ],
+      "words": [
+        {
+          "id": "w_24_01",
+          "text": "I've",
+          "startFrame": 7492,
+          "endFrame": 7514
+        },
+        {
+          "id": "w_24_02",
+          "text": "been",
+          "startFrame": 7514,
+          "endFrame": 7522
+        },
+        {
+          "id": "w_24_03",
+          "text": "trying",
+          "startFrame": 7522,
+          "endFrame": 7555
+        },
+        {
+          "id": "w_24_04",
+          "text": "so",
+          "startFrame": 7555,
+          "endFrame": 7577
+        },
+        {
+          "id": "w_24_05",
+          "text": "hard",
+          "startFrame": 7577,
+          "endFrame": 7601
+        },
+        {
+          "id": "w_24_06",
+          "text": "to",
+          "startFrame": 7601,
+          "endFrame": 7613
+        },
+        {
+          "id": "w_24_07",
+          "text": "fit",
+          "startFrame": 7613,
+          "endFrame": 7642
+        },
+        {
+          "id": "w_24_08",
+          "text": "Trading",
+          "startFrame": 7799,
+          "endFrame": 7844
+        },
+        {
+          "id": "w_24_09",
+          "text": "in",
+          "startFrame": 7844,
+          "endFrame": 7858
+        },
+        {
+          "id": "w_24_10",
+          "text": "every",
+          "startFrame": 7858,
+          "endFrame": 7872
+        }
+      ]
+    },
+    {
+      "id": "line_25",
+      "text": "Tell me, if I let it slip—would they want me too?",
+      "startTime": 131.2,
+      "endTime": 137.04,
+      "startFrame": 7872,
+      "endFrame": 8222,
+      "accentWords": [
+        "slip—would"
+      ],
+      "words": [
+        {
+          "id": "w_25_01",
+          "text": "honest",
+          "startFrame": 7872,
+          "endFrame": 7898
+        },
+        {
+          "id": "w_25_02",
+          "text": "piece",
+          "startFrame": 7898,
+          "endFrame": 7920
+        },
+        {
+          "id": "w_25_03",
+          "text": "of",
+          "startFrame": 7920,
+          "endFrame": 7952
+        },
+        {
+          "id": "w_25_04",
+          "text": "what",
+          "startFrame": 7952,
+          "endFrame": 7986
+        },
+        {
+          "id": "w_25_05",
+          "text": "I've",
+          "startFrame": 7986,
+          "endFrame": 8036
+        },
+        {
+          "id": "w_25_06",
+          "text": "been",
+          "startFrame": 8036,
+          "endFrame": 8054
+        },
+        {
+          "id": "w_25_07",
+          "text": "Not",
+          "startFrame": 8116,
+          "endFrame": 8161
+        },
+        {
+          "id": "w_25_08",
+          "text": "enough",
+          "startFrame": 8161,
+          "endFrame": 8177
+        },
+        {
+          "id": "w_25_09",
+          "text": "to",
+          "startFrame": 8177,
+          "endFrame": 8191
+        },
+        {
+          "id": "w_25_10",
+          "text": "think",
+          "startFrame": 8191,
+          "endFrame": 8209
+        },
+        {
+          "id": "w_25_11",
+          "text": "as",
+          "startFrame": 8209,
+          "endFrame": 8222
+        }
+      ]
+    },
+    {
+      "id": "line_26",
+      "text": "Yeah, trying so hard just to fit in...",
+      "startTime": 137.04,
+      "endTime": 140.88,
+      "startFrame": 8222,
+      "endFrame": 8453,
+      "accentWords": [
+        "trying"
+      ],
+      "words": [
+        {
+          "id": "w_26_01",
+          "text": "they",
+          "startFrame": 8222,
+          "endFrame": 8232
+        },
+        {
+          "id": "w_26_02",
+          "text": "say",
+          "startFrame": 8232,
+          "endFrame": 8281
+        },
+        {
+          "id": "w_26_03",
+          "text": "Laughing",
+          "startFrame": 8281,
+          "endFrame": 8316
+        },
+        {
+          "id": "w_26_04",
+          "text": "right",
+          "startFrame": 8316,
+          "endFrame": 8339
+        },
+        {
+          "id": "w_26_05",
+          "text": "on",
+          "startFrame": 8339,
+          "endFrame": 8368
+        },
+        {
+          "id": "w_26_06",
+          "text": "cue",
+          "startFrame": 8368,
+          "endFrame": 8399
+        },
+        {
+          "id": "w_26_07",
+          "text": "Tell",
+          "startFrame": 8399,
+          "endFrame": 8440
+        },
+        {
+          "id": "w_26_08",
+          "text": "me",
+          "startFrame": 8440,
+          "endFrame": 8453
+        }
+      ]
+    },
+    {
+      "id": "line_27",
+      "text": "Trying so hard just to fit in.",
+      "startTime": 140.88,
+      "endTime": 142.78,
+      "startFrame": 8453,
+      "endFrame": 8567,
+      "accentWords": [
+        "Trying"
+      ],
+      "words": [
+        {
+          "id": "w_27_01",
+          "text": "if",
+          "startFrame": 8453,
+          "endFrame": 8467
+        },
+        {
+          "id": "w_27_02",
+          "text": "I",
+          "startFrame": 8467,
+          "endFrame": 8476
+        },
+        {
+          "id": "w_27_03",
+          "text": "let",
+          "startFrame": 8476,
+          "endFrame": 8491
+        },
+        {
+          "id": "w_27_04",
+          "text": "it",
+          "startFrame": 8491,
+          "endFrame": 8509
+        },
+        {
+          "id": "w_27_05",
+          "text": "slip,",
+          "startFrame": 8509,
+          "endFrame": 8533
+        },
+        {
+          "id": "w_27_06",
+          "text": "but",
+          "startFrame": 8550,
+          "endFrame": 8555
+        },
+        {
+          "id": "w_27_07",
+          "text": "they",
+          "startFrame": 8555,
+          "endFrame": 8567
+        }
+      ]
+    },
+    {
+      "id": "line_28",
+      "text": "What if I stopped running for a seat at every table?",
+      "startTime": 142.78,
+      "endTime": 149.2,
+      "startFrame": 8567,
+      "endFrame": 8952,
+      "accentWords": [
+        "stopped"
+      ],
+      "words": [
+        {
+          "id": "w_28_01",
+          "text": "won't",
+          "startFrame": 8567,
+          "endFrame": 8587
+        },
+        {
+          "id": "w_28_02",
+          "text": "meet",
+          "startFrame": 8587,
+          "endFrame": 8608
+        },
+        {
+          "id": "w_28_03",
+          "text": "till",
+          "startFrame": 8608,
+          "endFrame": 8634
+        },
+        {
+          "id": "w_28_04",
+          "text": "you're",
+          "startFrame": 8634,
+          "endFrame": 8663
+        },
+        {
+          "id": "w_28_05",
+          "text": "trying",
+          "startFrame": 8663,
+          "endFrame": 8686
+        },
+        {
+          "id": "w_28_06",
+          "text": "so",
+          "startFrame": 8686,
+          "endFrame": 8722
+        },
+        {
+          "id": "w_28_07",
+          "text": "hard",
+          "startFrame": 8722,
+          "endFrame": 8789
+        },
+        {
+          "id": "w_28_08",
+          "text": "Just",
+          "startFrame": 8789,
+          "endFrame": 8861
+        },
+        {
+          "id": "w_28_09",
+          "text": "to",
+          "startFrame": 8861,
+          "endFrame": 8881
+        },
+        {
+          "id": "w_28_10",
+          "text": "fit",
+          "startFrame": 8881,
+          "endFrame": 8904
+        },
+        {
+          "id": "w_28_11",
+          "text": "in,",
+          "startFrame": 8904,
+          "endFrame": 8952
+        }
+      ]
+    },
+    {
+      "id": "line_29",
+      "text": "What if I stopped pretending that I’m always strong and able?",
+      "startTime": 149.2,
+      "endTime": 159.04,
+      "startFrame": 8952,
+      "endFrame": 9542,
+      "accentWords": [
+        "pretending"
+      ],
+      "words": [
+        {
+          "id": "w_29_01",
+          "text": "trying",
+          "startFrame": 8952,
+          "endFrame": 9054
+        },
+        {
+          "id": "w_29_02",
+          "text": "so",
+          "startFrame": 9054,
+          "endFrame": 9091
+        },
+        {
+          "id": "w_29_03",
+          "text": "hard,",
+          "startFrame": 9091,
+          "endFrame": 9162
+        },
+        {
+          "id": "w_29_04",
+          "text": "just",
+          "startFrame": 9162,
+          "endFrame": 9236
+        },
+        {
+          "id": "w_29_05",
+          "text": "to",
+          "startFrame": 9236,
+          "endFrame": 9254
+        },
+        {
+          "id": "w_29_06",
+          "text": "fit",
+          "startFrame": 9254,
+          "endFrame": 9288
+        },
+        {
+          "id": "w_29_07",
+          "text": "in",
+          "startFrame": 9288,
+          "endFrame": 9444
+        },
+        {
+          "id": "w_29_08",
+          "text": "What",
+          "startFrame": 9444,
+          "endFrame": 9462
+        },
+        {
+          "id": "w_29_09",
+          "text": "if",
+          "startFrame": 9462,
+          "endFrame": 9522
+        },
+        {
+          "id": "w_29_10",
+          "text": "I",
+          "startFrame": 9522,
+          "endFrame": 9532
+        },
+        {
+          "id": "w_29_11",
+          "text": "stop",
+          "startFrame": 9532,
+          "endFrame": 9542
+        }
+      ]
+    },
+    {
+      "id": "line_30",
+      "text": "If I show up ordinary, quiet, slightly bruised...",
+      "startTime": 159.04,
+      "endTime": 161.04,
+      "startFrame": 9542,
+      "endFrame": 9662,
+      "accentWords": [
+        "ordinary"
+      ],
+      "words": [
+        {
+          "id": "w_30_01",
+          "text": "running",
+          "startFrame": 9542,
+          "endFrame": 9562
+        },
+        {
+          "id": "w_30_02",
+          "text": "for",
+          "startFrame": 9562,
+          "endFrame": 9577
+        },
+        {
+          "id": "w_30_03",
+          "text": "a",
+          "startFrame": 9577,
+          "endFrame": 9590
+        },
+        {
+          "id": "w_30_04",
+          "text": "seat,",
+          "startFrame": 9590,
+          "endFrame": 9602
+        },
+        {
+          "id": "w_30_05",
+          "text": "or",
+          "startFrame": 9618,
+          "endFrame": 9626
+        },
+        {
+          "id": "w_30_06",
+          "text": "a",
+          "startFrame": 9626,
+          "endFrame": 9636
+        },
+        {
+          "id": "w_30_07",
+          "text": "seat",
+          "startFrame": 9636,
+          "endFrame": 9648
+        },
+        {
+          "id": "w_30_08",
+          "text": "at",
+          "startFrame": 9648,
+          "endFrame": 9662
+        }
+      ]
+    },
+    {
+      "id": "line_31",
+      "text": "Is it really love if it’s the costume that they choose?",
+      "startTime": 161.04,
+      "endTime": 166.14,
+      "startFrame": 9662,
+      "endFrame": 9968,
+      "accentWords": [
+        "costume"
+      ],
+      "words": [
+        {
+          "id": "w_31_01",
+          "text": "every",
+          "startFrame": 9662,
+          "endFrame": 9680
+        },
+        {
+          "id": "w_31_02",
+          "text": "table,",
+          "startFrame": 9680,
+          "endFrame": 9724
+        },
+        {
+          "id": "w_31_03",
+          "text": "hey,",
+          "startFrame": 9755,
+          "endFrame": 9769
+        },
+        {
+          "id": "w_31_04",
+          "text": "boy",
+          "startFrame": 9792,
+          "endFrame": 9802
+        },
+        {
+          "id": "w_31_05",
+          "text": "What",
+          "startFrame": 9802,
+          "endFrame": 9846
+        },
+        {
+          "id": "w_31_06",
+          "text": "if",
+          "startFrame": 9846,
+          "endFrame": 9863
+        },
+        {
+          "id": "w_31_07",
+          "text": "I",
+          "startFrame": 9863,
+          "endFrame": 9878
+        },
+        {
+          "id": "w_31_08",
+          "text": "stop",
+          "startFrame": 9878,
+          "endFrame": 9902
+        },
+        {
+          "id": "w_31_09",
+          "text": "pretending",
+          "startFrame": 9902,
+          "endFrame": 9928
+        },
+        {
+          "id": "w_31_10",
+          "text": "that",
+          "startFrame": 9928,
+          "endFrame": 9949
+        },
+        {
+          "id": "w_31_11",
+          "text": "I'm",
+          "startFrame": 9949,
+          "endFrame": 9968
+        }
+      ]
+    },
+    {
+      "id": "line_32",
+      "text": "No more trying so hard to fit in,",
+      "startTime": 166.14,
+      "endTime": 171.12,
+      "startFrame": 9968,
+      "endFrame": 10267,
+      "accentWords": [
+        "trying"
+      ],
+      "words": [
+        {
+          "id": "w_32_01",
+          "text": "always",
+          "startFrame": 9968,
+          "endFrame": 10001
+        },
+        {
+          "id": "w_32_02",
+          "text": "strong",
+          "startFrame": 10001,
+          "endFrame": 10043
+        },
+        {
+          "id": "w_32_03",
+          "text": "and",
+          "startFrame": 10043,
+          "endFrame": 10081
+        },
+        {
+          "id": "w_32_04",
+          "text": "able?",
+          "startFrame": 10081,
+          "endFrame": 10121
+        },
+        {
+          "id": "w_32_05",
+          "text": "If",
+          "startFrame": 10163,
+          "endFrame": 10182
+        },
+        {
+          "id": "w_32_06",
+          "text": "I",
+          "startFrame": 10182,
+          "endFrame": 10193
+        },
+        {
+          "id": "w_32_07",
+          "text": "show",
+          "startFrame": 10193,
+          "endFrame": 10217
+        },
+        {
+          "id": "w_32_08",
+          "text": "up",
+          "startFrame": 10217,
+          "endFrame": 10267
+        }
+      ]
+    },
+    {
+      "id": "line_33",
+      "text": "I’m picking up the pieces from beneath my skin.",
+      "startTime": 171.12,
+      "endTime": 177.5,
+      "startFrame": 10267,
+      "endFrame": 10650,
+      "accentWords": [
+        "picking"
+      ],
+      "words": [
+        {
+          "id": "w_33_01",
+          "text": "ordinary,",
+          "startFrame": 10267,
+          "endFrame": 10328
+        },
+        {
+          "id": "w_33_02",
+          "text": "quiet,",
+          "startFrame": 10369,
+          "endFrame": 10390
+        },
+        {
+          "id": "w_33_03",
+          "text": "slightly",
+          "startFrame": 10417,
+          "endFrame": 10441
+        },
+        {
+          "id": "w_33_04",
+          "text": "bruised,",
+          "startFrame": 10441,
+          "endFrame": 10532
+        },
+        {
+          "id": "w_33_05",
+          "text": "is",
+          "startFrame": 10538,
+          "endFrame": 10543
+        },
+        {
+          "id": "w_33_06",
+          "text": "it",
+          "startFrame": 10543,
+          "endFrame": 10556
+        },
+        {
+          "id": "w_33_07",
+          "text": "really",
+          "startFrame": 10556,
+          "endFrame": 10584
+        },
+        {
+          "id": "w_33_08",
+          "text": "love?",
+          "startFrame": 10584,
+          "endFrame": 10620
+        },
+        {
+          "id": "w_33_09",
+          "text": "If",
+          "startFrame": 10650,
+          "endFrame": 10650
+        }
+      ]
+    },
+    {
+      "id": "line_34",
+      "text": "I don't need the spotlight or a chorus of applause,",
+      "startTime": 177.5,
+      "endTime": 183.72,
+      "startFrame": 10650,
+      "endFrame": 11023,
+      "accentWords": [
+        "spotlight"
+      ],
+      "words": [
+        {
+          "id": "w_34_01",
+          "text": "it's",
+          "startFrame": 10650,
+          "endFrame": 10668
+        },
+        {
+          "id": "w_34_02",
+          "text": "the",
+          "startFrame": 10668,
+          "endFrame": 10678
+        },
+        {
+          "id": "w_34_03",
+          "text": "costume",
+          "startFrame": 10678,
+          "endFrame": 10723
+        },
+        {
+          "id": "w_34_04",
+          "text": "that",
+          "startFrame": 10723,
+          "endFrame": 10763
+        },
+        {
+          "id": "w_34_05",
+          "text": "they",
+          "startFrame": 10763,
+          "endFrame": 10794
+        },
+        {
+          "id": "w_34_06",
+          "text": "choose,",
+          "startFrame": 10794,
+          "endFrame": 10872
+        },
+        {
+          "id": "w_34_07",
+          "text": "no",
+          "startFrame": 10928,
+          "endFrame": 10949
+        },
+        {
+          "id": "w_34_08",
+          "text": "more",
+          "startFrame": 10949,
+          "endFrame": 10970
+        },
+        {
+          "id": "w_34_09",
+          "text": "trying",
+          "startFrame": 10970,
+          "endFrame": 10999
+        },
+        {
+          "id": "w_34_10",
+          "text": "so",
+          "startFrame": 10999,
+          "endFrame": 11023
+        }
+      ]
+    },
+    {
+      "id": "line_35",
+      "text": "I just want to be myself, without a hidden clause.",
+      "startTime": 183.72,
+      "endTime": 189.42,
+      "startFrame": 11023,
+      "endFrame": 11365,
+      "accentWords": [
+        "without"
+      ],
+      "words": [
+        {
+          "id": "w_35_01",
+          "text": "hard",
+          "startFrame": 11023,
+          "endFrame": 11045
+        },
+        {
+          "id": "w_35_02",
+          "text": "of",
+          "startFrame": 11045,
+          "endFrame": 11060
+        },
+        {
+          "id": "w_35_03",
+          "text": "it",
+          "startFrame": 11060,
+          "endFrame": 11086
+        },
+        {
+          "id": "w_35_04",
+          "text": "in.",
+          "startFrame": 11086,
+          "endFrame": 11129
+        },
+        {
+          "id": "w_35_05",
+          "text": "I'm",
+          "startFrame": 11224,
+          "endFrame": 11257
+        },
+        {
+          "id": "w_35_06",
+          "text": "picking",
+          "startFrame": 11257,
+          "endFrame": 11286
+        },
+        {
+          "id": "w_35_07",
+          "text": "up",
+          "startFrame": 11286,
+          "endFrame": 11303
+        },
+        {
+          "id": "w_35_08",
+          "text": "the",
+          "startFrame": 11303,
+          "endFrame": 11311
+        },
+        {
+          "id": "w_35_09",
+          "text": "pieces",
+          "startFrame": 11311,
+          "endFrame": 11334
+        },
+        {
+          "id": "w_35_10",
+          "text": "from",
+          "startFrame": 11334,
+          "endFrame": 11365
+        }
+      ]
+    },
+    {
+      "id": "line_36",
+      "text": "No more trying so hard to fit in...",
+      "startTime": 189.42,
+      "endTime": 194.56,
+      "startFrame": 11365,
+      "endFrame": 11674,
+      "accentWords": [
+        "trying"
+      ],
+      "words": [
+        {
+          "id": "w_36_01",
+          "text": "beneath",
+          "startFrame": 11365,
+          "endFrame": 11411
+        },
+        {
+          "id": "w_36_02",
+          "text": "my",
+          "startFrame": 11411,
+          "endFrame": 11442
+        },
+        {
+          "id": "w_36_03",
+          "text": "skin.",
+          "startFrame": 11442,
+          "endFrame": 11525
+        },
+        {
+          "id": "w_36_04",
+          "text": "I",
+          "startFrame": 11525,
+          "endFrame": 11606
+        },
+        {
+          "id": "w_36_05",
+          "text": "don't",
+          "startFrame": 11606,
+          "endFrame": 11620
+        },
+        {
+          "id": "w_36_06",
+          "text": "need",
+          "startFrame": 11620,
+          "endFrame": 11629
+        },
+        {
+          "id": "w_36_07",
+          "text": "the",
+          "startFrame": 11629,
+          "endFrame": 11639
+        },
+        {
+          "id": "w_36_08",
+          "text": "spotlight",
+          "startFrame": 11639,
+          "endFrame": 11674
+        }
+      ]
+    },
+    {
+      "id": "line_37",
+      "text": "Just an ordinary guy...",
+      "startTime": 194.56,
+      "endTime": 196.54,
+      "startFrame": 11674,
+      "endFrame": 11792,
+      "accentWords": [
+        "ordinary"
+      ],
+      "words": [
+        {
+          "id": "w_37_01",
+          "text": "or",
+          "startFrame": 11674,
+          "endFrame": 11708
+        },
+        {
+          "id": "w_37_02",
+          "text": "a",
+          "startFrame": 11708,
+          "endFrame": 11743
+        },
+        {
+          "id": "w_37_03",
+          "text": "chorus",
+          "startFrame": 11743,
+          "endFrame": 11770
+        },
+        {
+          "id": "w_37_04",
+          "text": "of",
+          "startFrame": 11770,
+          "endFrame": 11792
+        }
+      ]
+    },
+    {
+      "id": "line_38",
+      "text": "Learning how to breathe again.",
+      "startTime": 196.54,
+      "endTime": 198.94,
+      "startFrame": 11792,
+      "endFrame": 11936,
+      "accentWords": [
+        "Learning"
+      ],
+      "words": [
+        {
+          "id": "w_38_01",
+          "text": "applause",
+          "startFrame": 11792,
+          "endFrame": 11825
+        },
+        {
+          "id": "w_38_02",
+          "text": "I",
+          "startFrame": 11825,
+          "endFrame": 11890
+        },
+        {
+          "id": "w_38_03",
+          "text": "just",
+          "startFrame": 11890,
+          "endFrame": 11900
+        },
+        {
+          "id": "w_38_04",
+          "text": "wanna",
+          "startFrame": 11900,
+          "endFrame": 11917
+        },
+        {
+          "id": "w_38_05",
+          "text": "be",
+          "startFrame": 11917,
+          "endFrame": 11936
+        }
+      ]
+    }
+  ]
+}

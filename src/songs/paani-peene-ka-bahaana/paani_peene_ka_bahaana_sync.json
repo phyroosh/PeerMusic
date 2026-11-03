@@ -1,0 +1,3563 @@
+{
+  "audio_file": "public/audio/paani_peene_ka_bahaana.mp3",
+  "duration": 241.97,
+  "language": "hi",
+  "words": [
+    {
+      "word": "Paani",
+      "start": 10.84,
+      "end": 11.94,
+      "probability": 0.396
+    },
+    {
+      "word": "peene",
+      "start": 11.94,
+      "end": 12.54,
+      "probability": 0.07
+    },
+    {
+      "word": "ka",
+      "start": 12.54,
+      "end": 12.84,
+      "probability": 0.619
+    },
+    {
+      "word": "toh",
+      "start": 12.84,
+      "end": 13.44,
+      "probability": 0.297
+    },
+    {
+      "word": "bas",
+      "start": 13.44,
+      "end": 13.54,
+      "probability": 0.188
+    },
+    {
+      "word": "ek",
+      "start": 13.54,
+      "end": 13.88,
+      "probability": 0.044
+    },
+    {
+      "word": "bahaana",
+      "start": 13.88,
+      "end": 14.76,
+      "probability": 0.059
+    },
+    {
+      "word": "tha,",
+      "start": 14.76,
+      "end": 15.24,
+      "probability": 0.828
+    },
+    {
+      "word": "Mujhe",
+      "start": 15.9,
+      "end": 17.06,
+      "probability": 0.279
+    },
+    {
+      "word": "tere",
+      "start": 17.06,
+      "end": 17.5,
+      "probability": 0.877
+    },
+    {
+      "word": "classroom",
+      "start": 17.5,
+      "end": 18.22,
+      "probability": 0.02
+    },
+    {
+      "word": "ke",
+      "start": 18.22,
+      "end": 19.0,
+      "probability": 0.74
+    },
+    {
+      "word": "aage",
+      "start": 19.0,
+      "end": 19.5,
+      "probability": 0.306
+    },
+    {
+      "word": "se",
+      "start": 19.5,
+      "end": 19.86,
+      "probability": 0.741
+    },
+    {
+      "word": "jaana",
+      "start": 19.86,
+      "end": 20.36,
+      "probability": 0.243
+    },
+    {
+      "word": "tha,",
+      "start": 20.36,
+      "end": 20.74,
+      "probability": 0.917
+    },
+    {
+      "word": "ہاتھ",
+      "start": 21.7,
+      "end": 22.58,
+      "probability": 0.332
+    },
+    {
+      "word": "میں",
+      "start": 22.58,
+      "end": 22.72,
+      "probability": 0.982
+    },
+    {
+      "word": "βڑھن",
+      "start": 22.72,
+      "end": 23.18,
+      "probability": 0.423
+    },
+    {
+      "word": "پاس",
+      "start": 23.18,
+      "end": 23.62,
+      "probability": 0.615
+    },
+    {
+      "word": "دی",
+      "start": 23.62,
+      "end": 23.98,
+      "probability": 0.365
+    },
+    {
+      "word": "میں",
+      "start": 23.98,
+      "end": 24.1,
+      "probability": 0.815
+    },
+    {
+      "word": "سے",
+      "start": 24.1,
+      "end": 24.34,
+      "probability": 0.965
+    },
+    {
+      "word": "قدم",
+      "start": 24.34,
+      "end": 24.82,
+      "probability": 0.451
+    },
+    {
+      "word": "تو",
+      "start": 24.82,
+      "end": 25.32,
+      "probability": 0.611
+    },
+    {
+      "word": "جہ",
+      "start": 25.32,
+      "end": 25.52,
+      "probability": 0.529
+    },
+    {
+      "word": "مڑ",
+      "start": 25.52,
+      "end": 25.82,
+      "probability": 0.739
+    },
+    {
+      "word": "کے",
+      "start": 25.82,
+      "end": 26.02,
+      "probability": 0.476
+    },
+    {
+      "word": "دیکھنے",
+      "start": 26.02,
+      "end": 26.76,
+      "probability": 0.824
+    },
+    {
+      "word": "کا",
+      "start": 26.76,
+      "end": 26.9,
+      "probability": 0.947
+    },
+    {
+      "word": "خوا",
+      "start": 26.9,
+      "end": 27.28,
+      "probability": 0.672
+    },
+    {
+      "word": "پر",
+      "start": 27.28,
+      "end": 27.74,
+      "probability": 0.418
+    },
+    {
+      "word": "آنا",
+      "start": 27.74,
+      "end": 28.18,
+      "probability": 0.442
+    },
+    {
+      "word": "تھا",
+      "start": 28.18,
+      "end": 28.74,
+      "probability": 0.977
+    },
+    {
+      "word": "کلاس",
+      "start": 30.72,
+      "end": 31.6,
+      "probability": 0.271
+    },
+    {
+      "word": "کی",
+      "start": 31.6,
+      "end": 31.84,
+      "probability": 0.971
+    },
+    {
+      "word": "کڑ",
+      "start": 31.84,
+      "end": 32.14,
+      "probability": 0.661
+    },
+    {
+      "word": "کی",
+      "start": 32.14,
+      "end": 32.34,
+      "probability": 0.544
+    },
+    {
+      "word": "سے",
+      "start": 32.34,
+      "end": 32.56,
+      "probability": 0.793
+    },
+    {
+      "word": "جب",
+      "start": 32.56,
+      "end": 32.86,
+      "probability": 0.877
+    },
+    {
+      "word": "دھو",
+      "start": 32.86,
+      "end": 33.14,
+      "probability": 0.391
+    },
+    {
+      "word": "پچھان",
+      "start": 33.14,
+      "end": 33.58,
+      "probability": 0.696
+    },
+    {
+      "word": "کے",
+      "start": 33.58,
+      "end": 33.86,
+      "probability": 0.525
+    },
+    {
+      "word": "آتی",
+      "start": 33.86,
+      "end": 34.62,
+      "probability": 0.719
+    },
+    {
+      "word": "تری",
+      "start": 35.9,
+      "end": 36.78,
+      "probability": 0.304
+    },
+    {
+      "word": "بنچ",
+      "start": 36.78,
+      "end": 37.26,
+      "probability": 0.502
+    },
+    {
+      "word": "پگر",
+      "start": 37.26,
+      "end": 37.78,
+      "probability": 0.66
+    },
+    {
+      "word": "کے",
+      "start": 37.78,
+      "end": 38.04,
+      "probability": 0.844
+    },
+    {
+      "word": "ونور",
+      "start": 38.04,
+      "end": 38.94,
+      "probability": 0.596
+    },
+    {
+      "word": "بن",
+      "start": 38.94,
+      "end": 39.34,
+      "probability": 0.647
+    },
+    {
+      "word": "جاتی",
+      "start": 39.34,
+      "end": 40.54,
+      "probability": 0.845
+    },
+    {
+      "word": "پانی",
+      "start": 42.16,
+      "end": 43.04,
+      "probability": 0.613
+    },
+    {
+      "word": "تینے",
+      "start": 43.04,
+      "end": 43.72,
+      "probability": 0.499
+    },
+    {
+      "word": "کا",
+      "start": 43.72,
+      "end": 43.88,
+      "probability": 0.905
+    },
+    {
+      "word": "تو",
+      "start": 43.88,
+      "end": 44.28,
+      "probability": 0.78
+    },
+    {
+      "word": "پاس",
+      "start": 44.28,
+      "end": 44.76,
+      "probability": 0.822
+    },
+    {
+      "word": "بانا",
+      "start": 44.76,
+      "end": 45.9,
+      "probability": 0.638
+    },
+    {
+      "word": "تھا",
+      "start": 45.9,
+      "end": 47.06,
+      "probability": 0.997
+    },
+    {
+      "word": "Moi",
+      "start": 47.06,
+      "end": 47.92,
+      "probability": 0.011
+    },
+    {
+      "word": "je",
+      "start": 47.92,
+      "end": 48.1,
+      "probability": 0.656
+    },
+    {
+      "word": "tere",
+      "start": 48.1,
+      "end": 48.54,
+      "probability": 0.764
+    },
+    {
+      "word": "krasru",
+      "start": 48.54,
+      "end": 49.38,
+      "probability": 0.412
+    },
+    {
+      "word": "ki",
+      "start": 49.38,
+      "end": 50.06,
+      "probability": 0.292
+    },
+    {
+      "word": "hagaise",
+      "start": 50.06,
+      "end": 50.86,
+      "probability": 0.514
+    },
+    {
+      "word": "jhanata",
+      "start": 50.86,
+      "end": 51.9,
+      "probability": 0.37
+    },
+    {
+      "word": "Subakhi",
+      "start": 64.68,
+      "end": 65.62,
+      "probability": 0.325
+    },
+    {
+      "word": "asambali",
+      "start": 65.62,
+      "end": 66.24,
+      "probability": 0.337
+    },
+    {
+      "word": "me",
+      "start": 66.24,
+      "end": 66.42,
+      "probability": 0.494
+    },
+    {
+      "word": "lambeesi",
+      "start": 66.42,
+      "end": 67.1,
+      "probability": 0.232
+    },
+    {
+      "word": "lainthi",
+      "start": 67.1,
+      "end": 67.8,
+      "probability": 0.448
+    },
+    {
+      "word": "Dho",
+      "start": 67.8,
+      "end": 68.1,
+      "probability": 0.196
+    },
+    {
+      "word": "no",
+      "start": 68.1,
+      "end": 68.24,
+      "probability": 0.378
+    },
+    {
+      "word": "ke",
+      "start": 68.24,
+      "end": 68.54,
+      "probability": 0.615
+    },
+    {
+      "word": "bich",
+      "start": 68.54,
+      "end": 68.86,
+      "probability": 0.432
+    },
+    {
+      "word": "vas",
+      "start": 68.86,
+      "end": 69.1,
+      "probability": 0.15
+    },
+    {
+      "word": "do",
+      "start": 69.1,
+      "end": 69.26,
+      "probability": 0.408
+    },
+    {
+      "word": "charri",
+      "start": 69.26,
+      "end": 69.84,
+      "probability": 0.181
+    },
+    {
+      "word": "diwarethin",
+      "start": 69.84,
+      "end": 70.31,
+      "probability": 0.439
+    },
+    {
+      "word": "Pair",
+      "start": 70.66,
+      "end": 71.12,
+      "probability": 0.454
+    },
+    {
+      "word": "ke",
+      "start": 71.12,
+      "end": 71.36,
+      "probability": 0.759
+    },
+    {
+      "word": "bich",
+      "start": 71.36,
+      "end": 71.7,
+      "probability": 0.904
+    },
+    {
+      "word": "me",
+      "start": 71.7,
+      "end": 71.9,
+      "probability": 0.777
+    },
+    {
+      "word": "me",
+      "start": 71.9,
+      "end": 72.08,
+      "probability": 0.704
+    },
+    {
+      "word": "gardan",
+      "start": 72.08,
+      "end": 72.54,
+      "probability": 0.446
+    },
+    {
+      "word": "gumata",
+      "start": 72.54,
+      "end": 73.3,
+      "probability": 0.556
+    },
+    {
+      "word": "Tujer",
+      "start": 73.3,
+      "end": 73.92,
+      "probability": 0.387
+    },
+    {
+      "word": "humne",
+      "start": 73.92,
+      "end": 74.4,
+      "probability": 0.407
+    },
+    {
+      "word": "me",
+      "start": 74.4,
+      "end": 74.6,
+      "probability": 0.793
+    },
+    {
+      "word": "yiks",
+      "start": 74.6,
+      "end": 75.14,
+      "probability": 0.274
+    },
+    {
+      "word": "kumpaata",
+      "start": 75.14,
+      "end": 76.22,
+      "probability": 0.49
+    },
+    {
+      "word": "तिक",
+      "start": 76.22,
+      "end": 76.64,
+      "probability": 0.28
+    },
+    {
+      "word": "पार",
+      "start": 76.64,
+      "end": 77.06,
+      "probability": 0.578
+    },
+    {
+      "word": "गलति",
+      "start": 77.06,
+      "end": 77.54,
+      "probability": 0.461
+    },
+    {
+      "word": "से",
+      "start": 77.54,
+      "end": 77.82,
+      "probability": 0.643
+    },
+    {
+      "word": "शान्के",
+      "start": 77.82,
+      "end": 78.24,
+      "probability": 0.393
+    },
+    {
+      "word": "जो",
+      "start": 78.24,
+      "end": 78.5,
+      "probability": 0.598
+    },
+    {
+      "word": "मिल्गें",
+      "start": 78.5,
+      "end": 79.16,
+      "probability": 0.518
+    },
+    {
+      "word": "पूरिदन",
+      "start": 79.16,
+      "end": 79.8,
+      "probability": 0.561
+    },
+    {
+      "word": "किता",
+      "start": 79.8,
+      "end": 80.24,
+      "probability": 0.69
+    },
+    {
+      "word": "कन्षः",
+      "start": 80.24,
+      "end": 80.9,
+      "probability": 0.352
+    },
+    {
+      "word": "के",
+      "start": 80.9,
+      "end": 81.12,
+      "probability": 0.792
+    },
+    {
+      "word": "से",
+      "start": 81.12,
+      "end": 81.3,
+      "probability": 0.823
+    },
+    {
+      "word": "देल्गें",
+      "start": 81.3,
+      "end": 81.98,
+      "probability": 0.652
+    },
+    {
+      "word": "तुवागे",
+      "start": 81.98,
+      "end": 82.72,
+      "probability": 0.553
+    },
+    {
+      "word": "वालिरो",
+      "start": 82.72,
+      "end": 83.24,
+      "probability": 0.665
+    },
+    {
+      "word": "मेपर्तिती",
+      "start": 83.24,
+      "end": 83.94,
+      "probability": 0.457
+    },
+    {
+      "word": "अवमवशारा",
+      "start": 83.94,
+      "end": 85.1,
+      "probability": 0.448
+    },
+    {
+      "word": "नहीवन्ज",
+      "start": 85.1,
+      "end": 85.98,
+      "probability": 0.476
+    },
+    {
+      "word": "पेूर्ता",
+      "start": 85.98,
+      "end": 86.6,
+      "probability": 0.613
+    },
+    {
+      "word": "नेराच",
+      "start": 86.6,
+      "end": 87.16,
+      "probability": 0.372
+    },
+    {
+      "word": "असेस",
+      "start": 87.16,
+      "end": 88.18,
+      "probability": 0.227
+    },
+    {
+      "word": "की",
+      "start": 88.18,
+      "end": 88.36,
+      "probability": 0.513
+    },
+    {
+      "word": "बन्ति",
+      "start": 88.36,
+      "end": 88.88,
+      "probability": 0.515
+    },
+    {
+      "word": "पेदपाग",
+      "start": 88.88,
+      "end": 89.86,
+      "probability": 0.427
+    },
+    {
+      "word": "रहना",
+      "start": 89.86,
+      "end": 90.34,
+      "probability": 0.39
+    },
+    {
+      "word": "भोस्तान",
+      "start": 90.34,
+      "end": 90.82,
+      "probability": 0.449
+    },
+    {
+      "word": "से",
+      "start": 90.82,
+      "end": 90.98,
+      "probability": 0.738
+    },
+    {
+      "word": "जिपाके",
+      "start": 90.98,
+      "end": 91.5,
+      "probability": 0.602
+    },
+    {
+      "word": "तिरा",
+      "start": 91.5,
+      "end": 91.88,
+      "probability": 0.684
+    },
+    {
+      "word": "उग",
+      "start": 91.88,
+      "end": 92.16,
+      "probability": 0.331
+    },
+    {
+      "word": "देगना",
+      "start": 92.16,
+      "end": 92.84,
+      "probability": 0.589
+    },
+    {
+      "word": "بھی",
+      "start": 92.84,
+      "end": 93.14,
+      "probability": 0.312
+    },
+    {
+      "word": "نہ",
+      "start": 93.14,
+      "end": 93.3,
+      "probability": 0.375
+    },
+    {
+      "word": "بات",
+      "start": 93.3,
+      "end": 93.74,
+      "probability": 0.48
+    },
+    {
+      "word": "کے",
+      "start": 93.74,
+      "end": 93.96,
+      "probability": 0.625
+    },
+    {
+      "word": "ہی",
+      "start": 93.96,
+      "end": 94.28,
+      "probability": 0.704
+    },
+    {
+      "word": "دل",
+      "start": 94.28,
+      "end": 94.56,
+      "probability": 0.418
+    },
+    {
+      "word": "دھڑھ",
+      "start": 94.56,
+      "end": 94.78,
+      "probability": 0.658
+    },
+    {
+      "word": "کرنے",
+      "start": 94.78,
+      "end": 95.34,
+      "probability": 0.502
+    },
+    {
+      "word": "لگتا",
+      "start": 95.34,
+      "end": 96.06,
+      "probability": 0.645
+    },
+    {
+      "word": "تھا",
+      "start": 96.06,
+      "end": 96.9,
+      "probability": 0.962
+    },
+    {
+      "word": "یہ",
+      "start": 97.96,
+      "end": 98.56,
+      "probability": 0.353
+    },
+    {
+      "word": "مستم",
+      "start": 98.56,
+      "end": 99.34,
+      "probability": 0.256
+    },
+    {
+      "word": "سلام",
+      "start": 99.34,
+      "end": 99.82,
+      "probability": 0.523
+    },
+    {
+      "word": "ہا",
+      "start": 99.82,
+      "end": 100.24,
+      "probability": 0.68
+    },
+    {
+      "word": "کیتنا",
+      "start": 100.24,
+      "end": 100.84,
+      "probability": 0.439
+    },
+    {
+      "word": "سوحنا",
+      "start": 100.84,
+      "end": 101.56,
+      "probability": 0.625
+    },
+    {
+      "word": "تھا",
+      "start": 101.56,
+      "end": 103.42,
+      "probability": 0.998
+    },
+    {
+      "word": "بانی",
+      "start": 104.24,
+      "end": 105.18,
+      "probability": 0.637
+    },
+    {
+      "word": "پینے",
+      "start": 105.18,
+      "end": 105.82,
+      "probability": 0.763
+    },
+    {
+      "word": "کا",
+      "start": 105.82,
+      "end": 106.02,
+      "probability": 0.628
+    },
+    {
+      "word": "تو",
+      "start": 106.02,
+      "end": 106.4,
+      "probability": 0.899
+    },
+    {
+      "word": "بسے",
+      "start": 106.4,
+      "end": 107.0,
+      "probability": 0.837
+    },
+    {
+      "word": "کبہنا",
+      "start": 107.0,
+      "end": 107.9,
+      "probability": 0.503
+    },
+    {
+      "word": "تھا",
+      "start": 107.9,
+      "end": 108.82,
+      "probability": 0.996
+    },
+    {
+      "word": "مجھے",
+      "start": 109.64,
+      "end": 110.3,
+      "probability": 0.693
+    },
+    {
+      "word": "تے",
+      "start": 110.3,
+      "end": 110.58,
+      "probability": 0.312
+    },
+    {
+      "word": "رکھا",
+      "start": 110.58,
+      "end": 111.08,
+      "probability": 0.567
+    },
+    {
+      "word": "سروں",
+      "start": 111.08,
+      "end": 111.84,
+      "probability": 0.653
+    },
+    {
+      "word": "کے",
+      "start": 111.84,
+      "end": 112.2,
+      "probability": 0.742
+    },
+    {
+      "word": "آگے",
+      "start": 112.2,
+      "end": 112.82,
+      "probability": 0.831
+    },
+    {
+      "word": "سے",
+      "start": 112.82,
+      "end": 113.02,
+      "probability": 0.974
+    },
+    {
+      "word": "جانا",
+      "start": 113.02,
+      "end": 113.66,
+      "probability": 0.719
+    },
+    {
+      "word": "تھا",
+      "start": 113.66,
+      "end": 114.58,
+      "probability": 0.999
+    },
+    {
+      "word": "अगदन",
+      "start": 127.1,
+      "end": 127.82,
+      "probability": 0.362
+    },
+    {
+      "word": "जो",
+      "start": 127.82,
+      "end": 128.14,
+      "probability": 0.648
+    },
+    {
+      "word": "मांगी",
+      "start": 128.14,
+      "end": 128.94,
+      "probability": 0.478
+    },
+    {
+      "word": "ती",
+      "start": 128.94,
+      "end": 129.18,
+      "probability": 0.574
+    },
+    {
+      "word": "तूने",
+      "start": 129.18,
+      "end": 129.7,
+      "probability": 0.647
+    },
+    {
+      "word": "वो",
+      "start": 129.7,
+      "end": 130.02,
+      "probability": 0.789
+    },
+    {
+      "word": "पेन",
+      "start": 130.02,
+      "end": 130.34,
+      "probability": 0.509
+    },
+    {
+      "word": "से",
+      "start": 130.34,
+      "end": 130.72,
+      "probability": 0.368
+    },
+    {
+      "word": "नए",
+      "start": 130.72,
+      "end": 132.32,
+      "probability": 0.342
+    },
+    {
+      "word": "जल",
+      "start": 132.32,
+      "end": 133.14,
+      "probability": 0.314
+    },
+    {
+      "word": "के",
+      "start": 133.14,
+      "end": 133.4,
+      "probability": 0.509
+    },
+    {
+      "word": "गी",
+      "start": 133.4,
+      "end": 133.6,
+      "probability": 0.454
+    },
+    {
+      "word": "मैं",
+      "start": 133.6,
+      "end": 134.08,
+      "probability": 0.495
+    },
+    {
+      "word": "गे",
+      "start": 134.08,
+      "end": 134.36,
+      "probability": 0.421
+    },
+    {
+      "word": "ती",
+      "start": 134.36,
+      "end": 134.56,
+      "probability": 0.414
+    },
+    {
+      "word": "नी",
+      "start": 134.56,
+      "end": 134.82,
+      "probability": 0.425
+    },
+    {
+      "word": "मशकिल",
+      "start": 134.82,
+      "end": 135.62,
+      "probability": 0.566
+    },
+    {
+      "word": "से",
+      "start": 135.62,
+      "end": 137.12,
+      "probability": 0.865
+    },
+    {
+      "word": "वो",
+      "start": 137.12,
+      "end": 138.14,
+      "probability": 0.45
+    },
+    {
+      "word": "सने",
+      "start": 138.14,
+      "end": 138.56,
+      "probability": 0.631
+    },
+    {
+      "word": "से",
+      "start": 138.56,
+      "end": 138.96,
+      "probability": 0.561
+    },
+    {
+      "word": "शिव",
+      "start": 138.96,
+      "end": 139.28,
+      "probability": 0.413
+    },
+    {
+      "word": "कर",
+      "start": 139.28,
+      "end": 139.48,
+      "probability": 0.457
+    },
+    {
+      "word": "पे",
+      "start": 139.48,
+      "end": 139.82,
+      "probability": 0.787
+    },
+    {
+      "word": "जो",
+      "start": 139.82,
+      "end": 140.12,
+      "probability": 0.819
+    },
+    {
+      "word": "ते",
+      "start": 140.12,
+      "end": 140.4,
+      "probability": 0.627
+    },
+    {
+      "word": "डालम",
+      "start": 140.4,
+      "end": 141.02,
+      "probability": 0.431
+    },
+    {
+      "word": "सता",
+      "start": 141.02,
+      "end": 142.1,
+      "probability": 0.533
+    },
+    {
+      "word": "Phurani",
+      "start": 172.1,
+      "end": 173.08,
+      "probability": 0.441
+    },
+    {
+      "word": "Yoni",
+      "start": 173.08,
+      "end": 173.4,
+      "probability": 0.375
+    },
+    {
+      "word": "Phun",
+      "start": 173.4,
+      "end": 173.66,
+      "probability": 0.476
+    },
+    {
+      "word": "Ki",
+      "start": 173.66,
+      "end": 173.82,
+      "probability": 0.307
+    },
+    {
+      "word": "Jebum",
+      "start": 173.82,
+      "end": 174.44,
+      "probability": 0.399
+    },
+    {
+      "word": "Ajay",
+      "start": 174.44,
+      "end": 174.94,
+      "probability": 0.232
+    },
+    {
+      "word": "Bhik",
+      "start": 174.94,
+      "end": 175.24,
+      "probability": 0.461
+    },
+    {
+      "word": "Te",
+      "start": 175.24,
+      "end": 175.6,
+      "probability": 0.287
+    },
+    {
+      "word": "Raghiri",
+      "start": 175.6,
+      "end": 176.0,
+      "probability": 0.24
+    },
+    {
+      "word": "Rai",
+      "start": 176.0,
+      "end": 176.28,
+      "probability": 0.465
+    },
+    {
+      "word": "Rezar",
+      "start": 176.28,
+      "end": 176.68,
+      "probability": 0.325
+    },
+    {
+      "word": "Meh",
+      "start": 176.68,
+      "end": 176.84,
+      "probability": 0.541
+    },
+    {
+      "word": "Fuz",
+      "start": 176.84,
+      "end": 177.4,
+      "probability": 0.67
+    },
+    {
+      "word": "Hekahi",
+      "start": 177.4,
+      "end": 178.54,
+      "probability": 0.184
+    },
+    {
+      "word": "Meh",
+      "start": 180.1,
+      "end": 180.68,
+      "probability": 0.179
+    },
+    {
+      "word": "Fuz",
+      "start": 180.68,
+      "end": 181.48,
+      "probability": 0.986
+    },
+    {
+      "word": "Hekahi",
+      "start": 181.48,
+      "end": 182.1,
+      "probability": 0.982
+    },
+    {
+      "word": "Ho",
+      "start": 182.62,
+      "end": 183.06,
+      "probability": 0.154
+    },
+    {
+      "word": "Vaj",
+      "start": 183.06,
+      "end": 183.32,
+      "probability": 0.348
+    },
+    {
+      "word": "Panami",
+      "start": 183.32,
+      "end": 184.12,
+      "probability": 0.463
+    },
+    {
+      "word": "Ke",
+      "start": 185.1,
+      "end": 185.8,
+      "probability": 0.362
+    },
+    {
+      "word": "Katana",
+      "start": 185.8,
+      "end": 186.32,
+      "probability": 0.434
+    },
+    {
+      "word": "Ji",
+      "start": 186.32,
+      "end": 186.8,
+      "probability": 0.428
+    },
+    {
+      "word": "Bhutan",
+      "start": 186.8,
+      "end": 187.28,
+      "probability": 0.193
+    },
+    {
+      "word": "Jitana",
+      "start": 188.1,
+      "end": 188.82,
+      "probability": 0.471
+    },
+    {
+      "word": "Dur",
+      "start": 188.82,
+      "end": 189.14,
+      "probability": 0.378
+    },
+    {
+      "word": "Tato",
+      "start": 189.14,
+      "end": 189.7,
+      "probability": 0.31
+    },
+    {
+      "word": "Utna",
+      "start": 189.7,
+      "end": 191.3,
+      "probability": 0.306
+    },
+    {
+      "word": "Kari",
+      "start": 191.3,
+      "end": 191.74,
+      "probability": 0.378
+    },
+    {
+      "word": "Bhutan",
+      "start": 191.74,
+      "end": 192.52,
+      "probability": 0.959
+    },
+    {
+      "word": "Do",
+      "start": 193.1,
+      "end": 194.26,
+      "probability": 0.404
+    },
+    {
+      "word": "Benji",
+      "start": 194.26,
+      "end": 194.94,
+      "probability": 0.439
+    },
+    {
+      "word": "Age",
+      "start": 194.94,
+      "end": 195.56,
+      "probability": 0.266
+    },
+    {
+      "word": "Uwa",
+      "start": 195.56,
+      "end": 196.38,
+      "probability": 0.1
+    },
+    {
+      "word": "Khiri",
+      "start": 196.38,
+      "end": 196.94,
+      "probability": 0.456
+    },
+    {
+      "word": "Benji",
+      "start": 196.94,
+      "end": 197.5,
+      "probability": 0.943
+    },
+    {
+      "word": "Peme",
+      "start": 197.5,
+      "end": 198.14,
+      "probability": 0.661
+    },
+    {
+      "word": "கרیدور",
+      "start": 198.14,
+      "end": 200.28,
+      "probability": 0.404
+    },
+    {
+      "word": "کے",
+      "start": 200.28,
+      "end": 200.6,
+      "probability": 0.632
+    },
+    {
+      "word": "مورت",
+      "start": 200.6,
+      "end": 201.48,
+      "probability": 0.268
+    },
+    {
+      "word": "پر",
+      "start": 201.48,
+      "end": 201.84,
+      "probability": 0.411
+    },
+    {
+      "word": "حلد",
+      "start": 201.84,
+      "end": 202.46,
+      "probability": 0.194
+    },
+    {
+      "word": "پرا",
+      "start": 202.46,
+      "end": 202.98,
+      "probability": 0.308
+    },
+    {
+      "word": "ہچین",
+      "start": 202.98,
+      "end": 204.96,
+      "probability": 0.366
+    },
+    {
+      "word": "بانی",
+      "start": 204.96,
+      "end": 206.98,
+      "probability": 0.574
+    },
+    {
+      "word": "پینے",
+      "start": 206.98,
+      "end": 207.62,
+      "probability": 0.609
+    },
+    {
+      "word": "کا",
+      "start": 207.62,
+      "end": 207.8,
+      "probability": 0.528
+    },
+    {
+      "word": "تو",
+      "start": 207.8,
+      "end": 208.22,
+      "probability": 0.556
+    },
+    {
+      "word": "بسےک",
+      "start": 208.22,
+      "end": 208.96,
+      "probability": 0.398
+    },
+    {
+      "word": "بانا",
+      "start": 208.96,
+      "end": 209.8,
+      "probability": 0.537
+    },
+    {
+      "word": "تھا",
+      "start": 209.8,
+      "end": 210.49,
+      "probability": 0.881
+    },
+    {
+      "word": "Tú",
+      "start": 210.49,
+      "end": 211.85,
+      "probability": 0.003
+    },
+    {
+      "word": "je",
+      "start": 211.85,
+      "end": 212.03,
+      "probability": 0.301
+    },
+    {
+      "word": "dh",
+      "start": 212.03,
+      "end": 212.25,
+      "probability": 0.21
+    },
+    {
+      "word": "quantumut",
+      "start": 212.25,
+      "end": 215.67,
+      "probability": 0.0
+    },
+    {
+      "word": "تlerin",
+      "start": 240.57,
+      "end": 241.97,
+      "probability": 0.0
+    }
+  ],
+  "alignment_method": "openai-whisper-transcribe",
+  "structured_sections": [
+    {
+      "name": "Intro",
+      "lines": [
+        "Title: Paani Peene Ka Bahaana (Classroom Ki Khidki)",
+        "Duration: ~3:15",
+        "Genre: Bollywood Acoustic Indie Ballad / School Nostalgia"
+      ]
+    },
+    {
+      "name": "Intro",
+      "lines": [
+        "(Soft fingerpicked acoustic guitar, faint school corridor chatter, distant bell chime)"
+      ]
+    },
+    {
+      "name": "Mukhda / Chorus",
+      "lines": [
+        "Paani peene ka toh bas ek bahaana tha,",
+        "Mujhe tere classroom ke aage se jaana tha.",
+        "Haath mein wooden pass, dheeme se kadam,",
+        "Tujhe mud ke dekhne ka khwaab puraana tha.",
+        "Class ki khidki se jab dhoop chhan ke aati,",
+        "Teri bench pe gir ke woh noor ban jaati.",
+        "Haan paani peene ka toh bas bahaana tha,",
+        "Mujhe tere classroom ke aage se jaana tha!"
+      ]
+    },
+    {
+      "name": "Antara 1 / Verse 1",
+      "lines": [
+        "Subah ki assembly mein lambi si line thi,",
+        "Dono ke beech bas do chaar deewarein thin.",
+        "Prayer ke beech mein main gardan ghumata,",
+        "Tujhe dhoondhne mein hi ik sukoon paata.",
+        "Ek baar galti se aankhein jo mil gayin,",
+        "Puri din ki thakan chupke se dhal gayi.",
+        "Tu aage waali row mein baithi thi khamosh,",
+        "Aur aakhri bench pe udta mera hosh!",
+        "Recess ki ghanti pe dabba kholna,",
+        "Doston se chhipaa ke tera rukh dekhna."
+      ]
+    },
+    {
+      "name": "Mukhda Reprise / Chorus",
+      "lines": [
+        "Bina baat ke hi dil dhadakne lagta tha,",
+        "Yeh masoom sa lamha kitna suhaana tha.",
+        "Paani peene ka toh bas ek bahaana tha,",
+        "Mujhe tere classroom ke aage se jaana tha!"
+      ]
+    },
+    {
+      "name": "Antara 2 / Verse 2",
+      "lines": [
+        "Ik din jo maangi thi tune woh pencil,",
+        "Aadhi chhil ke di maine kitni mushkil se.",
+        "Uss naye se shikhar pe jo tera lams tha,",
+        "Jaise mere hisse ka sabse bada jashn tha.",
+        "Blackboard pe teacher ke uljhe sawaal,",
+        "Par khayaalon mein bas tera hi khayaal.",
+        "Science ke period mein khwaabon ko bunte,",
+        "Dhadkan mein hum bas teri baat sunte.",
+        "Chhutti ki ghanti baji, bag utha liya,",
+        "Cycle ke stand pe tujhko phir pa liya."
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        "Na kabhi himmat hui keh sakoon do lafz,",
+        "Na kabhi tu samajh paayi mera yeh marz.",
+        "Purani uniform ki jeb mein aaj bhi,",
+        "Tera gira eraser mehfooz hai kahin...",
+        "Haan mehfooz hai kahin!",
+        "Woh bachpana bhi kitna ajeeb tha,",
+        "Jitna door tha tu, utna kareeb tha."
+      ]
+    },
+    {
+      "name": "Outro",
+      "lines": [
+        "Do bench aage tu... aakhri bench pe main...",
+        "Corridor ke mod pe dhoondhta raha chain...",
+        "Paani peene ka toh bas ek bahaana tha...",
+        "Tujhe door se bas ek baar dekh aana tha...",
+        "(Soft acoustic guitar decay, distant ringing bell, gentle corridor fade out)"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "line_01",
+      "text": "Title: Paani Peene Ka Bahaana (Classroom Ki Khidki)",
+      "startTime": 10.84,
+      "endTime": 15.24,
+      "startFrame": 650,
+      "endFrame": 914,
+      "accentWords": [
+        "Classroom"
+      ],
+      "words": [
+        {
+          "id": "w_01_01",
+          "text": "Paani",
+          "startFrame": 650,
+          "endFrame": 716
+        },
+        {
+          "id": "w_01_02",
+          "text": "peene",
+          "startFrame": 716,
+          "endFrame": 752
+        },
+        {
+          "id": "w_01_03",
+          "text": "ka",
+          "startFrame": 752,
+          "endFrame": 770
+        },
+        {
+          "id": "w_01_04",
+          "text": "toh",
+          "startFrame": 770,
+          "endFrame": 806
+        },
+        {
+          "id": "w_01_05",
+          "text": "bas",
+          "startFrame": 806,
+          "endFrame": 812
+        },
+        {
+          "id": "w_01_06",
+          "text": "ek",
+          "startFrame": 812,
+          "endFrame": 833
+        },
+        {
+          "id": "w_01_07",
+          "text": "bahaana",
+          "startFrame": 833,
+          "endFrame": 886
+        },
+        {
+          "id": "w_01_08",
+          "text": "tha,",
+          "startFrame": 886,
+          "endFrame": 914
+        }
+      ]
+    },
+    {
+      "id": "line_02",
+      "text": "Duration: ~3:15",
+      "startTime": 15.9,
+      "endTime": 17.5,
+      "startFrame": 954,
+      "endFrame": 1050,
+      "accentWords": [
+        "Duration"
+      ],
+      "words": [
+        {
+          "id": "w_02_01",
+          "text": "Mujhe",
+          "startFrame": 954,
+          "endFrame": 1024
+        },
+        {
+          "id": "w_02_02",
+          "text": "tere",
+          "startFrame": 1024,
+          "endFrame": 1050
+        }
+      ]
+    },
+    {
+      "id": "line_03",
+      "text": "Genre: Bollywood Acoustic Indie Ballad / School Nostalgia",
+      "startTime": 17.5,
+      "endTime": 22.72,
+      "startFrame": 1050,
+      "endFrame": 1363,
+      "accentWords": [
+        "Bollywood"
+      ],
+      "words": [
+        {
+          "id": "w_03_01",
+          "text": "classroom",
+          "startFrame": 1050,
+          "endFrame": 1093
+        },
+        {
+          "id": "w_03_02",
+          "text": "ke",
+          "startFrame": 1093,
+          "endFrame": 1140
+        },
+        {
+          "id": "w_03_03",
+          "text": "aage",
+          "startFrame": 1140,
+          "endFrame": 1170
+        },
+        {
+          "id": "w_03_04",
+          "text": "se",
+          "startFrame": 1170,
+          "endFrame": 1192
+        },
+        {
+          "id": "w_03_05",
+          "text": "jaana",
+          "startFrame": 1192,
+          "endFrame": 1222
+        },
+        {
+          "id": "w_03_06",
+          "text": "tha,",
+          "startFrame": 1222,
+          "endFrame": 1244
+        },
+        {
+          "id": "w_03_07",
+          "text": "ہاتھ",
+          "startFrame": 1302,
+          "endFrame": 1355
+        },
+        {
+          "id": "w_03_08",
+          "text": "میں",
+          "startFrame": 1355,
+          "endFrame": 1363
+        }
+      ]
+    },
+    {
+      "id": "line_04",
+      "text": "(Soft fingerpicked acoustic guitar, faint school corridor chatter, distant bell chime)",
+      "startTime": 22.72,
+      "endTime": 26.76,
+      "startFrame": 1363,
+      "endFrame": 1606,
+      "accentWords": [
+        "fingerpicked"
+      ],
+      "words": [
+        {
+          "id": "w_04_01",
+          "text": "βڑھن",
+          "startFrame": 1363,
+          "endFrame": 1391
+        },
+        {
+          "id": "w_04_02",
+          "text": "پاس",
+          "startFrame": 1391,
+          "endFrame": 1417
+        },
+        {
+          "id": "w_04_03",
+          "text": "دی",
+          "startFrame": 1417,
+          "endFrame": 1439
+        },
+        {
+          "id": "w_04_04",
+          "text": "میں",
+          "startFrame": 1439,
+          "endFrame": 1446
+        },
+        {
+          "id": "w_04_05",
+          "text": "سے",
+          "startFrame": 1446,
+          "endFrame": 1460
+        },
+        {
+          "id": "w_04_06",
+          "text": "قدم",
+          "startFrame": 1460,
+          "endFrame": 1489
+        },
+        {
+          "id": "w_04_07",
+          "text": "تو",
+          "startFrame": 1489,
+          "endFrame": 1519
+        },
+        {
+          "id": "w_04_08",
+          "text": "جہ",
+          "startFrame": 1519,
+          "endFrame": 1531
+        },
+        {
+          "id": "w_04_09",
+          "text": "مڑ",
+          "startFrame": 1531,
+          "endFrame": 1549
+        },
+        {
+          "id": "w_04_10",
+          "text": "کے",
+          "startFrame": 1549,
+          "endFrame": 1561
+        },
+        {
+          "id": "w_04_11",
+          "text": "دیکھنے",
+          "startFrame": 1561,
+          "endFrame": 1606
+        }
+      ]
+    },
+    {
+      "id": "line_05",
+      "text": "Paani peene ka toh bas ek bahaana tha,",
+      "startTime": 26.76,
+      "endTime": 32.14,
+      "startFrame": 1606,
+      "endFrame": 1928,
+      "accentWords": [
+        "bahaana"
+      ],
+      "words": [
+        {
+          "id": "w_05_01",
+          "text": "کا",
+          "startFrame": 1606,
+          "endFrame": 1614
+        },
+        {
+          "id": "w_05_02",
+          "text": "خوا",
+          "startFrame": 1614,
+          "endFrame": 1637
+        },
+        {
+          "id": "w_05_03",
+          "text": "پر",
+          "startFrame": 1637,
+          "endFrame": 1664
+        },
+        {
+          "id": "w_05_04",
+          "text": "آنا",
+          "startFrame": 1664,
+          "endFrame": 1691
+        },
+        {
+          "id": "w_05_05",
+          "text": "تھا",
+          "startFrame": 1691,
+          "endFrame": 1724
+        },
+        {
+          "id": "w_05_06",
+          "text": "کلاس",
+          "startFrame": 1843,
+          "endFrame": 1896
+        },
+        {
+          "id": "w_05_07",
+          "text": "کی",
+          "startFrame": 1896,
+          "endFrame": 1910
+        },
+        {
+          "id": "w_05_08",
+          "text": "کڑ",
+          "startFrame": 1910,
+          "endFrame": 1928
+        }
+      ]
+    },
+    {
+      "id": "line_06",
+      "text": "Mujhe tere classroom ke aage se jaana tha.",
+      "startTime": 32.14,
+      "endTime": 36.78,
+      "startFrame": 1928,
+      "endFrame": 2207,
+      "accentWords": [
+        "classroom"
+      ],
+      "words": [
+        {
+          "id": "w_06_01",
+          "text": "کی",
+          "startFrame": 1928,
+          "endFrame": 1940
+        },
+        {
+          "id": "w_06_02",
+          "text": "سے",
+          "startFrame": 1940,
+          "endFrame": 1954
+        },
+        {
+          "id": "w_06_03",
+          "text": "جب",
+          "startFrame": 1954,
+          "endFrame": 1972
+        },
+        {
+          "id": "w_06_04",
+          "text": "دھو",
+          "startFrame": 1972,
+          "endFrame": 1988
+        },
+        {
+          "id": "w_06_05",
+          "text": "پچھان",
+          "startFrame": 1988,
+          "endFrame": 2015
+        },
+        {
+          "id": "w_06_06",
+          "text": "کے",
+          "startFrame": 2015,
+          "endFrame": 2032
+        },
+        {
+          "id": "w_06_07",
+          "text": "آتی",
+          "startFrame": 2032,
+          "endFrame": 2077
+        },
+        {
+          "id": "w_06_08",
+          "text": "تری",
+          "startFrame": 2154,
+          "endFrame": 2207
+        }
+      ]
+    },
+    {
+      "id": "line_07",
+      "text": "Haath mein wooden pass, dheeme se kadam,",
+      "startTime": 36.78,
+      "endTime": 43.04,
+      "startFrame": 2207,
+      "endFrame": 2582,
+      "accentWords": [
+        "wooden"
+      ],
+      "words": [
+        {
+          "id": "w_07_01",
+          "text": "بنچ",
+          "startFrame": 2207,
+          "endFrame": 2236
+        },
+        {
+          "id": "w_07_02",
+          "text": "پگر",
+          "startFrame": 2236,
+          "endFrame": 2267
+        },
+        {
+          "id": "w_07_03",
+          "text": "کے",
+          "startFrame": 2267,
+          "endFrame": 2282
+        },
+        {
+          "id": "w_07_04",
+          "text": "ونور",
+          "startFrame": 2282,
+          "endFrame": 2336
+        },
+        {
+          "id": "w_07_05",
+          "text": "بن",
+          "startFrame": 2336,
+          "endFrame": 2360
+        },
+        {
+          "id": "w_07_06",
+          "text": "جاتی",
+          "startFrame": 2360,
+          "endFrame": 2432
+        },
+        {
+          "id": "w_07_07",
+          "text": "پانی",
+          "startFrame": 2530,
+          "endFrame": 2582
+        }
+      ]
+    },
+    {
+      "id": "line_08",
+      "text": "Tujhe mud ke dekhne ka khwaab puraana tha.",
+      "startTime": 43.04,
+      "endTime": 48.1,
+      "startFrame": 2582,
+      "endFrame": 2886,
+      "accentWords": [
+        "puraana"
+      ],
+      "words": [
+        {
+          "id": "w_08_01",
+          "text": "تینے",
+          "startFrame": 2582,
+          "endFrame": 2623
+        },
+        {
+          "id": "w_08_02",
+          "text": "کا",
+          "startFrame": 2623,
+          "endFrame": 2633
+        },
+        {
+          "id": "w_08_03",
+          "text": "تو",
+          "startFrame": 2633,
+          "endFrame": 2657
+        },
+        {
+          "id": "w_08_04",
+          "text": "پاس",
+          "startFrame": 2657,
+          "endFrame": 2686
+        },
+        {
+          "id": "w_08_05",
+          "text": "بانا",
+          "startFrame": 2686,
+          "endFrame": 2754
+        },
+        {
+          "id": "w_08_06",
+          "text": "تھا",
+          "startFrame": 2754,
+          "endFrame": 2824
+        },
+        {
+          "id": "w_08_07",
+          "text": "Moi",
+          "startFrame": 2824,
+          "endFrame": 2875
+        },
+        {
+          "id": "w_08_08",
+          "text": "je",
+          "startFrame": 2875,
+          "endFrame": 2886
+        }
+      ]
+    },
+    {
+      "id": "line_09",
+      "text": "Class ki khidki se jab dhoop chhan ke aati,",
+      "startTime": 48.1,
+      "endTime": 67.1,
+      "startFrame": 2886,
+      "endFrame": 4026,
+      "accentWords": [
+        "khidki"
+      ],
+      "words": [
+        {
+          "id": "w_09_01",
+          "text": "tere",
+          "startFrame": 2886,
+          "endFrame": 2912
+        },
+        {
+          "id": "w_09_02",
+          "text": "krasru",
+          "startFrame": 2912,
+          "endFrame": 2963
+        },
+        {
+          "id": "w_09_03",
+          "text": "ki",
+          "startFrame": 2963,
+          "endFrame": 3004
+        },
+        {
+          "id": "w_09_04",
+          "text": "hagaise",
+          "startFrame": 3004,
+          "endFrame": 3052
+        },
+        {
+          "id": "w_09_05",
+          "text": "jhanata",
+          "startFrame": 3052,
+          "endFrame": 3114
+        },
+        {
+          "id": "w_09_06",
+          "text": "Subakhi",
+          "startFrame": 3881,
+          "endFrame": 3937
+        },
+        {
+          "id": "w_09_07",
+          "text": "asambali",
+          "startFrame": 3937,
+          "endFrame": 3974
+        },
+        {
+          "id": "w_09_08",
+          "text": "me",
+          "startFrame": 3974,
+          "endFrame": 3985
+        },
+        {
+          "id": "w_09_09",
+          "text": "lambeesi",
+          "startFrame": 3985,
+          "endFrame": 4026
+        }
+      ]
+    },
+    {
+      "id": "line_10",
+      "text": "Teri bench pe gir ke woh noor ban jaati.",
+      "startTime": 67.1,
+      "endTime": 70.31,
+      "startFrame": 4026,
+      "endFrame": 4219,
+      "accentWords": [
+        "bench"
+      ],
+      "words": [
+        {
+          "id": "w_10_01",
+          "text": "lainthi",
+          "startFrame": 4026,
+          "endFrame": 4068
+        },
+        {
+          "id": "w_10_02",
+          "text": "Dho",
+          "startFrame": 4068,
+          "endFrame": 4086
+        },
+        {
+          "id": "w_10_03",
+          "text": "no",
+          "startFrame": 4086,
+          "endFrame": 4094
+        },
+        {
+          "id": "w_10_04",
+          "text": "ke",
+          "startFrame": 4094,
+          "endFrame": 4112
+        },
+        {
+          "id": "w_10_05",
+          "text": "bich",
+          "startFrame": 4112,
+          "endFrame": 4132
+        },
+        {
+          "id": "w_10_06",
+          "text": "vas",
+          "startFrame": 4132,
+          "endFrame": 4146
+        },
+        {
+          "id": "w_10_07",
+          "text": "do",
+          "startFrame": 4146,
+          "endFrame": 4156
+        },
+        {
+          "id": "w_10_08",
+          "text": "charri",
+          "startFrame": 4156,
+          "endFrame": 4190
+        },
+        {
+          "id": "w_10_09",
+          "text": "diwarethin",
+          "startFrame": 4190,
+          "endFrame": 4219
+        }
+      ]
+    },
+    {
+      "id": "line_11",
+      "text": "Haan paani peene ka toh bas bahaana tha,",
+      "startTime": 70.66,
+      "endTime": 73.92,
+      "startFrame": 4240,
+      "endFrame": 4435,
+      "accentWords": [
+        "bahaana"
+      ],
+      "words": [
+        {
+          "id": "w_11_01",
+          "text": "Pair",
+          "startFrame": 4240,
+          "endFrame": 4267
+        },
+        {
+          "id": "w_11_02",
+          "text": "ke",
+          "startFrame": 4267,
+          "endFrame": 4282
+        },
+        {
+          "id": "w_11_03",
+          "text": "bich",
+          "startFrame": 4282,
+          "endFrame": 4302
+        },
+        {
+          "id": "w_11_04",
+          "text": "me",
+          "startFrame": 4302,
+          "endFrame": 4314
+        },
+        {
+          "id": "w_11_05",
+          "text": "me",
+          "startFrame": 4314,
+          "endFrame": 4325
+        },
+        {
+          "id": "w_11_06",
+          "text": "gardan",
+          "startFrame": 4325,
+          "endFrame": 4352
+        },
+        {
+          "id": "w_11_07",
+          "text": "gumata",
+          "startFrame": 4352,
+          "endFrame": 4398
+        },
+        {
+          "id": "w_11_08",
+          "text": "Tujer",
+          "startFrame": 4398,
+          "endFrame": 4435
+        }
+      ]
+    },
+    {
+      "id": "line_12",
+      "text": "Mujhe tere classroom ke aage se jaana tha!",
+      "startTime": 73.92,
+      "endTime": 77.82,
+      "startFrame": 4435,
+      "endFrame": 4669,
+      "accentWords": [
+        "classroom"
+      ],
+      "words": [
+        {
+          "id": "w_12_01",
+          "text": "humne",
+          "startFrame": 4435,
+          "endFrame": 4464
+        },
+        {
+          "id": "w_12_02",
+          "text": "me",
+          "startFrame": 4464,
+          "endFrame": 4476
+        },
+        {
+          "id": "w_12_03",
+          "text": "yiks",
+          "startFrame": 4476,
+          "endFrame": 4508
+        },
+        {
+          "id": "w_12_04",
+          "text": "kumpaata",
+          "startFrame": 4508,
+          "endFrame": 4573
+        },
+        {
+          "id": "w_12_05",
+          "text": "तिक",
+          "startFrame": 4573,
+          "endFrame": 4598
+        },
+        {
+          "id": "w_12_06",
+          "text": "पार",
+          "startFrame": 4598,
+          "endFrame": 4624
+        },
+        {
+          "id": "w_12_07",
+          "text": "गलति",
+          "startFrame": 4624,
+          "endFrame": 4652
+        },
+        {
+          "id": "w_12_08",
+          "text": "से",
+          "startFrame": 4652,
+          "endFrame": 4669
+        }
+      ]
+    },
+    {
+      "id": "line_13",
+      "text": "Subah ki assembly mein lambi si line thi,",
+      "startTime": 77.82,
+      "endTime": 81.3,
+      "startFrame": 4669,
+      "endFrame": 4878,
+      "accentWords": [
+        "assembly"
+      ],
+      "words": [
+        {
+          "id": "w_13_01",
+          "text": "शान्के",
+          "startFrame": 4669,
+          "endFrame": 4694
+        },
+        {
+          "id": "w_13_02",
+          "text": "जो",
+          "startFrame": 4694,
+          "endFrame": 4710
+        },
+        {
+          "id": "w_13_03",
+          "text": "मिल्गें",
+          "startFrame": 4710,
+          "endFrame": 4750
+        },
+        {
+          "id": "w_13_04",
+          "text": "पूरिदन",
+          "startFrame": 4750,
+          "endFrame": 4788
+        },
+        {
+          "id": "w_13_05",
+          "text": "किता",
+          "startFrame": 4788,
+          "endFrame": 4814
+        },
+        {
+          "id": "w_13_06",
+          "text": "कन्षः",
+          "startFrame": 4814,
+          "endFrame": 4854
+        },
+        {
+          "id": "w_13_07",
+          "text": "के",
+          "startFrame": 4854,
+          "endFrame": 4867
+        },
+        {
+          "id": "w_13_08",
+          "text": "से",
+          "startFrame": 4867,
+          "endFrame": 4878
+        }
+      ]
+    },
+    {
+      "id": "line_14",
+      "text": "Dono ke beech bas do chaar deewarein thin.",
+      "startTime": 81.3,
+      "endTime": 87.16,
+      "startFrame": 4878,
+      "endFrame": 5230,
+      "accentWords": [
+        "deewarein"
+      ],
+      "words": [
+        {
+          "id": "w_14_01",
+          "text": "देल्गें",
+          "startFrame": 4878,
+          "endFrame": 4919
+        },
+        {
+          "id": "w_14_02",
+          "text": "तुवागे",
+          "startFrame": 4919,
+          "endFrame": 4963
+        },
+        {
+          "id": "w_14_03",
+          "text": "वालिरो",
+          "startFrame": 4963,
+          "endFrame": 4994
+        },
+        {
+          "id": "w_14_04",
+          "text": "मेपर्तिती",
+          "startFrame": 4994,
+          "endFrame": 5036
+        },
+        {
+          "id": "w_14_05",
+          "text": "अवमवशारा",
+          "startFrame": 5036,
+          "endFrame": 5106
+        },
+        {
+          "id": "w_14_06",
+          "text": "नहीवन्ज",
+          "startFrame": 5106,
+          "endFrame": 5159
+        },
+        {
+          "id": "w_14_07",
+          "text": "पेूर्ता",
+          "startFrame": 5159,
+          "endFrame": 5196
+        },
+        {
+          "id": "w_14_08",
+          "text": "नेराच",
+          "startFrame": 5196,
+          "endFrame": 5230
+        }
+      ]
+    },
+    {
+      "id": "line_15",
+      "text": "Prayer ke beech mein main gardan ghumata,",
+      "startTime": 87.16,
+      "endTime": 90.98,
+      "startFrame": 5230,
+      "endFrame": 5459,
+      "accentWords": [
+        "ghumata"
+      ],
+      "words": [
+        {
+          "id": "w_15_01",
+          "text": "असेस",
+          "startFrame": 5230,
+          "endFrame": 5291
+        },
+        {
+          "id": "w_15_02",
+          "text": "की",
+          "startFrame": 5291,
+          "endFrame": 5302
+        },
+        {
+          "id": "w_15_03",
+          "text": "बन्ति",
+          "startFrame": 5302,
+          "endFrame": 5333
+        },
+        {
+          "id": "w_15_04",
+          "text": "पेदपाग",
+          "startFrame": 5333,
+          "endFrame": 5392
+        },
+        {
+          "id": "w_15_05",
+          "text": "रहना",
+          "startFrame": 5392,
+          "endFrame": 5420
+        },
+        {
+          "id": "w_15_06",
+          "text": "भोस्तान",
+          "startFrame": 5420,
+          "endFrame": 5449
+        },
+        {
+          "id": "w_15_07",
+          "text": "से",
+          "startFrame": 5449,
+          "endFrame": 5459
+        }
+      ]
+    },
+    {
+      "id": "line_16",
+      "text": "Tujhe dhoondhne mein hi ik sukoon paata.",
+      "startTime": 90.98,
+      "endTime": 93.74,
+      "startFrame": 5459,
+      "endFrame": 5624,
+      "accentWords": [
+        "dhoondhne"
+      ],
+      "words": [
+        {
+          "id": "w_16_01",
+          "text": "जिपाके",
+          "startFrame": 5459,
+          "endFrame": 5490
+        },
+        {
+          "id": "w_16_02",
+          "text": "तिरा",
+          "startFrame": 5490,
+          "endFrame": 5513
+        },
+        {
+          "id": "w_16_03",
+          "text": "उग",
+          "startFrame": 5513,
+          "endFrame": 5530
+        },
+        {
+          "id": "w_16_04",
+          "text": "देगना",
+          "startFrame": 5530,
+          "endFrame": 5570
+        },
+        {
+          "id": "w_16_05",
+          "text": "بھی",
+          "startFrame": 5570,
+          "endFrame": 5588
+        },
+        {
+          "id": "w_16_06",
+          "text": "نہ",
+          "startFrame": 5588,
+          "endFrame": 5598
+        },
+        {
+          "id": "w_16_07",
+          "text": "بات",
+          "startFrame": 5598,
+          "endFrame": 5624
+        }
+      ]
+    },
+    {
+      "id": "line_17",
+      "text": "Ek baar galti se aankhein jo mil gayin,",
+      "startTime": 93.74,
+      "endTime": 98.56,
+      "startFrame": 5624,
+      "endFrame": 5914,
+      "accentWords": [
+        "aankhein"
+      ],
+      "words": [
+        {
+          "id": "w_17_01",
+          "text": "کے",
+          "startFrame": 5624,
+          "endFrame": 5638
+        },
+        {
+          "id": "w_17_02",
+          "text": "ہی",
+          "startFrame": 5638,
+          "endFrame": 5657
+        },
+        {
+          "id": "w_17_03",
+          "text": "دل",
+          "startFrame": 5657,
+          "endFrame": 5674
+        },
+        {
+          "id": "w_17_04",
+          "text": "دھڑھ",
+          "startFrame": 5674,
+          "endFrame": 5687
+        },
+        {
+          "id": "w_17_05",
+          "text": "کرنے",
+          "startFrame": 5687,
+          "endFrame": 5720
+        },
+        {
+          "id": "w_17_06",
+          "text": "لگتا",
+          "startFrame": 5720,
+          "endFrame": 5764
+        },
+        {
+          "id": "w_17_07",
+          "text": "تھا",
+          "startFrame": 5764,
+          "endFrame": 5814
+        },
+        {
+          "id": "w_17_08",
+          "text": "یہ",
+          "startFrame": 5878,
+          "endFrame": 5914
+        }
+      ]
+    },
+    {
+      "id": "line_18",
+      "text": "Puri din ki thakan chupke se dhal gayi.",
+      "startTime": 98.56,
+      "endTime": 105.82,
+      "startFrame": 5914,
+      "endFrame": 6349,
+      "accentWords": [
+        "thakan"
+      ],
+      "words": [
+        {
+          "id": "w_18_01",
+          "text": "مستم",
+          "startFrame": 5914,
+          "endFrame": 5960
+        },
+        {
+          "id": "w_18_02",
+          "text": "سلام",
+          "startFrame": 5960,
+          "endFrame": 5989
+        },
+        {
+          "id": "w_18_03",
+          "text": "ہا",
+          "startFrame": 5989,
+          "endFrame": 6014
+        },
+        {
+          "id": "w_18_04",
+          "text": "کیتنا",
+          "startFrame": 6014,
+          "endFrame": 6050
+        },
+        {
+          "id": "w_18_05",
+          "text": "سوحنا",
+          "startFrame": 6050,
+          "endFrame": 6094
+        },
+        {
+          "id": "w_18_06",
+          "text": "تھا",
+          "startFrame": 6094,
+          "endFrame": 6205
+        },
+        {
+          "id": "w_18_07",
+          "text": "بانی",
+          "startFrame": 6254,
+          "endFrame": 6311
+        },
+        {
+          "id": "w_18_08",
+          "text": "پینے",
+          "startFrame": 6311,
+          "endFrame": 6349
+        }
+      ]
+    },
+    {
+      "id": "line_19",
+      "text": "Tu aage waali row mein baithi thi khamosh,",
+      "startTime": 105.82,
+      "endTime": 111.08,
+      "startFrame": 6349,
+      "endFrame": 6665,
+      "accentWords": [
+        "khamosh"
+      ],
+      "words": [
+        {
+          "id": "w_19_01",
+          "text": "کا",
+          "startFrame": 6349,
+          "endFrame": 6361
+        },
+        {
+          "id": "w_19_02",
+          "text": "تو",
+          "startFrame": 6361,
+          "endFrame": 6384
+        },
+        {
+          "id": "w_19_03",
+          "text": "بسے",
+          "startFrame": 6384,
+          "endFrame": 6420
+        },
+        {
+          "id": "w_19_04",
+          "text": "کبہنا",
+          "startFrame": 6420,
+          "endFrame": 6474
+        },
+        {
+          "id": "w_19_05",
+          "text": "تھا",
+          "startFrame": 6474,
+          "endFrame": 6529
+        },
+        {
+          "id": "w_19_06",
+          "text": "مجھے",
+          "startFrame": 6578,
+          "endFrame": 6618
+        },
+        {
+          "id": "w_19_07",
+          "text": "تے",
+          "startFrame": 6618,
+          "endFrame": 6635
+        },
+        {
+          "id": "w_19_08",
+          "text": "رکھا",
+          "startFrame": 6635,
+          "endFrame": 6665
+        }
+      ]
+    },
+    {
+      "id": "line_20",
+      "text": "Aur aakhri bench pe udta mera hosh!",
+      "startTime": 111.08,
+      "endTime": 127.82,
+      "startFrame": 6665,
+      "endFrame": 7669,
+      "accentWords": [
+        "aakhri"
+      ],
+      "words": [
+        {
+          "id": "w_20_01",
+          "text": "سروں",
+          "startFrame": 6665,
+          "endFrame": 6710
+        },
+        {
+          "id": "w_20_02",
+          "text": "کے",
+          "startFrame": 6710,
+          "endFrame": 6732
+        },
+        {
+          "id": "w_20_03",
+          "text": "آگے",
+          "startFrame": 6732,
+          "endFrame": 6769
+        },
+        {
+          "id": "w_20_04",
+          "text": "سے",
+          "startFrame": 6769,
+          "endFrame": 6781
+        },
+        {
+          "id": "w_20_05",
+          "text": "جانا",
+          "startFrame": 6781,
+          "endFrame": 6820
+        },
+        {
+          "id": "w_20_06",
+          "text": "تھا",
+          "startFrame": 6820,
+          "endFrame": 6875
+        },
+        {
+          "id": "w_20_07",
+          "text": "अगदन",
+          "startFrame": 7626,
+          "endFrame": 7669
+        }
+      ]
+    },
+    {
+      "id": "line_21",
+      "text": "Recess ki ghanti pe dabba kholna,",
+      "startTime": 127.82,
+      "endTime": 130.34,
+      "startFrame": 7669,
+      "endFrame": 7820,
+      "accentWords": [
+        "Recess"
+      ],
+      "words": [
+        {
+          "id": "w_21_01",
+          "text": "जो",
+          "startFrame": 7669,
+          "endFrame": 7688
+        },
+        {
+          "id": "w_21_02",
+          "text": "मांगी",
+          "startFrame": 7688,
+          "endFrame": 7736
+        },
+        {
+          "id": "w_21_03",
+          "text": "ती",
+          "startFrame": 7736,
+          "endFrame": 7751
+        },
+        {
+          "id": "w_21_04",
+          "text": "तूने",
+          "startFrame": 7751,
+          "endFrame": 7782
+        },
+        {
+          "id": "w_21_05",
+          "text": "वो",
+          "startFrame": 7782,
+          "endFrame": 7801
+        },
+        {
+          "id": "w_21_06",
+          "text": "पेन",
+          "startFrame": 7801,
+          "endFrame": 7820
+        }
+      ]
+    },
+    {
+      "id": "line_22",
+      "text": "Doston se chhipaa ke tera rukh dekhna.",
+      "startTime": 130.34,
+      "endTime": 134.36,
+      "startFrame": 7820,
+      "endFrame": 8062,
+      "accentWords": [
+        "chhipaa"
+      ],
+      "words": [
+        {
+          "id": "w_22_01",
+          "text": "से",
+          "startFrame": 7820,
+          "endFrame": 7843
+        },
+        {
+          "id": "w_22_02",
+          "text": "नए",
+          "startFrame": 7843,
+          "endFrame": 7939
+        },
+        {
+          "id": "w_22_03",
+          "text": "जल",
+          "startFrame": 7939,
+          "endFrame": 7988
+        },
+        {
+          "id": "w_22_04",
+          "text": "के",
+          "startFrame": 7988,
+          "endFrame": 8004
+        },
+        {
+          "id": "w_22_05",
+          "text": "गी",
+          "startFrame": 8004,
+          "endFrame": 8016
+        },
+        {
+          "id": "w_22_06",
+          "text": "मैं",
+          "startFrame": 8016,
+          "endFrame": 8045
+        },
+        {
+          "id": "w_22_07",
+          "text": "गे",
+          "startFrame": 8045,
+          "endFrame": 8062
+        }
+      ]
+    },
+    {
+      "id": "line_23",
+      "text": "Bina baat ke hi dil dhadakne lagta tha,",
+      "startTime": 134.36,
+      "endTime": 139.28,
+      "startFrame": 8062,
+      "endFrame": 8357,
+      "accentWords": [
+        "dhadakne"
+      ],
+      "words": [
+        {
+          "id": "w_23_01",
+          "text": "ती",
+          "startFrame": 8062,
+          "endFrame": 8074
+        },
+        {
+          "id": "w_23_02",
+          "text": "नी",
+          "startFrame": 8074,
+          "endFrame": 8089
+        },
+        {
+          "id": "w_23_03",
+          "text": "मशकिल",
+          "startFrame": 8089,
+          "endFrame": 8137
+        },
+        {
+          "id": "w_23_04",
+          "text": "से",
+          "startFrame": 8137,
+          "endFrame": 8227
+        },
+        {
+          "id": "w_23_05",
+          "text": "वो",
+          "startFrame": 8227,
+          "endFrame": 8288
+        },
+        {
+          "id": "w_23_06",
+          "text": "सने",
+          "startFrame": 8288,
+          "endFrame": 8314
+        },
+        {
+          "id": "w_23_07",
+          "text": "से",
+          "startFrame": 8314,
+          "endFrame": 8338
+        },
+        {
+          "id": "w_23_08",
+          "text": "शिव",
+          "startFrame": 8338,
+          "endFrame": 8357
+        }
+      ]
+    },
+    {
+      "id": "line_24",
+      "text": "Yeh masoom sa lamha kitna suhaana tha.",
+      "startTime": 139.28,
+      "endTime": 173.08,
+      "startFrame": 8357,
+      "endFrame": 10385,
+      "accentWords": [
+        "suhaana"
+      ],
+      "words": [
+        {
+          "id": "w_24_01",
+          "text": "कर",
+          "startFrame": 8357,
+          "endFrame": 8369
+        },
+        {
+          "id": "w_24_02",
+          "text": "पे",
+          "startFrame": 8369,
+          "endFrame": 8389
+        },
+        {
+          "id": "w_24_03",
+          "text": "जो",
+          "startFrame": 8389,
+          "endFrame": 8407
+        },
+        {
+          "id": "w_24_04",
+          "text": "ते",
+          "startFrame": 8407,
+          "endFrame": 8424
+        },
+        {
+          "id": "w_24_05",
+          "text": "डालम",
+          "startFrame": 8424,
+          "endFrame": 8461
+        },
+        {
+          "id": "w_24_06",
+          "text": "सता",
+          "startFrame": 8461,
+          "endFrame": 8526
+        },
+        {
+          "id": "w_24_07",
+          "text": "Phurani",
+          "startFrame": 10326,
+          "endFrame": 10385
+        }
+      ]
+    },
+    {
+      "id": "line_25",
+      "text": "Paani peene ka toh bas ek bahaana tha,",
+      "startTime": 173.08,
+      "endTime": 176.0,
+      "startFrame": 10385,
+      "endFrame": 10560,
+      "accentWords": [
+        "bahaana"
+      ],
+      "words": [
+        {
+          "id": "w_25_01",
+          "text": "Yoni",
+          "startFrame": 10385,
+          "endFrame": 10404
+        },
+        {
+          "id": "w_25_02",
+          "text": "Phun",
+          "startFrame": 10404,
+          "endFrame": 10420
+        },
+        {
+          "id": "w_25_03",
+          "text": "Ki",
+          "startFrame": 10420,
+          "endFrame": 10429
+        },
+        {
+          "id": "w_25_04",
+          "text": "Jebum",
+          "startFrame": 10429,
+          "endFrame": 10466
+        },
+        {
+          "id": "w_25_05",
+          "text": "Ajay",
+          "startFrame": 10466,
+          "endFrame": 10496
+        },
+        {
+          "id": "w_25_06",
+          "text": "Bhik",
+          "startFrame": 10496,
+          "endFrame": 10514
+        },
+        {
+          "id": "w_25_07",
+          "text": "Te",
+          "startFrame": 10514,
+          "endFrame": 10536
+        },
+        {
+          "id": "w_25_08",
+          "text": "Raghiri",
+          "startFrame": 10536,
+          "endFrame": 10560
+        }
+      ]
+    },
+    {
+      "id": "line_26",
+      "text": "Mujhe tere classroom ke aage se jaana tha!",
+      "startTime": 176.0,
+      "endTime": 182.1,
+      "startFrame": 10560,
+      "endFrame": 10926,
+      "accentWords": [
+        "classroom"
+      ],
+      "words": [
+        {
+          "id": "w_26_01",
+          "text": "Rai",
+          "startFrame": 10560,
+          "endFrame": 10577
+        },
+        {
+          "id": "w_26_02",
+          "text": "Rezar",
+          "startFrame": 10577,
+          "endFrame": 10601
+        },
+        {
+          "id": "w_26_03",
+          "text": "Meh",
+          "startFrame": 10601,
+          "endFrame": 10610
+        },
+        {
+          "id": "w_26_04",
+          "text": "Fuz",
+          "startFrame": 10610,
+          "endFrame": 10644
+        },
+        {
+          "id": "w_26_05",
+          "text": "Hekahi",
+          "startFrame": 10644,
+          "endFrame": 10712
+        },
+        {
+          "id": "w_26_06",
+          "text": "Meh",
+          "startFrame": 10806,
+          "endFrame": 10841
+        },
+        {
+          "id": "w_26_07",
+          "text": "Fuz",
+          "startFrame": 10841,
+          "endFrame": 10889
+        },
+        {
+          "id": "w_26_08",
+          "text": "Hekahi",
+          "startFrame": 10889,
+          "endFrame": 10926
+        }
+      ]
+    },
+    {
+      "id": "line_27",
+      "text": "Ik din jo maangi thi tune woh pencil,",
+      "startTime": 182.62,
+      "endTime": 188.82,
+      "startFrame": 10957,
+      "endFrame": 11329,
+      "accentWords": [
+        "maangi"
+      ],
+      "words": [
+        {
+          "id": "w_27_01",
+          "text": "Ho",
+          "startFrame": 10957,
+          "endFrame": 10984
+        },
+        {
+          "id": "w_27_02",
+          "text": "Vaj",
+          "startFrame": 10984,
+          "endFrame": 10999
+        },
+        {
+          "id": "w_27_03",
+          "text": "Panami",
+          "startFrame": 10999,
+          "endFrame": 11047
+        },
+        {
+          "id": "w_27_04",
+          "text": "Ke",
+          "startFrame": 11106,
+          "endFrame": 11148
+        },
+        {
+          "id": "w_27_05",
+          "text": "Katana",
+          "startFrame": 11148,
+          "endFrame": 11179
+        },
+        {
+          "id": "w_27_06",
+          "text": "Ji",
+          "startFrame": 11179,
+          "endFrame": 11208
+        },
+        {
+          "id": "w_27_07",
+          "text": "Bhutan",
+          "startFrame": 11208,
+          "endFrame": 11237
+        },
+        {
+          "id": "w_27_08",
+          "text": "Jitana",
+          "startFrame": 11286,
+          "endFrame": 11329
+        }
+      ]
+    },
+    {
+      "id": "line_28",
+      "text": "Aadhi chhil ke di maine kitni mushkil se.",
+      "startTime": 188.82,
+      "endTime": 195.56,
+      "startFrame": 11329,
+      "endFrame": 11734,
+      "accentWords": [
+        "mushkil"
+      ],
+      "words": [
+        {
+          "id": "w_28_01",
+          "text": "Dur",
+          "startFrame": 11329,
+          "endFrame": 11348
+        },
+        {
+          "id": "w_28_02",
+          "text": "Tato",
+          "startFrame": 11348,
+          "endFrame": 11382
+        },
+        {
+          "id": "w_28_03",
+          "text": "Utna",
+          "startFrame": 11382,
+          "endFrame": 11478
+        },
+        {
+          "id": "w_28_04",
+          "text": "Kari",
+          "startFrame": 11478,
+          "endFrame": 11504
+        },
+        {
+          "id": "w_28_05",
+          "text": "Bhutan",
+          "startFrame": 11504,
+          "endFrame": 11551
+        },
+        {
+          "id": "w_28_06",
+          "text": "Do",
+          "startFrame": 11586,
+          "endFrame": 11656
+        },
+        {
+          "id": "w_28_07",
+          "text": "Benji",
+          "startFrame": 11656,
+          "endFrame": 11696
+        },
+        {
+          "id": "w_28_08",
+          "text": "Age",
+          "startFrame": 11696,
+          "endFrame": 11734
+        }
+      ]
+    },
+    {
+      "id": "line_29",
+      "text": "Uss naye se shikhar pe jo tera lams tha,",
+      "startTime": 195.56,
+      "endTime": 202.46,
+      "startFrame": 11734,
+      "endFrame": 12148,
+      "accentWords": [
+        "shikhar"
+      ],
+      "words": [
+        {
+          "id": "w_29_01",
+          "text": "Uwa",
+          "startFrame": 11734,
+          "endFrame": 11783
+        },
+        {
+          "id": "w_29_02",
+          "text": "Khiri",
+          "startFrame": 11783,
+          "endFrame": 11816
+        },
+        {
+          "id": "w_29_03",
+          "text": "Benji",
+          "startFrame": 11816,
+          "endFrame": 11850
+        },
+        {
+          "id": "w_29_04",
+          "text": "Peme",
+          "startFrame": 11850,
+          "endFrame": 11888
+        },
+        {
+          "id": "w_29_05",
+          "text": "கרیدور",
+          "startFrame": 11888,
+          "endFrame": 12017
+        },
+        {
+          "id": "w_29_06",
+          "text": "کے",
+          "startFrame": 12017,
+          "endFrame": 12036
+        },
+        {
+          "id": "w_29_07",
+          "text": "مورت",
+          "startFrame": 12036,
+          "endFrame": 12089
+        },
+        {
+          "id": "w_29_08",
+          "text": "پر",
+          "startFrame": 12089,
+          "endFrame": 12110
+        },
+        {
+          "id": "w_29_09",
+          "text": "حلد",
+          "startFrame": 12110,
+          "endFrame": 12148
+        }
+      ]
+    },
+    {
+      "id": "line_30",
+      "text": "Jaise mere hisse ka sabse bada jashn tha.",
+      "startTime": 202.46,
+      "endTime": 209.8,
+      "startFrame": 12148,
+      "endFrame": 12588,
+      "accentWords": [
+        "Jaise"
+      ],
+      "words": [
+        {
+          "id": "w_30_01",
+          "text": "پرا",
+          "startFrame": 12148,
+          "endFrame": 12179
+        },
+        {
+          "id": "w_30_02",
+          "text": "ہچین",
+          "startFrame": 12179,
+          "endFrame": 12298
+        },
+        {
+          "id": "w_30_03",
+          "text": "بانی",
+          "startFrame": 12298,
+          "endFrame": 12419
+        },
+        {
+          "id": "w_30_04",
+          "text": "پینے",
+          "startFrame": 12419,
+          "endFrame": 12457
+        },
+        {
+          "id": "w_30_05",
+          "text": "کا",
+          "startFrame": 12457,
+          "endFrame": 12468
+        },
+        {
+          "id": "w_30_06",
+          "text": "تو",
+          "startFrame": 12468,
+          "endFrame": 12493
+        },
+        {
+          "id": "w_30_07",
+          "text": "بسےک",
+          "startFrame": 12493,
+          "endFrame": 12538
+        },
+        {
+          "id": "w_30_08",
+          "text": "بانا",
+          "startFrame": 12538,
+          "endFrame": 12588
+        }
+      ]
+    },
+    {
+      "id": "line_31",
+      "text": "Blackboard pe teacher ke uljhe sawaal,",
+      "startTime": 209.8,
+      "endTime": 144.0,
+      "startFrame": 12588,
+      "endFrame": 8640,
+      "accentWords": [
+        "Blackboard"
+      ],
+      "words": [
+        {
+          "id": "w_31_01",
+          "text": "تھا",
+          "startFrame": 12588,
+          "endFrame": 12629
+        },
+        {
+          "id": "w_31_02",
+          "text": "Tú",
+          "startFrame": 12629,
+          "endFrame": 12711
+        },
+        {
+          "id": "w_31_03",
+          "text": "je",
+          "startFrame": 12711,
+          "endFrame": 12722
+        },
+        {
+          "id": "w_31_04",
+          "text": "dh",
+          "startFrame": 12722,
+          "endFrame": 12735
+        },
+        {
+          "id": "w_31_05",
+          "text": "quantumut",
+          "startFrame": 12735,
+          "endFrame": 12940
+        },
+        {
+          "id": "w_31_06",
+          "text": "تlerin",
+          "startFrame": 14434,
+          "endFrame": 14518
+        }
+      ]
+    },
+    {
+      "id": "line_32",
+      "text": "Par khayaalon mein bas tera hi khayaal.",
+      "startTime": 144.0,
+      "endTime": 146.8,
+      "startFrame": 8640,
+      "endFrame": 8808,
+      "accentWords": [
+        "khayaalon"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_33",
+      "text": "Science ke period mein khwaabon ko bunte,",
+      "startTime": 148.0,
+      "endTime": 150.8,
+      "startFrame": 8880,
+      "endFrame": 9048,
+      "accentWords": [
+        "khwaabon"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_34",
+      "text": "Dhadkan mein hum bas teri baat sunte.",
+      "startTime": 152.0,
+      "endTime": 154.8,
+      "startFrame": 9120,
+      "endFrame": 9288,
+      "accentWords": [
+        "Dhadkan"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_35",
+      "text": "Chhutti ki ghanti baji, bag utha liya,",
+      "startTime": 156.0,
+      "endTime": 158.8,
+      "startFrame": 9360,
+      "endFrame": 9528,
+      "accentWords": [
+        "Chhutti"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_36",
+      "text": "Cycle ke stand pe tujhko phir pa liya.",
+      "startTime": 160.0,
+      "endTime": 163.2,
+      "startFrame": 9600,
+      "endFrame": 9792,
+      "accentWords": [
+        "tujhko"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_37",
+      "text": "Na kabhi himmat hui keh sakoon do lafz,",
+      "startTime": 168.0,
+      "endTime": 171.2,
+      "startFrame": 10080,
+      "endFrame": 10272,
+      "accentWords": [
+        "himmat"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_38",
+      "text": "Na kabhi tu samajh paayi mera yeh marz.",
+      "startTime": 172.0,
+      "endTime": 175.2,
+      "startFrame": 10320,
+      "endFrame": 10512,
+      "accentWords": [
+        "samajh"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_39",
+      "text": "Purani uniform ki jeb mein aaj bhi,",
+      "startTime": 176.0,
+      "endTime": 178.8,
+      "startFrame": 10560,
+      "endFrame": 10728,
+      "accentWords": [
+        "uniform"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_40",
+      "text": "Tera gira eraser mehfooz hai kahin...",
+      "startTime": 180.0,
+      "endTime": 182.5,
+      "startFrame": 10800,
+      "endFrame": 10950,
+      "accentWords": [
+        "mehfooz"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_41",
+      "text": "Haan mehfooz hai kahin!",
+      "startTime": 184.0,
+      "endTime": 186.5,
+      "startFrame": 11040,
+      "endFrame": 11190,
+      "accentWords": [
+        "mehfooz"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_42",
+      "text": "Woh bachpana bhi kitna ajeeb tha,",
+      "startTime": 188.0,
+      "endTime": 190.5,
+      "startFrame": 11280,
+      "endFrame": 11430,
+      "accentWords": [
+        "bachpana"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_43",
+      "text": "Jitna door tha tu, utna kareeb tha.",
+      "startTime": 192.0,
+      "endTime": 194.8,
+      "startFrame": 11520,
+      "endFrame": 11688,
+      "accentWords": [
+        "kareeb"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_44",
+      "text": "Do bench aage tu... aakhri bench pe main...",
+      "startTime": 200.0,
+      "endTime": 203.2,
+      "startFrame": 12000,
+      "endFrame": 12192,
+      "accentWords": [
+        "aakhri"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_45",
+      "text": "Corridor ke mod pe dhoondhta raha chain...",
+      "startTime": 204.0,
+      "endTime": 206.8,
+      "startFrame": 12240,
+      "endFrame": 12408,
+      "accentWords": [
+        "dhoondhta"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_46",
+      "text": "Paani peene ka toh bas ek bahaana tha...",
+      "startTime": 208.0,
+      "endTime": 211.2,
+      "startFrame": 12480,
+      "endFrame": 12672,
+      "accentWords": [
+        "bahaana"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_47",
+      "text": "Tujhe door se bas ek baar dekh aana tha...",
+      "startTime": 212.0,
+      "endTime": 215.6,
+      "startFrame": 12720,
+      "endFrame": 12936,
+      "accentWords": [
+        "Tujhe"
+      ],
+      "words": []
+    },
+    {
+      "id": "line_48",
+      "text": "(Soft acoustic guitar decay, distant ringing bell, gentle corridor fade out)",
+      "startTime": 216.0,
+      "endTime": 220.4,
+      "startFrame": 12960,
+      "endFrame": 13224,
+      "accentWords": [
+        "acoustic"
+      ],
+      "words": []
+    }
+  ]
+}

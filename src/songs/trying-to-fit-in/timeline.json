@@ -1,0 +1,2653 @@
+{
+  "songTitle": "Trying to Fit In (Rehearsals in the Mirror)",
+  "audioFile": "audio/trying_to_fit_in.mp3",
+  "theme": "SongCoverArtwork",
+  "fps": 60,
+  "totalFrames": 13988,
+  "coverImage": "covers/trying_to_fit_in_clean_16x9.png",
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "Rehearsals in the Mirror",
+      "sectionTag": "01 // INTRO  •  THE QUIET REHEARSAL",
+      "startFrame": 0,
+      "endFrame": 660,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Warm fingerpicked acoustic guitar • Practicing expressions in front of the mirror",
+      "lines": []
+    },
+    {
+      "id": "scene_02_verse_1_a",
+      "name": "Two Beats Late & Cold Cup",
+      "sectionTag": "02 // VERSE 1  •  THE CORNER CAFE",
+      "startFrame": 660,
+      "endFrame": 1386,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Laughing two beats late • Checking reflection in a cold paper cup",
+      "lines": [
+        {
+          "id": "line_02_01",
+          "text": "Laughing two beats late at jokes I barely understand,",
+          "words": [
+            {
+              "id": "w_02_0001",
+              "text": "Laughing",
+              "startFrame": 670,
+              "endFrame": 718,
+              "accent": false
+            },
+            {
+              "id": "w_02_0002",
+              "text": "two",
+              "startFrame": 718,
+              "endFrame": 732,
+              "accent": false
+            },
+            {
+              "id": "w_02_0003",
+              "text": "beats",
+              "startFrame": 732,
+              "endFrame": 746,
+              "accent": false
+            },
+            {
+              "id": "w_02_0004",
+              "text": "late",
+              "startFrame": 746,
+              "endFrame": 774,
+              "accent": false
+            },
+            {
+              "id": "w_02_0005",
+              "text": "at",
+              "startFrame": 805,
+              "endFrame": 818,
+              "accent": false
+            },
+            {
+              "id": "w_02_0006",
+              "text": "jokes",
+              "startFrame": 818,
+              "endFrame": 851,
+              "accent": true
+            },
+            {
+              "id": "w_02_0007",
+              "text": "I",
+              "startFrame": 851,
+              "endFrame": 869,
+              "accent": false
+            },
+            {
+              "id": "w_02_0008",
+              "text": "barely",
+              "startFrame": 869,
+              "endFrame": 892,
+              "accent": false
+            },
+            {
+              "id": "w_02_0009",
+              "text": "understand,",
+              "startFrame": 892,
+              "endFrame": 937,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_02",
+          "text": "Checking my reflection with a cold cup in my hand.",
+          "words": [
+            {
+              "id": "w_02_0010",
+              "text": "Checking",
+              "startFrame": 1058,
+              "endFrame": 1106,
+              "accent": false
+            },
+            {
+              "id": "w_02_0011",
+              "text": "my",
+              "startFrame": 1106,
+              "endFrame": 1116,
+              "accent": false
+            },
+            {
+              "id": "w_02_0012",
+              "text": "reflection",
+              "startFrame": 1116,
+              "endFrame": 1160,
+              "accent": true
+            },
+            {
+              "id": "w_02_0013",
+              "text": "with",
+              "startFrame": 1160,
+              "endFrame": 1198,
+              "accent": false
+            },
+            {
+              "id": "w_02_0014",
+              "text": "a",
+              "startFrame": 1198,
+              "endFrame": 1211,
+              "accent": false
+            },
+            {
+              "id": "w_02_0015",
+              "text": "cold",
+              "startFrame": 1211,
+              "endFrame": 1235,
+              "accent": false
+            },
+            {
+              "id": "w_02_0016",
+              "text": "cup",
+              "startFrame": 1235,
+              "endFrame": 1256,
+              "accent": false
+            },
+            {
+              "id": "w_02_0017",
+              "text": "in",
+              "startFrame": 1256,
+              "endFrame": 1278,
+              "accent": false
+            },
+            {
+              "id": "w_02_0018",
+              "text": "my",
+              "startFrame": 1278,
+              "endFrame": 1298,
+              "accent": false
+            },
+            {
+              "id": "w_02_0019",
+              "text": "hand.",
+              "startFrame": 1298,
+              "endFrame": 1361,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_verse_1_b",
+      "name": "Bitter Drink & Walking Confident",
+      "sectionTag": "03 // VERSE 1  •  THE ENTRANCE",
+      "startFrame": 1386,
+      "endFrame": 2118,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Ordering bitter coffee to look mature • Walking in pretending to be sure",
+      "lines": [
+        {
+          "id": "line_03_01",
+          "text": "Ordering the bitter drink because it looks mature,",
+          "words": [
+            {
+              "id": "w_03_0020",
+              "text": "Ordering",
+              "startFrame": 1396,
+              "endFrame": 1446,
+              "accent": false
+            },
+            {
+              "id": "w_03_0021",
+              "text": "the",
+              "startFrame": 1446,
+              "endFrame": 1453,
+              "accent": false
+            },
+            {
+              "id": "w_03_0022",
+              "text": "bitter",
+              "startFrame": 1453,
+              "endFrame": 1465,
+              "accent": false
+            },
+            {
+              "id": "w_03_0023",
+              "text": "drink",
+              "startFrame": 1465,
+              "endFrame": 1477,
+              "accent": false
+            },
+            {
+              "id": "w_03_0024",
+              "text": "because",
+              "startFrame": 1477,
+              "endFrame": 1504,
+              "accent": false
+            },
+            {
+              "id": "w_03_0025",
+              "text": "it",
+              "startFrame": 1534,
+              "endFrame": 1582,
+              "accent": false
+            },
+            {
+              "id": "w_03_0026",
+              "text": "looks",
+              "startFrame": 1582,
+              "endFrame": 1594,
+              "accent": false
+            },
+            {
+              "id": "w_03_0027",
+              "text": "mature,",
+              "startFrame": 1594,
+              "endFrame": 1660,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_03_02",
+          "text": "Walking in the room like I was confident and sure.",
+          "words": [
+            {
+              "id": "w_03_0028",
+              "text": "Walking",
+              "startFrame": 1739,
+              "endFrame": 1802,
+              "accent": false
+            },
+            {
+              "id": "w_03_0029",
+              "text": "in",
+              "startFrame": 1802,
+              "endFrame": 1818,
+              "accent": false
+            },
+            {
+              "id": "w_03_0030",
+              "text": "the",
+              "startFrame": 1818,
+              "endFrame": 1829,
+              "accent": false
+            },
+            {
+              "id": "w_03_0031",
+              "text": "room",
+              "startFrame": 1829,
+              "endFrame": 1846,
+              "accent": false
+            },
+            {
+              "id": "w_03_0032",
+              "text": "like",
+              "startFrame": 1846,
+              "endFrame": 1871,
+              "accent": false
+            },
+            {
+              "id": "w_03_0033",
+              "text": "I",
+              "startFrame": 1871,
+              "endFrame": 1897,
+              "accent": false
+            },
+            {
+              "id": "w_03_0034",
+              "text": "was",
+              "startFrame": 1897,
+              "endFrame": 1937,
+              "accent": false
+            },
+            {
+              "id": "w_03_0035",
+              "text": "confident",
+              "startFrame": 1937,
+              "endFrame": 2010,
+              "accent": true
+            },
+            {
+              "id": "w_03_0036",
+              "text": "and",
+              "startFrame": 2010,
+              "endFrame": 2045,
+              "accent": false
+            },
+            {
+              "id": "w_03_0037",
+              "text": "sure.",
+              "startFrame": 2045,
+              "endFrame": 2083,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_04_prechorus_1",
+      "name": "Rear-View Mirror & Hallway Door",
+      "sectionTag": "04 // PRE-CHORUS  •  THE PLAYLIST",
+      "startFrame": 2118,
+      "endFrame": 3552,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Practicing hello in the mirror • Staring at the phone screen in the hallway",
+      "lines": [
+        {
+          "id": "line_04_01",
+          "text": "Practicing my hello in the rear-view mirror twice,",
+          "words": [
+            {
+              "id": "w_04_0038",
+              "text": "Practicing",
+              "startFrame": 2130,
+              "endFrame": 2197,
+              "accent": false
+            },
+            {
+              "id": "w_04_0039",
+              "text": "my",
+              "startFrame": 2197,
+              "endFrame": 2227,
+              "accent": false
+            },
+            {
+              "id": "w_04_0040",
+              "text": "hello",
+              "startFrame": 2227,
+              "endFrame": 2270,
+              "accent": false
+            },
+            {
+              "id": "w_04_0041",
+              "text": "in",
+              "startFrame": 2270,
+              "endFrame": 2318,
+              "accent": false
+            },
+            {
+              "id": "w_04_0042",
+              "text": "the",
+              "startFrame": 2318,
+              "endFrame": 2329,
+              "accent": false
+            },
+            {
+              "id": "w_04_0043",
+              "text": "rear-view",
+              "startFrame": 2329,
+              "endFrame": 2358,
+              "accent": false
+            },
+            {
+              "id": "w_04_0044",
+              "text": "mirror",
+              "startFrame": 2358,
+              "endFrame": 2400,
+              "accent": true
+            },
+            {
+              "id": "w_04_0045",
+              "text": "twice,",
+              "startFrame": 2400,
+              "endFrame": 2459,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_02",
+          "text": "Memorizing playlist tracks to seem easy and nice.",
+          "words": [
+            {
+              "id": "w_04_0046",
+              "text": "Memorizing",
+              "startFrame": 2459,
+              "endFrame": 2546,
+              "accent": false
+            },
+            {
+              "id": "w_04_0047",
+              "text": "playlist",
+              "startFrame": 2546,
+              "endFrame": 2593,
+              "accent": true
+            },
+            {
+              "id": "w_04_0048",
+              "text": "tracks",
+              "startFrame": 2593,
+              "endFrame": 2642,
+              "accent": false
+            },
+            {
+              "id": "w_04_0049",
+              "text": "to",
+              "startFrame": 2642,
+              "endFrame": 2669,
+              "accent": false
+            },
+            {
+              "id": "w_04_0050",
+              "text": "seem",
+              "startFrame": 2669,
+              "endFrame": 2694,
+              "accent": false
+            },
+            {
+              "id": "w_04_0051",
+              "text": "easy",
+              "startFrame": 2694,
+              "endFrame": 2758,
+              "accent": false
+            },
+            {
+              "id": "w_04_0052",
+              "text": "and",
+              "startFrame": 2758,
+              "endFrame": 2786,
+              "accent": false
+            },
+            {
+              "id": "w_04_0053",
+              "text": "nice.",
+              "startFrame": 2786,
+              "endFrame": 2834,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_03",
+          "text": "Standing by the hallway door, staring at my screen,",
+          "words": [
+            {
+              "id": "w_04_0054",
+              "text": "Standing",
+              "startFrame": 2834,
+              "endFrame": 2870,
+              "accent": false
+            },
+            {
+              "id": "w_04_0055",
+              "text": "by",
+              "startFrame": 2870,
+              "endFrame": 2888,
+              "accent": false
+            },
+            {
+              "id": "w_04_0056",
+              "text": "the",
+              "startFrame": 2888,
+              "endFrame": 2902,
+              "accent": false
+            },
+            {
+              "id": "w_04_0057",
+              "text": "hallway",
+              "startFrame": 2902,
+              "endFrame": 2933,
+              "accent": false
+            },
+            {
+              "id": "w_04_0058",
+              "text": "door,",
+              "startFrame": 2933,
+              "endFrame": 2965,
+              "accent": false
+            },
+            {
+              "id": "w_04_0059",
+              "text": "staring",
+              "startFrame": 2992,
+              "endFrame": 3012,
+              "accent": false
+            },
+            {
+              "id": "w_04_0060",
+              "text": "at",
+              "startFrame": 3012,
+              "endFrame": 3030,
+              "accent": false
+            },
+            {
+              "id": "w_04_0061",
+              "text": "my",
+              "startFrame": 3030,
+              "endFrame": 3042,
+              "accent": false
+            },
+            {
+              "id": "w_04_0062",
+              "text": "screen,",
+              "startFrame": 3042,
+              "endFrame": 3104,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_04_04",
+          "text": "Terrified they'll see the boy behind the magazine.",
+          "words": [
+            {
+              "id": "w_04_0063",
+              "text": "Terrified",
+              "startFrame": 3104,
+              "endFrame": 3175,
+              "accent": true
+            },
+            {
+              "id": "w_04_0064",
+              "text": "they'll",
+              "startFrame": 3175,
+              "endFrame": 3208,
+              "accent": false
+            },
+            {
+              "id": "w_04_0065",
+              "text": "see",
+              "startFrame": 3208,
+              "endFrame": 3226,
+              "accent": false
+            },
+            {
+              "id": "w_04_0066",
+              "text": "the",
+              "startFrame": 3226,
+              "endFrame": 3240,
+              "accent": false
+            },
+            {
+              "id": "w_04_0067",
+              "text": "boy",
+              "startFrame": 3240,
+              "endFrame": 3253,
+              "accent": false
+            },
+            {
+              "id": "w_04_0068",
+              "text": "behind",
+              "startFrame": 3253,
+              "endFrame": 3293,
+              "accent": false
+            },
+            {
+              "id": "w_04_0069",
+              "text": "the",
+              "startFrame": 3293,
+              "endFrame": 3308,
+              "accent": false
+            },
+            {
+              "id": "w_04_0070",
+              "text": "magazine.",
+              "startFrame": 3308,
+              "endFrame": 3353,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_chorus_1",
+      "name": "Trying So Hard Just to Fit In",
+      "sectionTag": "05 // CHORUS  •  FITTING IN",
+      "startFrame": 3552,
+      "endFrame": 5490,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Trading every honest piece of who I've been • Laughing right on cue",
+      "lines": [
+        {
+          "id": "line_05_01",
+          "text": "I’ve been trying so hard to fit in,",
+          "words": [
+            {
+              "id": "w_05_0071",
+              "text": "I’ve",
+              "startFrame": 3571,
+              "endFrame": 3617,
+              "accent": false
+            },
+            {
+              "id": "w_05_0072",
+              "text": "been",
+              "startFrame": 3617,
+              "endFrame": 3624,
+              "accent": false
+            },
+            {
+              "id": "w_05_0073",
+              "text": "trying",
+              "startFrame": 3624,
+              "endFrame": 3659,
+              "accent": true
+            },
+            {
+              "id": "w_05_0074",
+              "text": "so",
+              "startFrame": 3659,
+              "endFrame": 3682,
+              "accent": false
+            },
+            {
+              "id": "w_05_0075",
+              "text": "hard",
+              "startFrame": 3682,
+              "endFrame": 3704,
+              "accent": false
+            },
+            {
+              "id": "w_05_0076",
+              "text": "to",
+              "startFrame": 3704,
+              "endFrame": 3714,
+              "accent": false
+            },
+            {
+              "id": "w_05_0077",
+              "text": "fit",
+              "startFrame": 3714,
+              "endFrame": 3739,
+              "accent": false
+            },
+            {
+              "id": "w_05_0078",
+              "text": "in,",
+              "startFrame": 3739,
+              "endFrame": 3773,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_02",
+          "text": "Trading every honest piece of who I’ve been.",
+          "words": [
+            {
+              "id": "w_05_0079",
+              "text": "Trading",
+              "startFrame": 3901,
+              "endFrame": 3947,
+              "accent": false
+            },
+            {
+              "id": "w_05_0080",
+              "text": "every",
+              "startFrame": 3947,
+              "endFrame": 3974,
+              "accent": false
+            },
+            {
+              "id": "w_05_0081",
+              "text": "honest",
+              "startFrame": 3974,
+              "endFrame": 4001,
+              "accent": true
+            },
+            {
+              "id": "w_05_0082",
+              "text": "piece",
+              "startFrame": 4001,
+              "endFrame": 4021,
+              "accent": false
+            },
+            {
+              "id": "w_05_0083",
+              "text": "of",
+              "startFrame": 4021,
+              "endFrame": 4052,
+              "accent": false
+            },
+            {
+              "id": "w_05_0084",
+              "text": "who",
+              "startFrame": 4052,
+              "endFrame": 4069,
+              "accent": false
+            },
+            {
+              "id": "w_05_0085",
+              "text": "I’ve",
+              "startFrame": 4069,
+              "endFrame": 4140,
+              "accent": false
+            },
+            {
+              "id": "w_05_0086",
+              "text": "been.",
+              "startFrame": 4140,
+              "endFrame": 4162,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_03",
+          "text": "Nodding at the things they say, laughing right on cue,",
+          "words": [
+            {
+              "id": "w_05_0087",
+              "text": "Nodding",
+              "startFrame": 4218,
+              "endFrame": 4264,
+              "accent": false
+            },
+            {
+              "id": "w_05_0088",
+              "text": "at",
+              "startFrame": 4264,
+              "endFrame": 4280,
+              "accent": false
+            },
+            {
+              "id": "w_05_0089",
+              "text": "the",
+              "startFrame": 4280,
+              "endFrame": 4295,
+              "accent": false
+            },
+            {
+              "id": "w_05_0090",
+              "text": "things",
+              "startFrame": 4295,
+              "endFrame": 4313,
+              "accent": false
+            },
+            {
+              "id": "w_05_0091",
+              "text": "they",
+              "startFrame": 4313,
+              "endFrame": 4337,
+              "accent": false
+            },
+            {
+              "id": "w_05_0092",
+              "text": "say,",
+              "startFrame": 4337,
+              "endFrame": 4380,
+              "accent": false
+            },
+            {
+              "id": "w_05_0093",
+              "text": "laughing",
+              "startFrame": 4380,
+              "endFrame": 4386,
+              "accent": true
+            },
+            {
+              "id": "w_05_0094",
+              "text": "right",
+              "startFrame": 4386,
+              "endFrame": 4392,
+              "accent": false
+            },
+            {
+              "id": "w_05_0095",
+              "text": "on",
+              "startFrame": 4392,
+              "endFrame": 4398,
+              "accent": false
+            },
+            {
+              "id": "w_05_0096",
+              "text": "cue,",
+              "startFrame": 4398,
+              "endFrame": 4404,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_04",
+          "text": "Tell me, if I let it slip—would they want me too?",
+          "words": [
+            {
+              "id": "w_05_0097",
+              "text": "Tell",
+              "startFrame": 4498,
+              "endFrame": 4541,
+              "accent": false
+            },
+            {
+              "id": "w_05_0098",
+              "text": "me,",
+              "startFrame": 4541,
+              "endFrame": 4554,
+              "accent": false
+            },
+            {
+              "id": "w_05_0099",
+              "text": "if",
+              "startFrame": 4554,
+              "endFrame": 4570,
+              "accent": false
+            },
+            {
+              "id": "w_05_0100",
+              "text": "I",
+              "startFrame": 4570,
+              "endFrame": 4586,
+              "accent": false
+            },
+            {
+              "id": "w_05_0101",
+              "text": "let",
+              "startFrame": 4586,
+              "endFrame": 4598,
+              "accent": false
+            },
+            {
+              "id": "w_05_0102",
+              "text": "it",
+              "startFrame": 4598,
+              "endFrame": 4632,
+              "accent": false
+            },
+            {
+              "id": "w_05_0103",
+              "text": "slip—would",
+              "startFrame": 4632,
+              "endFrame": 4656,
+              "accent": false
+            },
+            {
+              "id": "w_05_0104",
+              "text": "they",
+              "startFrame": 4656,
+              "endFrame": 4670,
+              "accent": false
+            },
+            {
+              "id": "w_05_0105",
+              "text": "want",
+              "startFrame": 4670,
+              "endFrame": 4687,
+              "accent": false
+            },
+            {
+              "id": "w_05_0106",
+              "text": "me",
+              "startFrame": 4687,
+              "endFrame": 4708,
+              "accent": false
+            },
+            {
+              "id": "w_05_0107",
+              "text": "too?",
+              "startFrame": 4708,
+              "endFrame": 4730,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_05",
+          "text": "Yeah, trying so hard just to fit in...",
+          "words": [
+            {
+              "id": "w_05_0108",
+              "text": "Yeah,",
+              "startFrame": 4730,
+              "endFrame": 4754,
+              "accent": false
+            },
+            {
+              "id": "w_05_0109",
+              "text": "trying",
+              "startFrame": 4766,
+              "endFrame": 4793,
+              "accent": false
+            },
+            {
+              "id": "w_05_0110",
+              "text": "so",
+              "startFrame": 4793,
+              "endFrame": 4822,
+              "accent": false
+            },
+            {
+              "id": "w_05_0111",
+              "text": "hard",
+              "startFrame": 4822,
+              "endFrame": 4871,
+              "accent": false
+            },
+            {
+              "id": "w_05_0112",
+              "text": "just",
+              "startFrame": 4871,
+              "endFrame": 4961,
+              "accent": false
+            },
+            {
+              "id": "w_05_0113",
+              "text": "to",
+              "startFrame": 4961,
+              "endFrame": 4984,
+              "accent": false
+            },
+            {
+              "id": "w_05_0114",
+              "text": "fit",
+              "startFrame": 4984,
+              "endFrame": 5008,
+              "accent": true
+            },
+            {
+              "id": "w_05_0115",
+              "text": "in...",
+              "startFrame": 5008,
+              "endFrame": 5075,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_06",
+          "text": "Trying so hard just to fit in.",
+          "words": [
+            {
+              "id": "w_05_0116",
+              "text": "Trying",
+              "startFrame": 5075,
+              "endFrame": 5149,
+              "accent": false
+            },
+            {
+              "id": "w_05_0117",
+              "text": "so",
+              "startFrame": 5149,
+              "endFrame": 5191,
+              "accent": false
+            },
+            {
+              "id": "w_05_0118",
+              "text": "hard",
+              "startFrame": 5191,
+              "endFrame": 5272,
+              "accent": false
+            },
+            {
+              "id": "w_05_0119",
+              "text": "just",
+              "startFrame": 5272,
+              "endFrame": 5339,
+              "accent": false
+            },
+            {
+              "id": "w_05_0120",
+              "text": "to",
+              "startFrame": 5339,
+              "endFrame": 5354,
+              "accent": false
+            },
+            {
+              "id": "w_05_0121",
+              "text": "fit",
+              "startFrame": 5354,
+              "endFrame": 5383,
+              "accent": true
+            },
+            {
+              "id": "w_05_0122",
+              "text": "in.",
+              "startFrame": 5383,
+              "endFrame": 5490,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_verse_2",
+      "name": "Untying Sneakers & Quiet Bedroom",
+      "sectionTag": "06 // VERSE 2  •  SAFE AT HOME",
+      "startFrame": 5490,
+      "endFrame": 6828,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Locking the door and letting the smile drop • Silence feels like breathing",
+      "lines": [
+        {
+          "id": "line_06_01",
+          "text": "Untying my sneakers as I finally lock the door,",
+          "words": [
+            {
+              "id": "w_06_0123",
+              "text": "Untying",
+              "startFrame": 5492,
+              "endFrame": 5567,
+              "accent": false
+            },
+            {
+              "id": "w_06_0124",
+              "text": "my",
+              "startFrame": 5567,
+              "endFrame": 5587,
+              "accent": false
+            },
+            {
+              "id": "w_06_0125",
+              "text": "sneakers",
+              "startFrame": 5587,
+              "endFrame": 5627,
+              "accent": true
+            },
+            {
+              "id": "w_06_0126",
+              "text": "as",
+              "startFrame": 5627,
+              "endFrame": 5660,
+              "accent": false
+            },
+            {
+              "id": "w_06_0127",
+              "text": "I",
+              "startFrame": 5660,
+              "endFrame": 5668,
+              "accent": false
+            },
+            {
+              "id": "w_06_0128",
+              "text": "finally",
+              "startFrame": 5668,
+              "endFrame": 5710,
+              "accent": false
+            },
+            {
+              "id": "w_06_0129",
+              "text": "lock",
+              "startFrame": 5710,
+              "endFrame": 5740,
+              "accent": false
+            },
+            {
+              "id": "w_06_0130",
+              "text": "the",
+              "startFrame": 5740,
+              "endFrame": 5765,
+              "accent": false
+            },
+            {
+              "id": "w_06_0131",
+              "text": "door,",
+              "startFrame": 5765,
+              "endFrame": 5814,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_06_02",
+          "text": "Letting all the practiced smiles crumble to the floor.",
+          "words": [
+            {
+              "id": "w_06_0132",
+              "text": "Letting",
+              "startFrame": 5870,
+              "endFrame": 5900,
+              "accent": false
+            },
+            {
+              "id": "w_06_0133",
+              "text": "all",
+              "startFrame": 5900,
+              "endFrame": 5911,
+              "accent": false
+            },
+            {
+              "id": "w_06_0134",
+              "text": "the",
+              "startFrame": 5911,
+              "endFrame": 5920,
+              "accent": false
+            },
+            {
+              "id": "w_06_0135",
+              "text": "practiced",
+              "startFrame": 5920,
+              "endFrame": 5950,
+              "accent": false
+            },
+            {
+              "id": "w_06_0136",
+              "text": "smiles",
+              "startFrame": 5950,
+              "endFrame": 6013,
+              "accent": false
+            },
+            {
+              "id": "w_06_0137",
+              "text": "crumble",
+              "startFrame": 6013,
+              "endFrame": 6074,
+              "accent": true
+            },
+            {
+              "id": "w_06_0138",
+              "text": "to",
+              "startFrame": 6074,
+              "endFrame": 6107,
+              "accent": false
+            },
+            {
+              "id": "w_06_0139",
+              "text": "the",
+              "startFrame": 6107,
+              "endFrame": 6131,
+              "accent": false
+            },
+            {
+              "id": "w_06_0140",
+              "text": "floor.",
+              "startFrame": 6131,
+              "endFrame": 6190,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_06_03",
+          "text": "Silence in my bedroom feels like breathing for the first time,",
+          "words": [
+            {
+              "id": "w_06_0141",
+              "text": "Silence",
+              "startFrame": 6230,
+              "endFrame": 6262,
+              "accent": false
+            },
+            {
+              "id": "w_06_0142",
+              "text": "in",
+              "startFrame": 6262,
+              "endFrame": 6280,
+              "accent": false
+            },
+            {
+              "id": "w_06_0143",
+              "text": "my",
+              "startFrame": 6280,
+              "endFrame": 6292,
+              "accent": false
+            },
+            {
+              "id": "w_06_0144",
+              "text": "bedroom",
+              "startFrame": 6292,
+              "endFrame": 6311,
+              "accent": false
+            },
+            {
+              "id": "w_06_0145",
+              "text": "feels",
+              "startFrame": 6311,
+              "endFrame": 6328,
+              "accent": false
+            },
+            {
+              "id": "w_06_0146",
+              "text": "like",
+              "startFrame": 6328,
+              "endFrame": 6340,
+              "accent": false
+            },
+            {
+              "id": "w_06_0147",
+              "text": "breathing",
+              "startFrame": 6340,
+              "endFrame": 6367,
+              "accent": true
+            },
+            {
+              "id": "w_06_0148",
+              "text": "for",
+              "startFrame": 6367,
+              "endFrame": 6395,
+              "accent": false
+            },
+            {
+              "id": "w_06_0149",
+              "text": "the",
+              "startFrame": 6395,
+              "endFrame": 6408,
+              "accent": false
+            },
+            {
+              "id": "w_06_0150",
+              "text": "first",
+              "startFrame": 6408,
+              "endFrame": 6439,
+              "accent": false
+            },
+            {
+              "id": "w_06_0151",
+              "text": "time,",
+              "startFrame": 6439,
+              "endFrame": 6480,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_06_04",
+          "text": "No lines to remember, no awkward hill to climb.",
+          "words": [
+            {
+              "id": "w_06_0152",
+              "text": "No",
+              "startFrame": 6480,
+              "endFrame": 6514,
+              "accent": false
+            },
+            {
+              "id": "w_06_0153",
+              "text": "lines",
+              "startFrame": 6514,
+              "endFrame": 6552,
+              "accent": false
+            },
+            {
+              "id": "w_06_0154",
+              "text": "to",
+              "startFrame": 6552,
+              "endFrame": 6581,
+              "accent": false
+            },
+            {
+              "id": "w_06_0155",
+              "text": "remember,",
+              "startFrame": 6581,
+              "endFrame": 6643,
+              "accent": true
+            },
+            {
+              "id": "w_06_0156",
+              "text": "no",
+              "startFrame": 6655,
+              "endFrame": 6689,
+              "accent": false
+            },
+            {
+              "id": "w_06_0157",
+              "text": "awkward",
+              "startFrame": 6689,
+              "endFrame": 6727,
+              "accent": false
+            },
+            {
+              "id": "w_06_0158",
+              "text": "hill",
+              "startFrame": 6727,
+              "endFrame": 6778,
+              "accent": false
+            },
+            {
+              "id": "w_06_0159",
+              "text": "to",
+              "startFrame": 6778,
+              "endFrame": 6812,
+              "accent": false
+            },
+            {
+              "id": "w_06_0160",
+              "text": "climb.",
+              "startFrame": 6812,
+              "endFrame": 6818,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_07_prechorus_2",
+      "name": "Shaking Hands & Did It Work Tonight",
+      "sectionTag": "07 // PRE-CHORUS 2  •  THE QUESTION",
+      "startFrame": 6828,
+      "endFrame": 7488,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Wondering if hands were shaking • Or if the version of me did its job",
+      "lines": [
+        {
+          "id": "line_07_01",
+          "text": "I wonder if they noticed that my hands were shaking slight,",
+          "words": [
+            {
+              "id": "w_07_0161",
+              "text": "I",
+              "startFrame": 6828,
+              "endFrame": 6890,
+              "accent": false
+            },
+            {
+              "id": "w_07_0162",
+              "text": "wonder",
+              "startFrame": 6890,
+              "endFrame": 6912,
+              "accent": false
+            },
+            {
+              "id": "w_07_0163",
+              "text": "if",
+              "startFrame": 6912,
+              "endFrame": 6931,
+              "accent": false
+            },
+            {
+              "id": "w_07_0164",
+              "text": "they",
+              "startFrame": 6931,
+              "endFrame": 6938,
+              "accent": false
+            },
+            {
+              "id": "w_07_0165",
+              "text": "noticed",
+              "startFrame": 6938,
+              "endFrame": 6959,
+              "accent": false
+            },
+            {
+              "id": "w_07_0166",
+              "text": "that",
+              "startFrame": 6959,
+              "endFrame": 6976,
+              "accent": false
+            },
+            {
+              "id": "w_07_0167",
+              "text": "my",
+              "startFrame": 6976,
+              "endFrame": 6988,
+              "accent": false
+            },
+            {
+              "id": "w_07_0168",
+              "text": "hands",
+              "startFrame": 6988,
+              "endFrame": 7007,
+              "accent": false
+            },
+            {
+              "id": "w_07_0169",
+              "text": "were",
+              "startFrame": 7007,
+              "endFrame": 7018,
+              "accent": false
+            },
+            {
+              "id": "w_07_0170",
+              "text": "shaking",
+              "startFrame": 7018,
+              "endFrame": 7054,
+              "accent": true
+            },
+            {
+              "id": "w_07_0171",
+              "text": "slight,",
+              "startFrame": 7054,
+              "endFrame": 7060,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_02",
+          "text": "Or if the version of me did its job tonight.",
+          "words": [
+            {
+              "id": "w_07_0172",
+              "text": "Or",
+              "startFrame": 7054,
+              "endFrame": 7097,
+              "accent": false
+            },
+            {
+              "id": "w_07_0173",
+              "text": "if",
+              "startFrame": 7097,
+              "endFrame": 7128,
+              "accent": false
+            },
+            {
+              "id": "w_07_0174",
+              "text": "the",
+              "startFrame": 7128,
+              "endFrame": 7241,
+              "accent": false
+            },
+            {
+              "id": "w_07_0175",
+              "text": "version",
+              "startFrame": 7241,
+              "endFrame": 7253,
+              "accent": true
+            },
+            {
+              "id": "w_07_0176",
+              "text": "of",
+              "startFrame": 7253,
+              "endFrame": 7262,
+              "accent": false
+            },
+            {
+              "id": "w_07_0177",
+              "text": "me",
+              "startFrame": 7262,
+              "endFrame": 7292,
+              "accent": false
+            },
+            {
+              "id": "w_07_0178",
+              "text": "did",
+              "startFrame": 7292,
+              "endFrame": 7325,
+              "accent": false
+            },
+            {
+              "id": "w_07_0179",
+              "text": "its",
+              "startFrame": 7325,
+              "endFrame": 7348,
+              "accent": false
+            },
+            {
+              "id": "w_07_0180",
+              "text": "job",
+              "startFrame": 7348,
+              "endFrame": 7372,
+              "accent": false
+            },
+            {
+              "id": "w_07_0181",
+              "text": "tonight.",
+              "startFrame": 7372,
+              "endFrame": 7459,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_08_chorus_2",
+      "name": "Chorus Reprise • The Cost of Fitting In",
+      "sectionTag": "08 // CHORUS 2  •  THE CYCLE",
+      "startFrame": 7488,
+      "endFrame": 9432,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Trading every honest piece • If I let it slip, would they want me?",
+      "lines": [
+        {
+          "id": "line_08_01",
+          "text": "I’ve been trying so hard to fit in,",
+          "words": [
+            {
+              "id": "w_08_0182",
+              "text": "I’ve",
+              "startFrame": 7500,
+              "endFrame": 7514,
+              "accent": false
+            },
+            {
+              "id": "w_08_0183",
+              "text": "been",
+              "startFrame": 7514,
+              "endFrame": 7523,
+              "accent": false
+            },
+            {
+              "id": "w_08_0184",
+              "text": "trying",
+              "startFrame": 7523,
+              "endFrame": 7554,
+              "accent": true
+            },
+            {
+              "id": "w_08_0185",
+              "text": "so",
+              "startFrame": 7554,
+              "endFrame": 7577,
+              "accent": false
+            },
+            {
+              "id": "w_08_0186",
+              "text": "hard",
+              "startFrame": 7577,
+              "endFrame": 7601,
+              "accent": false
+            },
+            {
+              "id": "w_08_0187",
+              "text": "to",
+              "startFrame": 7601,
+              "endFrame": 7613,
+              "accent": false
+            },
+            {
+              "id": "w_08_0188",
+              "text": "fit",
+              "startFrame": 7613,
+              "endFrame": 7640,
+              "accent": false
+            },
+            {
+              "id": "w_08_0189",
+              "text": "in,",
+              "startFrame": 7640,
+              "endFrame": 7667,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_02",
+          "text": "Trading every honest piece of who I’ve been.",
+          "words": [
+            {
+              "id": "w_08_0190",
+              "text": "Trading",
+              "startFrame": 7789,
+              "endFrame": 7844,
+              "accent": false
+            },
+            {
+              "id": "w_08_0191",
+              "text": "every",
+              "startFrame": 7844,
+              "endFrame": 7871,
+              "accent": false
+            },
+            {
+              "id": "w_08_0192",
+              "text": "honest",
+              "startFrame": 7871,
+              "endFrame": 7898,
+              "accent": true
+            },
+            {
+              "id": "w_08_0193",
+              "text": "piece",
+              "startFrame": 7898,
+              "endFrame": 7919,
+              "accent": false
+            },
+            {
+              "id": "w_08_0194",
+              "text": "of",
+              "startFrame": 7919,
+              "endFrame": 7956,
+              "accent": false
+            },
+            {
+              "id": "w_08_0195",
+              "text": "who",
+              "startFrame": 7956,
+              "endFrame": 7966,
+              "accent": false
+            },
+            {
+              "id": "w_08_0196",
+              "text": "I’ve",
+              "startFrame": 7966,
+              "endFrame": 8036,
+              "accent": false
+            },
+            {
+              "id": "w_08_0197",
+              "text": "been.",
+              "startFrame": 8036,
+              "endFrame": 8062,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_03",
+          "text": "Nodding at the things they say, laughing right on cue,",
+          "words": [
+            {
+              "id": "w_08_0198",
+              "text": "Nodding",
+              "startFrame": 8116,
+              "endFrame": 8161,
+              "accent": false
+            },
+            {
+              "id": "w_08_0199",
+              "text": "at",
+              "startFrame": 8161,
+              "endFrame": 8179,
+              "accent": false
+            },
+            {
+              "id": "w_08_0200",
+              "text": "the",
+              "startFrame": 8179,
+              "endFrame": 8192,
+              "accent": false
+            },
+            {
+              "id": "w_08_0201",
+              "text": "things",
+              "startFrame": 8192,
+              "endFrame": 8215,
+              "accent": false
+            },
+            {
+              "id": "w_08_0202",
+              "text": "they",
+              "startFrame": 8215,
+              "endFrame": 8231,
+              "accent": false
+            },
+            {
+              "id": "w_08_0203",
+              "text": "say,",
+              "startFrame": 8231,
+              "endFrame": 8254,
+              "accent": false
+            },
+            {
+              "id": "w_08_0204",
+              "text": "laughing",
+              "startFrame": 8254,
+              "endFrame": 8260,
+              "accent": true
+            },
+            {
+              "id": "w_08_0205",
+              "text": "right",
+              "startFrame": 8260,
+              "endFrame": 8266,
+              "accent": false
+            },
+            {
+              "id": "w_08_0206",
+              "text": "on",
+              "startFrame": 8266,
+              "endFrame": 8272,
+              "accent": false
+            },
+            {
+              "id": "w_08_0207",
+              "text": "cue,",
+              "startFrame": 8272,
+              "endFrame": 8278,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_04",
+          "text": "Tell me, if I let it slip—would they want me too?",
+          "words": [
+            {
+              "id": "w_08_0208",
+              "text": "Tell",
+              "startFrame": 8396,
+              "endFrame": 8440,
+              "accent": false
+            },
+            {
+              "id": "w_08_0209",
+              "text": "me,",
+              "startFrame": 8440,
+              "endFrame": 8453,
+              "accent": false
+            },
+            {
+              "id": "w_08_0210",
+              "text": "if",
+              "startFrame": 8453,
+              "endFrame": 8467,
+              "accent": false
+            },
+            {
+              "id": "w_08_0211",
+              "text": "I",
+              "startFrame": 8467,
+              "endFrame": 8483,
+              "accent": false
+            },
+            {
+              "id": "w_08_0212",
+              "text": "let",
+              "startFrame": 8483,
+              "endFrame": 8491,
+              "accent": false
+            },
+            {
+              "id": "w_08_0213",
+              "text": "it",
+              "startFrame": 8491,
+              "endFrame": 8506,
+              "accent": false
+            },
+            {
+              "id": "w_08_0214",
+              "text": "slip—would",
+              "startFrame": 8506,
+              "endFrame": 8551,
+              "accent": false
+            },
+            {
+              "id": "w_08_0215",
+              "text": "they",
+              "startFrame": 8551,
+              "endFrame": 8567,
+              "accent": false
+            },
+            {
+              "id": "w_08_0216",
+              "text": "want",
+              "startFrame": 8567,
+              "endFrame": 8584,
+              "accent": false
+            },
+            {
+              "id": "w_08_0217",
+              "text": "me",
+              "startFrame": 8584,
+              "endFrame": 8605,
+              "accent": false
+            },
+            {
+              "id": "w_08_0218",
+              "text": "too?",
+              "startFrame": 8605,
+              "endFrame": 8628,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_05",
+          "text": "Yeah, trying so hard just to fit in...",
+          "words": [
+            {
+              "id": "w_08_0219",
+              "text": "Yeah,",
+              "startFrame": 8628,
+              "endFrame": 8654,
+              "accent": false
+            },
+            {
+              "id": "w_08_0220",
+              "text": "trying",
+              "startFrame": 8666,
+              "endFrame": 8686,
+              "accent": false
+            },
+            {
+              "id": "w_08_0221",
+              "text": "so",
+              "startFrame": 8686,
+              "endFrame": 8720,
+              "accent": false
+            },
+            {
+              "id": "w_08_0222",
+              "text": "hard",
+              "startFrame": 8720,
+              "endFrame": 8819,
+              "accent": false
+            },
+            {
+              "id": "w_08_0223",
+              "text": "just",
+              "startFrame": 8819,
+              "endFrame": 8861,
+              "accent": false
+            },
+            {
+              "id": "w_08_0224",
+              "text": "to",
+              "startFrame": 8861,
+              "endFrame": 8881,
+              "accent": false
+            },
+            {
+              "id": "w_08_0225",
+              "text": "fit",
+              "startFrame": 8881,
+              "endFrame": 8908,
+              "accent": true
+            },
+            {
+              "id": "w_08_0226",
+              "text": "in...",
+              "startFrame": 8908,
+              "endFrame": 8975,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_06",
+          "text": "Trying so hard just to fit in.",
+          "words": [
+            {
+              "id": "w_08_0227",
+              "text": "Trying",
+              "startFrame": 8975,
+              "endFrame": 9050,
+              "accent": false
+            },
+            {
+              "id": "w_08_0228",
+              "text": "so",
+              "startFrame": 9050,
+              "endFrame": 9091,
+              "accent": false
+            },
+            {
+              "id": "w_08_0229",
+              "text": "hard",
+              "startFrame": 9091,
+              "endFrame": 9161,
+              "accent": false
+            },
+            {
+              "id": "w_08_0230",
+              "text": "just",
+              "startFrame": 9161,
+              "endFrame": 9229,
+              "accent": false
+            },
+            {
+              "id": "w_08_0231",
+              "text": "to",
+              "startFrame": 9229,
+              "endFrame": 9254,
+              "accent": false
+            },
+            {
+              "id": "w_08_0232",
+              "text": "fit",
+              "startFrame": 9254,
+              "endFrame": 9288,
+              "accent": true
+            },
+            {
+              "id": "w_08_0233",
+              "text": "in.",
+              "startFrame": 9288,
+              "endFrame": 9432,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_09_bridge",
+      "name": "A Seat at Every Table",
+      "sectionTag": "09 // BRIDGE  •  THE BREAKTHROUGH",
+      "startFrame": 9432,
+      "endFrame": 10920,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "What if I stopped running for a seat? • Is it love if it's the costume they choose?",
+      "lines": [
+        {
+          "id": "line_09_01",
+          "text": "What if I stopped running for a seat at every table?",
+          "words": [
+            {
+              "id": "w_09_0234",
+              "text": "What",
+              "startFrame": 9442,
+              "endFrame": 9463,
+              "accent": false
+            },
+            {
+              "id": "w_09_0235",
+              "text": "if",
+              "startFrame": 9463,
+              "endFrame": 9523,
+              "accent": false
+            },
+            {
+              "id": "w_09_0236",
+              "text": "I",
+              "startFrame": 9523,
+              "endFrame": 9538,
+              "accent": false
+            },
+            {
+              "id": "w_09_0237",
+              "text": "stopped",
+              "startFrame": 9538,
+              "endFrame": 9557,
+              "accent": false
+            },
+            {
+              "id": "w_09_0238",
+              "text": "running",
+              "startFrame": 9557,
+              "endFrame": 9565,
+              "accent": true
+            },
+            {
+              "id": "w_09_0239",
+              "text": "for",
+              "startFrame": 9565,
+              "endFrame": 9577,
+              "accent": false
+            },
+            {
+              "id": "w_09_0240",
+              "text": "a",
+              "startFrame": 9577,
+              "endFrame": 9592,
+              "accent": false
+            },
+            {
+              "id": "w_09_0241",
+              "text": "seat",
+              "startFrame": 9592,
+              "endFrame": 9602,
+              "accent": false
+            },
+            {
+              "id": "w_09_0242",
+              "text": "at",
+              "startFrame": 9602,
+              "endFrame": 9625,
+              "accent": false
+            },
+            {
+              "id": "w_09_0243",
+              "text": "every",
+              "startFrame": 9625,
+              "endFrame": 9636,
+              "accent": false
+            },
+            {
+              "id": "w_09_0244",
+              "text": "table?",
+              "startFrame": 9636,
+              "endFrame": 9724,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_02",
+          "text": "What if I stopped pretending that I’m always strong and able?",
+          "words": [
+            {
+              "id": "w_09_0245",
+              "text": "What",
+              "startFrame": 9724,
+              "endFrame": 9845,
+              "accent": false
+            },
+            {
+              "id": "w_09_0246",
+              "text": "if",
+              "startFrame": 9845,
+              "endFrame": 9862,
+              "accent": false
+            },
+            {
+              "id": "w_09_0247",
+              "text": "I",
+              "startFrame": 9862,
+              "endFrame": 9878,
+              "accent": false
+            },
+            {
+              "id": "w_09_0248",
+              "text": "stopped",
+              "startFrame": 9878,
+              "endFrame": 9899,
+              "accent": false
+            },
+            {
+              "id": "w_09_0249",
+              "text": "pretending",
+              "startFrame": 9899,
+              "endFrame": 9930,
+              "accent": true
+            },
+            {
+              "id": "w_09_0250",
+              "text": "that",
+              "startFrame": 9930,
+              "endFrame": 9949,
+              "accent": false
+            },
+            {
+              "id": "w_09_0251",
+              "text": "I’m",
+              "startFrame": 9949,
+              "endFrame": 9968,
+              "accent": false
+            },
+            {
+              "id": "w_09_0252",
+              "text": "always",
+              "startFrame": 9968,
+              "endFrame": 10002,
+              "accent": false
+            },
+            {
+              "id": "w_09_0253",
+              "text": "strong",
+              "startFrame": 10002,
+              "endFrame": 10042,
+              "accent": false
+            },
+            {
+              "id": "w_09_0254",
+              "text": "and",
+              "startFrame": 10042,
+              "endFrame": 10081,
+              "accent": false
+            },
+            {
+              "id": "w_09_0255",
+              "text": "able?",
+              "startFrame": 10081,
+              "endFrame": 10121,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_03",
+          "text": "If I show up ordinary, quiet, slightly bruised...",
+          "words": [
+            {
+              "id": "w_09_0256",
+              "text": "If",
+              "startFrame": 10121,
+              "endFrame": 10183,
+              "accent": false
+            },
+            {
+              "id": "w_09_0257",
+              "text": "I",
+              "startFrame": 10183,
+              "endFrame": 10193,
+              "accent": false
+            },
+            {
+              "id": "w_09_0258",
+              "text": "show",
+              "startFrame": 10193,
+              "endFrame": 10216,
+              "accent": false
+            },
+            {
+              "id": "w_09_0259",
+              "text": "up",
+              "startFrame": 10216,
+              "endFrame": 10261,
+              "accent": false
+            },
+            {
+              "id": "w_09_0260",
+              "text": "ordinary,",
+              "startFrame": 10261,
+              "endFrame": 10306,
+              "accent": false
+            },
+            {
+              "id": "w_09_0261",
+              "text": "quiet,",
+              "startFrame": 10306,
+              "endFrame": 10390,
+              "accent": false
+            },
+            {
+              "id": "w_09_0262",
+              "text": "slightly",
+              "startFrame": 10390,
+              "endFrame": 10442,
+              "accent": false
+            },
+            {
+              "id": "w_09_0263",
+              "text": "bruised...",
+              "startFrame": 10442,
+              "endFrame": 10532,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_09_04",
+          "text": "Is it really love if it’s the costume that they choose?",
+          "words": [
+            {
+              "id": "w_09_0264",
+              "text": "Is",
+              "startFrame": 10532,
+              "endFrame": 10542,
+              "accent": false
+            },
+            {
+              "id": "w_09_0265",
+              "text": "it",
+              "startFrame": 10542,
+              "endFrame": 10555,
+              "accent": false
+            },
+            {
+              "id": "w_09_0266",
+              "text": "really",
+              "startFrame": 10555,
+              "endFrame": 10584,
+              "accent": false
+            },
+            {
+              "id": "w_09_0267",
+              "text": "love",
+              "startFrame": 10584,
+              "endFrame": 10619,
+              "accent": false
+            },
+            {
+              "id": "w_09_0268",
+              "text": "if",
+              "startFrame": 10619,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_09_0269",
+              "text": "it’s",
+              "startFrame": 10651,
+              "endFrame": 10668,
+              "accent": false
+            },
+            {
+              "id": "w_09_0270",
+              "text": "the",
+              "startFrame": 10668,
+              "endFrame": 10678,
+              "accent": false
+            },
+            {
+              "id": "w_09_0271",
+              "text": "costume",
+              "startFrame": 10678,
+              "endFrame": 10724,
+              "accent": true
+            },
+            {
+              "id": "w_09_0272",
+              "text": "that",
+              "startFrame": 10724,
+              "endFrame": 10764,
+              "accent": false
+            },
+            {
+              "id": "w_09_0273",
+              "text": "they",
+              "startFrame": 10764,
+              "endFrame": 10794,
+              "accent": false
+            },
+            {
+              "id": "w_09_0274",
+              "text": "choose?",
+              "startFrame": 10794,
+              "endFrame": 10872,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_10_final_chorus",
+      "name": "No More Trying • Choosing Myself",
+      "sectionTag": "10 // CLIMAX  •  NO MORE TRYING",
+      "startFrame": 10920,
+      "endFrame": 12468,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Picking up the pieces beneath my skin • Without a hidden clause",
+      "lines": [
+        {
+          "id": "line_10_01",
+          "text": "No more trying so hard to fit in,",
+          "words": [
+            {
+              "id": "w_10_0275",
+              "text": "No",
+              "startFrame": 10924,
+              "endFrame": 10950,
+              "accent": false
+            },
+            {
+              "id": "w_10_0276",
+              "text": "more",
+              "startFrame": 10950,
+              "endFrame": 10970,
+              "accent": false
+            },
+            {
+              "id": "w_10_0277",
+              "text": "trying",
+              "startFrame": 10970,
+              "endFrame": 10999,
+              "accent": true
+            },
+            {
+              "id": "w_10_0278",
+              "text": "so",
+              "startFrame": 10999,
+              "endFrame": 11021,
+              "accent": false
+            },
+            {
+              "id": "w_10_0279",
+              "text": "hard",
+              "startFrame": 11021,
+              "endFrame": 11046,
+              "accent": false
+            },
+            {
+              "id": "w_10_0280",
+              "text": "to",
+              "startFrame": 11046,
+              "endFrame": 11054,
+              "accent": false
+            },
+            {
+              "id": "w_10_0281",
+              "text": "fit",
+              "startFrame": 11054,
+              "endFrame": 11086,
+              "accent": false
+            },
+            {
+              "id": "w_10_0282",
+              "text": "in,",
+              "startFrame": 11086,
+              "endFrame": 11164,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_10_02",
+          "text": "I’m picking up the pieces from beneath my skin.",
+          "words": [
+            {
+              "id": "w_10_0283",
+              "text": "I’m",
+              "startFrame": 11224,
+              "endFrame": 11257,
+              "accent": false
+            },
+            {
+              "id": "w_10_0284",
+              "text": "picking",
+              "startFrame": 11257,
+              "endFrame": 11285,
+              "accent": false
+            },
+            {
+              "id": "w_10_0285",
+              "text": "up",
+              "startFrame": 11285,
+              "endFrame": 11304,
+              "accent": false
+            },
+            {
+              "id": "w_10_0286",
+              "text": "the",
+              "startFrame": 11304,
+              "endFrame": 11311,
+              "accent": false
+            },
+            {
+              "id": "w_10_0287",
+              "text": "pieces",
+              "startFrame": 11311,
+              "endFrame": 11334,
+              "accent": true
+            },
+            {
+              "id": "w_10_0288",
+              "text": "from",
+              "startFrame": 11334,
+              "endFrame": 11366,
+              "accent": false
+            },
+            {
+              "id": "w_10_0289",
+              "text": "beneath",
+              "startFrame": 11366,
+              "endFrame": 11413,
+              "accent": false
+            },
+            {
+              "id": "w_10_0290",
+              "text": "my",
+              "startFrame": 11413,
+              "endFrame": 11444,
+              "accent": false
+            },
+            {
+              "id": "w_10_0291",
+              "text": "skin.",
+              "startFrame": 11444,
+              "endFrame": 11549,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_10_03",
+          "text": "I don't need the spotlight or a chorus of applause,",
+          "words": [
+            {
+              "id": "w_10_0292",
+              "text": "I",
+              "startFrame": 11584,
+              "endFrame": 11606,
+              "accent": false
+            },
+            {
+              "id": "w_10_0293",
+              "text": "don't",
+              "startFrame": 11606,
+              "endFrame": 11621,
+              "accent": false
+            },
+            {
+              "id": "w_10_0294",
+              "text": "need",
+              "startFrame": 11621,
+              "endFrame": 11629,
+              "accent": false
+            },
+            {
+              "id": "w_10_0295",
+              "text": "the",
+              "startFrame": 11629,
+              "endFrame": 11639,
+              "accent": false
+            },
+            {
+              "id": "w_10_0296",
+              "text": "spotlight",
+              "startFrame": 11639,
+              "endFrame": 11671,
+              "accent": true
+            },
+            {
+              "id": "w_10_0297",
+              "text": "or",
+              "startFrame": 11671,
+              "endFrame": 11707,
+              "accent": false
+            },
+            {
+              "id": "w_10_0298",
+              "text": "a",
+              "startFrame": 11707,
+              "endFrame": 11744,
+              "accent": false
+            },
+            {
+              "id": "w_10_0299",
+              "text": "chorus",
+              "startFrame": 11744,
+              "endFrame": 11770,
+              "accent": false
+            },
+            {
+              "id": "w_10_0300",
+              "text": "of",
+              "startFrame": 11770,
+              "endFrame": 11791,
+              "accent": false
+            },
+            {
+              "id": "w_10_0301",
+              "text": "applause,",
+              "startFrame": 11791,
+              "endFrame": 11828,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_10_04",
+          "text": "I just want to be myself, without a hidden clause.",
+          "words": [
+            {
+              "id": "w_10_0302",
+              "text": "I",
+              "startFrame": 11884,
+              "endFrame": 11890,
+              "accent": false
+            },
+            {
+              "id": "w_10_0303",
+              "text": "just",
+              "startFrame": 11890,
+              "endFrame": 11900,
+              "accent": false
+            },
+            {
+              "id": "w_10_0304",
+              "text": "want",
+              "startFrame": 11900,
+              "endFrame": 11915,
+              "accent": false
+            },
+            {
+              "id": "w_10_0305",
+              "text": "to",
+              "startFrame": 11915,
+              "endFrame": 11926,
+              "accent": false
+            },
+            {
+              "id": "w_10_0306",
+              "text": "be",
+              "startFrame": 11926,
+              "endFrame": 11936,
+              "accent": false
+            },
+            {
+              "id": "w_10_0307",
+              "text": "myself,",
+              "startFrame": 11936,
+              "endFrame": 11970,
+              "accent": true
+            },
+            {
+              "id": "w_10_0308",
+              "text": "without",
+              "startFrame": 11970,
+              "endFrame": 12005,
+              "accent": false
+            },
+            {
+              "id": "w_10_0309",
+              "text": "a",
+              "startFrame": 12005,
+              "endFrame": 12022,
+              "accent": false
+            },
+            {
+              "id": "w_10_0310",
+              "text": "hidden",
+              "startFrame": 12022,
+              "endFrame": 12043,
+              "accent": false
+            },
+            {
+              "id": "w_10_0311",
+              "text": "clause.",
+              "startFrame": 12043,
+              "endFrame": 12072,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_10_05",
+          "text": "No more trying so hard to fit in...",
+          "words": [
+            {
+              "id": "w_10_0312",
+              "text": "No",
+              "startFrame": 12072,
+              "endFrame": 12097,
+              "accent": false
+            },
+            {
+              "id": "w_10_0313",
+              "text": "more",
+              "startFrame": 12097,
+              "endFrame": 12108,
+              "accent": false
+            },
+            {
+              "id": "w_10_0314",
+              "text": "trying",
+              "startFrame": 12108,
+              "endFrame": 12131,
+              "accent": false
+            },
+            {
+              "id": "w_10_0315",
+              "text": "so",
+              "startFrame": 12131,
+              "endFrame": 12169,
+              "accent": false
+            },
+            {
+              "id": "w_10_0316",
+              "text": "hard",
+              "startFrame": 12169,
+              "endFrame": 12238,
+              "accent": false
+            },
+            {
+              "id": "w_10_0317",
+              "text": "to",
+              "startFrame": 12238,
+              "endFrame": 12331,
+              "accent": false
+            },
+            {
+              "id": "w_10_0318",
+              "text": "fit",
+              "startFrame": 12331,
+              "endFrame": 12361,
+              "accent": true
+            },
+            {
+              "id": "w_10_0319",
+              "text": "in...",
+              "startFrame": 12361,
+              "endFrame": 12466,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_11_outro",
+      "name": "Learning How to Breathe",
+      "sectionTag": "11 // OUTRO  •  JUST AN ORDINARY GUY",
+      "startFrame": 12468,
+      "endFrame": 13988,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "bedroom_mirror",
+      "subtitle": "Just an ordinary guy • Learning how to breathe again",
+      "lines": [
+        {
+          "id": "line_11_01",
+          "text": "Just an ordinary guy... Learning how to breathe again.",
+          "words": [
+            {
+              "id": "w_11_0320",
+              "text": "Just",
+              "startFrame": 12468,
+              "endFrame": 12534,
+              "accent": false
+            },
+            {
+              "id": "w_11_0321",
+              "text": "an",
+              "startFrame": 12534,
+              "endFrame": 12558,
+              "accent": false
+            },
+            {
+              "id": "w_11_0322",
+              "text": "ordinary",
+              "startFrame": 12558,
+              "endFrame": 12625,
+              "accent": false
+            },
+            {
+              "id": "w_11_0323",
+              "text": "guy...",
+              "startFrame": 12625,
+              "endFrame": 12666,
+              "accent": false
+            },
+            {
+              "id": "w_11_0324",
+              "text": "Learning",
+              "startFrame": 12666,
+              "endFrame": 12786,
+              "accent": false
+            },
+            {
+              "id": "w_11_0325",
+              "text": "how",
+              "startFrame": 12786,
+              "endFrame": 12834,
+              "accent": false
+            },
+            {
+              "id": "w_11_0326",
+              "text": "to",
+              "startFrame": 12834,
+              "endFrame": 12845,
+              "accent": false
+            },
+            {
+              "id": "w_11_0327",
+              "text": "breathe",
+              "startFrame": 12845,
+              "endFrame": 12881,
+              "accent": true
+            },
+            {
+              "id": "w_11_0328",
+              "text": "again.",
+              "startFrame": 12881,
+              "endFrame": 12923,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

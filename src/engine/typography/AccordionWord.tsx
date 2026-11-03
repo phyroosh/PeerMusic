@@ -104,7 +104,6 @@ export const AccordionWord: React.FC<AccordionWordProps> = ({
         color: isAccent || isActive ? VIDEO_CONFIG.colors.accentAmber : VIDEO_CONFIG.colors.primaryText,
         textShadow: isAccent || isActive ? `0 0 32px rgba(255, 184, 76, 0.65)` : "none",
         margin: "0 0.35em",
-        transition: "color 0.1s ease",
         filter: exitProgress > 0 ? `blur(${exitProgress * 3}px)` : "none",
       }}
     >

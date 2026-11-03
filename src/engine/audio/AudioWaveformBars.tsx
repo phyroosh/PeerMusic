@@ -55,7 +55,6 @@ export const AudioWaveformBars: React.FC<AudioWaveformBarsProps> = ({
             height: `${bar.height}px`,
             backgroundColor: color,
             borderRadius: "2px",
-            transition: "height 0.05s ease",
             boxShadow: `0 0 6px ${color}33`,
           }}
         />

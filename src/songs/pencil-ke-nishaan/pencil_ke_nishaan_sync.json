@@ -1,0 +1,587 @@
+{
+  "audio_file": "public/audio/pencil_ke_nishaan.mp3",
+  "duration": 246.927,
+  "language": "hi",
+  "words": [
+    {
+      "word": "Selikha",
+      "start": 120.0,
+      "end": 120.72,
+      "probability": 0.329
+    },
+    {
+      "word": "tha",
+      "start": 120.72,
+      "end": 121.02,
+      "probability": 0.263
+    },
+    {
+      "word": "tira",
+      "start": 121.02,
+      "end": 121.86,
+      "probability": 0.201
+    },
+    {
+      "word": "naam",
+      "start": 121.86,
+      "end": 122.72,
+      "probability": 0.775
+    },
+    {
+      "word": "des",
+      "start": 122.72,
+      "end": 123.02,
+      "probability": 0.6
+    },
+    {
+      "word": "ka",
+      "start": 123.02,
+      "end": 123.18,
+      "probability": 0.164
+    },
+    {
+      "word": "paar",
+      "start": 123.18,
+      "end": 124.42,
+      "probability": 0.606
+    },
+    {
+      "word": "dhar",
+      "start": 124.42,
+      "end": 125.38,
+      "probability": 0.181
+    },
+    {
+      "word": "ke",
+      "start": 125.38,
+      "end": 125.68,
+      "probability": 0.743
+    },
+    {
+      "word": "maare",
+      "start": 125.68,
+      "end": 126.24,
+      "probability": 0.256
+    },
+    {
+      "word": "haat",
+      "start": 126.24,
+      "end": 126.88,
+      "probability": 0.482
+    },
+    {
+      "word": "to",
+      "start": 126.88,
+      "end": 126.98,
+      "probability": 0.053
+    },
+    {
+      "word": "se",
+      "start": 126.98,
+      "end": 127.4,
+      "probability": 0.459
+    },
+    {
+      "word": "mita",
+      "start": 127.4,
+      "end": 128.34,
+      "probability": 0.237
+    },
+    {
+      "word": "diya",
+      "start": 128.34,
+      "end": 128.92,
+      "probability": 0.612
+    },
+    {
+      "word": "me",
+      "start": 128.92,
+      "end": 129.26,
+      "probability": 0.288
+    },
+    {
+      "word": "ne.",
+      "start": 129.26,
+      "end": 129.62,
+      "probability": 0.45
+    },
+    {
+      "word": "Parpano",
+      "start": 130.8,
+      "end": 131.8,
+      "probability": 0.397
+    },
+    {
+      "word": "pe",
+      "start": 131.8,
+      "end": 132.26,
+      "probability": 0.465
+    },
+    {
+      "word": "chute",
+      "start": 132.26,
+      "end": 132.84,
+      "probability": 0.547
+    },
+    {
+      "word": "wau",
+      "start": 132.84,
+      "end": 133.98,
+      "probability": 0.209
+    },
+    {
+      "word": "gaire",
+      "start": 133.98,
+      "end": 134.74,
+      "probability": 0.266
+    },
+    {
+      "word": "nishaan.",
+      "start": 134.74,
+      "end": 135.98,
+      "probability": 0.268
+    },
+    {
+      "word": "Aaj",
+      "start": 136.24,
+      "end": 136.8,
+      "probability": 0.648
+    },
+    {
+      "word": "bhi,",
+      "start": 136.8,
+      "end": 137.16,
+      "probability": 0.893
+    },
+    {
+      "word": "kethe",
+      "start": 137.72,
+      "end": 138.18,
+      "probability": 0.469
+    },
+    {
+      "word": "hai",
+      "start": 138.18,
+      "end": 138.38,
+      "probability": 0.466
+    },
+    {
+      "word": "taj",
+      "start": 138.38,
+      "end": 138.78,
+      "probability": 0.65
+    },
+    {
+      "word": "kohi",
+      "start": 138.78,
+      "end": 139.24,
+      "probability": 0.541
+    },
+    {
+      "word": "chah",
+      "start": 139.24,
+      "end": 139.64,
+      "probability": 0.397
+    },
+    {
+      "word": "me",
+      "start": 139.64,
+      "end": 140.06,
+      "probability": 0.324
+    },
+    {
+      "word": "ne.",
+      "start": 140.06,
+      "end": 140.38,
+      "probability": 0.943
+    },
+    {
+      "word": "پر",
+      "start": 180.0,
+      "end": 180.14,
+      "probability": 0.361
+    },
+    {
+      "word": "میں",
+      "start": 180.14,
+      "end": 180.26,
+      "probability": 0.959
+    },
+    {
+      "word": "آگے",
+      "start": 180.26,
+      "end": 180.7,
+      "probability": 0.676
+    },
+    {
+      "word": "نہ",
+      "start": 180.7,
+      "end": 180.86,
+      "probability": 0.909
+    },
+    {
+      "word": "بڑھا",
+      "start": 180.86,
+      "end": 181.28,
+      "probability": 0.819
+    },
+    {
+      "word": "تو",
+      "start": 181.28,
+      "end": 181.54,
+      "probability": 0.334
+    },
+    {
+      "word": "جیسے",
+      "start": 181.54,
+      "end": 182.1,
+      "probability": 0.533
+    },
+    {
+      "word": "کا",
+      "start": 182.1,
+      "end": 182.36,
+      "probability": 0.914
+    },
+    {
+      "word": "خریل",
+      "start": 182.36,
+      "end": 182.9,
+      "probability": 0.686
+    },
+    {
+      "word": "بیدہ",
+      "start": 182.9,
+      "end": 183.3,
+      "probability": 0.403
+    },
+    {
+      "word": "بھی",
+      "start": 183.3,
+      "end": 183.48,
+      "probability": 0.942
+    },
+    {
+      "word": "نہ",
+      "start": 183.48,
+      "end": 183.64,
+      "probability": 0.961
+    },
+    {
+      "word": "کہیسے",
+      "start": 183.64,
+      "end": 184.06,
+      "probability": 0.435
+    },
+    {
+      "word": "کا",
+      "start": 184.06,
+      "end": 184.22,
+      "probability": 0.746
+    },
+    {
+      "word": "برسوں",
+      "start": 184.22,
+      "end": 185.06,
+      "probability": 0.794
+    },
+    {
+      "word": "گھوزر",
+      "start": 185.06,
+      "end": 185.62,
+      "probability": 0.471
+    },
+    {
+      "word": "گئی",
+      "start": 185.62,
+      "end": 186.0,
+      "probability": 0.718
+    },
+    {
+      "word": "سکھول",
+      "start": 186.0,
+      "end": 186.62,
+      "probability": 0.408
+    },
+    {
+      "word": "چھوٹ",
+      "start": 186.62,
+      "end": 187.0,
+      "probability": 0.802
+    },
+    {
+      "word": "گئیہ",
+      "start": 187.0,
+      "end": 187.34,
+      "probability": 0.707
+    },
+    {
+      "word": "پر",
+      "start": 187.34,
+      "end": 187.56,
+      "probability": 0.952
+    },
+    {
+      "word": "پورانی",
+      "start": 187.56,
+      "end": 188.12,
+      "probability": 0.804
+    },
+    {
+      "word": "بینچکا",
+      "start": 188.12,
+      "end": 188.8,
+      "probability": 0.595
+    },
+    {
+      "word": "کھونہ",
+      "start": 188.8,
+      "end": 189.24,
+      "probability": 0.611
+    },
+    {
+      "word": "نہیں",
+      "start": 189.24,
+      "end": 189.5,
+      "probability": 0.933
+    },
+    {
+      "word": "بھولا",
+      "start": 189.5,
+      "end": 190.24,
+      "probability": 0.63
+    },
+    {
+      "word": "شایت",
+      "start": 190.24,
+      "end": 190.78,
+      "probability": 0.694
+    },
+    {
+      "word": "تو",
+      "start": 190.78,
+      "end": 190.94,
+      "probability": 0.306
+    },
+    {
+      "word": "بھول",
+      "start": 190.94,
+      "end": 191.4,
+      "probability": 0.669
+    },
+    {
+      "word": "گئی",
+      "start": 191.4,
+      "end": 191.82,
+      "probability": 0.955
+    },
+    {
+      "word": "ہوگی",
+      "start": 191.82,
+      "end": 192.2,
+      "probability": 0.878
+    },
+    {
+      "word": "وہ",
+      "start": 192.2,
+      "end": 192.42,
+      "probability": 0.962
+    },
+    {
+      "word": "ساری",
+      "start": 192.42,
+      "end": 192.98,
+      "probability": 0.758
+    },
+    {
+      "word": "باتے",
+      "start": 192.98,
+      "end": 193.38,
+      "probability": 0.841
+    },
+    {
+      "word": "پر",
+      "start": 193.38,
+      "end": 193.62,
+      "probability": 0.984
+    },
+    {
+      "word": "میریچپن",
+      "start": 193.62,
+      "end": 194.24,
+      "probability": 0.633
+    },
+    {
+      "word": "کا",
+      "start": 194.24,
+      "end": 194.46,
+      "probability": 0.824
+    },
+    {
+      "word": "سب",
+      "start": 194.46,
+      "end": 194.7,
+      "probability": 0.685
+    },
+    {
+      "word": "سے",
+      "start": 194.7,
+      "end": 195.12,
+      "probability": 0.844
+    },
+    {
+      "word": "پیارا",
+      "start": 195.12,
+      "end": 195.7,
+      "probability": 0.758
+    },
+    {
+      "word": "ہی",
+      "start": 195.7,
+      "end": 195.9,
+      "probability": 0.558
+    },
+    {
+      "word": "ساتھوٹی",
+      "start": 195.9,
+      "end": 197.08,
+      "probability": 0.588
+    },
+    {
+      "word": "جیسے",
+      "start": 198.32,
+      "end": 199.16,
+      "probability": 0.905
+    },
+    {
+      "word": "چاہ",
+      "start": 199.16,
+      "end": 199.6,
+      "probability": 0.84
+    },
+    {
+      "word": "بہت",
+      "start": 199.6,
+      "end": 200.32,
+      "probability": 0.539
+    },
+    {
+      "word": "پر",
+      "start": 200.32,
+      "end": 201.38,
+      "probability": 0.902
+    },
+    {
+      "word": "کہ",
+      "start": 201.38,
+      "end": 201.72,
+      "probability": 0.867
+    },
+    {
+      "word": "نہ",
+      "start": 201.72,
+      "end": 202.3,
+      "probability": 0.246
+    },
+    {
+      "word": "سکا",
+      "start": 202.3,
+      "end": 203.34,
+      "probability": 0.886
+    },
+    {
+      "word": "U",
+      "start": 245.5,
+      "end": 246.9,
+      "probability": 0.001
+    }
+  ],
+  "structured_sections": [
+    {
+      "name": "Intro",
+      "lines": [
+        "Title: Pencil Ke Nishaan (School Crush Ballad)"
+      ]
+    },
+    {
+      "name": "Intro",
+      "lines": [
+        "(Gentle 82 bpm fingerstyle acoustic guitar picking, nostalgic upright piano chords, faint morning assembly bell chime in the distance, soft rustle of school notebook pages)"
+      ]
+    },
+    {
+      "name": "Mukhda / Chorus",
+      "lines": [
+        "Subah ki assembly mein haath jab judte the,",
+        "Duaon ke beech nazrein bas tujhpe rukti thi.",
+        "Third period ki dhoop jab bench pe aati thi,",
+        "Mera dhyan kitaabon se chura le jaati thi.",
+        "Pencil se likha tha tera naam desk par,",
+        "Darr ke maare haathon se mita diya maine,",
+        "Par panno pe chhoote woh gehre nishaan,",
+        "Aaj bhi kehte hain tujhko hi chaha maine."
+      ]
+    },
+    {
+      "name": "Antara 1 / Verse 1",
+      "lines": [
+        "Woh blackboard se homework utaarna,",
+        "Bahaane se mud ke tujhe ek nazar taakna.",
+        "Jab roll number tera bolti thi teacher,",
+        "Saansein meri rukti thi ek pal ke liye,",
+        "Tera woh dheeme se kehna \"Present, Ma'am\",",
+        "Kafi tha mere saare din ke jiye.",
+        "Tiffin ke break mein tu hansti thi dosto sang,",
+        "Door khade chadh jaata tha ek anokha rang.",
+        "Kabhi himmat na hui ke paas tere jaa saku,",
+        "Ek lafz bhi zubaan se keh ke jata saku."
+      ]
+    },
+    {
+      "name": "Mukhda Reprise / Chorus",
+      "lines": [
+        "Pencil se likha tha tera naam desk par,",
+        "Darr ke maare haathon se mita diya maine,",
+        "Par panno pe chhoote woh gehre nishaan,",
+        "Aaj bhi kehte hain tujhko hi chaha maine."
+      ]
+    },
+    {
+      "name": "Antara 2 / Verse 2",
+      "lines": [
+        "Barsaat ke din jab chhutti hoti thi,",
+        "Cycle stand par bheed lagti thi bhaari.",
+        "Main jaan-boojh kar pedal dheere maarta,",
+        "Peeche se guzarti thi jab bus tumhaari.",
+        "Woh yellow bus ki khidki, hawa mein udte baal,",
+        "Tujhe dekh ke mera kaisa hota tha haal.",
+        "Exam ke aakhri din sab autograph le rahe the,",
+        "Safed shirt pe doston ke naam beh rahe the.",
+        "Kalam haath mein thi par main aage na badha,",
+        "Tujhse ek aakhri alvida bhi na keh saka."
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        "Barson guzar gaye, school chhoot gaya,",
+        "Par purani bench ka kona nahi bhoola.",
+        "Shayad tu bhool gayi hogi woh saari baatein,",
+        "Par mere bachpan ka sabse pyara hissa tu thi,",
+        "Jise chaha bohot... par keh na saka."
+      ]
+    },
+    {
+      "name": "Outro",
+      "lines": [
+        "Subah ki assembly...",
+        "Pencil ke nishaan...",
+        "Tu samne thi kitni,",
+        "Par anjaan thi meri jaan...",
+        "Bas ek mud ke dekhna tera,",
+        "Hamesha ke liye theher gaya...",
+        "(Soft fingerstyle acoustic guitar fading out, faint bicycle bell ding, subtle chalk on blackboard sound, gentle silence)"
+      ]
+    }
+  ]
+}

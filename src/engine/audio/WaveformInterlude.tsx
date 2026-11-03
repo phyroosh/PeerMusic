@@ -9,7 +9,7 @@ interface WaveformInterludeProps {
   height?: number;
 }
 
-export const WaveformInterlude: React.FC<WaveformInterludeProps> = ({
+const WaveformInterludeComponent: React.FC<WaveformInterludeProps> = ({
   label = "INSTRUMENTAL RESONANCE",
   sublabel = "Acoustic strings & ambient melody in Room 204",
   width = "100%",
@@ -99,7 +99,12 @@ export const WaveformInterlude: React.FC<WaveformInterludeProps> = ({
       >
         <svg
           viewBox={`0 0 ${svgWidth} ${svgHeight}`}
-          style={{ width: "100%", height: "100%", overflow: "visible" }}
+          style={{
+            width: "100%",
+            height: "100%",
+            overflow: "visible",
+            shapeRendering: "geometricPrecision",
+          }}
         >
           {/* Subtle Center Zero-Axis Guide */}
           <line
@@ -159,3 +164,5 @@ export const WaveformInterlude: React.FC<WaveformInterludeProps> = ({
     </div>
   );
 };
+
+export const WaveformInterlude = React.memo(WaveformInterludeComponent);

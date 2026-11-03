@@ -1,0 +1,2001 @@
+{
+  "songTitle": "Tu Ek Sukoon Sa Lagta Hai (Radio Edit - तू एक सुकून सा लगता है)",
+  "audioFile": "audio/tu_ek_sukoon_sa_lagta_hai_radio.mp3",
+  "theme": "SongCoverArtwork",
+  "fps": 60,
+  "totalFrames": 10360,
+  "durationSeconds": 172.67,
+  "coverImage": "covers/tu_ek_sukoon_sa_lagta_hai_clean_16x9.png",
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "Intro – Soft Piano & Rain Sounds",
+      "sectionTag": "01 // INTRO  •  SOFT PIANO & RAIN",
+      "startFrame": 0,
+      "endFrame": 1710,
+      "hierarchy": "ATMOSPHERE_DOMINANT",
+      "symbolKey": "steaming_coffee_mug",
+      "subtitle": "Midnight rain against the window glass • Warm piano chords and distant humming",
+      "lines": [
+        {
+          "id": "l_01_01",
+          "text": "हम्म्म... आआ...",
+          "startFrame": 332,
+          "endFrame": 343,
+          "accentWords": [
+            "हम्म्म"
+          ],
+          "words": [
+            {
+              "id": "w_0001",
+              "text": "हम्म्म...",
+              "startFrame": 332,
+              "endFrame": 343
+            },
+            {
+              "id": "w_0002",
+              "text": "आआ...",
+              "startFrame": 343,
+              "endFrame": 351
+            }
+          ]
+        },
+        {
+          "id": "l_01_02",
+          "text": "धीरे-धीरे...",
+          "startFrame": 343,
+          "endFrame": 434,
+          "accentWords": [
+            "धीरे-धीरे"
+          ],
+          "words": [
+            {
+              "id": "w_0003",
+              "text": "धीरे-धीरे...",
+              "startFrame": 343,
+              "endFrame": 434
+            }
+          ]
+        },
+        {
+          "id": "l_01_03",
+          "text": "रात कहे कुछ, सुन ले ज़रा...",
+          "startFrame": 528,
+          "endFrame": 726,
+          "accentWords": [
+            "ज़रा"
+          ],
+          "words": [
+            {
+              "id": "w_0004",
+              "text": "रात",
+              "startFrame": 528,
+              "endFrame": 556
+            },
+            {
+              "id": "w_0005",
+              "text": "कहे",
+              "startFrame": 570,
+              "endFrame": 582
+            },
+            {
+              "id": "w_0006",
+              "text": "कुछ,",
+              "startFrame": 582,
+              "endFrame": 614
+            },
+            {
+              "id": "w_0007",
+              "text": "सुन",
+              "startFrame": 634,
+              "endFrame": 647
+            },
+            {
+              "id": "w_0008",
+              "text": "ले",
+              "startFrame": 647,
+              "endFrame": 660
+            },
+            {
+              "id": "w_0009",
+              "text": "ज़रा...",
+              "startFrame": 660,
+              "endFrame": 726
+            }
+          ]
+        },
+        {
+          "id": "l_01_04",
+          "text": "खो जा कहीं... तू भी यहाँ...",
+          "startFrame": 726,
+          "endFrame": 975,
+          "accentWords": [
+            "कहीं"
+          ],
+          "words": [
+            {
+              "id": "w_0010",
+              "text": "खो",
+              "startFrame": 726,
+              "endFrame": 733
+            },
+            {
+              "id": "w_0011",
+              "text": "जा",
+              "startFrame": 733,
+              "endFrame": 750
+            },
+            {
+              "id": "w_0012",
+              "text": "कहीं...",
+              "startFrame": 750,
+              "endFrame": 792
+            },
+            {
+              "id": "w_0013",
+              "text": "तू",
+              "startFrame": 827,
+              "endFrame": 839
+            },
+            {
+              "id": "w_0014",
+              "text": "भी",
+              "startFrame": 857,
+              "endFrame": 868
+            },
+            {
+              "id": "w_0015",
+              "text": "यहाँ...",
+              "startFrame": 942,
+              "endFrame": 975
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_02_verse_1",
+      "name": "Verse 1 – Chaand Bhi Aaj Dheema Lage",
+      "sectionTag": "02 // VERSE 1  •  CHAAND BHI AAJ DHEEMA LAGE",
+      "startFrame": 1710,
+      "endFrame": 3180,
+      "hierarchy": "TYPOGRAPHY_DOMINANT",
+      "symbolKey": "rainy_window",
+      "subtitle": "The moon slows its pace • Cool breeze carrying your name",
+      "lines": [
+        {
+          "id": "l_02_01",
+          "text": "चाँद भी आज कुछ धीमा लगे,",
+          "startFrame": 1772,
+          "endFrame": 1975,
+          "accentWords": [
+            "चाँद"
+          ],
+          "words": [
+            {
+              "id": "w_0016",
+              "text": "चाँद",
+              "startFrame": 1772,
+              "endFrame": 1805
+            },
+            {
+              "id": "w_0017",
+              "text": "भी",
+              "startFrame": 1805,
+              "endFrame": 1819
+            },
+            {
+              "id": "w_0018",
+              "text": "आज",
+              "startFrame": 1819,
+              "endFrame": 1843
+            },
+            {
+              "id": "w_0019",
+              "text": "कुछ",
+              "startFrame": 1843,
+              "endFrame": 1865
+            },
+            {
+              "id": "w_0020",
+              "text": "धीमा",
+              "startFrame": 1865,
+              "endFrame": 1896
+            },
+            {
+              "id": "w_0021",
+              "text": "लगे,",
+              "startFrame": 1896,
+              "endFrame": 1949
+            }
+          ]
+        },
+        {
+          "id": "l_02_02",
+          "text": "तारों में कोई सपना जगे,",
+          "startFrame": 1975,
+          "endFrame": 2167,
+          "accentWords": [
+            "तारों"
+          ],
+          "words": [
+            {
+              "id": "w_0022",
+              "text": "तारों",
+              "startFrame": 1975,
+              "endFrame": 1999
+            },
+            {
+              "id": "w_0023",
+              "text": "में",
+              "startFrame": 1999,
+              "endFrame": 2012
+            },
+            {
+              "id": "w_0024",
+              "text": "कोई",
+              "startFrame": 2012,
+              "endFrame": 2045
+            },
+            {
+              "id": "w_0025",
+              "text": "सपना",
+              "startFrame": 2045,
+              "endFrame": 2089
+            },
+            {
+              "id": "w_0026",
+              "text": "जगे,",
+              "startFrame": 2089,
+              "endFrame": 2164
+            }
+          ]
+        },
+        {
+          "id": "l_02_03",
+          "text": "खिड़की पे बैठी ये ठंडी हवा,",
+          "startFrame": 2167,
+          "endFrame": 2374,
+          "accentWords": [
+            "खिड़की"
+          ],
+          "words": [
+            {
+              "id": "w_0027",
+              "text": "खिड़की",
+              "startFrame": 2167,
+              "endFrame": 2191
+            },
+            {
+              "id": "w_0028",
+              "text": "पे",
+              "startFrame": 2191,
+              "endFrame": 2208
+            },
+            {
+              "id": "w_0029",
+              "text": "बैठी",
+              "startFrame": 2208,
+              "endFrame": 2236
+            },
+            {
+              "id": "w_0030",
+              "text": "ये",
+              "startFrame": 2236,
+              "endFrame": 2250
+            },
+            {
+              "id": "w_0031",
+              "text": "ठंडी",
+              "startFrame": 2250,
+              "endFrame": 2292
+            },
+            {
+              "id": "w_0032",
+              "text": "हवा,",
+              "startFrame": 2292,
+              "endFrame": 2361
+            }
+          ]
+        },
+        {
+          "id": "l_02_04",
+          "text": "तेरा ही नाम मुझसे कहे...",
+          "startFrame": 2374,
+          "endFrame": 2566,
+          "accentWords": [
+            "मुझसे"
+          ],
+          "words": [
+            {
+              "id": "w_0033",
+              "text": "तेरा",
+              "startFrame": 2374,
+              "endFrame": 2392
+            },
+            {
+              "id": "w_0034",
+              "text": "ही",
+              "startFrame": 2392,
+              "endFrame": 2401
+            },
+            {
+              "id": "w_0035",
+              "text": "नाम",
+              "startFrame": 2401,
+              "endFrame": 2443
+            },
+            {
+              "id": "w_0036",
+              "text": "मुझसे",
+              "startFrame": 2443,
+              "endFrame": 2474
+            },
+            {
+              "id": "w_0037",
+              "text": "कहे...",
+              "startFrame": 2474,
+              "endFrame": 2551
+            }
+          ]
+        },
+        {
+          "id": "l_02_05",
+          "text": "ना कोई मंज़िल, ना रास्ता,",
+          "startFrame": 2566,
+          "endFrame": 2759,
+          "accentWords": [
+            "मंज़िल"
+          ],
+          "words": [
+            {
+              "id": "w_0038",
+              "text": "ना",
+              "startFrame": 2566,
+              "endFrame": 2572
+            },
+            {
+              "id": "w_0039",
+              "text": "कोई",
+              "startFrame": 2572,
+              "endFrame": 2592
+            },
+            {
+              "id": "w_0040",
+              "text": "मंज़िल,",
+              "startFrame": 2592,
+              "endFrame": 2643
+            },
+            {
+              "id": "w_0041",
+              "text": "ना",
+              "startFrame": 2668,
+              "endFrame": 2676
+            },
+            {
+              "id": "w_0042",
+              "text": "रास्ता,",
+              "startFrame": 2676,
+              "endFrame": 2747
+            }
+          ]
+        },
+        {
+          "id": "l_02_06",
+          "text": "ना कोई शिकवा, ना फ़ासला,",
+          "startFrame": 2759,
+          "endFrame": 2953,
+          "accentWords": [
+            "फ़ासला"
+          ],
+          "words": [
+            {
+              "id": "w_0043",
+              "text": "ना",
+              "startFrame": 2759,
+              "endFrame": 2765
+            },
+            {
+              "id": "w_0044",
+              "text": "कोई",
+              "startFrame": 2767,
+              "endFrame": 2785
+            },
+            {
+              "id": "w_0045",
+              "text": "शिकवा,",
+              "startFrame": 2785,
+              "endFrame": 2830
+            },
+            {
+              "id": "w_0046",
+              "text": "ना",
+              "startFrame": 2857,
+              "endFrame": 2864
+            },
+            {
+              "id": "w_0047",
+              "text": "फ़ासला,",
+              "startFrame": 2864,
+              "endFrame": 2950
+            }
+          ]
+        },
+        {
+          "id": "l_02_07",
+          "text": "बस कुछ ख़ामोशी, थोड़ी सी रात,",
+          "startFrame": 2953,
+          "endFrame": 3143,
+          "accentWords": [
+            "ख़ामोशी"
+          ],
+          "words": [
+            {
+              "id": "w_0048",
+              "text": "बस",
+              "startFrame": 2953,
+              "endFrame": 2958
+            },
+            {
+              "id": "w_0049",
+              "text": "कुछ",
+              "startFrame": 2958,
+              "endFrame": 2972
+            },
+            {
+              "id": "w_0050",
+              "text": "ख़ामोशी,",
+              "startFrame": 2972,
+              "endFrame": 3008
+            },
+            {
+              "id": "w_0051",
+              "text": "थोड़ी",
+              "startFrame": 3037,
+              "endFrame": 3062
+            },
+            {
+              "id": "w_0052",
+              "text": "सी",
+              "startFrame": 3062,
+              "endFrame": 3079
+            },
+            {
+              "id": "w_0053",
+              "text": "रात,",
+              "startFrame": 3079,
+              "endFrame": 3137
+            }
+          ]
+        },
+        {
+          "id": "l_02_08",
+          "text": "और तेरी यादों का सिलसिला...",
+          "startFrame": 3143,
+          "endFrame": 3180,
+          "accentWords": [
+            "सिलसिला"
+          ],
+          "words": [
+            {
+              "id": "w_0054",
+              "text": "और",
+              "startFrame": 3143,
+              "endFrame": 3150
+            },
+            {
+              "id": "w_0055",
+              "text": "तेरी",
+              "startFrame": 3156,
+              "endFrame": 3176
+            },
+            {
+              "id": "w_0056",
+              "text": "यादों",
+              "startFrame": 3176,
+              "endFrame": 3180
+            },
+            {
+              "id": "w_0057",
+              "text": "का",
+              "startFrame": 3176,
+              "endFrame": 3180
+            },
+            {
+              "id": "w_0058",
+              "text": "सिलसिला...",
+              "startFrame": 3176,
+              "endFrame": 3180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_chorus_1",
+      "name": "Chorus 1 – Tu Ek Sukoon Sa Lagta Hai",
+      "sectionTag": "03 // CHORUS 1  •  TU EK SUKOON SA LAGTA HAI",
+      "startFrame": 3180,
+      "endFrame": 5580,
+      "hierarchy": "TYPOGRAPHY_DOMINANT",
+      "symbolKey": "steaming_coffee_mug",
+      "subtitle": "Like a dream pausing in time • In this rushing world, my heart stays with you",
+      "lines": [
+        {
+          "id": "l_03_01",
+          "text": "तू... एक सुकून सा लगता है,",
+          "startFrame": 3180,
+          "endFrame": 3511,
+          "accentWords": [
+            "सुकून"
+          ],
+          "words": [
+            {
+              "id": "w_0059",
+              "text": "तू...",
+              "startFrame": 3180,
+              "endFrame": 3208
+            },
+            {
+              "id": "w_0060",
+              "text": "एक",
+              "startFrame": 3253,
+              "endFrame": 3349
+            },
+            {
+              "id": "w_0061",
+              "text": "सुकून",
+              "startFrame": 3354,
+              "endFrame": 3392
+            },
+            {
+              "id": "w_0062",
+              "text": "सा",
+              "startFrame": 3392,
+              "endFrame": 3413
+            },
+            {
+              "id": "w_0063",
+              "text": "लगता",
+              "startFrame": 3413,
+              "endFrame": 3462
+            },
+            {
+              "id": "w_0064",
+              "text": "है,",
+              "startFrame": 3462,
+              "endFrame": 3490
+            }
+          ]
+        },
+        {
+          "id": "l_03_02",
+          "text": "जैसे कोई ख़्वाब ठहरता है,",
+          "startFrame": 3511,
+          "endFrame": 3689,
+          "accentWords": [
+            "ख़्वाब"
+          ],
+          "words": [
+            {
+              "id": "w_0065",
+              "text": "जैसे",
+              "startFrame": 3511,
+              "endFrame": 3535
+            },
+            {
+              "id": "w_0066",
+              "text": "कोई",
+              "startFrame": 3540,
+              "endFrame": 3558
+            },
+            {
+              "id": "w_0067",
+              "text": "ख़्वाब",
+              "startFrame": 3558,
+              "endFrame": 3595
+            },
+            {
+              "id": "w_0068",
+              "text": "ठहरता",
+              "startFrame": 3595,
+              "endFrame": 3649
+            },
+            {
+              "id": "w_0069",
+              "text": "है,",
+              "startFrame": 3649,
+              "endFrame": 3686
+            }
+          ]
+        },
+        {
+          "id": "l_03_03",
+          "text": "इस भागती सी दुनिया में,",
+          "startFrame": 3689,
+          "endFrame": 3901,
+          "accentWords": [
+            "दुनिया"
+          ],
+          "words": [
+            {
+              "id": "w_0070",
+              "text": "इस",
+              "startFrame": 3689,
+              "endFrame": 3710
+            },
+            {
+              "id": "w_0071",
+              "text": "भागती",
+              "startFrame": 3710,
+              "endFrame": 3772
+            },
+            {
+              "id": "w_0072",
+              "text": "सी",
+              "startFrame": 3772,
+              "endFrame": 3799
+            },
+            {
+              "id": "w_0073",
+              "text": "दुनिया",
+              "startFrame": 3799,
+              "endFrame": 3846
+            },
+            {
+              "id": "w_0074",
+              "text": "में,",
+              "startFrame": 3846,
+              "endFrame": 3895
+            }
+          ]
+        },
+        {
+          "id": "l_03_04",
+          "text": "दिल तेरे पास ही रहता है...",
+          "startFrame": 3901,
+          "endFrame": 4114,
+          "accentWords": [
+            "तेरे"
+          ],
+          "words": [
+            {
+              "id": "w_0075",
+              "text": "दिल",
+              "startFrame": 3901,
+              "endFrame": 3910
+            },
+            {
+              "id": "w_0076",
+              "text": "तेरे",
+              "startFrame": 3910,
+              "endFrame": 3953
+            },
+            {
+              "id": "w_0077",
+              "text": "पास",
+              "startFrame": 3953,
+              "endFrame": 3979
+            },
+            {
+              "id": "w_0078",
+              "text": "ही",
+              "startFrame": 3979,
+              "endFrame": 3994
+            },
+            {
+              "id": "w_0079",
+              "text": "रहता",
+              "startFrame": 3994,
+              "endFrame": 4046
+            },
+            {
+              "id": "w_0080",
+              "text": "है...",
+              "startFrame": 4046,
+              "endFrame": 4099
+            }
+          ]
+        },
+        {
+          "id": "l_03_05",
+          "text": "ओ ओ ओ... धीरे बहने दे,",
+          "startFrame": 4114,
+          "endFrame": 4286,
+          "accentWords": [
+            "धीरे"
+          ],
+          "words": [
+            {
+              "id": "w_0081",
+              "text": "ओ",
+              "startFrame": 4114,
+              "endFrame": 4122
+            },
+            {
+              "id": "w_0082",
+              "text": "ओ",
+              "startFrame": 4114,
+              "endFrame": 4120
+            },
+            {
+              "id": "w_0083",
+              "text": "ओ...",
+              "startFrame": 4120,
+              "endFrame": 4135
+            },
+            {
+              "id": "w_0084",
+              "text": "धीरे",
+              "startFrame": 4157,
+              "endFrame": 4187
+            },
+            {
+              "id": "w_0085",
+              "text": "बहने",
+              "startFrame": 4187,
+              "endFrame": 4235
+            },
+            {
+              "id": "w_0086",
+              "text": "दे,",
+              "startFrame": 4235,
+              "endFrame": 4282
+            }
+          ]
+        },
+        {
+          "id": "l_03_06",
+          "text": "इन लम्हों को यहीं रहने दे,",
+          "startFrame": 4286,
+          "endFrame": 4481,
+          "accentWords": [
+            "लम्हों"
+          ],
+          "words": [
+            {
+              "id": "w_0087",
+              "text": "इन",
+              "startFrame": 4286,
+              "endFrame": 4291
+            },
+            {
+              "id": "w_0088",
+              "text": "लम्हों",
+              "startFrame": 4291,
+              "endFrame": 4325
+            },
+            {
+              "id": "w_0089",
+              "text": "को",
+              "startFrame": 4325,
+              "endFrame": 4336
+            },
+            {
+              "id": "w_0090",
+              "text": "यहीं",
+              "startFrame": 4336,
+              "endFrame": 4386
+            },
+            {
+              "id": "w_0091",
+              "text": "रहने",
+              "startFrame": 4386,
+              "endFrame": 4428
+            },
+            {
+              "id": "w_0092",
+              "text": "दे,",
+              "startFrame": 4428,
+              "endFrame": 4477
+            }
+          ]
+        },
+        {
+          "id": "l_03_07",
+          "text": "कुछ ना कहें, कुछ ना सुनें,",
+          "startFrame": 4481,
+          "endFrame": 4693,
+          "accentWords": [
+            "सुनें"
+          ],
+          "words": [
+            {
+              "id": "w_0093",
+              "text": "कुछ",
+              "startFrame": 4481,
+              "endFrame": 4488
+            },
+            {
+              "id": "w_0094",
+              "text": "ना",
+              "startFrame": 4488,
+              "endFrame": 4514
+            },
+            {
+              "id": "w_0095",
+              "text": "कहें,",
+              "startFrame": 4514,
+              "endFrame": 4568
+            },
+            {
+              "id": "w_0096",
+              "text": "कुछ",
+              "startFrame": 4574,
+              "endFrame": 4584
+            },
+            {
+              "id": "w_0097",
+              "text": "ना",
+              "startFrame": 4584,
+              "endFrame": 4609
+            },
+            {
+              "id": "w_0098",
+              "text": "सुनें,",
+              "startFrame": 4609,
+              "endFrame": 4672
+            }
+          ]
+        },
+        {
+          "id": "l_03_08",
+          "text": "बस रात को रात रहने दे...",
+          "startFrame": 4693,
+          "endFrame": 4964,
+          "accentWords": [
+            "रहने"
+          ],
+          "words": [
+            {
+              "id": "w_0099",
+              "text": "बस",
+              "startFrame": 4693,
+              "endFrame": 4704
+            },
+            {
+              "id": "w_0100",
+              "text": "रात",
+              "startFrame": 4704,
+              "endFrame": 4753
+            },
+            {
+              "id": "w_0101",
+              "text": "को",
+              "startFrame": 4753,
+              "endFrame": 4776
+            },
+            {
+              "id": "w_0102",
+              "text": "रात",
+              "startFrame": 4776,
+              "endFrame": 4816
+            },
+            {
+              "id": "w_0103",
+              "text": "रहने",
+              "startFrame": 4816,
+              "endFrame": 4871
+            },
+            {
+              "id": "w_0104",
+              "text": "दे...",
+              "startFrame": 4871,
+              "endFrame": 4964
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_04_verse_2",
+      "name": "Verse 2 – Coffee Ki Khushboo, Dheemi Si Dhun",
+      "sectionTag": "04 // VERSE 2  •  COFFEE KI KHUSHBOO, DHEEMI SI DHUN",
+      "startFrame": 5580,
+      "endFrame": 7110,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "steaming_coffee_mug",
+      "subtitle": "The aroma of warm coffee • Deserted streets asleep under amber glow",
+      "lines": [
+        {
+          "id": "l_04_01",
+          "text": "कॉफ़ी की ख़ुशबू, धीमी सी धुन,",
+          "startFrame": 5615,
+          "endFrame": 5856,
+          "accentWords": [
+            "ख़ुशबू"
+          ],
+          "words": [
+            {
+              "id": "w_0105",
+              "text": "कॉफ़ी",
+              "startFrame": 5615,
+              "endFrame": 5672
+            },
+            {
+              "id": "w_0106",
+              "text": "की",
+              "startFrame": 5672,
+              "endFrame": 5687
+            },
+            {
+              "id": "w_0107",
+              "text": "ख़ुशबू,",
+              "startFrame": 5687,
+              "endFrame": 5738
+            },
+            {
+              "id": "w_0108",
+              "text": "धीमी",
+              "startFrame": 5746,
+              "endFrame": 5768
+            },
+            {
+              "id": "w_0109",
+              "text": "सी",
+              "startFrame": 5768,
+              "endFrame": 5786
+            },
+            {
+              "id": "w_0110",
+              "text": "धुन,",
+              "startFrame": 5786,
+              "endFrame": 5836
+            }
+          ]
+        },
+        {
+          "id": "l_04_02",
+          "text": "आँखों में आधा सा चाँद और जुनून,",
+          "startFrame": 5856,
+          "endFrame": 6031,
+          "accentWords": [
+            "आँखों"
+          ],
+          "words": [
+            {
+              "id": "w_0111",
+              "text": "आँखों",
+              "startFrame": 5856,
+              "endFrame": 5879
+            },
+            {
+              "id": "w_0112",
+              "text": "में",
+              "startFrame": 5879,
+              "endFrame": 5894
+            },
+            {
+              "id": "w_0113",
+              "text": "आधा",
+              "startFrame": 5894,
+              "endFrame": 5912
+            },
+            {
+              "id": "w_0114",
+              "text": "सा",
+              "startFrame": 5912,
+              "endFrame": 5932
+            },
+            {
+              "id": "w_0115",
+              "text": "चाँद",
+              "startFrame": 5932,
+              "endFrame": 5956
+            },
+            {
+              "id": "w_0116",
+              "text": "और",
+              "startFrame": 5956,
+              "endFrame": 5965
+            },
+            {
+              "id": "w_0117",
+              "text": "जुनून,",
+              "startFrame": 5965,
+              "endFrame": 6013
+            }
+          ]
+        },
+        {
+          "id": "l_04_03",
+          "text": "सड़कों पे सोई हैं सारी रोशनियाँ,",
+          "startFrame": 6031,
+          "endFrame": 6245,
+          "accentWords": [
+            "रोशनियाँ"
+          ],
+          "words": [
+            {
+              "id": "w_0118",
+              "text": "सड़कों",
+              "startFrame": 6031,
+              "endFrame": 6061
+            },
+            {
+              "id": "w_0119",
+              "text": "पे",
+              "startFrame": 6061,
+              "endFrame": 6076
+            },
+            {
+              "id": "w_0120",
+              "text": "सोई",
+              "startFrame": 6076,
+              "endFrame": 6106
+            },
+            {
+              "id": "w_0121",
+              "text": "हैं",
+              "startFrame": 6106,
+              "endFrame": 6134
+            },
+            {
+              "id": "w_0122",
+              "text": "सारी",
+              "startFrame": 6134,
+              "endFrame": 6164
+            },
+            {
+              "id": "w_0123",
+              "text": "रोशनियाँ,",
+              "startFrame": 6164,
+              "endFrame": 6239
+            }
+          ]
+        },
+        {
+          "id": "l_04_04",
+          "text": "दिल में जगी हैं कुछ मीठी कहानियाँ...",
+          "startFrame": 6245,
+          "endFrame": 6394,
+          "accentWords": [
+            "कहानियाँ"
+          ],
+          "words": [
+            {
+              "id": "w_0124",
+              "text": "दिल",
+              "startFrame": 6245,
+              "endFrame": 6248
+            },
+            {
+              "id": "w_0125",
+              "text": "में",
+              "startFrame": 6248,
+              "endFrame": 6258
+            },
+            {
+              "id": "w_0126",
+              "text": "जगी",
+              "startFrame": 6258,
+              "endFrame": 6282
+            },
+            {
+              "id": "w_0127",
+              "text": "हैं",
+              "startFrame": 6282,
+              "endFrame": 6299
+            },
+            {
+              "id": "w_0128",
+              "text": "कुछ",
+              "startFrame": 6299,
+              "endFrame": 6314
+            },
+            {
+              "id": "w_0129",
+              "text": "मीठी",
+              "startFrame": 6314,
+              "endFrame": 6352
+            },
+            {
+              "id": "w_0130",
+              "text": "कहानियाँ...",
+              "startFrame": 6352,
+              "endFrame": 6394
+            }
+          ]
+        },
+        {
+          "id": "l_04_05",
+          "text": "वक़्त भी जैसे रुकने लगा,",
+          "startFrame": 6468,
+          "endFrame": 6665,
+          "accentWords": [
+            "वक़्त"
+          ],
+          "words": [
+            {
+              "id": "w_0131",
+              "text": "वक़्त",
+              "startFrame": 6468,
+              "endFrame": 6497
+            },
+            {
+              "id": "w_0132",
+              "text": "भी",
+              "startFrame": 6497,
+              "endFrame": 6512
+            },
+            {
+              "id": "w_0133",
+              "text": "जैसे",
+              "startFrame": 6512,
+              "endFrame": 6552
+            },
+            {
+              "id": "w_0134",
+              "text": "रुकने",
+              "startFrame": 6552,
+              "endFrame": 6590
+            },
+            {
+              "id": "w_0135",
+              "text": "लगा,",
+              "startFrame": 6590,
+              "endFrame": 6634
+            }
+          ]
+        },
+        {
+          "id": "l_04_06",
+          "text": "दिल भी कहीं अब झुकने लगा,",
+          "startFrame": 6665,
+          "endFrame": 6854,
+          "accentWords": [
+            "झुकने"
+          ],
+          "words": [
+            {
+              "id": "w_0136",
+              "text": "दिल",
+              "startFrame": 6665,
+              "endFrame": 6677
+            },
+            {
+              "id": "w_0137",
+              "text": "भी",
+              "startFrame": 6677,
+              "endFrame": 6690
+            },
+            {
+              "id": "w_0138",
+              "text": "कहीं",
+              "startFrame": 6690,
+              "endFrame": 6727
+            },
+            {
+              "id": "w_0139",
+              "text": "अब",
+              "startFrame": 6727,
+              "endFrame": 6737
+            },
+            {
+              "id": "w_0140",
+              "text": "झुकने",
+              "startFrame": 6737,
+              "endFrame": 6781
+            },
+            {
+              "id": "w_0141",
+              "text": "लगा,",
+              "startFrame": 6781,
+              "endFrame": 6841
+            }
+          ]
+        },
+        {
+          "id": "l_04_07",
+          "text": "जो भी था कल, उसे भूल जा,",
+          "startFrame": 6854,
+          "endFrame": 7034,
+          "accentWords": [
+            "उसे"
+          ],
+          "words": [
+            {
+              "id": "w_0142",
+              "text": "जो",
+              "startFrame": 6854,
+              "endFrame": 6869
+            },
+            {
+              "id": "w_0143",
+              "text": "भी",
+              "startFrame": 6869,
+              "endFrame": 6883
+            },
+            {
+              "id": "w_0144",
+              "text": "था",
+              "startFrame": 6883,
+              "endFrame": 6899
+            },
+            {
+              "id": "w_0145",
+              "text": "कल,",
+              "startFrame": 6899,
+              "endFrame": 6931
+            },
+            {
+              "id": "w_0146",
+              "text": "उसे",
+              "startFrame": 6936,
+              "endFrame": 6949
+            },
+            {
+              "id": "w_0147",
+              "text": "भूल",
+              "startFrame": 6949,
+              "endFrame": 6978
+            },
+            {
+              "id": "w_0148",
+              "text": "जा,",
+              "startFrame": 6978,
+              "endFrame": 7026
+            }
+          ]
+        },
+        {
+          "id": "l_04_08",
+          "text": "आज की हवा में घुलने लगा...",
+          "startFrame": 7034,
+          "endFrame": 7110,
+          "accentWords": [
+            "घुलने"
+          ],
+          "words": [
+            {
+              "id": "w_0149",
+              "text": "आज",
+              "startFrame": 7034,
+              "endFrame": 7064
+            },
+            {
+              "id": "w_0150",
+              "text": "की",
+              "startFrame": 7064,
+              "endFrame": 7082
+            },
+            {
+              "id": "w_0151",
+              "text": "हवा",
+              "startFrame": 7106,
+              "endFrame": 7110
+            },
+            {
+              "id": "w_0152",
+              "text": "में",
+              "startFrame": 7106,
+              "endFrame": 7110
+            },
+            {
+              "id": "w_0153",
+              "text": "घुलने",
+              "startFrame": 7106,
+              "endFrame": 7110
+            },
+            {
+              "id": "w_0154",
+              "text": "लगा...",
+              "startFrame": 7106,
+              "endFrame": 7110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_chorus_2",
+      "name": "Chorus 2 – Tu Ek Sukoon Sa Lagta Hai",
+      "sectionTag": "05 // CHORUS 2  •  IN LAMHON KO YAHIN REHNE DE",
+      "startFrame": 7110,
+      "endFrame": 8790,
+      "hierarchy": "TYPOGRAPHY_DOMINANT",
+      "symbolKey": "crescent_moon",
+      "subtitle": "Let these moments linger • Let the night remain the night",
+      "lines": [
+        {
+          "id": "l_05_01",
+          "text": "तू... एक सुकून सा लगता है,",
+          "startFrame": 7110,
+          "endFrame": 7381,
+          "accentWords": [
+            "सुकून"
+          ],
+          "words": [
+            {
+              "id": "w_0155",
+              "text": "तू...",
+              "startFrame": 7110,
+              "endFrame": 7163
+            },
+            {
+              "id": "w_0156",
+              "text": "एक",
+              "startFrame": 7163,
+              "endFrame": 7212
+            },
+            {
+              "id": "w_0157",
+              "text": "सुकून",
+              "startFrame": 7212,
+              "endFrame": 7271
+            },
+            {
+              "id": "w_0158",
+              "text": "सा",
+              "startFrame": 7271,
+              "endFrame": 7283
+            },
+            {
+              "id": "w_0159",
+              "text": "लगता",
+              "startFrame": 7283,
+              "endFrame": 7331
+            },
+            {
+              "id": "w_0160",
+              "text": "है,",
+              "startFrame": 7331,
+              "endFrame": 7361
+            }
+          ]
+        },
+        {
+          "id": "l_05_02",
+          "text": "जैसे कोई ख़्वाब ठहरता है,",
+          "startFrame": 7381,
+          "endFrame": 7558,
+          "accentWords": [
+            "ख़्वाब"
+          ],
+          "words": [
+            {
+              "id": "w_0161",
+              "text": "जैसे",
+              "startFrame": 7381,
+              "endFrame": 7406
+            },
+            {
+              "id": "w_0162",
+              "text": "कोई",
+              "startFrame": 7406,
+              "endFrame": 7428
+            },
+            {
+              "id": "w_0163",
+              "text": "ख़्वाब",
+              "startFrame": 7428,
+              "endFrame": 7476
+            },
+            {
+              "id": "w_0164",
+              "text": "ठहरता",
+              "startFrame": 7476,
+              "endFrame": 7523
+            },
+            {
+              "id": "w_0165",
+              "text": "है,",
+              "startFrame": 7523,
+              "endFrame": 7558
+            }
+          ]
+        },
+        {
+          "id": "l_05_03",
+          "text": "इस भागती सी दुनिया में,",
+          "startFrame": 7558,
+          "endFrame": 7770,
+          "accentWords": [
+            "दुनिया"
+          ],
+          "words": [
+            {
+              "id": "w_0166",
+              "text": "इस",
+              "startFrame": 7558,
+              "endFrame": 7584
+            },
+            {
+              "id": "w_0167",
+              "text": "भागती",
+              "startFrame": 7584,
+              "endFrame": 7644
+            },
+            {
+              "id": "w_0168",
+              "text": "सी",
+              "startFrame": 7644,
+              "endFrame": 7668
+            },
+            {
+              "id": "w_0169",
+              "text": "दुनिया",
+              "startFrame": 7668,
+              "endFrame": 7717
+            },
+            {
+              "id": "w_0170",
+              "text": "में,",
+              "startFrame": 7717,
+              "endFrame": 7765
+            }
+          ]
+        },
+        {
+          "id": "l_05_04",
+          "text": "दिल तेरे पास ही रहता है...",
+          "startFrame": 7770,
+          "endFrame": 7979,
+          "accentWords": [
+            "तेरे"
+          ],
+          "words": [
+            {
+              "id": "w_0171",
+              "text": "दिल",
+              "startFrame": 7770,
+              "endFrame": 7784
+            },
+            {
+              "id": "w_0172",
+              "text": "तेरे",
+              "startFrame": 7784,
+              "endFrame": 7823
+            },
+            {
+              "id": "w_0173",
+              "text": "पास",
+              "startFrame": 7823,
+              "endFrame": 7850
+            },
+            {
+              "id": "w_0174",
+              "text": "ही",
+              "startFrame": 7850,
+              "endFrame": 7866
+            },
+            {
+              "id": "w_0175",
+              "text": "रहता",
+              "startFrame": 7866,
+              "endFrame": 7918
+            },
+            {
+              "id": "w_0176",
+              "text": "है...",
+              "startFrame": 7918,
+              "endFrame": 7972
+            }
+          ]
+        },
+        {
+          "id": "l_05_05",
+          "text": "ओ ओ ओ... धीरे बहने दे,",
+          "startFrame": 7979,
+          "endFrame": 8154,
+          "accentWords": [
+            "धीरे"
+          ],
+          "words": [
+            {
+              "id": "w_0177",
+              "text": "ओ",
+              "startFrame": 7979,
+              "endFrame": 7987
+            },
+            {
+              "id": "w_0178",
+              "text": "ओ",
+              "startFrame": 7979,
+              "endFrame": 7993
+            },
+            {
+              "id": "w_0179",
+              "text": "ओ...",
+              "startFrame": 7993,
+              "endFrame": 8021
+            },
+            {
+              "id": "w_0180",
+              "text": "धीरे",
+              "startFrame": 8026,
+              "endFrame": 8058
+            },
+            {
+              "id": "w_0181",
+              "text": "बहने",
+              "startFrame": 8058,
+              "endFrame": 8107
+            },
+            {
+              "id": "w_0182",
+              "text": "दे,",
+              "startFrame": 8107,
+              "endFrame": 8150
+            }
+          ]
+        },
+        {
+          "id": "l_05_06",
+          "text": "इन लम्हों को यहीं रहने दे,",
+          "startFrame": 8154,
+          "endFrame": 8335,
+          "accentWords": [
+            "लम्हों"
+          ],
+          "words": [
+            {
+              "id": "w_0183",
+              "text": "इन",
+              "startFrame": 8154,
+              "endFrame": 8161
+            },
+            {
+              "id": "w_0184",
+              "text": "लम्हों",
+              "startFrame": 8161,
+              "endFrame": 8201
+            },
+            {
+              "id": "w_0185",
+              "text": "को",
+              "startFrame": 8201,
+              "endFrame": 8208
+            },
+            {
+              "id": "w_0186",
+              "text": "यहीं",
+              "startFrame": 8208,
+              "endFrame": 8261
+            },
+            {
+              "id": "w_0187",
+              "text": "रहने",
+              "startFrame": 8261,
+              "endFrame": 8302
+            },
+            {
+              "id": "w_0188",
+              "text": "दे,",
+              "startFrame": 8302,
+              "endFrame": 8335
+            }
+          ]
+        },
+        {
+          "id": "l_05_07",
+          "text": "कुछ ना कहें, कुछ ना सुनें,",
+          "startFrame": 8335,
+          "endFrame": 8554,
+          "accentWords": [
+            "सुनें"
+          ],
+          "words": [
+            {
+              "id": "w_0189",
+              "text": "कुछ",
+              "startFrame": 8335,
+              "endFrame": 8358
+            },
+            {
+              "id": "w_0190",
+              "text": "ना",
+              "startFrame": 8358,
+              "endFrame": 8384
+            },
+            {
+              "id": "w_0191",
+              "text": "कहें,",
+              "startFrame": 8384,
+              "endFrame": 8434
+            },
+            {
+              "id": "w_0192",
+              "text": "कुछ",
+              "startFrame": 8435,
+              "endFrame": 8455
+            },
+            {
+              "id": "w_0193",
+              "text": "ना",
+              "startFrame": 8455,
+              "endFrame": 8478
+            },
+            {
+              "id": "w_0194",
+              "text": "सुनें,",
+              "startFrame": 8478,
+              "endFrame": 8535
+            }
+          ]
+        },
+        {
+          "id": "l_05_08",
+          "text": "बस रात को रात रहने दे...",
+          "startFrame": 8554,
+          "endFrame": 8783,
+          "accentWords": [
+            "रहने"
+          ],
+          "words": [
+            {
+              "id": "w_0195",
+              "text": "बस",
+              "startFrame": 8554,
+              "endFrame": 8574
+            },
+            {
+              "id": "w_0196",
+              "text": "रात",
+              "startFrame": 8574,
+              "endFrame": 8623
+            },
+            {
+              "id": "w_0197",
+              "text": "को",
+              "startFrame": 8623,
+              "endFrame": 8648
+            },
+            {
+              "id": "w_0198",
+              "text": "रात",
+              "startFrame": 8648,
+              "endFrame": 8688
+            },
+            {
+              "id": "w_0199",
+              "text": "रहने",
+              "startFrame": 8688,
+              "endFrame": 8741
+            },
+            {
+              "id": "w_0200",
+              "text": "दे...",
+              "startFrame": 8741,
+              "endFrame": 8783
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_bridge",
+      "name": "Bridge – Agar Kabhi Thak Jaaye Dil",
+      "sectionTag": "06 // BRIDGE  •  AGAR KABHI THAK JAAYE DIL",
+      "startFrame": 8790,
+      "endFrame": 10360,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "rainy_window",
+      "subtitle": "Close your eyes if weary • I will meet you inside those quiet dreams",
+      "lines": [
+        {
+          "id": "l_06_01",
+          "text": "अगर कभी थक जाए दिल,",
+          "startFrame": 8808,
+          "endFrame": 8968,
+          "accentWords": [
+            "अगर"
+          ],
+          "words": [
+            {
+              "id": "w_0201",
+              "text": "अगर",
+              "startFrame": 8808,
+              "endFrame": 8839
+            },
+            {
+              "id": "w_0202",
+              "text": "कभी",
+              "startFrame": 8839,
+              "endFrame": 8875
+            },
+            {
+              "id": "w_0203",
+              "text": "थक",
+              "startFrame": 8875,
+              "endFrame": 8900
+            },
+            {
+              "id": "w_0204",
+              "text": "जाए",
+              "startFrame": 8900,
+              "endFrame": 8929
+            },
+            {
+              "id": "w_0205",
+              "text": "दिल,",
+              "startFrame": 8929,
+              "endFrame": 8958
+            }
+          ]
+        },
+        {
+          "id": "l_06_02",
+          "text": "तो आँखें बंद कर लेना...",
+          "startFrame": 8968,
+          "endFrame": 9145,
+          "accentWords": [
+            "आँखें"
+          ],
+          "words": [
+            {
+              "id": "w_0206",
+              "text": "तो",
+              "startFrame": 8968,
+              "endFrame": 8978
+            },
+            {
+              "id": "w_0207",
+              "text": "आँखें",
+              "startFrame": 8978,
+              "endFrame": 9026
+            },
+            {
+              "id": "w_0208",
+              "text": "बंद",
+              "startFrame": 9026,
+              "endFrame": 9052
+            },
+            {
+              "id": "w_0209",
+              "text": "कर",
+              "startFrame": 9052,
+              "endFrame": 9073
+            },
+            {
+              "id": "w_0210",
+              "text": "लेना...",
+              "startFrame": 9073,
+              "endFrame": 9145
+            }
+          ]
+        },
+        {
+          "id": "l_06_03",
+          "text": "मैं मिलूँगा उन ख़्वाबों में,",
+          "startFrame": 9215,
+          "endFrame": 9376,
+          "accentWords": [
+            "ख़्वाबों"
+          ],
+          "words": [
+            {
+              "id": "w_0211",
+              "text": "मैं",
+              "startFrame": 9215,
+              "endFrame": 9223
+            },
+            {
+              "id": "w_0212",
+              "text": "मिलूँगा",
+              "startFrame": 9215,
+              "endFrame": 9254
+            },
+            {
+              "id": "w_0213",
+              "text": "उन",
+              "startFrame": 9254,
+              "endFrame": 9266
+            },
+            {
+              "id": "w_0214",
+              "text": "ख़्वाबों",
+              "startFrame": 9328,
+              "endFrame": 9361
+            },
+            {
+              "id": "w_0215",
+              "text": "में,",
+              "startFrame": 9361,
+              "endFrame": 9369
+            }
+          ]
+        },
+        {
+          "id": "l_06_04",
+          "text": "बस थोड़ा सा सो लेना...",
+          "startFrame": 9376,
+          "endFrame": 9512,
+          "accentWords": [
+            "थोड़ा"
+          ],
+          "words": [
+            {
+              "id": "w_0216",
+              "text": "बस",
+              "startFrame": 9376,
+              "endFrame": 9384
+            },
+            {
+              "id": "w_0217",
+              "text": "थोड़ा",
+              "startFrame": 9376,
+              "endFrame": 9402
+            },
+            {
+              "id": "w_0218",
+              "text": "सा",
+              "startFrame": 9402,
+              "endFrame": 9424
+            },
+            {
+              "id": "w_0219",
+              "text": "सो",
+              "startFrame": 9424,
+              "endFrame": 9449
+            },
+            {
+              "id": "w_0220",
+              "text": "लेना...",
+              "startFrame": 9449,
+              "endFrame": 9512
+            }
+          ]
+        },
+        {
+          "id": "l_06_05",
+          "text": "ना कल की फ़िक्र हो,",
+          "startFrame": 9582,
+          "endFrame": 9778,
+          "accentWords": [
+            "फ़िक्र"
+          ],
+          "words": [
+            {
+              "id": "w_0221",
+              "text": "ना",
+              "startFrame": 9582,
+              "endFrame": 9588
+            },
+            {
+              "id": "w_0222",
+              "text": "कल",
+              "startFrame": 9588,
+              "endFrame": 9608
+            },
+            {
+              "id": "w_0223",
+              "text": "की",
+              "startFrame": 9608,
+              "endFrame": 9631
+            },
+            {
+              "id": "w_0224",
+              "text": "फ़िक्र",
+              "startFrame": 9631,
+              "endFrame": 9680
+            },
+            {
+              "id": "w_0225",
+              "text": "हो,",
+              "startFrame": 9680,
+              "endFrame": 9763
+            }
+          ]
+        },
+        {
+          "id": "l_06_06",
+          "text": "ना कल का कोई डर...",
+          "startFrame": 9778,
+          "endFrame": 9929,
+          "accentWords": [
+            "कोई"
+          ],
+          "words": [
+            {
+              "id": "w_0226",
+              "text": "ना",
+              "startFrame": 9778,
+              "endFrame": 9782
+            },
+            {
+              "id": "w_0227",
+              "text": "कल",
+              "startFrame": 9782,
+              "endFrame": 9802
+            },
+            {
+              "id": "w_0228",
+              "text": "का",
+              "startFrame": 9802,
+              "endFrame": 9827
+            },
+            {
+              "id": "w_0229",
+              "text": "कोई",
+              "startFrame": 9827,
+              "endFrame": 9856
+            },
+            {
+              "id": "w_0230",
+              "text": "डर...",
+              "startFrame": 9856,
+              "endFrame": 9919
+            }
+          ]
+        },
+        {
+          "id": "l_06_07",
+          "text": "बस साँसों में घुल जाए,",
+          "startFrame": 9929,
+          "endFrame": 10133,
+          "accentWords": [
+            "साँसों"
+          ],
+          "words": [
+            {
+              "id": "w_0231",
+              "text": "बस",
+              "startFrame": 9929,
+              "endFrame": 9940
+            },
+            {
+              "id": "w_0232",
+              "text": "साँसों",
+              "startFrame": 9940,
+              "endFrame": 10006
+            },
+            {
+              "id": "w_0233",
+              "text": "में",
+              "startFrame": 10006,
+              "endFrame": 10024
+            },
+            {
+              "id": "w_0234",
+              "text": "घुल",
+              "startFrame": 10043,
+              "endFrame": 10050
+            },
+            {
+              "id": "w_0235",
+              "text": "जाए,",
+              "startFrame": 10050,
+              "endFrame": 10123
+            }
+          ]
+        },
+        {
+          "id": "l_06_08",
+          "text": "ये चाँदनी रात भर...",
+          "startFrame": 10133,
+          "endFrame": 10303,
+          "accentWords": [
+            "चाँदनी"
+          ],
+          "words": [
+            {
+              "id": "w_0236",
+              "text": "ये",
+              "startFrame": 10133,
+              "endFrame": 10134
+            },
+            {
+              "id": "w_0237",
+              "text": "चाँदनी",
+              "startFrame": 10134,
+              "endFrame": 10201
+            },
+            {
+              "id": "w_0238",
+              "text": "रात",
+              "startFrame": 10201,
+              "endFrame": 10240
+            },
+            {
+              "id": "w_0239",
+              "text": "भर...",
+              "startFrame": 10240,
+              "endFrame": 10303
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

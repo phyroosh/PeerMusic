@@ -1,0 +1,1587 @@
+{
+  "songTitle": "School Wali Crush (स्कूल वाली क्रश)",
+  "audioFile": "audio/school_wali_crush_radio.mp3",
+  "theme": "SongCoverArtwork",
+  "fps": 60,
+  "totalFrames": 10590,
+  "coverImage": "covers/school_wali_crush_clean_16x9.png",
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "Classroom Morning Sun & Quiet Glance",
+      "sectionTag": "01 // INTRO  •  CLASSROOM NOSTALGIA",
+      "startFrame": 0,
+      "endFrame": 1530,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "Soft nostalgic piano prelude • Morning sunlight streaming through dusty school windowpanes",
+      "lines": []
+    },
+    {
+      "id": "scene_02_intro_vocals",
+      "name": "Pehli Nazar & Kitaabon Mein Chhupkar",
+      "sectionTag": "02 // PRELUDE  •  PEHLI NAZAR",
+      "startFrame": 1530,
+      "endFrame": 3120,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "That first glance across the classroom • Hiding behind textbooks just to see you",
+      "lines": [
+        {
+          "id": "line_02_01",
+          "text": "वो पहली नज़र, वो पहला एहसास,",
+          "startTime": 25.84,
+          "endTime": 31.68,
+          "startFrame": 1550,
+          "endFrame": 1901,
+          "words": [
+            {
+              "id": "w_02_0001",
+              "text": "वो",
+              "startFrame": 1550,
+              "endFrame": 1554,
+              "accent": false
+            },
+            {
+              "id": "w_02_0002",
+              "text": "पहली",
+              "startFrame": 1554,
+              "endFrame": 1595,
+              "accent": false
+            },
+            {
+              "id": "w_02_0003",
+              "text": "नज़र,",
+              "startFrame": 1595,
+              "endFrame": 1692,
+              "accent": false
+            },
+            {
+              "id": "w_02_0004",
+              "text": "वो",
+              "startFrame": 1740,
+              "endFrame": 1745,
+              "accent": false
+            },
+            {
+              "id": "w_02_0005",
+              "text": "पहला",
+              "startFrame": 1745,
+              "endFrame": 1786,
+              "accent": false
+            },
+            {
+              "id": "w_02_0006",
+              "text": "एहसास,",
+              "startFrame": 1799,
+              "endFrame": 1901,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_02_02",
+          "text": "तेरी मुस्कुराहट, मेरा दिल तेरे पास।",
+          "startTime": 32.64,
+          "endTime": 39.0,
+          "startFrame": 1958,
+          "endFrame": 2340,
+          "words": [
+            {
+              "id": "w_02_0007",
+              "text": "तेरी",
+              "startFrame": 1958,
+              "endFrame": 1974,
+              "accent": false
+            },
+            {
+              "id": "w_02_0008",
+              "text": "मुस्कुराहट,",
+              "startFrame": 1974,
+              "endFrame": 2092,
+              "accent": true
+            },
+            {
+              "id": "w_02_0009",
+              "text": "मेरा",
+              "startFrame": 2095,
+              "endFrame": 2116,
+              "accent": false
+            },
+            {
+              "id": "w_02_0010",
+              "text": "दिल",
+              "startFrame": 2116,
+              "endFrame": 2146,
+              "accent": false
+            },
+            {
+              "id": "w_02_0011",
+              "text": "तेरे",
+              "startFrame": 2146,
+              "endFrame": 2215,
+              "accent": false
+            },
+            {
+              "id": "w_02_0012",
+              "text": "पास।",
+              "startFrame": 2215,
+              "endFrame": 2340,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_03",
+          "text": "किताबों में छुपकर, तुझे देखना,",
+          "startTime": 39.0,
+          "endTime": 45.56,
+          "startFrame": 2340,
+          "endFrame": 2776,
+          "words": [
+            {
+              "id": "w_02_0013",
+              "text": "किताबों",
+              "startFrame": 2340,
+              "endFrame": 2400,
+              "accent": true
+            },
+            {
+              "id": "w_02_0014",
+              "text": "में",
+              "startFrame": 2400,
+              "endFrame": 2412,
+              "accent": false
+            },
+            {
+              "id": "w_02_0015",
+              "text": "छुपकर,",
+              "startFrame": 2412,
+              "endFrame": 2544,
+              "accent": false
+            },
+            {
+              "id": "w_02_0016",
+              "text": "तुझे",
+              "startFrame": 2550,
+              "endFrame": 2576,
+              "accent": false
+            },
+            {
+              "id": "w_02_0017",
+              "text": "देखना,",
+              "startFrame": 2576,
+              "endFrame": 2734,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_04",
+          "text": "बिन कुछ कहे ही, तुझसे प्यार करना...",
+          "startTime": 46.26,
+          "endTime": 51.38,
+          "startFrame": 2776,
+          "endFrame": 3083,
+          "words": [
+            {
+              "id": "w_02_0018",
+              "text": "बिन",
+              "startFrame": 2776,
+              "endFrame": 2785,
+              "accent": false
+            },
+            {
+              "id": "w_02_0019",
+              "text": "कुछ",
+              "startFrame": 2785,
+              "endFrame": 2806,
+              "accent": false
+            },
+            {
+              "id": "w_02_0020",
+              "text": "कहे",
+              "startFrame": 2806,
+              "endFrame": 2843,
+              "accent": false
+            },
+            {
+              "id": "w_02_0021",
+              "text": "ही,",
+              "startFrame": 2843,
+              "endFrame": 2892,
+              "accent": false
+            },
+            {
+              "id": "w_02_0022",
+              "text": "तुझसे",
+              "startFrame": 2898,
+              "endFrame": 2940,
+              "accent": false
+            },
+            {
+              "id": "w_02_0023",
+              "text": "प्यार",
+              "startFrame": 2940,
+              "endFrame": 2994,
+              "accent": true
+            },
+            {
+              "id": "w_02_0024",
+              "text": "करना...",
+              "startFrame": 2999,
+              "endFrame": 3083,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_verse_1",
+      "name": "Class Mein Aana & Dhadkan Badh Jaana",
+      "sectionTag": "03 // VERSE 1  •  DHADKAN MERI",
+      "startFrame": 3120,
+      "endFrame": 4830,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "Every time you walked in, my heart raced • Writing your name beside mine",
+      "lines": [
+        {
+          "id": "line_03_01",
+          "text": "जब तू क्लास में आती थी,",
+          "startTime": 53.38,
+          "endTime": 56.16,
+          "startFrame": 3203,
+          "endFrame": 3372,
+          "words": [
+            {
+              "id": "w_03_0025",
+              "text": "जब",
+              "startFrame": 3203,
+              "endFrame": 3218,
+              "accent": false
+            },
+            {
+              "id": "w_03_0026",
+              "text": "तू",
+              "startFrame": 3218,
+              "endFrame": 3233,
+              "accent": false
+            },
+            {
+              "id": "w_03_0027",
+              "text": "क्लास",
+              "startFrame": 3233,
+              "endFrame": 3258,
+              "accent": true
+            },
+            {
+              "id": "w_03_0028",
+              "text": "में",
+              "startFrame": 3258,
+              "endFrame": 3280,
+              "accent": false
+            },
+            {
+              "id": "w_03_0029",
+              "text": "आती",
+              "startFrame": 3280,
+              "endFrame": 3313,
+              "accent": false
+            },
+            {
+              "id": "w_03_0030",
+              "text": "थी,",
+              "startFrame": 3313,
+              "endFrame": 3370,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_02",
+          "text": "धड़कन मेरी बढ़ जाती थी।",
+          "startTime": 56.2,
+          "endTime": 59.82,
+          "startFrame": 3372,
+          "endFrame": 3589,
+          "words": [
+            {
+              "id": "w_03_0031",
+              "text": "धड़कन",
+              "startFrame": 3372,
+              "endFrame": 3403,
+              "accent": true
+            },
+            {
+              "id": "w_03_0032",
+              "text": "मेरी",
+              "startFrame": 3403,
+              "endFrame": 3446,
+              "accent": false
+            },
+            {
+              "id": "w_03_0033",
+              "text": "बढ़",
+              "startFrame": 3446,
+              "endFrame": 3468,
+              "accent": false
+            },
+            {
+              "id": "w_03_0034",
+              "text": "जाती",
+              "startFrame": 3468,
+              "endFrame": 3514,
+              "accent": false
+            },
+            {
+              "id": "w_03_0035",
+              "text": "थी।",
+              "startFrame": 3514,
+              "endFrame": 3589,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_03",
+          "text": "तू नज़रें उठाकर देखे अगर,",
+          "startTime": 59.82,
+          "endTime": 63.5,
+          "startFrame": 3589,
+          "endFrame": 3812,
+          "words": [
+            {
+              "id": "w_03_0036",
+              "text": "तू",
+              "startFrame": 3589,
+              "endFrame": 3617,
+              "accent": false
+            },
+            {
+              "id": "w_03_0037",
+              "text": "नज़रें",
+              "startFrame": 3617,
+              "endFrame": 3673,
+              "accent": true
+            },
+            {
+              "id": "w_03_0038",
+              "text": "उठाकर",
+              "startFrame": 3673,
+              "endFrame": 3721,
+              "accent": false
+            },
+            {
+              "id": "w_03_0039",
+              "text": "देखे",
+              "startFrame": 3760,
+              "endFrame": 3778,
+              "accent": false
+            },
+            {
+              "id": "w_03_0040",
+              "text": "अगर,",
+              "startFrame": 3778,
+              "endFrame": 3810,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_04",
+          "text": "मेरी दुनिया रुक जाती थी।",
+          "startTime": 63.54,
+          "endTime": 66.74,
+          "startFrame": 3812,
+          "endFrame": 4004,
+          "words": [
+            {
+              "id": "w_03_0041",
+              "text": "मेरी",
+              "startFrame": 3812,
+              "endFrame": 3826,
+              "accent": false
+            },
+            {
+              "id": "w_03_0042",
+              "text": "दुनिया",
+              "startFrame": 3826,
+              "endFrame": 3857,
+              "accent": true
+            },
+            {
+              "id": "w_03_0043",
+              "text": "रुक",
+              "startFrame": 3857,
+              "endFrame": 3872,
+              "accent": false
+            },
+            {
+              "id": "w_03_0044",
+              "text": "जाती",
+              "startFrame": 3872,
+              "endFrame": 3918,
+              "accent": false
+            },
+            {
+              "id": "w_03_0045",
+              "text": "थी।",
+              "startFrame": 3918,
+              "endFrame": 4004,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_05",
+          "text": "तेरे नाम के साथ अपना नाम,",
+          "startTime": 66.74,
+          "endTime": 70.26,
+          "startFrame": 4004,
+          "endFrame": 4216,
+          "words": [
+            {
+              "id": "w_03_0046",
+              "text": "तेरे",
+              "startFrame": 4004,
+              "endFrame": 4031,
+              "accent": false
+            },
+            {
+              "id": "w_03_0047",
+              "text": "नाम",
+              "startFrame": 4031,
+              "endFrame": 4061,
+              "accent": true
+            },
+            {
+              "id": "w_03_0048",
+              "text": "के",
+              "startFrame": 4061,
+              "endFrame": 4076,
+              "accent": false
+            },
+            {
+              "id": "w_03_0049",
+              "text": "साथ",
+              "startFrame": 4076,
+              "endFrame": 4121,
+              "accent": false
+            },
+            {
+              "id": "w_03_0050",
+              "text": "अपना",
+              "startFrame": 4121,
+              "endFrame": 4169,
+              "accent": false
+            },
+            {
+              "id": "w_03_0051",
+              "text": "नाम,",
+              "startFrame": 4169,
+              "endFrame": 4216,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_03_06",
+          "text": "लिखता था मैं बार-बार।",
+          "startTime": 70.26,
+          "endTime": 73.0,
+          "startFrame": 4216,
+          "endFrame": 4385,
+          "words": [
+            {
+              "id": "w_03_0052",
+              "text": "लिखता",
+              "startFrame": 4216,
+              "endFrame": 4249,
+              "accent": false
+            },
+            {
+              "id": "w_03_0053",
+              "text": "था",
+              "startFrame": 4249,
+              "endFrame": 4264,
+              "accent": false
+            },
+            {
+              "id": "w_03_0054",
+              "text": "मैं",
+              "startFrame": 4279,
+              "endFrame": 4288,
+              "accent": false
+            },
+            {
+              "id": "w_03_0055",
+              "text": "बार-बार।",
+              "startFrame": 4288,
+              "endFrame": 4380,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_07",
+          "text": "एक मुस्कान तेरी मिल जाए,",
+          "startTime": 73.08,
+          "endTime": 76.58,
+          "startFrame": 4385,
+          "endFrame": 4614,
+          "words": [
+            {
+              "id": "w_03_0056",
+              "text": "एक",
+              "startFrame": 4385,
+              "endFrame": 4406,
+              "accent": false
+            },
+            {
+              "id": "w_03_0057",
+              "text": "मुस्कान",
+              "startFrame": 4406,
+              "endFrame": 4463,
+              "accent": true
+            },
+            {
+              "id": "w_03_0058",
+              "text": "तेरी",
+              "startFrame": 4463,
+              "endFrame": 4499,
+              "accent": false
+            },
+            {
+              "id": "w_03_0059",
+              "text": "मिल",
+              "startFrame": 4499,
+              "endFrame": 4526,
+              "accent": false
+            },
+            {
+              "id": "w_03_0060",
+              "text": "जाए,",
+              "startFrame": 4526,
+              "endFrame": 4595,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_08",
+          "text": "बस इतना था मेरा प्यार।",
+          "startTime": 76.9,
+          "endTime": 79.8,
+          "startFrame": 4614,
+          "endFrame": 4788,
+          "words": [
+            {
+              "id": "w_03_0061",
+              "text": "बस",
+              "startFrame": 4614,
+              "endFrame": 4625,
+              "accent": false
+            },
+            {
+              "id": "w_03_0062",
+              "text": "इतना",
+              "startFrame": 4625,
+              "endFrame": 4672,
+              "accent": false
+            },
+            {
+              "id": "w_03_0063",
+              "text": "था",
+              "startFrame": 4672,
+              "endFrame": 4682,
+              "accent": false
+            },
+            {
+              "id": "w_03_0064",
+              "text": "मेरा",
+              "startFrame": 4682,
+              "endFrame": 4740,
+              "accent": false
+            },
+            {
+              "id": "w_03_0065",
+              "text": "प्यार।",
+              "startFrame": 4740,
+              "endFrame": 4788,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_04_prechorus_1",
+      "name": "Na Tu Samjhi & Dil Ne Chaha",
+      "sectionTag": "04 // PRE-CHORUS  •  UNSAID WORDS",
+      "startFrame": 4830,
+      "endFrame": 5250,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "Neither could you understand, nor could I speak • Yet my heart only longed for you",
+      "lines": [
+        {
+          "id": "line_04_01",
+          "text": "ना तू समझी, ना मैं कह पाया,",
+          "startTime": 79.8,
+          "endTime": 82.83,
+          "startFrame": 4830,
+          "endFrame": 5009,
+          "words": [
+            {
+              "id": "w_04_0066",
+              "text": "ना",
+              "startFrame": 4830,
+              "endFrame": 4834,
+              "accent": false
+            },
+            {
+              "id": "w_04_0067",
+              "text": "तू",
+              "startFrame": 4834,
+              "endFrame": 4838,
+              "accent": false
+            },
+            {
+              "id": "w_04_0068",
+              "text": "समझी,",
+              "startFrame": 4838,
+              "endFrame": 4878,
+              "accent": true
+            },
+            {
+              "id": "w_04_0069",
+              "text": "ना",
+              "startFrame": 4880,
+              "endFrame": 4890,
+              "accent": false
+            },
+            {
+              "id": "w_04_0070",
+              "text": "मैं",
+              "startFrame": 4890,
+              "endFrame": 4907,
+              "accent": false
+            },
+            {
+              "id": "w_04_0071",
+              "text": "कह",
+              "startFrame": 4907,
+              "endFrame": 4925,
+              "accent": false
+            },
+            {
+              "id": "w_04_0072",
+              "text": "पाया,",
+              "startFrame": 4925,
+              "endFrame": 4970,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_02",
+          "text": "दिल ने फिर भी तुझे ही चाहा...",
+          "startTime": 83.48,
+          "endTime": 86.03,
+          "startFrame": 5009,
+          "endFrame": 5162,
+          "words": [
+            {
+              "id": "w_04_0073",
+              "text": "दिल",
+              "startFrame": 5009,
+              "endFrame": 5023,
+              "accent": false
+            },
+            {
+              "id": "w_04_0074",
+              "text": "ने",
+              "startFrame": 5023,
+              "endFrame": 5032,
+              "accent": false
+            },
+            {
+              "id": "w_04_0075",
+              "text": "फिर",
+              "startFrame": 5032,
+              "endFrame": 5050,
+              "accent": false
+            },
+            {
+              "id": "w_04_0076",
+              "text": "भी",
+              "startFrame": 5050,
+              "endFrame": 5064,
+              "accent": false
+            },
+            {
+              "id": "w_04_0077",
+              "text": "तुझे",
+              "startFrame": 5064,
+              "endFrame": 5107,
+              "accent": false
+            },
+            {
+              "id": "w_04_0078",
+              "text": "ही",
+              "startFrame": 5107,
+              "endFrame": 5123,
+              "accent": false
+            },
+            {
+              "id": "w_04_0079",
+              "text": "चाहा...",
+              "startFrame": 5123,
+              "endFrame": 5162,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_chorus_1",
+      "name": "O Meri School Wali Crush",
+      "sectionTag": "05 // CHORUS  •  SCHOOL WALI CRUSH",
+      "startFrame": 5250,
+      "endFrame": 6930,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "O my school-time crush • Lunch break smiles and memories that never fade",
+      "lines": [
+        {
+          "id": "line_05_01",
+          "text": "ओ मेरी स्कूल वाली क्रश,",
+          "startTime": 88.06,
+          "endTime": 91.36,
+          "startFrame": 5284,
+          "endFrame": 5490,
+          "words": [
+            {
+              "id": "w_05_0080",
+              "text": "ओ",
+              "startFrame": 5284,
+              "endFrame": 5288,
+              "accent": false
+            },
+            {
+              "id": "w_05_0081",
+              "text": "मेरी",
+              "startFrame": 5288,
+              "endFrame": 5321,
+              "accent": false
+            },
+            {
+              "id": "w_05_0082",
+              "text": "स्कूल",
+              "startFrame": 5321,
+              "endFrame": 5384,
+              "accent": false
+            },
+            {
+              "id": "w_05_0083",
+              "text": "वाली",
+              "startFrame": 5384,
+              "endFrame": 5424,
+              "accent": false
+            },
+            {
+              "id": "w_05_0084",
+              "text": "क्रश,",
+              "startFrame": 5424,
+              "endFrame": 5482,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_05_02",
+          "text": "दिल को तेरा ही था नशा।",
+          "startTime": 91.5,
+          "endTime": 94.72,
+          "startFrame": 5490,
+          "endFrame": 5683,
+          "words": [
+            {
+              "id": "w_05_0085",
+              "text": "दिल",
+              "startFrame": 5490,
+              "endFrame": 5496,
+              "accent": false
+            },
+            {
+              "id": "w_05_0086",
+              "text": "को",
+              "startFrame": 5496,
+              "endFrame": 5512,
+              "accent": false
+            },
+            {
+              "id": "w_05_0087",
+              "text": "तेरा",
+              "startFrame": 5512,
+              "endFrame": 5558,
+              "accent": false
+            },
+            {
+              "id": "w_05_0088",
+              "text": "ही",
+              "startFrame": 5558,
+              "endFrame": 5582,
+              "accent": false
+            },
+            {
+              "id": "w_05_0089",
+              "text": "था",
+              "startFrame": 5582,
+              "endFrame": 5606,
+              "accent": false
+            },
+            {
+              "id": "w_05_0090",
+              "text": "नशा।",
+              "startFrame": 5606,
+              "endFrame": 5683,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_05_03",
+          "text": "तेरी हँसी, तेरी बातें,",
+          "startTime": 94.72,
+          "endTime": 98.36,
+          "startFrame": 5683,
+          "endFrame": 5923,
+          "words": [
+            {
+              "id": "w_05_0091",
+              "text": "तेरी",
+              "startFrame": 5683,
+              "endFrame": 5717,
+              "accent": false
+            },
+            {
+              "id": "w_05_0092",
+              "text": "हँसी,",
+              "startFrame": 5717,
+              "endFrame": 5801,
+              "accent": true
+            },
+            {
+              "id": "w_05_0093",
+              "text": "तेरी",
+              "startFrame": 5812,
+              "endFrame": 5830,
+              "accent": false
+            },
+            {
+              "id": "w_05_0094",
+              "text": "बातें,",
+              "startFrame": 5830,
+              "endFrame": 5902,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_04",
+          "text": "याद हैं मुझको दिन-रातें।",
+          "startTime": 98.72,
+          "endTime": 101.48,
+          "startFrame": 5923,
+          "endFrame": 6089,
+          "words": [
+            {
+              "id": "w_05_0095",
+              "text": "याद",
+              "startFrame": 5923,
+              "endFrame": 5927,
+              "accent": false
+            },
+            {
+              "id": "w_05_0096",
+              "text": "हैं",
+              "startFrame": 5927,
+              "endFrame": 5947,
+              "accent": false
+            },
+            {
+              "id": "w_05_0097",
+              "text": "मुझको",
+              "startFrame": 5947,
+              "endFrame": 5992,
+              "accent": false
+            },
+            {
+              "id": "w_05_0098",
+              "text": "दिन-रातें।",
+              "startFrame": 5992,
+              "endFrame": 6089,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_05",
+          "text": "वो लंच ब्रेक, वो मुलाक़ात,",
+          "startTime": 101.48,
+          "endTime": 104.84,
+          "startFrame": 6089,
+          "endFrame": 6293,
+          "words": [
+            {
+              "id": "w_05_0099",
+              "text": "वो",
+              "startFrame": 6089,
+              "endFrame": 6094,
+              "accent": false
+            },
+            {
+              "id": "w_05_0100",
+              "text": "लंच",
+              "startFrame": 6094,
+              "endFrame": 6126,
+              "accent": true
+            },
+            {
+              "id": "w_05_0101",
+              "text": "ब्रेक,",
+              "startFrame": 6126,
+              "endFrame": 6186,
+              "accent": false
+            },
+            {
+              "id": "w_05_0102",
+              "text": "वो",
+              "startFrame": 6190,
+              "endFrame": 6194,
+              "accent": false
+            },
+            {
+              "id": "w_05_0103",
+              "text": "मुलाक़ात,",
+              "startFrame": 6194,
+              "endFrame": 6290,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_06",
+          "text": "तेरे साथ गुज़री हर बात।",
+          "startTime": 104.88,
+          "endTime": 108.68,
+          "startFrame": 6293,
+          "endFrame": 6524,
+          "words": [
+            {
+              "id": "w_05_0104",
+              "text": "तेरे",
+              "startFrame": 6293,
+              "endFrame": 6314,
+              "accent": false
+            },
+            {
+              "id": "w_05_0105",
+              "text": "साथ",
+              "startFrame": 6314,
+              "endFrame": 6338,
+              "accent": false
+            },
+            {
+              "id": "w_05_0106",
+              "text": "गुज़री",
+              "startFrame": 6338,
+              "endFrame": 6392,
+              "accent": false
+            },
+            {
+              "id": "w_05_0107",
+              "text": "हर",
+              "startFrame": 6392,
+              "endFrame": 6428,
+              "accent": false
+            },
+            {
+              "id": "w_05_0108",
+              "text": "बात।",
+              "startFrame": 6449,
+              "endFrame": 6521,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_05_07",
+          "text": "वक़्त भले ही बीत गया,",
+          "startTime": 108.74,
+          "endTime": 111.92,
+          "startFrame": 6524,
+          "endFrame": 6720,
+          "words": [
+            {
+              "id": "w_05_0109",
+              "text": "वक़्त",
+              "startFrame": 6524,
+              "endFrame": 6533,
+              "accent": true
+            },
+            {
+              "id": "w_05_0110",
+              "text": "भले",
+              "startFrame": 6533,
+              "endFrame": 6563,
+              "accent": false
+            },
+            {
+              "id": "w_05_0111",
+              "text": "ही",
+              "startFrame": 6563,
+              "endFrame": 6592,
+              "accent": false
+            },
+            {
+              "id": "w_05_0112",
+              "text": "बीत",
+              "startFrame": 6592,
+              "endFrame": 6628,
+              "accent": false
+            },
+            {
+              "id": "w_05_0113",
+              "text": "गया,",
+              "startFrame": 6628,
+              "endFrame": 6715,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_08",
+          "text": "दिल वहीं पर रह गया।",
+          "startTime": 112.0,
+          "endTime": 141.22,
+          "startFrame": 6720,
+          "endFrame": 8473,
+          "words": [
+            {
+              "id": "w_05_0114",
+              "text": "दिल",
+              "startFrame": 6720,
+              "endFrame": 6734,
+              "accent": true
+            },
+            {
+              "id": "w_05_0115",
+              "text": "वहीं",
+              "startFrame": 6734,
+              "endFrame": 6778,
+              "accent": false
+            },
+            {
+              "id": "w_05_0116",
+              "text": "पर",
+              "startFrame": 6778,
+              "endFrame": 6793,
+              "accent": false
+            },
+            {
+              "id": "w_05_0117",
+              "text": "रह",
+              "startFrame": 6926,
+              "endFrame": 6930,
+              "accent": false
+            },
+            {
+              "id": "w_05_0118",
+              "text": "गया।",
+              "startFrame": 6926,
+              "endFrame": 6930,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_interlude",
+      "name": "Corridor Chimes & Melodic Interlude",
+      "sectionTag": "06 // INTERLUDE  •  GOLDEN CORRIDORS",
+      "startFrame": 6930,
+      "endFrame": 8490,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "Acoustic guitar and gentle flute interlude • Dusty sunbeams falling on empty wooden benches",
+      "lines": []
+    },
+    {
+      "id": "scene_07_verse_2",
+      "name": "Pen Ka Bahaana & Teri Copy",
+      "sectionTag": "07 // VERSE 2  •  SECRET NOTES",
+      "startFrame": 8490,
+      "endFrame": 10050,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "Borrowing pens just to be near you • A thousand unsaid letters hidden in notebooks",
+      "lines": [
+        {
+          "id": "line_07_01",
+          "text": "तेरी पेन के बहाने,",
+          "startTime": 141.22,
+          "endTime": 145.52,
+          "startFrame": 8490,
+          "endFrame": 8744,
+          "words": [
+            {
+              "id": "w_07_0119",
+              "text": "तेरी",
+              "startFrame": 8490,
+              "endFrame": 8560,
+              "accent": false
+            },
+            {
+              "id": "w_07_0120",
+              "text": "पेन",
+              "startFrame": 8560,
+              "endFrame": 8593,
+              "accent": true
+            },
+            {
+              "id": "w_07_0121",
+              "text": "के",
+              "startFrame": 8593,
+              "endFrame": 8618,
+              "accent": false
+            },
+            {
+              "id": "w_07_0122",
+              "text": "बहाने,",
+              "startFrame": 8618,
+              "endFrame": 8731,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_02",
+          "text": "तेरे पास आना था।",
+          "startTime": 145.74,
+          "endTime": 148.3,
+          "startFrame": 8744,
+          "endFrame": 8898,
+          "words": [
+            {
+              "id": "w_07_0123",
+              "text": "तेरे",
+              "startFrame": 8744,
+              "endFrame": 8764,
+              "accent": false
+            },
+            {
+              "id": "w_07_0124",
+              "text": "पास",
+              "startFrame": 8764,
+              "endFrame": 8796,
+              "accent": true
+            },
+            {
+              "id": "w_07_0125",
+              "text": "आना",
+              "startFrame": 8796,
+              "endFrame": 8844,
+              "accent": false
+            },
+            {
+              "id": "w_07_0126",
+              "text": "था।",
+              "startFrame": 8844,
+              "endFrame": 8898,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_03",
+          "text": "तेरे साथ दो पल मिल जाएँ,",
+          "startTime": 148.3,
+          "endTime": 151.92,
+          "startFrame": 8898,
+          "endFrame": 9134,
+          "words": [
+            {
+              "id": "w_07_0127",
+              "text": "तेरे",
+              "startFrame": 8898,
+              "endFrame": 8936,
+              "accent": false
+            },
+            {
+              "id": "w_07_0128",
+              "text": "साथ",
+              "startFrame": 8936,
+              "endFrame": 8959,
+              "accent": false
+            },
+            {
+              "id": "w_07_0129",
+              "text": "दो",
+              "startFrame": 8959,
+              "endFrame": 8977,
+              "accent": false
+            },
+            {
+              "id": "w_07_0130",
+              "text": "पल",
+              "startFrame": 8977,
+              "endFrame": 9010,
+              "accent": false
+            },
+            {
+              "id": "w_07_0131",
+              "text": "मिल",
+              "startFrame": 9010,
+              "endFrame": 9049,
+              "accent": false
+            },
+            {
+              "id": "w_07_0132",
+              "text": "जाएँ,",
+              "startFrame": 9049,
+              "endFrame": 9115,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_04",
+          "text": "बस इतना ख़ज़ाना था।",
+          "startTime": 152.24,
+          "endTime": 155.3,
+          "startFrame": 9134,
+          "endFrame": 9318,
+          "words": [
+            {
+              "id": "w_07_0133",
+              "text": "बस",
+              "startFrame": 9134,
+              "endFrame": 9144,
+              "accent": false
+            },
+            {
+              "id": "w_07_0134",
+              "text": "इतना",
+              "startFrame": 9144,
+              "endFrame": 9185,
+              "accent": false
+            },
+            {
+              "id": "w_07_0135",
+              "text": "ख़ज़ाना",
+              "startFrame": 9185,
+              "endFrame": 9248,
+              "accent": true
+            },
+            {
+              "id": "w_07_0136",
+              "text": "था।",
+              "startFrame": 9248,
+              "endFrame": 9318,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_05",
+          "text": "तेरी कॉपी, मेरा नाम,",
+          "startTime": 155.3,
+          "endTime": 158.26,
+          "startFrame": 9318,
+          "endFrame": 9516,
+          "words": [
+            {
+              "id": "w_07_0137",
+              "text": "तेरी",
+              "startFrame": 9318,
+              "endFrame": 9355,
+              "accent": false
+            },
+            {
+              "id": "w_07_0138",
+              "text": "कॉपी,",
+              "startFrame": 9355,
+              "endFrame": 9436,
+              "accent": true
+            },
+            {
+              "id": "w_07_0139",
+              "text": "मेरा",
+              "startFrame": 9439,
+              "endFrame": 9455,
+              "accent": false
+            },
+            {
+              "id": "w_07_0140",
+              "text": "नाम,",
+              "startFrame": 9455,
+              "endFrame": 9496,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_06",
+          "text": "दिल में छुपे हज़ार पैग़ाम।",
+          "startTime": 158.6,
+          "endTime": 162.34,
+          "startFrame": 9516,
+          "endFrame": 9749,
+          "words": [
+            {
+              "id": "w_07_0141",
+              "text": "दिल",
+              "startFrame": 9516,
+              "endFrame": 9524,
+              "accent": false
+            },
+            {
+              "id": "w_07_0142",
+              "text": "में",
+              "startFrame": 9524,
+              "endFrame": 9541,
+              "accent": false
+            },
+            {
+              "id": "w_07_0143",
+              "text": "छुपे",
+              "startFrame": 9541,
+              "endFrame": 9582,
+              "accent": false
+            },
+            {
+              "id": "w_07_0144",
+              "text": "हज़ार",
+              "startFrame": 9582,
+              "endFrame": 9638,
+              "accent": false
+            },
+            {
+              "id": "w_07_0145",
+              "text": "पैग़ाम।",
+              "startFrame": 9638,
+              "endFrame": 9740,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_07",
+          "text": "तू तो हँसकर चल देती थी,",
+          "startTime": 162.48,
+          "endTime": 165.66,
+          "startFrame": 9749,
+          "endFrame": 9941,
+          "words": [
+            {
+              "id": "w_07_0146",
+              "text": "तू",
+              "startFrame": 9749,
+              "endFrame": 9755,
+              "accent": false
+            },
+            {
+              "id": "w_07_0147",
+              "text": "तो",
+              "startFrame": 9755,
+              "endFrame": 9767,
+              "accent": false
+            },
+            {
+              "id": "w_07_0148",
+              "text": "हँसकर",
+              "startFrame": 9767,
+              "endFrame": 9818,
+              "accent": true
+            },
+            {
+              "id": "w_07_0149",
+              "text": "चल",
+              "startFrame": 9818,
+              "endFrame": 9851,
+              "accent": false
+            },
+            {
+              "id": "w_07_0150",
+              "text": "देती",
+              "startFrame": 9851,
+              "endFrame": 9901,
+              "accent": false
+            },
+            {
+              "id": "w_07_0151",
+              "text": "थी,",
+              "startFrame": 9901,
+              "endFrame": 9940,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_08",
+          "text": "मैं जी लेता था वो शाम।",
+          "startTime": 165.68,
+          "endTime": 168.82,
+          "startFrame": 9941,
+          "endFrame": 10129,
+          "words": [
+            {
+              "id": "w_07_0152",
+              "text": "मैं",
+              "startFrame": 9941,
+              "endFrame": 9947,
+              "accent": false
+            },
+            {
+              "id": "w_07_0153",
+              "text": "जी",
+              "startFrame": 9947,
+              "endFrame": 9962,
+              "accent": false
+            },
+            {
+              "id": "w_07_0154",
+              "text": "लेता",
+              "startFrame": 9962,
+              "endFrame": 10016,
+              "accent": false
+            },
+            {
+              "id": "w_07_0155",
+              "text": "था",
+              "startFrame": 10016,
+              "endFrame": 10040,
+              "accent": false
+            },
+            {
+              "id": "w_07_0156",
+              "text": "वो",
+              "startFrame": 10040,
+              "endFrame": 10050,
+              "accent": false
+            },
+            {
+              "id": "w_07_0157",
+              "text": "शाम।",
+              "startFrame": 10046,
+              "endFrame": 10050,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_08_prechorus_2",
+      "name": "Baatein Adhoori & Khushi Thodi",
+      "sectionTag": "08 // PRE-CHORUS  •  BITTERSWEET",
+      "startFrame": 10050,
+      "endFrame": 10590,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "classroom_desk",
+      "subtitle": "So many conversations left unfinished • Every joy felt incomplete without you",
+      "lines": [
+        {
+          "id": "line_08_01",
+          "text": "कितनी बातें रह गईं अधूरी,",
+          "startTime": 168.82,
+          "endTime": 172.4,
+          "startFrame": 10129,
+          "endFrame": 10372,
+          "words": [
+            {
+              "id": "w_08_0158",
+              "text": "कितनी",
+              "startFrame": 10129,
+              "endFrame": 10168,
+              "accent": false
+            },
+            {
+              "id": "w_08_0159",
+              "text": "बातें",
+              "startFrame": 10168,
+              "endFrame": 10231,
+              "accent": false
+            },
+            {
+              "id": "w_08_0160",
+              "text": "रह",
+              "startFrame": 10231,
+              "endFrame": 10252,
+              "accent": false
+            },
+            {
+              "id": "w_08_0161",
+              "text": "गईं",
+              "startFrame": 10252,
+              "endFrame": 10278,
+              "accent": false
+            },
+            {
+              "id": "w_08_0162",
+              "text": "अधूरी,",
+              "startFrame": 10278,
+              "endFrame": 10344,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_08_02",
+          "text": "तेरे बिना हर ख़ुशी थी थोड़ी...",
+          "startTime": 172.86,
+          "endTime": 179.04,
+          "startFrame": 10372,
+          "endFrame": 10590,
+          "words": [
+            {
+              "id": "w_08_0163",
+              "text": "तेरे",
+              "startFrame": 10372,
+              "endFrame": 10388,
+              "accent": false
+            },
+            {
+              "id": "w_08_0164",
+              "text": "बिना",
+              "startFrame": 10388,
+              "endFrame": 10421,
+              "accent": false
+            },
+            {
+              "id": "w_08_0165",
+              "text": "हर",
+              "startFrame": 10421,
+              "endFrame": 10444,
+              "accent": false
+            },
+            {
+              "id": "w_08_0166",
+              "text": "ख़ुशी",
+              "startFrame": 10444,
+              "endFrame": 10481,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "durationSeconds": 176.5
+}

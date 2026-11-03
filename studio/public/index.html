@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeerMusic YouTube Studio - Motion Graphics & Auto-Uploader</title>
+  
+  <!-- Offline Local Vendor Scripts (Zero External CDN Dependency) -->
+  <script src="/vendor/tailwind.js"></script>
+  <script src="/vendor/lucide.min.js"></script>
+
+  <script>
+    if (window.tailwind) {
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                crimson: '#8A2434',
+                crimsonHover: '#a32b3e',
+                kraft: '#EFE8DC',
+                paper: '#FAF6EE',
+                dark: '#12100C',
+                card: '#1B1813',
+                cardHover: '#231F19',
+                border: '#2E271D',
+                borderLight: '#42392B',
+                gold: '#C9A875',
+                goldLight: '#E8D4B0',
+                goldDark: '#8F7142',
+              }
+            }
+          }
+        }
+      };
+    }
+  </script>
+
+  <!-- Complete Standalone CSS Stylesheet (Guaranteeing beautiful layout even without Tailwind) -->
+  <style>
+    :root {
+      --bg: #12100C;
+      --card: #1B1813;
+      --card-hover: #231F19;
+      --border: #2E271D;
+      --border-light: #42392B;
+      --text: #FAF6EE;
+      --text-muted: #A39988;
+      --crimson: #8A2434;
+      --crimson-hover: #A32B3E;
+      --gold: #C9A875;
+      --gold-light: #E8D4B0;
+      --emerald: #10B981;
+      --rose: #F43F5E;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #14120E;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2E271D;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #C9A875;
+    }
+
+    /* Card Glows & Transitions */
+    .glow-gold:hover {
+      box-shadow: 0 0 20px rgba(201, 168, 117, 0.15);
+      border-color: rgba(201, 168, 117, 0.4);
+    }
+    .glow-crimson {
+      box-shadow: 0 4px 20px rgba(138, 36, 52, 0.35);
+    }
+    .video-card-active {
+      background: linear-gradient(135deg, rgba(138, 36, 52, 0.22) 0%, rgba(27, 24, 19, 0.95) 100%) !important;
+      border-color: #C9A875 !important;
+      box-shadow: 0 0 16px rgba(201, 168, 117, 0.2);
+    }
+
+    /* Subtle Animated Gradients */
+    .bg-crimson-gradient {
+      background: linear-gradient(135deg, #8A2434 0%, #6E1A27 100%);
+    }
+    .btn-gradient {
+      background: linear-gradient(135deg, #8A2434 0%, #A32B3E 50%, #C9A875 100%);
+      background-size: 200% auto;
+      transition: all 0.3s ease;
+    }
+    .btn-gradient:hover {
+      background-position: right center;
+    }
+
+    /* Custom Tags Badges */
+    .tag-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      background: rgba(201, 168, 117, 0.12);
+      border: 1px solid rgba(201, 168, 117, 0.25);
+      color: #E8D4B0;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .tag-chip button {
+      background: none;
+      border: none;
+      color: #C9A875;
+      cursor: pointer;
+      font-size: 11px;
+      padding: 0 2px;
+      line-height: 1;
+    }
+    .tag-chip button:hover {
+      color: #F43F5E;
+    }
+
+    /* YouTube Card Mockup */
+    .yt-mockup {
+      background: #0F0F0F;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #272727;
+      max-width: 360px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body class="bg-brand-dark text-brand-paper">
+
+  <!-- ===================================================================
+       1. TOP NAVIGATION HEADER
+       =================================================================== -->
+  <header class="border-b border-brand-border bg-brand-card/95 backdrop-blur-md sticky top-0 z-40 px-6 py-3 flex items-center justify-between shadow-xl">
+    <div class="flex items-center gap-4">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-crimson to-amber-700 flex items-center justify-center shadow-lg shadow-brand-crimson/25 border border-brand-gold/40 flex-shrink-0">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FAF6EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/>
+        </svg>
+      </div>
+      <div>
+        <div class="flex items-center gap-2.5">
+          <span class="text-lg font-black tracking-tight text-brand-paper font-sans">PeerMusic</span>
+          <span class="px-2 py-0.5 text-[10px] font-bold bg-brand-crimson/25 text-rose-300 border border-brand-crimson/50 rounded-full uppercase tracking-wider">
+            YouTube Studio
+          </span>
+          <span class="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-950/60 border border-emerald-800/60 text-[10px] font-semibold text-emerald-400">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Port 4001
+          </span>
+        </div>
+        <p class="text-xs text-brand-gold/80 font-medium">Cinematic Motion Graphics & YouTube Auto-Uploader</p>
+      </div>
+    </div>
+
+    <!-- Right Controls: Channel Pill & Settings -->
+    <div class="flex items-center gap-3">
+      <!-- Fast Re-generate Metadata button -->
+      <button onclick="triggerAutoGenerateMetadata()" title="Run AI/Script Metadata Generator on all videos" class="px-3 py-1.5 text-xs font-semibold rounded-xl bg-brand-card hover:bg-brand-cardHover border border-brand-border hover:border-brand-gold/60 text-brand-gold transition flex items-center gap-1.5 shadow-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+        </svg>
+        <span class="hidden sm:inline">Refresh Metadata</span>
+      </button>
+
+      <!-- Active Channel Pill Widget -->
+      <div id="channelPill" onclick="openChannelModal()" class="cursor-pointer flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-brand-dark/90 border border-brand-border hover:border-brand-gold/70 transition shadow-inner group">
+        <div id="channelAvatarContainer" class="w-7 h-7 rounded-full bg-brand-crimson overflow-hidden flex items-center justify-center text-xs font-bold text-white border border-brand-gold/50 flex-shrink-0">
+          <img id="channelAvatarImg" src="/api/channel-avatar/default" onerror="this.src='/api/channel-avatar/default'" class="w-full h-full object-cover" alt="Avatar" />
+        </div>
+        <div class="text-left">
+          <div id="channelTitle" class="text-xs font-bold text-brand-paper leading-tight group-hover:text-brand-gold transition">Checking channel...</div>
+          <div id="channelHandle" class="text-[10px] text-brand-gold/80 font-mono leading-none">@channel</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-gold/70 group-hover:translate-y-0.5 transition-transform ml-0.5">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+      </div>
+
+      <!-- Channels & Settings Button -->
+      <button onclick="openChannelModal()" class="px-3.5 py-2 text-xs font-bold rounded-xl bg-brand-crimson hover:bg-brand-crimsonHover text-white shadow-md shadow-brand-crimson/25 flex items-center gap-1.5 transition active:scale-95 border border-brand-crimson/40">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+        <span>Channels</span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ===================================================================
+       2. MAIN WORKSPACE: 2-COLUMN SPLIT (Catalog vs Studio)
+       =================================================================== -->
+  <main class="flex-1 max-w-[1560px] mx-auto w-full p-6 grid grid-cols-12 gap-6">
+
+    <!-- -----------------------------------------------------------------
+         LEFT COLUMN: VIDEO CATALOG (Col 1 to 5)
+         ----------------------------------------------------------------- -->
+    <section class="col-span-12 lg:col-span-5 flex flex-col gap-4">
+      
+      <!-- Catalog Header Bar -->
+      <div class="bg-brand-card border border-brand-border rounded-2xl p-4 shadow-lg flex flex-col gap-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-lg bg-brand-crimson/20 border border-brand-crimson/40 text-brand-gold flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 8 6 4-6 4Z"/>
+              </svg>
+            </div>
+            <div>
+              <h2 class="text-sm font-bold text-brand-paper uppercase tracking-wider flex items-center gap-2">
+                Rendered Videos <span class="text-xs font-mono text-brand-gold font-normal">in out/</span>
+              </h2>
+              <p id="catalogSubtitle" class="text-[11px] text-gray-400 mt-0.5">Scanning out/ directory...</p>
+            </div>
+          </div>
+
+          <button onclick="loadVideos()" title="Refresh video catalog" class="p-2 rounded-xl bg-brand-dark hover:bg-brand-cardHover text-brand-gold border border-brand-border hover:border-brand-gold/60 transition shadow-sm active:rotate-180 duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+              <path d="M3 3v5h5"/>
+              <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/>
+              <path d="M16 21h5v-5"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Search & Filter Controls -->
+        <div class="flex flex-col gap-2 pt-1 border-t border-brand-border/60">
+          <div class="relative">
+            <input type="text" id="videoSearchInput" oninput="filterVideos()" placeholder="Search by song name or filename..." class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl pl-8 pr-3 py-1.5 text-xs text-brand-paper placeholder-gray-500 focus:outline-none transition" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute left-2.5 top-2.5 text-gray-500">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+            </svg>
+          </div>
+
+          <!-- Quick Filter Tabs -->
+          <div class="flex items-center gap-1.5 overflow-x-auto pb-1 text-[11px] font-semibold text-gray-400">
+            <button onclick="setFilter('all')" id="tabFilterAll" class="px-2.5 py-1 rounded-lg bg-brand-gold text-brand-dark font-bold transition">All</button>
+            <button onclick="setFilter('landscape')" id="tabFilterLandscape" class="px-2.5 py-1 rounded-lg bg-brand-dark hover:bg-brand-cardHover border border-brand-border transition">16:9 Landscape</button>
+            <button onclick="setFilter('vertical')" id="tabFilterVertical" class="px-2.5 py-1 rounded-lg bg-brand-dark hover:bg-brand-cardHover border border-brand-border transition">9:16 Shorts</button>
+            <button onclick="setFilter('live')" id="tabFilterLive" class="px-2.5 py-1 rounded-lg bg-brand-dark hover:bg-brand-cardHover border border-brand-border transition">Live on YT</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Cards List Container -->
+      <div id="videoListContainer" class="flex flex-col gap-3 max-h-[calc(100vh-270px)] overflow-y-auto pr-1">
+        <div class="p-8 text-center text-gray-500 border border-brand-border/60 rounded-2xl bg-brand-card">
+          <div class="w-8 h-8 rounded-full border-2 border-brand-gold/40 border-t-brand-gold animate-spin mx-auto mb-3"></div>
+          <p class="text-xs font-semibold text-brand-paper">Scanning out/ catalog...</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- -----------------------------------------------------------------
+         RIGHT COLUMN: METADATA STUDIO & UPLOADER (Col 6 to 12)
+         ----------------------------------------------------------------- -->
+    <section class="col-span-12 lg:col-span-7 flex flex-col gap-5">
+      
+      <!-- Video Metadata Studio Panel -->
+      <div class="bg-brand-card border border-brand-border rounded-2xl p-6 shadow-xl flex flex-col gap-5">
+
+        <!-- Selected Video Header Bar -->
+        <div class="flex items-start justify-between pb-5 border-b border-brand-border gap-4">
+          <div class="flex items-center gap-4 min-w-0">
+            <!-- Thumbnail preview with Play overlay button -->
+            <div id="selectedThumbBox" class="w-28 h-18 rounded-xl bg-brand-dark border border-brand-border overflow-hidden flex-shrink-0 relative group shadow-md cursor-pointer" onclick="openVideoPlayerModal()" title="Click to preview video">
+              <img id="selectedThumbImg" src="/assets/default_thumb.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" alt="Video thumbnail" />
+              <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <div class="w-8 h-8 rounded-full bg-brand-crimson/90 text-white flex items-center justify-center shadow-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="6 3 20 12 6 21 6 3"/>
+                  </svg>
+                </div>
+              </div>
+              <span id="selectedThumbAspectTag" class="absolute bottom-1 right-1 px-1.5 py-0.5 text-[8px] font-bold rounded bg-black/85 text-brand-gold border border-brand-gold/30">
+                16:9
+              </span>
+            </div>
+
+            <div class="min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span id="selectedFilenameDisplay" class="font-mono text-sm font-bold text-brand-paper truncate">Select a video from the catalog</span>
+                <span id="selectedFormatBadge" class="px-2 py-0.5 text-[10px] font-bold rounded-md bg-brand-dark border border-brand-border text-brand-gold">
+                  16:9 Landscape
+                </span>
+                <span id="selectedCoverBadge" class="hidden px-2 py-0.5 text-[10px] font-bold rounded-md bg-amber-950/80 text-amber-300 border border-amber-700/60 flex items-center gap-1 shadow-sm">
+                  🎨 Custom Cover Ready
+                </span>
+                <span id="selectedLiveBadge" class="hidden px-2 py-0.5 text-[10px] font-bold rounded-md bg-emerald-950 text-emerald-300 border border-emerald-800 flex items-center gap-1">
+                  ✓ Live on YouTube
+                </span>
+              </div>
+              <p id="selectedMetaInfo" class="text-xs text-gray-400 mt-1 font-mono">0.0 MB • out/ directory</p>
+              
+              <!-- Quick Actions row -->
+              <div class="flex items-center gap-3 mt-2 flex-wrap">
+                <button type="button" onclick="openVideoPlayerModal()" class="text-xs text-brand-gold hover:text-brand-goldLight font-semibold flex items-center gap-1 underline underline-offset-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 3 19 12 5 21 5 3"/>
+                  </svg>
+                  Preview Video
+                </button>
+                <span class="text-gray-600">•</span>
+                <button type="button" id="viewSquareCoverBtn" onclick="openSquareCoverModal()" class="hidden text-xs text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-1 underline underline-offset-2">
+                  <span>🎵 1:1 Spotify Cover</span>
+                </button>
+                <span id="coverDivider" class="hidden text-gray-600">•</span>
+                <label class="text-xs text-gray-300 hover:text-white font-semibold flex items-center gap-1 cursor-pointer underline underline-offset-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                  </svg>
+                  <span>📷 Swap Thumb</span>
+                  <input type="file" id="replaceThumbInput" accept="image/jpeg,image/png" class="hidden" onchange="handleThumbnailUpload(event)" />
+                </label>
+                <span id="liveDivider" class="hidden text-gray-600">•</span>
+                <a id="selectedLiveAnchor" href="#" target="_blank" class="hidden text-xs text-rose-400 hover:text-rose-300 font-semibold flex items-center gap-1 underline">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/>
+                  </svg>
+                  Open on YouTube
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Top Save / Action Buttons -->
+          <div class="flex items-center gap-2 flex-shrink-0">
+            <button onclick="toggleMockupPreview()" id="mockupToggleBtn" class="px-3 py-1.5 text-xs font-semibold rounded-xl bg-brand-dark hover:bg-brand-cardHover border border-brand-border text-brand-gold transition flex items-center gap-1.5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>
+              </svg>
+              <span>YT Preview</span>
+            </button>
+            <button onclick="saveCurrentMetadata()" class="px-3.5 py-1.5 text-xs font-bold rounded-xl bg-brand-dark hover:bg-brand-cardHover border border-brand-border hover:border-brand-gold text-brand-paper hover:text-brand-gold transition flex items-center gap-1.5 shadow-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/>
+                <polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/>
+              </svg>
+              Save Metadata
+            </button>
+          </div>
+        </div>
+
+        <!-- YOUTUBE FEED MOCKUP PREVIEW (Collapsible) -->
+        <div id="youtubeMockupCard" class="hidden p-4 rounded-2xl bg-brand-dark/95 border border-brand-gold/30 shadow-inner flex flex-col md:flex-row gap-4 items-center">
+          <div class="yt-mockup flex-shrink-0">
+            <div class="w-full aspect-video bg-black relative">
+              <img id="mockupThumbImg" src="/assets/default_thumb.png" class="w-full h-full object-cover" />
+              <span id="mockupAspectBadge" class="absolute bottom-1.5 right-1.5 px-1 py-0.5 text-[9px] font-bold rounded bg-black/90 text-white">16:9</span>
+            </div>
+            <div class="p-3 flex gap-2.5">
+              <div class="w-9 h-9 rounded-full bg-brand-crimson flex-shrink-0 overflow-hidden border border-brand-gold/40">
+                <img id="mockupAvatarImg" src="/api/channel-avatar/default" class="w-full h-full object-cover" />
+              </div>
+              <div class="min-w-0">
+                <h4 id="mockupTitleText" class="text-xs font-bold text-white line-clamp-2 leading-snug">Song Title (Official Lyrical Video)</h4>
+                <p id="mockupChannelName" class="text-[11px] text-gray-400 mt-1">Judy Insights • 1.2K views • Just now</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-xs text-gray-300 flex-1">
+            <div class="font-bold text-brand-gold uppercase text-[10px] tracking-wider mb-1">Live YouTube Feed Simulation</div>
+            <p class="text-[11px] leading-relaxed text-gray-400">
+              This preview simulates how your music video appears on YouTube's homepage and search results with the attached custom thumbnail, title styling, and channel identity.
+            </p>
+          </div>
+        </div>
+
+        <!-- FORM CONTROLS -->
+        <form id="metadataForm" onsubmit="event.preventDefault();" class="flex flex-col gap-4">
+          
+          <!-- 1. Video Title -->
+          <div>
+            <div class="flex justify-between items-center mb-1">
+              <label class="text-xs font-bold text-brand-gold flex items-center gap-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8A2434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/>
+                </svg>
+                Video Title
+              </label>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="applyTitlePreset()" class="text-[10px] text-brand-gold hover:underline">Apply Lyrical Preset</button>
+                <span id="titleCounter" class="text-[10px] text-gray-500 font-mono">0 / 100</span>
+              </div>
+            </div>
+            <input type="text" id="metaTitle" oninput="updateCounters()" placeholder="Song Title (Official Lyrical Video) | Hindi Indie Ballad 🎧" class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl px-3.5 py-2.5 text-sm text-brand-paper placeholder-gray-600 focus:outline-none transition shadow-inner font-medium" />
+          </div>
+
+          <!-- 2. Privacy Status, Schedule, & Category Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
+              <label class="text-xs font-bold text-brand-gold mb-1 flex items-center gap-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8A2434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/>
+                </svg>
+                Privacy Status
+              </label>
+              <select id="metaPrivacy" onchange="toggleScheduleInput()" class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl px-3 py-2 text-xs text-brand-paper focus:outline-none">
+                <option value="public">Public (Immediate Live)</option>
+                <option value="unlisted">Unlisted</option>
+                <option value="private">Private</option>
+                <option value="scheduled">Scheduled Premiere</option>
+              </select>
+            </div>
+
+            <!-- Future date picker for scheduled releases -->
+            <div id="scheduleTimeContainer" class="hidden">
+              <label class="text-xs font-bold text-brand-gold mb-1 flex items-center gap-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8A2434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+                Premiere Date & Time
+              </label>
+              <input type="datetime-local" id="metaPublishAt" class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl px-3 py-1.5 text-xs text-brand-paper focus:outline-none" />
+            </div>
+
+            <div>
+              <label class="text-xs font-bold text-brand-gold mb-1 flex items-center gap-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8A2434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z"/><circle cx="7" cy="7" r=".5" fill="currentColor"/>
+                </svg>
+                Category
+              </label>
+              <select id="metaCategory" class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl px-3 py-2 text-xs text-brand-paper focus:outline-none">
+                <option value="10" selected>10 - Music</option>
+                <option value="24">24 - Entertainment</option>
+                <option value="22">22 - People & Blogs</option>
+                <option value="1">1 - Film & Animation</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 3. Description (Lyrics, Credits & Hashtags) -->
+          <div>
+            <div class="flex justify-between items-center mb-1">
+              <label class="text-xs font-bold text-brand-gold flex items-center gap-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8A2434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="21" x2="3" y1="6" y2="6"/><line x1="15" x2="3" y1="12" y2="12"/><line x1="17" x2="3" y1="18" y2="18"/>
+                </svg>
+                Description (Synopsis, Full Lyrics & Credits)
+              </label>
+              <div class="flex items-center gap-2">
+                <button type="button" onclick="insertDescriptionTemplate()" class="text-[10px] text-brand-gold hover:underline">+ Insert Credits Template</button>
+                <span id="descCounter" class="text-[10px] text-gray-500 font-mono">0 chars</span>
+              </div>
+            </div>
+            <textarea id="metaDescription" oninput="updateCounters()" rows="7" placeholder="Song story, full lyrics breakdown, credits, and YouTube hashtags..." class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl p-3.5 text-xs text-brand-paper font-sans leading-relaxed placeholder-gray-600 focus:outline-none transition shadow-inner custom-scroll"></textarea>
+          </div>
+
+          <!-- 4. Tags with interactive tag chips -->
+          <div>
+            <div class="flex justify-between items-center mb-1">
+              <label class="text-xs font-bold text-brand-gold flex items-center gap-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8A2434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="4" x2="20" y1="9" y2="9"/><line x1="4" x2="20" y1="15" y2="15"/><line x1="10" x2="8" y1="3" y2="21"/><line x1="16" x2="14" y1="3" y2="21"/>
+                </svg>
+                YouTube Search Tags (Comma-separated)
+              </label>
+              <span id="tagCharCounter" class="text-[10px] text-gray-500 font-mono">0 / 500 chars</span>
+            </div>
+            <input type="text" id="metaTags" oninput="renderTagChips()" placeholder="Hindi lyrical video, Bollywood indie, Acoustic ballad, Aesthetic music video, ..." class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl px-3.5 py-2 text-xs text-brand-paper placeholder-gray-600 focus:outline-none shadow-inner" />
+            <!-- Tag chips preview container -->
+            <div id="tagChipsContainer" class="flex flex-wrap gap-1.5 mt-2"></div>
+          </div>
+
+          <!-- 5. Pinned Discussion Comment -->
+          <div class="p-3.5 rounded-xl bg-brand-dark/60 border border-brand-border flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <label class="text-xs font-bold text-brand-gold flex items-center gap-1.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8A2434" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+                Pinned Creator Comment (Community Hook)
+              </label>
+              <div class="flex items-center gap-2">
+                <input type="checkbox" id="autoPostCommentCheck" checked class="w-3.5 h-3.5 accent-brand-crimson rounded cursor-pointer" />
+                <label for="autoPostCommentCheck" class="text-[11px] text-gray-400 cursor-pointer">Post and pin on upload</label>
+              </div>
+            </div>
+            <input type="text" id="metaPinnedComment" placeholder="Which lyric hit your heart the hardest? Tell us below! 🎧❤️" class="w-full bg-brand-dark border border-brand-border focus:border-brand-gold rounded-xl px-3 py-2 text-xs text-brand-paper placeholder-gray-600 focus:outline-none shadow-inner" />
+          </div>
+
+          <!-- 6. Master Upload Button -->
+          <div class="pt-3 border-t border-brand-border">
+            <button id="uploadBtn" onclick="triggerUpload()" class="btn-gradient w-full py-4 px-6 rounded-xl text-white font-bold text-sm shadow-xl flex items-center justify-center gap-2.5 transition active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M12 12v9"/><path d="m16 16-4-4-4 4"/>
+              </svg>
+              <span id="uploadBtnText">Upload Video to YouTube</span>
+            </button>
+            <button type="button" id="updateThumbnailLiveBtn" onclick="pushThumbnailToLiveVideo()" class="hidden w-full mt-2.5 py-3 rounded-xl bg-brand-dark hover:bg-brand-cardHover border border-amber-600/60 hover:border-amber-400 text-amber-300 font-bold text-xs flex items-center justify-center gap-2 shadow-md transition cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/>
+              </svg>
+              <span id="updateThumbnailBtnText">Update YT Thumbnail for Live Video</span>
+            </button>
+            <p class="text-center text-[11px] text-gray-500 mt-2">
+              Streams video from <code class="text-brand-gold">out/</code>, binds high-converting thumbnail, tags & pinned creator comment.
+            </p>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ===================================================================
+       3. VIDEO PLAYER MODAL (In-App HTML5 Preview)
+       =================================================================== -->
+  <div id="videoPlayerModal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-brand-card border border-brand-border w-full max-w-3xl rounded-2xl p-5 shadow-2xl flex flex-col gap-4">
+      <div class="flex items-center justify-between pb-2 border-b border-brand-border">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-brand-crimson/20 border border-brand-crimson/40 text-brand-gold flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"/>
+            </svg>
+          </div>
+          <div>
+            <h3 id="playerModalTitle" class="text-sm font-bold text-brand-paper">Video Player Preview</h3>
+            <p id="playerModalFilename" class="text-[11px] font-mono text-brand-gold">filename.mp4</p>
+          </div>
+        </div>
+        <button onclick="closeVideoPlayerModal()" class="text-gray-400 hover:text-white p-1 rounded-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- HTML5 Video Container -->
+      <div class="w-full bg-black rounded-xl overflow-hidden shadow-2xl flex items-center justify-center max-h-[65vh]">
+        <video id="html5VideoPlayer" controls autoplay class="w-full max-h-[60vh] object-contain"></video>
+      </div>
+
+      <div class="flex items-center justify-between pt-1">
+        <p class="text-[11px] text-gray-400">Streamed via HTTP 206 partial chunking from PeerMusic Engine</p>
+        <button onclick="closeVideoPlayerModal()" class="px-4 py-1.5 rounded-xl bg-brand-dark hover:bg-brand-cardHover border border-brand-border text-xs font-bold text-brand-paper">
+          Close Preview
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       3B. 1:1 SQUARE COVER MODAL (Spotify & Apple Music Preview)
+       =================================================================== -->
+  <div id="squareCoverModal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-brand-card border border-brand-border w-full max-w-md rounded-2xl p-5 shadow-2xl flex flex-col gap-4">
+      <div class="flex items-center justify-between pb-2 border-b border-brand-border">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-amber-950/40 border border-amber-700/50 text-amber-300 flex items-center justify-center text-xs">
+            🎵
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-brand-paper">1:1 Spotify & Streaming Cover</h3>
+            <p id="squareCoverSongTitle" class="text-[11px] font-mono text-brand-gold">1500x1500 Square Artwork</p>
+          </div>
+        </div>
+        <button onclick="closeSquareCoverModal()" class="text-gray-400 hover:text-white p-1 rounded-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="w-full aspect-square bg-black rounded-xl overflow-hidden shadow-2xl flex items-center justify-center border border-brand-border relative group">
+        <img id="squareCoverImg" src="/assets/default_thumb.png" class="w-full h-full object-cover" />
+      </div>
+
+      <div class="flex items-center justify-between pt-1">
+        <a id="downloadSquareCoverAnchor" href="#" download class="px-4 py-2 rounded-xl bg-brand-crimson hover:bg-brand-crimsonHover text-white text-xs font-bold flex items-center gap-1.5 shadow-md transition">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/>
+          </svg>
+          Download 1:1 Cover
+        </a>
+        <button onclick="closeSquareCoverModal()" class="px-4 py-2 rounded-xl bg-brand-dark hover:bg-brand-cardHover border border-brand-border text-xs font-bold text-brand-paper">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ===================================================================
+       4. CHANNEL & SETTINGS MODAL
+       =================================================================== -->
+  <div id="channelModal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-brand-card border border-brand-border w-full max-w-lg rounded-2xl p-6 shadow-2xl flex flex-col gap-5">
+      
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between pb-3 border-b border-brand-border">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-rose-600/20 text-rose-500 flex items-center justify-center border border-rose-600/30">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#1B1813"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-brand-paper">YouTube Channel Management</h3>
+            <p class="text-[11px] text-gray-400">Switch accounts or import RightClips credentials</p>
+          </div>
+        </div>
+        <button onclick="closeChannelModal()" class="text-gray-400 hover:text-white p-1 rounded-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Current Connected Channel Box -->
+      <div id="modalChannelInfo" class="p-4 rounded-xl bg-brand-dark border border-brand-border flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div id="modalAvatar" class="w-12 h-12 rounded-full overflow-hidden bg-brand-crimson border-2 border-brand-gold/50 flex items-center justify-center text-white flex-shrink-0">
+            <img id="modalAvatarImg" src="/api/channel-avatar/default" class="w-full h-full object-cover" />
+          </div>
+          <div>
+            <div id="modalTitle" class="font-bold text-sm text-brand-paper">Connecting...</div>
+            <div id="modalHandle" class="text-xs text-brand-gold font-mono">@channel</div>
+            <div id="modalStats" class="text-[11px] text-gray-400 mt-0.5">0 subscribers • 0 videos</div>
+          </div>
+        </div>
+        <span id="modalStatusBadge" class="px-2.5 py-1 text-[10px] font-bold rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800">
+          Connected
+        </span>
+      </div>
+
+      <!-- Action Options -->
+      <div class="flex flex-col gap-3">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-brand-gold">Fast Connection Actions</h4>
+
+        <!-- Option 1: 1-Click Import from RightClips -->
+        <button onclick="importRightClips()" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-950/40 to-brand-crimson/30 hover:from-amber-950/60 hover:to-brand-crimson/50 border border-brand-gold/50 text-left flex items-center justify-between transition group shadow-md">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-300 flex items-center justify-center font-black text-sm">
+              ⚡
+            </div>
+            <div>
+              <div class="text-xs font-bold text-brand-paper group-hover:text-brand-gold transition">1-Click Import from RightClips</div>
+              <div class="text-[10px] text-gray-400">Instantly import channels and credentials from /TopProducts/RightClips</div>
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A875" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform">
+            <line x1="5" x2="19" y1="12" y2="12"/><polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </button>
+
+        <!-- Option 2: Connect via Google OAuth -->
+        <button onclick="startGoogleAuth()" class="w-full py-3 px-4 rounded-xl bg-brand-dark hover:bg-brand-cardHover border border-brand-border text-left flex items-center justify-between transition group">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-rose-600/20 text-rose-400 flex items-center justify-center font-black text-xs">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" x2="3" y1="12" y2="12"/>
+              </svg>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-brand-paper group-hover:text-brand-gold transition">Authorize Google / YouTube Account</div>
+              <div class="text-[10px] text-gray-400">Sign in via Google OAuth consent screen</div>
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-400 group-hover:text-brand-gold">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/>
+          </svg>
+        </button>
+
+        <!-- Option 3: Paste client_secrets.json -->
+        <details class="rounded-xl border border-brand-border bg-brand-dark p-3 text-xs">
+          <summary class="cursor-pointer text-brand-gold font-bold flex items-center justify-between select-none">
+            <span>⚙️ Paste Custom Google Cloud client_secrets.json</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </summary>
+          <div class="mt-3 flex flex-col gap-2">
+            <p class="text-[11px] text-gray-400">Paste your downloaded Google Cloud OAuth 2.0 Client ID JSON:</p>
+            <textarea id="secretsJsonInput" rows="4" placeholder='{"installed": {"client_id": "...", "client_secret": "..."}}' class="w-full bg-black/60 border border-brand-border rounded-lg p-2 font-mono text-[10px] text-gray-300 focus:outline-none"></textarea>
+            <button onclick="saveSecretsJson()" class="w-full py-2 bg-brand-border hover:bg-brand-gold hover:text-black text-brand-paper text-xs font-bold rounded-lg transition">Save Credentials</button>
+          </div>
+        </details>
+      </div>
+
+      <!-- Connected Channels List (if multi) -->
+      <div id="otherChannelsSection" class="hidden flex flex-col gap-2 pt-2 border-t border-brand-border">
+        <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider">All Registered Channels</h4>
+        <div id="otherChannelsList" class="flex flex-col gap-1.5 max-h-36 overflow-y-auto custom-scroll"></div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- ===================================================================
+       5. UPLOAD PROGRESS MODAL
+       =================================================================== -->
+  <div id="uploadProgressModal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-brand-card border border-brand-gold/40 w-full max-w-md rounded-2xl p-6 shadow-2xl text-center flex flex-col items-center gap-4">
+      
+      <div id="uploadModalIcon" class="w-14 h-14 rounded-2xl bg-brand-crimson/25 border border-brand-crimson/50 text-brand-gold flex items-center justify-center shadow-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-pulse">
+          <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M12 12v9"/><path d="m16 16-4-4-4 4"/>
+        </svg>
+      </div>
+
+      <div>
+        <h3 id="uploadModalTitle" class="text-lg font-bold text-brand-paper">Uploading Video to YouTube</h3>
+        <p id="uploadModalFilename" class="text-xs font-mono text-brand-gold mt-0.5">filename.mp4</p>
+      </div>
+
+      <!-- Progress Bar Container -->
+      <div class="w-full bg-brand-dark rounded-full h-3.5 border border-brand-border overflow-hidden p-0.5 shadow-inner">
+        <div id="uploadProgressBar" class="h-full bg-gradient-to-r from-brand-crimson via-rose-700 to-amber-500 rounded-full transition-all duration-300" style="width: 5%"></div>
+      </div>
+
+      <div class="flex justify-between w-full text-xs text-gray-400 font-mono px-1">
+        <span id="uploadStageText">Preparing media stream...</span>
+        <span id="uploadPercentText" class="font-bold text-brand-gold">5%</span>
+      </div>
+
+      <!-- Result Link Container (Shown upon completion) -->
+      <div id="uploadResultBox" class="hidden w-full p-4 rounded-xl bg-brand-dark/95 border border-brand-gold/40 flex flex-col gap-2 mt-2">
+        <div class="text-xs font-bold text-emerald-400 flex items-center justify-center gap-1.5">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          Published to YouTube!
+        </div>
+        <a id="uploadVideoLink" href="#" target="_blank" class="text-xs font-mono text-sky-400 hover:text-sky-300 underline break-all">
+          https://youtu.be/...
+        </a>
+      </div>
+
+      <!-- Action Button -->
+      <button id="uploadCloseBtn" onclick="closeUploadModal()" class="hidden w-full py-2.5 rounded-xl bg-brand-crimson hover:bg-brand-crimsonHover text-white text-xs font-bold transition mt-2 shadow-lg">
+        Done & Return to Studio
+      </button>
+
+    </div>
+  </div>
+
+
+  <!-- ===================================================================
+       6. TOAST NOTIFICATION CONTAINER
+       =================================================================== -->
+  <div id="toastContainer" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2.5"></div>
+
+
+  <!-- ===================================================================
+       7. CORE CLIENT-SIDE LOGIC
+       =================================================================== -->
+  <script>
+    let allVideos = [];
+    let currentFilter = 'all';
+    let selectedVideo = null;
+    let authData = { authenticated: false, channel: null };
+    let pollInterval = null;
+
+    // Toast notifications
+    function showToast(msg, type = 'info') {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      toast.className = `px-4 py-3 rounded-xl shadow-2xl text-xs font-bold flex items-center gap-2 border transition-all duration-300 translate-y-3 opacity-0 ${
+        type === 'error'
+          ? 'bg-rose-950 border-rose-700 text-rose-200'
+          : type === 'success'
+          ? 'bg-emerald-950 border-emerald-700 text-emerald-200'
+          : 'bg-brand-card border-brand-gold/50 text-brand-paper'
+      }`;
+      toast.innerHTML = `<span>${msg}</span>`;
+      container.appendChild(toast);
+      
+      requestAnimationFrame(() => {
+        toast.classList.remove('translate-y-3', 'opacity-0');
+      });
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-3');
+        setTimeout(() => toast.remove(), 300);
+      }, 4200);
+    }
+
+    // Initialize Lucide icons if available
+    function refreshIcons() {
+      if (window.lucide && typeof window.lucide.createIcons === 'function') {
+        window.lucide.createIcons();
+      }
+    }
+
+    // 1. Check Authentication Status
+    async function checkAuthStatus() {
+      try {
+        const res = await fetch('/api/auth-status');
+        authData = await res.json();
+
+        const channelTitle = document.getElementById('channelTitle');
+        const channelHandle = document.getElementById('channelHandle');
+        const avatarImg = document.getElementById('channelAvatarImg');
+
+        const modalTitle = document.getElementById('modalTitle');
+        const modalHandle = document.getElementById('modalHandle');
+        const modalStats = document.getElementById('modalStats');
+        const modalAvatarImg = document.getElementById('modalAvatarImg');
+        const modalStatusBadge = document.getElementById('modalStatusBadge');
+
+        const mockupChannelName = document.getElementById('mockupChannelName');
+        const mockupAvatarImg = document.getElementById('mockupAvatarImg');
+
+        if (authData.authenticated && authData.channel) {
+          const ch = authData.channel;
+          channelTitle.textContent = ch.title;
+          channelHandle.textContent = ch.customUrl;
+          avatarImg.src = ch.avatar;
+
+          modalTitle.textContent = ch.title;
+          modalHandle.textContent = ch.customUrl;
+          modalStats.textContent = `${Number(ch.subscriberCount).toLocaleString()} subscribers • ${ch.videoCount} videos`;
+          modalAvatarImg.src = ch.avatar;
+          modalStatusBadge.textContent = 'Connected';
+          modalStatusBadge.className = 'px-2.5 py-1 text-[10px] font-bold rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800';
+
+          if (mockupChannelName) mockupChannelName.textContent = `${ch.title} • Just now`;
+          if (mockupAvatarImg) mockupAvatarImg.src = ch.avatar;
+        } else {
+          channelTitle.textContent = 'Not Connected';
+          channelHandle.textContent = 'Click to connect';
+          avatarImg.src = '/api/channel-avatar/default';
+
+          modalTitle.textContent = 'No Channel Connected';
+          modalHandle.textContent = 'Click below to connect';
+          modalStats.textContent = '0 subscribers • 0 videos';
+          modalAvatarImg.src = '/api/channel-avatar/default';
+          modalStatusBadge.textContent = 'Disconnected';
+          modalStatusBadge.className = 'px-2.5 py-1 text-[10px] font-bold rounded-full bg-rose-950 text-rose-300 border border-rose-800';
+        }
+
+        renderOtherChannels();
+      } catch (err) {
+        console.error('Error checking auth:', err);
+      }
+    }
+
+    function renderOtherChannels() {
+      const section = document.getElementById('otherChannelsSection');
+      const list = document.getElementById('otherChannelsList');
+      if (!authData.channels || authData.channels.length <= 1) {
+        section.classList.add('hidden');
+        return;
+      }
+      section.classList.remove('hidden');
+      list.innerHTML = authData.channels.map(ch => `
+        <div class="p-2 rounded-xl bg-black/40 border border-brand-border flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img src="${ch.avatar}" class="w-6 h-6 rounded-full object-cover" />
+            <span class="text-xs font-bold ${ch.isActive ? 'text-brand-gold' : 'text-gray-300'}">${ch.title}</span>
+            ${ch.isActive ? '<span class="text-[9px] bg-brand-crimson/50 px-1.5 py-0.2 rounded text-rose-200">Active</span>' : ''}
+          </div>
+          ${!ch.isActive ? `<button onclick="switchChannel('${ch.channelId}')" class="text-[10px] px-2 py-0.5 rounded bg-brand-border hover:bg-brand-gold hover:text-black text-gray-300">Switch</button>` : ''}
+        </div>
+      `).join('');
+    }
+
+    async function switchChannel(channelId) {
+      try {
+        const res = await fetch('/api/channels/switch', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ channelId })
+        });
+        const data = await res.json();
+        if (data.success) {
+          showToast(`Switched active channel to ${data.activeChannel.title}`, 'success');
+          await checkAuthStatus();
+        }
+      } catch (e) {
+        showToast('Switch error: ' + e.message, 'error');
+      }
+    }
+
+    // 2. Load Video Catalog from /api/videos
+    async function loadVideos() {
+      const container = document.getElementById('videoListContainer');
+      const sub = document.getElementById('catalogSubtitle');
+      try {
+        const res = await fetch('/api/videos');
+        const data = await res.json();
+        allVideos = data.videos || [];
+
+        sub.textContent = `${data.totalCount || 0} MP4 videos rendered • ${data.uploadedCount || 0} published to YT`;
+
+        filterVideos();
+      } catch (err) {
+        container.innerHTML = `<div class="p-4 text-xs text-rose-400 font-mono">Error loading videos: ${err.message}</div>`;
+      }
+    }
+
+    function setFilter(filter) {
+      currentFilter = filter;
+      const tabs = ['all', 'landscape', 'vertical', 'live'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('tabFilter' + t.charAt(0).toUpperCase() + t.slice(1));
+        if (btn) {
+          if (t === filter) {
+            btn.className = 'px-2.5 py-1 rounded-lg bg-brand-gold text-brand-dark font-bold transition';
+          } else {
+            btn.className = 'px-2.5 py-1 rounded-lg bg-brand-dark hover:bg-brand-cardHover border border-brand-border text-gray-400 transition';
+          }
+        }
+      });
+      filterVideos();
+    }
+
+    function filterVideos() {
+      const search = (document.getElementById('videoSearchInput').value || '').toLowerCase();
+      const filtered = allVideos.filter(vid => {
+        const matchesSearch = !search || 
+          vid.filename.toLowerCase().includes(search) || 
+          vid.cleanName.toLowerCase().includes(search) ||
+          (vid.metadata?.title || '').toLowerCase().includes(search);
+        
+        if (!matchesSearch) return false;
+
+        if (currentFilter === 'landscape') return !vid.isVertical;
+        if (currentFilter === 'vertical') return vid.isVertical;
+        if (currentFilter === 'live') return vid.uploadInfo.uploaded;
+        return true;
+      });
+
+      renderVideoList(filtered);
+    }
+
+    function renderVideoList(videos) {
+      const container = document.getElementById('videoListContainer');
+      if (videos.length === 0) {
+        container.innerHTML = `
+          <div class="p-8 text-center text-gray-400 border border-brand-border rounded-2xl bg-brand-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mx-auto mb-2 text-brand-gold/60">
+              <rect width="18" height="18" x="3" y="3" rx="2"/><line x1="2" x2="22" y1="2" y2="22"/>
+            </svg>
+            <p class="font-bold text-sm text-brand-paper">No matching videos</p>
+            <p class="text-xs text-gray-500 mt-1">Render a video or clear your search filter.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = videos.map(vid => {
+        const isUploaded = vid.uploadInfo.uploaded;
+        const isSelected = selectedVideo && selectedVideo.filename === vid.filename;
+        const thumbSrc = `/api/thumbnail/${encodeURIComponent(vid.filename)}`;
+
+        return `
+          <div onclick="selectVideo('${vid.filename}')" class="cursor-pointer p-3 rounded-2xl border transition-all flex items-center justify-between gap-3 ${
+            isSelected
+              ? 'video-card-active'
+              : 'bg-brand-card border-brand-border hover:border-brand-gold/50 hover:bg-brand-cardHover glow-gold'
+          }">
+            <div class="flex items-center gap-3 min-w-0">
+              <!-- Thumbnail Box -->
+              <div class="w-20 h-13 rounded-xl bg-brand-dark border border-brand-border overflow-hidden flex-shrink-0 relative group shadow-inner">
+                <img src="${thumbSrc}" onerror="this.src='/assets/default_thumb.png'" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                <span class="absolute bottom-0.5 right-0.5 px-1 py-0.2 text-[8px] font-bold rounded bg-black/85 text-brand-gold font-mono">
+                  ${vid.isVertical ? '9:16' : '16:9'}
+                </span>
+              </div>
+              <div class="min-w-0">
+                <div class="font-bold text-xs text-brand-paper truncate leading-snug">${vid.metadata?.title || vid.cleanName}</div>
+                <div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
+                  <span class="text-[10px] text-gray-400 font-mono truncate">${vid.filename} • ${vid.sizeMb} MB</span>
+                  ${vid.isCustomCover ? `<span class="px-1.5 py-0.2 text-[8px] font-bold rounded bg-amber-950/80 text-amber-300 border border-amber-700/60 flex-shrink-0">🎨 Cover</span>` : ''}
+                </div>
+              </div>
+            </div>
+
+            <!-- Status Pill -->
+            <div class="flex-shrink-0">
+              ${
+                isUploaded
+                  ? `<span class="px-2 py-0.5 text-[10px] font-bold rounded-lg bg-emerald-950 text-emerald-300 border border-emerald-800 flex items-center gap-1 shadow-sm">
+                      ✓ Live
+                     </span>`
+                  : `<span class="px-2 py-0.5 text-[10px] font-bold rounded-lg bg-brand-dark text-gray-400 border border-brand-border flex items-center gap-1">
+                      Ready
+                     </span>`
+              }
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Auto-select first video if nothing selected
+      if (!selectedVideo && videos.length > 0) {
+        selectVideo(videos[0].filename);
+      } else if (selectedVideo) {
+        const fresh = allVideos.find(v => v.filename === selectedVideo.filename);
+        if (fresh) selectedVideo = fresh;
+      }
+    }
+
+    // 3. Select Video & Populate Metadata Form
+    function selectVideo(filename) {
+      const vid = allVideos.find(v => v.filename === filename);
+      if (!vid) return;
+      selectedVideo = vid;
+
+      // Update Header
+      document.getElementById('selectedFilenameDisplay').textContent = vid.filename;
+      document.getElementById('selectedMetaInfo').textContent = `${vid.sizeMb} MB • Modified: ${new Date(vid.mtime).toLocaleString()}`;
+      
+      const badge = document.getElementById('selectedFormatBadge');
+      badge.textContent = vid.isVertical ? '9:16 Vertical (Shorts)' : '16:9 Landscape';
+
+      const thumbImg = document.getElementById('selectedThumbImg');
+      const thumbAspectTag = document.getElementById('selectedThumbAspectTag');
+      thumbImg.src = `/api/thumbnail/${encodeURIComponent(vid.filename)}`;
+      thumbAspectTag.textContent = vid.isVertical ? '9:16' : '16:9';
+
+      // Cover badge
+      const coverBadge = document.getElementById('selectedCoverBadge');
+      if (coverBadge) {
+        if (vid.isCustomCover) coverBadge.classList.remove('hidden');
+        else coverBadge.classList.add('hidden');
+      }
+
+      // 1:1 Spotify Cover Button
+      const viewSquareBtn = document.getElementById('viewSquareCoverBtn');
+      const coverDivider = document.getElementById('coverDivider');
+      if (viewSquareBtn && coverDivider) {
+        if (vid.hasCoverSq) {
+          viewSquareBtn.classList.remove('hidden');
+          coverDivider.classList.remove('hidden');
+        } else {
+          viewSquareBtn.classList.add('hidden');
+          coverDivider.classList.add('hidden');
+        }
+      }
+
+      // Live link badge & Update Thumbnail Button
+      const liveBadge = document.getElementById('selectedLiveBadge');
+      const liveAnchor = document.getElementById('selectedLiveAnchor');
+      const liveDivider = document.getElementById('liveDivider');
+      const updateThumbLiveBtn = document.getElementById('updateThumbnailLiveBtn');
+
+      if (vid.uploadInfo.uploaded && vid.uploadInfo.youtubeUrl) {
+        liveBadge.classList.remove('hidden');
+        liveAnchor.classList.remove('hidden');
+        liveAnchor.href = vid.uploadInfo.youtubeUrl;
+        if (liveDivider) liveDivider.classList.remove('hidden');
+        if (updateThumbLiveBtn) updateThumbLiveBtn.classList.remove('hidden');
+      } else {
+        liveBadge.classList.add('hidden');
+        liveAnchor.classList.add('hidden');
+        if (liveDivider) liveDivider.classList.add('hidden');
+        if (updateThumbLiveBtn) updateThumbLiveBtn.classList.add('hidden');
+      }
+
+      // Populate Form
+      const meta = vid.metadata || {};
+      document.getElementById('metaTitle').value = meta.title || '';
+      document.getElementById('metaPrivacy').value = meta.privacyStatus || 'public';
+      document.getElementById('metaCategory').value = meta.categoryId || '10';
+      document.getElementById('metaDescription').value = meta.description || '';
+      document.getElementById('metaTags').value = Array.isArray(meta.tags) ? meta.tags.join(', ') : (meta.tags || '');
+      document.getElementById('metaPinnedComment').value = meta.pinnedComment || '';
+
+      // Update Mockup Card
+      const mockupTitle = document.getElementById('mockupTitleText');
+      const mockupThumb = document.getElementById('mockupThumbImg');
+      const mockupAspect = document.getElementById('mockupAspectBadge');
+      if (mockupTitle) mockupTitle.textContent = meta.title || vid.cleanName;
+      if (mockupThumb) mockupThumb.src = `/api/thumbnail/${encodeURIComponent(vid.filename)}`;
+      if (mockupAspect) mockupAspect.textContent = vid.isVertical ? '9:16' : '16:9';
+
+      updateCounters();
+      renderTagChips();
+      toggleScheduleInput();
+
+      // Highlight active card in DOM
+      filterVideos();
+    }
+
+    function updateCounters() {
+      const titleVal = document.getElementById('metaTitle').value;
+      const titleCounter = document.getElementById('titleCounter');
+      titleCounter.textContent = `${titleVal.length} / 100`;
+      titleCounter.className = titleVal.length > 100 ? 'text-[10px] text-rose-400 font-mono font-bold' : 'text-[10px] text-gray-500 font-mono';
+
+      const descVal = document.getElementById('metaDescription').value;
+      document.getElementById('descCounter').textContent = `${descVal.length} chars`;
+
+      const tagsVal = document.getElementById('metaTags').value;
+      const tagCharCounter = document.getElementById('tagCharCounter');
+      tagCharCounter.textContent = `${tagsVal.length} / 500 chars`;
+      tagCharCounter.className = tagsVal.length > 500 ? 'text-[10px] text-rose-400 font-mono font-bold' : 'text-[10px] text-gray-500 font-mono';
+
+      // Sync title to mockup
+      const mockupTitle = document.getElementById('mockupTitleText');
+      if (mockupTitle) mockupTitle.textContent = titleVal || (selectedVideo ? selectedVideo.cleanName : 'Song Title');
+    }
+
+    function renderTagChips() {
+      updateCounters();
+      const raw = document.getElementById('metaTags').value;
+      const container = document.getElementById('tagChipsContainer');
+      const tags = raw.split(',').map(t => t.trim()).filter(Boolean);
+      
+      container.innerHTML = tags.map((t, idx) => `
+        <span class="tag-chip">
+          <span>#${t}</span>
+          <button type="button" onclick="removeTag(${idx})">✕</button>
+        </span>
+      `).join('');
+    }
+
+    function removeTag(index) {
+      const raw = document.getElementById('metaTags').value;
+      const tags = raw.split(',').map(t => t.trim()).filter(Boolean);
+      tags.splice(index, 1);
+      document.getElementById('metaTags').value = tags.join(', ');
+      renderTagChips();
+    }
+
+    function applyTitlePreset() {
+      if (!selectedVideo) return;
+      const isVert = selectedVideo.isVertical;
+      const clean = selectedVideo.cleanName;
+      const preset = isVert
+        ? `${clean} | Nostalgic School Memories #Shorts 🎒🎧`
+        : `${clean} (Official Lyrical Video) | Nostalgic School & Student Life Indie`;
+      const finalTitle = preset.length > 100 ? preset.slice(0, 97).trim() + '...' : preset;
+      document.getElementById('metaTitle').value = finalTitle;
+      updateCounters();
+      showToast('Applied lyrical title preset!', 'info');
+    }
+
+    function insertDescriptionTemplate() {
+      if (!selectedVideo) return;
+      const clean = selectedVideo.cleanName;
+      const template = `────────────────────────────────────────\n` +
+`🎙️ Credits & Archive Notes\n` +
+`• Project: Student's Studio (@studentstudioseries)\n` +
+`• Genre: Hindi Indie / Acoustic Nostalgia / Student Life\n` +
+`• Visuals & Direction: Student's Studio Archive\n\n` +
+`☕ For everyone chasing big dreams with small pockets, late-night cutting chai, and rough copy memories. If this song brought back a memory, drop a comment below and subscribe to join the journey.\n` +
+`────────────────────────────────────────\n\n` +
+`#HindiIndie #StudentLife #AspirantLife #SchoolMemories #IndianIndieMusic #NostalgicHindiSong #StudentsStudio #StudyMusic #CollegeLife`;
+
+      const descBox = document.getElementById('metaDescription');
+      if (descBox.value.trim().length > 0) {
+        descBox.value = descBox.value + '\n\n' + template;
+      } else {
+        descBox.value = `🎵 ${clean} — Official Lyrical Video | Student's Studio (@studentstudioseries)\n\n` +
+`A warm, nostalgic tribute to classroom benches, rough copy pages, late-night study sessions, and the friends who became family.\n\n` +
+template;
+      }
+      updateCounters();
+      showToast('Inserted indie credits template!', 'info');
+    }
+
+    function toggleScheduleInput() {
+      const priv = document.getElementById('metaPrivacy').value;
+      const container = document.getElementById('scheduleTimeContainer');
+      if (priv === 'scheduled') {
+        container.classList.remove('hidden');
+        if (!document.getElementById('metaPublishAt').value) {
+          // Default to tomorrow at 6 PM
+          const tmrw = new Date(Date.now() + 24 * 60 * 60 * 1000);
+          tmrw.setHours(18, 0, 0, 0);
+          document.getElementById('metaPublishAt').value = tmrw.toISOString().slice(0, 16);
+        }
+      } else {
+        container.classList.add('hidden');
+      }
+    }
+
+    function toggleMockupPreview() {
+      const card = document.getElementById('youtubeMockupCard');
+      card.classList.toggle('hidden');
+    }
+
+    // 4. In-App Video Player Modal
+    function openVideoPlayerModal() {
+      if (!selectedVideo) {
+        showToast('Please select a video first', 'error');
+        return;
+      }
+      const modal = document.getElementById('videoPlayerModal');
+      const title = document.getElementById('playerModalTitle');
+      const filename = document.getElementById('playerModalFilename');
+      const player = document.getElementById('html5VideoPlayer');
+
+      title.textContent = selectedVideo.metadata?.title || selectedVideo.cleanName;
+      filename.textContent = `${selectedVideo.filename} (${selectedVideo.sizeMb} MB)`;
+      player.src = `/api/video-stream/${encodeURIComponent(selectedVideo.filename)}`;
+
+      modal.classList.remove('hidden');
+      player.play().catch(() => {});
+    }
+
+    function closeVideoPlayerModal() {
+      const modal = document.getElementById('videoPlayerModal');
+      const player = document.getElementById('html5VideoPlayer');
+      player.pause();
+      player.src = '';
+      modal.classList.add('hidden');
+    }
+
+    // 5. Save Metadata
+    async function saveCurrentMetadata() {
+      if (!selectedVideo) return;
+      const metadata = {
+        title: document.getElementById('metaTitle').value,
+        privacyStatus: document.getElementById('metaPrivacy').value,
+        categoryId: document.getElementById('metaCategory').value,
+        description: document.getElementById('metaDescription').value,
+        tags: document.getElementById('metaTags').value.split(',').map(t => t.trim()).filter(Boolean),
+        pinnedComment: document.getElementById('metaPinnedComment').value,
+      };
+
+      try {
+        const res = await fetch('/api/save-metadata', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ filename: selectedVideo.filename, metadata })
+        });
+        const data = await res.json();
+        if (data.success) {
+          selectedVideo.metadata = data.metadata;
+          showToast('✅ Metadata saved to studio/metadata.json', 'success');
+          loadVideos();
+        }
+      } catch (err) {
+        showToast('Save failed: ' + err.message, 'error');
+      }
+    }
+
+    // 6. Trigger Upload to YouTube
+    async function triggerUpload() {
+      if (!selectedVideo) {
+        showToast('Please select a video file first', 'error');
+        return;
+      }
+      if (!authData.authenticated) {
+        showToast('Please connect your YouTube channel first in Settings', 'error');
+        openChannelModal();
+        return;
+      }
+
+      await saveCurrentMetadata();
+
+      const btn = document.getElementById('uploadBtn');
+      const btnText = document.getElementById('uploadBtnText');
+      btn.disabled = true;
+      btnText.textContent = 'Uploading in background...';
+
+      const payload = {
+        filename: selectedVideo.filename,
+        title: document.getElementById('metaTitle').value,
+        description: document.getElementById('metaDescription').value,
+        tags: document.getElementById('metaTags').value.split(',').map(t => t.trim()).filter(Boolean),
+        categoryId: document.getElementById('metaCategory').value,
+        privacyStatus: document.getElementById('metaPrivacy').value,
+        publishAt: document.getElementById('metaPublishAt').value || null,
+        pinnedComment: document.getElementById('metaPinnedComment').value,
+        autoPostComment: document.getElementById('autoPostCommentCheck').checked,
+      };
+
+      try {
+        const res = await fetch('/api/upload', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+
+        openUploadModal(selectedVideo.filename);
+        startPollingUpload();
+      } catch (err) {
+        btn.disabled = false;
+        btnText.textContent = 'Upload Video to YouTube';
+        showToast('Upload launch failed: ' + err.message, 'error');
+      }
+    }
+
+    // 7. Polling Upload Status
+    function startPollingUpload() {
+      if (pollInterval) clearInterval(pollInterval);
+      pollInterval = setInterval(async () => {
+        try {
+          const res = await fetch('/api/upload-status');
+          const status = await res.json();
+
+          const progressBar = document.getElementById('uploadProgressBar');
+          const stageText = document.getElementById('uploadStageText');
+          const percentText = document.getElementById('uploadPercentText');
+
+          if (status.inProgress) {
+            progressBar.style.width = `${status.progress || 5}%`;
+            percentText.textContent = `${status.progress || 5}%`;
+            stageText.textContent = status.stage || 'Uploading chunks to YouTube...';
+          } else {
+            clearInterval(pollInterval);
+            const btn = document.getElementById('uploadBtn');
+            const btnText = document.getElementById('uploadBtnText');
+            btn.disabled = false;
+            btnText.textContent = 'Upload Video to YouTube';
+
+            if (status.error) {
+              stageText.textContent = '❌ ' + status.error;
+              stageText.className = 'text-xs text-rose-400 font-bold';
+              showToast('Upload error: ' + status.error, 'error');
+              document.getElementById('uploadCloseBtn').classList.remove('hidden');
+            } else if (status.result) {
+              progressBar.style.width = '100%';
+              percentText.textContent = '100%';
+              stageText.textContent = '🎉 Video Published to YouTube!';
+              stageText.className = 'text-xs text-emerald-400 font-bold';
+
+              const resBox = document.getElementById('uploadResultBox');
+              const resLink = document.getElementById('uploadVideoLink');
+              resBox.classList.remove('hidden');
+              resLink.href = status.result.youtubeUrl;
+              resLink.textContent = status.result.youtubeUrl;
+
+              document.getElementById('uploadCloseBtn').classList.remove('hidden');
+              showToast('🎉 Video successfully published to YouTube!', 'success');
+              loadVideos();
+            }
+          }
+        } catch (e) {
+          console.warn('Poll status error:', e);
+        }
+      }, 1000);
+    }
+
+    function openUploadModal(filename) {
+      document.getElementById('uploadModalFilename').textContent = filename;
+      document.getElementById('uploadProgressBar').style.width = '5%';
+      document.getElementById('uploadPercentText').textContent = '5%';
+      document.getElementById('uploadStageText').textContent = 'Connecting to YouTube Data API...';
+      document.getElementById('uploadResultBox').classList.add('hidden');
+      document.getElementById('uploadCloseBtn').classList.add('hidden');
+      document.getElementById('uploadProgressModal').classList.remove('hidden');
+    }
+
+    function closeUploadModal() {
+      document.getElementById('uploadProgressModal').classList.add('hidden');
+    }
+
+    // Modal Helpers
+    function openChannelModal() {
+      document.getElementById('channelModal').classList.remove('hidden');
+    }
+    function closeChannelModal() {
+      document.getElementById('channelModal').classList.add('hidden');
+    }
+
+    // 8. 1-Click Import from RightClips & Google Auth
+    async function importRightClips() {
+      try {
+        showToast('Importing channels & credentials from RightClips...', 'info');
+        const res = await fetch('/api/settings/import-rightclips', { method: 'POST' });
+        const data = await res.json();
+        if (data.success) {
+          showToast(`🎉 Imported ${data.importedChannelsCount} channel(s) and ${data.importedCredsCount} credential(s)!`, 'success');
+          await checkAuthStatus();
+        } else {
+          showToast('Import notice: ' + (data.error || 'No records found'), 'error');
+        }
+      } catch (err) {
+        showToast('Import failed: ' + err.message, 'error');
+      }
+    }
+
+    async function startGoogleAuth() {
+      try {
+        const res = await fetch('/api/auth-url');
+        const data = await res.json();
+        if (data.url) {
+          window.location.href = data.url;
+        } else {
+          showToast(data.error || 'Failed to get auth URL. Check client secrets.', 'error');
+        }
+      } catch (err) {
+        showToast('Auth error: ' + err.message, 'error');
+      }
+    }
+
+    async function saveSecretsJson() {
+      const input = document.getElementById('secretsJsonInput').value;
+      if (!input.trim()) {
+        showToast('Please paste valid client_secrets.json', 'error');
+        return;
+      }
+      try {
+        const res = await fetch('/api/settings/save-secrets', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ jsonContent: input })
+        });
+        const data = await res.json();
+        if (data.success) {
+          showToast('✅ Google credentials saved! Authorizing...', 'success');
+          if (data.authUrl) {
+            window.location.href = data.authUrl;
+          }
+        } else {
+          showToast('Error: ' + data.error, 'error');
+        }
+      } catch (err) {
+        showToast('Save error: ' + err.message, 'error');
+      }
+    }
+
+    // 8B. 1:1 Square Cover Modal & Controls
+    function openSquareCoverModal() {
+      if (!selectedVideo) return;
+      const modal = document.getElementById('squareCoverModal');
+      const img = document.getElementById('squareCoverImg');
+      const title = document.getElementById('squareCoverSongTitle');
+      const anchor = document.getElementById('downloadSquareCoverAnchor');
+
+      const coverUrl = `/api/cover-sq/${encodeURIComponent(selectedVideo.filename)}?t=${Date.now()}`;
+      img.src = coverUrl;
+      title.textContent = `${selectedVideo.cleanName} • 1:1 Square Art`;
+      anchor.href = coverUrl;
+      anchor.download = `${selectedVideo.cleanName.toLowerCase().replace(/\s+/g, '_')}_cover_1x1.jpg`;
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeSquareCoverModal() {
+      const modal = document.getElementById('squareCoverModal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    // 8C. Swap / Upload Thumbnail directly
+    async function handleThumbnailUpload(event) {
+      if (!selectedVideo) {
+        showToast('Please select a video file first', 'error');
+        return;
+      }
+      const file = event.target.files?.[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = async (e) => {
+        try {
+          showToast('Uploading & optimizing thumbnail (< 1.8MB)...', 'info');
+          const res = await fetch('/api/upload-thumbnail', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              filename: selectedVideo.filename,
+              imageBase64: e.target.result,
+            })
+          });
+          const data = await res.json();
+          if (data.success) {
+            showToast('🎨 Custom thumbnail updated successfully!', 'success');
+            // Refresh previews
+            const tUrl = `/api/thumbnail/${encodeURIComponent(selectedVideo.filename)}?t=${Date.now()}`;
+            document.getElementById('selectedThumbImg').src = tUrl;
+            const mock = document.getElementById('mockupThumbImg');
+            if (mock) mock.src = tUrl;
+            await loadVideos();
+          } else {
+            showToast('Upload error: ' + (data.error || 'Failed to save'), 'error');
+          }
+        } catch (err) {
+          showToast('Upload failed: ' + err.message, 'error');
+        }
+      };
+      reader.readAsDataURL(file);
+      event.target.value = '';
+    }
+
+    // 8D. Standalone Push Thumbnail to Live Video on YouTube
+    async function pushThumbnailToLiveVideo() {
+      if (!selectedVideo || !selectedVideo.uploadInfo.uploaded || !selectedVideo.uploadInfo.videoId) {
+        showToast('This video is not yet published on YouTube', 'error');
+        return;
+      }
+
+      const btn = document.getElementById('updateThumbnailLiveBtn');
+      const btnText = document.getElementById('updateThumbnailBtnText');
+      const originalText = btnText.textContent;
+
+      try {
+        btn.disabled = true;
+        btnText.textContent = '⏳ Pushing Thumbnail to YouTube...';
+        showToast('Validating thumbnail limit (< 1.8MB) & updating YouTube...', 'info');
+
+        const res = await fetch('/api/youtube/thumbnail', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            videoId: selectedVideo.uploadInfo.videoId,
+            filename: selectedVideo.filename,
+          })
+        });
+
+        const data = await res.json();
+        if (data.success) {
+          showToast('🎉 YouTube Live Thumbnail Updated Successfully!', 'success');
+          btnText.textContent = '✓ Thumbnail Updated on YouTube!';
+          setTimeout(() => { btnText.textContent = originalText; btn.disabled = false; }, 3500);
+        } else {
+          showToast('YouTube Thumbnail Error: ' + (data.error || 'Update failed'), 'error');
+          btnText.textContent = originalText;
+          btn.disabled = false;
+        }
+      } catch (err) {
+        showToast('Push failed: ' + err.message, 'error');
+        btnText.textContent = originalText;
+        btn.disabled = false;
+      }
+    }
+
+    // 9. Re-run Metadata Auto Generator
+    async function triggerAutoGenerateMetadata() {
+      try {
+        showToast('Running metadata generator across all videos...', 'info');
+        const res = await fetch('/api/generate-metadata-auto', { method: 'POST' });
+        const data = await res.json();
+        if (data.success) {
+          showToast('✅ Metadata refreshed successfully!', 'success');
+          await loadVideos();
+        } else {
+          showToast('Generator error: ' + (data.error || 'Unknown error'), 'error');
+        }
+      } catch (e) {
+        showToast('Error: ' + e.message, 'error');
+      }
+    }
+
+    // Initial Startup
+    window.addEventListener('DOMContentLoaded', async () => {
+      refreshIcons();
+      await checkAuthStatus();
+      await loadVideos();
+    });
+  </script>
+</body>
+</html>

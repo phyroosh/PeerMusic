@@ -1,0 +1,1601 @@
+[
+  {
+    "id": "scene_01_intro",
+    "name": "Intro – Soft Piano & Rain Sounds",
+    "startSec": 0.0,
+    "endSec": 28.5,
+    "text": "हम्म्म... आआ...\nधीरे-धीरे...\nरात कहे कुछ, सुन ले ज़रा...\nखो जा कहीं... तू भी यहाँ...",
+    "words": [
+      {
+        "word": "हम्म्म...",
+        "start": 5.54,
+        "end": 5.72,
+        "probability": 0.138
+      },
+      {
+        "word": "आआ...",
+        "start": 5.72,
+        "end": 5.72,
+        "probability": 0.141
+      },
+      {
+        "word": "धीरे-धीरे...",
+        "start": 5.72,
+        "end": 7.24,
+        "probability": 0.23
+      },
+      {
+        "word": "रात",
+        "start": 8.8,
+        "end": 9.26,
+        "probability": 0.468
+      },
+      {
+        "word": "कहे",
+        "start": 9.5,
+        "end": 9.7,
+        "probability": 0.403
+      },
+      {
+        "word": "कुछ,",
+        "start": 9.7,
+        "end": 10.24,
+        "probability": 0.316
+      },
+      {
+        "word": "सुन",
+        "start": 10.56,
+        "end": 10.78,
+        "probability": 0.416
+      },
+      {
+        "word": "ले",
+        "start": 10.78,
+        "end": 11.0,
+        "probability": 0.387
+      },
+      {
+        "word": "ज़रा...",
+        "start": 11.0,
+        "end": 12.1,
+        "probability": 0.317
+      },
+      {
+        "word": "खो",
+        "start": 12.1,
+        "end": 12.22,
+        "probability": 0.312
+      },
+      {
+        "word": "जा",
+        "start": 12.22,
+        "end": 12.5,
+        "probability": 0.658
+      },
+      {
+        "word": "कहीं...",
+        "start": 12.5,
+        "end": 13.2,
+        "probability": 0.442
+      },
+      {
+        "word": "तू",
+        "start": 13.78,
+        "end": 13.98,
+        "probability": 0.58
+      },
+      {
+        "word": "भी",
+        "start": 14.28,
+        "end": 14.46,
+        "probability": 0.189
+      },
+      {
+        "word": "यहाँ...",
+        "start": 15.7,
+        "end": 16.25,
+        "probability": 0.214
+      }
+    ]
+  },
+  {
+    "id": "scene_02_verse_1",
+    "name": "Verse 1 – Chaand Bhi Aaj Dheema Lage",
+    "startSec": 28.5,
+    "endSec": 53.0,
+    "text": "चाँद भी आज कुछ धीमा लगे,\nतारों में कोई सपना जगे,\nखिड़की पे बैठी ये ठंडी हवा,\nतेरा ही नाम मुझसे कहे...\nना कोई मंज़िल, ना रास्ता,\nना कोई शिकवा, ना फ़ासला,\nबस कुछ ख़ामोशी, थोड़ी सी रात,\nऔर तेरी यादों का सिलसिला...",
+    "words": [
+      {
+        "word": "चाँद",
+        "start": 29.54,
+        "end": 30.08,
+        "probability": 0.274
+      },
+      {
+        "word": "भी",
+        "start": 30.08,
+        "end": 30.32,
+        "probability": 0.391
+      },
+      {
+        "word": "आज",
+        "start": 30.32,
+        "end": 30.72,
+        "probability": 0.577
+      },
+      {
+        "word": "कुछ",
+        "start": 30.72,
+        "end": 31.08,
+        "probability": 0.502
+      },
+      {
+        "word": "धीमा",
+        "start": 31.08,
+        "end": 31.6,
+        "probability": 0.376
+      },
+      {
+        "word": "लगे,",
+        "start": 31.6,
+        "end": 32.48,
+        "probability": 0.385
+      },
+      {
+        "word": "तारों",
+        "start": 32.92,
+        "end": 33.32,
+        "probability": 0.541
+      },
+      {
+        "word": "में",
+        "start": 33.32,
+        "end": 33.54,
+        "probability": 0.663
+      },
+      {
+        "word": "कोई",
+        "start": 33.54,
+        "end": 34.08,
+        "probability": 0.406
+      },
+      {
+        "word": "सपना",
+        "start": 34.08,
+        "end": 34.82,
+        "probability": 0.495
+      },
+      {
+        "word": "जगे,",
+        "start": 34.82,
+        "end": 36.06,
+        "probability": 0.562
+      },
+      {
+        "word": "खिड़की",
+        "start": 36.12,
+        "end": 36.52,
+        "probability": 0.304
+      },
+      {
+        "word": "पे",
+        "start": 36.52,
+        "end": 36.8,
+        "probability": 0.726
+      },
+      {
+        "word": "बैठी",
+        "start": 36.8,
+        "end": 37.26,
+        "probability": 0.298
+      },
+      {
+        "word": "ये",
+        "start": 37.26,
+        "end": 37.5,
+        "probability": 0.42
+      },
+      {
+        "word": "ठंडी",
+        "start": 37.5,
+        "end": 38.2,
+        "probability": 0.433
+      },
+      {
+        "word": "हवा,",
+        "start": 38.2,
+        "end": 39.35,
+        "probability": 0.551
+      },
+      {
+        "word": "तेरा",
+        "start": 39.56,
+        "end": 39.86,
+        "probability": 0.558
+      },
+      {
+        "word": "ही",
+        "start": 39.86,
+        "end": 40.02,
+        "probability": 0.625
+      },
+      {
+        "word": "नाम",
+        "start": 40.02,
+        "end": 40.72,
+        "probability": 0.57
+      },
+      {
+        "word": "मुझसे",
+        "start": 40.72,
+        "end": 41.24,
+        "probability": 0.325
+      },
+      {
+        "word": "कहे...",
+        "start": 41.24,
+        "end": 42.52,
+        "probability": 0.343
+      },
+      {
+        "word": "ना",
+        "start": 42.76,
+        "end": 42.86,
+        "probability": 0.106
+      },
+      {
+        "word": "कोई",
+        "start": 42.86,
+        "end": 43.2,
+        "probability": 0.219
+      },
+      {
+        "word": "मंज़िल,",
+        "start": 43.2,
+        "end": 44.05,
+        "probability": 0.22
+      },
+      {
+        "word": "ना",
+        "start": 44.46,
+        "end": 44.6,
+        "probability": 0.624
+      },
+      {
+        "word": "रास्ता,",
+        "start": 44.6,
+        "end": 45.78,
+        "probability": 0.282
+      },
+      {
+        "word": "ना",
+        "start": 45.98,
+        "end": 46.08,
+        "probability": 0.858
+      },
+      {
+        "word": "कोई",
+        "start": 46.12,
+        "end": 46.42,
+        "probability": 0.803
+      },
+      {
+        "word": "शिकवा,",
+        "start": 46.42,
+        "end": 47.17,
+        "probability": 0.465
+      },
+      {
+        "word": "ना",
+        "start": 47.62,
+        "end": 47.74,
+        "probability": 0.713
+      },
+      {
+        "word": "फ़ासला,",
+        "start": 47.74,
+        "end": 49.16,
+        "probability": 0.392
+      },
+      {
+        "word": "बस",
+        "start": 49.22,
+        "end": 49.3,
+        "probability": 0.404
+      },
+      {
+        "word": "कुछ",
+        "start": 49.3,
+        "end": 49.54,
+        "probability": 0.462
+      },
+      {
+        "word": "ख़ामोशी,",
+        "start": 49.54,
+        "end": 50.14,
+        "probability": 0.201
+      },
+      {
+        "word": "थोड़ी",
+        "start": 50.62,
+        "end": 51.04,
+        "probability": 0.3
+      },
+      {
+        "word": "सी",
+        "start": 51.04,
+        "end": 51.32,
+        "probability": 0.383
+      },
+      {
+        "word": "रात,",
+        "start": 51.32,
+        "end": 52.28,
+        "probability": 0.049
+      },
+      {
+        "word": "और",
+        "start": 52.38,
+        "end": 52.5,
+        "probability": 0.469
+      },
+      {
+        "word": "तेरी",
+        "start": 52.6,
+        "end": 52.94,
+        "probability": 0.501
+      },
+      {
+        "word": "यादों",
+        "start": 53.0,
+        "end": 53.0,
+        "probability": 0.0
+      },
+      {
+        "word": "का",
+        "start": 53.0,
+        "end": 53.0,
+        "probability": 0.0
+      },
+      {
+        "word": "सिलसिला...",
+        "start": 53.0,
+        "end": 53.0,
+        "probability": 0.0
+      }
+    ]
+  },
+  {
+    "id": "scene_03_chorus_1",
+    "name": "Chorus 1 – Tu Ek Sukoon Sa Lagta Hai",
+    "startSec": 53.0,
+    "endSec": 87.0,
+    "text": "तू... एक सुकून सा लगता है,\nजैसे कोई ख़्वाब ठहरता है,\nइस भागती सी दुनिया में,\nदिल तेरे पास ही रहता है...\nओ ओ ओ... धीरे बहने दे,\nइन लम्हों को यहीं रहने दे,\nकुछ ना कहें, कुछ ना सुनें,\nबस रात को रात रहने दे...",
+    "words": [
+      {
+        "word": "तू...",
+        "start": 53.0,
+        "end": 53.46,
+        "probability": 0.099
+      },
+      {
+        "word": "एक",
+        "start": 54.22,
+        "end": 55.82,
+        "probability": 0.238
+      },
+      {
+        "word": "सुकून",
+        "start": 55.9,
+        "end": 56.54,
+        "probability": 0.373
+      },
+      {
+        "word": "सा",
+        "start": 56.54,
+        "end": 56.88,
+        "probability": 0.657
+      },
+      {
+        "word": "लगता",
+        "start": 56.88,
+        "end": 57.7,
+        "probability": 0.4
+      },
+      {
+        "word": "है,",
+        "start": 57.7,
+        "end": 58.16,
+        "probability": 0.347
+      },
+      {
+        "word": "जैसे",
+        "start": 58.52,
+        "end": 58.92,
+        "probability": 0.552
+      },
+      {
+        "word": "कोई",
+        "start": 59.0,
+        "end": 59.3,
+        "probability": 0.334
+      },
+      {
+        "word": "ख़्वाब",
+        "start": 59.3,
+        "end": 59.92,
+        "probability": 0.16
+      },
+      {
+        "word": "ठहरता",
+        "start": 59.92,
+        "end": 60.82,
+        "probability": 0.359
+      },
+      {
+        "word": "है,",
+        "start": 60.82,
+        "end": 61.44,
+        "probability": 0.727
+      },
+      {
+        "word": "इस",
+        "start": 61.48,
+        "end": 61.84,
+        "probability": 0.55
+      },
+      {
+        "word": "भागती",
+        "start": 61.84,
+        "end": 62.86,
+        "probability": 0.404
+      },
+      {
+        "word": "सी",
+        "start": 62.86,
+        "end": 63.32,
+        "probability": 0.416
+      },
+      {
+        "word": "दुनिया",
+        "start": 63.32,
+        "end": 64.1,
+        "probability": 0.435
+      },
+      {
+        "word": "में,",
+        "start": 64.1,
+        "end": 64.92,
+        "probability": 0.411
+      },
+      {
+        "word": "दिल",
+        "start": 65.02,
+        "end": 65.16,
+        "probability": 0.204
+      },
+      {
+        "word": "तेरे",
+        "start": 65.16,
+        "end": 65.88,
+        "probability": 0.529
+      },
+      {
+        "word": "पास",
+        "start": 65.88,
+        "end": 66.32,
+        "probability": 0.657
+      },
+      {
+        "word": "ही",
+        "start": 66.32,
+        "end": 66.56,
+        "probability": 0.327
+      },
+      {
+        "word": "रहता",
+        "start": 66.56,
+        "end": 67.44,
+        "probability": 0.356
+      },
+      {
+        "word": "है...",
+        "start": 67.44,
+        "end": 68.32,
+        "probability": 0.457
+      },
+      {
+        "word": "ओ",
+        "start": 68.56,
+        "end": 68.56,
+        "probability": 0.054
+      },
+      {
+        "word": "ओ",
+        "start": 68.56,
+        "end": 68.66,
+        "probability": 0.069
+      },
+      {
+        "word": "ओ...",
+        "start": 68.66,
+        "end": 68.91,
+        "probability": 0.29
+      },
+      {
+        "word": "धीरे",
+        "start": 69.28,
+        "end": 69.78,
+        "probability": 0.346
+      },
+      {
+        "word": "बहने",
+        "start": 69.78,
+        "end": 70.58,
+        "probability": 0.559
+      },
+      {
+        "word": "दे,",
+        "start": 70.58,
+        "end": 71.36,
+        "probability": 0.392
+      },
+      {
+        "word": "इन",
+        "start": 71.44,
+        "end": 71.52,
+        "probability": 0.322
+      },
+      {
+        "word": "लम्हों",
+        "start": 71.52,
+        "end": 72.08,
+        "probability": 0.203
+      },
+      {
+        "word": "को",
+        "start": 72.08,
+        "end": 72.26,
+        "probability": 0.64
+      },
+      {
+        "word": "यहीं",
+        "start": 72.26,
+        "end": 73.1,
+        "probability": 0.232
+      },
+      {
+        "word": "रहने",
+        "start": 73.1,
+        "end": 73.8,
+        "probability": 0.713
+      },
+      {
+        "word": "दे,",
+        "start": 73.8,
+        "end": 74.62,
+        "probability": 0.705
+      },
+      {
+        "word": "कुछ",
+        "start": 74.68,
+        "end": 74.8,
+        "probability": 0.441
+      },
+      {
+        "word": "ना",
+        "start": 74.8,
+        "end": 75.24,
+        "probability": 0.426
+      },
+      {
+        "word": "कहें,",
+        "start": 75.24,
+        "end": 76.14,
+        "probability": 0.234
+      },
+      {
+        "word": "कुछ",
+        "start": 76.24,
+        "end": 76.4,
+        "probability": 0.9
+      },
+      {
+        "word": "ना",
+        "start": 76.4,
+        "end": 76.82,
+        "probability": 0.784
+      },
+      {
+        "word": "सुनें,",
+        "start": 76.82,
+        "end": 77.87,
+        "probability": 0.418
+      },
+      {
+        "word": "बस",
+        "start": 78.22,
+        "end": 78.4,
+        "probability": 0.348
+      },
+      {
+        "word": "रात",
+        "start": 78.4,
+        "end": 79.22,
+        "probability": 0.278
+      },
+      {
+        "word": "को",
+        "start": 79.22,
+        "end": 79.6,
+        "probability": 0.42
+      },
+      {
+        "word": "रात",
+        "start": 79.6,
+        "end": 80.26,
+        "probability": 0.101
+      },
+      {
+        "word": "रहने",
+        "start": 80.26,
+        "end": 81.18,
+        "probability": 0.445
+      },
+      {
+        "word": "दे...",
+        "start": 81.18,
+        "end": 82.73,
+        "probability": 0.38
+      }
+    ]
+  },
+  {
+    "id": "scene_04_verse_2",
+    "name": "Verse 2 – Coffee Ki Khushboo, Dheemi Si Dhun",
+    "startSec": 93.0,
+    "endSec": 118.5,
+    "text": "कॉफ़ी की ख़ुशबू, धीमी सी धुन,\nआँखों में आधा सा चाँद और जुनून,\nसड़कों पे सोई हैं सारी रोशनियाँ,\nदिल में जगी हैं कुछ मीठी कहानियाँ...\nवक़्त भी जैसे रुकने लगा,\nदिल भी कहीं अब झुकने लगा,\nजो भी था कल, उसे भूल जा,\nआज की हवा में घुलने लगा...",
+    "words": [
+      {
+        "word": "कॉफ़ी",
+        "start": 93.59,
+        "end": 94.54,
+        "probability": 0.101
+      },
+      {
+        "word": "की",
+        "start": 94.54,
+        "end": 94.78,
+        "probability": 0.639
+      },
+      {
+        "word": "ख़ुशबू,",
+        "start": 94.78,
+        "end": 95.64,
+        "probability": 0.272
+      },
+      {
+        "word": "धीमी",
+        "start": 95.76,
+        "end": 96.14,
+        "probability": 0.361
+      },
+      {
+        "word": "सी",
+        "start": 96.14,
+        "end": 96.44,
+        "probability": 0.41
+      },
+      {
+        "word": "धुन,",
+        "start": 96.44,
+        "end": 97.26,
+        "probability": 0.284
+      },
+      {
+        "word": "आँखों",
+        "start": 97.6,
+        "end": 97.98,
+        "probability": 0.194
+      },
+      {
+        "word": "में",
+        "start": 97.98,
+        "end": 98.24,
+        "probability": 0.455
+      },
+      {
+        "word": "आधा",
+        "start": 98.24,
+        "end": 98.54,
+        "probability": 0.423
+      },
+      {
+        "word": "सा",
+        "start": 98.54,
+        "end": 98.86,
+        "probability": 0.261
+      },
+      {
+        "word": "चाँद",
+        "start": 98.86,
+        "end": 99.26,
+        "probability": 0.362
+      },
+      {
+        "word": "और",
+        "start": 99.26,
+        "end": 99.42,
+        "probability": 0.353
+      },
+      {
+        "word": "जुनून,",
+        "start": 99.42,
+        "end": 100.22,
+        "probability": 0.373
+      },
+      {
+        "word": "सड़कों",
+        "start": 100.52,
+        "end": 101.02,
+        "probability": 0.185
+      },
+      {
+        "word": "पे",
+        "start": 101.02,
+        "end": 101.26,
+        "probability": 0.582
+      },
+      {
+        "word": "सोई",
+        "start": 101.26,
+        "end": 101.76,
+        "probability": 0.326
+      },
+      {
+        "word": "हैं",
+        "start": 101.76,
+        "end": 102.24,
+        "probability": 0.431
+      },
+      {
+        "word": "सारी",
+        "start": 102.24,
+        "end": 102.74,
+        "probability": 0.629
+      },
+      {
+        "word": "रोशनियाँ,",
+        "start": 102.74,
+        "end": 103.99,
+        "probability": 0.293
+      },
+      {
+        "word": "दिल",
+        "start": 104.08,
+        "end": 104.14,
+        "probability": 0.241
+      },
+      {
+        "word": "में",
+        "start": 104.14,
+        "end": 104.3,
+        "probability": 0.457
+      },
+      {
+        "word": "जगी",
+        "start": 104.3,
+        "end": 104.7,
+        "probability": 0.449
+      },
+      {
+        "word": "हैं",
+        "start": 104.7,
+        "end": 104.98,
+        "probability": 0.596
+      },
+      {
+        "word": "कुछ",
+        "start": 104.98,
+        "end": 105.24,
+        "probability": 0.449
+      },
+      {
+        "word": "मीठी",
+        "start": 105.24,
+        "end": 105.86,
+        "probability": 0.253
+      },
+      {
+        "word": "कहानियाँ...",
+        "start": 105.86,
+        "end": 106.56,
+        "probability": 0.465
+      },
+      {
+        "word": "वक़्त",
+        "start": 107.8,
+        "end": 108.28,
+        "probability": 0.23
+      },
+      {
+        "word": "भी",
+        "start": 108.28,
+        "end": 108.54,
+        "probability": 0.498
+      },
+      {
+        "word": "जैसे",
+        "start": 108.54,
+        "end": 109.2,
+        "probability": 0.601
+      },
+      {
+        "word": "रुकने",
+        "start": 109.2,
+        "end": 109.84,
+        "probability": 0.424
+      },
+      {
+        "word": "लगा,",
+        "start": 109.84,
+        "end": 110.56,
+        "probability": 0.435
+      },
+      {
+        "word": "दिल",
+        "start": 111.08,
+        "end": 111.28,
+        "probability": 0.594
+      },
+      {
+        "word": "भी",
+        "start": 111.28,
+        "end": 111.5,
+        "probability": 0.541
+      },
+      {
+        "word": "कहीं",
+        "start": 111.5,
+        "end": 112.12,
+        "probability": 0.652
+      },
+      {
+        "word": "अब",
+        "start": 112.12,
+        "end": 112.28,
+        "probability": 0.391
+      },
+      {
+        "word": "झुकने",
+        "start": 112.28,
+        "end": 113.02,
+        "probability": 0.498
+      },
+      {
+        "word": "लगा,",
+        "start": 113.02,
+        "end": 114.02,
+        "probability": 0.331
+      },
+      {
+        "word": "जो",
+        "start": 114.24,
+        "end": 114.48,
+        "probability": 0.343
+      },
+      {
+        "word": "भी",
+        "start": 114.48,
+        "end": 114.72,
+        "probability": 0.56
+      },
+      {
+        "word": "था",
+        "start": 114.72,
+        "end": 114.98,
+        "probability": 0.603
+      },
+      {
+        "word": "कल,",
+        "start": 114.98,
+        "end": 115.52,
+        "probability": 0.226
+      },
+      {
+        "word": "उसे",
+        "start": 115.6,
+        "end": 115.82,
+        "probability": 0.487
+      },
+      {
+        "word": "भूल",
+        "start": 115.82,
+        "end": 116.3,
+        "probability": 0.489
+      },
+      {
+        "word": "जा,",
+        "start": 116.3,
+        "end": 117.1,
+        "probability": 0.474
+      },
+      {
+        "word": "आज",
+        "start": 117.24,
+        "end": 117.74,
+        "probability": 0.554
+      },
+      {
+        "word": "की",
+        "start": 117.74,
+        "end": 118.04,
+        "probability": 0.468
+      },
+      {
+        "word": "हवा",
+        "start": 118.5,
+        "end": 118.5,
+        "probability": 0.0
+      },
+      {
+        "word": "में",
+        "start": 118.5,
+        "end": 118.5,
+        "probability": 0.0
+      },
+      {
+        "word": "घुलने",
+        "start": 118.5,
+        "end": 118.5,
+        "probability": 0.0
+      },
+      {
+        "word": "लगा...",
+        "start": 118.5,
+        "end": 118.5,
+        "probability": 0.0
+      }
+    ]
+  },
+  {
+    "id": "scene_05_chorus_2",
+    "name": "Chorus 2 – Tu Ek Sukoon Sa Lagta Hai",
+    "startSec": 118.5,
+    "endSec": 146.5,
+    "text": "तू... एक सुकून सा लगता है,\nजैसे कोई ख़्वाब ठहरता है,\nइस भागती सी दुनिया में,\nदिल तेरे पास ही रहता है...\nओ ओ ओ... धीरे बहने दे,\nइन लम्हों को यहीं रहने दे,\nकुछ ना कहें, कुछ ना सुनें,\nबस रात को रात रहने दे...",
+    "words": [
+      {
+        "word": "तू...",
+        "start": 118.5,
+        "end": 119.38,
+        "probability": 0.112
+      },
+      {
+        "word": "एक",
+        "start": 119.38,
+        "end": 120.2,
+        "probability": 0.332
+      },
+      {
+        "word": "सुकून",
+        "start": 120.2,
+        "end": 121.18,
+        "probability": 0.352
+      },
+      {
+        "word": "सा",
+        "start": 121.18,
+        "end": 121.38,
+        "probability": 0.583
+      },
+      {
+        "word": "लगता",
+        "start": 121.38,
+        "end": 122.18,
+        "probability": 0.469
+      },
+      {
+        "word": "है,",
+        "start": 122.18,
+        "end": 122.68,
+        "probability": 0.471
+      },
+      {
+        "word": "जैसे",
+        "start": 123.02,
+        "end": 123.44,
+        "probability": 0.568
+      },
+      {
+        "word": "कोई",
+        "start": 123.44,
+        "end": 123.8,
+        "probability": 0.33
+      },
+      {
+        "word": "ख़्वाब",
+        "start": 123.8,
+        "end": 124.6,
+        "probability": 0.162
+      },
+      {
+        "word": "ठहरता",
+        "start": 124.6,
+        "end": 125.38,
+        "probability": 0.334
+      },
+      {
+        "word": "है,",
+        "start": 125.38,
+        "end": 125.96,
+        "probability": 0.737
+      },
+      {
+        "word": "इस",
+        "start": 125.96,
+        "end": 126.4,
+        "probability": 0.553
+      },
+      {
+        "word": "भागती",
+        "start": 126.4,
+        "end": 127.4,
+        "probability": 0.416
+      },
+      {
+        "word": "सी",
+        "start": 127.4,
+        "end": 127.8,
+        "probability": 0.569
+      },
+      {
+        "word": "दुनिया",
+        "start": 127.8,
+        "end": 128.62,
+        "probability": 0.5
+      },
+      {
+        "word": "में,",
+        "start": 128.62,
+        "end": 129.42,
+        "probability": 0.525
+      },
+      {
+        "word": "दिल",
+        "start": 129.5,
+        "end": 129.74,
+        "probability": 0.36
+      },
+      {
+        "word": "तेरे",
+        "start": 129.74,
+        "end": 130.38,
+        "probability": 0.608
+      },
+      {
+        "word": "पास",
+        "start": 130.38,
+        "end": 130.84,
+        "probability": 0.681
+      },
+      {
+        "word": "ही",
+        "start": 130.84,
+        "end": 131.1,
+        "probability": 0.315
+      },
+      {
+        "word": "रहता",
+        "start": 131.1,
+        "end": 131.96,
+        "probability": 0.409
+      },
+      {
+        "word": "है...",
+        "start": 131.96,
+        "end": 132.86,
+        "probability": 0.492
+      },
+      {
+        "word": "ओ",
+        "start": 132.98,
+        "end": 132.98,
+        "probability": 0.055
+      },
+      {
+        "word": "ओ",
+        "start": 132.98,
+        "end": 133.22,
+        "probability": 0.042
+      },
+      {
+        "word": "ओ...",
+        "start": 133.22,
+        "end": 133.68,
+        "probability": 0.228
+      },
+      {
+        "word": "धीरे",
+        "start": 133.76,
+        "end": 134.3,
+        "probability": 0.382
+      },
+      {
+        "word": "बहने",
+        "start": 134.3,
+        "end": 135.12,
+        "probability": 0.592
+      },
+      {
+        "word": "दे,",
+        "start": 135.12,
+        "end": 135.84,
+        "probability": 0.396
+      },
+      {
+        "word": "इन",
+        "start": 135.9,
+        "end": 136.02,
+        "probability": 0.328
+      },
+      {
+        "word": "लम्हों",
+        "start": 136.02,
+        "end": 136.68,
+        "probability": 0.272
+      },
+      {
+        "word": "को",
+        "start": 136.68,
+        "end": 136.8,
+        "probability": 0.665
+      },
+      {
+        "word": "यहीं",
+        "start": 136.8,
+        "end": 137.68,
+        "probability": 0.289
+      },
+      {
+        "word": "रहने",
+        "start": 137.68,
+        "end": 138.36,
+        "probability": 0.652
+      },
+      {
+        "word": "दे,",
+        "start": 138.36,
+        "end": 138.92,
+        "probability": 0.762
+      },
+      {
+        "word": "कुछ",
+        "start": 138.92,
+        "end": 139.3,
+        "probability": 0.42
+      },
+      {
+        "word": "ना",
+        "start": 139.3,
+        "end": 139.74,
+        "probability": 0.417
+      },
+      {
+        "word": "कहें,",
+        "start": 139.74,
+        "end": 140.56,
+        "probability": 0.233
+      },
+      {
+        "word": "कुछ",
+        "start": 140.58,
+        "end": 140.92,
+        "probability": 0.892
+      },
+      {
+        "word": "ना",
+        "start": 140.92,
+        "end": 141.3,
+        "probability": 0.74
+      },
+      {
+        "word": "सुनें,",
+        "start": 141.3,
+        "end": 142.25,
+        "probability": 0.506
+      },
+      {
+        "word": "बस",
+        "start": 142.56,
+        "end": 142.9,
+        "probability": 0.296
+      },
+      {
+        "word": "रात",
+        "start": 142.9,
+        "end": 143.72,
+        "probability": 0.278
+      },
+      {
+        "word": "को",
+        "start": 143.72,
+        "end": 144.14,
+        "probability": 0.506
+      },
+      {
+        "word": "रात",
+        "start": 144.14,
+        "end": 144.8,
+        "probability": 0.12
+      },
+      {
+        "word": "रहने",
+        "start": 144.8,
+        "end": 145.68,
+        "probability": 0.381
+      },
+      {
+        "word": "दे...",
+        "start": 145.68,
+        "end": 146.38,
+        "probability": 0.422
+      }
+    ]
+  },
+  {
+    "id": "scene_06_bridge",
+    "name": "Bridge – Agar Kabhi Thak Jaaye Dil",
+    "startSec": 146.5,
+    "endSec": 173.5,
+    "text": "अगर कभी थक जाए दिल,\nतो आँखें बंद कर लेना...\nमैं मिलूँगा उन ख़्वाबों में,\nबस थोड़ा सा सो लेना...\nना कल की फ़िक्र हो,\nना कल का कोई डर...\nबस साँसों में घुल जाए,\nये चाँदनी रात भर...",
+    "words": [
+      {
+        "word": "अगर",
+        "start": 146.8,
+        "end": 147.32,
+        "probability": 0.3
+      },
+      {
+        "word": "कभी",
+        "start": 147.32,
+        "end": 147.92,
+        "probability": 0.51
+      },
+      {
+        "word": "थक",
+        "start": 147.92,
+        "end": 148.34,
+        "probability": 0.314
+      },
+      {
+        "word": "जाए",
+        "start": 148.34,
+        "end": 148.82,
+        "probability": 0.32
+      },
+      {
+        "word": "दिल,",
+        "start": 148.82,
+        "end": 149.3,
+        "probability": 0.425
+      },
+      {
+        "word": "तो",
+        "start": 149.46,
+        "end": 149.64,
+        "probability": 0.673
+      },
+      {
+        "word": "आँखें",
+        "start": 149.64,
+        "end": 150.44,
+        "probability": 0.224
+      },
+      {
+        "word": "बंद",
+        "start": 150.44,
+        "end": 150.86,
+        "probability": 0.657
+      },
+      {
+        "word": "कर",
+        "start": 150.86,
+        "end": 151.22,
+        "probability": 0.581
+      },
+      {
+        "word": "लेना...",
+        "start": 151.22,
+        "end": 152.42,
+        "probability": 0.474
+      },
+      {
+        "word": "मैं",
+        "start": 153.58,
+        "end": 153.58,
+        "probability": 0.583
+      },
+      {
+        "word": "मिलूँगा",
+        "start": 153.58,
+        "end": 154.24,
+        "probability": 0.281
+      },
+      {
+        "word": "उन",
+        "start": 154.24,
+        "end": 154.44,
+        "probability": 0.339
+      },
+      {
+        "word": "ख़्वाबों",
+        "start": 155.46,
+        "end": 156.02,
+        "probability": 0.155
+      },
+      {
+        "word": "में,",
+        "start": 156.02,
+        "end": 156.02,
+        "probability": 0.291
+      },
+      {
+        "word": "बस",
+        "start": 156.26,
+        "end": 156.26,
+        "probability": 0.187
+      },
+      {
+        "word": "थोड़ा",
+        "start": 156.26,
+        "end": 156.7,
+        "probability": 0.276
+      },
+      {
+        "word": "सा",
+        "start": 156.7,
+        "end": 157.06,
+        "probability": 0.369
+      },
+      {
+        "word": "सो",
+        "start": 157.06,
+        "end": 157.48,
+        "probability": 0.2
+      },
+      {
+        "word": "लेना...",
+        "start": 157.48,
+        "end": 158.53,
+        "probability": 0.376
+      },
+      {
+        "word": "ना",
+        "start": 159.7,
+        "end": 159.8,
+        "probability": 0.357
+      },
+      {
+        "word": "कल",
+        "start": 159.8,
+        "end": 160.14,
+        "probability": 0.273
+      },
+      {
+        "word": "की",
+        "start": 160.14,
+        "end": 160.52,
+        "probability": 0.457
+      },
+      {
+        "word": "फ़िक्र",
+        "start": 160.52,
+        "end": 161.34,
+        "probability": 0.304
+      },
+      {
+        "word": "हो,",
+        "start": 161.34,
+        "end": 162.72,
+        "probability": 0.324
+      },
+      {
+        "word": "ना",
+        "start": 162.96,
+        "end": 163.04,
+        "probability": 0.897
+      },
+      {
+        "word": "कल",
+        "start": 163.04,
+        "end": 163.36,
+        "probability": 0.841
+      },
+      {
+        "word": "का",
+        "start": 163.36,
+        "end": 163.78,
+        "probability": 0.694
+      },
+      {
+        "word": "कोई",
+        "start": 163.78,
+        "end": 164.26,
+        "probability": 0.377
+      },
+      {
+        "word": "डर...",
+        "start": 164.26,
+        "end": 165.31,
+        "probability": 0.206
+      },
+      {
+        "word": "बस",
+        "start": 165.48,
+        "end": 165.66,
+        "probability": 0.432
+      },
+      {
+        "word": "साँसों",
+        "start": 165.66,
+        "end": 166.76,
+        "probability": 0.221
+      },
+      {
+        "word": "में",
+        "start": 166.76,
+        "end": 167.06,
+        "probability": 0.835
+      },
+      {
+        "word": "घुल",
+        "start": 167.38,
+        "end": 167.5,
+        "probability": 0.147
+      },
+      {
+        "word": "जाए,",
+        "start": 167.5,
+        "end": 168.72,
+        "probability": 0.299
+      },
+      {
+        "word": "ये",
+        "start": 168.88,
+        "end": 168.9,
+        "probability": 0.389
+      },
+      {
+        "word": "चाँदनी",
+        "start": 168.9,
+        "end": 170.02,
+        "probability": 0.419
+      },
+      {
+        "word": "रात",
+        "start": 170.02,
+        "end": 170.66,
+        "probability": 0.53
+      },
+      {
+        "word": "भर...",
+        "start": 170.66,
+        "end": 171.71,
+        "probability": 0.252
+      }
+    ]
+  },
+  {
+    "id": "scene_07_outro",
+    "name": "Outro – Piano, Rain & Soft Vinyl Crackle",
+    "startSec": 173.5,
+    "endSec": 227.167,
+    "text": "हम्म्म...\nधीरे-धीरे रात ढले...\nख़्वाबों के कुछ फूल खिलें...\nतू...\nएक सुकून सा लगता है...\nहम्म्म... आआ...",
+    "words": [
+      {
+        "word": "हम्म्म...",
+        "start": 174.72,
+        "end": 176.12,
+        "probability": 0.099
+      },
+      {
+        "word": "धीरे-धीरे",
+        "start": 176.52,
+        "end": 177.22,
+        "probability": 0.281
+      },
+      {
+        "word": "रात",
+        "start": 177.22,
+        "end": 177.74,
+        "probability": 0.482
+      },
+      {
+        "word": "ढले...",
+        "start": 177.74,
+        "end": 179.49,
+        "probability": 0.431
+      },
+      {
+        "word": "ख़्वाबों",
+        "start": 179.78,
+        "end": 180.34,
+        "probability": 0.152
+      },
+      {
+        "word": "के",
+        "start": 180.34,
+        "end": 180.54,
+        "probability": 0.763
+      },
+      {
+        "word": "कुछ",
+        "start": 180.54,
+        "end": 181.02,
+        "probability": 0.575
+      },
+      {
+        "word": "फूल",
+        "start": 185.02,
+        "end": 186.5,
+        "probability": 0.142
+      },
+      {
+        "word": "खिलें...",
+        "start": 186.5,
+        "end": 186.6,
+        "probability": 0.055
+      },
+      {
+        "word": "तू...",
+        "start": 186.68,
+        "end": 186.68,
+        "probability": 0.168
+      },
+      {
+        "word": "एक",
+        "start": 186.68,
+        "end": 186.74,
+        "probability": 0.495
+      },
+      {
+        "word": "सुकून",
+        "start": 186.74,
+        "end": 187.5,
+        "probability": 0.352
+      },
+      {
+        "word": "सा",
+        "start": 187.5,
+        "end": 187.76,
+        "probability": 0.629
+      },
+      {
+        "word": "लगता",
+        "start": 193.62,
+        "end": 196.62,
+        "probability": 0.155
+      },
+      {
+        "word": "है...",
+        "start": 196.62,
+        "end": 198.32,
+        "probability": 0.169
+      },
+      {
+        "word": "हम्म्म...",
+        "start": 221.48,
+        "end": 223.66,
+        "probability": 0.138
+      },
+      {
+        "word": "आआ...",
+        "start": 224.7,
+        "end": 225.26,
+        "probability": 0.15
+      }
+    ]
+  }
+]

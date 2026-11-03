@@ -13,42 +13,7 @@
       "hierarchy": "SYMBOLIC_DOMINANT",
       "symbolKey": "herbarium_notebook",
       "subtitle": "Last bench window breeze • Doodling on the back page",
-      "lines": [
-        {
-          "id": "line_01_intro",
-          "text": "Rough copy ke aakhri panne pe...",
-          "words": [
-            {
-              "id": "w_01_001",
-              "text": "Rough",
-              "startFrame": 480,
-              "endFrame": 630,
-              "accent": false
-            },
-            {
-              "id": "w_01_002",
-              "text": "Copy",
-              "startFrame": 630,
-              "endFrame": 780,
-              "accent": true
-            },
-            {
-              "id": "w_01_003",
-              "text": "Classroom",
-              "startFrame": 780,
-              "endFrame": 930,
-              "accent": false
-            },
-            {
-              "id": "w_01_004",
-              "text": "Romance",
-              "startFrame": 930,
-              "endFrame": 1080,
-              "accent": true
-            }
-          ]
-        }
-      ]
+      "lines": []
     },
     {
       "id": "scene_02_mukhda",
@@ -65,77 +30,77 @@
           "text": "Rough copy ke aakhri panne pe, tera hi naam likha maine,",
           "words": [
             {
-              "id": "w_02_005",
+              "id": "w_02_001",
               "text": "Rough",
               "startFrame": 1124,
               "endFrame": 1192,
               "accent": false
             },
             {
-              "id": "w_02_006",
+              "id": "w_02_002",
               "text": "copy",
               "startFrame": 1192,
               "endFrame": 1223,
               "accent": false
             },
             {
-              "id": "w_02_007",
+              "id": "w_02_003",
               "text": "ke",
               "startFrame": 1223,
               "endFrame": 1237,
               "accent": false
             },
             {
-              "id": "w_02_008",
+              "id": "w_02_004",
               "text": "aakhri",
               "startFrame": 1237,
               "endFrame": 1271,
               "accent": false
             },
             {
-              "id": "w_02_009",
+              "id": "w_02_005",
               "text": "panne",
               "startFrame": 1271,
               "endFrame": 1303,
               "accent": false
             },
             {
-              "id": "w_02_010",
+              "id": "w_02_006",
               "text": "pe,",
               "startFrame": 1303,
               "endFrame": 1332,
               "accent": false
             },
             {
-              "id": "w_02_011",
+              "id": "w_02_007",
               "text": "tera",
               "startFrame": 1332,
               "endFrame": 1379,
               "accent": true
             },
             {
-              "id": "w_02_012",
+              "id": "w_02_008",
               "text": "hi",
               "startFrame": 1379,
               "endFrame": 1404,
               "accent": false
             },
             {
-              "id": "w_02_013",
+              "id": "w_02_009",
               "text": "naam",
               "startFrame": 1404,
               "endFrame": 1439,
               "accent": true
             },
             {
-              "id": "w_02_014",
+              "id": "w_02_010",
               "text": "likha",
               "startFrame": 1439,
               "endFrame": 1458,
               "accent": false
             },
             {
-              "id": "w_02_015",
+              "id": "w_02_011",
               "text": "maine,",
               "startFrame": 1458,
               "endFrame": 1472,
@@ -148,70 +113,70 @@
           "text": "Formula saare bhula ke bhi, bas tujhko yaad rakha maine.",
           "words": [
             {
-              "id": "w_02_016",
+              "id": "w_02_012",
               "text": "Formula",
               "startFrame": 1472,
               "endFrame": 1529,
               "accent": false
             },
             {
-              "id": "w_02_017",
+              "id": "w_02_013",
               "text": "saare",
               "startFrame": 1529,
               "endFrame": 1568,
               "accent": false
             },
             {
-              "id": "w_02_018",
+              "id": "w_02_014",
               "text": "bhula",
               "startFrame": 1568,
               "endFrame": 1583,
               "accent": false
             },
             {
-              "id": "w_02_019",
+              "id": "w_02_015",
               "text": "ke",
               "startFrame": 1583,
               "endFrame": 1604,
               "accent": false
             },
             {
-              "id": "w_02_020",
+              "id": "w_02_016",
               "text": "bhi,",
               "startFrame": 1604,
               "endFrame": 1626,
               "accent": false
             },
             {
-              "id": "w_02_021",
+              "id": "w_02_017",
               "text": "bas",
               "startFrame": 1626,
               "endFrame": 1644,
               "accent": false
             },
             {
-              "id": "w_02_022",
+              "id": "w_02_018",
               "text": "tujhko",
               "startFrame": 1644,
               "endFrame": 1680,
               "accent": true
             },
             {
-              "id": "w_02_023",
+              "id": "w_02_019",
               "text": "yaad",
               "startFrame": 1680,
               "endFrame": 1716,
               "accent": true
             },
             {
-              "id": "w_02_024",
+              "id": "w_02_020",
               "text": "rakha",
               "startFrame": 1716,
               "endFrame": 1740,
               "accent": false
             },
             {
-              "id": "w_02_025",
+              "id": "w_02_021",
               "text": "maine.",
               "startFrame": 1740,
               "endFrame": 1770,
@@ -236,77 +201,77 @@
           "text": "Class mein dhyan lagata hoon, par nazrein tujh pe rehti hain,",
           "words": [
             {
-              "id": "w_03_026",
+              "id": "w_03_022",
               "text": "Class",
               "startFrame": 1776,
               "endFrame": 1830,
               "accent": false
             },
             {
-              "id": "w_03_027",
+              "id": "w_03_023",
               "text": "mein",
               "startFrame": 1830,
               "endFrame": 1848,
               "accent": false
             },
             {
-              "id": "w_03_028",
+              "id": "w_03_024",
               "text": "dhyan",
               "startFrame": 1848,
               "endFrame": 1884,
               "accent": false
             },
             {
-              "id": "w_03_029",
+              "id": "w_03_025",
               "text": "lagata",
               "startFrame": 1884,
               "endFrame": 1914,
               "accent": false
             },
             {
-              "id": "w_03_030",
+              "id": "w_03_026",
               "text": "hoon,",
               "startFrame": 1914,
               "endFrame": 1932,
               "accent": false
             },
             {
-              "id": "w_03_031",
+              "id": "w_03_027",
               "text": "par",
               "startFrame": 1932,
               "endFrame": 1956,
               "accent": false
             },
             {
-              "id": "w_03_032",
+              "id": "w_03_028",
               "text": "nazrein",
               "startFrame": 1956,
               "endFrame": 1992,
               "accent": true
             },
             {
-              "id": "w_03_033",
+              "id": "w_03_029",
               "text": "tujh",
               "startFrame": 1992,
               "endFrame": 2016,
               "accent": false
             },
             {
-              "id": "w_03_034",
+              "id": "w_03_030",
               "text": "pe",
               "startFrame": 2016,
               "endFrame": 2034,
               "accent": false
             },
             {
-              "id": "w_03_035",
+              "id": "w_03_031",
               "text": "rehti",
               "startFrame": 2034,
               "endFrame": 2058,
               "accent": false
             },
             {
-              "id": "w_03_036",
+              "id": "w_03_032",
               "text": "hain,",
               "startFrame": 2058,
               "endFrame": 2076,
@@ -319,63 +284,63 @@
           "text": "Dhadkanein meri bina kahe, kitna kuch tujhse kehti hain!",
           "words": [
             {
-              "id": "w_03_037",
+              "id": "w_03_033",
               "text": "Dhadkanein",
               "startFrame": 2076,
               "endFrame": 2136,
               "accent": true
             },
             {
-              "id": "w_03_038",
+              "id": "w_03_034",
               "text": "meri",
               "startFrame": 2136,
               "endFrame": 2166,
               "accent": false
             },
             {
-              "id": "w_03_039",
+              "id": "w_03_035",
               "text": "bina",
               "startFrame": 2166,
               "endFrame": 2196,
               "accent": false
             },
             {
-              "id": "w_03_040",
+              "id": "w_03_036",
               "text": "kahe,",
               "startFrame": 2196,
               "endFrame": 2220,
               "accent": false
             },
             {
-              "id": "w_03_041",
+              "id": "w_03_037",
               "text": "kitna",
               "startFrame": 2220,
               "endFrame": 2262,
               "accent": false
             },
             {
-              "id": "w_03_042",
+              "id": "w_03_038",
               "text": "kuch",
               "startFrame": 2262,
               "endFrame": 2286,
               "accent": false
             },
             {
-              "id": "w_03_043",
+              "id": "w_03_039",
               "text": "tujhse",
               "startFrame": 2286,
               "endFrame": 2322,
               "accent": true
             },
             {
-              "id": "w_03_044",
+              "id": "w_03_040",
               "text": "kehti",
               "startFrame": 2322,
               "endFrame": 2352,
               "accent": false
             },
             {
-              "id": "w_03_045",
+              "id": "w_03_041",
               "text": "hain!",
               "startFrame": 2352,
               "endFrame": 2376,
@@ -388,77 +353,77 @@
           "text": "Haan chhutti ki ghanti bajte hi, dil cycle tez chalata hai,",
           "words": [
             {
-              "id": "w_03_046",
+              "id": "w_03_042",
               "text": "Haan",
               "startFrame": 2382,
               "endFrame": 2412,
               "accent": false
             },
             {
-              "id": "w_03_047",
+              "id": "w_03_043",
               "text": "chhutti",
               "startFrame": 2412,
               "endFrame": 2436,
               "accent": false
             },
             {
-              "id": "w_03_048",
+              "id": "w_03_044",
               "text": "ki",
               "startFrame": 2436,
               "endFrame": 2448,
               "accent": false
             },
             {
-              "id": "w_03_049",
+              "id": "w_03_045",
               "text": "ghanti",
               "startFrame": 2448,
               "endFrame": 2472,
               "accent": true
             },
             {
-              "id": "w_03_050",
+              "id": "w_03_046",
               "text": "bajte",
               "startFrame": 2472,
               "endFrame": 2508,
               "accent": false
             },
             {
-              "id": "w_03_051",
+              "id": "w_03_047",
               "text": "hi,",
               "startFrame": 2508,
               "endFrame": 2526,
               "accent": false
             },
             {
-              "id": "w_03_052",
+              "id": "w_03_048",
               "text": "dil",
               "startFrame": 2526,
               "endFrame": 2556,
               "accent": false
             },
             {
-              "id": "w_03_053",
+              "id": "w_03_049",
               "text": "cycle",
               "startFrame": 2556,
               "endFrame": 2586,
               "accent": true
             },
             {
-              "id": "w_03_054",
+              "id": "w_03_050",
               "text": "tez",
               "startFrame": 2586,
               "endFrame": 2622,
               "accent": true
             },
             {
-              "id": "w_03_055",
+              "id": "w_03_051",
               "text": "chalata",
               "startFrame": 2622,
               "endFrame": 2652,
               "accent": false
             },
             {
-              "id": "w_03_056",
+              "id": "w_03_052",
               "text": "hai,",
               "startFrame": 2652,
               "endFrame": 2676,
@@ -471,77 +436,77 @@
           "text": "Rough copy ke aakhri panne pe, tera hi naam likha maine.",
           "words": [
             {
-              "id": "w_03_057",
+              "id": "w_03_053",
               "text": "Rough",
               "startFrame": 2682,
               "endFrame": 2712,
               "accent": false
             },
             {
-              "id": "w_03_058",
+              "id": "w_03_054",
               "text": "copy",
               "startFrame": 2712,
               "endFrame": 2736,
               "accent": false
             },
             {
-              "id": "w_03_059",
+              "id": "w_03_055",
               "text": "ke",
               "startFrame": 2736,
               "endFrame": 2748,
               "accent": false
             },
             {
-              "id": "w_03_060",
+              "id": "w_03_056",
               "text": "aakhri",
               "startFrame": 2748,
               "endFrame": 2784,
               "accent": false
             },
             {
-              "id": "w_03_061",
+              "id": "w_03_057",
               "text": "panne",
               "startFrame": 2784,
               "endFrame": 2820,
               "accent": false
             },
             {
-              "id": "w_03_062",
+              "id": "w_03_058",
               "text": "pe,",
               "startFrame": 2820,
               "endFrame": 2850,
               "accent": false
             },
             {
-              "id": "w_03_063",
+              "id": "w_03_059",
               "text": "tera",
               "startFrame": 2850,
               "endFrame": 2892,
               "accent": true
             },
             {
-              "id": "w_03_064",
+              "id": "w_03_060",
               "text": "hi",
               "startFrame": 2892,
               "endFrame": 2916,
               "accent": false
             },
             {
-              "id": "w_03_065",
+              "id": "w_03_061",
               "text": "naam",
               "startFrame": 2916,
               "endFrame": 2946,
               "accent": true
             },
             {
-              "id": "w_03_066",
+              "id": "w_03_062",
               "text": "likha",
               "startFrame": 2946,
               "endFrame": 2970,
               "accent": false
             },
             {
-              "id": "w_03_067",
+              "id": "w_03_063",
               "text": "maine.",
               "startFrame": 2970,
               "endFrame": 3000,
@@ -560,42 +525,7 @@
       "hierarchy": "SYMBOLIC_DOMINANT",
       "symbolKey": "herbarium_notebook",
       "subtitle": "Chalk dust floating in afternoon sunbeams • Acoustic warmth",
-      "lines": [
-        {
-          "id": "line_04_interlude",
-          "text": "Woh recess ki thodi jaldi mein...",
-          "words": [
-            {
-              "id": "w_04_068",
-              "text": "Afternoon",
-              "startFrame": 3060,
-              "endFrame": 3180,
-              "accent": false
-            },
-            {
-              "id": "w_04_069",
-              "text": "Bell",
-              "startFrame": 3180,
-              "endFrame": 3300,
-              "accent": true
-            },
-            {
-              "id": "w_04_070",
-              "text": "Corridor",
-              "startFrame": 3300,
-              "endFrame": 3450,
-              "accent": false
-            },
-            {
-              "id": "w_04_071",
-              "text": "Echoes",
-              "startFrame": 3450,
-              "endFrame": 3588,
-              "accent": true
-            }
-          ]
-        }
-      ]
+      "lines": []
     },
     {
       "id": "scene_05_antara1",
@@ -612,70 +542,70 @@
           "text": "Woh recess ki thodi jaldi mein, corridor mein takraana tera,",
           "words": [
             {
-              "id": "w_05_072",
+              "id": "w_05_064",
               "text": "Woh",
               "startFrame": 3606,
               "endFrame": 3642,
               "accent": false
             },
             {
-              "id": "w_05_073",
+              "id": "w_05_065",
               "text": "recess",
               "startFrame": 3642,
               "endFrame": 3672,
               "accent": true
             },
             {
-              "id": "w_05_074",
+              "id": "w_05_066",
               "text": "ki",
               "startFrame": 3672,
               "endFrame": 3684,
               "accent": false
             },
             {
-              "id": "w_05_075",
+              "id": "w_05_067",
               "text": "thodi",
               "startFrame": 3684,
               "endFrame": 3708,
               "accent": false
             },
             {
-              "id": "w_05_076",
+              "id": "w_05_068",
               "text": "jaldi",
               "startFrame": 3708,
               "endFrame": 3738,
               "accent": false
             },
             {
-              "id": "w_05_077",
+              "id": "w_05_069",
               "text": "mein,",
               "startFrame": 3738,
               "endFrame": 3756,
               "accent": false
             },
             {
-              "id": "w_05_078",
+              "id": "w_05_070",
               "text": "corridor",
               "startFrame": 3756,
               "endFrame": 3798,
               "accent": false
             },
             {
-              "id": "w_05_079",
+              "id": "w_05_071",
               "text": "mein",
               "startFrame": 3798,
               "endFrame": 3810,
               "accent": false
             },
             {
-              "id": "w_05_080",
+              "id": "w_05_072",
               "text": "takraana",
               "startFrame": 3810,
               "endFrame": 3852,
               "accent": true
             },
             {
-              "id": "w_05_081",
+              "id": "w_05_073",
               "text": "tera,",
               "startFrame": 3852,
               "endFrame": 3876,
@@ -688,70 +618,70 @@
           "text": "Sorry keh kar halke se, nazrein jhuka ke muskuraana tera.",
           "words": [
             {
-              "id": "w_05_082",
+              "id": "w_05_074",
               "text": "Sorry",
               "startFrame": 3888,
               "endFrame": 3960,
               "accent": true
             },
             {
-              "id": "w_05_083",
+              "id": "w_05_075",
               "text": "keh",
               "startFrame": 3960,
               "endFrame": 3978,
               "accent": false
             },
             {
-              "id": "w_05_084",
+              "id": "w_05_076",
               "text": "kar",
               "startFrame": 3978,
               "endFrame": 3996,
               "accent": false
             },
             {
-              "id": "w_05_085",
+              "id": "w_05_077",
               "text": "halke",
               "startFrame": 3996,
               "endFrame": 4020,
               "accent": false
             },
             {
-              "id": "w_05_086",
+              "id": "w_05_078",
               "text": "se,",
               "startFrame": 4020,
               "endFrame": 4032,
               "accent": false
             },
             {
-              "id": "w_05_087",
+              "id": "w_05_079",
               "text": "nazrein",
               "startFrame": 4032,
               "endFrame": 4068,
               "accent": true
             },
             {
-              "id": "w_05_088",
+              "id": "w_05_080",
               "text": "jhuka",
               "startFrame": 4068,
               "endFrame": 4098,
               "accent": false
             },
             {
-              "id": "w_05_089",
+              "id": "w_05_081",
               "text": "ke",
               "startFrame": 4098,
               "endFrame": 4116,
               "accent": false
             },
             {
-              "id": "w_05_090",
+              "id": "w_05_082",
               "text": "muskuraana",
               "startFrame": 4116,
               "endFrame": 4164,
               "accent": true
             },
             {
-              "id": "w_05_091",
+              "id": "w_05_083",
               "text": "tera.",
               "startFrame": 4164,
               "endFrame": 4188,
@@ -764,84 +694,84 @@
           "text": "Ik blue ink pen jo maangi thi, maine aaj talak lautayi nahi,",
           "words": [
             {
-              "id": "w_05_092",
+              "id": "w_05_084",
               "text": "Ik",
               "startFrame": 4200,
               "endFrame": 4248,
               "accent": false
             },
             {
-              "id": "w_05_093",
+              "id": "w_05_085",
               "text": "blue",
               "startFrame": 4248,
               "endFrame": 4272,
               "accent": true
             },
             {
-              "id": "w_05_094",
+              "id": "w_05_086",
               "text": "ink",
               "startFrame": 4272,
               "endFrame": 4296,
               "accent": true
             },
             {
-              "id": "w_05_095",
+              "id": "w_05_087",
               "text": "pen",
               "startFrame": 4296,
               "endFrame": 4320,
               "accent": true
             },
             {
-              "id": "w_05_096",
+              "id": "w_05_088",
               "text": "jo",
               "startFrame": 4320,
               "endFrame": 4338,
               "accent": false
             },
             {
-              "id": "w_05_097",
+              "id": "w_05_089",
               "text": "maangi",
               "startFrame": 4338,
               "endFrame": 4368,
               "accent": false
             },
             {
-              "id": "w_05_098",
+              "id": "w_05_090",
               "text": "thi,",
               "startFrame": 4368,
               "endFrame": 4386,
               "accent": false
             },
             {
-              "id": "w_05_099",
+              "id": "w_05_091",
               "text": "maine",
               "startFrame": 4386,
               "endFrame": 4410,
               "accent": false
             },
             {
-              "id": "w_05_100",
+              "id": "w_05_092",
               "text": "aaj",
               "startFrame": 4410,
               "endFrame": 4434,
               "accent": false
             },
             {
-              "id": "w_05_101",
+              "id": "w_05_093",
               "text": "talak",
               "startFrame": 4434,
               "endFrame": 4470,
               "accent": false
             },
             {
-              "id": "w_05_102",
+              "id": "w_05_094",
               "text": "lautayi",
               "startFrame": 4470,
               "endFrame": 4506,
               "accent": false
             },
             {
-              "id": "w_05_103",
+              "id": "w_05_095",
               "text": "nahi,",
               "startFrame": 4506,
               "endFrame": 4530,
@@ -854,77 +784,77 @@
           "text": "Us din se dosti dhoondhi thi, par aage baat badhayi nahi.",
           "words": [
             {
-              "id": "w_05_104",
+              "id": "w_05_096",
               "text": "Us",
               "startFrame": 4542,
               "endFrame": 4566,
               "accent": false
             },
             {
-              "id": "w_05_105",
+              "id": "w_05_097",
               "text": "din",
               "startFrame": 4566,
               "endFrame": 4584,
               "accent": false
             },
             {
-              "id": "w_05_106",
+              "id": "w_05_098",
               "text": "se",
               "startFrame": 4584,
               "endFrame": 4596,
               "accent": false
             },
             {
-              "id": "w_05_107",
+              "id": "w_05_099",
               "text": "dosti",
               "startFrame": 4596,
               "endFrame": 4632,
               "accent": true
             },
             {
-              "id": "w_05_108",
+              "id": "w_05_100",
               "text": "dhoondhi",
               "startFrame": 4632,
               "endFrame": 4668,
               "accent": false
             },
             {
-              "id": "w_05_109",
+              "id": "w_05_101",
               "text": "thi,",
               "startFrame": 4668,
               "endFrame": 4686,
               "accent": false
             },
             {
-              "id": "w_05_110",
+              "id": "w_05_102",
               "text": "par",
               "startFrame": 4686,
               "endFrame": 4710,
               "accent": false
             },
             {
-              "id": "w_05_111",
+              "id": "w_05_103",
               "text": "aage",
               "startFrame": 4710,
               "endFrame": 4746,
               "accent": false
             },
             {
-              "id": "w_05_112",
+              "id": "w_05_104",
               "text": "baat",
               "startFrame": 4746,
               "endFrame": 4770,
               "accent": false
             },
             {
-              "id": "w_05_113",
+              "id": "w_05_105",
               "text": "badhayi",
               "startFrame": 4770,
               "endFrame": 4806,
               "accent": false
             },
             {
-              "id": "w_05_114",
+              "id": "w_05_106",
               "text": "nahi.",
               "startFrame": 4806,
               "endFrame": 4830,
@@ -949,91 +879,91 @@
           "text": "Jab roll call pe tu Present kahe, mera dil be-wajah hi jhoome hai,",
           "words": [
             {
-              "id": "w_06_115",
+              "id": "w_06_107",
               "text": "Jab",
               "startFrame": 4842,
               "endFrame": 4860,
               "accent": false
             },
             {
-              "id": "w_06_116",
+              "id": "w_06_108",
               "text": "roll",
               "startFrame": 4860,
               "endFrame": 4884,
               "accent": false
             },
             {
-              "id": "w_06_117",
+              "id": "w_06_109",
               "text": "call",
               "startFrame": 4884,
               "endFrame": 4908,
               "accent": false
             },
             {
-              "id": "w_06_118",
+              "id": "w_06_110",
               "text": "pe",
               "startFrame": 4908,
               "endFrame": 4920,
               "accent": false
             },
             {
-              "id": "w_06_119",
+              "id": "w_06_111",
               "text": "tu",
               "startFrame": 4920,
               "endFrame": 4938,
               "accent": false
             },
             {
-              "id": "w_06_120",
+              "id": "w_06_112",
               "text": "Present",
               "startFrame": 4938,
               "endFrame": 4974,
               "accent": true
             },
             {
-              "id": "w_06_121",
+              "id": "w_06_113",
               "text": "kahe,",
               "startFrame": 4974,
               "endFrame": 4992,
               "accent": false
             },
             {
-              "id": "w_06_122",
+              "id": "w_06_114",
               "text": "mera",
               "startFrame": 4992,
               "endFrame": 5016,
               "accent": false
             },
             {
-              "id": "w_06_123",
+              "id": "w_06_115",
               "text": "dil",
               "startFrame": 5016,
               "endFrame": 5040,
               "accent": false
             },
             {
-              "id": "w_06_124",
+              "id": "w_06_116",
               "text": "be-wajah",
               "startFrame": 5040,
               "endFrame": 5088,
               "accent": false
             },
             {
-              "id": "w_06_125",
+              "id": "w_06_117",
               "text": "hi",
               "startFrame": 5088,
               "endFrame": 5100,
               "accent": false
             },
             {
-              "id": "w_06_126",
+              "id": "w_06_118",
               "text": "jhoome",
               "startFrame": 5100,
               "endFrame": 5130,
               "accent": true
             },
             {
-              "id": "w_06_127",
+              "id": "w_06_119",
               "text": "hai,",
               "startFrame": 5130,
               "endFrame": 5148,
@@ -1046,91 +976,91 @@
           "text": "Tu aage ki bench pe baithi rahe, aur dhoop tere rukh choome hai.",
           "words": [
             {
-              "id": "w_06_128",
+              "id": "w_06_120",
               "text": "Tu",
               "startFrame": 5148,
               "endFrame": 5172,
               "accent": false
             },
             {
-              "id": "w_06_129",
+              "id": "w_06_121",
               "text": "aage",
               "startFrame": 5172,
               "endFrame": 5196,
               "accent": false
             },
             {
-              "id": "w_06_130",
+              "id": "w_06_122",
               "text": "ki",
               "startFrame": 5196,
               "endFrame": 5208,
               "accent": false
             },
             {
-              "id": "w_06_131",
+              "id": "w_06_123",
               "text": "bench",
               "startFrame": 5208,
               "endFrame": 5238,
               "accent": true
             },
             {
-              "id": "w_06_132",
+              "id": "w_06_124",
               "text": "pe",
               "startFrame": 5238,
               "endFrame": 5250,
               "accent": false
             },
             {
-              "id": "w_06_133",
+              "id": "w_06_125",
               "text": "baithi",
               "startFrame": 5250,
               "endFrame": 5280,
               "accent": false
             },
             {
-              "id": "w_06_134",
+              "id": "w_06_126",
               "text": "rahe,",
               "startFrame": 5280,
               "endFrame": 5298,
               "accent": false
             },
             {
-              "id": "w_06_135",
+              "id": "w_06_127",
               "text": "aur",
               "startFrame": 5298,
               "endFrame": 5322,
               "accent": false
             },
             {
-              "id": "w_06_136",
+              "id": "w_06_128",
               "text": "dhoop",
               "startFrame": 5322,
               "endFrame": 5364,
               "accent": true
             },
             {
-              "id": "w_06_137",
+              "id": "w_06_129",
               "text": "tere",
               "startFrame": 5364,
               "endFrame": 5388,
               "accent": false
             },
             {
-              "id": "w_06_138",
+              "id": "w_06_130",
               "text": "rukh",
               "startFrame": 5388,
               "endFrame": 5418,
               "accent": false
             },
             {
-              "id": "w_06_139",
+              "id": "w_06_131",
               "text": "choome",
               "startFrame": 5418,
               "endFrame": 5460,
               "accent": true
             },
             {
-              "id": "w_06_140",
+              "id": "w_06_132",
               "text": "hai.",
               "startFrame": 5460,
               "endFrame": 5490,
@@ -1155,77 +1085,77 @@
           "text": "Rough copy ke aakhri panne pe, tera hi naam likha maine,",
           "words": [
             {
-              "id": "w_07_141",
+              "id": "w_07_133",
               "text": "Rough",
               "startFrame": 5532,
               "endFrame": 5586,
               "accent": false
             },
             {
-              "id": "w_07_142",
+              "id": "w_07_134",
               "text": "copy",
               "startFrame": 5586,
               "endFrame": 5616,
               "accent": false
             },
             {
-              "id": "w_07_143",
+              "id": "w_07_135",
               "text": "ke",
               "startFrame": 5616,
               "endFrame": 5628,
               "accent": false
             },
             {
-              "id": "w_07_144",
+              "id": "w_07_136",
               "text": "aakhri",
               "startFrame": 5628,
               "endFrame": 5664,
               "accent": false
             },
             {
-              "id": "w_07_145",
+              "id": "w_07_137",
               "text": "panne",
               "startFrame": 5664,
               "endFrame": 5694,
               "accent": false
             },
             {
-              "id": "w_07_146",
+              "id": "w_07_138",
               "text": "pe,",
               "startFrame": 5694,
               "endFrame": 5730,
               "accent": false
             },
             {
-              "id": "w_07_147",
+              "id": "w_07_139",
               "text": "tera",
               "startFrame": 5730,
               "endFrame": 5772,
               "accent": true
             },
             {
-              "id": "w_07_148",
+              "id": "w_07_140",
               "text": "hi",
               "startFrame": 5772,
               "endFrame": 5796,
               "accent": false
             },
             {
-              "id": "w_07_149",
+              "id": "w_07_141",
               "text": "naam",
               "startFrame": 5796,
               "endFrame": 5832,
               "accent": true
             },
             {
-              "id": "w_07_150",
+              "id": "w_07_142",
               "text": "likha",
               "startFrame": 5832,
               "endFrame": 5856,
               "accent": false
             },
             {
-              "id": "w_07_151",
+              "id": "w_07_143",
               "text": "maine,",
               "startFrame": 5856,
               "endFrame": 5874,
@@ -1238,70 +1168,70 @@
           "text": "Formula saare bhula ke bhi, bas tujhko yaad rakha maine.",
           "words": [
             {
-              "id": "w_07_152",
+              "id": "w_07_144",
               "text": "Formula",
               "startFrame": 5874,
               "endFrame": 5922,
               "accent": false
             },
             {
-              "id": "w_07_153",
+              "id": "w_07_145",
               "text": "saare",
               "startFrame": 5922,
               "endFrame": 5958,
               "accent": false
             },
             {
-              "id": "w_07_154",
+              "id": "w_07_146",
               "text": "bhula",
               "startFrame": 5958,
               "endFrame": 5976,
               "accent": false
             },
             {
-              "id": "w_07_155",
+              "id": "w_07_147",
               "text": "ke",
               "startFrame": 5976,
               "endFrame": 5994,
               "accent": false
             },
             {
-              "id": "w_07_156",
+              "id": "w_07_148",
               "text": "bhi,",
               "startFrame": 5994,
               "endFrame": 6018,
               "accent": false
             },
             {
-              "id": "w_07_157",
+              "id": "w_07_149",
               "text": "bas",
               "startFrame": 6018,
               "endFrame": 6036,
               "accent": false
             },
             {
-              "id": "w_07_158",
+              "id": "w_07_150",
               "text": "tujhko",
               "startFrame": 6036,
               "endFrame": 6072,
               "accent": true
             },
             {
-              "id": "w_07_159",
+              "id": "w_07_151",
               "text": "yaad",
               "startFrame": 6072,
               "endFrame": 6108,
               "accent": true
             },
             {
-              "id": "w_07_160",
+              "id": "w_07_152",
               "text": "rakha",
               "startFrame": 6108,
               "endFrame": 6138,
               "accent": false
             },
             {
-              "id": "w_07_161",
+              "id": "w_07_153",
               "text": "maine.",
               "startFrame": 6138,
               "endFrame": 6162,
@@ -1314,77 +1244,77 @@
           "text": "Haan chhutti ki ghanti bajte hi, dil cycle tez chalata hai,",
           "words": [
             {
-              "id": "w_07_162",
+              "id": "w_07_154",
               "text": "Haan",
               "startFrame": 6168,
               "endFrame": 6198,
               "accent": false
             },
             {
-              "id": "w_07_163",
+              "id": "w_07_155",
               "text": "chhutti",
               "startFrame": 6198,
               "endFrame": 6222,
               "accent": false
             },
             {
-              "id": "w_07_164",
+              "id": "w_07_156",
               "text": "ki",
               "startFrame": 6222,
               "endFrame": 6234,
               "accent": false
             },
             {
-              "id": "w_07_165",
+              "id": "w_07_157",
               "text": "ghanti",
               "startFrame": 6234,
               "endFrame": 6264,
               "accent": true
             },
             {
-              "id": "w_07_166",
+              "id": "w_07_158",
               "text": "bajte",
               "startFrame": 6264,
               "endFrame": 6300,
               "accent": false
             },
             {
-              "id": "w_07_167",
+              "id": "w_07_159",
               "text": "hi,",
               "startFrame": 6300,
               "endFrame": 6318,
               "accent": false
             },
             {
-              "id": "w_07_168",
+              "id": "w_07_160",
               "text": "dil",
               "startFrame": 6318,
               "endFrame": 6348,
               "accent": false
             },
             {
-              "id": "w_07_169",
+              "id": "w_07_161",
               "text": "cycle",
               "startFrame": 6348,
               "endFrame": 6378,
               "accent": true
             },
             {
-              "id": "w_07_170",
+              "id": "w_07_162",
               "text": "tez",
               "startFrame": 6378,
               "endFrame": 6414,
               "accent": true
             },
             {
-              "id": "w_07_171",
+              "id": "w_07_163",
               "text": "chalata",
               "startFrame": 6414,
               "endFrame": 6444,
               "accent": false
             },
             {
-              "id": "w_07_172",
+              "id": "w_07_164",
               "text": "hai,",
               "startFrame": 6444,
               "endFrame": 6468,
@@ -1397,77 +1327,77 @@
           "text": "Rough copy ke aakhri panne pe, tera hi naam likha maine.",
           "words": [
             {
-              "id": "w_07_173",
+              "id": "w_07_165",
               "text": "Rough",
               "startFrame": 6474,
               "endFrame": 6498,
               "accent": false
             },
             {
-              "id": "w_07_174",
+              "id": "w_07_166",
               "text": "copy",
               "startFrame": 6498,
               "endFrame": 6522,
               "accent": false
             },
             {
-              "id": "w_07_175",
+              "id": "w_07_167",
               "text": "ke",
               "startFrame": 6522,
               "endFrame": 6534,
               "accent": false
             },
             {
-              "id": "w_07_176",
+              "id": "w_07_168",
               "text": "aakhri",
               "startFrame": 6534,
               "endFrame": 6570,
               "accent": false
             },
             {
-              "id": "w_07_177",
+              "id": "w_07_169",
               "text": "panne",
               "startFrame": 6570,
               "endFrame": 6606,
               "accent": false
             },
             {
-              "id": "w_07_178",
+              "id": "w_07_170",
               "text": "pe,",
               "startFrame": 6606,
               "endFrame": 6642,
               "accent": false
             },
             {
-              "id": "w_07_179",
+              "id": "w_07_171",
               "text": "tera",
               "startFrame": 6642,
               "endFrame": 6678,
               "accent": true
             },
             {
-              "id": "w_07_180",
+              "id": "w_07_172",
               "text": "hi",
               "startFrame": 6678,
               "endFrame": 6702,
               "accent": false
             },
             {
-              "id": "w_07_181",
+              "id": "w_07_173",
               "text": "naam",
               "startFrame": 6702,
               "endFrame": 6738,
               "accent": true
             },
             {
-              "id": "w_07_182",
+              "id": "w_07_174",
               "text": "likha",
               "startFrame": 6738,
               "endFrame": 6780,
               "accent": false
             },
             {
-              "id": "w_07_183",
+              "id": "w_07_175",
               "text": "maine.",
               "startFrame": 6780,
               "endFrame": 6828,
@@ -1486,42 +1416,7 @@
       "hierarchy": "SYMBOLIC_DOMINANT",
       "symbolKey": "herbarium_notebook",
       "subtitle": "Waiting by the pedals • Shadows lengthening across the playground",
-      "lines": [
-        {
-          "id": "line_08_interlude",
-          "text": "Cycle stand pe rukta hoon...",
-          "words": [
-            {
-              "id": "w_08_184",
-              "text": "School",
-              "startFrame": 6900,
-              "endFrame": 7020,
-              "accent": false
-            },
-            {
-              "id": "w_08_185",
-              "text": "Gate",
-              "startFrame": 7020,
-              "endFrame": 7140,
-              "accent": false
-            },
-            {
-              "id": "w_08_186",
-              "text": "Evening",
-              "startFrame": 7140,
-              "endFrame": 7260,
-              "accent": true
-            },
-            {
-              "id": "w_08_187",
-              "text": "Glow",
-              "startFrame": 7260,
-              "endFrame": 7380,
-              "accent": true
-            }
-          ]
-        }
-      ]
+      "lines": []
     },
     {
       "id": "scene_09_antara2",
@@ -1538,77 +1433,77 @@
           "text": "Cycle stand pe rukta hoon, jab tak tu bag uthati nahi,",
           "words": [
             {
-              "id": "w_09_188",
+              "id": "w_09_176",
               "text": "Cycle",
               "startFrame": 7398,
               "endFrame": 7470,
               "accent": true
             },
             {
-              "id": "w_09_189",
+              "id": "w_09_177",
               "text": "stand",
               "startFrame": 7470,
               "endFrame": 7500,
               "accent": false
             },
             {
-              "id": "w_09_190",
+              "id": "w_09_178",
               "text": "pe",
               "startFrame": 7500,
               "endFrame": 7524,
               "accent": false
             },
             {
-              "id": "w_09_191",
+              "id": "w_09_179",
               "text": "rukta",
               "startFrame": 7524,
               "endFrame": 7548,
               "accent": false
             },
             {
-              "id": "w_09_192",
+              "id": "w_09_180",
               "text": "hoon,",
               "startFrame": 7548,
               "endFrame": 7572,
               "accent": false
             },
             {
-              "id": "w_09_193",
+              "id": "w_09_181",
               "text": "jab",
               "startFrame": 7572,
               "endFrame": 7590,
               "accent": false
             },
             {
-              "id": "w_09_194",
+              "id": "w_09_182",
               "text": "tak",
               "startFrame": 7590,
               "endFrame": 7620,
               "accent": false
             },
             {
-              "id": "w_09_195",
+              "id": "w_09_183",
               "text": "tu",
               "startFrame": 7620,
               "endFrame": 7644,
               "accent": false
             },
             {
-              "id": "w_09_196",
+              "id": "w_09_184",
               "text": "bag",
               "startFrame": 7644,
               "endFrame": 7674,
               "accent": true
             },
             {
-              "id": "w_09_197",
+              "id": "w_09_185",
               "text": "uthati",
               "startFrame": 7674,
               "endFrame": 7698,
               "accent": false
             },
             {
-              "id": "w_09_198",
+              "id": "w_09_186",
               "text": "nahi,",
               "startFrame": 7698,
               "endFrame": 7716,
@@ -1621,84 +1516,84 @@
           "text": "Teri bus jab tak mud na jaaye, chain se shaam aati nahi.",
           "words": [
             {
-              "id": "w_09_199",
+              "id": "w_09_187",
               "text": "Teri",
               "startFrame": 7722,
               "endFrame": 7752,
               "accent": false
             },
             {
-              "id": "w_09_200",
+              "id": "w_09_188",
               "text": "bus",
               "startFrame": 7752,
               "endFrame": 7782,
               "accent": true
             },
             {
-              "id": "w_09_201",
+              "id": "w_09_189",
               "text": "jab",
               "startFrame": 7782,
               "endFrame": 7800,
               "accent": false
             },
             {
-              "id": "w_09_202",
+              "id": "w_09_190",
               "text": "tak",
               "startFrame": 7800,
               "endFrame": 7818,
               "accent": false
             },
             {
-              "id": "w_09_203",
+              "id": "w_09_191",
               "text": "mud",
               "startFrame": 7818,
               "endFrame": 7848,
               "accent": false
             },
             {
-              "id": "w_09_204",
+              "id": "w_09_192",
               "text": "na",
               "startFrame": 7848,
               "endFrame": 7872,
               "accent": false
             },
             {
-              "id": "w_09_205",
+              "id": "w_09_193",
               "text": "jaaye,",
               "startFrame": 7872,
               "endFrame": 7896,
               "accent": false
             },
             {
-              "id": "w_09_206",
+              "id": "w_09_194",
               "text": "chain",
               "startFrame": 7896,
               "endFrame": 7920,
               "accent": false
             },
             {
-              "id": "w_09_207",
+              "id": "w_09_195",
               "text": "se",
               "startFrame": 7920,
               "endFrame": 7938,
               "accent": false
             },
             {
-              "id": "w_09_208",
+              "id": "w_09_196",
               "text": "shaam",
               "startFrame": 7938,
               "endFrame": 7974,
               "accent": true
             },
             {
-              "id": "w_09_209",
+              "id": "w_09_197",
               "text": "aati",
               "startFrame": 7974,
               "endFrame": 7992,
               "accent": false
             },
             {
-              "id": "w_09_210",
+              "id": "w_09_198",
               "text": "nahi.",
               "startFrame": 7992,
               "endFrame": 8010,
@@ -1711,70 +1606,70 @@
           "text": "Ghar aake kitaabein kholta hoon, homework toh bas bahaana hai,",
           "words": [
             {
-              "id": "w_09_211",
+              "id": "w_09_199",
               "text": "Ghar",
               "startFrame": 8010,
               "endFrame": 8046,
               "accent": false
             },
             {
-              "id": "w_09_212",
+              "id": "w_09_200",
               "text": "aake",
               "startFrame": 8046,
               "endFrame": 8070,
               "accent": false
             },
             {
-              "id": "w_09_213",
+              "id": "w_09_201",
               "text": "kitaabein",
               "startFrame": 8070,
               "endFrame": 8118,
               "accent": false
             },
             {
-              "id": "w_09_214",
+              "id": "w_09_202",
               "text": "kholta",
               "startFrame": 8118,
               "endFrame": 8154,
               "accent": false
             },
             {
-              "id": "w_09_215",
+              "id": "w_09_203",
               "text": "hoon,",
               "startFrame": 8154,
               "endFrame": 8178,
               "accent": false
             },
             {
-              "id": "w_09_216",
+              "id": "w_09_204",
               "text": "homework",
               "startFrame": 8178,
               "endFrame": 8220,
               "accent": true
             },
             {
-              "id": "w_09_217",
+              "id": "w_09_205",
               "text": "toh",
               "startFrame": 8220,
               "endFrame": 8238,
               "accent": false
             },
             {
-              "id": "w_09_218",
+              "id": "w_09_206",
               "text": "bas",
               "startFrame": 8238,
               "endFrame": 8256,
               "accent": false
             },
             {
-              "id": "w_09_219",
+              "id": "w_09_207",
               "text": "bahaana",
               "startFrame": 8256,
               "endFrame": 8292,
               "accent": false
             },
             {
-              "id": "w_09_220",
+              "id": "w_09_208",
               "text": "hai,",
               "startFrame": 8292,
               "endFrame": 8316,
@@ -1787,70 +1682,70 @@
           "text": "History ke soye panno mein, bas tera zikr sajaana hai.",
           "words": [
             {
-              "id": "w_09_221",
+              "id": "w_09_209",
               "text": "History",
               "startFrame": 8328,
               "endFrame": 8382,
               "accent": true
             },
             {
-              "id": "w_09_222",
+              "id": "w_09_210",
               "text": "ke",
               "startFrame": 8382,
               "endFrame": 8394,
               "accent": false
             },
             {
-              "id": "w_09_223",
+              "id": "w_09_211",
               "text": "soye",
               "startFrame": 8394,
               "endFrame": 8418,
               "accent": false
             },
             {
-              "id": "w_09_224",
+              "id": "w_09_212",
               "text": "panno",
               "startFrame": 8418,
               "endFrame": 8454,
               "accent": false
             },
             {
-              "id": "w_09_225",
+              "id": "w_09_213",
               "text": "mein,",
               "startFrame": 8454,
               "endFrame": 8472,
               "accent": false
             },
             {
-              "id": "w_09_226",
+              "id": "w_09_214",
               "text": "bas",
               "startFrame": 8472,
               "endFrame": 8496,
               "accent": false
             },
             {
-              "id": "w_09_227",
+              "id": "w_09_215",
               "text": "tera",
               "startFrame": 8496,
               "endFrame": 8532,
               "accent": true
             },
             {
-              "id": "w_09_228",
+              "id": "w_09_216",
               "text": "zikr",
               "startFrame": 8532,
               "endFrame": 8568,
               "accent": false
             },
             {
-              "id": "w_09_229",
+              "id": "w_09_217",
               "text": "sajaana",
               "startFrame": 8568,
               "endFrame": 8604,
               "accent": false
             },
             {
-              "id": "w_09_230",
+              "id": "w_09_218",
               "text": "hai.",
               "startFrame": 8604,
               "endFrame": 8622,
@@ -1863,70 +1758,70 @@
           "text": "Doston ne chheda kitni dafa, main jhoothi kasmein khata hoon,",
           "words": [
             {
-              "id": "w_09_231",
+              "id": "w_09_219",
               "text": "Doston",
               "startFrame": 8628,
               "endFrame": 8682,
               "accent": true
             },
             {
-              "id": "w_09_232",
+              "id": "w_09_220",
               "text": "ne",
               "startFrame": 8682,
               "endFrame": 8694,
               "accent": false
             },
             {
-              "id": "w_09_233",
+              "id": "w_09_221",
               "text": "chheda",
               "startFrame": 8694,
               "endFrame": 8724,
               "accent": false
             },
             {
-              "id": "w_09_234",
+              "id": "w_09_222",
               "text": "kitni",
               "startFrame": 8724,
               "endFrame": 8754,
               "accent": false
             },
             {
-              "id": "w_09_235",
+              "id": "w_09_223",
               "text": "dafa,",
               "startFrame": 8754,
               "endFrame": 8778,
               "accent": false
             },
             {
-              "id": "w_09_236",
+              "id": "w_09_224",
               "text": "main",
               "startFrame": 8778,
               "endFrame": 8796,
               "accent": false
             },
             {
-              "id": "w_09_237",
+              "id": "w_09_225",
               "text": "jhoothi",
               "startFrame": 8796,
               "endFrame": 8832,
               "accent": false
             },
             {
-              "id": "w_09_238",
+              "id": "w_09_226",
               "text": "kasmein",
               "startFrame": 8832,
               "endFrame": 8868,
               "accent": false
             },
             {
-              "id": "w_09_239",
+              "id": "w_09_227",
               "text": "khata",
               "startFrame": 8868,
               "endFrame": 8892,
               "accent": false
             },
             {
-              "id": "w_09_240",
+              "id": "w_09_228",
               "text": "hoon,",
               "startFrame": 8892,
               "endFrame": 8910,
@@ -1939,70 +1834,70 @@
           "text": "Par aaine ke aage khade, tujhe Hi kehne sharmata hoon!",
           "words": [
             {
-              "id": "w_09_241",
+              "id": "w_09_229",
               "text": "Par",
               "startFrame": 8910,
               "endFrame": 8952,
               "accent": false
             },
             {
-              "id": "w_09_242",
+              "id": "w_09_230",
               "text": "aaine",
               "startFrame": 8952,
               "endFrame": 8982,
               "accent": true
             },
             {
-              "id": "w_09_243",
+              "id": "w_09_231",
               "text": "ke",
               "startFrame": 8982,
               "endFrame": 8994,
               "accent": false
             },
             {
-              "id": "w_09_244",
+              "id": "w_09_232",
               "text": "aage",
               "startFrame": 8994,
               "endFrame": 9018,
               "accent": false
             },
             {
-              "id": "w_09_245",
+              "id": "w_09_233",
               "text": "khade,",
               "startFrame": 9018,
               "endFrame": 9042,
               "accent": false
             },
             {
-              "id": "w_09_246",
+              "id": "w_09_234",
               "text": "tujhe",
               "startFrame": 9042,
               "endFrame": 9084,
               "accent": false
             },
             {
-              "id": "w_09_247",
+              "id": "w_09_235",
               "text": "Hi",
               "startFrame": 9084,
               "endFrame": 9120,
               "accent": true
             },
             {
-              "id": "w_09_248",
+              "id": "w_09_236",
               "text": "kehne",
               "startFrame": 9120,
               "endFrame": 9150,
               "accent": false
             },
             {
-              "id": "w_09_249",
+              "id": "w_09_237",
               "text": "sharmata",
               "startFrame": 9150,
               "endFrame": 9198,
               "accent": true
             },
             {
-              "id": "w_09_250",
+              "id": "w_09_238",
               "text": "hoon!",
               "startFrame": 9198,
               "endFrame": 9228,
@@ -2027,70 +1922,70 @@
           "text": "Kabhi toh aakhri bench se aage, main himmat karke aaunga,",
           "words": [
             {
-              "id": "w_10_251",
+              "id": "w_10_239",
               "text": "Kabhi",
               "startFrame": 9228,
               "endFrame": 9252,
               "accent": false
             },
             {
-              "id": "w_10_252",
+              "id": "w_10_240",
               "text": "toh",
               "startFrame": 9252,
               "endFrame": 9264,
               "accent": false
             },
             {
-              "id": "w_10_253",
+              "id": "w_10_241",
               "text": "aakhri",
               "startFrame": 9264,
               "endFrame": 9294,
               "accent": false
             },
             {
-              "id": "w_10_254",
+              "id": "w_10_242",
               "text": "bench",
               "startFrame": 9294,
               "endFrame": 9324,
               "accent": true
             },
             {
-              "id": "w_10_255",
+              "id": "w_10_243",
               "text": "se",
               "startFrame": 9324,
               "endFrame": 9336,
               "accent": false
             },
             {
-              "id": "w_10_256",
+              "id": "w_10_244",
               "text": "aage,",
               "startFrame": 9336,
               "endFrame": 9366,
               "accent": false
             },
             {
-              "id": "w_10_257",
+              "id": "w_10_245",
               "text": "main",
               "startFrame": 9366,
               "endFrame": 9396,
               "accent": false
             },
             {
-              "id": "w_10_258",
+              "id": "w_10_246",
               "text": "himmat",
               "startFrame": 9396,
               "endFrame": 9438,
               "accent": true
             },
             {
-              "id": "w_10_259",
+              "id": "w_10_247",
               "text": "karke",
               "startFrame": 9438,
               "endFrame": 9462,
               "accent": false
             },
             {
-              "id": "w_10_260",
+              "id": "w_10_248",
               "text": "aaunga,",
               "startFrame": 9462,
               "endFrame": 9492,
@@ -2103,63 +1998,63 @@
           "text": "Tujhe rough copy ka har panna, chupke se dikhlaunga.",
           "words": [
             {
-              "id": "w_10_261",
+              "id": "w_10_249",
               "text": "Tujhe",
               "startFrame": 9498,
               "endFrame": 9558,
               "accent": false
             },
             {
-              "id": "w_10_262",
+              "id": "w_10_250",
               "text": "rough",
               "startFrame": 9558,
               "endFrame": 9582,
               "accent": true
             },
             {
-              "id": "w_10_263",
+              "id": "w_10_251",
               "text": "copy",
               "startFrame": 9582,
               "endFrame": 9606,
               "accent": true
             },
             {
-              "id": "w_10_264",
+              "id": "w_10_252",
               "text": "ka",
               "startFrame": 9606,
               "endFrame": 9618,
               "accent": false
             },
             {
-              "id": "w_10_265",
+              "id": "w_10_253",
               "text": "har",
               "startFrame": 9618,
               "endFrame": 9636,
               "accent": false
             },
             {
-              "id": "w_10_266",
+              "id": "w_10_254",
               "text": "panna,",
               "startFrame": 9636,
               "endFrame": 9684,
               "accent": false
             },
             {
-              "id": "w_10_267",
+              "id": "w_10_255",
               "text": "chupke",
               "startFrame": 9684,
               "endFrame": 9720,
               "accent": false
             },
             {
-              "id": "w_10_268",
+              "id": "w_10_256",
               "text": "se",
               "startFrame": 9720,
               "endFrame": 9744,
               "accent": false
             },
             {
-              "id": "w_10_269",
+              "id": "w_10_257",
               "text": "dikhlaunga.",
               "startFrame": 9744,
               "endFrame": 9792,
@@ -2172,105 +2067,105 @@
           "text": "Yeh darr bhi hai ke tu hans na de, par umeed bhi thodi baaqi hai,",
           "words": [
             {
-              "id": "w_10_270",
+              "id": "w_10_258",
               "text": "Yeh",
               "startFrame": 9804,
               "endFrame": 9840,
               "accent": false
             },
             {
-              "id": "w_10_271",
+              "id": "w_10_259",
               "text": "darr",
               "startFrame": 9840,
               "endFrame": 9876,
               "accent": true
             },
             {
-              "id": "w_10_272",
+              "id": "w_10_260",
               "text": "bhi",
               "startFrame": 9876,
               "endFrame": 9894,
               "accent": false
             },
             {
-              "id": "w_10_273",
+              "id": "w_10_261",
               "text": "hai",
               "startFrame": 9894,
               "endFrame": 9906,
               "accent": false
             },
             {
-              "id": "w_10_274",
+              "id": "w_10_262",
               "text": "ke",
               "startFrame": 9906,
               "endFrame": 9918,
               "accent": false
             },
             {
-              "id": "w_10_275",
+              "id": "w_10_263",
               "text": "tu",
               "startFrame": 9918,
               "endFrame": 9936,
               "accent": false
             },
             {
-              "id": "w_10_276",
+              "id": "w_10_264",
               "text": "hans",
               "startFrame": 9936,
               "endFrame": 9966,
               "accent": false
             },
             {
-              "id": "w_10_277",
+              "id": "w_10_265",
               "text": "na",
               "startFrame": 9966,
               "endFrame": 9984,
               "accent": false
             },
             {
-              "id": "w_10_278",
+              "id": "w_10_266",
               "text": "de,",
               "startFrame": 9984,
               "endFrame": 10002,
               "accent": false
             },
             {
-              "id": "w_10_279",
+              "id": "w_10_267",
               "text": "par",
               "startFrame": 10002,
               "endFrame": 10020,
               "accent": false
             },
             {
-              "id": "w_10_280",
+              "id": "w_10_268",
               "text": "umeed",
               "startFrame": 10020,
               "endFrame": 10050,
               "accent": true
             },
             {
-              "id": "w_10_281",
+              "id": "w_10_269",
               "text": "bhi",
               "startFrame": 10050,
               "endFrame": 10068,
               "accent": false
             },
             {
-              "id": "w_10_282",
+              "id": "w_10_270",
               "text": "thodi",
               "startFrame": 10068,
               "endFrame": 10092,
               "accent": false
             },
             {
-              "id": "w_10_283",
+              "id": "w_10_271",
               "text": "baaqi",
               "startFrame": 10092,
               "endFrame": 10116,
               "accent": false
             },
             {
-              "id": "w_10_284",
+              "id": "w_10_272",
               "text": "hai,",
               "startFrame": 10116,
               "endFrame": 10134,
@@ -2283,77 +2178,77 @@
           "text": "Tera mud ke ek dafa dekhna, bas itna hi kaafi hai...",
           "words": [
             {
-              "id": "w_10_285",
+              "id": "w_10_273",
               "text": "Tera",
               "startFrame": 10134,
               "endFrame": 10158,
               "accent": false
             },
             {
-              "id": "w_10_286",
+              "id": "w_10_274",
               "text": "mud",
               "startFrame": 10158,
               "endFrame": 10176,
               "accent": false
             },
             {
-              "id": "w_10_287",
+              "id": "w_10_275",
               "text": "ke",
               "startFrame": 10176,
               "endFrame": 10188,
               "accent": false
             },
             {
-              "id": "w_10_288",
+              "id": "w_10_276",
               "text": "ek",
               "startFrame": 10188,
               "endFrame": 10212,
               "accent": false
             },
             {
-              "id": "w_10_289",
+              "id": "w_10_277",
               "text": "dafa",
               "startFrame": 10212,
               "endFrame": 10236,
               "accent": false
             },
             {
-              "id": "w_10_290",
+              "id": "w_10_278",
               "text": "dekhna,",
               "startFrame": 10236,
               "endFrame": 10278,
               "accent": true
             },
             {
-              "id": "w_10_291",
+              "id": "w_10_279",
               "text": "bas",
               "startFrame": 10278,
               "endFrame": 10308,
               "accent": false
             },
             {
-              "id": "w_10_292",
+              "id": "w_10_280",
               "text": "itna",
               "startFrame": 10308,
               "endFrame": 10344,
               "accent": false
             },
             {
-              "id": "w_10_293",
+              "id": "w_10_281",
               "text": "hi",
               "startFrame": 10344,
               "endFrame": 10362,
               "accent": false
             },
             {
-              "id": "w_10_294",
+              "id": "w_10_282",
               "text": "kaafi",
               "startFrame": 10362,
               "endFrame": 10392,
               "accent": true
             },
             {
-              "id": "w_10_295",
+              "id": "w_10_283",
               "text": "hai...",
               "startFrame": 10392,
               "endFrame": 10404,
@@ -2366,35 +2261,35 @@
           "text": "Haan itna hi kaafi hai!",
           "words": [
             {
-              "id": "w_10_296",
+              "id": "w_10_284",
               "text": "Haan",
               "startFrame": 10404,
               "endFrame": 10440,
               "accent": false
             },
             {
-              "id": "w_10_297",
+              "id": "w_10_285",
               "text": "itna",
               "startFrame": 10440,
               "endFrame": 10476,
               "accent": true
             },
             {
-              "id": "w_10_298",
+              "id": "w_10_286",
               "text": "hi",
               "startFrame": 10476,
               "endFrame": 10500,
               "accent": false
             },
             {
-              "id": "w_10_299",
+              "id": "w_10_287",
               "text": "kaafi",
               "startFrame": 10500,
               "endFrame": 10530,
               "accent": true
             },
             {
-              "id": "w_10_300",
+              "id": "w_10_288",
               "text": "hai!",
               "startFrame": 10530,
               "endFrame": 10542,
@@ -2419,77 +2314,77 @@
           "text": "Rough copy ke aakhri panne pe... tera hi naam likha maine...",
           "words": [
             {
-              "id": "w_11_301",
+              "id": "w_11_289",
               "text": "Rough",
               "startFrame": 10554,
               "endFrame": 10584,
               "accent": false
             },
             {
-              "id": "w_11_302",
+              "id": "w_11_290",
               "text": "copy",
               "startFrame": 10584,
               "endFrame": 10608,
               "accent": false
             },
             {
-              "id": "w_11_303",
+              "id": "w_11_291",
               "text": "ke",
               "startFrame": 10608,
               "endFrame": 10620,
               "accent": false
             },
             {
-              "id": "w_11_304",
+              "id": "w_11_292",
               "text": "aakhri",
               "startFrame": 10620,
               "endFrame": 10656,
               "accent": false
             },
             {
-              "id": "w_11_305",
+              "id": "w_11_293",
               "text": "panne",
               "startFrame": 10656,
               "endFrame": 10692,
               "accent": false
             },
             {
-              "id": "w_11_306",
+              "id": "w_11_294",
               "text": "pe...",
               "startFrame": 10692,
               "endFrame": 10716,
               "accent": false
             },
             {
-              "id": "w_11_307",
+              "id": "w_11_295",
               "text": "tera",
               "startFrame": 10716,
               "endFrame": 10752,
               "accent": true
             },
             {
-              "id": "w_11_308",
+              "id": "w_11_296",
               "text": "hi",
               "startFrame": 10752,
               "endFrame": 10770,
               "accent": false
             },
             {
-              "id": "w_11_309",
+              "id": "w_11_297",
               "text": "naam",
               "startFrame": 10770,
               "endFrame": 10800,
               "accent": true
             },
             {
-              "id": "w_11_310",
+              "id": "w_11_298",
               "text": "likha",
               "startFrame": 10800,
               "endFrame": 10818,
               "accent": false
             },
             {
-              "id": "w_11_311",
+              "id": "w_11_299",
               "text": "maine...",
               "startFrame": 10818,
               "endFrame": 10836,
@@ -2502,77 +2397,77 @@
           "text": "Bas maths ke aakhri period mein, tujhko hi yaad rakha maine...",
           "words": [
             {
-              "id": "w_11_312",
+              "id": "w_11_300",
               "text": "Bas",
               "startFrame": 10836,
               "endFrame": 10872,
               "accent": false
             },
             {
-              "id": "w_11_313",
+              "id": "w_11_301",
               "text": "maths",
               "startFrame": 10872,
               "endFrame": 10902,
               "accent": true
             },
             {
-              "id": "w_11_314",
+              "id": "w_11_302",
               "text": "ke",
               "startFrame": 10902,
               "endFrame": 10914,
               "accent": false
             },
             {
-              "id": "w_11_315",
+              "id": "w_11_303",
               "text": "aakhri",
               "startFrame": 10914,
               "endFrame": 10950,
               "accent": false
             },
             {
-              "id": "w_11_316",
+              "id": "w_11_304",
               "text": "period",
               "startFrame": 10950,
               "endFrame": 10986,
               "accent": true
             },
             {
-              "id": "w_11_317",
+              "id": "w_11_305",
               "text": "mein,",
               "startFrame": 10986,
               "endFrame": 11004,
               "accent": false
             },
             {
-              "id": "w_11_318",
+              "id": "w_11_306",
               "text": "tujhko",
               "startFrame": 11004,
               "endFrame": 11046,
               "accent": true
             },
             {
-              "id": "w_11_319",
+              "id": "w_11_307",
               "text": "hi",
               "startFrame": 11046,
               "endFrame": 11064,
               "accent": false
             },
             {
-              "id": "w_11_320",
+              "id": "w_11_308",
               "text": "yaad",
               "startFrame": 11064,
               "endFrame": 11094,
               "accent": true
             },
             {
-              "id": "w_11_321",
+              "id": "w_11_309",
               "text": "rakha",
               "startFrame": 11094,
               "endFrame": 11118,
               "accent": false
             },
             {
-              "id": "w_11_322",
+              "id": "w_11_310",
               "text": "maine...",
               "startFrame": 11118,
               "endFrame": 11160,

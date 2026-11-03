@@ -1,0 +1,1747 @@
+{
+  "audio_file": "/home/phyroosh/Downloads/Class Ke Baad - usesuno.com.wav",
+  "duration": 188.367,
+  "language": "hi",
+  "words": [
+    {
+      "word": "کے",
+      "start": 30.0,
+      "end": 30.12,
+      "probability": 0.003
+    },
+    {
+      "word": "بعد",
+      "start": 30.12,
+      "end": 30.38,
+      "probability": 0.508
+    },
+    {
+      "word": "جزندے",
+      "start": 30.38,
+      "end": 31.26,
+      "probability": 0.489
+    },
+    {
+      "word": "گیتی",
+      "start": 31.26,
+      "end": 31.66,
+      "probability": 0.542
+    },
+    {
+      "word": "وہ",
+      "start": 31.66,
+      "end": 31.86,
+      "probability": 0.888
+    },
+    {
+      "word": "قلاس",
+      "start": 31.86,
+      "end": 32.52,
+      "probability": 0.266
+    },
+    {
+      "word": "میں",
+      "start": 32.52,
+      "end": 32.74,
+      "probability": 0.886
+    },
+    {
+      "word": "کہاں",
+      "start": 32.74,
+      "end": 33.26,
+      "probability": 0.673
+    },
+    {
+      "word": "ملتی",
+      "start": 33.26,
+      "end": 33.72,
+      "probability": 0.636
+    },
+    {
+      "word": "تھی",
+      "start": 33.72,
+      "end": 36.98,
+      "probability": 0.506
+    },
+    {
+      "word": "سوبا",
+      "start": 38.26,
+      "end": 39.18,
+      "probability": 0.489
+    },
+    {
+      "word": "کی",
+      "start": 39.18,
+      "end": 39.32,
+      "probability": 0.604
+    },
+    {
+      "word": "بس",
+      "start": 39.32,
+      "end": 39.56,
+      "probability": 0.82
+    },
+    {
+      "word": "میں",
+      "start": 39.56,
+      "end": 39.82,
+      "probability": 0.966
+    },
+    {
+      "word": "نیند",
+      "start": 39.82,
+      "end": 40.32,
+      "probability": 0.444
+    },
+    {
+      "word": "سبوالے",
+      "start": 40.32,
+      "end": 41.1,
+      "probability": 0.539
+    },
+    {
+      "word": "بگ",
+      "start": 41.1,
+      "end": 41.62,
+      "probability": 0.721
+    },
+    {
+      "word": "بھی",
+      "start": 41.62,
+      "end": 41.84,
+      "probability": 0.818
+    },
+    {
+      "word": "آدھا",
+      "start": 41.84,
+      "end": 42.44,
+      "probability": 0.558
+    },
+    {
+      "word": "خلا",
+      "start": 42.44,
+      "end": 42.8,
+      "probability": 0.639
+    },
+    {
+      "word": "تھا",
+      "start": 42.8,
+      "end": 43.5,
+      "probability": 0.859
+    },
+    {
+      "word": "گیپے",
+      "start": 43.5,
+      "end": 44.24,
+      "probability": 0.45
+    },
+    {
+      "word": "ملتی",
+      "start": 44.24,
+      "end": 44.74,
+      "probability": 0.797
+    },
+    {
+      "word": "لی",
+      "start": 44.74,
+      "end": 45.06,
+      "probability": 0.881
+    },
+    {
+      "word": "لگتا",
+      "start": 45.06,
+      "end": 45.96,
+      "probability": 0.681
+    },
+    {
+      "word": "تھا",
+      "start": 45.96,
+      "end": 46.28,
+      "probability": 0.995
+    },
+    {
+      "word": "دن",
+      "start": 46.28,
+      "end": 46.66,
+      "probability": 0.544
+    },
+    {
+      "word": "اپنا",
+      "start": 46.66,
+      "end": 47.1,
+      "probability": 0.703
+    },
+    {
+      "word": "ہی",
+      "start": 47.1,
+      "end": 47.58,
+      "probability": 0.74
+    },
+    {
+      "word": "لکھا",
+      "start": 47.58,
+      "end": 48.14,
+      "probability": 0.846
+    },
+    {
+      "word": "تھا",
+      "start": 48.14,
+      "end": 48.58,
+      "probability": 0.997
+    },
+    {
+      "word": "رول",
+      "start": 48.58,
+      "end": 49.04,
+      "probability": 0.445
+    },
+    {
+      "word": "کال",
+      "start": 49.04,
+      "end": 49.48,
+      "probability": 0.558
+    },
+    {
+      "word": "میں",
+      "start": 49.48,
+      "end": 49.72,
+      "probability": 0.928
+    },
+    {
+      "word": "عام",
+      "start": 49.72,
+      "end": 50.18,
+      "probability": 0.492
+    },
+    {
+      "word": "پوکارا",
+      "start": 50.18,
+      "end": 50.9,
+      "probability": 0.501
+    },
+    {
+      "word": "کسی",
+      "start": 50.9,
+      "end": 51.4,
+      "probability": 0.764
+    },
+    {
+      "word": "نے",
+      "start": 51.4,
+      "end": 51.52,
+      "probability": 0.905
+    },
+    {
+      "word": "پریزند",
+      "start": 51.52,
+      "end": 52.12,
+      "probability": 0.573
+    },
+    {
+      "word": "کے",
+      "start": 52.12,
+      "end": 52.34,
+      "probability": 0.643
+    },
+    {
+      "word": "بیا",
+      "start": 52.34,
+      "end": 52.88,
+      "probability": 0.395
+    },
+    {
+      "word": "ایک",
+      "start": 52.88,
+      "end": 53.96,
+      "probability": 0.697
+    },
+    {
+      "word": "تفن",
+      "start": 53.96,
+      "end": 54.36,
+      "probability": 0.666
+    },
+    {
+      "word": "کے",
+      "start": 54.36,
+      "end": 54.6,
+      "probability": 0.897
+    },
+    {
+      "word": "چار",
+      "start": 54.6,
+      "end": 54.96,
+      "probability": 0.904
+    },
+    {
+      "word": "ہیسے",
+      "start": 54.96,
+      "end": 55.6,
+      "probability": 0.48
+    },
+    {
+      "word": "تھے",
+      "start": 55.6,
+      "end": 56.1,
+      "probability": 0.937
+    },
+    {
+      "word": "وہ",
+      "start": 56.1,
+      "end": 56.36,
+      "probability": 0.786
+    },
+    {
+      "word": "کا",
+      "start": 56.36,
+      "end": 56.64,
+      "probability": 0.5
+    },
+    {
+      "word": "بھی",
+      "start": 56.64,
+      "end": 56.96,
+      "probability": 0.892
+    },
+    {
+      "word": "فیس",
+      "start": 56.96,
+      "end": 57.42,
+      "probability": 0.695
+    },
+    {
+      "word": "کر",
+      "start": 57.42,
+      "end": 57.78,
+      "probability": 0.926
+    },
+    {
+      "word": "بیا",
+      "start": 57.78,
+      "end": 58.34,
+      "probability": 0.666
+    },
+    {
+      "word": "کنتین",
+      "start": 58.34,
+      "end": 59.16,
+      "probability": 0.489
+    },
+    {
+      "word": "کی",
+      "start": 59.16,
+      "end": 59.36,
+      "probability": 0.862
+    },
+    {
+      "word": "اڑھا",
+      "start": 59.36,
+      "end": 59.68,
+      "probability": 0.478
+    },
+    {
+      "word": "روالی",
+      "start": 59.68,
+      "end": 60.12,
+      "probability": 0.769
+    },
+    {
+      "word": "چای",
+      "start": 60.12,
+      "end": 60.48,
+      "probability": 0.541
+    },
+    {
+      "word": "کتنی",
+      "start": 60.48,
+      "end": 61.26,
+      "probability": 0.57
+    },
+    {
+      "word": "مینگی",
+      "start": 61.26,
+      "end": 61.86,
+      "probability": 0.639
+    },
+    {
+      "word": "اڑھا",
+      "start": 61.86,
+      "end": 62.5,
+      "probability": 0.567
+    },
+    {
+      "word": "بنی",
+      "start": 62.5,
+      "end": 62.76,
+      "probability": 0.568
+    },
+    {
+      "word": "اسنگ",
+      "start": 62.76,
+      "end": 63.5,
+      "probability": 0.476
+    },
+    {
+      "word": "مینٹ",
+      "start": 63.5,
+      "end": 63.82,
+      "probability": 0.381
+    },
+    {
+      "word": "کی",
+      "start": 63.82,
+      "end": 63.96,
+      "probability": 0.932
+    },
+    {
+      "word": "دیدلائن",
+      "start": 63.96,
+      "end": 64.66,
+      "probability": 0.494
+    },
+    {
+      "word": "سے",
+      "start": 64.66,
+      "end": 64.9,
+      "probability": 0.8
+    },
+    {
+      "word": "زیادا",
+      "start": 64.9,
+      "end": 65.56,
+      "probability": 0.607
+    },
+    {
+      "word": "دوستی",
+      "start": 65.56,
+      "end": 66.18,
+      "probability": 0.803
+    },
+    {
+      "word": "ہم",
+      "start": 66.18,
+      "end": 66.52,
+      "probability": 0.965
+    },
+    {
+      "word": "کو",
+      "start": 66.52,
+      "end": 66.76,
+      "probability": 0.818
+    },
+    {
+      "word": "خاص",
+      "start": 66.76,
+      "end": 67.28,
+      "probability": 0.643
+    },
+    {
+      "word": "لگی",
+      "start": 67.28,
+      "end": 67.86,
+      "probability": 0.88
+    },
+    {
+      "word": "قلاس",
+      "start": 68.62,
+      "end": 69.18,
+      "probability": 0.317
+    },
+    {
+      "word": "کی",
+      "start": 69.18,
+      "end": 69.3,
+      "probability": 0.584
+    },
+    {
+      "word": "با",
+      "start": 69.3,
+      "end": 69.6,
+      "probability": 0.588
+    },
+    {
+      "word": "جزندے",
+      "start": 69.6,
+      "end": 70.42,
+      "probability": 0.476
+    },
+    {
+      "word": "گیتی",
+      "start": 70.42,
+      "end": 70.84,
+      "probability": 0.786
+    },
+    {
+      "word": "وہ",
+      "start": 70.84,
+      "end": 71.02,
+      "probability": 0.969
+    },
+    {
+      "word": "قلاس",
+      "start": 71.02,
+      "end": 71.7,
+      "probability": 0.605
+    },
+    {
+      "word": "میں",
+      "start": 71.7,
+      "end": 71.92,
+      "probability": 0.807
+    },
+    {
+      "word": "کہاں",
+      "start": 71.92,
+      "end": 72.46,
+      "probability": 0.385
+    },
+    {
+      "word": "ملتی",
+      "start": 72.46,
+      "end": 72.86,
+      "probability": 0.734
+    },
+    {
+      "word": "تھی",
+      "start": 72.86,
+      "end": 73.26,
+      "probability": 0.511
+    },
+    {
+      "word": "ایک",
+      "start": 73.26,
+      "end": 73.54,
+      "probability": 0.865
+    },
+    {
+      "word": "بنچ",
+      "start": 73.54,
+      "end": 74.02,
+      "probability": 0.584
+    },
+    {
+      "word": "بچورتی",
+      "start": 74.02,
+      "end": 74.76,
+      "probability": 0.52
+    },
+    {
+      "word": "دنی",
+      "start": 74.76,
+      "end": 75.2,
+      "probability": 0.646
+    },
+    {
+      "word": "آتی",
+      "start": 75.2,
+      "end": 75.64,
+      "probability": 0.802
+    },
+    {
+      "word": "اڑھا",
+      "start": 75.64,
+      "end": 75.98,
+      "probability": 0.719
+    },
+    {
+      "word": "روال",
+      "start": 75.98,
+      "end": 76.24,
+      "probability": 0.33
+    },
+    {
+      "word": "دن",
+      "start": 76.24,
+      "end": 76.56,
+      "probability": 0.393
+    },
+    {
+      "word": "ایسی",
+      "start": 76.56,
+      "end": 77.18,
+      "probability": 0.682
+    },
+    {
+      "word": "لگتی",
+      "start": 77.18,
+      "end": 77.8,
+      "probability": 0.833
+    },
+    {
+      "word": "تھی",
+      "start": 77.8,
+      "end": 78.2,
+      "probability": 0.971
+    },
+    {
+      "word": "نوت",
+      "start": 78.2,
+      "end": 78.86,
+      "probability": 0.427
+    },
+    {
+      "word": "سدورے",
+      "start": 78.86,
+      "end": 79.64,
+      "probability": 0.472
+    },
+    {
+      "word": "سپنے",
+      "start": 79.64,
+      "end": 80.36,
+      "probability": 0.824
+    },
+    {
+      "word": "پورے",
+      "start": 80.36,
+      "end": 80.86,
+      "probability": 0.924
+    },
+    {
+      "word": "آکھوں",
+      "start": 80.86,
+      "end": 81.54,
+      "probability": 0.649
+    },
+    {
+      "word": "میں",
+      "start": 81.54,
+      "end": 81.76,
+      "probability": 0.705
+    },
+    {
+      "word": "شہر",
+      "start": 81.76,
+      "end": 82.26,
+      "probability": 0.833
+    },
+    {
+      "word": "بسایا",
+      "start": 82.26,
+      "end": 82.94,
+      "probability": 0.811
+    },
+    {
+      "word": "تھا",
+      "start": 82.94,
+      "end": 83.32,
+      "probability": 0.95
+    },
+    {
+      "word": "کل",
+      "start": 83.32,
+      "end": 83.56,
+      "probability": 0.25
+    },
+    {
+      "word": "کا",
+      "start": 83.56,
+      "end": 83.84,
+      "probability": 0.307
+    },
+    {
+      "word": "کیا",
+      "start": 83.84,
+      "end": 84.28,
+      "probability": 0.839
+    },
+    {
+      "word": "ہے",
+      "start": 84.28,
+      "end": 84.46,
+      "probability": 0.842
+    },
+    {
+      "word": "آج",
+      "start": 84.46,
+      "end": 84.86,
+      "probability": 0.462
+    },
+    {
+      "word": "دوستوں",
+      "start": 84.86,
+      "end": 85.48,
+      "probability": 0.666
+    },
+    {
+      "word": "نے",
+      "start": 85.48,
+      "end": 85.78,
+      "probability": 0.987
+    },
+    {
+      "word": "آس",
+      "start": 85.78,
+      "end": 86.12,
+      "probability": 0.422
+    },
+    {
+      "word": "کے",
+      "start": 86.12,
+      "end": 86.28,
+      "probability": 0.353
+    },
+    {
+      "word": "ہمیں",
+      "start": 86.28,
+      "end": 86.82,
+      "probability": 0.768
+    },
+    {
+      "word": "سکھایا",
+      "start": 86.82,
+      "end": 87.56,
+      "probability": 0.605
+    },
+    {
+      "word": "تھا",
+      "start": 87.56,
+      "end": 89.2,
+      "probability": 0.978
+    },
+    {
+      "word": "ہو",
+      "start": 97.82,
+      "end": 98.24,
+      "probability": 0.003
+    },
+    {
+      "word": "ستل",
+      "start": 98.24,
+      "end": 98.66,
+      "probability": 0.348
+    },
+    {
+      "word": "کی",
+      "start": 98.66,
+      "end": 98.86,
+      "probability": 0.841
+    },
+    {
+      "word": "چتبتین",
+      "start": 98.86,
+      "end": 99.74,
+      "probability": 0.46
+    },
+    {
+      "word": "بجے",
+      "start": 99.74,
+      "end": 100.18,
+      "probability": 0.555
+    },
+    {
+      "word": "فیوچھر",
+      "start": 100.18,
+      "end": 101.06,
+      "probability": 0.563
+    },
+    {
+      "word": "پر",
+      "start": 101.06,
+      "end": 101.38,
+      "probability": 0.84
+    },
+    {
+      "word": "بیحس",
+      "start": 101.38,
+      "end": 101.96,
+      "probability": 0.563
+    },
+    {
+      "word": "چلی",
+      "start": 101.96,
+      "end": 102.46,
+      "probability": 0.832
+    },
+    {
+      "word": "کوئی",
+      "start": 102.46,
+      "end": 102.88,
+      "probability": 0.74
+    },
+    {
+      "word": "start",
+      "start": 102.88,
+      "end": 103.16,
+      "probability": 0.457
+    },
+    {
+      "word": "up",
+      "start": 103.16,
+      "end": 103.6,
+      "probability": 0.974
+    },
+    {
+      "word": "کوئی",
+      "start": 103.6,
+      "end": 104.16,
+      "probability": 0.749
+    },
+    {
+      "word": "میوزک",
+      "start": 104.16,
+      "end": 104.7,
+      "probability": 0.455
+    },
+    {
+      "word": "کوئی",
+      "start": 104.7,
+      "end": 105.08,
+      "probability": 0.971
+    },
+    {
+      "word": "گھر",
+      "start": 105.08,
+      "end": 105.38,
+      "probability": 0.766
+    },
+    {
+      "word": "لوٹھنے",
+      "start": 105.38,
+      "end": 106.22,
+      "probability": 0.535
+    },
+    {
+      "word": "کی",
+      "start": 106.22,
+      "end": 106.5,
+      "probability": 0.956
+    },
+    {
+      "word": "بات",
+      "start": 106.5,
+      "end": 106.9,
+      "probability": 0.482
+    },
+    {
+      "word": "چلی",
+      "start": 106.9,
+      "end": 107.48,
+      "probability": 0.96
+    },
+    {
+      "word": "فیل",
+      "start": 107.48,
+      "end": 108.32,
+      "probability": 0.799
+    },
+    {
+      "word": "ہوئے",
+      "start": 108.32,
+      "end": 108.78,
+      "probability": 0.834
+    },
+    {
+      "word": "تو",
+      "start": 108.78,
+      "end": 108.96,
+      "probability": 0.983
+    },
+    {
+      "word": "ساتھ",
+      "start": 108.96,
+      "end": 109.5,
+      "probability": 0.784
+    },
+    {
+      "word": "بیٹھ",
+      "start": 109.5,
+      "end": 109.76,
+      "probability": 0.796
+    },
+    {
+      "word": "کر",
+      "start": 109.76,
+      "end": 109.94,
+      "probability": 0.981
+    },
+    {
+      "word": "مارکس",
+      "start": 109.94,
+      "end": 110.64,
+      "probability": 0.71
+    },
+    {
+      "word": "کو",
+      "start": 110.64,
+      "end": 110.82,
+      "probability": 0.992
+    },
+    {
+      "word": "ہم",
+      "start": 110.82,
+      "end": 111.14,
+      "probability": 0.969
+    },
+    {
+      "word": "نے",
+      "start": 111.14,
+      "end": 111.32,
+      "probability": 0.888
+    },
+    {
+      "word": "آسا",
+      "start": 111.32,
+      "end": 111.8,
+      "probability": 0.583
+    },
+    {
+      "word": "دیا",
+      "start": 111.8,
+      "end": 112.22,
+      "probability": 0.64
+    },
+    {
+      "word": "جیت",
+      "start": 112.22,
+      "end": 113.1,
+      "probability": 0.43
+    },
+    {
+      "word": "کے",
+      "start": 113.1,
+      "end": 113.22,
+      "probability": 0.28
+    },
+    {
+      "word": "سیے",
+      "start": 113.22,
+      "end": 113.62,
+      "probability": 0.65
+    },
+    {
+      "word": "کی",
+      "start": 113.62,
+      "end": 113.9,
+      "probability": 0.949
+    },
+    {
+      "word": "ہوتی",
+      "start": 113.9,
+      "end": 114.36,
+      "probability": 0.83
+    },
+    {
+      "word": "تھی",
+      "start": 114.36,
+      "end": 114.78,
+      "probability": 0.627
+    },
+    {
+      "word": "پر",
+      "start": 114.78,
+      "end": 115.16,
+      "probability": 0.786
+    },
+    {
+      "word": "پورے",
+      "start": 115.16,
+      "end": 115.64,
+      "probability": 0.715
+    },
+    {
+      "word": "گروپ",
+      "start": 115.64,
+      "end": 115.98,
+      "probability": 0.732
+    },
+    {
+      "word": "نے",
+      "start": 115.98,
+      "end": 116.18,
+      "probability": 0.756
+    },
+    {
+      "word": "منا",
+      "start": 116.18,
+      "end": 116.68,
+      "probability": 0.465
+    },
+    {
+      "word": "دیا",
+      "start": 116.68,
+      "end": 117.14,
+      "probability": 0.803
+    },
+    {
+      "word": "دیگری",
+      "start": 117.14,
+      "end": 117.82,
+      "probability": 0.668
+    },
+    {
+      "word": "کے",
+      "start": 117.82,
+      "end": 118.14,
+      "probability": 0.895
+    },
+    {
+      "word": "پننوں",
+      "start": 118.14,
+      "end": 118.76,
+      "probability": 0.682
+    },
+    {
+      "word": "سے",
+      "start": 118.76,
+      "end": 118.9,
+      "probability": 0.975
+    },
+    {
+      "word": "پیلے",
+      "start": 118.9,
+      "end": 119.42,
+      "probability": 0.766
+    },
+    {
+      "word": "ہم",
+      "start": 119.42,
+      "end": 120.06,
+      "probability": 0.9
+    },
+    {
+      "word": "خود",
+      "start": 120.06,
+      "end": 120.36,
+      "probability": 0.693
+    },
+    {
+      "word": "کو",
+      "start": 120.36,
+      "end": 120.6,
+      "probability": 0.296
+    },
+    {
+      "word": "پڑنا",
+      "start": 120.6,
+      "end": 121.18,
+      "probability": 0.86
+    },
+    {
+      "word": "سکھ",
+      "start": 121.18,
+      "end": 121.82,
+      "probability": 0.37
+    },
+    {
+      "word": "گئے",
+      "start": 121.82,
+      "end": 122.18,
+      "probability": 0.759
+    },
+    {
+      "word": "گیر",
+      "start": 122.18,
+      "end": 122.54,
+      "probability": 0.806
+    },
+    {
+      "word": "کر",
+      "start": 122.54,
+      "end": 122.8,
+      "probability": 0.868
+    },
+    {
+      "word": "ہوتنا",
+      "start": 122.8,
+      "end": 123.4,
+      "probability": 0.728
+    },
+    {
+      "word": "ہاتھ",
+      "start": 123.4,
+      "end": 124.1,
+      "probability": 0.846
+    },
+    {
+      "word": "بڑانا",
+      "start": 124.1,
+      "end": 124.76,
+      "probability": 0.748
+    },
+    {
+      "word": "ایک",
+      "start": 124.76,
+      "end": 125.0,
+      "probability": 0.861
+    },
+    {
+      "word": "تو",
+      "start": 125.0,
+      "end": 125.22,
+      "probability": 0.332
+    },
+    {
+      "word": "جیسے",
+      "start": 125.22,
+      "end": 126.08,
+      "probability": 0.634
+    },
+    {
+      "word": "سکھ",
+      "start": 126.08,
+      "end": 126.7,
+      "probability": 0.958
+    },
+    {
+      "word": "گئے",
+      "start": 126.7,
+      "end": 127.22,
+      "probability": 0.988
+    },
+    {
+      "word": "ایک",
+      "start": 127.22,
+      "end": 127.76,
+      "probability": 0.812
+    },
+    {
+      "word": "دن",
+      "start": 127.76,
+      "end": 128.18,
+      "probability": 0.626
+    },
+    {
+      "word": "یہ",
+      "start": 128.18,
+      "end": 128.58,
+      "probability": 0.898
+    },
+    {
+      "word": "کوری",
+      "start": 128.58,
+      "end": 129.04,
+      "probability": 0.725
+    },
+    {
+      "word": "دور",
+      "start": 129.04,
+      "end": 129.26,
+      "probability": 0.885
+    },
+    {
+      "word": "خلی",
+      "start": 129.26,
+      "end": 129.7,
+      "probability": 0.675
+    },
+    {
+      "word": "اری",
+      "start": 129.7,
+      "end": 129.88,
+      "probability": 0.45
+    },
+    {
+      "word": "ٹنٹے",
+      "start": 129.88,
+      "end": 130.46,
+      "probability": 0.459
+    },
+    {
+      "word": "بل",
+      "start": 130.46,
+      "end": 130.88,
+      "probability": 0.74
+    },
+    {
+      "word": "پورانا",
+      "start": 130.88,
+      "end": 131.66,
+      "probability": 0.873
+    },
+    {
+      "word": "ہوگا",
+      "start": 131.66,
+      "end": 132.1,
+      "probability": 0.777
+    },
+    {
+      "word": "جو",
+      "start": 132.1,
+      "end": 132.36,
+      "probability": 0.822
+    },
+    {
+      "word": "روز",
+      "start": 132.36,
+      "end": 132.7,
+      "probability": 0.798
+    },
+    {
+      "word": "ملتے",
+      "start": 132.7,
+      "end": 133.22,
+      "probability": 0.626
+    },
+    {
+      "word": "تھی",
+      "start": 133.22,
+      "end": 133.5,
+      "probability": 0.219
+    },
+    {
+      "word": "بنا",
+      "start": 133.5,
+      "end": 133.78,
+      "probability": 0.531
+    },
+    {
+      "word": "بولائن",
+      "start": 133.78,
+      "end": 134.64,
+      "probability": 0.436
+    },
+    {
+      "word": "سے",
+      "start": 134.64,
+      "end": 134.86,
+      "probability": 0.355
+    },
+    {
+      "word": "ملنا",
+      "start": 134.86,
+      "end": 135.44,
+      "probability": 0.832
+    },
+    {
+      "word": "بانا",
+      "start": 135.44,
+      "end": 136.48,
+      "probability": 0.778
+    },
+    {
+      "word": "ہوگا",
+      "start": 136.48,
+      "end": 137.0,
+      "probability": 0.978
+    },
+    {
+      "word": "پر",
+      "start": 137.0,
+      "end": 137.24,
+      "probability": 0.866
+    },
+    {
+      "word": "فٹو",
+      "start": 137.24,
+      "end": 137.86,
+      "probability": 0.52
+    },
+    {
+      "word": "میں",
+      "start": 137.86,
+      "end": 138.1,
+      "probability": 0.944
+    },
+    {
+      "word": "جو",
+      "start": 138.1,
+      "end": 138.44,
+      "probability": 0.939
+    },
+    {
+      "word": "شور",
+      "start": 138.44,
+      "end": 138.92,
+      "probability": 0.672
+    },
+    {
+      "word": "بچا",
+      "start": 138.92,
+      "end": 139.36,
+      "probability": 0.542
+    },
+    {
+      "word": "ہے",
+      "start": 139.36,
+      "end": 139.5,
+      "probability": 0.944
+    },
+    {
+      "word": "وہ",
+      "start": 139.5,
+      "end": 139.68,
+      "probability": 0.873
+    },
+    {
+      "word": "کبھی",
+      "start": 139.68,
+      "end": 140.16,
+      "probability": 0.738
+    },
+    {
+      "word": "کم",
+      "start": 140.16,
+      "end": 140.48,
+      "probability": 0.808
+    },
+    {
+      "word": "نہیں",
+      "start": 140.48,
+      "end": 140.74,
+      "probability": 0.945
+    },
+    {
+      "word": "ہوگا",
+      "start": 140.74,
+      "end": 141.94,
+      "probability": 0.949
+    },
+    {
+      "word": "ہم",
+      "start": 141.94,
+      "end": 142.28,
+      "probability": 0.494
+    },
+    {
+      "word": "مالک",
+      "start": 142.28,
+      "end": 142.66,
+      "probability": 0.277
+    },
+    {
+      "word": "شیروں",
+      "start": 142.66,
+      "end": 143.3,
+      "probability": 0.659
+    },
+    {
+      "word": "میں",
+      "start": 143.3,
+      "end": 143.48,
+      "probability": 0.987
+    },
+    {
+      "word": "ہوں",
+      "start": 143.48,
+      "end": 143.76,
+      "probability": 0.757
+    },
+    {
+      "word": "گے",
+      "start": 143.76,
+      "end": 144.06,
+      "probability": 0.906
+    },
+    {
+      "word": "پر",
+      "start": 144.06,
+      "end": 144.46,
+      "probability": 0.894
+    },
+    {
+      "word": "اپنے",
+      "start": 144.46,
+      "end": 144.76,
+      "probability": 0.681
+    },
+    {
+      "word": "کم",
+      "start": 144.76,
+      "end": 144.94,
+      "probability": 0.288
+    },
+    {
+      "word": "پس",
+      "start": 144.94,
+      "end": 145.36,
+      "probability": 0.554
+    },
+    {
+      "word": "سے",
+      "start": 145.36,
+      "end": 145.68,
+      "probability": 0.315
+    },
+    {
+      "word": "ساتھ",
+      "start": 145.68,
+      "end": 146.54,
+      "probability": 0.483
+    },
+    {
+      "word": "ہوگا",
+      "start": 146.54,
+      "end": 146.98,
+      "probability": 0.618
+    },
+    {
+      "word": "کلاس",
+      "start": 146.98,
+      "end": 147.62,
+      "probability": 0.524
+    },
+    {
+      "word": "کے",
+      "start": 147.62,
+      "end": 147.82,
+      "probability": 0.936
+    },
+    {
+      "word": "بعد",
+      "start": 147.82,
+      "end": 148.1,
+      "probability": 0.81
+    },
+    {
+      "word": "جزندگی",
+      "start": 148.1,
+      "end": 149.14,
+      "probability": 0.815
+    },
+    {
+      "word": "تھی",
+      "start": 149.14,
+      "end": 149.38,
+      "probability": 0.479
+    },
+    {
+      "word": "وہ",
+      "start": 149.38,
+      "end": 149.56,
+      "probability": 0.895
+    },
+    {
+      "word": "کلاس",
+      "start": 149.56,
+      "end": 150.22,
+      "probability": 0.785
+    },
+    {
+      "word": "میں",
+      "start": 150.22,
+      "end": 150.46,
+      "probability": 0.996
+    },
+    {
+      "word": "کامل",
+      "start": 150.46,
+      "end": 151.12,
+      "probability": 0.734
+    },
+    {
+      "word": "تی",
+      "start": 151.12,
+      "end": 151.42,
+      "probability": 0.685
+    },
+    {
+      "word": "تھی",
+      "start": 151.42,
+      "end": 151.76,
+      "probability": 0.788
+    },
+    {
+      "word": "ہر",
+      "start": 151.76,
+      "end": 152.06,
+      "probability": 0.874
+    },
+    {
+      "word": "دوست",
+      "start": 152.06,
+      "end": 152.54,
+      "probability": 0.802
+    },
+    {
+      "word": "کی",
+      "start": 152.54,
+      "end": 152.72,
+      "probability": 0.975
+    },
+    {
+      "word": "ایک",
+      "start": 152.72,
+      "end": 153.04,
+      "probability": 0.47
+    },
+    {
+      "word": "قواز",
+      "start": 153.04,
+      "end": 153.84,
+      "probability": 0.422
+    },
+    {
+      "word": "میں",
+      "start": 153.84,
+      "end": 154.16,
+      "probability": 0.983
+    },
+    {
+      "word": "اپنی",
+      "start": 154.16,
+      "end": 154.8,
+      "probability": 0.945
+    },
+    {
+      "word": "ہی",
+      "start": 154.8,
+      "end": 155.12,
+      "probability": 0.896
+    },
+    {
+      "word": "در",
+      "start": 155.12,
+      "end": 155.44,
+      "probability": 0.824
+    },
+    {
+      "word": "کنچل",
+      "start": 155.44,
+      "end": 156.08,
+      "probability": 0.589
+    },
+    {
+      "word": "تی",
+      "start": 156.08,
+      "end": 156.34,
+      "probability": 0.868
+    },
+    {
+      "word": "تھی",
+      "start": 156.34,
+      "end": 156.7,
+      "probability": 0.976
+    },
+    {
+      "word": "ہوت",
+      "start": 156.7,
+      "end": 157.4,
+      "probability": 0.159
+    },
+    {
+      "word": "سے",
+      "start": 157.4,
+      "end": 157.66,
+      "probability": 0.215
+    },
+    {
+      "word": "دورے",
+      "start": 157.66,
+      "end": 158.18,
+      "probability": 0.619
+    },
+    {
+      "word": "سپنے",
+      "start": 158.18,
+      "end": 158.88,
+      "probability": 0.777
+    },
+    {
+      "word": "پورے",
+      "start": 158.88,
+      "end": 159.46,
+      "probability": 0.907
+    },
+    {
+      "word": "راست",
+      "start": 159.46,
+      "end": 159.9,
+      "probability": 0.719
+    },
+    {
+      "word": "میں",
+      "start": 159.9,
+      "end": 160.18,
+      "probability": 0.131
+    },
+    {
+      "word": "آئے",
+      "start": 160.18,
+      "end": 160.48,
+      "probability": 0.522
+    },
+    {
+      "word": "بنائیں",
+      "start": 160.48,
+      "end": 161.2,
+      "probability": 0.74
+    },
+    {
+      "word": "گے",
+      "start": 161.2,
+      "end": 161.62,
+      "probability": 0.983
+    },
+    {
+      "word": "گنٹی",
+      "start": 161.62,
+      "end": 162.5,
+      "probability": 0.45
+    },
+    {
+      "word": "بچ",
+      "start": 162.5,
+      "end": 162.82,
+      "probability": 0.609
+    },
+    {
+      "word": "کر",
+      "start": 162.82,
+      "end": 163.06,
+      "probability": 0.908
+    },
+    {
+      "word": "کہ",
+      "start": 163.06,
+      "end": 163.32,
+      "probability": 0.593
+    },
+    {
+      "word": "بھی",
+      "start": 163.32,
+      "end": 163.68,
+      "probability": 0.597
+    },
+    {
+      "word": "دی",
+      "start": 163.68,
+      "end": 163.86,
+      "probability": 0.607
+    },
+    {
+      "word": "تو",
+      "start": 163.86,
+      "end": 164.14,
+      "probability": 0.825
+    },
+    {
+      "word": "یادوں",
+      "start": 164.14,
+      "end": 164.84,
+      "probability": 0.793
+    },
+    {
+      "word": "میں",
+      "start": 164.84,
+      "end": 165.02,
+      "probability": 0.986
+    },
+    {
+      "word": "پھر",
+      "start": 165.02,
+      "end": 165.32,
+      "probability": 0.952
+    },
+    {
+      "word": "مل",
+      "start": 165.32,
+      "end": 165.58,
+      "probability": 0.6
+    },
+    {
+      "word": "جائیں",
+      "start": 165.58,
+      "end": 166.2,
+      "probability": 0.847
+    },
+    {
+      "word": "گے",
+      "start": 166.2,
+      "end": 166.58,
+      "probability": 0.991
+    },
+    {
+      "word": "کلاس",
+      "start": 166.58,
+      "end": 167.34,
+      "probability": 0.98
+    },
+    {
+      "word": "کے",
+      "start": 167.34,
+      "end": 167.48,
+      "probability": 0.993
+    },
+    {
+      "word": "بعد",
+      "start": 167.48,
+      "end": 167.76,
+      "probability": 0.998
+    },
+    {
+      "word": "جزندگی",
+      "start": 167.76,
+      "end": 168.78,
+      "probability": 0.996
+    },
+    {
+      "word": "تھی",
+      "start": 168.78,
+      "end": 169.1,
+      "probability": 0.995
+    },
+    {
+      "word": "وہ",
+      "start": 169.1,
+      "end": 171.78,
+      "probability": 0.04
+    },
+    {
+      "word": "کلاس",
+      "start": 171.78,
+      "end": 172.3,
+      "probability": 0.002
+    },
+    {
+      "word": "میں",
+      "start": 172.3,
+      "end": 172.3,
+      "probability": 0.116
+    },
+    {
+      "word": "کامل",
+      "start": 172.3,
+      "end": 173.72,
+      "probability": 0.057
+    },
+    {
+      "word": "تی",
+      "start": 173.72,
+      "end": 174.44,
+      "probability": 0.015
+    },
+    {
+      "word": "تھی",
+      "start": 174.44,
+      "end": 174.44,
+      "probability": 0.017
+    },
+    {
+      "word": "وہ",
+      "start": 177.76,
+      "end": 179.16,
+      "probability": 0.007
+    },
+    {
+      "word": "کلاس",
+      "start": 179.16,
+      "end": 179.68,
+      "probability": 0.541
+    },
+    {
+      "word": "میں",
+      "start": 179.68,
+      "end": 180.02,
+      "probability": 0.89
+    },
+    {
+      "word": "کامل",
+      "start": 180.02,
+      "end": 180.1,
+      "probability": 0.867
+    },
+    {
+      "word": "تی",
+      "start": 180.1,
+      "end": 188.34,
+      "probability": 0.495
+    },
+    {
+      "word": "تھی",
+      "start": 188.34,
+      "end": 188.34,
+      "probability": 0.651
+    }
+  ]
+}

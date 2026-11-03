@@ -1,6 +1,6 @@
 ---
 name: remotion-motion-design
-description: "Master motion design and cinematic animated lyric video engine for music videos using Remotion, React, and TypeScript. Transforms song lyrics (from bollywood-lyrics-writer) and audio tracks into industry-level, Swiss-minimalist motion graphics featuring symbolic visual metaphors, word-level kinetic typography, and 16:9 / 9:16 responsive layouts."
+description: "Master motion design and cinematic animated lyric video engine for music videos using Remotion, React, and TypeScript. Transforms song lyrics (from bollywood-lyrics-writer or english-song-writer) and audio tracks into industry-level, Swiss-minimalist motion graphics featuring symbolic visual metaphors, word-level kinetic typography, and 16:9 / 9:16 responsive layouts."
 ---
 
 # Remotion Motion Design: Cinematic Lyric Video & Visual Metaphor Engine
@@ -17,8 +17,8 @@ Your mission is to engineer **Cinematic Motion Graphics Music Videos**: complete
 
 Every AI model is inherently biased toward lazy, literal, beginner-tier outputs. **You are strictly prohibited from generating the following:**
 
-1. ❌ **The Literal Trap**: If a lyric mentions *"chai"*, DO NOT just draw a generic static mug. If it mentions *"dil"* (heart), DO NOT draw a flat red heart emoji. If it mentions *"door"* (distance), DO NOT draw an empty road.
-   - **MANDATORY RULE**: Translate the lyric into a **surreal, poetic visual metaphor**. (e.g. *Chai* becomes an hourglass where golden tea drains into an infinite nocturnal city grid; *Distance* becomes two telephone poles connected by glowing telephone wires where birds take flight on the beat drop).
+1. ❌ **The Literal Trap**: If a lyric mentions *"chai"*, DO NOT just draw a generic static mug. If it mentions *"heart"*, DO NOT draw a flat red heart emoji. If it mentions *"distance"*, DO NOT draw an empty highway.
+   - **MANDATORY RULE**: Translate the lyric into a **surreal, poetic visual metaphor**. (e.g. *Distance* becomes two telephone poles connected by glowing telephone wires where birds take flight on the beat drop; *Unsent Letter* becomes a vintage envelope with floating pressed ferns and warm Venetian blind light beams).
 2. ❌ **Frozen Screen Syndrome**: No element is permitted to sit frozen without micro-motion. Every visual motif must continuously breathe (rising steam, flickering neon, turbulent liquid waves, clock ticks, floating embers).
 3. ❌ **Monotonous Slide-Ups**: Do NOT use the exact same upward spring reveal on every word. Vary kinetic treatments: kerning expansion, mechanical character decryption, stencil knockout masks, camera whip-pans, and rubbery squash-and-stretch.
 4. ❌ **Sterile Digital Look**: Pure flat vector shapes on raw `#000000` look like a cheap presentation. Every frame must have **depth and materiality**: chiaroscuro lighting, subtle SVG risograph tooth (`PaperTexture`), 35mm grain, lens vignette, and volumetric glow.
@@ -32,12 +32,13 @@ Every AI model is inherently biased toward lazy, literal, beginner-tier outputs.
 Before writing any Remotion scene code, you MUST execute this 4-step creative distillation process:
 
 ```
-[ Lyric Line from bollywood-lyrics-writer ]
+[ Lyric Line from bollywood-lyrics-writer or english-song-writer ]
                    │
                    ▼
 1. 💡 DECOUPLE THE LITERAL NOUN
    • Identify the raw psychological tension beneath the words.
    • (e.g., "Chhoti si jeb mein bada sa hisaab" -> Financial anxiety vs youthful audacity).
+   • (e.g., "Funny how a season always leaves too soon" -> Nostalgia vs the relentless passage of time).
                    │
                    ▼
 2. 🌌 INVENT THE SURREAL VISUAL METAPHOR
@@ -62,51 +63,93 @@ Before writing any Remotion scene code, you MUST execute this 4-step creative di
 
 ---
 
-## 🌿 The Official Locked Default: Botanical Scrapbook (Herbarium)
+---
+
+## 🎨 The Official PeerMusic Visual Themes: Electric Neon Pulse & Liquid Crimson Silk
 
 > [!IMPORTANT]
-> **Theme 11: Botanical Scrapbook is the PERMANENT DEFAULT THEME for PeerMusic.**
-> Do not randomly rotate or switch themes. All music videos, lyrical scenes, and visual compositions must strictly default to this locked aesthetic system.
+> **PeerMusic offers two official, permanent visual styles for all lyrical music videos (English & Hindi/Bollywood):**
+> 1. **⚡ Style 1: Electric Neon Pulse** (`PeerMusicStyle02_NeonPulse.tsx`)
+>    - Sleek modern cyber-vibe matching the channel's matte black & electric red branding.
+>    - Central circular equalizer soundwave ring with 48 frequency bars pulsating in lockstep to the music's kick drum, bass, and rhythm transients.
+>    - Wet reflective floor and frosted glassmorphic stage.
+>    - Bold geometric sans typography (*Montserrat / Inter*, 800) with an electric red neon outline strike that floods into radiant white on vocal hits.
+> 2. **🌊 Style 2: Liquid Crimson Silk** (`PeerMusicStyle03_LiquidSilk.tsx`)
+>    - Hypnotic, sensual, flowing motion art with molten ruby and gold liquid silk caustics.
+>    - Silk waves swell and undulate in real-time synchronization with the rhythm and dynamics of the music.
+>    - Floating starlight motes that sparkle on musical peaks.
+>    - High-fashion Roman serif (*Cinzel / Playfair Display*) with fluid gradient wave fill and gentle floating physics.
 
-### Visual Architecture & Design Tokens
-1. **Background Canvas**:
-   - Base Color: `#EFE8DC` (Warm Oatmeal Kraft Paper).
-   - Journal Ruled Grid: Subtle 40×40px square grid lines (`#7A6F5D`, 0.8px stroke, 0.15 opacity).
-   - Notebook Red Margin: Vertical guideline at `x=180px` in Landscape, `x=40px` in Vertical (`#D9534F`, 1.5px stroke, 0.6 opacity).
-   - Tactile Paper Texture: `PaperTexture` overlay at `0.12` opacity.
-2. **Bespoke Thumbnail Artwork System (MANDATORY PER-SONG CRAFT)**:
-   - > [!CAUTION]
-     > **NEVER REUSE THE SAME THUMBNAIL ARTWORK ACROSS DIFFERENT SONGS.**
-     > Reusing the dried rose for a school crush song, breakup ballad, or club track is considered lazy AI slop.
-   - Every song **MUST** receive a newly designed, high-effort, bespoke artwork SVG component inside [`ThumbnailCard`](file:///home/phyroosh/PeerMusic/src/engine/thumbnail/ThumbnailCard.tsx).
-   - **Examples of Bespoke Artwork**:
-     - *Kacchi Neendein (Late Night Aspirations)*: Pressed rose, fluted chai glass, midnight clock, or nocturnal stardust.
-     - *Rough Copy (School Crush Romance)*: Lined notebook page with spiral holes, classic Hero fountain pen with ink drop, compass arcs, and folded secret love note with hand-drawn pencil heart.
-     - *Future Songs*: Design bespoke visual artifacts (e.g. vintage train ticket, cassette tape with pulled ribbon, brass pocket watch, Polaroid with paperclip).
-   - The [`ThumbnailCard`](file:///home/phyroosh/PeerMusic/src/engine/thumbnail/ThumbnailCard.tsx) frame provides the archival `#FAF6EE` sheet, custom postal stamp (title, date, location), washi tape strips, and handwritten pencil specimen metadata.
-3. **Intro Showcase & Smooth Pan Transition**:
-   - **Intro Phase (Frame 0 to `vocalStart - 150`)**: The thumbnail card MUST be centered in full beauty on the canvas (`scale: 1.1`, centered position). The lyrics container is completely hidden (`opacity: 0`). **NEVER display the song title as lyrics during the intro.**
-   - **Transition Phase (`vocalStart - 150` to `vocalStart - 30`)**: ~2.5 seconds before the singer begins singing, the thumbnail smoothly glides from center to its docked position on the left, and the lyrics area fades in.
-4. **Anticipation Window & Word Highlight Precision**:
-   - **Lead-Time Preview**: An upcoming lyric line appears `45–60` frames (0.75–1.0s) before its first word is sung.
-   - **Dimmed Preview State**: During the anticipation window, **all words in the line are dimmed** (`opacity: 0.32`, charcoal `#2C261F`, no underline, no crimson).
-   - **Exact Word Highlighting**: A word only highlights (`#8A2434` crimson with underline) when the singer actually delivers it (`frame >= word.startFrame && frame <= word.endFrame`).
-   - **Settled State**: Sung words settle in solid charcoal (`#2C261F`, `opacity: 1`, no underline).
-5. **Pure Audio Waveform Interludes**:
-   - Whenever the singer is silent during background tunes, solos, or instrumental interludes, the lyrics side MUST NOT display stale text or arbitrary labels.
-   - Automatically display [`WaveformInterlude`](file:///home/phyroosh/PeerMusic/src/engine/audio/WaveformInterlude.tsx) with harmonic multi-frequency sine wave curves and scene metadata.
-6. **Default Aspect Ratio**:
-   - Always produce 16:9 Landscape (1920×1080) by default.
-   - Do NOT generate vertical video alongside landscape unless explicitly requested by the user.
-7. **Cinematic Standard**:
-   - Always 60 FPS.
-   - Clean canvas: Zero top HUD clutter or technical telemetry tickers.
+### 1. Mandatory Visual Style Selection Protocol
+Whenever generating or rendering a lyric video, the agent MUST ask the user:
+> **"🎨 Which visual style would you like for the lyric video?"**
+> - **⚡ Electric Neon Pulse**
+> - **🌊 Liquid Crimson Silk**
+
+### 2. Strict Rule: Zero Extra Text & Channel Branding Only
+- **Only the sung song lyrics** and the official **Peer Music circular soundwave branding badge** (`PeerMusicLogoBadge`) are allowed in the video.
+- ❌ **NO style identifier pills or badges** (e.g. `STYLE 02`, `STYLE 03`).
+- ❌ **NO section markers** (`02 // MUKHDA`).
+- ❌ **NO non-lyric subtitles or translations**.
+- ❌ **NO text during instrumental breaks**: Lyrics appear strictly during vocal phrasing. Instrumental intros, solos, and outros breathe in pure visual immersion.
+
+### 3. CRITICAL: Continuous Line-by-Line Kinetic Slide Standard (No Word-by-Word Hopping)
+- ✅ **Line-by-Line Cohesion**: Song lyrics must be animated as whole, unified poetic lines. Strictly avoid word-by-word karaoke hopping or jittery individual word scaling.
+- ✅ **Smooth Kinetic Slide-Up Transitions**:
+  - The currently sung line occupies the primary active focus position (fully illuminated, vibrant glows, rhythm-reactive scale breathing).
+  - The upcoming line is displayed beneath it in a subtle couplet preview (`opacity: ~0.35`).
+  - At the exact moment the active line completes and the next line begins, the upcoming line **smoothly slides up** from the preview position into the active slot (`translateY: 34px -> 0px` via a critically damped spring).
+  - The following line then fades into the preview slot.
+- ❌ **No Capsule-Style Visuals**: Direct canvas placement with luminous text shadows—no pill badges, boxes, or bounding cards.
+
+### 4. Multilingual Script & Typography Standards
+- **English Songs**:
+  - Fonts: `'Georgia', 'Playfair Display', 'Times New Roman', serif`.
+  - Preserves natural punctuation, capitalization, and contractions (*don't*, *I'm*).
+  - Letter spacing: `0.5px` to `1px`.
+- **Hindi / Bollywood Songs**:
+  - Fonts: `'Noto Serif Devanagari', 'Rozha One', 'Noto Sans Devanagari', serif`.
+  - Strict Devanagari rule: `letterSpacing: "normal"` to preserve ligatures, conjuncts, and the continuous shirorekha (top line).
+  - Generous line height (`1.45`) to prevent clipping of upper and lower matras.
+  - Native Devanagari script is displayed directly when source lyrics are Devanagari; no unwanted transliteration.
+
+### 5. Dynamic Audio Synchronization
+- Line transitions animate smoothly with critically damped springs (`spring({ damping: 180, stiffness: 120 })`).
+- Upcoming couplet line softly anticipates at muted opacity (`0.45`), illuminating to full brightness (`1.0`) the exact frame vocals begin.
+- Implemented in [`CelestialEclipseSong.tsx`](src/themes/celestial/CelestialEclipseSong.tsx) and [`CelestialLyricRenderer.tsx`](src/engine/typography/CelestialLyricRenderer.tsx).
+
+---
+
+## 🌿 Alternative Selectable Themes (Secondary Reference Only)
+
+> [!NOTE]
+> The following themes exist in the library for intentional, explicit user selection, but **Dynamic Song Cover Artwork is always the single locked default across all pipelines (both English and Hindi/Bollywood)**:
+> - **Theme 11: Botanical Scrapbook** (`src/songs/kacchi-neendein/BotanicalScrapbookSong.tsx`): Oatmeal kraft paper, pressed herbarium specimen cards, washi tape, and pencil archival tags. Use ONLY if the user explicitly requests "Botanical Scrapbook". Never use as a default.
+
+
+---
+
+## 🌅 Distinct Visual Identity & Guidelines for English Songs
+
+English original songs must not simply recycle Bollywood playback tropes (e.g. school corridor passes or cutting chai glasses). Instead, create an authentic visual atmosphere aligned with contemporary English indie, alternative, and cinematic music videos:
+
+### 1. English Song Visual Metaphors & Motifs
+- **Dreamy Indie Pop / Nostalgic Acoustic**:
+  - *Unsent Letters & Distant Memories*: Vintage oak desk, open stationery envelope, pressed botanical leaves (fern, dried lavender), brass fountain pen gleam, warm Venetian blind god-rays, floating amber dust motes.
+  - *Growing Apart & Distance*: Two lone streetlamps slowly drifting apart in misty blue hour; telephone wires vibrating with optical bird flight on chorus hits.
+  - *City Solitude & Late Nights*: Rain-slicked asphalt reflecting warm sodium bokeh; single porcelain coffee mug steaming into starry room light.
+  - *Passing Time & Youth*: Spinning bicycle wheel spokes catching sunset flares; floating 35mm polaroids drifting upward in zero-gravity.
+
+### 2. Kinetic Typography Standards (English & Hindi)
+- **Natural Phrasing & Contractions**: Accurately preserve and format contractions (*don't*, *we'll*, *I'm*, *it's*, *can't*) without awkward line wraps or hyphenation splits.
+- **Poetic Couplet Grouping**: Treat lyrics as structured 2-line couplets rendered with [`CelestialLyricRenderer`](src/engine/typography/CelestialLyricRenderer.tsx) directly over the song cover artwork.
+- **Purity**: Absolute zero top telemetry HUD, timecodes, Polaroid specimen cards, section tags, or subtitle translations. Only the actual lyrics appear when sung.
 
 ---
 
 ## 🎨 Alternative Creative Design Languages (Secondary Reference Only)
 
-The following alternate themes exist in the library for reference, but **Botanical Scrapbook is always the locked default**:
+The following alternate themes exist in the library for reference only; **Dynamic Song Cover Artwork is always the single locked default for all pipelines (English, Hindi, etc.)**:
 
 
 ### 1. Nocturnal Desi Cyber-Noir (Moody Hip-Hop / Late-Night Trap / Club)
@@ -266,7 +309,7 @@ To maximize render speed and visual fidelity across long compositions (e.g., 13,
   Config.setPreferLosslessAudio(true);
   ```
 
-### 4. Production CLI Command Suite
+# 4. Production CLI Command Suite
 ```bash
 # 1. Realtime Interactive Preview
 npm run dev
@@ -282,4 +325,25 @@ npm run render:vertical
 
 # 5. Broadcast Apple ProRes 422 HQ (Color grading master)
 npm run render:prores
+
+# 6. Render Still Frame (Thumbnail)
+npm run still:landscape
 ```
+
+---
+
+### 5. YouTube Release Packaging & Studio Synchronization
+After rendering the final video (e.g., `out/master_landscape.mp4` or `out/rough_copy_landscape.mp4`), ensure the song is packaged with its **dedicated Netflix-level clarity typography cover** (`out/<slug>_thumb.jpg` / `public/covers/<slug>_thumb.jpg`), NOT a bare video still frame.
+
+Ensure the song has a complete entry in `studio/metadata.json` attaching:
+- `filename`: Target `.mp4` file in `out/`
+- `thumbnail`: Matching dedicated cover thumbnail (`<slug>_thumb.jpg`) in `public/covers/` or `out/`
+- `title`: Final approved YouTube title
+- `description`: Complete description with lyrics, credits, and hashtags
+- `tags`: YouTube tag array
+- `categoryId`: "10" (Music)
+- `pinnedComment`: Engaging creator question
+
+Launch the PeerMusic YouTube Studio (`./start_studio.sh` or `npm run studio`) to review and upload to YouTube with one click.
+
+

@@ -1,4 +1,5 @@
 import { TimelineData, SceneConfig, LyricWord } from "./types";
+import { DURATION_CONFIG } from "../config/durationConfig";
 
 export interface ValidationError {
   type: "ERROR" | "WARNING";
@@ -108,6 +109,20 @@ export function applyOverridesAndValidate(rawTimeline: TimelineData): Validation
         type: "WARNING",
         path: `word[${id}]`,
         message: `Word '${word.text}' (${id}) ends after parent scene: ${word.endFrame} > ${scene.endFrame}`,
+      });
+    }
+  }
+
+  // 4. Validate total duration against the mandatory 180s hard limit
+  if (timeline.scenes.length > 0) {
+    const maxEndFrame = Math.max(...timeline.scenes.map((s) => s.endFrame));
+    const fps = timeline.fps || 60;
+    const durationSeconds = maxEndFrame / fps;
+    if (!DURATION_CONFIG.isDurationCompliant(durationSeconds)) {
+      errors.push({
+        type: "ERROR",
+        path: "timeline.duration",
+        message: `Total timeline duration (${durationSeconds.toFixed(2)}s) exceeds the mandatory hard limit of ${DURATION_CONFIG.maxDurationSeconds}s (3:00).`,
       });
     }
   }

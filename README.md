@@ -9,24 +9,49 @@
 
 **PeerMusic** is a specialized motion design and music video production suite. It elevates lyric videos from simple text displays to **Cinematic Motion Graphics**: pairing synchronized kinetic typography with **symbolic animated visual representations** (visual metaphors, vector scenes, audio-reactive procedural art, dynamic lighting, and camera parallax).
 
-The workflow is built for human-in-the-loop AI music creation:
-1. **Topic to Lyrics:** The agent crafts emotionally resonant, singable Bollywood/Hindustani playback lyrics via `bollywood-lyrics-writer`.
-2. **Lyrics to Audio (Suno AI):** The agent outputs copy-ready lyrics and tailored musical style prompts directly into the chat for generation in **Suno AI**.
-3. **Audio to Motion Graphics Video:** The agent ingests the resulting MP3 audio track and uses **Remotion** to produce an industry-level lyric video combining symbolic visual metaphors, word-level kinetic typography, and 16:9 / 9:16 responsive layouts.
+The workflow is built for human-in-the-loop AI music creation across two distinct creative modes:
+1. **Direction Confirmation & Intent Detection:**
+   - **Mandatory Confirmation**: When language or musical direction is unspecified or ambiguous (e.g. *"Create a beautiful song about school memories"*), the agent **must halt** and ask:
+     > **"🎵 What kind of song would you like to create?"**
+     > - **🇬🇧 English Song** — English-language song (Indie pop, piano ballad, acoustic pop).
+     > - **🇮🇳 Bollywood Song** — Bollywood-style Hindi song (playback, acoustic Hindustani, Sufi).
+   - **Intelligent Detection**: If the user explicitly asks for an English song or Bollywood song, the confirmation is bypassed automatically.
+   - **Session State**: Preferences are tracked in `scripts/song_session.py` with support for follow-up direction changes before generation.
+2. **Profound Poetic Songwriting Engine:**
+   - **4-Part Emotional Architecture**: Anchors every song in a surface subject, underlying conflict (contradictions), private unspoken truth, and emotional transformation.
+   - **Imply More Than You Explain**: Abandons literal emotional declarations for physical evidence, sensory textures, and unspoken tension.
+   - **Mode A: Poetic Bollywood & Hindustani Indie**: Crafts emotionally resonant, singable Hindustani playback lyrics via `bollywood-lyrics-writer`.
+   - **Mode B: Profound English Original Songs**: Crafts evocative, professionally written English indie/pop songs with memorable hooks via `english-song-writer`.
+   - **Pre-Flight Lyrical Quality Gate**: Audits drafts across 10 quality dimensions using `scripts/songwriting_engine.py`.
+3. **Lyrics to Audio (Suno AI):** The agent outputs copy-ready lyrics and tailored musical style prompts directly into the chat for generation in **Suno AI**.
+4. **Audio to Motion Graphics Video:** The agent ingests the resulting MP3 audio track and uses **Remotion** to produce an industry-level lyric video combining symbolic visual metaphors, word-level kinetic typography, and 16:9 / 9:16 responsive layouts.
 
 ---
 
 ## ⚡ The Production Pipeline
 
 ```
-[ Step 1: User provides Topic / Story / Mood in Chat ]
+[ Step 1: User provides Song Request in Chat ]
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  STAGE 1: LYRICS & SUNO AI PROMPT IN CHAT                   │
-│  • Agent writes singable Bollywood/Hindustani lyrics        │
-│  • Formatted with Suno-ready tags: [Mukhda], [Antara], etc. │
-│  • Agent pastes copy-pasteable lyrics directly in CHAT      │
+│  MANDATORY CONFIRMATION CHECK (scripts/song_session.py)     │
+│  • Explicit Direction? ──▶ Proceed directly to Stage 1      │
+│  • Ambiguous / Missing? ─▶ STOP & Ask:                      │
+│    "🎵 What kind of song would you like to create?"         │
+│    🇬🇧 English Song  OR  🇮🇳 Bollywood Song                   │
+│  • Wait for User Choice ──▶ Confirm & Transition            │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│  STAGE 1: PROFOUND POETIC SONGWRITING & SUNO AI PROMPT      │
+│  • 4-Part Emotional Architecture (Subtext, Conflict, Truth) │
+│  • 7-Stage Creative Reasoning & 10 Lyrical Quality Gates    │
+│  • Mode A: Poetic Bollywood & Hindustani Indie Playback     │
+│  • Mode B: Profound English Original Songs (Indie/Ballad)   │
+│  • Formatted with Suno-ready tags: [Chorus], [Verse], etc.  │
+│  • Audited via `scripts/songwriting_engine.py` for depth    │
 │  • Agent provides tailored Suno AI Style Prompt             │
 │  • Agent saves lyrics to `lyrics.txt` in workspace          │
 └──────────────────────────────┬──────────────────────────────┘
@@ -36,20 +61,27 @@ The workflow is built for human-in-the-loop AI music creation:
                                │
                                ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  STAGE 2: REMOTION MOTION GRAPHICS ENGINE (MP3 + LYRICS)    │
-│  • Generic Engine (`src/engine/`) + Song Assets             │
-│  • 3-Layer Visual Architecture:                             │
-│    1. Symbolic Visual Representation (Chai glass, Clock)    │
-│    2. Kinetic Typography (Spring word reveals, accents)     │
-│    3. Polish & Atmosphere (35mm grain, Swiss HUD, camera)   │
-│  • Scene-Dependent Hierarchy (Atmosphere / Symbol / Typo)   │
-│  • Bespoke Layouts: 16:9 Landscape & 9:16 Vertical          │
-│  • Configurable Frame Rate (30 FPS prototype, 60 FPS prod)  │
-│  • Dynamic duration derived from timeline                   │
+│  STAGE 2: AI MUSIC COVER & THUMBNAIL ARTIST                 │
+│  • Song-Centric Concept Engine (Original Visual Identity)   │
+│  • Dual Formats: 16:9 YouTube Thumbnail & 1:1 Album Cover   │
+│  • Quality Benchmark: Atmospheric Depth & Serif/Script Type │
+│  • Conformed via `scripts/artwork_pipeline.py` & Synced     │
 └──────────────────────────────┬──────────────────────────────┘
                                │
                                ▼
-[ Step 3: Industry-Level 60 FPS Lyrical Music Video Delivered ]
+┌─────────────────────────────────────────────────────────────┐
+│  STAGE 3: DYNAMIC SONG COVER ARTWORK ENGINE (MP3 + LYRICS)  │
+│  • Full-Bleed 16:9 Hero Candid Artwork (`SongCoverBackdrop`) │
+│  • Micro-Motion: Ken Burns Slow Push-in & 35mm Dust Particles│
+│  • Pure Synced Typography: Subtitles Only (English & Hindi)  │
+│  • Zero Clutter: No HUD, No Specimen Cards, No Translations  │
+│  • Responsive: 16:9 Landscape & 9:16 Vertical (Reels/Shorts) │
+│  • 60 FPS Fluid Standard (`defaultFps: 60`)                  │
+│  • Single Universal Visual Engine for ALL Languages          │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+[ Step 4: Industry-Level Lyrical Music Video & Distribution Package Delivered ]
 ```
 
 ---
@@ -99,7 +131,9 @@ PeerMusic/
 ├── .agents/
 │   └── skills/
 │       ├── bollywood-lyrics-writer/
-│       │   └── SKILL.md                 # Songwriting & Suno prompt generator
+│       │   └── SKILL.md                 # Bollywood songwriting & Suno prompt generator
+│       ├── english-song-writer/
+│       │   └── SKILL.md                 # Beautiful English songwriting & Suno prompts
 │       └── remotion-motion-design/
 │           └── SKILL.md                 # Master Remotion motion design skill
 ├── src/
@@ -168,6 +202,41 @@ npm run still:vertical
 ```
 
 ---
+
+### 5. YouTube Auto-Upload Studio & Metadata Generator
+
+Launch the PeerMusic YouTube Studio web interface to manage channels, edit SEO metadata, and auto-upload rendered videos with custom thumbnails:
+
+```bash
+# Launch YouTube Studio (http://localhost:4001)
+./start_studio.sh
+# or: npm run studio
+```
+
+#### Standalone Metadata Generator CLI
+```bash
+# Auto-generate or update YouTube metadata (Title, Lyrics Description, Tags, Pinned Comment)
+python3 scripts/generate_metadata.py
+```
+
+---
+
+### 6. AI Music Cover & YouTube Thumbnail Pipeline
+
+Inspect song themes, formulate tailored prompts, and conform dual-format (16:9 & 1:1) artwork:
+
+```bash
+# 1. Analyze song and generate tailored 16:9 & 1:1 creative prompts
+python3 scripts/artwork_pipeline.py concept kal-tak-jo-roz-ka-tha
+
+# 2. Check artwork and studio thumbnail status across all songs
+python3 scripts/artwork_pipeline.py status
+
+# 3. Conform and install generated artwork to out/ and src/songs/<slug>/
+python3 scripts/artwork_pipeline.py process --song kal-tak-jo-roz-ka-tha --source <image_path> --format 16x9
+python3 scripts/artwork_pipeline.py process --song kal-tak-jo-roz-ka-tha --source <image_path> --format 1x1
+```
+
 
 ## 📜 License
 MIT License. Created by [phyroosh](https://github.com/phyroosh).

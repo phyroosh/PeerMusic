@@ -15,6 +15,11 @@ export interface LyricWord {
 export interface LyricLine {
   id: string;
   text?: string;
+  startTime?: number; // timestamp in seconds
+  endTime?: number; // timestamp in seconds
+  startFrame?: number; // timestamp in frames (e.g. 60 FPS)
+  endFrame?: number; // timestamp in frames (e.g. 60 FPS)
+  accentWords?: string[]; // keywords for highlighter/underline sweep
   words: LyricWord[];
 }
 
@@ -26,6 +31,7 @@ export interface SceneConfig {
   endFrame: number;
   hierarchy: HierarchyState;
   symbolKey?: string;
+  subtitle?: string;
   lines: LyricLine[];
 }
 

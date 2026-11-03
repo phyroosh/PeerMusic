@@ -61,7 +61,6 @@ export const LandscapeLayout: React.FC<LandscapeLayoutProps> = ({
             justifyContent: "center",
             alignItems: "center",
             transform: `scale(${visualScale})`,
-            transition: "all 0.3s ease",
             opacity: isSymbolic ? 1 : 0.65,
           }}
         >

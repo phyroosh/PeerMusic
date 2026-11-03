@@ -1,0 +1,1427 @@
+{
+  "songTitle": "Golden Hour Letters",
+  "audioFile": "audio/golden_hour_letters.mp3",
+  "fps": 60,
+  "bpm": 76,
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "Amber Light & Paper Shadows",
+      "sectionTag": "01 // INTRO  •  GOLDEN HOUR LETTERS",
+      "startFrame": 0,
+      "endFrame": 900,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Warm fingerpicked acoustic guitar • Amber dusk light slanting across an old writing desk",
+      "lines": []
+    },
+    {
+      "id": "scene_02_verse1_coat",
+      "name": "Winter Coat & Folded Letter",
+      "sectionTag": "02 // VERSE 1  •  WINTER COAT",
+      "startFrame": 900,
+      "endFrame": 1920,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Unfolding paper from an old pocket • Dust motes floating in the afternoon warmth",
+      "lines": [
+        {
+          "id": "line_02_01",
+          "text": "Found your letter folded in my winter coat,",
+          "words": [
+            {
+              "id": "w_02_001",
+              "text": "Found",
+              "startFrame": 924,
+              "endFrame": 972,
+              "accent": true
+            },
+            {
+              "id": "w_02_002",
+              "text": "your",
+              "startFrame": 972,
+              "endFrame": 1008,
+              "accent": false
+            },
+            {
+              "id": "w_02_003",
+              "text": "letter",
+              "startFrame": 1008,
+              "endFrame": 1080,
+              "accent": true
+            },
+            {
+              "id": "w_02_004",
+              "text": "folded",
+              "startFrame": 1080,
+              "endFrame": 1146,
+              "accent": false
+            },
+            {
+              "id": "w_02_005",
+              "text": "in",
+              "startFrame": 1146,
+              "endFrame": 1170,
+              "accent": false
+            },
+            {
+              "id": "w_02_006",
+              "text": "my",
+              "startFrame": 1170,
+              "endFrame": 1200,
+              "accent": false
+            },
+            {
+              "id": "w_02_007",
+              "text": "winter",
+              "startFrame": 1200,
+              "endFrame": 1260,
+              "accent": true
+            },
+            {
+              "id": "w_02_008",
+              "text": "coat,",
+              "startFrame": 1260,
+              "endFrame": 1320,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_02",
+          "text": "Every word you typed, every line you wrote.",
+          "words": [
+            {
+              "id": "w_02_009",
+              "text": "Every",
+              "startFrame": 1356,
+              "endFrame": 1404,
+              "accent": false
+            },
+            {
+              "id": "w_02_010",
+              "text": "word",
+              "startFrame": 1404,
+              "endFrame": 1452,
+              "accent": true
+            },
+            {
+              "id": "w_02_011",
+              "text": "you",
+              "startFrame": 1452,
+              "endFrame": 1482,
+              "accent": false
+            },
+            {
+              "id": "w_02_012",
+              "text": "typed,",
+              "startFrame": 1482,
+              "endFrame": 1548,
+              "accent": false
+            },
+            {
+              "id": "w_02_013",
+              "text": "every",
+              "startFrame": 1572,
+              "endFrame": 1620,
+              "accent": false
+            },
+            {
+              "id": "w_02_014",
+              "text": "line",
+              "startFrame": 1620,
+              "endFrame": 1668,
+              "accent": true
+            },
+            {
+              "id": "w_02_015",
+              "text": "you",
+              "startFrame": 1668,
+              "endFrame": 1698,
+              "accent": false
+            },
+            {
+              "id": "w_02_016",
+              "text": "wrote.",
+              "startFrame": 1698,
+              "endFrame": 1830,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_verse1_season",
+      "name": "Dust Motes & Leaving Seasons",
+      "sectionTag": "03 // VERSE 1  •  OCTOBER AIR",
+      "startFrame": 1920,
+      "endFrame": 2880,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Quiet afternoon reverie • How quickly autumn slips away",
+      "lines": [
+        {
+          "id": "line_03_01",
+          "text": "Dust motes dancing in the amber afternoon,",
+          "words": [
+            {
+              "id": "w_03_017",
+              "text": "Dust",
+              "startFrame": 1944,
+              "endFrame": 1986,
+              "accent": true
+            },
+            {
+              "id": "w_03_018",
+              "text": "motes",
+              "startFrame": 1986,
+              "endFrame": 2028,
+              "accent": false
+            },
+            {
+              "id": "w_03_019",
+              "text": "dancing",
+              "startFrame": 2028,
+              "endFrame": 2100,
+              "accent": true
+            },
+            {
+              "id": "w_03_020",
+              "text": "in",
+              "startFrame": 2100,
+              "endFrame": 2124,
+              "accent": false
+            },
+            {
+              "id": "w_03_021",
+              "text": "the",
+              "startFrame": 2124,
+              "endFrame": 2148,
+              "accent": false
+            },
+            {
+              "id": "w_03_022",
+              "text": "amber",
+              "startFrame": 2148,
+              "endFrame": 2220,
+              "accent": true
+            },
+            {
+              "id": "w_03_023",
+              "text": "afternoon,",
+              "startFrame": 2220,
+              "endFrame": 2316,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_02",
+          "text": "Funny how a season always leaves too soon.",
+          "words": [
+            {
+              "id": "w_03_024",
+              "text": "Funny",
+              "startFrame": 2352,
+              "endFrame": 2400,
+              "accent": true
+            },
+            {
+              "id": "w_03_025",
+              "text": "how",
+              "startFrame": 2400,
+              "endFrame": 2430,
+              "accent": false
+            },
+            {
+              "id": "w_03_026",
+              "text": "a",
+              "startFrame": 2430,
+              "endFrame": 2454,
+              "accent": false
+            },
+            {
+              "id": "w_03_027",
+              "text": "season",
+              "startFrame": 2454,
+              "endFrame": 2520,
+              "accent": true
+            },
+            {
+              "id": "w_03_028",
+              "text": "always",
+              "startFrame": 2520,
+              "endFrame": 2586,
+              "accent": false
+            },
+            {
+              "id": "w_03_029",
+              "text": "leaves",
+              "startFrame": 2586,
+              "endFrame": 2652,
+              "accent": true
+            },
+            {
+              "id": "w_03_030",
+              "text": "too",
+              "startFrame": 2652,
+              "endFrame": 2688,
+              "accent": false
+            },
+            {
+              "id": "w_03_031",
+              "text": "soon.",
+              "startFrame": 2688,
+              "endFrame": 2790,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_04_prechorus",
+      "name": "Promises & Passing Years",
+      "sectionTag": "04 // PRE-CHORUS  •  TWO HEARTBEATS",
+      "startFrame": 2880,
+      "endFrame": 3780,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Building emotional momentum • Two distant lives moving through the night",
+      "lines": [
+        {
+          "id": "line_04_01",
+          "text": "We swore that time would never pull us apart,",
+          "words": [
+            {
+              "id": "w_04_032",
+              "text": "We",
+              "startFrame": 2904,
+              "endFrame": 2934,
+              "accent": false
+            },
+            {
+              "id": "w_04_033",
+              "text": "swore",
+              "startFrame": 2934,
+              "endFrame": 2988,
+              "accent": true
+            },
+            {
+              "id": "w_04_034",
+              "text": "that",
+              "startFrame": 2988,
+              "endFrame": 3018,
+              "accent": false
+            },
+            {
+              "id": "w_04_035",
+              "text": "time",
+              "startFrame": 3018,
+              "endFrame": 3084,
+              "accent": true
+            },
+            {
+              "id": "w_04_036",
+              "text": "would",
+              "startFrame": 3084,
+              "endFrame": 3120,
+              "accent": false
+            },
+            {
+              "id": "w_04_037",
+              "text": "never",
+              "startFrame": 3120,
+              "endFrame": 3174,
+              "accent": true
+            },
+            {
+              "id": "w_04_038",
+              "text": "pull",
+              "startFrame": 3174,
+              "endFrame": 3216,
+              "accent": false
+            },
+            {
+              "id": "w_04_039",
+              "text": "us",
+              "startFrame": 3216,
+              "endFrame": 3246,
+              "accent": false
+            },
+            {
+              "id": "w_04_040",
+              "text": "apart,",
+              "startFrame": 3246,
+              "endFrame": 3324,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_02",
+          "text": "Now we're just two heartbeats beating in the dark.",
+          "words": [
+            {
+              "id": "w_04_041",
+              "text": "Now",
+              "startFrame": 3360,
+              "endFrame": 3396,
+              "accent": false
+            },
+            {
+              "id": "w_04_042",
+              "text": "we're",
+              "startFrame": 3396,
+              "endFrame": 3432,
+              "accent": false
+            },
+            {
+              "id": "w_04_043",
+              "text": "just",
+              "startFrame": 3432,
+              "endFrame": 3468,
+              "accent": false
+            },
+            {
+              "id": "w_04_044",
+              "text": "two",
+              "startFrame": 3468,
+              "endFrame": 3504,
+              "accent": false
+            },
+            {
+              "id": "w_04_045",
+              "text": "heartbeats",
+              "startFrame": 3504,
+              "endFrame": 3588,
+              "accent": true
+            },
+            {
+              "id": "w_04_046",
+              "text": "beating",
+              "startFrame": 3588,
+              "endFrame": 3642,
+              "accent": false
+            },
+            {
+              "id": "w_04_047",
+              "text": "in",
+              "startFrame": 3642,
+              "endFrame": 3666,
+              "accent": false
+            },
+            {
+              "id": "w_04_048",
+              "text": "the",
+              "startFrame": 3666,
+              "endFrame": 3690,
+              "accent": false
+            },
+            {
+              "id": "w_04_049",
+              "text": "dark.",
+              "startFrame": 3690,
+              "endFrame": 3768,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_chorus",
+      "name": "The Golden Hour Climax",
+      "sectionTag": "05 // CHORUS  •  GOLDEN HOUR",
+      "startFrame": 3780,
+      "endFrame": 5550,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Soaring melodic hook • Quiet shadows and memories that never tarnish",
+      "lines": [
+        {
+          "id": "line_05_01",
+          "text": "And the golden hour fades along the kitchen floor,",
+          "words": [
+            {
+              "id": "w_05_050",
+              "text": "And",
+              "startFrame": 3804,
+              "endFrame": 3828,
+              "accent": false
+            },
+            {
+              "id": "w_05_051",
+              "text": "the",
+              "startFrame": 3828,
+              "endFrame": 3852,
+              "accent": false
+            },
+            {
+              "id": "w_05_052",
+              "text": "golden",
+              "startFrame": 3852,
+              "endFrame": 3924,
+              "accent": true
+            },
+            {
+              "id": "w_05_053",
+              "text": "hour",
+              "startFrame": 3924,
+              "endFrame": 3972,
+              "accent": false
+            },
+            {
+              "id": "w_05_054",
+              "text": "fades",
+              "startFrame": 3972,
+              "endFrame": 4032,
+              "accent": true
+            },
+            {
+              "id": "w_05_055",
+              "text": "along",
+              "startFrame": 4032,
+              "endFrame": 4080,
+              "accent": false
+            },
+            {
+              "id": "w_05_056",
+              "text": "the",
+              "startFrame": 4080,
+              "endFrame": 4104,
+              "accent": false
+            },
+            {
+              "id": "w_05_057",
+              "text": "kitchen",
+              "startFrame": 4104,
+              "endFrame": 4164,
+              "accent": false
+            },
+            {
+              "id": "w_05_058",
+              "text": "floor,",
+              "startFrame": 4164,
+              "endFrame": 4248,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_02",
+          "text": "Leaving quiet shadows where you stood before.",
+          "words": [
+            {
+              "id": "w_05_059",
+              "text": "Leaving",
+              "startFrame": 4284,
+              "endFrame": 4338,
+              "accent": false
+            },
+            {
+              "id": "w_05_060",
+              "text": "quiet",
+              "startFrame": 4338,
+              "endFrame": 4392,
+              "accent": true
+            },
+            {
+              "id": "w_05_061",
+              "text": "shadows",
+              "startFrame": 4392,
+              "endFrame": 4464,
+              "accent": true
+            },
+            {
+              "id": "w_05_062",
+              "text": "where",
+              "startFrame": 4464,
+              "endFrame": 4500,
+              "accent": false
+            },
+            {
+              "id": "w_05_063",
+              "text": "you",
+              "startFrame": 4500,
+              "endFrame": 4530,
+              "accent": false
+            },
+            {
+              "id": "w_05_064",
+              "text": "stood",
+              "startFrame": 4530,
+              "endFrame": 4584,
+              "accent": true
+            },
+            {
+              "id": "w_05_065",
+              "text": "before.",
+              "startFrame": 4584,
+              "endFrame": 4680,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_03",
+          "text": "I don't call your number, but I know the rhyme,",
+          "words": [
+            {
+              "id": "w_05_066",
+              "text": "I",
+              "startFrame": 4704,
+              "endFrame": 4728,
+              "accent": false
+            },
+            {
+              "id": "w_05_067",
+              "text": "don't",
+              "startFrame": 4728,
+              "endFrame": 4764,
+              "accent": false
+            },
+            {
+              "id": "w_05_068",
+              "text": "call",
+              "startFrame": 4764,
+              "endFrame": 4812,
+              "accent": true
+            },
+            {
+              "id": "w_05_069",
+              "text": "your",
+              "startFrame": 4812,
+              "endFrame": 4836,
+              "accent": false
+            },
+            {
+              "id": "w_05_070",
+              "text": "number,",
+              "startFrame": 4836,
+              "endFrame": 4896,
+              "accent": false
+            },
+            {
+              "id": "w_05_071",
+              "text": "but",
+              "startFrame": 4896,
+              "endFrame": 4920,
+              "accent": false
+            },
+            {
+              "id": "w_05_072",
+              "text": "I",
+              "startFrame": 4920,
+              "endFrame": 4938,
+              "accent": false
+            },
+            {
+              "id": "w_05_073",
+              "text": "know",
+              "startFrame": 4938,
+              "endFrame": 4974,
+              "accent": true
+            },
+            {
+              "id": "w_05_074",
+              "text": "the",
+              "startFrame": 4974,
+              "endFrame": 4992,
+              "accent": false
+            },
+            {
+              "id": "w_05_075",
+              "text": "rhyme,",
+              "startFrame": 4992,
+              "endFrame": 5064,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_04",
+          "text": "Some things stay golden on the other side of time.",
+          "words": [
+            {
+              "id": "w_05_076",
+              "text": "Some",
+              "startFrame": 5100,
+              "endFrame": 5130,
+              "accent": false
+            },
+            {
+              "id": "w_05_077",
+              "text": "things",
+              "startFrame": 5130,
+              "endFrame": 5172,
+              "accent": false
+            },
+            {
+              "id": "w_05_078",
+              "text": "stay",
+              "startFrame": 5172,
+              "endFrame": 5220,
+              "accent": true
+            },
+            {
+              "id": "w_05_079",
+              "text": "golden",
+              "startFrame": 5220,
+              "endFrame": 5304,
+              "accent": true
+            },
+            {
+              "id": "w_05_080",
+              "text": "on",
+              "startFrame": 5304,
+              "endFrame": 5328,
+              "accent": false
+            },
+            {
+              "id": "w_05_081",
+              "text": "the",
+              "startFrame": 5328,
+              "endFrame": 5352,
+              "accent": false
+            },
+            {
+              "id": "w_05_082",
+              "text": "other",
+              "startFrame": 5352,
+              "endFrame": 5388,
+              "accent": false
+            },
+            {
+              "id": "w_05_083",
+              "text": "side",
+              "startFrame": 5388,
+              "endFrame": 5430,
+              "accent": true
+            },
+            {
+              "id": "w_05_084",
+              "text": "of",
+              "startFrame": 5430,
+              "endFrame": 5454,
+              "accent": false
+            },
+            {
+              "id": "w_05_085",
+              "text": "time.",
+              "startFrame": 5454,
+              "endFrame": 5550,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_verse2",
+      "name": "Old Cafe & Wet Pavements",
+      "sectionTag": "06 // VERSE 2  •  EMPTY CHAIRS",
+      "startFrame": 5580,
+      "endFrame": 6600,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Passing familiar streets • Streetlights awakening in the blue hour drizzle",
+      "lines": [
+        {
+          "id": "line_06_01",
+          "text": "Passed the old cafe where we would talk till three,",
+          "words": [
+            {
+              "id": "w_06_086",
+              "text": "Passed",
+              "startFrame": 5604,
+              "endFrame": 5652,
+              "accent": true
+            },
+            {
+              "id": "w_06_087",
+              "text": "the",
+              "startFrame": 5652,
+              "endFrame": 5676,
+              "accent": false
+            },
+            {
+              "id": "w_06_088",
+              "text": "old",
+              "startFrame": 5676,
+              "endFrame": 5712,
+              "accent": false
+            },
+            {
+              "id": "w_06_089",
+              "text": "cafe",
+              "startFrame": 5712,
+              "endFrame": 5772,
+              "accent": true
+            },
+            {
+              "id": "w_06_090",
+              "text": "where",
+              "startFrame": 5772,
+              "endFrame": 5808,
+              "accent": false
+            },
+            {
+              "id": "w_06_091",
+              "text": "we",
+              "startFrame": 5808,
+              "endFrame": 5832,
+              "accent": false
+            },
+            {
+              "id": "w_06_092",
+              "text": "would",
+              "startFrame": 5832,
+              "endFrame": 5862,
+              "accent": false
+            },
+            {
+              "id": "w_06_093",
+              "text": "talk",
+              "startFrame": 5862,
+              "endFrame": 5916,
+              "accent": true
+            },
+            {
+              "id": "w_06_094",
+              "text": "till",
+              "startFrame": 5916,
+              "endFrame": 5946,
+              "accent": false
+            },
+            {
+              "id": "w_06_095",
+              "text": "three,",
+              "startFrame": 5946,
+              "endFrame": 6030,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_06_02",
+          "text": "Saw a shadow sitting where we used to be.",
+          "words": [
+            {
+              "id": "w_06_096",
+              "text": "Saw",
+              "startFrame": 6060,
+              "endFrame": 6102,
+              "accent": false
+            },
+            {
+              "id": "w_06_097",
+              "text": "a",
+              "startFrame": 6102,
+              "endFrame": 6120,
+              "accent": false
+            },
+            {
+              "id": "w_06_098",
+              "text": "shadow",
+              "startFrame": 6120,
+              "endFrame": 6180,
+              "accent": true
+            },
+            {
+              "id": "w_06_099",
+              "text": "sitting",
+              "startFrame": 6180,
+              "endFrame": 6240,
+              "accent": false
+            },
+            {
+              "id": "w_06_100",
+              "text": "where",
+              "startFrame": 6240,
+              "endFrame": 6276,
+              "accent": false
+            },
+            {
+              "id": "w_06_101",
+              "text": "we",
+              "startFrame": 6276,
+              "endFrame": 6306,
+              "accent": false
+            },
+            {
+              "id": "w_06_102",
+              "text": "used",
+              "startFrame": 6306,
+              "endFrame": 6360,
+              "accent": true
+            },
+            {
+              "id": "w_06_103",
+              "text": "to",
+              "startFrame": 6360,
+              "endFrame": 6384,
+              "accent": false
+            },
+            {
+              "id": "w_06_104",
+              "text": "be.",
+              "startFrame": 6384,
+              "endFrame": 6480,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_07_bridge",
+      "name": "Porch Light & Emotional Release",
+      "sectionTag": "07 // BRIDGE  •  THE PORCH LIGHT",
+      "startFrame": 6600,
+      "endFrame": 8340,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "No bitterness, only gentle gratitude • Sunshine even through the rain",
+      "lines": [
+        {
+          "id": "line_07_01",
+          "text": "I don't want the anger, I don't keep the score,",
+          "words": [
+            {
+              "id": "w_07_105",
+              "text": "I",
+              "startFrame": 6624,
+              "endFrame": 6648,
+              "accent": false
+            },
+            {
+              "id": "w_07_106",
+              "text": "don't",
+              "startFrame": 6648,
+              "endFrame": 6684,
+              "accent": false
+            },
+            {
+              "id": "w_07_107",
+              "text": "want",
+              "startFrame": 6684,
+              "endFrame": 6732,
+              "accent": true
+            },
+            {
+              "id": "w_07_108",
+              "text": "the",
+              "startFrame": 6732,
+              "endFrame": 6756,
+              "accent": false
+            },
+            {
+              "id": "w_07_109",
+              "text": "anger,",
+              "startFrame": 6756,
+              "endFrame": 6828,
+              "accent": false
+            },
+            {
+              "id": "w_07_110",
+              "text": "I",
+              "startFrame": 6852,
+              "endFrame": 6876,
+              "accent": false
+            },
+            {
+              "id": "w_07_111",
+              "text": "don't",
+              "startFrame": 6876,
+              "endFrame": 6906,
+              "accent": false
+            },
+            {
+              "id": "w_07_112",
+              "text": "keep",
+              "startFrame": 6906,
+              "endFrame": 6954,
+              "accent": true
+            },
+            {
+              "id": "w_07_113",
+              "text": "the",
+              "startFrame": 6954,
+              "endFrame": 6978,
+              "accent": false
+            },
+            {
+              "id": "w_07_114",
+              "text": "score,",
+              "startFrame": 6978,
+              "endFrame": 7068,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_02",
+          "text": "I just leave the porch light burning by the door.",
+          "words": [
+            {
+              "id": "w_07_115",
+              "text": "I",
+              "startFrame": 7092,
+              "endFrame": 7116,
+              "accent": false
+            },
+            {
+              "id": "w_07_116",
+              "text": "just",
+              "startFrame": 7116,
+              "endFrame": 7152,
+              "accent": false
+            },
+            {
+              "id": "w_07_117",
+              "text": "leave",
+              "startFrame": 7152,
+              "endFrame": 7200,
+              "accent": true
+            },
+            {
+              "id": "w_07_118",
+              "text": "the",
+              "startFrame": 7200,
+              "endFrame": 7224,
+              "accent": false
+            },
+            {
+              "id": "w_07_119",
+              "text": "porch",
+              "startFrame": 7224,
+              "endFrame": 7272,
+              "accent": true
+            },
+            {
+              "id": "w_07_120",
+              "text": "light",
+              "startFrame": 7272,
+              "endFrame": 7320,
+              "accent": true
+            },
+            {
+              "id": "w_07_121",
+              "text": "burning",
+              "startFrame": 7320,
+              "endFrame": 7392,
+              "accent": false
+            },
+            {
+              "id": "w_07_122",
+              "text": "by",
+              "startFrame": 7392,
+              "endFrame": 7416,
+              "accent": false
+            },
+            {
+              "id": "w_07_123",
+              "text": "the",
+              "startFrame": 7416,
+              "endFrame": 7440,
+              "accent": false
+            },
+            {
+              "id": "w_07_124",
+              "text": "door.",
+              "startFrame": 7440,
+              "endFrame": 7548,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_03",
+          "text": "If the wind should carry back an old refrain,",
+          "words": [
+            {
+              "id": "w_07_125",
+              "text": "If",
+              "startFrame": 7572,
+              "endFrame": 7596,
+              "accent": false
+            },
+            {
+              "id": "w_07_126",
+              "text": "the",
+              "startFrame": 7596,
+              "endFrame": 7620,
+              "accent": false
+            },
+            {
+              "id": "w_07_127",
+              "text": "wind",
+              "startFrame": 7620,
+              "endFrame": 7668,
+              "accent": true
+            },
+            {
+              "id": "w_07_128",
+              "text": "should",
+              "startFrame": 7668,
+              "endFrame": 7698,
+              "accent": false
+            },
+            {
+              "id": "w_07_129",
+              "text": "carry",
+              "startFrame": 7698,
+              "endFrame": 7752,
+              "accent": false
+            },
+            {
+              "id": "w_07_130",
+              "text": "back",
+              "startFrame": 7752,
+              "endFrame": 7788,
+              "accent": true
+            },
+            {
+              "id": "w_07_131",
+              "text": "an",
+              "startFrame": 7788,
+              "endFrame": 7812,
+              "accent": false
+            },
+            {
+              "id": "w_07_132",
+              "text": "old",
+              "startFrame": 7812,
+              "endFrame": 7848,
+              "accent": false
+            },
+            {
+              "id": "w_07_133",
+              "text": "refrain,",
+              "startFrame": 7848,
+              "endFrame": 7920,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_04",
+          "text": "I will call it sunshine even in the rain.",
+          "words": [
+            {
+              "id": "w_07_134",
+              "text": "I",
+              "startFrame": 7944,
+              "endFrame": 7968,
+              "accent": false
+            },
+            {
+              "id": "w_07_135",
+              "text": "will",
+              "startFrame": 7968,
+              "endFrame": 7992,
+              "accent": false
+            },
+            {
+              "id": "w_07_136",
+              "text": "call",
+              "startFrame": 7992,
+              "endFrame": 8040,
+              "accent": true
+            },
+            {
+              "id": "w_07_137",
+              "text": "it",
+              "startFrame": 8040,
+              "endFrame": 8058,
+              "accent": false
+            },
+            {
+              "id": "w_07_138",
+              "text": "sunshine",
+              "startFrame": 8058,
+              "endFrame": 8130,
+              "accent": true
+            },
+            {
+              "id": "w_07_139",
+              "text": "even",
+              "startFrame": 8130,
+              "endFrame": 8172,
+              "accent": false
+            },
+            {
+              "id": "w_07_140",
+              "text": "in",
+              "startFrame": 8172,
+              "endFrame": 8196,
+              "accent": false
+            },
+            {
+              "id": "w_07_141",
+              "text": "the",
+              "startFrame": 8196,
+              "endFrame": 8220,
+              "accent": false
+            },
+            {
+              "id": "w_07_142",
+              "text": "rain.",
+              "startFrame": 8220,
+              "endFrame": 8340,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_08_final_chorus",
+      "name": "Final Golden Hour Release",
+      "sectionTag": "08 // CHORUS  •  ETERNAL AMBER",
+      "startFrame": 8340,
+      "endFrame": 9600,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Full instrumental bloom • Some things stay golden on the other side of time",
+      "lines": [
+        {
+          "id": "line_08_01",
+          "text": "And the golden hour fades along the kitchen floor,",
+          "words": [
+            {
+              "id": "w_08_143",
+              "text": "And",
+              "startFrame": 8364,
+              "endFrame": 8388,
+              "accent": false
+            },
+            {
+              "id": "w_08_144",
+              "text": "the",
+              "startFrame": 8388,
+              "endFrame": 8412,
+              "accent": false
+            },
+            {
+              "id": "w_08_145",
+              "text": "golden",
+              "startFrame": 8412,
+              "endFrame": 8484,
+              "accent": true
+            },
+            {
+              "id": "w_08_146",
+              "text": "hour",
+              "startFrame": 8484,
+              "endFrame": 8532,
+              "accent": false
+            },
+            {
+              "id": "w_08_147",
+              "text": "fades",
+              "startFrame": 8532,
+              "endFrame": 8592,
+              "accent": true
+            },
+            {
+              "id": "w_08_148",
+              "text": "along",
+              "startFrame": 8592,
+              "endFrame": 8640,
+              "accent": false
+            },
+            {
+              "id": "w_08_149",
+              "text": "the",
+              "startFrame": 8640,
+              "endFrame": 8664,
+              "accent": false
+            },
+            {
+              "id": "w_08_150",
+              "text": "kitchen",
+              "startFrame": 8664,
+              "endFrame": 8724,
+              "accent": false
+            },
+            {
+              "id": "w_08_151",
+              "text": "floor,",
+              "startFrame": 8724,
+              "endFrame": 8808,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_02",
+          "text": "Some things stay golden on the other side of time.",
+          "words": [
+            {
+              "id": "w_08_152",
+              "text": "Some",
+              "startFrame": 8832,
+              "endFrame": 8862,
+              "accent": false
+            },
+            {
+              "id": "w_08_153",
+              "text": "things",
+              "startFrame": 8862,
+              "endFrame": 8904,
+              "accent": false
+            },
+            {
+              "id": "w_08_154",
+              "text": "stay",
+              "startFrame": 8904,
+              "endFrame": 8952,
+              "accent": true
+            },
+            {
+              "id": "w_08_155",
+              "text": "golden",
+              "startFrame": 8952,
+              "endFrame": 9036,
+              "accent": true
+            },
+            {
+              "id": "w_08_156",
+              "text": "on",
+              "startFrame": 9036,
+              "endFrame": 9060,
+              "accent": false
+            },
+            {
+              "id": "w_08_157",
+              "text": "the",
+              "startFrame": 9060,
+              "endFrame": 9084,
+              "accent": false
+            },
+            {
+              "id": "w_08_158",
+              "text": "other",
+              "startFrame": 9084,
+              "endFrame": 9120,
+              "accent": false
+            },
+            {
+              "id": "w_08_159",
+              "text": "side",
+              "startFrame": 9120,
+              "endFrame": 9168,
+              "accent": true
+            },
+            {
+              "id": "w_08_160",
+              "text": "of",
+              "startFrame": 9168,
+              "endFrame": 9192,
+              "accent": false
+            },
+            {
+              "id": "w_08_161",
+              "text": "time.",
+              "startFrame": 9192,
+              "endFrame": 9330,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_09_outro",
+      "name": "Dusk Fade & Lingering Chords",
+      "sectionTag": "09 // OUTRO  •  STILL GOLDEN",
+      "startFrame": 9600,
+      "endFrame": 10800,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "letter_desk",
+      "subtitle": "Delicate fingerpicking decays into twilight • Pressed flower in the envelope",
+      "lines": [
+        {
+          "id": "line_09_01",
+          "text": "On the other side of time... Some things stay golden.",
+          "words": [
+            {
+              "id": "w_09_162",
+              "text": "On",
+              "startFrame": 9660,
+              "endFrame": 9696,
+              "accent": false
+            },
+            {
+              "id": "w_09_163",
+              "text": "the",
+              "startFrame": 9696,
+              "endFrame": 9720,
+              "accent": false
+            },
+            {
+              "id": "w_09_164",
+              "text": "other",
+              "startFrame": 9720,
+              "endFrame": 9768,
+              "accent": false
+            },
+            {
+              "id": "w_09_165",
+              "text": "side",
+              "startFrame": 9768,
+              "endFrame": 9816,
+              "accent": true
+            },
+            {
+              "id": "w_09_166",
+              "text": "of",
+              "startFrame": 9816,
+              "endFrame": 9840,
+              "accent": false
+            },
+            {
+              "id": "w_09_167",
+              "text": "time...",
+              "startFrame": 9840,
+              "endFrame": 9960,
+              "accent": true
+            },
+            {
+              "id": "w_09_168",
+              "text": "Some",
+              "startFrame": 10020,
+              "endFrame": 10068,
+              "accent": false
+            },
+            {
+              "id": "w_09_169",
+              "text": "things",
+              "startFrame": 10068,
+              "endFrame": 10116,
+              "accent": false
+            },
+            {
+              "id": "w_09_170",
+              "text": "stay",
+              "startFrame": 10116,
+              "endFrame": 10176,
+              "accent": true
+            },
+            {
+              "id": "w_09_171",
+              "text": "golden.",
+              "startFrame": 10176,
+              "endFrame": 10380,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": {}
+}

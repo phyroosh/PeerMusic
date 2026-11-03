@@ -36,6 +36,20 @@ beats_sync.json
 concat_list.txt
 scratch_*
 
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Studio Credentials & YouTube OAuth Tokens (Sensitive)
+studio/credentials/
+studio/credentials.json
+studio/tokens/
+
+# Runtime Agent Session State
+.agents/session.json
+
 # OS metadata
 .DS_Store
 Thumbs.db
+

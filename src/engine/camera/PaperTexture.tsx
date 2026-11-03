@@ -7,8 +7,9 @@ interface PaperTextureProps {
 /**
  * Procedural Analog Paper & Risograph Grain Texture:
  * Imparts tactile analog print materiality using hardware-accelerated SVG noise.
+ * Isolated via CSS containment and translateZ(0) to prevent redundant GPU repaints.
  */
-export const PaperTexture: React.FC<PaperTextureProps> = ({ opacity = 0.05 }) => {
+const PaperTextureComponent: React.FC<PaperTextureProps> = ({ opacity = 0.05 }) => {
   return (
     <div
       style={{
@@ -18,6 +19,9 @@ export const PaperTexture: React.FC<PaperTextureProps> = ({ opacity = 0.05 }) =>
         zIndex: 42,
         opacity,
         mixBlendMode: "overlay",
+        contain: "strict",
+        transform: "translateZ(0)",
+        willChange: "transform",
       }}
     >
       <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -35,3 +39,5 @@ export const PaperTexture: React.FC<PaperTextureProps> = ({ opacity = 0.05 }) =>
     </div>
   );
 };
+
+export const PaperTexture = React.memo(PaperTextureComponent);

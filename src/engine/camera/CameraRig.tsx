@@ -32,9 +32,9 @@ export const CameraRig: React.FC<CameraRigProps> = ({
       style={{
         width: "100%",
         height: "100%",
-        transform: `translate(${translateX}px, ${translateY}px) scale(${scale})`,
+        transform: `translate3d(${translateX.toFixed(2)}px, ${translateY.toFixed(2)}px, 0) scale(${scale.toFixed(4)})`,
         transformOrigin: "center center",
-        transition: "transform 0.1s linear",
+        willChange: "transform",
       }}
     >
       {children}

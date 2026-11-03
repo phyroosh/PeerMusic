@@ -8,10 +8,13 @@ import os from "os";
 // ----------------------------------------------------------------------------
 // 1. MAXIMUM SPEED OPTIMIZATIONS (Frame Capture & Multi-Processing)
 // ----------------------------------------------------------------------------
-// JPEG quality 96 uses SIMD-accelerated libjpeg-turbo in Chromium,
-// rendering 2x-3x faster than uncompressed synchronous PNG canvas captures.
+// Enable ultra-fast Rust-based Rspack bundler (3x faster than Webpack)
+Config.setRspack(true);
+
+// JPEG quality 98 uses SIMD-accelerated libjpeg-turbo in Chromium,
+// rendering 2x-3x faster than PNG while maintaining visually lossless edges.
 Config.setVideoImageFormat("jpeg");
-Config.setJpegQuality(96);
+Config.setJpegQuality(98);
 Config.setStillImageFormat("png"); // Still preview exports retain lossless PNG
 
 // Concurrency 8 strikes the sweet spot on 12-thread CPUs:
@@ -43,7 +46,9 @@ Config.setPixelFormat("yuv420p"); // Universal playback compatibility (Apple/And
 Config.setColorSpace("bt709");
 
 // Audio Fidelity:
-// Studio Master 320 kbps AAC stereo encoding with lossless stream copy preference
+// Broadcast 48 kHz / 320 kbps AAC stereo encoding with lossless stream copy preference
+Config.setAudioCodec("aac");
+Config.setSampleRate(48000);
 Config.setAudioBitrate("320k");
 Config.setPreferLosslessAudio(true);
 

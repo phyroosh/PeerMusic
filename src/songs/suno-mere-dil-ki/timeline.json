@@ -1,0 +1,3678 @@
+{
+  "songTitle": "Suno Mere Dil Ki",
+  "artist": "PeerMusic",
+  "audioFile": "audio/suno_mere_dil_ki.mp3",
+  "coverImage": "covers/suno_mere_dil_ki_clean_16x9.png",
+  "totalDurationSec": 177.5,
+  "totalFrames": 10650,
+  "fps": 60,
+  "scenes": [
+    {
+      "id": "scene_01_prelude",
+      "name": "Prelude – Ek Dastan",
+      "startFrame": 0,
+      "endFrame": 880,
+      "lines": [
+        {
+          "id": "line_01_01",
+          "text": "(Hmm-hmm aa-aa) dil ne suni hai ek dastan suni hai",
+          "startTime": 3.583,
+          "endTime": 7.667,
+          "startFrame": 215,
+          "endFrame": 460,
+          "accentWords": [
+            "Hmm-hmm"
+          ],
+          "words": [
+            {
+              "id": "w_01_01_01",
+              "text": "(Hmm-hmm",
+              "startFrame": 215,
+              "endFrame": 257,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_02",
+              "text": "aa-aa)",
+              "startFrame": 257,
+              "endFrame": 328,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_03",
+              "text": "dil",
+              "startFrame": 336,
+              "endFrame": 342,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_04",
+              "text": "ne",
+              "startFrame": 342,
+              "endFrame": 352,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_05",
+              "text": "suni",
+              "startFrame": 352,
+              "endFrame": 378,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_06",
+              "text": "hai",
+              "startFrame": 378,
+              "endFrame": 388,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_07",
+              "text": "ek",
+              "startFrame": 388,
+              "endFrame": 404,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_08",
+              "text": "dastan",
+              "startFrame": 404,
+              "endFrame": 427,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_09",
+              "text": "suni",
+              "startFrame": 427,
+              "endFrame": 460,
+              "accent": false
+            },
+            {
+              "id": "w_01_01_10",
+              "text": "hai",
+              "startFrame": 460,
+              "endFrame": 461,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_01_02",
+          "text": "Is dil mein basi teri ek meethi si pyas hai pyaas hai",
+          "startTime": 11.767,
+          "endTime": 14.667,
+          "startFrame": 706,
+          "endFrame": 880,
+          "accentWords": [
+            "meethi"
+          ],
+          "words": [
+            {
+              "id": "w_01_02_01",
+              "text": "Is",
+              "startFrame": 706,
+              "endFrame": 707,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_02",
+              "text": "dil",
+              "startFrame": 706,
+              "endFrame": 715,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_03",
+              "text": "mein",
+              "startFrame": 715,
+              "endFrame": 725,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_04",
+              "text": "basi",
+              "startFrame": 725,
+              "endFrame": 749,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_05",
+              "text": "teri",
+              "startFrame": 749,
+              "endFrame": 773,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_06",
+              "text": "ek",
+              "startFrame": 773,
+              "endFrame": 787,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_07",
+              "text": "meethi",
+              "startFrame": 787,
+              "endFrame": 812,
+              "accent": true
+            },
+            {
+              "id": "w_01_02_08",
+              "text": "si",
+              "startFrame": 812,
+              "endFrame": 822,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_09",
+              "text": "pyas",
+              "startFrame": 822,
+              "endFrame": 847,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_10",
+              "text": "hai",
+              "startFrame": 847,
+              "endFrame": 862,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_11",
+              "text": "pyaas",
+              "startFrame": 862,
+              "endFrame": 877,
+              "accent": false
+            },
+            {
+              "id": "w_01_02_12",
+              "text": "hai",
+              "startFrame": 877,
+              "endFrame": 880,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_02_verse_1",
+      "name": "Subah Ki Dhoop – Verse 1",
+      "startFrame": 880,
+      "endFrame": 2105,
+      "lines": [
+        {
+          "id": "line_02_01",
+          "text": "Subah ki dhoop mein teri ek jhalak milti hai",
+          "startTime": 14.667,
+          "endTime": 17.533,
+          "startFrame": 880,
+          "endFrame": 1052,
+          "accentWords": [
+            "jhalak"
+          ],
+          "words": [
+            {
+              "id": "w_02_01_01",
+              "text": "Subah",
+              "startFrame": 880,
+              "endFrame": 904,
+              "accent": false
+            },
+            {
+              "id": "w_02_01_02",
+              "text": "ki",
+              "startFrame": 904,
+              "endFrame": 914,
+              "accent": false
+            },
+            {
+              "id": "w_02_01_03",
+              "text": "dhoop",
+              "startFrame": 914,
+              "endFrame": 938,
+              "accent": false
+            },
+            {
+              "id": "w_02_01_04",
+              "text": "mein",
+              "startFrame": 938,
+              "endFrame": 946,
+              "accent": false
+            },
+            {
+              "id": "w_02_01_05",
+              "text": "teri",
+              "startFrame": 946,
+              "endFrame": 966,
+              "accent": false
+            },
+            {
+              "id": "w_02_01_06",
+              "text": "ek",
+              "startFrame": 966,
+              "endFrame": 979,
+              "accent": false
+            },
+            {
+              "id": "w_02_01_07",
+              "text": "jhalak",
+              "startFrame": 979,
+              "endFrame": 1008,
+              "accent": true
+            },
+            {
+              "id": "w_02_01_08",
+              "text": "milti",
+              "startFrame": 1008,
+              "endFrame": 1042,
+              "accent": false
+            },
+            {
+              "id": "w_02_01_09",
+              "text": "hai",
+              "startFrame": 1042,
+              "endFrame": 1052,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_02",
+          "text": "Kitabon ke bahaane meri aankh tujhe dhoondhti hai",
+          "startTime": 17.533,
+          "endTime": 20.483,
+          "startFrame": 1052,
+          "endFrame": 1229,
+          "accentWords": [
+            "dhoondhti"
+          ],
+          "words": [
+            {
+              "id": "w_02_02_01",
+              "text": "Kitabon",
+              "startFrame": 1052,
+              "endFrame": 1079,
+              "accent": false
+            },
+            {
+              "id": "w_02_02_02",
+              "text": "ke",
+              "startFrame": 1079,
+              "endFrame": 1090,
+              "accent": false
+            },
+            {
+              "id": "w_02_02_03",
+              "text": "bahaane",
+              "startFrame": 1090,
+              "endFrame": 1118,
+              "accent": false
+            },
+            {
+              "id": "w_02_02_04",
+              "text": "meri",
+              "startFrame": 1118,
+              "endFrame": 1144,
+              "accent": false
+            },
+            {
+              "id": "w_02_02_05",
+              "text": "aankh",
+              "startFrame": 1144,
+              "endFrame": 1164,
+              "accent": false
+            },
+            {
+              "id": "w_02_02_06",
+              "text": "tujhe",
+              "startFrame": 1164,
+              "endFrame": 1187,
+              "accent": false
+            },
+            {
+              "id": "w_02_02_07",
+              "text": "dhoondhti",
+              "startFrame": 1187,
+              "endFrame": 1222,
+              "accent": true
+            },
+            {
+              "id": "w_02_02_08",
+              "text": "hai",
+              "startFrame": 1222,
+              "endFrame": 1229,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_03",
+          "text": "Chalti hai hawa jab to tera hi aks lagta hai",
+          "startTime": 20.483,
+          "endTime": 23.467,
+          "startFrame": 1229,
+          "endFrame": 1408,
+          "accentWords": [
+            "Chalti"
+          ],
+          "words": [
+            {
+              "id": "w_02_03_01",
+              "text": "Chalti",
+              "startFrame": 1229,
+              "endFrame": 1255,
+              "accent": true
+            },
+            {
+              "id": "w_02_03_02",
+              "text": "hai",
+              "startFrame": 1255,
+              "endFrame": 1264,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_03",
+              "text": "hawa",
+              "startFrame": 1264,
+              "endFrame": 1284,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_04",
+              "text": "jab",
+              "startFrame": 1284,
+              "endFrame": 1296,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_05",
+              "text": "to",
+              "startFrame": 1296,
+              "endFrame": 1308,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_06",
+              "text": "tera",
+              "startFrame": 1308,
+              "endFrame": 1326,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_07",
+              "text": "hi",
+              "startFrame": 1326,
+              "endFrame": 1344,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_08",
+              "text": "aks",
+              "startFrame": 1344,
+              "endFrame": 1358,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_09",
+              "text": "lagta",
+              "startFrame": 1358,
+              "endFrame": 1394,
+              "accent": false
+            },
+            {
+              "id": "w_02_03_10",
+              "text": "hai",
+              "startFrame": 1394,
+              "endFrame": 1408,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_04",
+          "text": "Is dil ko bas ab tera hi intezaar rehta hai",
+          "startTime": 23.467,
+          "endTime": 26.517,
+          "startFrame": 1408,
+          "endFrame": 1591,
+          "accentWords": [
+            "intezaar"
+          ],
+          "words": [
+            {
+              "id": "w_02_04_01",
+              "text": "Is",
+              "startFrame": 1408,
+              "endFrame": 1423,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_02",
+              "text": "dil",
+              "startFrame": 1423,
+              "endFrame": 1434,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_03",
+              "text": "ko",
+              "startFrame": 1434,
+              "endFrame": 1447,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_04",
+              "text": "bas",
+              "startFrame": 1447,
+              "endFrame": 1468,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_05",
+              "text": "ab",
+              "startFrame": 1468,
+              "endFrame": 1478,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_06",
+              "text": "tera",
+              "startFrame": 1478,
+              "endFrame": 1498,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_07",
+              "text": "hi",
+              "startFrame": 1498,
+              "endFrame": 1518,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_08",
+              "text": "intezaar",
+              "startFrame": 1518,
+              "endFrame": 1560,
+              "accent": true
+            },
+            {
+              "id": "w_02_04_09",
+              "text": "rehta",
+              "startFrame": 1560,
+              "endFrame": 1578,
+              "accent": false
+            },
+            {
+              "id": "w_02_04_10",
+              "text": "hai",
+              "startFrame": 1578,
+              "endFrame": 1591,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_05",
+          "text": "Kagaz pe naam tera likh kar mitaate hain hum",
+          "startTime": 26.517,
+          "endTime": 29.317,
+          "startFrame": 1591,
+          "endFrame": 1759,
+          "accentWords": [
+            "mitaate"
+          ],
+          "words": [
+            {
+              "id": "w_02_05_01",
+              "text": "Kagaz",
+              "startFrame": 1591,
+              "endFrame": 1619,
+              "accent": false
+            },
+            {
+              "id": "w_02_05_02",
+              "text": "pe",
+              "startFrame": 1619,
+              "endFrame": 1627,
+              "accent": false
+            },
+            {
+              "id": "w_02_05_03",
+              "text": "naam",
+              "startFrame": 1627,
+              "endFrame": 1646,
+              "accent": false
+            },
+            {
+              "id": "w_02_05_04",
+              "text": "tera",
+              "startFrame": 1646,
+              "endFrame": 1664,
+              "accent": false
+            },
+            {
+              "id": "w_02_05_05",
+              "text": "likh",
+              "startFrame": 1664,
+              "endFrame": 1690,
+              "accent": false
+            },
+            {
+              "id": "w_02_05_06",
+              "text": "kar",
+              "startFrame": 1690,
+              "endFrame": 1704,
+              "accent": false
+            },
+            {
+              "id": "w_02_05_07",
+              "text": "mitaate",
+              "startFrame": 1704,
+              "endFrame": 1736,
+              "accent": true
+            },
+            {
+              "id": "w_02_05_08",
+              "text": "hain",
+              "startFrame": 1736,
+              "endFrame": 1742,
+              "accent": false
+            },
+            {
+              "id": "w_02_05_09",
+              "text": "hum",
+              "startFrame": 1742,
+              "endFrame": 1759,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_06",
+          "text": "Dheere se tera hi ek geet gungunaate hain hum",
+          "startTime": 29.317,
+          "endTime": 32.3,
+          "startFrame": 1759,
+          "endFrame": 1938,
+          "accentWords": [
+            "gungunaate"
+          ],
+          "words": [
+            {
+              "id": "w_02_06_01",
+              "text": "Dheere",
+              "startFrame": 1759,
+              "endFrame": 1781,
+              "accent": false
+            },
+            {
+              "id": "w_02_06_02",
+              "text": "se",
+              "startFrame": 1781,
+              "endFrame": 1792,
+              "accent": false
+            },
+            {
+              "id": "w_02_06_03",
+              "text": "tera",
+              "startFrame": 1792,
+              "endFrame": 1811,
+              "accent": false
+            },
+            {
+              "id": "w_02_06_04",
+              "text": "hi",
+              "startFrame": 1811,
+              "endFrame": 1825,
+              "accent": false
+            },
+            {
+              "id": "w_02_06_05",
+              "text": "ek",
+              "startFrame": 1825,
+              "endFrame": 1840,
+              "accent": false
+            },
+            {
+              "id": "w_02_06_06",
+              "text": "geet",
+              "startFrame": 1840,
+              "endFrame": 1865,
+              "accent": false
+            },
+            {
+              "id": "w_02_06_07",
+              "text": "gungunaate",
+              "startFrame": 1865,
+              "endFrame": 1912,
+              "accent": true
+            },
+            {
+              "id": "w_02_06_08",
+              "text": "hain",
+              "startFrame": 1912,
+              "endFrame": 1926,
+              "accent": false
+            },
+            {
+              "id": "w_02_06_09",
+              "text": "hum",
+              "startFrame": 1926,
+              "endFrame": 1938,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_07",
+          "text": "Chhup chhup ke tujhe dekhna hi ek junoon hai mera",
+          "startTime": 32.3,
+          "endTime": 35.083,
+          "startFrame": 1938,
+          "endFrame": 2105,
+          "accentWords": [
+            "dekhna"
+          ],
+          "words": [
+            {
+              "id": "w_02_07_01",
+              "text": "Chhup",
+              "startFrame": 1938,
+              "endFrame": 1955,
+              "accent": false
+            },
+            {
+              "id": "w_02_07_02",
+              "text": "chhup",
+              "startFrame": 1955,
+              "endFrame": 1972,
+              "accent": false
+            },
+            {
+              "id": "w_02_07_03",
+              "text": "ke",
+              "startFrame": 1972,
+              "endFrame": 1978,
+              "accent": false
+            },
+            {
+              "id": "w_02_07_04",
+              "text": "tujhe",
+              "startFrame": 1978,
+              "endFrame": 2000,
+              "accent": false
+            },
+            {
+              "id": "w_02_07_05",
+              "text": "dekhna",
+              "startFrame": 2000,
+              "endFrame": 2030,
+              "accent": true
+            },
+            {
+              "id": "w_02_07_06",
+              "text": "hi",
+              "startFrame": 2030,
+              "endFrame": 2044,
+              "accent": false
+            },
+            {
+              "id": "w_02_07_07",
+              "text": "ek",
+              "startFrame": 2044,
+              "endFrame": 2057,
+              "accent": true
+            },
+            {
+              "id": "w_02_07_08",
+              "text": "junoon",
+              "startFrame": 2057,
+              "endFrame": 2077,
+              "accent": false
+            },
+            {
+              "id": "w_02_07_09",
+              "text": "hai",
+              "startFrame": 2077,
+              "endFrame": 2087,
+              "accent": false
+            },
+            {
+              "id": "w_02_07_10",
+              "text": "mera",
+              "startFrame": 2087,
+              "endFrame": 2105,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_chorus_1",
+      "name": "Suno Mere Dil Ki – Sargam 1",
+      "startFrame": 2105,
+      "endFrame": 3474,
+      "lines": [
+        {
+          "id": "line_03_01",
+          "text": "Is khamosh ishq mein sirf tera hi suroor hai mera",
+          "startTime": 35.083,
+          "endTime": 38.033,
+          "startFrame": 2105,
+          "endFrame": 2282,
+          "accentWords": [
+            "khamosh"
+          ],
+          "words": [
+            {
+              "id": "w_03_01_01",
+              "text": "Is",
+              "startFrame": 2105,
+              "endFrame": 2120,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_02",
+              "text": "khamosh",
+              "startFrame": 2120,
+              "endFrame": 2154,
+              "accent": true
+            },
+            {
+              "id": "w_03_01_03",
+              "text": "ishq",
+              "startFrame": 2154,
+              "endFrame": 2172,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_04",
+              "text": "mein",
+              "startFrame": 2172,
+              "endFrame": 2178,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_05",
+              "text": "sirf",
+              "startFrame": 2178,
+              "endFrame": 2196,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_06",
+              "text": "tera",
+              "startFrame": 2196,
+              "endFrame": 2212,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_07",
+              "text": "hi",
+              "startFrame": 2212,
+              "endFrame": 2231,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_08",
+              "text": "suroor",
+              "startFrame": 2231,
+              "endFrame": 2254,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_09",
+              "text": "hai",
+              "startFrame": 2254,
+              "endFrame": 2267,
+              "accent": false
+            },
+            {
+              "id": "w_03_01_10",
+              "text": "mera",
+              "startFrame": 2267,
+              "endFrame": 2282,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_02",
+          "text": "Suno mere dil ki tum ye sargam!",
+          "startTime": 38.033,
+          "endTime": 39.933,
+          "startFrame": 2282,
+          "endFrame": 2396,
+          "accentWords": [
+            "sargam"
+          ],
+          "words": [
+            {
+              "id": "w_03_02_01",
+              "text": "Suno",
+              "startFrame": 2282,
+              "endFrame": 2283,
+              "accent": false
+            },
+            {
+              "id": "w_03_02_02",
+              "text": "mere",
+              "startFrame": 2282,
+              "endFrame": 2283,
+              "accent": false
+            },
+            {
+              "id": "w_03_02_03",
+              "text": "dil",
+              "startFrame": 2282,
+              "endFrame": 2300,
+              "accent": false
+            },
+            {
+              "id": "w_03_02_04",
+              "text": "ki",
+              "startFrame": 2300,
+              "endFrame": 2318,
+              "accent": false
+            },
+            {
+              "id": "w_03_02_05",
+              "text": "tum",
+              "startFrame": 2318,
+              "endFrame": 2340,
+              "accent": false
+            },
+            {
+              "id": "w_03_02_06",
+              "text": "ye",
+              "startFrame": 2340,
+              "endFrame": 2351,
+              "accent": false
+            },
+            {
+              "id": "w_03_02_07",
+              "text": "sargam!",
+              "startFrame": 2351,
+              "endFrame": 2396,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_03_03",
+          "text": "Har saans mein basi hai ek nayi thartharahat sanam!",
+          "startTime": 40.833,
+          "endTime": 43.8,
+          "startFrame": 2450,
+          "endFrame": 2628,
+          "accentWords": [
+            "thartharahat"
+          ],
+          "words": [
+            {
+              "id": "w_03_03_01",
+              "text": "Har",
+              "startFrame": 2450,
+              "endFrame": 2455,
+              "accent": true
+            },
+            {
+              "id": "w_03_03_02",
+              "text": "saans",
+              "startFrame": 2455,
+              "endFrame": 2479,
+              "accent": false
+            },
+            {
+              "id": "w_03_03_03",
+              "text": "mein",
+              "startFrame": 2479,
+              "endFrame": 2491,
+              "accent": false
+            },
+            {
+              "id": "w_03_03_04",
+              "text": "basi",
+              "startFrame": 2491,
+              "endFrame": 2514,
+              "accent": false
+            },
+            {
+              "id": "w_03_03_05",
+              "text": "hai",
+              "startFrame": 2514,
+              "endFrame": 2525,
+              "accent": false
+            },
+            {
+              "id": "w_03_03_06",
+              "text": "ek",
+              "startFrame": 2525,
+              "endFrame": 2540,
+              "accent": false
+            },
+            {
+              "id": "w_03_03_07",
+              "text": "nayi",
+              "startFrame": 2540,
+              "endFrame": 2555,
+              "accent": false
+            },
+            {
+              "id": "w_03_03_08",
+              "text": "thartharahat",
+              "startFrame": 2555,
+              "endFrame": 2586,
+              "accent": true
+            },
+            {
+              "id": "w_03_03_09",
+              "text": "sanam!",
+              "startFrame": 2586,
+              "endFrame": 2628,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_04",
+          "text": "Hai ishq ye mera bada hi pyaara!",
+          "startTime": 43.983,
+          "endTime": 46.083,
+          "startFrame": 2639,
+          "endFrame": 2765,
+          "accentWords": [
+            "pyaara"
+          ],
+          "words": [
+            {
+              "id": "w_03_04_01",
+              "text": "Hai",
+              "startFrame": 2639,
+              "endFrame": 2640,
+              "accent": false
+            },
+            {
+              "id": "w_03_04_02",
+              "text": "ishq",
+              "startFrame": 2640,
+              "endFrame": 2656,
+              "accent": false
+            },
+            {
+              "id": "w_03_04_03",
+              "text": "ye",
+              "startFrame": 2656,
+              "endFrame": 2669,
+              "accent": false
+            },
+            {
+              "id": "w_03_04_04",
+              "text": "mera",
+              "startFrame": 2669,
+              "endFrame": 2690,
+              "accent": false
+            },
+            {
+              "id": "w_03_04_05",
+              "text": "bada",
+              "startFrame": 2690,
+              "endFrame": 2707,
+              "accent": false
+            },
+            {
+              "id": "w_03_04_06",
+              "text": "hi",
+              "startFrame": 2711,
+              "endFrame": 2724,
+              "accent": false
+            },
+            {
+              "id": "w_03_04_07",
+              "text": "pyaara!",
+              "startFrame": 2724,
+              "endFrame": 2765,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_03_05",
+          "text": "Tu hi hai meri kismat ka vo chamakta sitara!",
+          "startTime": 46.167,
+          "endTime": 48.933,
+          "startFrame": 2770,
+          "endFrame": 2936,
+          "accentWords": [
+            "chamakta"
+          ],
+          "words": [
+            {
+              "id": "w_03_05_01",
+              "text": "Tu",
+              "startFrame": 2770,
+              "endFrame": 2771,
+              "accent": false
+            },
+            {
+              "id": "w_03_05_02",
+              "text": "hi",
+              "startFrame": 2770,
+              "endFrame": 2776,
+              "accent": false
+            },
+            {
+              "id": "w_03_05_03",
+              "text": "hai",
+              "startFrame": 2776,
+              "endFrame": 2789,
+              "accent": false
+            },
+            {
+              "id": "w_03_05_04",
+              "text": "meri",
+              "startFrame": 2789,
+              "endFrame": 2808,
+              "accent": false
+            },
+            {
+              "id": "w_03_05_05",
+              "text": "kismat",
+              "startFrame": 2808,
+              "endFrame": 2834,
+              "accent": false
+            },
+            {
+              "id": "w_03_05_06",
+              "text": "ka",
+              "startFrame": 2834,
+              "endFrame": 2843,
+              "accent": false
+            },
+            {
+              "id": "w_03_05_07",
+              "text": "vo",
+              "startFrame": 2843,
+              "endFrame": 2854,
+              "accent": false
+            },
+            {
+              "id": "w_03_05_08",
+              "text": "chamakta",
+              "startFrame": 2854,
+              "endFrame": 2888,
+              "accent": true
+            },
+            {
+              "id": "w_03_05_09",
+              "text": "sitara!",
+              "startFrame": 2888,
+              "endFrame": 2936,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_06",
+          "text": "Suno mere dil ki tum ye sargam!",
+          "startTime": 49.117,
+          "endTime": 52.183,
+          "startFrame": 2947,
+          "endFrame": 3131,
+          "accentWords": [
+            "sargam"
+          ],
+          "words": [
+            {
+              "id": "w_03_06_01",
+              "text": "Suno",
+              "startFrame": 2947,
+              "endFrame": 2956,
+              "accent": false
+            },
+            {
+              "id": "w_03_06_02",
+              "text": "mere",
+              "startFrame": 2956,
+              "endFrame": 2980,
+              "accent": false
+            },
+            {
+              "id": "w_03_06_03",
+              "text": "dil",
+              "startFrame": 2980,
+              "endFrame": 2999,
+              "accent": false
+            },
+            {
+              "id": "w_03_06_04",
+              "text": "ki",
+              "startFrame": 2999,
+              "endFrame": 3025,
+              "accent": false
+            },
+            {
+              "id": "w_03_06_05",
+              "text": "tum",
+              "startFrame": 3025,
+              "endFrame": 3044,
+              "accent": false
+            },
+            {
+              "id": "w_03_06_06",
+              "text": "ye",
+              "startFrame": 3044,
+              "endFrame": 3056,
+              "accent": false
+            },
+            {
+              "id": "w_03_06_07",
+              "text": "sargam!",
+              "startFrame": 3056,
+              "endFrame": 3131,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_03_07",
+          "text": "Har saans mein basi hai ek nayi thartharahat sanam!",
+          "startTime": 52.6,
+          "endTime": 55.517,
+          "startFrame": 3156,
+          "endFrame": 3331,
+          "accentWords": [
+            "thartharahat"
+          ],
+          "words": [
+            {
+              "id": "w_03_07_01",
+              "text": "Har",
+              "startFrame": 3156,
+              "endFrame": 3161,
+              "accent": true
+            },
+            {
+              "id": "w_03_07_02",
+              "text": "saans",
+              "startFrame": 3161,
+              "endFrame": 3188,
+              "accent": false
+            },
+            {
+              "id": "w_03_07_03",
+              "text": "mein",
+              "startFrame": 3188,
+              "endFrame": 3197,
+              "accent": false
+            },
+            {
+              "id": "w_03_07_04",
+              "text": "basi",
+              "startFrame": 3197,
+              "endFrame": 3220,
+              "accent": false
+            },
+            {
+              "id": "w_03_07_05",
+              "text": "hai",
+              "startFrame": 3220,
+              "endFrame": 3234,
+              "accent": false
+            },
+            {
+              "id": "w_03_07_06",
+              "text": "ek",
+              "startFrame": 3234,
+              "endFrame": 3246,
+              "accent": false
+            },
+            {
+              "id": "w_03_07_07",
+              "text": "nayi",
+              "startFrame": 3246,
+              "endFrame": 3257,
+              "accent": false
+            },
+            {
+              "id": "w_03_07_08",
+              "text": "thartharahat",
+              "startFrame": 3257,
+              "endFrame": 3293,
+              "accent": true
+            },
+            {
+              "id": "w_03_07_09",
+              "text": "sanam!",
+              "startFrame": 3293,
+              "endFrame": 3331,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_08",
+          "text": "Hai ishq ye mera bada hi pyaara!",
+          "startTime": 55.633,
+          "endTime": 57.767,
+          "startFrame": 3338,
+          "endFrame": 3466,
+          "accentWords": [
+            "pyaara"
+          ],
+          "words": [
+            {
+              "id": "w_03_08_01",
+              "text": "Hai",
+              "startFrame": 3338,
+              "endFrame": 3342,
+              "accent": false
+            },
+            {
+              "id": "w_03_08_02",
+              "text": "ishq",
+              "startFrame": 3342,
+              "endFrame": 3365,
+              "accent": false
+            },
+            {
+              "id": "w_03_08_03",
+              "text": "ye",
+              "startFrame": 3365,
+              "endFrame": 3373,
+              "accent": false
+            },
+            {
+              "id": "w_03_08_04",
+              "text": "mera",
+              "startFrame": 3373,
+              "endFrame": 3392,
+              "accent": false
+            },
+            {
+              "id": "w_03_08_05",
+              "text": "bada",
+              "startFrame": 3392,
+              "endFrame": 3403,
+              "accent": false
+            },
+            {
+              "id": "w_03_08_06",
+              "text": "hi",
+              "startFrame": 3403,
+              "endFrame": 3425,
+              "accent": false
+            },
+            {
+              "id": "w_03_08_07",
+              "text": "pyaara!",
+              "startFrame": 3425,
+              "endFrame": 3466,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_04_interlude",
+      "name": "Ghanti Bajti Hai – Interlude",
+      "startFrame": 3474,
+      "endFrame": 5243,
+      "lines": [
+        {
+          "id": "line_04_01",
+          "text": "Tu hi hai meri kismat ka vo chamakta sitara!",
+          "startTime": 57.9,
+          "endTime": 59.8,
+          "startFrame": 3474,
+          "endFrame": 3588,
+          "accentWords": [
+            "chamakta"
+          ],
+          "words": [
+            {
+              "id": "w_04_01_01",
+              "text": "Tu",
+              "startFrame": 3474,
+              "endFrame": 3475,
+              "accent": false
+            },
+            {
+              "id": "w_04_01_02",
+              "text": "hi",
+              "startFrame": 3474,
+              "endFrame": 3486,
+              "accent": false
+            },
+            {
+              "id": "w_04_01_03",
+              "text": "hai",
+              "startFrame": 3486,
+              "endFrame": 3494,
+              "accent": false
+            },
+            {
+              "id": "w_04_01_04",
+              "text": "meri",
+              "startFrame": 3494,
+              "endFrame": 3512,
+              "accent": false
+            },
+            {
+              "id": "w_04_01_05",
+              "text": "kismat",
+              "startFrame": 3512,
+              "endFrame": 3536,
+              "accent": false
+            },
+            {
+              "id": "w_04_01_06",
+              "text": "ka",
+              "startFrame": 3536,
+              "endFrame": 3546,
+              "accent": false
+            },
+            {
+              "id": "w_04_01_07",
+              "text": "vo",
+              "startFrame": 3546,
+              "endFrame": 3557,
+              "accent": false
+            },
+            {
+              "id": "w_04_01_08",
+              "text": "chamakta",
+              "startFrame": 3557,
+              "endFrame": 3588,
+              "accent": true
+            },
+            {
+              "id": "w_04_01_09",
+              "text": "sitara!",
+              "startFrame": 3588,
+              "endFrame": 3589,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_02",
+          "text": "Ghanti bajti hai to dil ye dhadakta hai mera",
+          "startTime": 84.567,
+          "endTime": 87.383,
+          "startFrame": 5074,
+          "endFrame": 5243,
+          "accentWords": [
+            "dhadakta"
+          ],
+          "words": [
+            {
+              "id": "w_04_02_01",
+              "text": "Ghanti",
+              "startFrame": 5074,
+              "endFrame": 5113,
+              "accent": false
+            },
+            {
+              "id": "w_04_02_02",
+              "text": "bajti",
+              "startFrame": 5113,
+              "endFrame": 5138,
+              "accent": false
+            },
+            {
+              "id": "w_04_02_03",
+              "text": "hai",
+              "startFrame": 5138,
+              "endFrame": 5149,
+              "accent": false
+            },
+            {
+              "id": "w_04_02_04",
+              "text": "to",
+              "startFrame": 5149,
+              "endFrame": 5158,
+              "accent": false
+            },
+            {
+              "id": "w_04_02_05",
+              "text": "dil",
+              "startFrame": 5158,
+              "endFrame": 5172,
+              "accent": false
+            },
+            {
+              "id": "w_04_02_06",
+              "text": "ye",
+              "startFrame": 5172,
+              "endFrame": 5180,
+              "accent": false
+            },
+            {
+              "id": "w_04_02_07",
+              "text": "dhadakta",
+              "startFrame": 5180,
+              "endFrame": 5215,
+              "accent": true
+            },
+            {
+              "id": "w_04_02_08",
+              "text": "hai",
+              "startFrame": 5215,
+              "endFrame": 5226,
+              "accent": false
+            },
+            {
+              "id": "w_04_02_09",
+              "text": "mera",
+              "startFrame": 5226,
+              "endFrame": 5243,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_verse_2",
+      "name": "Raahon Mein – Verse 2",
+      "startFrame": 5243,
+      "endFrame": 6142,
+      "lines": [
+        {
+          "id": "line_05_01",
+          "text": "Raahon mein teri hi khoya rehta hai savera mera",
+          "startTime": 87.383,
+          "endTime": 90.7,
+          "startFrame": 5243,
+          "endFrame": 5442,
+          "accentWords": [
+            "Raahon"
+          ],
+          "words": [
+            {
+              "id": "w_05_01_01",
+              "text": "Raahon",
+              "startFrame": 5243,
+              "endFrame": 5291,
+              "accent": true
+            },
+            {
+              "id": "w_05_01_02",
+              "text": "mein",
+              "startFrame": 5291,
+              "endFrame": 5302,
+              "accent": false
+            },
+            {
+              "id": "w_05_01_03",
+              "text": "teri",
+              "startFrame": 5302,
+              "endFrame": 5323,
+              "accent": false
+            },
+            {
+              "id": "w_05_01_04",
+              "text": "hi",
+              "startFrame": 5323,
+              "endFrame": 5335,
+              "accent": false
+            },
+            {
+              "id": "w_05_01_05",
+              "text": "khoya",
+              "startFrame": 5335,
+              "endFrame": 5351,
+              "accent": false
+            },
+            {
+              "id": "w_05_01_06",
+              "text": "rehta",
+              "startFrame": 5351,
+              "endFrame": 5378,
+              "accent": false
+            },
+            {
+              "id": "w_05_01_07",
+              "text": "hai",
+              "startFrame": 5378,
+              "endFrame": 5390,
+              "accent": false
+            },
+            {
+              "id": "w_05_01_08",
+              "text": "savera",
+              "startFrame": 5390,
+              "endFrame": 5423,
+              "accent": false
+            },
+            {
+              "id": "w_05_01_09",
+              "text": "mera",
+              "startFrame": 5423,
+              "endFrame": 5442,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_02",
+          "text": "Har ek panne pe tera hi ek chehra dikhta hai hamen",
+          "startTime": 90.7,
+          "endTime": 93.617,
+          "startFrame": 5442,
+          "endFrame": 5617,
+          "accentWords": [
+            "chehra"
+          ],
+          "words": [
+            {
+              "id": "w_05_02_01",
+              "text": "Har",
+              "startFrame": 5442,
+              "endFrame": 5459,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_02",
+              "text": "ek",
+              "startFrame": 5459,
+              "endFrame": 5472,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_03",
+              "text": "panne",
+              "startFrame": 5472,
+              "endFrame": 5489,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_04",
+              "text": "pe",
+              "startFrame": 5489,
+              "endFrame": 5503,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_05",
+              "text": "tera",
+              "startFrame": 5503,
+              "endFrame": 5515,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_06",
+              "text": "hi",
+              "startFrame": 5515,
+              "endFrame": 5534,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_07",
+              "text": "ek",
+              "startFrame": 5534,
+              "endFrame": 5545,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_08",
+              "text": "chehra",
+              "startFrame": 5545,
+              "endFrame": 5564,
+              "accent": true
+            },
+            {
+              "id": "w_05_02_09",
+              "text": "dikhta",
+              "startFrame": 5564,
+              "endFrame": 5591,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_10",
+              "text": "hai",
+              "startFrame": 5591,
+              "endFrame": 5600,
+              "accent": false
+            },
+            {
+              "id": "w_05_02_11",
+              "text": "hamen",
+              "startFrame": 5600,
+              "endFrame": 5617,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_03",
+          "text": "Is bekhudi mein sirf tera hi suroor milta hai hamen",
+          "startTime": 93.617,
+          "endTime": 96.583,
+          "startFrame": 5617,
+          "endFrame": 5795,
+          "accentWords": [
+            "bekhudi"
+          ],
+          "words": [
+            {
+              "id": "w_05_03_01",
+              "text": "Is",
+              "startFrame": 5617,
+              "endFrame": 5627,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_02",
+              "text": "bekhudi",
+              "startFrame": 5627,
+              "endFrame": 5653,
+              "accent": true
+            },
+            {
+              "id": "w_05_03_03",
+              "text": "mein",
+              "startFrame": 5653,
+              "endFrame": 5663,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_04",
+              "text": "sirf",
+              "startFrame": 5663,
+              "endFrame": 5684,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_05",
+              "text": "tera",
+              "startFrame": 5684,
+              "endFrame": 5693,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_06",
+              "text": "hi",
+              "startFrame": 5693,
+              "endFrame": 5708,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_07",
+              "text": "suroor",
+              "startFrame": 5708,
+              "endFrame": 5740,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_08",
+              "text": "milta",
+              "startFrame": 5740,
+              "endFrame": 5762,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_09",
+              "text": "hai",
+              "startFrame": 5762,
+              "endFrame": 5773,
+              "accent": false
+            },
+            {
+              "id": "w_05_03_10",
+              "text": "hamen",
+              "startFrame": 5773,
+              "endFrame": 5795,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_04",
+          "text": "Chhup chhup ke tujhe dekhna hi ek junoon hai mera",
+          "startTime": 96.583,
+          "endTime": 99.483,
+          "startFrame": 5795,
+          "endFrame": 5969,
+          "accentWords": [
+            "dekhna"
+          ],
+          "words": [
+            {
+              "id": "w_05_04_01",
+              "text": "Chhup",
+              "startFrame": 5795,
+              "endFrame": 5813,
+              "accent": false
+            },
+            {
+              "id": "w_05_04_02",
+              "text": "chhup",
+              "startFrame": 5813,
+              "endFrame": 5834,
+              "accent": false
+            },
+            {
+              "id": "w_05_04_03",
+              "text": "ke",
+              "startFrame": 5834,
+              "endFrame": 5842,
+              "accent": false
+            },
+            {
+              "id": "w_05_04_04",
+              "text": "tujhe",
+              "startFrame": 5842,
+              "endFrame": 5863,
+              "accent": false
+            },
+            {
+              "id": "w_05_04_05",
+              "text": "dekhna",
+              "startFrame": 5863,
+              "endFrame": 5890,
+              "accent": true
+            },
+            {
+              "id": "w_05_04_06",
+              "text": "hi",
+              "startFrame": 5890,
+              "endFrame": 5908,
+              "accent": false
+            },
+            {
+              "id": "w_05_04_07",
+              "text": "ek",
+              "startFrame": 5908,
+              "endFrame": 5922,
+              "accent": true
+            },
+            {
+              "id": "w_05_04_08",
+              "text": "junoon",
+              "startFrame": 5922,
+              "endFrame": 5941,
+              "accent": false
+            },
+            {
+              "id": "w_05_04_09",
+              "text": "hai",
+              "startFrame": 5941,
+              "endFrame": 5950,
+              "accent": false
+            },
+            {
+              "id": "w_05_04_10",
+              "text": "mera",
+              "startFrame": 5950,
+              "endFrame": 5969,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_05",
+          "text": "Is khamosh ishq mein sirf tera hi suroor hai mera",
+          "startTime": 99.483,
+          "endTime": 102.367,
+          "startFrame": 5969,
+          "endFrame": 6142,
+          "accentWords": [
+            "khamosh"
+          ],
+          "words": [
+            {
+              "id": "w_05_05_01",
+              "text": "Is",
+              "startFrame": 5969,
+              "endFrame": 5983,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_02",
+              "text": "khamosh",
+              "startFrame": 5983,
+              "endFrame": 6014,
+              "accent": true
+            },
+            {
+              "id": "w_05_05_03",
+              "text": "ishq",
+              "startFrame": 6014,
+              "endFrame": 6032,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_04",
+              "text": "mein",
+              "startFrame": 6032,
+              "endFrame": 6037,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_05",
+              "text": "sirf",
+              "startFrame": 6037,
+              "endFrame": 6055,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_06",
+              "text": "tera",
+              "startFrame": 6055,
+              "endFrame": 6074,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_07",
+              "text": "hi",
+              "startFrame": 6074,
+              "endFrame": 6091,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_08",
+              "text": "suroor",
+              "startFrame": 6091,
+              "endFrame": 6121,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_09",
+              "text": "hai",
+              "startFrame": 6121,
+              "endFrame": 6127,
+              "accent": false
+            },
+            {
+              "id": "w_05_05_10",
+              "text": "mera",
+              "startFrame": 6127,
+              "endFrame": 6142,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_prechorus_2",
+      "name": "Subah Ki Dhoop – Reprise",
+      "startFrame": 6142,
+      "endFrame": 6516,
+      "lines": [
+        {
+          "id": "line_06_01",
+          "text": "Subah ki dhoop mein teri ek jhalak milti hai",
+          "startTime": 102.367,
+          "endTime": 105.2,
+          "startFrame": 6142,
+          "endFrame": 6312,
+          "accentWords": [
+            "jhalak"
+          ],
+          "words": [
+            {
+              "id": "w_06_01_01",
+              "text": "Subah",
+              "startFrame": 6142,
+              "endFrame": 6169,
+              "accent": false
+            },
+            {
+              "id": "w_06_01_02",
+              "text": "ki",
+              "startFrame": 6169,
+              "endFrame": 6180,
+              "accent": false
+            },
+            {
+              "id": "w_06_01_03",
+              "text": "dhoop",
+              "startFrame": 6180,
+              "endFrame": 6204,
+              "accent": false
+            },
+            {
+              "id": "w_06_01_04",
+              "text": "mein",
+              "startFrame": 6204,
+              "endFrame": 6211,
+              "accent": false
+            },
+            {
+              "id": "w_06_01_05",
+              "text": "teri",
+              "startFrame": 6211,
+              "endFrame": 6236,
+              "accent": false
+            },
+            {
+              "id": "w_06_01_06",
+              "text": "ek",
+              "startFrame": 6236,
+              "endFrame": 6250,
+              "accent": false
+            },
+            {
+              "id": "w_06_01_07",
+              "text": "jhalak",
+              "startFrame": 6250,
+              "endFrame": 6275,
+              "accent": true
+            },
+            {
+              "id": "w_06_01_08",
+              "text": "milti",
+              "startFrame": 6275,
+              "endFrame": 6301,
+              "accent": false
+            },
+            {
+              "id": "w_06_01_09",
+              "text": "hai",
+              "startFrame": 6301,
+              "endFrame": 6312,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_06_02",
+          "text": "Kitabon ke bahaane meri aankh tujhe dhoondhti hai",
+          "startTime": 105.2,
+          "endTime": 108.6,
+          "startFrame": 6312,
+          "endFrame": 6516,
+          "accentWords": [
+            "dhoondhti"
+          ],
+          "words": [
+            {
+              "id": "w_06_02_01",
+              "text": "Kitabon",
+              "startFrame": 6312,
+              "endFrame": 6347,
+              "accent": false
+            },
+            {
+              "id": "w_06_02_02",
+              "text": "ke",
+              "startFrame": 6347,
+              "endFrame": 6356,
+              "accent": false
+            },
+            {
+              "id": "w_06_02_03",
+              "text": "bahaane",
+              "startFrame": 6356,
+              "endFrame": 6388,
+              "accent": false
+            },
+            {
+              "id": "w_06_02_04",
+              "text": "meri",
+              "startFrame": 6388,
+              "endFrame": 6414,
+              "accent": false
+            },
+            {
+              "id": "w_06_02_05",
+              "text": "aankh",
+              "startFrame": 6414,
+              "endFrame": 6433,
+              "accent": false
+            },
+            {
+              "id": "w_06_02_06",
+              "text": "tujhe",
+              "startFrame": 6433,
+              "endFrame": 6457,
+              "accent": false
+            },
+            {
+              "id": "w_06_02_07",
+              "text": "dhoondhti",
+              "startFrame": 6457,
+              "endFrame": 6492,
+              "accent": true
+            },
+            {
+              "id": "w_06_02_08",
+              "text": "hai",
+              "startFrame": 6492,
+              "endFrame": 6516,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_07_chorus_2",
+      "name": "Suno Mere Dil Ki – Sargam 2",
+      "startFrame": 6516,
+      "endFrame": 7942,
+      "lines": [
+        {
+          "id": "line_07_01",
+          "text": "Suno mere dil ki tum ye sargam!",
+          "startTime": 108.6,
+          "endTime": 111.133,
+          "startFrame": 6516,
+          "endFrame": 6668,
+          "accentWords": [
+            "sargam"
+          ],
+          "words": [
+            {
+              "id": "w_07_01_01",
+              "text": "Suno",
+              "startFrame": 6516,
+              "endFrame": 6622,
+              "accent": false
+            },
+            {
+              "id": "w_07_01_02",
+              "text": "mere",
+              "startFrame": 6622,
+              "endFrame": 6646,
+              "accent": false
+            },
+            {
+              "id": "w_07_01_03",
+              "text": "dil",
+              "startFrame": 6646,
+              "endFrame": 6655,
+              "accent": false
+            },
+            {
+              "id": "w_07_01_04",
+              "text": "ki",
+              "startFrame": 6655,
+              "endFrame": 6668,
+              "accent": false
+            },
+            {
+              "id": "w_07_01_05",
+              "text": "tum",
+              "startFrame": 6668,
+              "endFrame": 6669,
+              "accent": false
+            },
+            {
+              "id": "w_07_01_06",
+              "text": "ye",
+              "startFrame": 6668,
+              "endFrame": 6669,
+              "accent": false
+            },
+            {
+              "id": "w_07_01_07",
+              "text": "sargam!",
+              "startFrame": 6668,
+              "endFrame": 6669,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_02",
+          "text": "Har saans mein basi hai ek nayi thartharahat sanam!",
+          "startTime": 111.133,
+          "endTime": 114.083,
+          "startFrame": 6668,
+          "endFrame": 6845,
+          "accentWords": [
+            "thartharahat"
+          ],
+          "words": [
+            {
+              "id": "w_07_02_01",
+              "text": "Har",
+              "startFrame": 6668,
+              "endFrame": 6669,
+              "accent": true
+            },
+            {
+              "id": "w_07_02_02",
+              "text": "saans",
+              "startFrame": 6668,
+              "endFrame": 6695,
+              "accent": false
+            },
+            {
+              "id": "w_07_02_03",
+              "text": "mein",
+              "startFrame": 6695,
+              "endFrame": 6706,
+              "accent": false
+            },
+            {
+              "id": "w_07_02_04",
+              "text": "basi",
+              "startFrame": 6706,
+              "endFrame": 6728,
+              "accent": false
+            },
+            {
+              "id": "w_07_02_05",
+              "text": "hai",
+              "startFrame": 6728,
+              "endFrame": 6739,
+              "accent": false
+            },
+            {
+              "id": "w_07_02_06",
+              "text": "ek",
+              "startFrame": 6739,
+              "endFrame": 6756,
+              "accent": false
+            },
+            {
+              "id": "w_07_02_07",
+              "text": "nayi",
+              "startFrame": 6756,
+              "endFrame": 6766,
+              "accent": false
+            },
+            {
+              "id": "w_07_02_08",
+              "text": "thartharahat",
+              "startFrame": 6766,
+              "endFrame": 6803,
+              "accent": true
+            },
+            {
+              "id": "w_07_02_09",
+              "text": "sanam!",
+              "startFrame": 6803,
+              "endFrame": 6845,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_03",
+          "text": "Hai ishq ye mera bada hi pyaara!",
+          "startTime": 114.217,
+          "endTime": 116.3,
+          "startFrame": 6853,
+          "endFrame": 6978,
+          "accentWords": [
+            "pyaara"
+          ],
+          "words": [
+            {
+              "id": "w_07_03_01",
+              "text": "Hai",
+              "startFrame": 6853,
+              "endFrame": 6854,
+              "accent": false
+            },
+            {
+              "id": "w_07_03_02",
+              "text": "ishq",
+              "startFrame": 6853,
+              "endFrame": 6870,
+              "accent": false
+            },
+            {
+              "id": "w_07_03_03",
+              "text": "ye",
+              "startFrame": 6870,
+              "endFrame": 6883,
+              "accent": false
+            },
+            {
+              "id": "w_07_03_04",
+              "text": "mera",
+              "startFrame": 6883,
+              "endFrame": 6901,
+              "accent": false
+            },
+            {
+              "id": "w_07_03_05",
+              "text": "bada",
+              "startFrame": 6901,
+              "endFrame": 6920,
+              "accent": false
+            },
+            {
+              "id": "w_07_03_06",
+              "text": "hi",
+              "startFrame": 6920,
+              "endFrame": 6937,
+              "accent": false
+            },
+            {
+              "id": "w_07_03_07",
+              "text": "pyaara!",
+              "startFrame": 6937,
+              "endFrame": 6978,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_04",
+          "text": "Tu hi hai meri kismat ka vo chamakta sitara!",
+          "startTime": 116.333,
+          "endTime": 119.183,
+          "startFrame": 6980,
+          "endFrame": 7151,
+          "accentWords": [
+            "chamakta"
+          ],
+          "words": [
+            {
+              "id": "w_07_04_01",
+              "text": "Tu",
+              "startFrame": 6980,
+              "endFrame": 6984,
+              "accent": false
+            },
+            {
+              "id": "w_07_04_02",
+              "text": "hi",
+              "startFrame": 6984,
+              "endFrame": 6991,
+              "accent": false
+            },
+            {
+              "id": "w_07_04_03",
+              "text": "hai",
+              "startFrame": 6991,
+              "endFrame": 7003,
+              "accent": false
+            },
+            {
+              "id": "w_07_04_04",
+              "text": "meri",
+              "startFrame": 7003,
+              "endFrame": 7024,
+              "accent": false
+            },
+            {
+              "id": "w_07_04_05",
+              "text": "kismat",
+              "startFrame": 7024,
+              "endFrame": 7049,
+              "accent": false
+            },
+            {
+              "id": "w_07_04_06",
+              "text": "ka",
+              "startFrame": 7049,
+              "endFrame": 7057,
+              "accent": false
+            },
+            {
+              "id": "w_07_04_07",
+              "text": "vo",
+              "startFrame": 7057,
+              "endFrame": 7069,
+              "accent": false
+            },
+            {
+              "id": "w_07_04_08",
+              "text": "chamakta",
+              "startFrame": 7069,
+              "endFrame": 7104,
+              "accent": true
+            },
+            {
+              "id": "w_07_04_09",
+              "text": "sitara!",
+              "startFrame": 7112,
+              "endFrame": 7151,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_05",
+          "text": "Suno mere dil ki tum ye sargam!",
+          "startTime": 119.283,
+          "endTime": 122.483,
+          "startFrame": 7157,
+          "endFrame": 7349,
+          "accentWords": [
+            "sargam"
+          ],
+          "words": [
+            {
+              "id": "w_07_05_01",
+              "text": "Suno",
+              "startFrame": 7157,
+              "endFrame": 7170,
+              "accent": false
+            },
+            {
+              "id": "w_07_05_02",
+              "text": "mere",
+              "startFrame": 7170,
+              "endFrame": 7193,
+              "accent": false
+            },
+            {
+              "id": "w_07_05_03",
+              "text": "dil",
+              "startFrame": 7193,
+              "endFrame": 7216,
+              "accent": false
+            },
+            {
+              "id": "w_07_05_04",
+              "text": "ki",
+              "startFrame": 7216,
+              "endFrame": 7243,
+              "accent": false
+            },
+            {
+              "id": "w_07_05_05",
+              "text": "tum",
+              "startFrame": 7243,
+              "endFrame": 7259,
+              "accent": false
+            },
+            {
+              "id": "w_07_05_06",
+              "text": "ye",
+              "startFrame": 7259,
+              "endFrame": 7268,
+              "accent": false
+            },
+            {
+              "id": "w_07_05_07",
+              "text": "sargam!",
+              "startFrame": 7268,
+              "endFrame": 7349,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_06",
+          "text": "Har saans mein basi hai ek nayi thartharahat sanam!",
+          "startTime": 122.867,
+          "endTime": 125.717,
+          "startFrame": 7372,
+          "endFrame": 7543,
+          "accentWords": [
+            "thartharahat"
+          ],
+          "words": [
+            {
+              "id": "w_07_06_01",
+              "text": "Har",
+              "startFrame": 7372,
+              "endFrame": 7376,
+              "accent": true
+            },
+            {
+              "id": "w_07_06_02",
+              "text": "saans",
+              "startFrame": 7376,
+              "endFrame": 7404,
+              "accent": false
+            },
+            {
+              "id": "w_07_06_03",
+              "text": "mein",
+              "startFrame": 7404,
+              "endFrame": 7415,
+              "accent": false
+            },
+            {
+              "id": "w_07_06_04",
+              "text": "basi",
+              "startFrame": 7415,
+              "endFrame": 7436,
+              "accent": false
+            },
+            {
+              "id": "w_07_06_05",
+              "text": "hai",
+              "startFrame": 7436,
+              "endFrame": 7447,
+              "accent": false
+            },
+            {
+              "id": "w_07_06_06",
+              "text": "ek",
+              "startFrame": 7447,
+              "endFrame": 7460,
+              "accent": false
+            },
+            {
+              "id": "w_07_06_07",
+              "text": "nayi",
+              "startFrame": 7460,
+              "endFrame": 7468,
+              "accent": false
+            },
+            {
+              "id": "w_07_06_08",
+              "text": "thartharahat",
+              "startFrame": 7468,
+              "endFrame": 7505,
+              "accent": true
+            },
+            {
+              "id": "w_07_06_09",
+              "text": "sanam!",
+              "startFrame": 7505,
+              "endFrame": 7543,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_07",
+          "text": "Hai ishq ye mera bada hi pyaara!",
+          "startTime": 125.933,
+          "endTime": 128.083,
+          "startFrame": 7556,
+          "endFrame": 7685,
+          "accentWords": [
+            "pyaara"
+          ],
+          "words": [
+            {
+              "id": "w_07_07_01",
+              "text": "Hai",
+              "startFrame": 7556,
+              "endFrame": 7557,
+              "accent": false
+            },
+            {
+              "id": "w_07_07_02",
+              "text": "ishq",
+              "startFrame": 7556,
+              "endFrame": 7579,
+              "accent": false
+            },
+            {
+              "id": "w_07_07_03",
+              "text": "ye",
+              "startFrame": 7579,
+              "endFrame": 7586,
+              "accent": false
+            },
+            {
+              "id": "w_07_07_04",
+              "text": "mera",
+              "startFrame": 7586,
+              "endFrame": 7606,
+              "accent": false
+            },
+            {
+              "id": "w_07_07_05",
+              "text": "bada",
+              "startFrame": 7606,
+              "endFrame": 7625,
+              "accent": false
+            },
+            {
+              "id": "w_07_07_06",
+              "text": "hi",
+              "startFrame": 7625,
+              "endFrame": 7640,
+              "accent": false
+            },
+            {
+              "id": "w_07_07_07",
+              "text": "pyaara!",
+              "startFrame": 7640,
+              "endFrame": 7685,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_08",
+          "text": "Tu hi hai meri kismat ka vo chamakta sitara!",
+          "startTime": 128.267,
+          "endTime": 131.967,
+          "startFrame": 7696,
+          "endFrame": 7918,
+          "accentWords": [
+            "chamakta"
+          ],
+          "words": [
+            {
+              "id": "w_07_08_01",
+              "text": "Tu",
+              "startFrame": 7696,
+              "endFrame": 7697,
+              "accent": false
+            },
+            {
+              "id": "w_07_08_02",
+              "text": "hi",
+              "startFrame": 7696,
+              "endFrame": 7700,
+              "accent": false
+            },
+            {
+              "id": "w_07_08_03",
+              "text": "hai",
+              "startFrame": 7700,
+              "endFrame": 7708,
+              "accent": false
+            },
+            {
+              "id": "w_07_08_04",
+              "text": "meri",
+              "startFrame": 7708,
+              "endFrame": 7728,
+              "accent": false
+            },
+            {
+              "id": "w_07_08_05",
+              "text": "kismat",
+              "startFrame": 7728,
+              "endFrame": 7754,
+              "accent": false
+            },
+            {
+              "id": "w_07_08_06",
+              "text": "ka",
+              "startFrame": 7754,
+              "endFrame": 7762,
+              "accent": false
+            },
+            {
+              "id": "w_07_08_07",
+              "text": "vo",
+              "startFrame": 7762,
+              "endFrame": 7776,
+              "accent": false
+            },
+            {
+              "id": "w_07_08_08",
+              "text": "chamakta",
+              "startFrame": 7776,
+              "endFrame": 7802,
+              "accent": true
+            },
+            {
+              "id": "w_07_08_09",
+              "text": "sitara!",
+              "startFrame": 7802,
+              "endFrame": 7918,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_08_bridge",
+      "name": "Khamoshiyon Mein – Bridge",
+      "startFrame": 7942,
+      "endFrame": 9256,
+      "lines": [
+        {
+          "id": "line_08_01",
+          "text": "Gar khamoshiyon mein bhi tu ek haseen raaz hai raaz hai",
+          "startTime": 132.367,
+          "endTime": 136.967,
+          "startFrame": 7942,
+          "endFrame": 8218,
+          "accentWords": [
+            "khamoshiyon"
+          ],
+          "words": [
+            {
+              "id": "w_08_01_01",
+              "text": "Gar",
+              "startFrame": 7942,
+              "endFrame": 7952,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_02",
+              "text": "khamoshiyon",
+              "startFrame": 7952,
+              "endFrame": 8014,
+              "accent": true
+            },
+            {
+              "id": "w_08_01_03",
+              "text": "mein",
+              "startFrame": 8014,
+              "endFrame": 8024,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_04",
+              "text": "bhi",
+              "startFrame": 8024,
+              "endFrame": 8036,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_05",
+              "text": "tu",
+              "startFrame": 8036,
+              "endFrame": 8050,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_06",
+              "text": "ek",
+              "startFrame": 8050,
+              "endFrame": 8071,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_07",
+              "text": "haseen",
+              "startFrame": 8071,
+              "endFrame": 8104,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_08",
+              "text": "raaz",
+              "startFrame": 8105,
+              "endFrame": 8162,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_09",
+              "text": "hai",
+              "startFrame": 8162,
+              "endFrame": 8171,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_10",
+              "text": "raaz",
+              "startFrame": 8171,
+              "endFrame": 8197,
+              "accent": false
+            },
+            {
+              "id": "w_08_01_11",
+              "text": "hai",
+              "startFrame": 8197,
+              "endFrame": 8218,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_02",
+          "text": "To mere dil ki her ik dharkan hi teri hi ek haseen aawaaz hai",
+          "startTime": 136.967,
+          "endTime": 142.617,
+          "startFrame": 8218,
+          "endFrame": 8557,
+          "accentWords": [
+            "dharkan"
+          ],
+          "words": [
+            {
+              "id": "w_08_02_01",
+              "text": "To",
+              "startFrame": 8218,
+              "endFrame": 8273,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_02",
+              "text": "mere",
+              "startFrame": 8273,
+              "endFrame": 8290,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_03",
+              "text": "dil",
+              "startFrame": 8290,
+              "endFrame": 8308,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_04",
+              "text": "ki",
+              "startFrame": 8308,
+              "endFrame": 8330,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_05",
+              "text": "her",
+              "startFrame": 8330,
+              "endFrame": 8345,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_06",
+              "text": "ik",
+              "startFrame": 8353,
+              "endFrame": 8359,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_07",
+              "text": "dharkan",
+              "startFrame": 8359,
+              "endFrame": 8384,
+              "accent": true
+            },
+            {
+              "id": "w_08_02_08",
+              "text": "hi",
+              "startFrame": 8384,
+              "endFrame": 8410,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_09",
+              "text": "teri",
+              "startFrame": 8411,
+              "endFrame": 8441,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_10",
+              "text": "hi",
+              "startFrame": 8441,
+              "endFrame": 8456,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_11",
+              "text": "ek",
+              "startFrame": 8462,
+              "endFrame": 8468,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_12",
+              "text": "haseen",
+              "startFrame": 8468,
+              "endFrame": 8496,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_13",
+              "text": "aawaaz",
+              "startFrame": 8540,
+              "endFrame": 8546,
+              "accent": false
+            },
+            {
+              "id": "w_08_02_14",
+              "text": "hai",
+              "startFrame": 8546,
+              "endFrame": 8557,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_03",
+          "text": "Kahan se shuru karoon aur kahan pe is kahani ko main khatm karoon",
+          "startTime": 142.617,
+          "endTime": 147.317,
+          "startFrame": 8557,
+          "endFrame": 8839,
+          "accentWords": [
+            "karoon"
+          ],
+          "words": [
+            {
+              "id": "w_08_03_01",
+              "text": "Kahan",
+              "startFrame": 8557,
+              "endFrame": 8623,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_02",
+              "text": "se",
+              "startFrame": 8623,
+              "endFrame": 8638,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_03",
+              "text": "shuru",
+              "startFrame": 8638,
+              "endFrame": 8658,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_04",
+              "text": "karoon",
+              "startFrame": 8658,
+              "endFrame": 8687,
+              "accent": true
+            },
+            {
+              "id": "w_08_03_05",
+              "text": "aur",
+              "startFrame": 8687,
+              "endFrame": 8696,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_06",
+              "text": "kahan",
+              "startFrame": 8696,
+              "endFrame": 8712,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_07",
+              "text": "pe",
+              "startFrame": 8712,
+              "endFrame": 8725,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_08",
+              "text": "is",
+              "startFrame": 8725,
+              "endFrame": 8735,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_09",
+              "text": "kahani",
+              "startFrame": 8735,
+              "endFrame": 8770,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_10",
+              "text": "ko",
+              "startFrame": 8770,
+              "endFrame": 8780,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_11",
+              "text": "main",
+              "startFrame": 8780,
+              "endFrame": 8790,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_12",
+              "text": "khatm",
+              "startFrame": 8790,
+              "endFrame": 8815,
+              "accent": false
+            },
+            {
+              "id": "w_08_03_13",
+              "text": "karoon",
+              "startFrame": 8815,
+              "endFrame": 8839,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_08_04",
+          "text": "Tu hi bata mere hamsafar is dil ka kya haal hai mera",
+          "startTime": 147.317,
+          "endTime": 154.267,
+          "startFrame": 8839,
+          "endFrame": 9256,
+          "accentWords": [
+            "hamsafar"
+          ],
+          "words": [
+            {
+              "id": "w_08_04_01",
+              "text": "Tu",
+              "startFrame": 8839,
+              "endFrame": 8872,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_02",
+              "text": "hi",
+              "startFrame": 8872,
+              "endFrame": 8987,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_03",
+              "text": "bata",
+              "startFrame": 8987,
+              "endFrame": 9011,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_04",
+              "text": "mere",
+              "startFrame": 9011,
+              "endFrame": 9037,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_05",
+              "text": "hamsafar",
+              "startFrame": 9037,
+              "endFrame": 9074,
+              "accent": true
+            },
+            {
+              "id": "w_08_04_06",
+              "text": "is",
+              "startFrame": 9074,
+              "endFrame": 9094,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_07",
+              "text": "dil",
+              "startFrame": 9094,
+              "endFrame": 9102,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_08",
+              "text": "ka",
+              "startFrame": 9102,
+              "endFrame": 9121,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_09",
+              "text": "kya",
+              "startFrame": 9121,
+              "endFrame": 9138,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_10",
+              "text": "haal",
+              "startFrame": 9138,
+              "endFrame": 9162,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_11",
+              "text": "hai",
+              "startFrame": 9162,
+              "endFrame": 9173,
+              "accent": false
+            },
+            {
+              "id": "w_08_04_12",
+              "text": "mera",
+              "startFrame": 9173,
+              "endFrame": 9256,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_09_climax_chorus",
+      "name": "Suno Mere Dil Ki – Grand Climax",
+      "startFrame": 9256,
+      "endFrame": 10645,
+      "lines": [
+        {
+          "id": "line_09_01",
+          "text": "Suno mere dil ki tum ye sargam!",
+          "startTime": 154.267,
+          "endTime": 157.183,
+          "startFrame": 9256,
+          "endFrame": 9431,
+          "accentWords": [
+            "sargam"
+          ],
+          "words": [
+            {
+              "id": "w_09_01_01",
+              "text": "Suno",
+              "startFrame": 9256,
+              "endFrame": 9278,
+              "accent": false
+            },
+            {
+              "id": "w_09_01_02",
+              "text": "mere",
+              "startFrame": 9278,
+              "endFrame": 9300,
+              "accent": false
+            },
+            {
+              "id": "w_09_01_03",
+              "text": "dil",
+              "startFrame": 9300,
+              "endFrame": 9322,
+              "accent": false
+            },
+            {
+              "id": "w_09_01_04",
+              "text": "ki",
+              "startFrame": 9322,
+              "endFrame": 9350,
+              "accent": false
+            },
+            {
+              "id": "w_09_01_05",
+              "text": "tum",
+              "startFrame": 9350,
+              "endFrame": 9367,
+              "accent": false
+            },
+            {
+              "id": "w_09_01_06",
+              "text": "ye",
+              "startFrame": 9367,
+              "endFrame": 9377,
+              "accent": false
+            },
+            {
+              "id": "w_09_01_07",
+              "text": "sargam!",
+              "startFrame": 9377,
+              "endFrame": 9431,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_09_02",
+          "text": "Har saans mein basi hai ek nayi thartharahat sanam!",
+          "startTime": 158.0,
+          "endTime": 160.9,
+          "startFrame": 9480,
+          "endFrame": 9654,
+          "accentWords": [
+            "thartharahat"
+          ],
+          "words": [
+            {
+              "id": "w_09_02_01",
+              "text": "Har",
+              "startFrame": 9480,
+              "endFrame": 9481,
+              "accent": true
+            },
+            {
+              "id": "w_09_02_02",
+              "text": "saans",
+              "startFrame": 9480,
+              "endFrame": 9504,
+              "accent": false
+            },
+            {
+              "id": "w_09_02_03",
+              "text": "mein",
+              "startFrame": 9504,
+              "endFrame": 9516,
+              "accent": false
+            },
+            {
+              "id": "w_09_02_04",
+              "text": "basi",
+              "startFrame": 9516,
+              "endFrame": 9539,
+              "accent": false
+            },
+            {
+              "id": "w_09_02_05",
+              "text": "hai",
+              "startFrame": 9539,
+              "endFrame": 9550,
+              "accent": false
+            },
+            {
+              "id": "w_09_02_06",
+              "text": "ek",
+              "startFrame": 9550,
+              "endFrame": 9569,
+              "accent": false
+            },
+            {
+              "id": "w_09_02_07",
+              "text": "nayi",
+              "startFrame": 9569,
+              "endFrame": 9574,
+              "accent": false
+            },
+            {
+              "id": "w_09_02_08",
+              "text": "thartharahat",
+              "startFrame": 9574,
+              "endFrame": 9613,
+              "accent": true
+            },
+            {
+              "id": "w_09_02_09",
+              "text": "sanam!",
+              "startFrame": 9613,
+              "endFrame": 9654,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_03",
+          "text": "Hai ishq ye mera bada hi pyaara!",
+          "startTime": 161.033,
+          "endTime": 163.117,
+          "startFrame": 9662,
+          "endFrame": 9787,
+          "accentWords": [
+            "pyaara"
+          ],
+          "words": [
+            {
+              "id": "w_09_03_01",
+              "text": "Hai",
+              "startFrame": 9662,
+              "endFrame": 9664,
+              "accent": false
+            },
+            {
+              "id": "w_09_03_02",
+              "text": "ishq",
+              "startFrame": 9664,
+              "endFrame": 9679,
+              "accent": false
+            },
+            {
+              "id": "w_09_03_03",
+              "text": "ye",
+              "startFrame": 9679,
+              "endFrame": 9694,
+              "accent": false
+            },
+            {
+              "id": "w_09_03_04",
+              "text": "mera",
+              "startFrame": 9694,
+              "endFrame": 9713,
+              "accent": false
+            },
+            {
+              "id": "w_09_03_05",
+              "text": "bada",
+              "startFrame": 9713,
+              "endFrame": 9732,
+              "accent": false
+            },
+            {
+              "id": "w_09_03_06",
+              "text": "hi",
+              "startFrame": 9732,
+              "endFrame": 9748,
+              "accent": false
+            },
+            {
+              "id": "w_09_03_07",
+              "text": "pyaara!",
+              "startFrame": 9748,
+              "endFrame": 9787,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_09_04",
+          "text": "Tu hi hai meri kismat ka vo chamakta sitara!",
+          "startTime": 163.2,
+          "endTime": 166.017,
+          "startFrame": 9792,
+          "endFrame": 9961,
+          "accentWords": [
+            "chamakta"
+          ],
+          "words": [
+            {
+              "id": "w_09_04_01",
+              "text": "Tu",
+              "startFrame": 9792,
+              "endFrame": 9793,
+              "accent": false
+            },
+            {
+              "id": "w_09_04_02",
+              "text": "hi",
+              "startFrame": 9793,
+              "endFrame": 9800,
+              "accent": false
+            },
+            {
+              "id": "w_09_04_03",
+              "text": "hai",
+              "startFrame": 9800,
+              "endFrame": 9812,
+              "accent": false
+            },
+            {
+              "id": "w_09_04_04",
+              "text": "meri",
+              "startFrame": 9812,
+              "endFrame": 9834,
+              "accent": false
+            },
+            {
+              "id": "w_09_04_05",
+              "text": "kismat",
+              "startFrame": 9834,
+              "endFrame": 9859,
+              "accent": false
+            },
+            {
+              "id": "w_09_04_06",
+              "text": "ka",
+              "startFrame": 9859,
+              "endFrame": 9868,
+              "accent": false
+            },
+            {
+              "id": "w_09_04_07",
+              "text": "vo",
+              "startFrame": 9868,
+              "endFrame": 9878,
+              "accent": false
+            },
+            {
+              "id": "w_09_04_08",
+              "text": "chamakta",
+              "startFrame": 9878,
+              "endFrame": 9912,
+              "accent": true
+            },
+            {
+              "id": "w_09_04_09",
+              "text": "sitara!",
+              "startFrame": 9912,
+              "endFrame": 9961,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_05",
+          "text": "Suno mere dil ki tum ye sargam!",
+          "startTime": 166.167,
+          "endTime": 169.483,
+          "startFrame": 9970,
+          "endFrame": 10169,
+          "accentWords": [
+            "sargam"
+          ],
+          "words": [
+            {
+              "id": "w_09_05_01",
+              "text": "Suno",
+              "startFrame": 9970,
+              "endFrame": 9980,
+              "accent": false
+            },
+            {
+              "id": "w_09_05_02",
+              "text": "mere",
+              "startFrame": 9980,
+              "endFrame": 10002,
+              "accent": false
+            },
+            {
+              "id": "w_09_05_03",
+              "text": "dil",
+              "startFrame": 10002,
+              "endFrame": 10021,
+              "accent": false
+            },
+            {
+              "id": "w_09_05_04",
+              "text": "ki",
+              "startFrame": 10021,
+              "endFrame": 10048,
+              "accent": false
+            },
+            {
+              "id": "w_09_05_05",
+              "text": "tum",
+              "startFrame": 10048,
+              "endFrame": 10067,
+              "accent": false
+            },
+            {
+              "id": "w_09_05_06",
+              "text": "ye",
+              "startFrame": 10067,
+              "endFrame": 10078,
+              "accent": false
+            },
+            {
+              "id": "w_09_05_07",
+              "text": "sargam!",
+              "startFrame": 10078,
+              "endFrame": 10169,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_09_06",
+          "text": "Har saans mein basi hai ek nayi thartharahat sanam!",
+          "startTime": 169.667,
+          "endTime": 172.6,
+          "startFrame": 10180,
+          "endFrame": 10356,
+          "accentWords": [
+            "thartharahat"
+          ],
+          "words": [
+            {
+              "id": "w_09_06_01",
+              "text": "Har",
+              "startFrame": 10180,
+              "endFrame": 10187,
+              "accent": true
+            },
+            {
+              "id": "w_09_06_02",
+              "text": "saans",
+              "startFrame": 10187,
+              "endFrame": 10214,
+              "accent": false
+            },
+            {
+              "id": "w_09_06_03",
+              "text": "mein",
+              "startFrame": 10214,
+              "endFrame": 10222,
+              "accent": false
+            },
+            {
+              "id": "w_09_06_04",
+              "text": "basi",
+              "startFrame": 10222,
+              "endFrame": 10244,
+              "accent": false
+            },
+            {
+              "id": "w_09_06_05",
+              "text": "hai",
+              "startFrame": 10244,
+              "endFrame": 10258,
+              "accent": false
+            },
+            {
+              "id": "w_09_06_06",
+              "text": "ek",
+              "startFrame": 10258,
+              "endFrame": 10270,
+              "accent": false
+            },
+            {
+              "id": "w_09_06_07",
+              "text": "nayi",
+              "startFrame": 10270,
+              "endFrame": 10283,
+              "accent": false
+            },
+            {
+              "id": "w_09_06_08",
+              "text": "thartharahat",
+              "startFrame": 10283,
+              "endFrame": 10315,
+              "accent": true
+            },
+            {
+              "id": "w_09_06_09",
+              "text": "sanam!",
+              "startFrame": 10315,
+              "endFrame": 10356,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_07",
+          "text": "Hai ishq ye mera bada hi pyaara!",
+          "startTime": 172.633,
+          "endTime": 174.883,
+          "startFrame": 10358,
+          "endFrame": 10493,
+          "accentWords": [
+            "pyaara"
+          ],
+          "words": [
+            {
+              "id": "w_09_07_01",
+              "text": "Hai",
+              "startFrame": 10358,
+              "endFrame": 10366,
+              "accent": false
+            },
+            {
+              "id": "w_09_07_02",
+              "text": "ishq",
+              "startFrame": 10366,
+              "endFrame": 10388,
+              "accent": false
+            },
+            {
+              "id": "w_09_07_03",
+              "text": "ye",
+              "startFrame": 10388,
+              "endFrame": 10397,
+              "accent": false
+            },
+            {
+              "id": "w_09_07_04",
+              "text": "mera",
+              "startFrame": 10397,
+              "endFrame": 10416,
+              "accent": false
+            },
+            {
+              "id": "w_09_07_05",
+              "text": "bada",
+              "startFrame": 10416,
+              "endFrame": 10432,
+              "accent": false
+            },
+            {
+              "id": "w_09_07_06",
+              "text": "hi",
+              "startFrame": 10432,
+              "endFrame": 10450,
+              "accent": false
+            },
+            {
+              "id": "w_09_07_07",
+              "text": "pyaara!",
+              "startFrame": 10469,
+              "endFrame": 10493,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_09_08",
+          "text": "Tu hi hai meri kismat ka vo chamakta sitara!",
+          "startTime": 174.983,
+          "endTime": 177.383,
+          "startFrame": 10499,
+          "endFrame": 10643,
+          "accentWords": [
+            "chamakta"
+          ],
+          "words": [
+            {
+              "id": "w_09_08_01",
+              "text": "Tu",
+              "startFrame": 10499,
+              "endFrame": 10505,
+              "accent": false
+            },
+            {
+              "id": "w_09_08_02",
+              "text": "hi",
+              "startFrame": 10505,
+              "endFrame": 10513,
+              "accent": false
+            },
+            {
+              "id": "w_09_08_03",
+              "text": "hai",
+              "startFrame": 10513,
+              "endFrame": 10519,
+              "accent": false
+            },
+            {
+              "id": "w_09_08_04",
+              "text": "meri",
+              "startFrame": 10519,
+              "endFrame": 10537,
+              "accent": false
+            },
+            {
+              "id": "w_09_08_05",
+              "text": "kismat",
+              "startFrame": 10537,
+              "endFrame": 10562,
+              "accent": false
+            },
+            {
+              "id": "w_09_08_06",
+              "text": "ka",
+              "startFrame": 10562,
+              "endFrame": 10571,
+              "accent": false
+            },
+            {
+              "id": "w_09_08_07",
+              "text": "vo",
+              "startFrame": 10571,
+              "endFrame": 10580,
+              "accent": false
+            },
+            {
+              "id": "w_09_08_08",
+              "text": "chamakta",
+              "startFrame": 10580,
+              "endFrame": 10614,
+              "accent": true
+            },
+            {
+              "id": "w_09_08_09",
+              "text": "sitara!",
+              "startFrame": 10614,
+              "endFrame": 10643,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_10_outro",
+      "name": "Dastan Sunaati Hai – Outro",
+      "startFrame": 10645,
+      "endFrame": 10650,
+      "lines": [
+        {
+          "id": "line_10_01",
+          "text": "(Hmm-hmm aa-aa) dil ki sargam sargam dastan sunaati hai...",
+          "startTime": 177.417,
+          "endTime": 177.5,
+          "startFrame": 10645,
+          "endFrame": 10650,
+          "accentWords": [
+            "sunaati"
+          ],
+          "words": [
+            {
+              "id": "w_10_01_01",
+              "text": "(Hmm-hmm",
+              "startFrame": 10645,
+              "endFrame": 10646,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_02",
+              "text": "(Hmm-hmm",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_03",
+              "text": "aa-aa)",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_04",
+              "text": "dil",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_05",
+              "text": "ki",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_06",
+              "text": "sargam",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_07",
+              "text": "sargam",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_08",
+              "text": "dastan",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            },
+            {
+              "id": "w_10_01_09",
+              "text": "sunaati",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": true
+            },
+            {
+              "id": "w_10_01_10",
+              "text": "hai...",
+              "startFrame": 10650,
+              "endFrame": 10651,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "overrides": {}
+}

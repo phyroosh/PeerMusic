@@ -11,6 +11,12 @@ import os
 import json
 import argparse
 
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+from scripts.duration_policy import MAX_DURATION_SECONDS
+
 
 def validate_timeline(timeline_path: str) -> bool:
     if not os.path.exists(timeline_path):
@@ -82,6 +88,15 @@ def validate_timeline(timeline_path: str) -> bool:
         if ov_id not in word_ids:
             warnings.append(f"Override references unknown word ID: '{ov_id}'.")
 
+    max_end = max(s.get("endFrame", 0) for s in scenes)
+    fps = data.get("fps", 60)
+    duration_sec = max_end / fps
+
+    if duration_sec > MAX_DURATION_SECONDS:
+        errors.append(
+            f"Total duration ({duration_sec:.2f}s) exceeds the mandatory hard limit of {MAX_DURATION_SECONDS}s (3:00)."
+        )
+
     # Output results
     if warnings:
         print("\n[!] Warnings:")
@@ -93,10 +108,6 @@ def validate_timeline(timeline_path: str) -> bool:
         for e in errors:
             print(f"    - {e}")
         return False
-
-    max_end = max(s.get("endFrame", 0) for s in scenes)
-    fps = data.get("fps", 30)
-    duration_sec = max_end / fps
 
     print(f"\n[✓] Timeline Validated Successfully:")
     print(f"    - Scenes: {len(scenes)}")

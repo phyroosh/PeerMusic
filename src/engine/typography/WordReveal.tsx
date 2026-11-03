@@ -113,7 +113,6 @@ export const WordReveal: React.FC<WordRevealProps> = ({
         color: wordColor,
         fontWeight: isAccent || word.accent || isActive ? 800 : 700,
         margin: "0 0.28em",
-        transition: "color 0.1s ease, text-shadow 0.1s ease",
         textShadow,
         fontFamily: VIDEO_CONFIG.fonts.heading,
         fontSize: `${fontSize}px`,
