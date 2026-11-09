@@ -1,0 +1,1176 @@
+{
+  "songTitle": "Grass Stained Knees",
+  "theme": "PeerMusicStyle02_NeonPulse",
+  "audioFile": "audio/grass_stained_knees.mp3",
+  "coverImage": "covers/grass_stained_knees_clean_16x9.png",
+  "fps": 60,
+  "totalFrames": 9161,
+  "durationSeconds": 152.69,
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "Twilight Suburban Curb",
+      "sectionTag": "01 // INTRO  •  STREETLIGHT SPECIMEN",
+      "startFrame": 0,
+      "endFrame": 412,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "skateboard_curb",
+      "subtitle": "Indie acoustic fingerpicking • Warm amber streetlight glow on quiet asphalt",
+      "lines": []
+    },
+    {
+      "id": "scene_02_verse_1",
+      "name": "Skateboard Wheels & Asphalt Scrapes",
+      "sectionTag": "02 // VERSE 1  •  SUMMER DUSK",
+      "startFrame": 412,
+      "endFrame": 1968,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "street_light",
+      "subtitle": "Streetlights flickering on • Grass stained knees in the fading twilight",
+      "lines": [
+        {
+          "id": "line_02_01",
+          "text": "The street lights flickering on right now,",
+          "startFrame": 412,
+          "endFrame": 761,
+          "words": [
+            {
+              "id": "w_02_0001",
+              "text": "The",
+              "startFrame": 412,
+              "endFrame": 461,
+              "accent": false
+            },
+            {
+              "id": "w_02_0002",
+              "text": "street",
+              "startFrame": 461,
+              "endFrame": 510,
+              "accent": false
+            },
+            {
+              "id": "w_02_0003",
+              "text": "lights",
+              "startFrame": 510,
+              "endFrame": 559,
+              "accent": false
+            },
+            {
+              "id": "w_02_0004",
+              "text": "flickering",
+              "startFrame": 559,
+              "endFrame": 608,
+              "accent": true
+            },
+            {
+              "id": "w_02_0005",
+              "text": "on",
+              "startFrame": 608,
+              "endFrame": 657,
+              "accent": false
+            },
+            {
+              "id": "w_02_0006",
+              "text": "right",
+              "startFrame": 657,
+              "endFrame": 706,
+              "accent": false
+            },
+            {
+              "id": "w_02_0007",
+              "text": "now,",
+              "startFrame": 706,
+              "endFrame": 761,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_02",
+          "text": "We used to chase them down.",
+          "startFrame": 761,
+          "endFrame": 936,
+          "words": [
+            {
+              "id": "w_02_0008",
+              "text": "We",
+              "startFrame": 761,
+              "endFrame": 790,
+              "accent": false
+            },
+            {
+              "id": "w_02_0009",
+              "text": "used",
+              "startFrame": 790,
+              "endFrame": 819,
+              "accent": false
+            },
+            {
+              "id": "w_02_0010",
+              "text": "to",
+              "startFrame": 819,
+              "endFrame": 848,
+              "accent": false
+            },
+            {
+              "id": "w_02_0011",
+              "text": "chase",
+              "startFrame": 848,
+              "endFrame": 877,
+              "accent": true
+            },
+            {
+              "id": "w_02_0012",
+              "text": "them",
+              "startFrame": 877,
+              "endFrame": 906,
+              "accent": false
+            },
+            {
+              "id": "w_02_0013",
+              "text": "down.",
+              "startFrame": 906,
+              "endFrame": 936,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_03",
+          "text": "Melted ice on the hot pavement,",
+          "startFrame": 936,
+          "endFrame": 1214,
+          "words": [
+            {
+              "id": "w_02_0014",
+              "text": "Melted",
+              "startFrame": 936,
+              "endFrame": 982,
+              "accent": false
+            },
+            {
+              "id": "w_02_0015",
+              "text": "ice",
+              "startFrame": 982,
+              "endFrame": 1028,
+              "accent": false
+            },
+            {
+              "id": "w_02_0016",
+              "text": "on",
+              "startFrame": 1028,
+              "endFrame": 1074,
+              "accent": false
+            },
+            {
+              "id": "w_02_0017",
+              "text": "the",
+              "startFrame": 1074,
+              "endFrame": 1120,
+              "accent": false
+            },
+            {
+              "id": "w_02_0018",
+              "text": "hot",
+              "startFrame": 1120,
+              "endFrame": 1166,
+              "accent": false
+            },
+            {
+              "id": "w_02_0019",
+              "text": "pavement,",
+              "startFrame": 1166,
+              "endFrame": 1214,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_02_04",
+          "text": "Skateboard wheels and the asphalt scrapes,",
+          "startFrame": 1214,
+          "endFrame": 1500,
+          "words": [
+            {
+              "id": "w_02_0020",
+              "text": "Skateboard",
+              "startFrame": 1214,
+              "endFrame": 1261,
+              "accent": false
+            },
+            {
+              "id": "w_02_0021",
+              "text": "wheels",
+              "startFrame": 1261,
+              "endFrame": 1308,
+              "accent": false
+            },
+            {
+              "id": "w_02_0022",
+              "text": "and",
+              "startFrame": 1308,
+              "endFrame": 1355,
+              "accent": false
+            },
+            {
+              "id": "w_02_0023",
+              "text": "the",
+              "startFrame": 1355,
+              "endFrame": 1402,
+              "accent": false
+            },
+            {
+              "id": "w_02_0024",
+              "text": "asphalt",
+              "startFrame": 1402,
+              "endFrame": 1449,
+              "accent": true
+            },
+            {
+              "id": "w_02_0025",
+              "text": "scrapes,",
+              "startFrame": 1449,
+              "endFrame": 1500,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_05",
+          "text": "Grass stained knees in yellow light,",
+          "startFrame": 1500,
+          "endFrame": 1705,
+          "words": [
+            {
+              "id": "w_02_0026",
+              "text": "Grass",
+              "startFrame": 1500,
+              "endFrame": 1534,
+              "accent": false
+            },
+            {
+              "id": "w_02_0027",
+              "text": "stained",
+              "startFrame": 1534,
+              "endFrame": 1568,
+              "accent": true
+            },
+            {
+              "id": "w_02_0028",
+              "text": "knees",
+              "startFrame": 1568,
+              "endFrame": 1602,
+              "accent": false
+            },
+            {
+              "id": "w_02_0029",
+              "text": "in",
+              "startFrame": 1602,
+              "endFrame": 1636,
+              "accent": false
+            },
+            {
+              "id": "w_02_0030",
+              "text": "yellow",
+              "startFrame": 1636,
+              "endFrame": 1670,
+              "accent": false
+            },
+            {
+              "id": "w_02_0031",
+              "text": "light,",
+              "startFrame": 1670,
+              "endFrame": 1705,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_02_06",
+          "text": "Fading slowly into the night.",
+          "startFrame": 1705,
+          "endFrame": 1945,
+          "words": [
+            {
+              "id": "w_02_0032",
+              "text": "Fading",
+              "startFrame": 1705,
+              "endFrame": 1753,
+              "accent": false
+            },
+            {
+              "id": "w_02_0033",
+              "text": "slowly",
+              "startFrame": 1753,
+              "endFrame": 1801,
+              "accent": false
+            },
+            {
+              "id": "w_02_0034",
+              "text": "into",
+              "startFrame": 1801,
+              "endFrame": 1849,
+              "accent": false
+            },
+            {
+              "id": "w_02_0035",
+              "text": "the",
+              "startFrame": 1849,
+              "endFrame": 1897,
+              "accent": false
+            },
+            {
+              "id": "w_02_0036",
+              "text": "night.",
+              "startFrame": 1897,
+              "endFrame": 1945,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_chorus_1",
+      "name": "Endless Summer Underneath the Stars",
+      "sectionTag": "03 // CHORUS 1  •  GOLDEN YOUTH",
+      "startFrame": 1968,
+      "endFrame": 2970,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "summer_stars",
+      "subtitle": "Endless summer underneath the stars • Running out of time, always feeling fine",
+      "lines": [
+        {
+          "id": "line_03_01",
+          "text": "Endless summer underneath the stars,",
+          "startFrame": 1980,
+          "endFrame": 2447,
+          "words": [
+            {
+              "id": "w_03_0037",
+              "text": "Endless",
+              "startFrame": 1980,
+              "endFrame": 2073,
+              "accent": false
+            },
+            {
+              "id": "w_03_0038",
+              "text": "summer",
+              "startFrame": 2073,
+              "endFrame": 2166,
+              "accent": true
+            },
+            {
+              "id": "w_03_0039",
+              "text": "underneath",
+              "startFrame": 2166,
+              "endFrame": 2259,
+              "accent": false
+            },
+            {
+              "id": "w_03_0040",
+              "text": "the",
+              "startFrame": 2259,
+              "endFrame": 2352,
+              "accent": false
+            },
+            {
+              "id": "w_03_0041",
+              "text": "stars,",
+              "startFrame": 2352,
+              "endFrame": 2447,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_03_02",
+          "text": "Running out of time, always feeling fine.",
+          "startFrame": 2518,
+          "endFrame": 2920,
+          "words": [
+            {
+              "id": "w_03_0042",
+              "text": "Running",
+              "startFrame": 2518,
+              "endFrame": 2575,
+              "accent": true
+            },
+            {
+              "id": "w_03_0043",
+              "text": "out",
+              "startFrame": 2575,
+              "endFrame": 2632,
+              "accent": false
+            },
+            {
+              "id": "w_03_0044",
+              "text": "of",
+              "startFrame": 2632,
+              "endFrame": 2689,
+              "accent": false
+            },
+            {
+              "id": "w_03_0045",
+              "text": "time,",
+              "startFrame": 2689,
+              "endFrame": 2746,
+              "accent": false
+            },
+            {
+              "id": "w_03_0046",
+              "text": "always",
+              "startFrame": 2746,
+              "endFrame": 2803,
+              "accent": false
+            },
+            {
+              "id": "w_03_0047",
+              "text": "feeling",
+              "startFrame": 2803,
+              "endFrame": 2860,
+              "accent": false
+            },
+            {
+              "id": "w_03_0048",
+              "text": "fine.",
+              "startFrame": 2860,
+              "endFrame": 2920,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_04_verse_2",
+      "name": "Broken Dial & Smooth Stones",
+      "sectionTag": "04 // VERSE 2  •  POCKET ARTIFACTS",
+      "startFrame": 2970,
+      "endFrame": 3990,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "pocket_stones",
+      "subtitle": "Static noise on a broken dial • Walking back to our quiet homes",
+      "lines": [
+        {
+          "id": "line_04_01",
+          "text": "Static noise on a broken dial,",
+          "startFrame": 3023,
+          "endFrame": 3264,
+          "words": [
+            {
+              "id": "w_04_0049",
+              "text": "Static",
+              "startFrame": 3023,
+              "endFrame": 3063,
+              "accent": false
+            },
+            {
+              "id": "w_04_0050",
+              "text": "noise",
+              "startFrame": 3063,
+              "endFrame": 3103,
+              "accent": false
+            },
+            {
+              "id": "w_04_0051",
+              "text": "on",
+              "startFrame": 3103,
+              "endFrame": 3143,
+              "accent": false
+            },
+            {
+              "id": "w_04_0052",
+              "text": "a",
+              "startFrame": 3143,
+              "endFrame": 3183,
+              "accent": false
+            },
+            {
+              "id": "w_04_0053",
+              "text": "broken",
+              "startFrame": 3183,
+              "endFrame": 3223,
+              "accent": true
+            },
+            {
+              "id": "w_04_0054",
+              "text": "dial,",
+              "startFrame": 3223,
+              "endFrame": 3264,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_02",
+          "text": "Trading cards for a crooked smile.",
+          "startFrame": 3264,
+          "endFrame": 3475,
+          "words": [
+            {
+              "id": "w_04_0055",
+              "text": "Trading",
+              "startFrame": 3264,
+              "endFrame": 3299,
+              "accent": false
+            },
+            {
+              "id": "w_04_0056",
+              "text": "cards",
+              "startFrame": 3299,
+              "endFrame": 3334,
+              "accent": false
+            },
+            {
+              "id": "w_04_0057",
+              "text": "for",
+              "startFrame": 3334,
+              "endFrame": 3369,
+              "accent": false
+            },
+            {
+              "id": "w_04_0058",
+              "text": "a",
+              "startFrame": 3369,
+              "endFrame": 3404,
+              "accent": false
+            },
+            {
+              "id": "w_04_0059",
+              "text": "crooked",
+              "startFrame": 3404,
+              "endFrame": 3439,
+              "accent": true
+            },
+            {
+              "id": "w_04_0060",
+              "text": "smile.",
+              "startFrame": 3439,
+              "endFrame": 3475,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_03",
+          "text": "Pockets full of smooth stones,",
+          "startFrame": 3499,
+          "endFrame": 3728,
+          "words": [
+            {
+              "id": "w_04_0061",
+              "text": "Pockets",
+              "startFrame": 3499,
+              "endFrame": 3544,
+              "accent": false
+            },
+            {
+              "id": "w_04_0062",
+              "text": "full",
+              "startFrame": 3544,
+              "endFrame": 3589,
+              "accent": false
+            },
+            {
+              "id": "w_04_0063",
+              "text": "of",
+              "startFrame": 3589,
+              "endFrame": 3634,
+              "accent": false
+            },
+            {
+              "id": "w_04_0064",
+              "text": "smooth",
+              "startFrame": 3634,
+              "endFrame": 3679,
+              "accent": true
+            },
+            {
+              "id": "w_04_0065",
+              "text": "stones,",
+              "startFrame": 3679,
+              "endFrame": 3728,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_04_04",
+          "text": "Walking back to our quiet homes.",
+          "startFrame": 3728,
+          "endFrame": 3990,
+          "words": [
+            {
+              "id": "w_04_0066",
+              "text": "Walking",
+              "startFrame": 3728,
+              "endFrame": 3771,
+              "accent": false
+            },
+            {
+              "id": "w_04_0067",
+              "text": "back",
+              "startFrame": 3771,
+              "endFrame": 3814,
+              "accent": false
+            },
+            {
+              "id": "w_04_0068",
+              "text": "to",
+              "startFrame": 3814,
+              "endFrame": 3857,
+              "accent": false
+            },
+            {
+              "id": "w_04_0069",
+              "text": "our",
+              "startFrame": 3857,
+              "endFrame": 3900,
+              "accent": false
+            },
+            {
+              "id": "w_04_0070",
+              "text": "quiet",
+              "startFrame": 3900,
+              "endFrame": 3943,
+              "accent": true
+            },
+            {
+              "id": "w_04_0071",
+              "text": "homes.",
+              "startFrame": 3943,
+              "endFrame": 3990,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_chorus_2",
+      "name": "Always Feeling Fine",
+      "sectionTag": "05 // CHORUS 2  •  UNSAID DREAMS",
+      "startFrame": 3990,
+      "endFrame": 4980,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "summer_stars",
+      "subtitle": "Endless summer underneath the stars • Running out of time, always feeling fine",
+      "lines": [
+        {
+          "id": "line_05_01",
+          "text": "Endless summer underneath the stars,",
+          "startFrame": 3997,
+          "endFrame": 4490,
+          "words": [
+            {
+              "id": "w_05_0072",
+              "text": "Endless",
+              "startFrame": 3997,
+              "endFrame": 4095,
+              "accent": false
+            },
+            {
+              "id": "w_05_0073",
+              "text": "summer",
+              "startFrame": 4095,
+              "endFrame": 4193,
+              "accent": true
+            },
+            {
+              "id": "w_05_0074",
+              "text": "underneath",
+              "startFrame": 4193,
+              "endFrame": 4291,
+              "accent": false
+            },
+            {
+              "id": "w_05_0075",
+              "text": "the",
+              "startFrame": 4291,
+              "endFrame": 4389,
+              "accent": false
+            },
+            {
+              "id": "w_05_0076",
+              "text": "stars,",
+              "startFrame": 4389,
+              "endFrame": 4490,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_05_02",
+          "text": "Running out of time, always feeling fine.",
+          "startFrame": 4537,
+          "endFrame": 4964,
+          "words": [
+            {
+              "id": "w_05_0077",
+              "text": "Running",
+              "startFrame": 4537,
+              "endFrame": 4598,
+              "accent": false
+            },
+            {
+              "id": "w_05_0078",
+              "text": "out",
+              "startFrame": 4598,
+              "endFrame": 4659,
+              "accent": false
+            },
+            {
+              "id": "w_05_0079",
+              "text": "of",
+              "startFrame": 4659,
+              "endFrame": 4720,
+              "accent": false
+            },
+            {
+              "id": "w_05_0080",
+              "text": "time,",
+              "startFrame": 4720,
+              "endFrame": 4781,
+              "accent": false
+            },
+            {
+              "id": "w_05_0081",
+              "text": "always",
+              "startFrame": 4781,
+              "endFrame": 4842,
+              "accent": false
+            },
+            {
+              "id": "w_05_0082",
+              "text": "feeling",
+              "startFrame": 4842,
+              "endFrame": 4903,
+              "accent": false
+            },
+            {
+              "id": "w_05_0083",
+              "text": "fine.",
+              "startFrame": 4903,
+              "endFrame": 4964,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_solo",
+      "name": "Acoustic Melody & Neon Soundwave Burst",
+      "sectionTag": "06 // INTERLUDE  •  TWILIGHT REVERIE",
+      "startFrame": 4980,
+      "endFrame": 6035,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "neon_burst",
+      "subtitle": "Intimate guitar solo & ambient room air • Pulsating circular neon soundwave resonance",
+      "lines": []
+    },
+    {
+      "id": "scene_07_verse_3",
+      "name": "Getting Taller Every Year",
+      "sectionTag": "07 // VERSE 3  •  GROWING UP",
+      "startFrame": 6035,
+      "endFrame": 6985,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "nostalgia_glow",
+      "subtitle": "Getting taller every single year • Washing off the memories, keeping them near",
+      "lines": [
+        {
+          "id": "line_07_01",
+          "text": "Now we're getting taller,",
+          "startFrame": 6035,
+          "endFrame": 6293,
+          "words": [
+            {
+              "id": "w_07_0084",
+              "text": "Now",
+              "startFrame": 6035,
+              "endFrame": 6099,
+              "accent": false
+            },
+            {
+              "id": "w_07_0085",
+              "text": "we're",
+              "startFrame": 6099,
+              "endFrame": 6163,
+              "accent": false
+            },
+            {
+              "id": "w_07_0086",
+              "text": "getting",
+              "startFrame": 6163,
+              "endFrame": 6227,
+              "accent": false
+            },
+            {
+              "id": "w_07_0087",
+              "text": "taller,",
+              "startFrame": 6227,
+              "endFrame": 6293,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_02",
+          "text": "Every single year.",
+          "startFrame": 6293,
+          "endFrame": 6509,
+          "words": [
+            {
+              "id": "w_07_0088",
+              "text": "Every",
+              "startFrame": 6293,
+              "endFrame": 6365,
+              "accent": false
+            },
+            {
+              "id": "w_07_0089",
+              "text": "single",
+              "startFrame": 6365,
+              "endFrame": 6437,
+              "accent": true
+            },
+            {
+              "id": "w_07_0090",
+              "text": "year.",
+              "startFrame": 6437,
+              "endFrame": 6509,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_07_03",
+          "text": "Washing off the memories,",
+          "startFrame": 6577,
+          "endFrame": 6776,
+          "words": [
+            {
+              "id": "w_07_0091",
+              "text": "Washing",
+              "startFrame": 6577,
+              "endFrame": 6626,
+              "accent": false
+            },
+            {
+              "id": "w_07_0092",
+              "text": "off",
+              "startFrame": 6626,
+              "endFrame": 6675,
+              "accent": false
+            },
+            {
+              "id": "w_07_0093",
+              "text": "the",
+              "startFrame": 6675,
+              "endFrame": 6724,
+              "accent": false
+            },
+            {
+              "id": "w_07_0094",
+              "text": "memories,",
+              "startFrame": 6724,
+              "endFrame": 6776,
+              "accent": true
+            }
+          ]
+        },
+        {
+          "id": "line_07_04",
+          "text": "But keeping them near.",
+          "startFrame": 6776,
+          "endFrame": 6985,
+          "words": [
+            {
+              "id": "w_07_0095",
+              "text": "But",
+              "startFrame": 6776,
+              "endFrame": 6828,
+              "accent": false
+            },
+            {
+              "id": "w_07_0096",
+              "text": "keeping",
+              "startFrame": 6828,
+              "endFrame": 6880,
+              "accent": false
+            },
+            {
+              "id": "w_07_0097",
+              "text": "them",
+              "startFrame": 6880,
+              "endFrame": 6932,
+              "accent": false
+            },
+            {
+              "id": "w_07_0098",
+              "text": "near.",
+              "startFrame": 6932,
+              "endFrame": 6985,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_08_chorus_climax",
+      "name": "The Final Golden Chorus",
+      "sectionTag": "08 // CLIMAX  •  ENDLESS HORIZON",
+      "startFrame": 6985,
+      "endFrame": 7980,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "summer_stars",
+      "subtitle": "Endless summer underneath the stars • Running out of time, always feeling fine",
+      "lines": [
+        {
+          "id": "line_08_01",
+          "text": "Endless summer underneath the stars,",
+          "startFrame": 6985,
+          "endFrame": 7489,
+          "words": [
+            {
+              "id": "w_08_0099",
+              "text": "Endless",
+              "startFrame": 6985,
+              "endFrame": 7085,
+              "accent": false
+            },
+            {
+              "id": "w_08_0100",
+              "text": "summer",
+              "startFrame": 7085,
+              "endFrame": 7185,
+              "accent": true
+            },
+            {
+              "id": "w_08_0101",
+              "text": "underneath",
+              "startFrame": 7185,
+              "endFrame": 7285,
+              "accent": false
+            },
+            {
+              "id": "w_08_0102",
+              "text": "the",
+              "startFrame": 7285,
+              "endFrame": 7385,
+              "accent": false
+            },
+            {
+              "id": "w_08_0103",
+              "text": "stars,",
+              "startFrame": 7385,
+              "endFrame": 7489,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_08_02",
+          "text": "Running out of time, always feeling fine.",
+          "startFrame": 7489,
+          "endFrame": 7973,
+          "words": [
+            {
+              "id": "w_08_0104",
+              "text": "Running",
+              "startFrame": 7489,
+              "endFrame": 7558,
+              "accent": false
+            },
+            {
+              "id": "w_08_0105",
+              "text": "out",
+              "startFrame": 7558,
+              "endFrame": 7627,
+              "accent": false
+            },
+            {
+              "id": "w_08_0106",
+              "text": "of",
+              "startFrame": 7627,
+              "endFrame": 7696,
+              "accent": false
+            },
+            {
+              "id": "w_08_0107",
+              "text": "time,",
+              "startFrame": 7696,
+              "endFrame": 7765,
+              "accent": true
+            },
+            {
+              "id": "w_08_0108",
+              "text": "always",
+              "startFrame": 7765,
+              "endFrame": 7834,
+              "accent": false
+            },
+            {
+              "id": "w_08_0109",
+              "text": "feeling",
+              "startFrame": 7834,
+              "endFrame": 7903,
+              "accent": false
+            },
+            {
+              "id": "w_08_0110",
+              "text": "fine.",
+              "startFrame": 7903,
+              "endFrame": 7973,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_09_outro",
+      "name": "Street Lights Flickering & Twilight Fade",
+      "sectionTag": "09 // OUTRO  •  LAST GLOW",
+      "startFrame": 7980,
+      "endFrame": 9161,
+      "hierarchy": "SYMBOLIC_DOMINANT",
+      "symbolKey": "street_light",
+      "subtitle": "Street lights flickering on again • Wonder where the time went",
+      "lines": [
+        {
+          "id": "line_09_01",
+          "text": "Street lights flickering on again,",
+          "startFrame": 8029,
+          "endFrame": 8356,
+          "words": [
+            {
+              "id": "w_09_0111",
+              "text": "Street",
+              "startFrame": 8029,
+              "endFrame": 8094,
+              "accent": false
+            },
+            {
+              "id": "w_09_0112",
+              "text": "lights",
+              "startFrame": 8094,
+              "endFrame": 8159,
+              "accent": false
+            },
+            {
+              "id": "w_09_0113",
+              "text": "flickering",
+              "startFrame": 8159,
+              "endFrame": 8224,
+              "accent": true
+            },
+            {
+              "id": "w_09_0114",
+              "text": "on",
+              "startFrame": 8224,
+              "endFrame": 8289,
+              "accent": false
+            },
+            {
+              "id": "w_09_0115",
+              "text": "again,",
+              "startFrame": 8289,
+              "endFrame": 8356,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_02",
+          "text": "Wonder where the time went.",
+          "startFrame": 8356,
+          "endFrame": 8701,
+          "words": [
+            {
+              "id": "w_09_0116",
+              "text": "Wonder",
+              "startFrame": 8356,
+              "endFrame": 8425,
+              "accent": true
+            },
+            {
+              "id": "w_09_0117",
+              "text": "where",
+              "startFrame": 8425,
+              "endFrame": 8494,
+              "accent": false
+            },
+            {
+              "id": "w_09_0118",
+              "text": "the",
+              "startFrame": 8494,
+              "endFrame": 8563,
+              "accent": false
+            },
+            {
+              "id": "w_09_0119",
+              "text": "time",
+              "startFrame": 8563,
+              "endFrame": 8632,
+              "accent": false
+            },
+            {
+              "id": "w_09_0120",
+              "text": "went.",
+              "startFrame": 8632,
+              "endFrame": 8701,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_09_03",
+          "text": "Endless summer underneath the stars...",
+          "startFrame": 8701,
+          "endFrame": 8909,
+          "words": [
+            {
+              "id": "w_09_0121",
+              "text": "Endless",
+              "startFrame": 8701,
+              "endFrame": 8742,
+              "accent": false
+            },
+            {
+              "id": "w_09_0122",
+              "text": "summer",
+              "startFrame": 8742,
+              "endFrame": 8783,
+              "accent": true
+            },
+            {
+              "id": "w_09_0123",
+              "text": "underneath",
+              "startFrame": 8783,
+              "endFrame": 8824,
+              "accent": false
+            },
+            {
+              "id": "w_09_0124",
+              "text": "the",
+              "startFrame": 8824,
+              "endFrame": 8865,
+              "accent": false
+            },
+            {
+              "id": "w_09_0125",
+              "text": "stars...",
+              "startFrame": 8865,
+              "endFrame": 8909,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

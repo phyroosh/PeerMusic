@@ -104,68 +104,96 @@ If physical audio measurement via `python3 scripts/duration_guard.py check <audi
 
 ---
 
-## 6. Mandatory In-Video Visual Protocol: Official PeerMusic Visual Themes Standard
+## 6. Mandatory In-Video Visual Protocol: Three Official PeerMusic Directions
 
-Every lyrical video generated in PeerMusic—across **both English and Hindi/Bollywood pipelines**—must use one of PeerMusic's two official, high-aesthetic, audio-reactive visual themes:
+Every lyric video must use one of these three user-selectable directions. Do not silently select a direction when the user has not expressed a preference:
 
-### 1. Mandatory Visual Style Confirmation Step:
-Whenever preparing a lyric video, the agent MUST ask the user:
-> **"🎨 Which visual style would you like for the lyric video?"**
-- **⚡ Electric Neon Pulse** — Modern, sleek cyber-vibe with a circular equalizer soundwave ring pulsating to the music rhythm, wet neon reflections, frosted glassmorphic stage, and electric red neon strike typography.
-- **🌊 Liquid Crimson Silk** — Smooth, calming, hypnotic motion art with flowing ruby & molten gold silk caustics undulating to the music rhythm, floating starlight motes, and fluid gradient wave typography.
+1. **⚡ Electric Neon Pulse** — The existing sleek cyber-noir theme: circular audio spectrum, wet neon reflections, frosted stage, and electric-red kinetic lyrics.
+2. **🌊 Liquid Crimson Silk** — The existing sensual motion-art theme: ruby-and-gold silk caustics, starlight motes, and fluid lyric motion.
+3. **🎬 Cinematic Atmospheric Lyric Film** — Breathtaking, scenic environmental worlds and atmospheric visual stages that match the song's musical mood, vibe, and genre, designed specifically to display the lyrics beautifully. Strictly zero characters or human body rendering.
 
-*(If interactive UI selection tools like `ask_question` are enabled, use them; otherwise, present these options clearly in conversation).*
+### 1. Mandatory Visual Direction Selection
 
-### 2. Audio-Reactive Rhythm Standard (Rhythm Synesthesia):
-- In **Electric Neon Pulse**, the circular soundwave spectrum bars and neon halos physically bounce and pulse in lockstep with the track's kick drum, bass, and rhythm transients.
-- In **Liquid Crimson Silk**, the silk ribbons swell in amplitude and wave dynamics in sync with the musical phrasing and beat energy.
+When preparing a lyric video, ask the user:
 
-### 3. Zero Extra Text Standard:
+> **"🎨 Which visual direction would you like for the lyric video?"**
+>
+> - **⚡ Electric Neon Pulse** — Bold, polished, audio-reactive cyber-noir lyric visuals.
+> - **🌊 Liquid Crimson Silk** — Hypnotic ruby-and-gold fluid motion with elegant lyric animation.
+> - **🎬 Cinematic Atmospheric Lyric Film** — Atmospheric, scenic environments matching the song's mood and aesthetic to display lyrics beautifully (strictly zero characters or human figures).
+
+If the user explicitly requests a “scenic lyric video,” “atmospheric lyric film,” “lyric film,” or names one of the directions, proceed directly with that selection. Preserve the selected direction for the current song.
+
+### 2. Core Requirements for Option 3: Cinematic Atmospheric Lyric Film
+
+- **Scenic Lyric Display Philosophy**: The primary goal is to generate **beautiful, atmospheric scenes to display the lyrics** matching the song's musical mood, vibe, and aesthetic. Do not try hard to literally animate what is being told or sung word-for-word.
+- 🌲 **MANDATORY OUTDOOR SCENIC PRIORITY**:
+  - Strongly prioritize **expansive, breathtaking outdoor natural environments and open-air scenic landscapes** over confined indoor rooms or small tabletop props.
+  - Outdoor settings provide vast cinematic scale, natural lighting arcs (dawn to dusk), wide horizon lines, and rich negative space for typography to breathe effortlessly.
+  - **Preferred Outdoor Archetypes**:
+    - *Vast Horizons & Skies*: Dawn sunrise breaking over mountain ridges, rolling mist through valleys, dramatic coastal cliffs under golden hour skies, starry celestial voids with auroras over still waters.
+    - *Living Nature & Water*: Deep evergreen forest glades with sunbeams (komorebi), meadows of swaying wildflowers/lavender, crystal alpine lakes with rippling water caustics, serene river bends with smooth stones, ocean shorelines at blue hour.
+    - *Open-Air Architectural Elements*: When architecture is used, prefer open outdoor structures (open stone clifftop terraces, ancient colonnades framing infinite horizons, garden pergolas under starlit skies, wooden piers stretching into glassy water) rather than closed indoor rooms.
+    - *Outdoor Atmospheric Depth*: Volumetric sunbeams/god-rays, rolling ground fog, falling rain on open water, floating twilight embers, drifting pollen/petals, and gentle wind sway across foliage.
+- ❌ **STRICT PROHIBITION ON CHARACTERS & HUMAN BODIES**: Never attempt to render human figures, silhouettes of people, faces, eyes, ears, mouths, torsos, limbs, hands, clenched fists, or walking stick figures in SVG/Remotion/canvas code. Code-drawn human anatomy inevitably looks crude, awkward, and amateurish. The visuals must focus on environment, architecture, nature, light, texture, and atmospheric space.
+- ❌ **NO HYPER-LITERAL MICRO-PANTOMIME**: Stop trying hard to micro-animate what is literally or physically being told line-by-line (e.g. if the lyric mentions turning around, walking, holding hands, or a racing heartbeat, do NOT attempt to animate those physical human actions).
+- ❌ **NO RAPID 2-SECOND VISUAL WHIPLASH**: Avoid frantically flipping or changing scenes and objects every 1.5–3 seconds for individual words or phrases. Let scenic environments breathe, live, and create genuine musical atmosphere.
+- ✅ **Section-Driven Scene Architecture**: Organize scenes by musical sections (Intro, Verse 1, Chorus, Verse 2, Bridge, Outro). Each major section gets a distinct, evolving, beautiful scenic space (e.g. dawn mist over a mountain ridge, sunlit balcony with Venetian blind god-rays, rain-slicked city bokeh, celestial starlight void, floating water lanterns) that matches the musical intensity and emotional progression of that section.
+- ✅ **Lyrical Display Sanctuary**: The visual scene is an atmospheric sanctuary designed to display the lyrics. Provide ample chiaroscuro negative space, rich ambient depth, and soft lighting contrast so that the synchronized kinetic typography (high-fashion Didone/Roman serif, Devanagari calligraphy, or elegant script with soft couplet anticipation) is effortless to read, glowing, and breathtakingly integrated into the scene.
+- ✅ **Living Environmental Micro-Motion & Audio Reactivity**: The world breathes with continuous, organic environmental micro-motion:
+  - Volumetric god-rays, floating dust/embers/starlight motes, undulating mist, drifting clouds, falling rain or water caustics, soft wind sway.
+  - Audio reactivity is tied to environmental elements: bass kicks produce soft light bloom / pulse in lanterns or horizon flares; vocal melismas/alaaps cause ambient light to expand; rhythm transients create subtle water ripples or lens shifts.
+- Before writing video code, create `src/songs/<slug>/visual-plan.md` using the format in [`docs/NARRATIVE_LYRIC_FILM_STANDARD.md`](docs/NARRATIVE_LYRIC_FILM_STANDARD.md).
+
+### 2A. Non-Negotiable Quality and Verification Gate:
+- ❌ **No shortcut default:** Never solve a full lyric video with a pre-existing showcase component, static cover image, single procedural background, or a copied scene repeated across the track.
+- ✅ **Complete-arc direction:** Account for the full song—intro, every verse, pre-chorus, chorus recurrence, bridge, instrumental transitions, and outro. Repeated lyrics must return with narrative escalation, not identical imagery.
+- ✅ **Proof before delivery:** Render and inspect representative frames from every distinct story scene plus its inbound/outbound transition. Inspect at least one moving excerpt around each major section boundary; correct weak, unreadable, static, or generic moments before a final render.
+- ✅ **No artificial time cap:** Never lower visual ambition, skip scene planning, reduce QA, or present an unfinished draft merely to finish quickly. Long renders are expected when required for a high-quality result.
+- ✅ **Honest state:** If an asset, render, or review is still incomplete, state that plainly and continue the required work; do not call it final or imply the job is done.
+
+### 3. Audio-Reactive Rhythm Standard (All Three Directions):
+- Beat and vocal energy must affect the **scene's meaningful objects**: a kick can jolt the camera or fracture a reflection; a vocal sustain can stretch light, space, or letter spacing; a snare can snap a transition. Do not add a generic spectrum merely to satisfy audio reactivity.
+- Each motif must have entrance, continuous micro-life, beat response, and a motivated transition into the next lyric image.
+
+### 4. Zero Extra Text Standard:
 - **Strict Rule**: Display ONLY the actual sung song lyrics and the official **Peer Music circular branding badge** (`PeerMusicLogoBadge`).
-- ❌ **No Style Identifier Pills**: Never render style names (e.g. `STYLE 02`, `STYLE 03`) or decorative badges in the video canvas.
+- ❌ **No Style Identifier Pills**: Never render style names, theme names, decorative badges, or prototype labels in the video canvas.
 - ❌ **No Section Badges or Metadata Headers**: Never display `02 // MUKHDA` or timecodes.
 - ❌ **No Subtitle Translations Under Lyrics**: Never render English translation sentences beneath Hindi lyrics.
 - ❌ **No Text During Instrumental Breaks**: Lyrics appear strictly when sung or anticipating. Pure visual immersion during instrumental intros, solos, and outros.
 
 ---
 
-## 7. Mandatory Release Packaging Protocol: Netflix-Grade Heroic Protagonist, Clean Silent Background & Editorial Thumbnail Standard
+## 7. Mandatory Release Packaging Protocol: Remotion Cover Studio
 
 > [!IMPORTANT]
-> **The Official Music Video Cover / Thumbnail is an ENTIRELY SEPARATE asset from the clean in-video backdrop.**
-> Never use the bare, textless video backdrop or a subtitle frame-grab as the final YouTube thumbnail or music single cover.
+> Every official thumbnail and single cover MUST be created as a dedicated, code-authored **Remotion composition**. Do not use Nano Banana, `generate_image`, image-generation APIs, or externally AI-generated cover art as the final cover base. The cover is a designed companion to the music video—not a one-frame screenshot, an imported AI poster, or a photo with a post-processed text overlay.
 
-Every song in PeerMusic must deliver a dedicated, **Netflix-Original caliber Music Video Single Cover and YouTube Thumbnail**:
+Every song must deliver a dedicated, high-effort **Remotion-authored** YouTube thumbnail and streaming cover:
 
-1. **Clean Silent Background Standard (Zero Visual Noise)**:
-   - ❌ **No Grainy, Cluttered, or Chaotic Backgrounds**: Backdrops must be clean, silent, and atmospheric.
-   - ✅ **Cinematic Anamorphic Bokeh**: Use a 35mm prime lens aesthetic with smooth, creamy out-of-focus optical bokeh circles (e.g. city rain lights in sapphire, cyan, amber, and ruby).
-   - ✅ **Velvety Black Depth**: True deep inky black levels (`#06080E`) with rich shadow gradients instead of flat, murky gray-blue tones.
+1. **Original Cover Composition Requirement**:
+   - Create `src/songs/<slug>/cover/<Slug>Cover.tsx` and register dedicated `<Slug>-Cover-16x9` and `<Slug>-Cover-1x1` compositions in `src/Root.tsx`.
+   - Plan the cover in `src/songs/<slug>/cover/cover-plan.md` following [`docs/REMOTION_COVER_STUDIO_STANDARD.md`](docs/REMOTION_COVER_STUDIO_STANDARD.md). It must distill the song into a single strong editorial idea—not attempt to retell the entire video.
+   - Author the full artwork in Remotion using purposeful SVG, CSS gradients, vector silhouettes, composited shapes, typography, lighting, texture, and any user-supplied/licensed assets. A visual motif from the lyric film may return, but the cover must be independently art-directed.
+   - ❌ Never crop or resize the 16:9 composition into the square cover. Compose responsive 16:9 and 1:1 layouts separately.
 
-2. **Heroic Protagonist Presence Standard (Hero Character Standard)**:
-   - ❌ **No Random, Cartoonish, or Distorted Figures**: The character must look like a cinematic hero.
-   - ✅ **Charismatic, Clean-Featured Hero**: Handsome/beautiful, neat well-groomed hair and beard, sharp jawline with gentle rim lighting, poised styling in modern understated wardrobe (e.g. textured knit sweater, classic coat, tailored shirt).
-   - ✅ **Intimate Music Single Poise**: Lost in thought, contemplative, or gazing into negative space; authentic and emotive.
+2. **Maximum-Effort Art Direction**:
+   - Build cinematic depth through layered light, parallax, controlled grain, atmospheric particles, silhouettes, material detail, and an intentional color grade. The image may be abstract, illustrative, graphical, or cinematic; it does not require a generated protagonist.
+   - The cover must have one unmistakable focal idea, a deliberate negative-space typography field, and strong small-screen readability.
+   - ❌ Do not use a generic gradient, a single unmodified video frame, a stock mockup, or a procedural wallpaper as a final cover.
+   - Render and inspect multiple still frames while developing. Revise until the composition, hierarchy, title legibility, and material depth hold up at both full size and mobile-thumbnail size.
 
-3. **Netflix-Grade Color Grading & Chiaroscuro Harmony**:
-   - Masterful chiaroscuro: Moody blue-hour cobalt/midnight slate or teal rain exterior, balanced against the warm golden-amber tungsten key light (`#FFA44A`) from a vintage brass banker's desk lamp.
-   - Grounding foreground props: Steaming ceramic coffee mug and open handwritten journal/fountain pen on a polished dark wood table to provide satisfying visual weight.
+3. **Editorial Typography and Brand System**:
+   - Render typography natively in Remotion/CSS/SVG so type, glow, shadow, and lighting belong to the scene. Never use Pillow/PIL to manufacture the final creative typography.
+   - Keep title treatment away from the focal object. Use a purpose-built negative-space layout: upper-right, top masthead, or asymmetric-left when appropriate.
+   - Main title: high-contrast Roman/Didone-inspired serif in champagne ivory (`#FAF4E8`); optional subtitle: restrained warm-gold cursive/italic (`#E5B869`). Use the circular PeerMusic badge/label mark only when it improves the composition.
 
-4. **Editorial Cover Typography & Negative Space Layouts**:
-   - ❌ **Zero Dead-Center Text Standard**: Never stamp song titles across the subject's face, neck, chest, or central focal point.
-   - ✅ **Dedicated Negative-Space Layout Standards**:
-     - **Upper-Right Balanced** (`upper-right` - Recommended): Subject on the left third looking rightward; upper-right 45% open bokeh negative space with Didone title and gold cursive subtitle.
-     - **Top Editorial Masthead** (`top-masthead`): Subject in lower-middle frame; upper 28-32% clean dark negative space with Didone Roman serif title and warm gold script subtitle across the top.
-     - **Asymmetric Left-Weighted** (`asymmetric-left`): Subject strictly on the right third; left 45% open dark negative space with vertically stacked Didone typography.
-   - **Main Song Title**: Rendered in prominent, high-contrast, elegant Roman / Didone serif typography in warm champagne ivory (`#FAF4E8`) (e.g. `TERI YAADON KI BAARISH`, `PAANI PEENE KA BAHAANA`, `KHUMAAR`, `AAKHRI BENCH`, `WINDOW SEAT`).
-   - **Warm Gold Script Subtitle**: Flowing cursive/italic script in warm amber/honey gold (`#E5B869`) directly beneath the title (e.g. `Khidki Pe Baarish`, `Classroom Ki Khidki`, `Yeh Kaisa Suroor Hai`, `Yaari Aur Khwaab`).
-   - **Atmospheric Depth**: Dual-pass drop shadows and subtle feathered scrim for crisp legibility over cinematic backgrounds.
-   - **Indie Record Label Emblem**: Circular vinyl record badge with grooved concentric rings and micro-typography in the opposite lower corner.
+4. **Dedicated Delivery Assets**:
+   - Render the 16:9 Remotion composition to `out/<slug>_cover_16x9.png`, then conform a JPEG to `public/covers/<slug>_thumb.jpg` and `out/<slug>_thumb.jpg` (strictly <= 1.85 MB for YouTube Data API limits).
+   - Render the separate 1:1 Remotion composition to `out/<slug>_cover_1x1.png`, then conform it to `public/covers/<slug>_cover_sq.jpg` for streaming distribution.
+   - `scripts/artwork_pipeline.py` may be used only for lossless/resampling/conformance, JPEG compression, and metadata synchronization. It must not generate the cover concept, supply final typography, or invoke an external image generator.
 
-5. **Dedicated Delivery Assets**:
-   - **16:9 YouTube Thumbnail**: Saved to `public/covers/<slug>_thumb.jpg` and `out/<slug>_thumb.jpg` (strictly <= 1.85 MB for YouTube Data API limits) and `out/<slug>_cover_16x9.png`.
-   - **1:1 Streaming Single Cover**: Saved to `public/covers/<slug>_cover_sq.jpg` and `out/<slug>_cover_1x1.png` for Spotify, Apple Music, and streaming distribution.
-
-6. **Studio Metadata Synchronization**:
-   - `studio/metadata.json` must ALWAYS set `"thumbnail": "<slug>_thumb.jpg"`, ensuring YouTube uploads use the typography-rich Netflix-level cover.
+5. **Studio Metadata Synchronization**:
+   - `studio/metadata.json` must ALWAYS set `"thumbnail": "<slug>_thumb.jpg"`, ensuring YouTube uploads use the Remotion-authored cover.
 

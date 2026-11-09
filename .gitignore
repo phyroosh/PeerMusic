@@ -8,6 +8,11 @@ media/
 *.mp4
 *.mov
 *.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -23,18 +28,27 @@ venv/
 ENV/
 env/
 
-# Audio files (user-generated or downloaded)
+# Audio files (user-generated, source, or downloaded)
 *.mp3
 *.wav
 *.m4a
 *.flac
 *.aac
+*.ogg
+*.opus
+*.wma
+*.aiff
+*.alac
+*.mid
+*.midi
+public/audio/
 
 # Temporary sync & concat artifacts
 lyrics_sync.json
 beats_sync.json
 concat_list.txt
 scratch_*
+/*_whisper*.json
 
 # Environment & Secrets
 .env

@@ -67,6 +67,16 @@ function getCleanSongName(filename) {
   return stripped.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+// YouTube Data API rejects '<' and '>' characters in titles, descriptions, and tags.
+function sanitizeYouTubeText(text) {
+  if (!text) return '';
+  return text
+    .replace(/<=\s*/g, 'up to ')
+    .replace(/>=\s*/g, 'at least ')
+    .replace(/[<>]/g, '')
+    .trim();
+}
+
 // -------------------------------------------------------------------
 // 1. System & Authentication Endpoints
 // -------------------------------------------------------------------
@@ -692,11 +702,14 @@ app.post('/api/upload', async (req, res) => {
 
       activeUpload.stage = 'Uploading video chunks to YouTube...';
 
-      const tagArray = Array.isArray(tags)
+      const rawTagArray = Array.isArray(tags)
         ? tags
         : typeof tags === 'string'
         ? tags.split(',').map((t) => t.trim()).filter(Boolean)
         : ['Hindi Indie', 'Music Video', 'Lyrical Video'];
+      const cleanTags = rawTagArray.map((t) => sanitizeYouTubeText(t)).filter(Boolean);
+      const cleanTitle = sanitizeYouTubeText(title || safeFilename).slice(0, 100);
+      const cleanDescription = sanitizeYouTubeText(description || '').slice(0, 5000);
 
       const response = await youtube.videos.insert(
         {
@@ -704,9 +717,9 @@ app.post('/api/upload', async (req, res) => {
           notifySubscribers: true,
           requestBody: {
             snippet: {
-              title: title || safeFilename,
-              description: description || '',
-              tags: tagArray,
+              title: cleanTitle,
+              description: cleanDescription,
+              tags: cleanTags,
               categoryId: categoryId || '10',
               defaultLanguage: 'hi',
               defaultAudioLanguage: 'hi',

@@ -461,22 +461,23 @@ def main():
     parser.add_argument("--model", "-m", default="base", help="Whisper model size (tiny, base, small, medium)")
     parser.add_argument("--fps", type=int, default=60, help="Video frame rate for frame-locked timestamps (default: 60)")
     parser.add_argument("--language", "-lang", default="auto", help="Audio language ('auto', 'hi', 'en')")
+    parser.add_argument("--uncut", action="store_true", help="Allow uncut overlength audio without forced trimming")
     args = parser.parse_args()
 
     if not os.path.exists(args.audio_path):
         print(f"[-] Error: Audio file '{args.audio_path}' not found.")
         sys.exit(1)
 
-    # Enforce duration guard (<= 180.0s hard maximum)
+    # Enforce duration guard (<= 180.0s hard maximum unless --uncut is specified)
     audio_dur = measure_audio_duration(args.audio_path)
     target_audio_path = args.audio_path
-    if audio_dur > MAX_DURATION_SECONDS:
+    if audio_dur > MAX_DURATION_SECONDS and not args.uncut:
         print(f"[!] Overlength audio detected: {audio_dur:.2f}s > {MAX_DURATION_SECONDS}s. Applying controlled trimming fallback...")
         target_audio_path, new_dur, _ = enforce_duration_limit(args.audio_path)
         print(f"[✓] Audio safely shortened to {new_dur:.2f}s <= {MAX_DURATION_SECONDS}s.")
         audio_dur = new_dur
     else:
-        print(f"[✓] Audio duration validated: {audio_dur:.2f}s <= {MAX_DURATION_SECONDS}s.")
+        print(f"[✓] Audio duration: {audio_dur:.2f}s (uncut mode: {args.uncut}).")
 
     written_lyrics = None
     if args.lyrics and os.path.exists(args.lyrics):

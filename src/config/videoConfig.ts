@@ -1,5 +1,7 @@
 export const VIDEO_CONFIG = {
-  defaultTheme: "SongCoverArtwork",
+  // The agent must ask for (or infer from an explicit request) one of the three
+  // official directions before rendering: Neon Pulse, Liquid Silk, or Narrative Film.
+  defaultTheme: "UserSelectedVisualDirection",
   defaultFps: 60,
   highFps: 60,
   cinematicFps: 24,
@@ -11,7 +13,8 @@ export const VIDEO_CONFIG = {
     width: 1080,
     height: 1920,
   },
-  // Dynamic Song Cover Artwork Design & Motion Tokens
+  // Shared cinematic typography and contrast tokens for scene-driven lyric films.
+  // A song cover may be one asset inside a scene, but is never the default video engine.
   songCover: {
     kenBurnsMinScale: 1.0,
     kenBurnsMaxScale: 1.06,

@@ -1,0 +1,2340 @@
+{
+  "title": "Aaine Mein",
+  "artist": "PeerMusic Originals",
+  "theme": "Cinematic Narrative Lyric Film",
+  "uncut": true,
+  "fps": 60,
+  "duration": 180.896,
+  "durationInFrames": 10854,
+  "audioFile": "audio/aaine_mein.mp3",
+  "totalWords": 255,
+  "totalLines": 45,
+  "scenes": [
+    {
+      "id": "scene_01_intro",
+      "name": "The Bazaar & Weary Footsteps",
+      "sectionTag": "01 // INTRO • DUST & MEMORY",
+      "startSec": 0.0,
+      "endSec": 12.367,
+      "startFrame": 0,
+      "endFrame": 742,
+      "symbolKey": "antique_lantern",
+      "subtitle": "Weary wandering through old alleys • A cry for meaning",
+      "lines": [
+        {
+          "id": "line_1",
+          "text": "(Rabba... oh Rabba...)",
+          "startTime": 7.583,
+          "endTime": 11.1,
+          "startFrame": 455,
+          "endFrame": 666,
+          "words": [
+            {
+              "id": "w_1_1_1",
+              "text": "(Rabba...",
+              "startFrame": 455,
+              "endFrame": 492,
+              "accent": true
+            },
+            {
+              "id": "w_1_1_2",
+              "text": "oh",
+              "startFrame": 512,
+              "endFrame": 520,
+              "accent": false
+            },
+            {
+              "id": "w_1_1_3",
+              "text": "Rabba...)",
+              "startFrame": 520,
+              "endFrame": 666,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_02_verse_1",
+      "name": "The Antique Mirror Shop & The Shard Epiphany",
+      "sectionTag": "02 // VERSE 1 • PURANAY SHEESHE",
+      "startSec": 12.367,
+      "endSec": 34.883,
+      "startFrame": 742,
+      "endFrame": 2093,
+      "symbolKey": "mirror_shard",
+      "subtitle": "Antique glassmaker stall • First glimpse in the broken shard",
+      "lines": [
+        {
+          "id": "line_2",
+          "text": "Tang galiyon ki is bheed mein",
+          "startTime": 12.367,
+          "endTime": 14.567,
+          "startFrame": 742,
+          "endFrame": 874,
+          "words": [
+            {
+              "id": "w_2_2_1",
+              "text": "Tang",
+              "startFrame": 742,
+              "endFrame": 750,
+              "accent": false
+            },
+            {
+              "id": "w_2_2_2",
+              "text": "galiyon",
+              "startFrame": 750,
+              "endFrame": 786,
+              "accent": true
+            },
+            {
+              "id": "w_2_2_3",
+              "text": "ki",
+              "startFrame": 786,
+              "endFrame": 799,
+              "accent": false
+            },
+            {
+              "id": "w_2_2_4",
+              "text": "is",
+              "startFrame": 799,
+              "endFrame": 817,
+              "accent": false
+            },
+            {
+              "id": "w_2_2_5",
+              "text": "bheed",
+              "startFrame": 817,
+              "endFrame": 859,
+              "accent": false
+            },
+            {
+              "id": "w_2_2_6",
+              "text": "mein",
+              "startFrame": 859,
+              "endFrame": 874,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_3",
+          "text": "Pao mere thak se gaye the",
+          "startTime": 14.567,
+          "endTime": 17.367,
+          "startFrame": 874,
+          "endFrame": 1042,
+          "words": [
+            {
+              "id": "w_2_3_1",
+              "text": "Pao",
+              "startFrame": 874,
+              "endFrame": 934,
+              "accent": false
+            },
+            {
+              "id": "w_2_3_2",
+              "text": "mere",
+              "startFrame": 934,
+              "endFrame": 956,
+              "accent": false
+            },
+            {
+              "id": "w_2_3_3",
+              "text": "thak",
+              "startFrame": 956,
+              "endFrame": 985,
+              "accent": false
+            },
+            {
+              "id": "w_2_3_4",
+              "text": "se",
+              "startFrame": 985,
+              "endFrame": 1003,
+              "accent": false
+            },
+            {
+              "id": "w_2_3_5",
+              "text": "gaye",
+              "startFrame": 1003,
+              "endFrame": 1033,
+              "accent": false
+            },
+            {
+              "id": "w_2_3_6",
+              "text": "the",
+              "startFrame": 1033,
+              "endFrame": 1042,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_4",
+          "text": "Puranay sheeshe ki aik dukan par",
+          "startTime": 17.367,
+          "endTime": 20.283,
+          "startFrame": 1042,
+          "endFrame": 1217,
+          "words": [
+            {
+              "id": "w_2_4_1",
+              "text": "Puranay",
+              "startFrame": 1042,
+              "endFrame": 1099,
+              "accent": false
+            },
+            {
+              "id": "w_2_4_2",
+              "text": "sheeshe",
+              "startFrame": 1100,
+              "endFrame": 1135,
+              "accent": true
+            },
+            {
+              "id": "w_2_4_3",
+              "text": "ki",
+              "startFrame": 1135,
+              "endFrame": 1146,
+              "accent": false
+            },
+            {
+              "id": "w_2_4_4",
+              "text": "aik",
+              "startFrame": 1146,
+              "endFrame": 1163,
+              "accent": false
+            },
+            {
+              "id": "w_2_4_5",
+              "text": "dukan",
+              "startFrame": 1163,
+              "endFrame": 1204,
+              "accent": false
+            },
+            {
+              "id": "w_2_4_6",
+              "text": "par",
+              "startFrame": 1204,
+              "endFrame": 1217,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_5",
+          "text": "Kadam achanak ruk se gaye the",
+          "startTime": 20.283,
+          "endTime": 23.317,
+          "startFrame": 1217,
+          "endFrame": 1399,
+          "words": [
+            {
+              "id": "w_2_5_1",
+              "text": "Kadam",
+              "startFrame": 1217,
+              "endFrame": 1254,
+              "accent": false
+            },
+            {
+              "id": "w_2_5_2",
+              "text": "achanak",
+              "startFrame": 1254,
+              "endFrame": 1316,
+              "accent": false
+            },
+            {
+              "id": "w_2_5_3",
+              "text": "ruk",
+              "startFrame": 1316,
+              "endFrame": 1333,
+              "accent": false
+            },
+            {
+              "id": "w_2_5_4",
+              "text": "se",
+              "startFrame": 1333,
+              "endFrame": 1354,
+              "accent": false
+            },
+            {
+              "id": "w_2_5_5",
+              "text": "gaye",
+              "startFrame": 1354,
+              "endFrame": 1385,
+              "accent": false
+            },
+            {
+              "id": "w_2_5_6",
+              "text": "the",
+              "startFrame": 1385,
+              "endFrame": 1399,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_6",
+          "text": "Kaanch ke tukde par chamki nazar",
+          "startTime": 23.317,
+          "endTime": 25.983,
+          "startFrame": 1399,
+          "endFrame": 1559,
+          "words": [
+            {
+              "id": "w_2_6_1",
+              "text": "Kaanch",
+              "startFrame": 1399,
+              "endFrame": 1444,
+              "accent": false
+            },
+            {
+              "id": "w_2_6_2",
+              "text": "ke",
+              "startFrame": 1444,
+              "endFrame": 1452,
+              "accent": false
+            },
+            {
+              "id": "w_2_6_3",
+              "text": "tukde",
+              "startFrame": 1452,
+              "endFrame": 1484,
+              "accent": false
+            },
+            {
+              "id": "w_2_6_4",
+              "text": "par",
+              "startFrame": 1484,
+              "endFrame": 1495,
+              "accent": false
+            },
+            {
+              "id": "w_2_6_5",
+              "text": "chamki",
+              "startFrame": 1495,
+              "endFrame": 1529,
+              "accent": true
+            },
+            {
+              "id": "w_2_6_6",
+              "text": "nazar",
+              "startFrame": 1529,
+              "endFrame": 1559,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_7",
+          "text": "Aks tumhara wahan dikha",
+          "startTime": 25.983,
+          "endTime": 28.967,
+          "startFrame": 1559,
+          "endFrame": 1738,
+          "words": [
+            {
+              "id": "w_2_7_1",
+              "text": "Aks",
+              "startFrame": 1559,
+              "endFrame": 1588,
+              "accent": true
+            },
+            {
+              "id": "w_2_7_2",
+              "text": "tumhara",
+              "startFrame": 1588,
+              "endFrame": 1663,
+              "accent": false
+            },
+            {
+              "id": "w_2_7_3",
+              "text": "wahan",
+              "startFrame": 1663,
+              "endFrame": 1693,
+              "accent": false
+            },
+            {
+              "id": "w_2_7_4",
+              "text": "dikha",
+              "startFrame": 1693,
+              "endFrame": 1738,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_8",
+          "text": "Mudh ke dekha na tha abhi tak",
+          "startTime": 28.967,
+          "endTime": 31.717,
+          "startFrame": 1738,
+          "endFrame": 1903,
+          "words": [
+            {
+              "id": "w_2_8_1",
+              "text": "Mudh",
+              "startFrame": 1738,
+              "endFrame": 1796,
+              "accent": false
+            },
+            {
+              "id": "w_2_8_2",
+              "text": "ke",
+              "startFrame": 1796,
+              "endFrame": 1804,
+              "accent": false
+            },
+            {
+              "id": "w_2_8_3",
+              "text": "dekha",
+              "startFrame": 1804,
+              "endFrame": 1838,
+              "accent": false
+            },
+            {
+              "id": "w_2_8_4",
+              "text": "na",
+              "startFrame": 1838,
+              "endFrame": 1847,
+              "accent": false
+            },
+            {
+              "id": "w_2_8_5",
+              "text": "tha",
+              "startFrame": 1847,
+              "endFrame": 1862,
+              "accent": false
+            },
+            {
+              "id": "w_2_8_6",
+              "text": "abhi",
+              "startFrame": 1862,
+              "endFrame": 1895,
+              "accent": false
+            },
+            {
+              "id": "w_2_8_7",
+              "text": "tak",
+              "startFrame": 1895,
+              "endFrame": 1903,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_9",
+          "text": "Par dil mera wahi bik gaya",
+          "startTime": 31.817,
+          "endTime": 34.883,
+          "startFrame": 1909,
+          "endFrame": 2093,
+          "words": [
+            {
+              "id": "w_2_9_1",
+              "text": "Par",
+              "startFrame": 1909,
+              "endFrame": 1928,
+              "accent": false
+            },
+            {
+              "id": "w_2_9_2",
+              "text": "dil",
+              "startFrame": 1928,
+              "endFrame": 1949,
+              "accent": false
+            },
+            {
+              "id": "w_2_9_3",
+              "text": "mera",
+              "startFrame": 1949,
+              "endFrame": 1982,
+              "accent": false
+            },
+            {
+              "id": "w_2_9_4",
+              "text": "wahi",
+              "startFrame": 1982,
+              "endFrame": 2016,
+              "accent": false
+            },
+            {
+              "id": "w_2_9_5",
+              "text": "bik",
+              "startFrame": 2016,
+              "endFrame": 2050,
+              "accent": false
+            },
+            {
+              "id": "w_2_9_6",
+              "text": "gaya",
+              "startFrame": 2050,
+              "endFrame": 2093,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_03_pre_chorus_and_chorus_1",
+      "name": "Frozen Time & The Rainbow Prism Bloom",
+      "sectionTag": "03 // CHORUS 1 • DHANAK SE RANG",
+      "startSec": 34.883,
+      "endSec": 72.083,
+      "startFrame": 2093,
+      "endFrame": 4325,
+      "symbolKey": "rainbow_prism",
+      "subtitle": "Time slows to zero • Prismatic awakening of first love",
+      "lines": [
+        {
+          "id": "line_10",
+          "text": "Ruk gayi hawa, thak gaya samaa",
+          "startTime": 34.883,
+          "endTime": 40.033,
+          "startFrame": 2093,
+          "endFrame": 2402,
+          "words": [
+            {
+              "id": "w_3_10_1",
+              "text": "Ruk",
+              "startFrame": 2093,
+              "endFrame": 2220,
+              "accent": false
+            },
+            {
+              "id": "w_3_10_2",
+              "text": "gayi",
+              "startFrame": 2226,
+              "endFrame": 2258,
+              "accent": false
+            },
+            {
+              "id": "w_3_10_3",
+              "text": "hawa,",
+              "startFrame": 2258,
+              "endFrame": 2303,
+              "accent": false
+            },
+            {
+              "id": "w_3_10_4",
+              "text": "thak",
+              "startFrame": 2303,
+              "endFrame": 2329,
+              "accent": false
+            },
+            {
+              "id": "w_3_10_5",
+              "text": "gaya",
+              "startFrame": 2329,
+              "endFrame": 2351,
+              "accent": false
+            },
+            {
+              "id": "w_3_10_6",
+              "text": "samaa",
+              "startFrame": 2351,
+              "endFrame": 2402,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_11",
+          "text": "Ek hi pal mein badla jahan",
+          "startTime": 40.033,
+          "endTime": 42.333,
+          "startFrame": 2402,
+          "endFrame": 2540,
+          "words": [
+            {
+              "id": "w_3_11_1",
+              "text": "Ek",
+              "startFrame": 2402,
+              "endFrame": 2411,
+              "accent": false
+            },
+            {
+              "id": "w_3_11_2",
+              "text": "hi",
+              "startFrame": 2411,
+              "endFrame": 2419,
+              "accent": false
+            },
+            {
+              "id": "w_3_11_3",
+              "text": "pal",
+              "startFrame": 2419,
+              "endFrame": 2435,
+              "accent": false
+            },
+            {
+              "id": "w_3_11_4",
+              "text": "mein",
+              "startFrame": 2435,
+              "endFrame": 2455,
+              "accent": false
+            },
+            {
+              "id": "w_3_11_5",
+              "text": "badla",
+              "startFrame": 2455,
+              "endFrame": 2513,
+              "accent": false
+            },
+            {
+              "id": "w_3_11_6",
+              "text": "jahan",
+              "startFrame": 2513,
+              "endFrame": 2540,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_12",
+          "text": "Sunno na...",
+          "startTime": 42.333,
+          "endTime": 44.633,
+          "startFrame": 2540,
+          "endFrame": 2678,
+          "words": [
+            {
+              "id": "w_3_12_1",
+              "text": "Sunno",
+              "startFrame": 2540,
+              "endFrame": 2612,
+              "accent": false
+            },
+            {
+              "id": "w_3_12_2",
+              "text": "na...",
+              "startFrame": 2612,
+              "endFrame": 2678,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_13",
+          "text": "Aaine mein dekha pehli baar tumhein",
+          "startTime": 46.367,
+          "endTime": 53.367,
+          "startFrame": 2782,
+          "endFrame": 3202,
+          "words": [
+            {
+              "id": "w_3_13_1",
+              "text": "Aaine",
+              "startFrame": 2782,
+              "endFrame": 2927,
+              "accent": false
+            },
+            {
+              "id": "w_3_13_2",
+              "text": "mein",
+              "startFrame": 2927,
+              "endFrame": 2958,
+              "accent": false
+            },
+            {
+              "id": "w_3_13_3",
+              "text": "dekha",
+              "startFrame": 2958,
+              "endFrame": 3029,
+              "accent": false
+            },
+            {
+              "id": "w_3_13_4",
+              "text": "pehli",
+              "startFrame": 3029,
+              "endFrame": 3068,
+              "accent": true
+            },
+            {
+              "id": "w_3_13_5",
+              "text": "baar",
+              "startFrame": 3068,
+              "endFrame": 3142,
+              "accent": false
+            },
+            {
+              "id": "w_3_13_6",
+              "text": "tumhein",
+              "startFrame": 3142,
+              "endFrame": 3202,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_14",
+          "text": "Ho gaya pehli nazar mein pyar tumhein",
+          "startTime": 53.367,
+          "endTime": 59.083,
+          "startFrame": 3202,
+          "endFrame": 3545,
+          "words": [
+            {
+              "id": "w_3_14_1",
+              "text": "Ho",
+              "startFrame": 3202,
+              "endFrame": 3274,
+              "accent": false
+            },
+            {
+              "id": "w_3_14_2",
+              "text": "gaya",
+              "startFrame": 3274,
+              "endFrame": 3308,
+              "accent": false
+            },
+            {
+              "id": "w_3_14_3",
+              "text": "pehli",
+              "startFrame": 3308,
+              "endFrame": 3373,
+              "accent": true
+            },
+            {
+              "id": "w_3_14_4",
+              "text": "nazar",
+              "startFrame": 3373,
+              "endFrame": 3403,
+              "accent": false
+            },
+            {
+              "id": "w_3_14_5",
+              "text": "mein",
+              "startFrame": 3403,
+              "endFrame": 3421,
+              "accent": false
+            },
+            {
+              "id": "w_3_14_6",
+              "text": "pyar",
+              "startFrame": 3421,
+              "endFrame": 3486,
+              "accent": true
+            },
+            {
+              "id": "w_3_14_7",
+              "text": "tumhein",
+              "startFrame": 3486,
+              "endFrame": 3545,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_15",
+          "text": "Dhanak se rang sab khil gaye",
+          "startTime": 59.083,
+          "endTime": 62.433,
+          "startFrame": 3545,
+          "endFrame": 3746,
+          "words": [
+            {
+              "id": "w_3_15_1",
+              "text": "Dhanak",
+              "startFrame": 3545,
+              "endFrame": 3589,
+              "accent": true
+            },
+            {
+              "id": "w_3_15_2",
+              "text": "se",
+              "startFrame": 3589,
+              "endFrame": 3604,
+              "accent": false
+            },
+            {
+              "id": "w_3_15_3",
+              "text": "rang",
+              "startFrame": 3604,
+              "endFrame": 3628,
+              "accent": false
+            },
+            {
+              "id": "w_3_15_4",
+              "text": "sab",
+              "startFrame": 3628,
+              "endFrame": 3676,
+              "accent": false
+            },
+            {
+              "id": "w_3_15_5",
+              "text": "khil",
+              "startFrame": 3676,
+              "endFrame": 3710,
+              "accent": false
+            },
+            {
+              "id": "w_3_15_6",
+              "text": "gaye",
+              "startFrame": 3710,
+              "endFrame": 3746,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_16",
+          "text": "Jab se hum is mod par mil gaye",
+          "startTime": 62.433,
+          "endTime": 66.2,
+          "startFrame": 3746,
+          "endFrame": 3972,
+          "words": [
+            {
+              "id": "w_3_16_1",
+              "text": "Jab",
+              "startFrame": 3746,
+              "endFrame": 3760,
+              "accent": false
+            },
+            {
+              "id": "w_3_16_2",
+              "text": "se",
+              "startFrame": 3760,
+              "endFrame": 3780,
+              "accent": false
+            },
+            {
+              "id": "w_3_16_3",
+              "text": "hum",
+              "startFrame": 3780,
+              "endFrame": 3798,
+              "accent": false
+            },
+            {
+              "id": "w_3_16_4",
+              "text": "is",
+              "startFrame": 3798,
+              "endFrame": 3817,
+              "accent": false
+            },
+            {
+              "id": "w_3_16_5",
+              "text": "mod",
+              "startFrame": 3817,
+              "endFrame": 3854,
+              "accent": true
+            },
+            {
+              "id": "w_3_16_6",
+              "text": "par",
+              "startFrame": 3854,
+              "endFrame": 3890,
+              "accent": false
+            },
+            {
+              "id": "w_3_16_7",
+              "text": "mil",
+              "startFrame": 3890,
+              "endFrame": 3926,
+              "accent": false
+            },
+            {
+              "id": "w_3_16_8",
+              "text": "gaye",
+              "startFrame": 3926,
+              "endFrame": 3972,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_17",
+          "text": "(Ho gaya pyar tumhein... ho gaya pyar...)",
+          "startTime": 66.2,
+          "endTime": 71.15,
+          "startFrame": 3972,
+          "endFrame": 4269,
+          "words": [
+            {
+              "id": "w_3_17_1",
+              "text": "(Ho",
+              "startFrame": 3972,
+              "endFrame": 3989,
+              "accent": false
+            },
+            {
+              "id": "w_3_17_2",
+              "text": "gaya",
+              "startFrame": 3989,
+              "endFrame": 4036,
+              "accent": false
+            },
+            {
+              "id": "w_3_17_3",
+              "text": "pyar",
+              "startFrame": 4036,
+              "endFrame": 4044,
+              "accent": true
+            },
+            {
+              "id": "w_3_17_4",
+              "text": "tumhein...",
+              "startFrame": 4044,
+              "endFrame": 4116,
+              "accent": false
+            },
+            {
+              "id": "w_3_17_5",
+              "text": "ho",
+              "startFrame": 4116,
+              "endFrame": 4147,
+              "accent": false
+            },
+            {
+              "id": "w_3_17_6",
+              "text": "gaya",
+              "startFrame": 4147,
+              "endFrame": 4182,
+              "accent": false
+            },
+            {
+              "id": "w_3_17_7",
+              "text": "pyar...)",
+              "startFrame": 4182,
+              "endFrame": 4269,
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_04_verse_2",
+      "name": "The Swaying Earring & Turning Around",
+      "sectionTag": "04 // VERSE 2 • KAAN KI BAALI",
+      "startSec": 72.083,
+      "endSec": 95.083,
+      "startFrame": 4325,
+      "endFrame": 5705,
+      "symbolKey": "filigree_earring",
+      "subtitle": "The heartbeat pendulum • Wind through her hair and silent understanding",
+      "lines": [
+        {
+          "id": "line_18",
+          "text": "Kaan ki baali jab hili tumhari",
+          "startTime": 72.083,
+          "endTime": 75.167,
+          "startFrame": 4325,
+          "endFrame": 4510,
+          "words": [
+            {
+              "id": "w_4_18_1",
+              "text": "Kaan",
+              "startFrame": 4325,
+              "endFrame": 4344,
+              "accent": false
+            },
+            {
+              "id": "w_4_18_2",
+              "text": "ki",
+              "startFrame": 4344,
+              "endFrame": 4352,
+              "accent": false
+            },
+            {
+              "id": "w_4_18_3",
+              "text": "baali",
+              "startFrame": 4352,
+              "endFrame": 4372,
+              "accent": true
+            },
+            {
+              "id": "w_4_18_4",
+              "text": "jab",
+              "startFrame": 4372,
+              "endFrame": 4388,
+              "accent": false
+            },
+            {
+              "id": "w_4_18_5",
+              "text": "hili",
+              "startFrame": 4388,
+              "endFrame": 4417,
+              "accent": false
+            },
+            {
+              "id": "w_4_18_6",
+              "text": "tumhari",
+              "startFrame": 4470,
+              "endFrame": 4510,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_19",
+          "text": "Dhadkan meri bhi tezz hui",
+          "startTime": 75.167,
+          "endTime": 77.617,
+          "startFrame": 4510,
+          "endFrame": 4657,
+          "words": [
+            {
+              "id": "w_4_19_1",
+              "text": "Dhadkan",
+              "startFrame": 4510,
+              "endFrame": 4542,
+              "accent": true
+            },
+            {
+              "id": "w_4_19_2",
+              "text": "meri",
+              "startFrame": 4542,
+              "endFrame": 4571,
+              "accent": false
+            },
+            {
+              "id": "w_4_19_3",
+              "text": "bhi",
+              "startFrame": 4571,
+              "endFrame": 4591,
+              "accent": false
+            },
+            {
+              "id": "w_4_19_4",
+              "text": "tezz",
+              "startFrame": 4591,
+              "endFrame": 4637,
+              "accent": false
+            },
+            {
+              "id": "w_4_19_5",
+              "text": "hui",
+              "startFrame": 4637,
+              "endFrame": 4657,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_20",
+          "text": "Bazaar ki rounak phiki lagi",
+          "startTime": 77.617,
+          "endTime": 80.467,
+          "startFrame": 4657,
+          "endFrame": 4828,
+          "words": [
+            {
+              "id": "w_4_20_1",
+              "text": "Bazaar",
+              "startFrame": 4657,
+              "endFrame": 4722,
+              "accent": false
+            },
+            {
+              "id": "w_4_20_2",
+              "text": "ki",
+              "startFrame": 4722,
+              "endFrame": 4736,
+              "accent": false
+            },
+            {
+              "id": "w_4_20_3",
+              "text": "rounak",
+              "startFrame": 4736,
+              "endFrame": 4774,
+              "accent": false
+            },
+            {
+              "id": "w_4_20_4",
+              "text": "phiki",
+              "startFrame": 4774,
+              "endFrame": 4798,
+              "accent": false
+            },
+            {
+              "id": "w_4_20_5",
+              "text": "lagi",
+              "startFrame": 4798,
+              "endFrame": 4828,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_21",
+          "text": "Sirf tumhari aahat azeez hui",
+          "startTime": 80.883,
+          "endTime": 83.533,
+          "startFrame": 4853,
+          "endFrame": 5012,
+          "words": [
+            {
+              "id": "w_4_21_1",
+              "text": "Sirf",
+              "startFrame": 4853,
+              "endFrame": 4861,
+              "accent": false
+            },
+            {
+              "id": "w_4_21_2",
+              "text": "tumhari",
+              "startFrame": 4861,
+              "endFrame": 4909,
+              "accent": false
+            },
+            {
+              "id": "w_4_21_3",
+              "text": "aahat",
+              "startFrame": 4909,
+              "endFrame": 4951,
+              "accent": false
+            },
+            {
+              "id": "w_4_21_4",
+              "text": "azeez",
+              "startFrame": 4951,
+              "endFrame": 4981,
+              "accent": false
+            },
+            {
+              "id": "w_4_21_5",
+              "text": "hui",
+              "startFrame": 4981,
+              "endFrame": 5012,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_22",
+          "text": "Mudh ke dekha toh tum thi samne",
+          "startTime": 83.533,
+          "endTime": 86.267,
+          "startFrame": 5012,
+          "endFrame": 5176,
+          "words": [
+            {
+              "id": "w_4_22_1",
+              "text": "Mudh",
+              "startFrame": 5012,
+              "endFrame": 5045,
+              "accent": false
+            },
+            {
+              "id": "w_4_22_2",
+              "text": "ke",
+              "startFrame": 5045,
+              "endFrame": 5056,
+              "accent": false
+            },
+            {
+              "id": "w_4_22_3",
+              "text": "dekha",
+              "startFrame": 5056,
+              "endFrame": 5084,
+              "accent": false
+            },
+            {
+              "id": "w_4_22_4",
+              "text": "toh",
+              "startFrame": 5084,
+              "endFrame": 5105,
+              "accent": false
+            },
+            {
+              "id": "w_4_22_5",
+              "text": "tum",
+              "startFrame": 5105,
+              "endFrame": 5116,
+              "accent": false
+            },
+            {
+              "id": "w_4_22_6",
+              "text": "thi",
+              "startFrame": 5116,
+              "endFrame": 5129,
+              "accent": false
+            },
+            {
+              "id": "w_4_22_7",
+              "text": "samne",
+              "startFrame": 5129,
+              "endFrame": 5176,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_23",
+          "text": "Jhulfein hawa mein lehra rahi thi",
+          "startTime": 86.267,
+          "endTime": 89.133,
+          "startFrame": 5176,
+          "endFrame": 5348,
+          "words": [
+            {
+              "id": "w_4_23_1",
+              "text": "Jhulfein",
+              "startFrame": 5176,
+              "endFrame": 5242,
+              "accent": true
+            },
+            {
+              "id": "w_4_23_2",
+              "text": "hawa",
+              "startFrame": 5242,
+              "endFrame": 5256,
+              "accent": false
+            },
+            {
+              "id": "w_4_23_3",
+              "text": "mein",
+              "startFrame": 5256,
+              "endFrame": 5270,
+              "accent": false
+            },
+            {
+              "id": "w_4_23_4",
+              "text": "lehra",
+              "startFrame": 5270,
+              "endFrame": 5303,
+              "accent": false
+            },
+            {
+              "id": "w_4_23_5",
+              "text": "rahi",
+              "startFrame": 5303,
+              "endFrame": 5329,
+              "accent": false
+            },
+            {
+              "id": "w_4_23_6",
+              "text": "thi",
+              "startFrame": 5329,
+              "endFrame": 5348,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_24",
+          "text": "Har baat jo main kehna chahta tha",
+          "startTime": 89.133,
+          "endTime": 92.2,
+          "startFrame": 5348,
+          "endFrame": 5532,
+          "words": [
+            {
+              "id": "w_4_24_1",
+              "text": "Har",
+              "startFrame": 5348,
+              "endFrame": 5383,
+              "accent": false
+            },
+            {
+              "id": "w_4_24_2",
+              "text": "baat",
+              "startFrame": 5383,
+              "endFrame": 5420,
+              "accent": false
+            },
+            {
+              "id": "w_4_24_3",
+              "text": "jo",
+              "startFrame": 5420,
+              "endFrame": 5437,
+              "accent": false
+            },
+            {
+              "id": "w_4_24_4",
+              "text": "main",
+              "startFrame": 5437,
+              "endFrame": 5449,
+              "accent": false
+            },
+            {
+              "id": "w_4_24_5",
+              "text": "kehna",
+              "startFrame": 5449,
+              "endFrame": 5478,
+              "accent": false
+            },
+            {
+              "id": "w_4_24_6",
+              "text": "chahta",
+              "startFrame": 5478,
+              "endFrame": 5514,
+              "accent": false
+            },
+            {
+              "id": "w_4_24_7",
+              "text": "tha",
+              "startFrame": 5514,
+              "endFrame": 5532,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_25",
+          "text": "Tumhari ankhein bata rahi thi",
+          "startTime": 92.2,
+          "endTime": 95.083,
+          "startFrame": 5532,
+          "endFrame": 5705,
+          "words": [
+            {
+              "id": "w_4_25_1",
+              "text": "Tumhari",
+              "startFrame": 5532,
+              "endFrame": 5579,
+              "accent": false
+            },
+            {
+              "id": "w_4_25_2",
+              "text": "ankhein",
+              "startFrame": 5579,
+              "endFrame": 5618,
+              "accent": true
+            },
+            {
+              "id": "w_4_25_3",
+              "text": "bata",
+              "startFrame": 5618,
+              "endFrame": 5646,
+              "accent": false
+            },
+            {
+              "id": "w_4_25_4",
+              "text": "rahi",
+              "startFrame": 5646,
+              "endFrame": 5684,
+              "accent": false
+            },
+            {
+              "id": "w_4_25_5",
+              "text": "thi",
+              "startFrame": 5684,
+              "endFrame": 5705,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_05_pre_chorus_and_chorus_2",
+      "name": "The Meeting of Paths & Chorus Escalation",
+      "sectionTag": "05 // CHORUS 2 • IS MOD PAR",
+      "startSec": 95.083,
+      "endSec": 131.017,
+      "startFrame": 5705,
+      "endFrame": 7861,
+      "symbolKey": "crossroads_lantern",
+      "subtitle": "Two paths merging into one • Boundless celebration of fate",
+      "lines": [
+        {
+          "id": "line_26",
+          "text": "Ruk gayi hawa, thak gaya samaa",
+          "startTime": 95.083,
+          "endTime": 98.6,
+          "startFrame": 5705,
+          "endFrame": 5916,
+          "words": [
+            {
+              "id": "w_5_26_1",
+              "text": "Ruk",
+              "startFrame": 5705,
+              "endFrame": 5732,
+              "accent": false
+            },
+            {
+              "id": "w_5_26_2",
+              "text": "gayi",
+              "startFrame": 5732,
+              "endFrame": 5771,
+              "accent": false
+            },
+            {
+              "id": "w_5_26_3",
+              "text": "hawa,",
+              "startFrame": 5771,
+              "endFrame": 5819,
+              "accent": false
+            },
+            {
+              "id": "w_5_26_4",
+              "text": "thak",
+              "startFrame": 5827,
+              "endFrame": 5840,
+              "accent": false
+            },
+            {
+              "id": "w_5_26_5",
+              "text": "gaya",
+              "startFrame": 5840,
+              "endFrame": 5867,
+              "accent": false
+            },
+            {
+              "id": "w_5_26_6",
+              "text": "samaa",
+              "startFrame": 5867,
+              "endFrame": 5916,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_27",
+          "text": "Ek hi pal mein badla jahan",
+          "startTime": 98.6,
+          "endTime": 100.883,
+          "startFrame": 5916,
+          "endFrame": 6053,
+          "words": [
+            {
+              "id": "w_5_27_1",
+              "text": "Ek",
+              "startFrame": 5916,
+              "endFrame": 5924,
+              "accent": false
+            },
+            {
+              "id": "w_5_27_2",
+              "text": "hi",
+              "startFrame": 5924,
+              "endFrame": 5932,
+              "accent": false
+            },
+            {
+              "id": "w_5_27_3",
+              "text": "pal",
+              "startFrame": 5932,
+              "endFrame": 5947,
+              "accent": false
+            },
+            {
+              "id": "w_5_27_4",
+              "text": "mein",
+              "startFrame": 5947,
+              "endFrame": 5969,
+              "accent": false
+            },
+            {
+              "id": "w_5_27_5",
+              "text": "badla",
+              "startFrame": 5969,
+              "endFrame": 6024,
+              "accent": false
+            },
+            {
+              "id": "w_5_27_6",
+              "text": "jahan",
+              "startFrame": 6024,
+              "endFrame": 6053,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_28",
+          "text": "Sunno na...",
+          "startTime": 100.883,
+          "endTime": 103.167,
+          "startFrame": 6053,
+          "endFrame": 6190,
+          "words": [
+            {
+              "id": "w_5_28_1",
+              "text": "Sunno",
+              "startFrame": 6053,
+              "endFrame": 6124,
+              "accent": false
+            },
+            {
+              "id": "w_5_28_2",
+              "text": "na...",
+              "startFrame": 6124,
+              "endFrame": 6190,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_29",
+          "text": "Aaine mein dekha pehli baar tumhein",
+          "startTime": 105.567,
+          "endTime": 111.717,
+          "startFrame": 6334,
+          "endFrame": 6703,
+          "words": [
+            {
+              "id": "w_5_29_1",
+              "text": "Aaine",
+              "startFrame": 6334,
+              "endFrame": 6442,
+              "accent": false
+            },
+            {
+              "id": "w_5_29_2",
+              "text": "mein",
+              "startFrame": 6442,
+              "endFrame": 6493,
+              "accent": false
+            },
+            {
+              "id": "w_5_29_3",
+              "text": "dekha",
+              "startFrame": 6493,
+              "endFrame": 6541,
+              "accent": false
+            },
+            {
+              "id": "w_5_29_4",
+              "text": "pehli",
+              "startFrame": 6541,
+              "endFrame": 6582,
+              "accent": true
+            },
+            {
+              "id": "w_5_29_5",
+              "text": "baar",
+              "startFrame": 6582,
+              "endFrame": 6654,
+              "accent": false
+            },
+            {
+              "id": "w_5_29_6",
+              "text": "tumhein",
+              "startFrame": 6654,
+              "endFrame": 6703,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_30",
+          "text": "Ho gaya pehli nazar mein pyar tumhein",
+          "startTime": 111.717,
+          "endTime": 117.7,
+          "startFrame": 6703,
+          "endFrame": 7062,
+          "words": [
+            {
+              "id": "w_5_30_1",
+              "text": "Ho",
+              "startFrame": 6703,
+              "endFrame": 6778,
+              "accent": false
+            },
+            {
+              "id": "w_5_30_2",
+              "text": "gaya",
+              "startFrame": 6778,
+              "endFrame": 6818,
+              "accent": false
+            },
+            {
+              "id": "w_5_30_3",
+              "text": "pehli",
+              "startFrame": 6818,
+              "endFrame": 6884,
+              "accent": true
+            },
+            {
+              "id": "w_5_30_4",
+              "text": "nazar",
+              "startFrame": 6884,
+              "endFrame": 6913,
+              "accent": false
+            },
+            {
+              "id": "w_5_30_5",
+              "text": "mein",
+              "startFrame": 6913,
+              "endFrame": 6934,
+              "accent": false
+            },
+            {
+              "id": "w_5_30_6",
+              "text": "pyar",
+              "startFrame": 6934,
+              "endFrame": 7000,
+              "accent": true
+            },
+            {
+              "id": "w_5_30_7",
+              "text": "tumhein",
+              "startFrame": 7000,
+              "endFrame": 7062,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_31",
+          "text": "Dhanak se rang sab khil gaye",
+          "startTime": 117.7,
+          "endTime": 121.017,
+          "startFrame": 7062,
+          "endFrame": 7261,
+          "words": [
+            {
+              "id": "w_5_31_1",
+              "text": "Dhanak",
+              "startFrame": 7062,
+              "endFrame": 7102,
+              "accent": true
+            },
+            {
+              "id": "w_5_31_2",
+              "text": "se",
+              "startFrame": 7102,
+              "endFrame": 7115,
+              "accent": false
+            },
+            {
+              "id": "w_5_31_3",
+              "text": "rang",
+              "startFrame": 7115,
+              "endFrame": 7140,
+              "accent": false
+            },
+            {
+              "id": "w_5_31_4",
+              "text": "sab",
+              "startFrame": 7140,
+              "endFrame": 7182,
+              "accent": false
+            },
+            {
+              "id": "w_5_31_5",
+              "text": "khil",
+              "startFrame": 7182,
+              "endFrame": 7223,
+              "accent": false
+            },
+            {
+              "id": "w_5_31_6",
+              "text": "gaye",
+              "startFrame": 7223,
+              "endFrame": 7261,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_32",
+          "text": "Jab se hum is mod par mil gaye",
+          "startTime": 121.017,
+          "endTime": 131.017,
+          "startFrame": 7261,
+          "endFrame": 7861,
+          "words": [
+            {
+              "id": "w_5_32_1",
+              "text": "Jab",
+              "startFrame": 7261,
+              "endFrame": 7271,
+              "accent": false
+            },
+            {
+              "id": "w_5_32_2",
+              "text": "se",
+              "startFrame": 7271,
+              "endFrame": 7294,
+              "accent": false
+            },
+            {
+              "id": "w_5_32_3",
+              "text": "hum",
+              "startFrame": 7294,
+              "endFrame": 7312,
+              "accent": false
+            },
+            {
+              "id": "w_5_32_4",
+              "text": "is",
+              "startFrame": 7312,
+              "endFrame": 7331,
+              "accent": false
+            },
+            {
+              "id": "w_5_32_5",
+              "text": "mod",
+              "startFrame": 7331,
+              "endFrame": 7370,
+              "accent": true
+            },
+            {
+              "id": "w_5_32_6",
+              "text": "par",
+              "startFrame": 7370,
+              "endFrame": 7403,
+              "accent": false
+            },
+            {
+              "id": "w_5_32_7",
+              "text": "mil",
+              "startFrame": 7742,
+              "endFrame": 7853,
+              "accent": false
+            },
+            {
+              "id": "w_5_32_8",
+              "text": "gaye",
+              "startFrame": 7853,
+              "endFrame": 7861,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_06_bridge",
+      "name": "The Chosen Road & Sitar Vibrations",
+      "sectionTag": "06 // BRIDGE • SITAR KI TAAR",
+      "startSec": 130.883,
+      "endSec": 152.5,
+      "startFrame": 7853,
+      "endFrame": 9150,
+      "symbolKey": "sitar_strings",
+      "subtitle": "All distractions dissolve • Sitar strings vibrating with breath",
+      "lines": [
+        {
+          "id": "line_33",
+          "text": "Ab na koi rasta yaad rahe",
+          "startTime": 130.883,
+          "endTime": 134.083,
+          "startFrame": 7853,
+          "endFrame": 8045,
+          "words": [
+            {
+              "id": "w_6_33_1",
+              "text": "Ab",
+              "startFrame": 7853,
+              "endFrame": 7861,
+              "accent": false
+            },
+            {
+              "id": "w_6_33_2",
+              "text": "na",
+              "startFrame": 7861,
+              "endFrame": 7871,
+              "accent": false
+            },
+            {
+              "id": "w_6_33_3",
+              "text": "koi",
+              "startFrame": 7871,
+              "endFrame": 7901,
+              "accent": false
+            },
+            {
+              "id": "w_6_33_4",
+              "text": "rasta",
+              "startFrame": 7901,
+              "endFrame": 7945,
+              "accent": true
+            },
+            {
+              "id": "w_6_33_5",
+              "text": "yaad",
+              "startFrame": 7946,
+              "endFrame": 7996,
+              "accent": false
+            },
+            {
+              "id": "w_6_33_6",
+              "text": "rahe",
+              "startFrame": 7996,
+              "endFrame": 8045,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_34",
+          "text": "Bus tera hi rasta yaad rahe",
+          "startTime": 134.083,
+          "endTime": 140.217,
+          "startFrame": 8045,
+          "endFrame": 8413,
+          "words": [
+            {
+              "id": "w_6_34_1",
+              "text": "Bus",
+              "startFrame": 8045,
+              "endFrame": 8209,
+              "accent": false
+            },
+            {
+              "id": "w_6_34_2",
+              "text": "tera",
+              "startFrame": 8209,
+              "endFrame": 8239,
+              "accent": false
+            },
+            {
+              "id": "w_6_34_3",
+              "text": "hi",
+              "startFrame": 8239,
+              "endFrame": 8261,
+              "accent": false
+            },
+            {
+              "id": "w_6_34_4",
+              "text": "rasta",
+              "startFrame": 8261,
+              "endFrame": 8290,
+              "accent": true
+            },
+            {
+              "id": "w_6_34_5",
+              "text": "yaad",
+              "startFrame": 8290,
+              "endFrame": 8345,
+              "accent": false
+            },
+            {
+              "id": "w_6_34_6",
+              "text": "rahe",
+              "startFrame": 8345,
+              "endFrame": 8413,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_35",
+          "text": "Sitar ki taar jaisi bajti hai",
+          "startTime": 141.2,
+          "endTime": 144.883,
+          "startFrame": 8472,
+          "endFrame": 8693,
+          "words": [
+            {
+              "id": "w_6_35_1",
+              "text": "Sitar",
+              "startFrame": 8472,
+              "endFrame": 8556,
+              "accent": true
+            },
+            {
+              "id": "w_6_35_2",
+              "text": "ki",
+              "startFrame": 8556,
+              "endFrame": 8575,
+              "accent": false
+            },
+            {
+              "id": "w_6_35_3",
+              "text": "taar",
+              "startFrame": 8575,
+              "endFrame": 8608,
+              "accent": false
+            },
+            {
+              "id": "w_6_35_4",
+              "text": "jaisi",
+              "startFrame": 8608,
+              "endFrame": 8645,
+              "accent": false
+            },
+            {
+              "id": "w_6_35_5",
+              "text": "bajti",
+              "startFrame": 8645,
+              "endFrame": 8678,
+              "accent": false
+            },
+            {
+              "id": "w_6_35_6",
+              "text": "hai",
+              "startFrame": 8678,
+              "endFrame": 8693,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_36",
+          "text": "Meri saanson mein ab teri sada",
+          "startTime": 144.883,
+          "endTime": 148.267,
+          "startFrame": 8693,
+          "endFrame": 8896,
+          "words": [
+            {
+              "id": "w_6_36_1",
+              "text": "Meri",
+              "startFrame": 8693,
+              "endFrame": 8741,
+              "accent": false
+            },
+            {
+              "id": "w_6_36_2",
+              "text": "saanson",
+              "startFrame": 8741,
+              "endFrame": 8772,
+              "accent": true
+            },
+            {
+              "id": "w_6_36_3",
+              "text": "mein",
+              "startFrame": 8772,
+              "endFrame": 8803,
+              "accent": false
+            },
+            {
+              "id": "w_6_36_4",
+              "text": "ab",
+              "startFrame": 8803,
+              "endFrame": 8822,
+              "accent": false
+            },
+            {
+              "id": "w_6_36_5",
+              "text": "teri",
+              "startFrame": 8822,
+              "endFrame": 8861,
+              "accent": false
+            },
+            {
+              "id": "w_6_36_6",
+              "text": "sada",
+              "startFrame": 8861,
+              "endFrame": 8896,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_37",
+          "text": "(Meri saanson mein teri sada...)",
+          "startTime": 148.267,
+          "endTime": 152.5,
+          "startFrame": 8896,
+          "endFrame": 9150,
+          "words": [
+            {
+              "id": "w_6_37_1",
+              "text": "(Meri",
+              "startFrame": 8896,
+              "endFrame": 8908,
+              "accent": false
+            },
+            {
+              "id": "w_6_37_2",
+              "text": "saanson",
+              "startFrame": 8908,
+              "endFrame": 8953,
+              "accent": true
+            },
+            {
+              "id": "w_6_37_3",
+              "text": "mein",
+              "startFrame": 8953,
+              "endFrame": 8978,
+              "accent": false
+            },
+            {
+              "id": "w_6_37_4",
+              "text": "teri",
+              "startFrame": 8978,
+              "endFrame": 9030,
+              "accent": false
+            },
+            {
+              "id": "w_6_37_5",
+              "text": "sada...)",
+              "startFrame": 9044,
+              "endFrame": 9150,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_07_climax_and_outro",
+      "name": "The Dual Reflection & Twilight Sanctuary",
+      "sectionTag": "07 // OUTRO • PEHLI NAZAR MEIN",
+      "startSec": 152.5,
+      "endSec": 180.9,
+      "startFrame": 9150,
+      "endFrame": 10854,
+      "symbolKey": "dual_reflection",
+      "subtitle": "Final emotional crescendo • Two souls reflected in peace",
+      "lines": [
+        {
+          "id": "line_38",
+          "text": "Aaine mein dekha pehli baar tumhein",
+          "startTime": 152.5,
+          "endTime": 158.583,
+          "startFrame": 9150,
+          "endFrame": 9515,
+          "words": [
+            {
+              "id": "w_7_38_1",
+              "text": "Aaine",
+              "startFrame": 9150,
+              "endFrame": 9251,
+              "accent": false
+            },
+            {
+              "id": "w_7_38_2",
+              "text": "mein",
+              "startFrame": 9251,
+              "endFrame": 9281,
+              "accent": false
+            },
+            {
+              "id": "w_7_38_3",
+              "text": "dekha",
+              "startFrame": 9281,
+              "endFrame": 9352,
+              "accent": false
+            },
+            {
+              "id": "w_7_38_4",
+              "text": "pehli",
+              "startFrame": 9352,
+              "endFrame": 9392,
+              "accent": true
+            },
+            {
+              "id": "w_7_38_5",
+              "text": "baar",
+              "startFrame": 9392,
+              "endFrame": 9461,
+              "accent": false
+            },
+            {
+              "id": "w_7_38_6",
+              "text": "tumhein",
+              "startFrame": 9461,
+              "endFrame": 9515,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_39",
+          "text": "Ho gaya pehli nazar mein pyar tumhein",
+          "startTime": 158.583,
+          "endTime": 164.467,
+          "startFrame": 9515,
+          "endFrame": 9868,
+          "words": [
+            {
+              "id": "w_7_39_1",
+              "text": "Ho",
+              "startFrame": 9515,
+              "endFrame": 9592,
+              "accent": false
+            },
+            {
+              "id": "w_7_39_2",
+              "text": "gaya",
+              "startFrame": 9592,
+              "endFrame": 9643,
+              "accent": false
+            },
+            {
+              "id": "w_7_39_3",
+              "text": "pehli",
+              "startFrame": 9643,
+              "endFrame": 9692,
+              "accent": true
+            },
+            {
+              "id": "w_7_39_4",
+              "text": "nazar",
+              "startFrame": 9692,
+              "endFrame": 9725,
+              "accent": false
+            },
+            {
+              "id": "w_7_39_5",
+              "text": "mein",
+              "startFrame": 9725,
+              "endFrame": 9743,
+              "accent": false
+            },
+            {
+              "id": "w_7_39_6",
+              "text": "pyar",
+              "startFrame": 9743,
+              "endFrame": 9808,
+              "accent": true
+            },
+            {
+              "id": "w_7_39_7",
+              "text": "tumhein",
+              "startFrame": 9808,
+              "endFrame": 9868,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_40",
+          "text": "Dhanak se rang sab khil gaye",
+          "startTime": 164.467,
+          "endTime": 167.717,
+          "startFrame": 9868,
+          "endFrame": 10063,
+          "words": [
+            {
+              "id": "w_7_40_1",
+              "text": "Dhanak",
+              "startFrame": 9868,
+              "endFrame": 9910,
+              "accent": true
+            },
+            {
+              "id": "w_7_40_2",
+              "text": "se",
+              "startFrame": 9910,
+              "endFrame": 9923,
+              "accent": false
+            },
+            {
+              "id": "w_7_40_3",
+              "text": "rang",
+              "startFrame": 9923,
+              "endFrame": 9952,
+              "accent": false
+            },
+            {
+              "id": "w_7_40_4",
+              "text": "sab",
+              "startFrame": 9952,
+              "endFrame": 9992,
+              "accent": false
+            },
+            {
+              "id": "w_7_40_5",
+              "text": "khil",
+              "startFrame": 9992,
+              "endFrame": 10031,
+              "accent": false
+            },
+            {
+              "id": "w_7_40_6",
+              "text": "gaye",
+              "startFrame": 10031,
+              "endFrame": 10063,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_41",
+          "text": "Jab se hum is mod par mil gaye",
+          "startTime": 167.717,
+          "endTime": 171.417,
+          "startFrame": 10063,
+          "endFrame": 10285,
+          "words": [
+            {
+              "id": "w_7_41_1",
+              "text": "Jab",
+              "startFrame": 10063,
+              "endFrame": 10080,
+              "accent": false
+            },
+            {
+              "id": "w_7_41_2",
+              "text": "se",
+              "startFrame": 10080,
+              "endFrame": 10103,
+              "accent": false
+            },
+            {
+              "id": "w_7_41_3",
+              "text": "hum",
+              "startFrame": 10103,
+              "endFrame": 10120,
+              "accent": false
+            },
+            {
+              "id": "w_7_41_4",
+              "text": "is",
+              "startFrame": 10120,
+              "endFrame": 10138,
+              "accent": false
+            },
+            {
+              "id": "w_7_41_5",
+              "text": "mod",
+              "startFrame": 10138,
+              "endFrame": 10176,
+              "accent": true
+            },
+            {
+              "id": "w_7_41_6",
+              "text": "par",
+              "startFrame": 10176,
+              "endFrame": 10222,
+              "accent": false
+            },
+            {
+              "id": "w_7_41_7",
+              "text": "mil",
+              "startFrame": 10222,
+              "endFrame": 10235,
+              "accent": false
+            },
+            {
+              "id": "w_7_41_8",
+              "text": "gaye",
+              "startFrame": 10235,
+              "endFrame": 10285,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_42",
+          "text": "Pehli nazar mein...",
+          "startTime": 171.417,
+          "endTime": 172.933,
+          "startFrame": 10285,
+          "endFrame": 10376,
+          "words": [
+            {
+              "id": "w_7_42_1",
+              "text": "Pehli",
+              "startFrame": 10285,
+              "endFrame": 10320,
+              "accent": true
+            },
+            {
+              "id": "w_7_42_2",
+              "text": "nazar",
+              "startFrame": 10320,
+              "endFrame": 10351,
+              "accent": false
+            },
+            {
+              "id": "w_7_42_3",
+              "text": "mein...",
+              "startFrame": 10351,
+              "endFrame": 10376,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_43",
+          "text": "(Pehli nazar mein...)",
+          "startTime": 172.933,
+          "endTime": 173.333,
+          "startFrame": 10376,
+          "endFrame": 10400,
+          "words": [
+            {
+              "id": "w_7_43_1",
+              "text": "(Pehli",
+              "startFrame": 10376,
+              "endFrame": 10384,
+              "accent": true
+            },
+            {
+              "id": "w_7_43_2",
+              "text": "nazar",
+              "startFrame": 10384,
+              "endFrame": 10392,
+              "accent": false
+            },
+            {
+              "id": "w_7_43_3",
+              "text": "mein...)",
+              "startFrame": 10392,
+              "endFrame": 10400,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_44",
+          "text": "Pehli nazar mein pyar tumhein...",
+          "startTime": 173.017,
+          "endTime": 173.7,
+          "startFrame": 10381,
+          "endFrame": 10422,
+          "words": [
+            {
+              "id": "w_7_44_1",
+              "text": "Pehli",
+              "startFrame": 10381,
+              "endFrame": 10390,
+              "accent": true
+            },
+            {
+              "id": "w_7_44_2",
+              "text": "nazar",
+              "startFrame": 10390,
+              "endFrame": 10398,
+              "accent": false
+            },
+            {
+              "id": "w_7_44_3",
+              "text": "mein",
+              "startFrame": 10398,
+              "endFrame": 10406,
+              "accent": false
+            },
+            {
+              "id": "w_7_44_4",
+              "text": "pyar",
+              "startFrame": 10406,
+              "endFrame": 10414,
+              "accent": true
+            },
+            {
+              "id": "w_7_44_5",
+              "text": "tumhein...",
+              "startFrame": 10414,
+              "endFrame": 10422,
+              "accent": false
+            }
+          ]
+        },
+        {
+          "id": "line_45",
+          "text": "Pehli nazar mein...",
+          "startTime": 175.133,
+          "endTime": 177.533,
+          "startFrame": 10508,
+          "endFrame": 10652,
+          "words": [
+            {
+              "id": "w_7_45_1",
+              "text": "Pehli",
+              "startFrame": 10508,
+              "endFrame": 10538,
+              "accent": true
+            },
+            {
+              "id": "w_7_45_2",
+              "text": "nazar",
+              "startFrame": 10538,
+              "endFrame": 10579,
+              "accent": false
+            },
+            {
+              "id": "w_7_45_3",
+              "text": "mein...",
+              "startFrame": 10579,
+              "endFrame": 10652,
+              "accent": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

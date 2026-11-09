@@ -44,6 +44,14 @@ import teriYaadonKiBaarishRadioTimeline from "./songs/teri-yaadon-ki-baarish/tim
 import { TuEkSukoonSaLagtaHaiSong } from "./songs/tu-ek-sukoon-sa-lagta-hai/TuEkSukoonSaLagtaHaiSong";
 import tuEkSukoonTimeline from "./songs/tu-ek-sukoon-sa-lagta-hai/timeline.json";
 import tuEkSukoonRadioTimeline from "./songs/tu-ek-sukoon-sa-lagta-hai/timeline_radio.json";
+import { GrassStainedKneesSong } from "./songs/grass-stained-knees/GrassStainedKneesSong";
+import grassStainedKneesTimeline from "./songs/grass-stained-knees/timeline.json";
+import { SukoonPoeticUrduSong } from "./songs/sukoon-poetic-urdu/SukoonPoeticUrduSong";
+import { SukoonCover16x9, SukoonCover1x1 } from "./songs/sukoon-poetic-urdu/cover/SukoonCover";
+import sukoonTimeline from "./songs/sukoon-poetic-urdu/timeline.json";
+import { AaineMeinCover16x9, AaineMeinCover1x1 } from "./songs/aaine-mein/cover/AaineMeinCover";
+import { AaineMeinSong } from "./songs/aaine-mein/AaineMeinSong";
+import aaineMeinTimeline from "./songs/aaine-mein/timeline.json";
 import { TimelineData, getTimelineDuration } from "./engine/types";
 import { VIDEO_CONFIG } from "./config/videoConfig";
 
@@ -88,6 +96,8 @@ import {
   PeerMusicStyle01_CrimsonVelvet,
   PeerMusicStyle02_NeonPulse,
   PeerMusicStyle03_LiquidSilk,
+  PeerMusicStyle04_OpalineBloom,
+  PeerMusicStyle05_MiragePrismAtrium,
 } from "./themes/peermusic-styles";
 import dilRehGayaDevanagariTimeline from "./songs/dil-reh-gaya-classroom-mein/timeline_devanagari.json";
 
@@ -164,7 +174,42 @@ const tuEkSukoonFps = tuEkSukoonTimeline.fps || VIDEO_CONFIG.defaultFps;
 const tuEkSukoonRadioDurationInFrames = getTimelineDuration(tuEkSukoonRadioTimeline as unknown as TimelineData);
 const tuEkSukoonRadioFps = tuEkSukoonRadioTimeline.fps || VIDEO_CONFIG.defaultFps;
 
-// Dynamic Song Cover Artwork Default Theme Song Wrappers
+const grassStainedKneesDurationInFrames = getTimelineDuration(grassStainedKneesTimeline as unknown as TimelineData);
+const grassStainedKneesFps = grassStainedKneesTimeline.fps || VIDEO_CONFIG.defaultFps;
+
+const sukoonDurationInFrames = getTimelineDuration(sukoonTimeline as unknown as TimelineData);
+const sukoonFps = sukoonTimeline.fps || VIDEO_CONFIG.defaultFps;
+
+// Sukoon (Poetic Urdu Ballad): Official Option 3 Cinematic Narrative Lyric Film
+const SukoonNarrativeFilmSong: React.FC = () => (
+  <SukoonPoeticUrduSong
+    timeline={sukoonTimeline as unknown as TimelineData}
+    audioSrc="audio/sukoon_poetic_urdu.mp3"
+    coverImageSrc="covers/sukoon_clean_16x9.png"
+  />
+);
+
+const aaineMeinDurationInFrames = getTimelineDuration(aaineMeinTimeline as unknown as TimelineData);
+const aaineMeinFps = aaineMeinTimeline.fps || VIDEO_CONFIG.defaultFps;
+
+// Aaine Mein (Romantic Bollywood Ballad): Official Option 3 Cinematic Narrative Lyric Film
+const AaineMeinNarrativeFilmSong: React.FC = () => (
+  <AaineMeinSong
+    timeline={aaineMeinTimeline as unknown as TimelineData}
+    audioSrc="audio/aaine_mein.mp3"
+    coverImageSrc="covers/aaine_mein_thumb.jpg"
+  />
+);
+
+const GrassStainedKneesNeonSong: React.FC = () => (
+  <GrassStainedKneesSong
+    timeline={grassStainedKneesTimeline as unknown as TimelineData}
+    audioSrc="audio/grass_stained_knees.mp3"
+    coverImageSrc="covers/grass_stained_knees_clean_16x9.png"
+    styleVariant="neon-pulse"
+  />
+);
+
 const TryingToFitInCoverSong: React.FC = () => (
   <SongCoverArtworkSong
     timeline={tryingToFitInTimeline as unknown as TimelineData}
@@ -510,6 +555,106 @@ export const Root: React.FC = () => {
         fps={koreMarginRadioFps}
         width={VIDEO_CONFIG.landscape.width}
         height={VIDEO_CONFIG.landscape.height}
+      />
+
+      {/* Sukoon (Urdu Poetic Ballad): Cinematic Narrative Lyric Film (16:9 60 FPS Master) */}
+      <Composition
+        id="Sukoon-Landscape"
+        component={SukoonNarrativeFilmSong}
+        durationInFrames={sukoonDurationInFrames}
+        fps={sukoonFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+
+      {/* Sukoon (Urdu Poetic Ballad): Cinematic Narrative Lyric Film (9:16 60 FPS Reels/Shorts) */}
+      <Composition
+        id="Sukoon-Vertical"
+        component={SukoonNarrativeFilmSong}
+        durationInFrames={sukoonDurationInFrames}
+        fps={sukoonFps}
+        width={VIDEO_CONFIG.vertical.width}
+        height={VIDEO_CONFIG.vertical.height}
+      />
+
+      {/* Sukoon Cover Studio: 16:9 Dedicated Widescreen Cover & YouTube Thumbnail */}
+      <Composition
+        id="Sukoon-Cover-16x9"
+        component={SukoonCover16x9}
+        durationInFrames={1}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Sukoon Cover Studio: 1:1 Dedicated Square Streaming Cover */}
+      <Composition
+        id="Sukoon-Cover-1x1"
+        component={SukoonCover1x1}
+        durationInFrames={1}
+        fps={30}
+        width={1500}
+        height={1500}
+      />
+
+      {/* Aaine Mein Cover Studio: 16:9 Dedicated Widescreen Cover & YouTube Thumbnail */}
+      <Composition
+        id="AaineMein-Cover-16x9"
+        component={AaineMeinCover16x9}
+        durationInFrames={1}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Aaine Mein Cover Studio: 1:1 Dedicated Square Streaming Cover */}
+      <Composition
+        id="AaineMein-Cover-1x1"
+        component={AaineMeinCover1x1}
+        durationInFrames={1}
+        fps={30}
+        width={1500}
+        height={1500}
+      />
+
+      {/* Aaine Mein (Romantic Bollywood Ballad): Cinematic Narrative Lyric Film (16:9 60 FPS Master) */}
+      <Composition
+        id="AaineMein-Landscape"
+        component={AaineMeinNarrativeFilmSong}
+        durationInFrames={aaineMeinDurationInFrames}
+        fps={aaineMeinFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+
+      {/* Aaine Mein (Romantic Bollywood Ballad): Cinematic Narrative Lyric Film (9:16 60 FPS Vertical) */}
+      <Composition
+        id="AaineMein-Vertical"
+        component={AaineMeinNarrativeFilmSong}
+        durationInFrames={aaineMeinDurationInFrames}
+        fps={aaineMeinFps}
+        width={VIDEO_CONFIG.vertical.width}
+        height={VIDEO_CONFIG.vertical.height}
+      />
+
+      {/* Grass Stained Knees (English Nostalgic Indie): Electric Neon Pulse Landscape (16:9 60 FPS) */}
+      <Composition
+        id="GrassStainedKnees-Landscape"
+        component={GrassStainedKneesNeonSong}
+        durationInFrames={grassStainedKneesDurationInFrames}
+        fps={grassStainedKneesFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+
+      {/* Grass Stained Knees (English Nostalgic Indie): Electric Neon Pulse Vertical (9:16 60 FPS Reels/Shorts) */}
+      <Composition
+        id="GrassStainedKnees-Vertical"
+        component={GrassStainedKneesNeonSong}
+        durationInFrames={grassStainedKneesDurationInFrames}
+        fps={grassStainedKneesFps}
+        width={VIDEO_CONFIG.vertical.width}
+        height={VIDEO_CONFIG.vertical.height}
       />
 
       {/* 0. Between the Pages (English Bedroom Pop / Library Crush): Official DEFAULT Song Cover Art Landscape (16:9 60 FPS) */}
@@ -1145,6 +1290,22 @@ export const Root: React.FC = () => {
       <Composition
         id="PeerMusic-Style03-LiquidSilk"
         component={PeerMusicStyle03_LiquidSilk}
+        durationInFrames={600}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="PeerMusic-Style04-OpalineBloom"
+        component={PeerMusicStyle04_OpalineBloom}
+        durationInFrames={600}
+        fps={VIDEO_CONFIG.defaultFps}
+        width={VIDEO_CONFIG.landscape.width}
+        height={VIDEO_CONFIG.landscape.height}
+      />
+      <Composition
+        id="PeerMusic-Style05-MiragePrismAtrium"
+        component={PeerMusicStyle05_MiragePrismAtrium}
         durationInFrames={600}
         fps={VIDEO_CONFIG.defaultFps}
         width={VIDEO_CONFIG.landscape.width}

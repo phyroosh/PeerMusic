@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
-PeerMusic - AI Music Cover & Thumbnail Pipeline Engine
-======================================================
-Integrates song-specific artwork generation into the PeerMusic lyrical video workflow.
-Derives unique visual concepts from song lyrics, mood, and genre.
-Processes and validates 16:9 (YouTube Thumbnail) and 1:1 (Streaming Distribution Cover) assets,
-syncs with studio/metadata.json, guarantees < 1.8 MB JPEG compression for YouTube Data API limits,
-and saves canonical assets to public/covers/ and out/.
+PeerMusic - Legacy Artwork Conformance Pipeline
+================================================
+Conforms already-authored image assets to legacy paths, synchronizes metadata,
+and guarantees JPEG compression limits. New official PeerMusic covers must be
+created in Remotion; see docs/REMOTION_COVER_STUDIO_STANDARD.md. This script
+must not be used to generate a cover concept or final cover typography.
 """
 
 import os
@@ -21,8 +20,6 @@ from PIL import Image, ImageOps, ImageFilter
 REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if REPO_DIR not in sys.path:
     sys.path.insert(0, REPO_DIR)
-
-from scripts.cover_typography import render_cover_typography
 
 SONGS_DIR = os.path.join(REPO_DIR, "src", "songs")
 OUT_DIR = os.path.join(REPO_DIR, "out")
@@ -612,16 +609,19 @@ def process_and_install_artwork(
     is_clean_asset: bool = False,
 ) -> Dict[str, Any]:
     """
-    Conforms and installs generated artwork for PeerMusic releases:
-    - If is_clean_asset=True: installs as the pure text-free background for Remotion lyric videos.
-    - If is_clean_asset=False (default): conforms the authentic AI-generated cover (featuring native
-      Didone serif title & gold cursive script) to YouTube thumbnail (<1.85MB) and Spotify cover specs.
-    - apply_synthetic_overlay: optional fallback only; when True, overlays PIL text (NOT recommended
-      for official releases, as AI-native typography delivers cinematic lighting and photographic halation).
+    Conforms and installs an already-authored Remotion export for legacy delivery paths.
+    Creative cover construction and final typography belong in Remotion; this function may only resize,
+    compress, and synchronize the completed export.
     """
     ensure_dirs()
     if not os.path.exists(source_path):
         raise FileNotFoundError(f"Source image not found: {source_path}")
+
+    if apply_synthetic_overlay:
+        raise ValueError(
+            "Synthetic cover typography is retired. Author cover text natively in the "
+            "Remotion composition; see docs/REMOTION_COVER_STUDIO_STANDARD.md."
+        )
 
     if is_clean_asset:
         return process_clean_artwork(source_path, song_slug)
@@ -644,17 +644,6 @@ def process_and_install_artwork(
     if aspect_ratio == "16x9":
         target_size = RES_16X9
         cover_img = ImageOps.fit(img, target_size, method=Image.Resampling.LANCZOS)
-
-        if apply_synthetic_overlay:
-            print("[!] Applying synthetic PIL font overlay (Note: Native AI typography is preferred for professional releases)")
-            cover_img = render_cover_typography(
-                base_image=cover_img,
-                title=title,
-                subtitle=subtitle,
-                negative_space=neg_space,
-                aspect_ratio="16x9",
-                include_badge=True,
-            )
 
         # Save Typography-Rich PNG in out/
         png_name = dest_filename or f"{clean_slug}_cover_16x9.png"
@@ -690,17 +679,6 @@ def process_and_install_artwork(
         target_size = RES_1X1
         cover_sq_img = ImageOps.fit(img, target_size, method=Image.Resampling.LANCZOS)
 
-        if apply_synthetic_overlay:
-            print("[!] Applying synthetic PIL font overlay (Note: Native AI typography is preferred for professional releases)")
-            cover_sq_img = render_cover_typography(
-                base_image=cover_sq_img,
-                title=title,
-                subtitle=subtitle,
-                negative_space=neg_space,
-                aspect_ratio="1x1",
-                include_badge=True,
-            )
-
         # 1. Save PNG in out/
         png_name = dest_filename or f"{clean_slug}_cover_1x1.png"
         out_png_path = os.path.join(OUT_DIR, png_name)
@@ -732,42 +710,11 @@ def render_covers_from_clean(
     subtitle_override: Optional[str] = None,
     negative_space_override: Optional[str] = None,
 ) -> Dict[str, Any]:
-    """
-    Renders fallback typography onto an existing clean asset via Pillow.
-    (Used only when native AI typography generation is unavailable).
-    """
-    clean_slug = song_slug.replace("-", "_").lower()
-    clean_path = os.path.join(COVERS_DIR, f"{clean_slug}_clean_16x9.png")
-    if not os.path.exists(clean_path):
-        for c in [song_slug, song_slug.replace("_", "-")]:
-            alt = os.path.join(SONGS_DIR, c, f"{clean_slug}_clean_16x9.png")
-            if os.path.exists(alt):
-                clean_path = alt
-                break
-
-    if not os.path.exists(clean_path):
-        raise FileNotFoundError(f"Clean asset not found for song '{song_slug}' (looked for {clean_path})")
-
-    print(f"\n🎨 Rendering fallback synthetic typography for '{song_slug}' from clean asset: {clean_path}")
-    res_16x9 = process_and_install_artwork(
-        source_path=clean_path,
-        song_slug=song_slug,
-        aspect_ratio="16x9",
-        title_override=title_override,
-        subtitle_override=subtitle_override,
-        negative_space_override=negative_space_override,
-        apply_synthetic_overlay=True,
+    """Retired: final covers must be authored and typed in Remotion."""
+    raise RuntimeError(
+        "render-cover is retired. Create the cover in Remotion and use this script only "
+        "to conform the resulting PNG; see docs/REMOTION_COVER_STUDIO_STANDARD.md."
     )
-    res_1x1 = process_and_install_artwork(
-        source_path=clean_path,
-        song_slug=song_slug,
-        aspect_ratio="1x1",
-        title_override=title_override,
-        subtitle_override=subtitle_override,
-        negative_space_override=negative_space_override,
-        apply_synthetic_overlay=True,
-    )
-    return {"16x9": res_16x9, "1x1": res_1x1}
 
 
 def list_artwork_status() -> None:
@@ -823,27 +770,23 @@ def list_artwork_status() -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="PeerMusic AI Music Cover & Thumbnail Pipeline Engine")
+    parser = argparse.ArgumentParser(description="PeerMusic legacy cover-export conformance utility")
     subparsers = parser.add_subparsers(dest="command", help="Subcommand to execute")
 
     # Command: concept
-    p_concept = subparsers.add_parser("concept", help="Analyze song and output tailored artwork prompts")
+    p_concept = subparsers.add_parser("concept", help="Deprecated; cover concepts now belong in a Remotion cover-plan.md")
     p_concept.add_argument("song", help="Song slug (e.g. kal_tak, window_seat, dil_reh_gaya)")
 
     # Command: process
-    p_process = subparsers.add_parser("process", help="Conform and install generated artwork")
+    p_process = subparsers.add_parser("process", help="Conform and install an already-authored Remotion export")
     p_process.add_argument("--song", "-s", required=True, help="Song slug")
-    p_process.add_argument("--source", "-i", required=True, help="Path to generated input image")
+    p_process.add_argument("--source", "-i", required=True, help="Path to a Remotion cover PNG export")
     p_process.add_argument("--format", "-f", choices=["16x9", "1x1", "9x16"], default="16x9", help="Target aspect ratio")
     p_process.add_argument("--clean", action="store_true", help="Install as pure text-free background for Remotion lyric videos")
     p_process.add_argument("--output-name", "-o", help="Optional override for output filename")
-    p_process.add_argument("--title", help="Optional title override for cover typography")
-    p_process.add_argument("--subtitle", help="Optional subtitle override for cover typography (use '' to omit)")
-    p_process.add_argument("--negative-space", help="Optional negative space override")
-    p_process.add_argument("--synthetic-overlay", action="store_true", help="Apply fallback PIL text overlay (only if native AI typography unavailable)")
 
     # Command: render-cover
-    p_render = subparsers.add_parser("render-cover", help="Render editorial typography onto existing clean artwork")
+    p_render = subparsers.add_parser("render-cover", help="Retired; author final cover typography in Remotion")
     p_render.add_argument("--song", "-s", help="Specific song slug (e.g. trying_to_fit_in, paani_peene_ka_bahaana), or omit for all songs")
     p_render.add_argument("--all", action="store_true", help="Render covers for all songs that have clean assets")
     p_render.add_argument("--title", help="Optional override for main song title")
@@ -856,61 +799,21 @@ def main():
     args = parser.parse_args()
 
     if args.command == "concept":
-        prompts_clean = formulate_prompts(args.song, include_typography=False)
-        prompts_cover = formulate_prompts(args.song, include_typography=True)
-
-        print("\n" + "=" * 80)
-        print(f"🎵 Creative Direction & Visual Concept: {prompts_cover['title']}")
-        print(f"💡 Emotional Core: {prompts_cover['mood']}")
-        print(f"🎨 Genre & Style: {prompts_cover['genre']}")
-        print("=" * 80)
-        print("\n📸 [OUTPUT 1: CLEAN LYRIC VIDEO ARTWORK PROMPT (16:9)]")
-        print("(Pure fine-art background for Remotion engine — strictly text-free)")
-        print("-" * 80)
-        print(prompts_clean["prompt_16x9"])
-        print("\n" + "=" * 80)
-        print("💿 [OUTPUT 2: OFFICIAL RELEASE COVER & YOUTUBE THUMBNAIL PROMPTS]")
-        print("(Typography-rich release packaging — Didone serif title & gold cursive script)")
-        print("-" * 80)
-        print("\n[16:9 YouTube Thumbnail Prompt]:")
-        print(prompts_cover["prompt_16x9"])
-        print("\n[1:1 Spotify Album Cover Prompt]:")
-        print(prompts_cover["prompt_1x1"])
-        print("=" * 80 + "\n")
+        print(
+            "The prompt-based cover workflow is retired. Create "
+            f"src/songs/{args.song}/cover/cover-plan.md and author the cover in Remotion; "
+            "see docs/REMOTION_COVER_STUDIO_STANDARD.md."
+        )
     elif args.command == "process":
-        sub = None if args.subtitle == "" else args.subtitle
         process_and_install_artwork(
             source_path=args.source,
             song_slug=args.song,
             aspect_ratio=args.format,
             dest_filename=args.output_name,
-            title_override=args.title,
-            subtitle_override=sub,
-            negative_space_override=args.negative_space,
-            apply_synthetic_overlay=args.synthetic_overlay,
             is_clean_asset=args.clean,
         )
     elif args.command == "render-cover":
-        sub = None if args.subtitle == "" else args.subtitle
-        if args.all or not args.song:
-            songs = [
-                "trying_to_fit_in",
-                "between_the_pages",
-                "kacchi_neendein",
-                "dil_reh_gaya",
-            ]
-            for s in songs:
-                try:
-                    render_covers_from_clean(s)
-                except Exception as e:
-                    print(f"[!] Skipped {s}: {e}")
-        else:
-            render_covers_from_clean(
-                args.song,
-                title_override=args.title,
-                subtitle_override=sub,
-                negative_space_override=args.negative_space,
-            )
+        print("render-cover is retired. Author and render the cover in Remotion instead.")
     elif args.command == "status":
         list_artwork_status()
     else:

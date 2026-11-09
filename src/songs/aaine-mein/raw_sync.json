@@ -1,0 +1,7094 @@
+{
+  "audio_file": "public/audio/aaine_mein.mp3",
+  "duration": 177.54,
+  "language": "hi",
+  "words": [
+    {
+      "word": "(Rabba...",
+      "start": 7.58,
+      "end": 8.2,
+      "probability": 0.003
+    },
+    {
+      "word": "oh",
+      "start": 8.54,
+      "end": 8.54,
+      "probability": 0.0
+    },
+    {
+      "word": "Rabba...)",
+      "start": 8.54,
+      "end": 11.1,
+      "probability": 0.4
+    },
+    {
+      "word": "Tang",
+      "start": 12.36,
+      "end": 12.38,
+      "probability": 0.0
+    },
+    {
+      "word": "galiyon",
+      "start": 12.38,
+      "end": 13.1,
+      "probability": 0.246
+    },
+    {
+      "word": "ki",
+      "start": 13.1,
+      "end": 13.32,
+      "probability": 0.935
+    },
+    {
+      "word": "is",
+      "start": 13.32,
+      "end": 13.62,
+      "probability": 0.599
+    },
+    {
+      "word": "bheed",
+      "start": 13.62,
+      "end": 14.32,
+      "probability": 0.473
+    },
+    {
+      "word": "mein",
+      "start": 14.32,
+      "end": 14.56,
+      "probability": 0.401
+    },
+    {
+      "word": "Pao",
+      "start": 14.56,
+      "end": 15.56,
+      "probability": 0.409
+    },
+    {
+      "word": "mere",
+      "start": 15.56,
+      "end": 15.94,
+      "probability": 0.961
+    },
+    {
+      "word": "thak",
+      "start": 15.94,
+      "end": 16.42,
+      "probability": 0.795
+    },
+    {
+      "word": "se",
+      "start": 16.42,
+      "end": 16.72,
+      "probability": 0.867
+    },
+    {
+      "word": "gaye",
+      "start": 16.72,
+      "end": 17.22,
+      "probability": 0.697
+    },
+    {
+      "word": "the",
+      "start": 17.22,
+      "end": 17.36,
+      "probability": 0.34
+    },
+    {
+      "word": "Puranay",
+      "start": 17.36,
+      "end": 18.31,
+      "probability": 0.189
+    },
+    {
+      "word": "sheeshe",
+      "start": 18.34,
+      "end": 18.92,
+      "probability": 0.453
+    },
+    {
+      "word": "ki",
+      "start": 18.92,
+      "end": 19.1,
+      "probability": 0.882
+    },
+    {
+      "word": "aik",
+      "start": 19.1,
+      "end": 19.38,
+      "probability": 0.001
+    },
+    {
+      "word": "dukan",
+      "start": 19.38,
+      "end": 20.06,
+      "probability": 0.357
+    },
+    {
+      "word": "par",
+      "start": 20.06,
+      "end": 20.28,
+      "probability": 0.713
+    },
+    {
+      "word": "Kadam",
+      "start": 20.28,
+      "end": 20.9,
+      "probability": 0.401
+    },
+    {
+      "word": "achanak",
+      "start": 20.9,
+      "end": 21.94,
+      "probability": 0.393
+    },
+    {
+      "word": "ruk",
+      "start": 21.94,
+      "end": 22.22,
+      "probability": 0.776
+    },
+    {
+      "word": "se",
+      "start": 22.22,
+      "end": 22.56,
+      "probability": 0.68
+    },
+    {
+      "word": "gaye",
+      "start": 22.56,
+      "end": 23.08,
+      "probability": 0.937
+    },
+    {
+      "word": "the",
+      "start": 23.08,
+      "end": 23.32,
+      "probability": 0.973
+    },
+    {
+      "word": "Kaanch",
+      "start": 23.32,
+      "end": 24.06,
+      "probability": 0.226
+    },
+    {
+      "word": "ke",
+      "start": 24.06,
+      "end": 24.2,
+      "probability": 0.215
+    },
+    {
+      "word": "tukde",
+      "start": 24.2,
+      "end": 24.74,
+      "probability": 0.533
+    },
+    {
+      "word": "par",
+      "start": 24.74,
+      "end": 24.92,
+      "probability": 0.857
+    },
+    {
+      "word": "chamki",
+      "start": 24.92,
+      "end": 25.48,
+      "probability": 0.323
+    },
+    {
+      "word": "nazar",
+      "start": 25.48,
+      "end": 25.98,
+      "probability": 0.636
+    },
+    {
+      "word": "Aks",
+      "start": 25.98,
+      "end": 26.46,
+      "probability": 0.31
+    },
+    {
+      "word": "tumhara",
+      "start": 26.46,
+      "end": 27.72,
+      "probability": 0.492
+    },
+    {
+      "word": "wahan",
+      "start": 27.72,
+      "end": 28.22,
+      "probability": 0.143
+    },
+    {
+      "word": "dikha",
+      "start": 28.22,
+      "end": 28.96,
+      "probability": 0.593
+    },
+    {
+      "word": "Mudh",
+      "start": 28.96,
+      "end": 29.94,
+      "probability": 0.009
+    },
+    {
+      "word": "ke",
+      "start": 29.94,
+      "end": 30.06,
+      "probability": 0.654
+    },
+    {
+      "word": "dekha",
+      "start": 30.06,
+      "end": 30.64,
+      "probability": 0.652
+    },
+    {
+      "word": "na",
+      "start": 30.64,
+      "end": 30.78,
+      "probability": 0.557
+    },
+    {
+      "word": "tha",
+      "start": 30.78,
+      "end": 31.04,
+      "probability": 0.952
+    },
+    {
+      "word": "abhi",
+      "start": 31.04,
+      "end": 31.58,
+      "probability": 0.005
+    },
+    {
+      "word": "tak",
+      "start": 31.58,
+      "end": 31.72,
+      "probability": 0.821
+    },
+    {
+      "word": "Par",
+      "start": 31.82,
+      "end": 32.14,
+      "probability": 0.005
+    },
+    {
+      "word": "dil",
+      "start": 32.14,
+      "end": 32.48,
+      "probability": 0.827
+    },
+    {
+      "word": "mera",
+      "start": 32.48,
+      "end": 33.04,
+      "probability": 0.532
+    },
+    {
+      "word": "wahi",
+      "start": 33.04,
+      "end": 33.6,
+      "probability": 0.476
+    },
+    {
+      "word": "bik",
+      "start": 33.6,
+      "end": 34.16,
+      "probability": 0.071
+    },
+    {
+      "word": "gaya",
+      "start": 34.16,
+      "end": 34.88,
+      "probability": 0.703
+    },
+    {
+      "word": "Ruk",
+      "start": 34.88,
+      "end": 37.0,
+      "probability": 0.572
+    },
+    {
+      "word": "gayi",
+      "start": 37.1,
+      "end": 37.64,
+      "probability": 0.452
+    },
+    {
+      "word": "hawa,",
+      "start": 37.64,
+      "end": 38.38,
+      "probability": 0.36
+    },
+    {
+      "word": "thak",
+      "start": 38.38,
+      "end": 38.82,
+      "probability": 0.519
+    },
+    {
+      "word": "gaya",
+      "start": 38.82,
+      "end": 39.18,
+      "probability": 0.531
+    },
+    {
+      "word": "samaa",
+      "start": 39.18,
+      "end": 40.04,
+      "probability": 0.055
+    },
+    {
+      "word": "Ek",
+      "start": 40.04,
+      "end": 40.18,
+      "probability": 0.002
+    },
+    {
+      "word": "hi",
+      "start": 40.18,
+      "end": 40.32,
+      "probability": 0.547
+    },
+    {
+      "word": "pal",
+      "start": 40.32,
+      "end": 40.58,
+      "probability": 0.934
+    },
+    {
+      "word": "mein",
+      "start": 40.58,
+      "end": 40.92,
+      "probability": 0.741
+    },
+    {
+      "word": "badla",
+      "start": 40.92,
+      "end": 41.88,
+      "probability": 0.195
+    },
+    {
+      "word": "jahan",
+      "start": 41.88,
+      "end": 42.34,
+      "probability": 0.077
+    },
+    {
+      "word": "Sunno",
+      "start": 42.34,
+      "end": 43.54,
+      "probability": 0.27
+    },
+    {
+      "word": "na...",
+      "start": 43.54,
+      "end": 44.64,
+      "probability": 0.45
+    },
+    {
+      "word": "Aaine",
+      "start": 46.36,
+      "end": 48.78,
+      "probability": 0.0
+    },
+    {
+      "word": "mein",
+      "start": 48.78,
+      "end": 49.3,
+      "probability": 0.015
+    },
+    {
+      "word": "dekha",
+      "start": 49.3,
+      "end": 50.48,
+      "probability": 0.374
+    },
+    {
+      "word": "pehli",
+      "start": 50.48,
+      "end": 51.14,
+      "probability": 0.515
+    },
+    {
+      "word": "baar",
+      "start": 51.14,
+      "end": 52.36,
+      "probability": 0.439
+    },
+    {
+      "word": "tumhein",
+      "start": 52.36,
+      "end": 53.36,
+      "probability": 0.213
+    },
+    {
+      "word": "Ho",
+      "start": 53.36,
+      "end": 54.56,
+      "probability": 0.0
+    },
+    {
+      "word": "gaya",
+      "start": 54.56,
+      "end": 55.14,
+      "probability": 0.758
+    },
+    {
+      "word": "pehli",
+      "start": 55.14,
+      "end": 56.22,
+      "probability": 0.76
+    },
+    {
+      "word": "nazar",
+      "start": 56.22,
+      "end": 56.72,
+      "probability": 0.604
+    },
+    {
+      "word": "mein",
+      "start": 56.72,
+      "end": 57.02,
+      "probability": 0.883
+    },
+    {
+      "word": "pyar",
+      "start": 57.02,
+      "end": 58.1,
+      "probability": 0.479
+    },
+    {
+      "word": "tumhein",
+      "start": 58.1,
+      "end": 59.08,
+      "probability": 0.897
+    },
+    {
+      "word": "Dhanak",
+      "start": 59.08,
+      "end": 59.82,
+      "probability": 0.602
+    },
+    {
+      "word": "se",
+      "start": 59.82,
+      "end": 60.06,
+      "probability": 0.738
+    },
+    {
+      "word": "rang",
+      "start": 60.06,
+      "end": 60.46,
+      "probability": 0.261
+    },
+    {
+      "word": "sab",
+      "start": 60.46,
+      "end": 61.26,
+      "probability": 0.162
+    },
+    {
+      "word": "khil",
+      "start": 61.26,
+      "end": 61.84,
+      "probability": 0.529
+    },
+    {
+      "word": "gaye",
+      "start": 61.84,
+      "end": 62.44,
+      "probability": 0.577
+    },
+    {
+      "word": "Jab",
+      "start": 62.44,
+      "end": 62.66,
+      "probability": 0.227
+    },
+    {
+      "word": "se",
+      "start": 62.66,
+      "end": 63.0,
+      "probability": 0.82
+    },
+    {
+      "word": "hum",
+      "start": 63.0,
+      "end": 63.3,
+      "probability": 0.858
+    },
+    {
+      "word": "is",
+      "start": 63.3,
+      "end": 63.62,
+      "probability": 0.002
+    },
+    {
+      "word": "mod",
+      "start": 63.62,
+      "end": 64.24,
+      "probability": 0.008
+    },
+    {
+      "word": "par",
+      "start": 64.24,
+      "end": 64.84,
+      "probability": 0.253
+    },
+    {
+      "word": "mil",
+      "start": 64.84,
+      "end": 65.44,
+      "probability": 0.063
+    },
+    {
+      "word": "gaye",
+      "start": 65.44,
+      "end": 66.2,
+      "probability": 0.956
+    },
+    {
+      "word": "(Ho",
+      "start": 66.2,
+      "end": 66.48,
+      "probability": 0.006
+    },
+    {
+      "word": "gaya",
+      "start": 66.48,
+      "end": 67.26,
+      "probability": 0.905
+    },
+    {
+      "word": "pyar",
+      "start": 67.26,
+      "end": 67.26,
+      "probability": 0.615
+    },
+    {
+      "word": "tumhein...",
+      "start": 67.26,
+      "end": 68.6,
+      "probability": 0.242
+    },
+    {
+      "word": "ho",
+      "start": 68.6,
+      "end": 69.12,
+      "probability": 0.012
+    },
+    {
+      "word": "gaya",
+      "start": 69.12,
+      "end": 69.7,
+      "probability": 0.981
+    },
+    {
+      "word": "pyar...)",
+      "start": 69.7,
+      "end": 71.15,
+      "probability": 0.648
+    },
+    {
+      "word": "Kaan",
+      "start": 72.08,
+      "end": 72.4,
+      "probability": 0.542
+    },
+    {
+      "word": "ki",
+      "start": 72.4,
+      "end": 72.52,
+      "probability": 0.92
+    },
+    {
+      "word": "baali",
+      "start": 72.52,
+      "end": 72.86,
+      "probability": 0.813
+    },
+    {
+      "word": "jab",
+      "start": 72.86,
+      "end": 73.14,
+      "probability": 0.959
+    },
+    {
+      "word": "hili",
+      "start": 73.14,
+      "end": 73.62,
+      "probability": 0.537
+    },
+    {
+      "word": "tumhari",
+      "start": 74.5,
+      "end": 75.16,
+      "probability": 0.308
+    },
+    {
+      "word": "Dhadkan",
+      "start": 75.16,
+      "end": 75.7,
+      "probability": 0.37
+    },
+    {
+      "word": "meri",
+      "start": 75.7,
+      "end": 76.18,
+      "probability": 0.689
+    },
+    {
+      "word": "bhi",
+      "start": 76.18,
+      "end": 76.52,
+      "probability": 0.842
+    },
+    {
+      "word": "tezz",
+      "start": 76.52,
+      "end": 77.28,
+      "probability": 0.09
+    },
+    {
+      "word": "hui",
+      "start": 77.28,
+      "end": 77.62,
+      "probability": 0.146
+    },
+    {
+      "word": "Bazaar",
+      "start": 77.62,
+      "end": 78.7,
+      "probability": 0.476
+    },
+    {
+      "word": "ki",
+      "start": 78.7,
+      "end": 78.94,
+      "probability": 0.803
+    },
+    {
+      "word": "rounak",
+      "start": 78.94,
+      "end": 79.56,
+      "probability": 0.18
+    },
+    {
+      "word": "phiki",
+      "start": 79.56,
+      "end": 79.96,
+      "probability": 0.019
+    },
+    {
+      "word": "lagi",
+      "start": 79.96,
+      "end": 80.46,
+      "probability": 0.008
+    },
+    {
+      "word": "Sirf",
+      "start": 80.88,
+      "end": 80.98,
+      "probability": 0.56
+    },
+    {
+      "word": "tumhari",
+      "start": 80.98,
+      "end": 81.82,
+      "probability": 0.686
+    },
+    {
+      "word": "aahat",
+      "start": 81.82,
+      "end": 82.52,
+      "probability": 0.221
+    },
+    {
+      "word": "azeez",
+      "start": 82.52,
+      "end": 83.02,
+      "probability": 0.212
+    },
+    {
+      "word": "hui",
+      "start": 83.02,
+      "end": 83.54,
+      "probability": 0.979
+    },
+    {
+      "word": "Mudh",
+      "start": 83.54,
+      "end": 84.08,
+      "probability": 0.024
+    },
+    {
+      "word": "ke",
+      "start": 84.08,
+      "end": 84.26,
+      "probability": 0.527
+    },
+    {
+      "word": "dekha",
+      "start": 84.26,
+      "end": 84.74,
+      "probability": 0.614
+    },
+    {
+      "word": "toh",
+      "start": 84.74,
+      "end": 85.08,
+      "probability": 0.438
+    },
+    {
+      "word": "tum",
+      "start": 85.08,
+      "end": 85.26,
+      "probability": 0.933
+    },
+    {
+      "word": "thi",
+      "start": 85.26,
+      "end": 85.48,
+      "probability": 0.176
+    },
+    {
+      "word": "samne",
+      "start": 85.48,
+      "end": 86.26,
+      "probability": 0.189
+    },
+    {
+      "word": "Jhulfein",
+      "start": 86.26,
+      "end": 87.36,
+      "probability": 0.292
+    },
+    {
+      "word": "hawa",
+      "start": 87.36,
+      "end": 87.6,
+      "probability": 0.7
+    },
+    {
+      "word": "mein",
+      "start": 87.6,
+      "end": 87.84,
+      "probability": 0.08
+    },
+    {
+      "word": "lehra",
+      "start": 87.84,
+      "end": 88.38,
+      "probability": 0.46
+    },
+    {
+      "word": "rahi",
+      "start": 88.38,
+      "end": 88.82,
+      "probability": 0.789
+    },
+    {
+      "word": "thi",
+      "start": 88.82,
+      "end": 89.14,
+      "probability": 0.859
+    },
+    {
+      "word": "Har",
+      "start": 89.14,
+      "end": 89.72,
+      "probability": 0.432
+    },
+    {
+      "word": "baat",
+      "start": 89.72,
+      "end": 90.34,
+      "probability": 0.688
+    },
+    {
+      "word": "jo",
+      "start": 90.34,
+      "end": 90.62,
+      "probability": 0.832
+    },
+    {
+      "word": "main",
+      "start": 90.62,
+      "end": 90.82,
+      "probability": 0.202
+    },
+    {
+      "word": "kehna",
+      "start": 90.82,
+      "end": 91.3,
+      "probability": 0.48
+    },
+    {
+      "word": "chahta",
+      "start": 91.3,
+      "end": 91.9,
+      "probability": 0.314
+    },
+    {
+      "word": "tha",
+      "start": 91.9,
+      "end": 92.2,
+      "probability": 0.925
+    },
+    {
+      "word": "Tumhari",
+      "start": 92.2,
+      "end": 92.98,
+      "probability": 0.642
+    },
+    {
+      "word": "ankhein",
+      "start": 92.98,
+      "end": 93.64,
+      "probability": 0.008
+    },
+    {
+      "word": "bata",
+      "start": 93.64,
+      "end": 94.1,
+      "probability": 0.539
+    },
+    {
+      "word": "rahi",
+      "start": 94.1,
+      "end": 94.74,
+      "probability": 0.953
+    },
+    {
+      "word": "thi",
+      "start": 94.74,
+      "end": 95.08,
+      "probability": 0.982
+    },
+    {
+      "word": "Ruk",
+      "start": 95.08,
+      "end": 95.54,
+      "probability": 0.447
+    },
+    {
+      "word": "gayi",
+      "start": 95.54,
+      "end": 96.18,
+      "probability": 0.446
+    },
+    {
+      "word": "hawa,",
+      "start": 96.18,
+      "end": 96.98,
+      "probability": 0.537
+    },
+    {
+      "word": "thak",
+      "start": 97.12,
+      "end": 97.34,
+      "probability": 0.541
+    },
+    {
+      "word": "gaya",
+      "start": 97.34,
+      "end": 97.78,
+      "probability": 0.595
+    },
+    {
+      "word": "samaa",
+      "start": 97.78,
+      "end": 98.6,
+      "probability": 0.108
+    },
+    {
+      "word": "Ek",
+      "start": 98.6,
+      "end": 98.7,
+      "probability": 0.002
+    },
+    {
+      "word": "hi",
+      "start": 98.7,
+      "end": 98.86,
+      "probability": 0.513
+    },
+    {
+      "word": "pal",
+      "start": 98.86,
+      "end": 99.12,
+      "probability": 0.0
+    },
+    {
+      "word": "mein",
+      "start": 99.12,
+      "end": 99.48,
+      "probability": 0.536
+    },
+    {
+      "word": "badla",
+      "start": 99.48,
+      "end": 100.4,
+      "probability": 0.381
+    },
+    {
+      "word": "jahan",
+      "start": 100.4,
+      "end": 100.88,
+      "probability": 0.097
+    },
+    {
+      "word": "Sunno",
+      "start": 100.88,
+      "end": 102.06,
+      "probability": 0.062
+    },
+    {
+      "word": "na...",
+      "start": 102.06,
+      "end": 103.16,
+      "probability": 0.271
+    },
+    {
+      "word": "Aaine",
+      "start": 105.56,
+      "end": 107.36,
+      "probability": 0.0
+    },
+    {
+      "word": "mein",
+      "start": 107.36,
+      "end": 108.22,
+      "probability": 0.04
+    },
+    {
+      "word": "dekha",
+      "start": 108.22,
+      "end": 109.02,
+      "probability": 0.377
+    },
+    {
+      "word": "pehli",
+      "start": 109.02,
+      "end": 109.7,
+      "probability": 0.589
+    },
+    {
+      "word": "baar",
+      "start": 109.7,
+      "end": 110.9,
+      "probability": 0.106
+    },
+    {
+      "word": "tumhein",
+      "start": 110.9,
+      "end": 111.72,
+      "probability": 0.005
+    },
+    {
+      "word": "Ho",
+      "start": 111.72,
+      "end": 112.96,
+      "probability": 0.0
+    },
+    {
+      "word": "gaya",
+      "start": 112.96,
+      "end": 113.64,
+      "probability": 0.548
+    },
+    {
+      "word": "pehli",
+      "start": 113.64,
+      "end": 114.74,
+      "probability": 0.72
+    },
+    {
+      "word": "nazar",
+      "start": 114.74,
+      "end": 115.22,
+      "probability": 0.637
+    },
+    {
+      "word": "mein",
+      "start": 115.22,
+      "end": 115.56,
+      "probability": 0.587
+    },
+    {
+      "word": "pyar",
+      "start": 115.56,
+      "end": 116.66,
+      "probability": 0.466
+    },
+    {
+      "word": "tumhein",
+      "start": 116.66,
+      "end": 117.7,
+      "probability": 0.919
+    },
+    {
+      "word": "Dhanak",
+      "start": 117.7,
+      "end": 118.36,
+      "probability": 0.448
+    },
+    {
+      "word": "se",
+      "start": 118.36,
+      "end": 118.58,
+      "probability": 0.449
+    },
+    {
+      "word": "rang",
+      "start": 118.58,
+      "end": 119.0,
+      "probability": 0.388
+    },
+    {
+      "word": "sab",
+      "start": 119.0,
+      "end": 119.7,
+      "probability": 0.003
+    },
+    {
+      "word": "khil",
+      "start": 119.7,
+      "end": 120.38,
+      "probability": 0.482
+    },
+    {
+      "word": "gaye",
+      "start": 120.38,
+      "end": 121.02,
+      "probability": 0.468
+    },
+    {
+      "word": "Jab",
+      "start": 121.02,
+      "end": 121.18,
+      "probability": 0.148
+    },
+    {
+      "word": "se",
+      "start": 121.18,
+      "end": 121.56,
+      "probability": 0.812
+    },
+    {
+      "word": "hum",
+      "start": 121.56,
+      "end": 121.86,
+      "probability": 0.877
+    },
+    {
+      "word": "is",
+      "start": 121.86,
+      "end": 122.18,
+      "probability": 0.041
+    },
+    {
+      "word": "mod",
+      "start": 122.18,
+      "end": 122.84,
+      "probability": 0.0
+    },
+    {
+      "word": "par",
+      "start": 122.84,
+      "end": 123.38,
+      "probability": 0.34
+    },
+    {
+      "word": "mil",
+      "start": 129.03,
+      "end": 130.88,
+      "probability": 0.0
+    },
+    {
+      "word": "gaye",
+      "start": 130.88,
+      "end": 130.88,
+      "probability": 0.116
+    },
+    {
+      "word": "Ab",
+      "start": 130.88,
+      "end": 130.88,
+      "probability": 0.0
+    },
+    {
+      "word": "na",
+      "start": 130.88,
+      "end": 131.18,
+      "probability": 0.598
+    },
+    {
+      "word": "koi",
+      "start": 131.18,
+      "end": 131.68,
+      "probability": 0.849
+    },
+    {
+      "word": "rasta",
+      "start": 131.68,
+      "end": 132.42,
+      "probability": 0.861
+    },
+    {
+      "word": "yaad",
+      "start": 132.44,
+      "end": 133.26,
+      "probability": 0.629
+    },
+    {
+      "word": "rahe",
+      "start": 133.26,
+      "end": 134.08,
+      "probability": 0.929
+    },
+    {
+      "word": "Bus",
+      "start": 134.08,
+      "end": 136.82,
+      "probability": 0.002
+    },
+    {
+      "word": "tera",
+      "start": 136.82,
+      "end": 137.32,
+      "probability": 0.657
+    },
+    {
+      "word": "hi",
+      "start": 137.32,
+      "end": 137.68,
+      "probability": 0.874
+    },
+    {
+      "word": "rasta",
+      "start": 137.68,
+      "end": 138.16,
+      "probability": 0.985
+    },
+    {
+      "word": "yaad",
+      "start": 138.16,
+      "end": 139.08,
+      "probability": 0.984
+    },
+    {
+      "word": "rahe",
+      "start": 139.08,
+      "end": 140.22,
+      "probability": 0.996
+    },
+    {
+      "word": "Sitar",
+      "start": 141.2,
+      "end": 142.6,
+      "probability": 0.457
+    },
+    {
+      "word": "ki",
+      "start": 142.6,
+      "end": 142.92,
+      "probability": 0.884
+    },
+    {
+      "word": "taar",
+      "start": 142.92,
+      "end": 143.46,
+      "probability": 0.591
+    },
+    {
+      "word": "jaisi",
+      "start": 143.46,
+      "end": 144.08,
+      "probability": 0.526
+    },
+    {
+      "word": "bajti",
+      "start": 144.08,
+      "end": 144.64,
+      "probability": 0.26
+    },
+    {
+      "word": "hai",
+      "start": 144.64,
+      "end": 144.88,
+      "probability": 0.781
+    },
+    {
+      "word": "Meri",
+      "start": 144.88,
+      "end": 145.68,
+      "probability": 0.601
+    },
+    {
+      "word": "saanson",
+      "start": 145.68,
+      "end": 146.2,
+      "probability": 0.165
+    },
+    {
+      "word": "mein",
+      "start": 146.2,
+      "end": 146.72,
+      "probability": 0.687
+    },
+    {
+      "word": "ab",
+      "start": 146.72,
+      "end": 147.04,
+      "probability": 0.898
+    },
+    {
+      "word": "teri",
+      "start": 147.04,
+      "end": 147.68,
+      "probability": 0.701
+    },
+    {
+      "word": "sada",
+      "start": 147.68,
+      "end": 148.26,
+      "probability": 0.681
+    },
+    {
+      "word": "(Meri",
+      "start": 148.26,
+      "end": 148.46,
+      "probability": 0.102
+    },
+    {
+      "word": "saanson",
+      "start": 148.46,
+      "end": 149.22,
+      "probability": 0.884
+    },
+    {
+      "word": "mein",
+      "start": 149.22,
+      "end": 149.64,
+      "probability": 0.958
+    },
+    {
+      "word": "teri",
+      "start": 149.64,
+      "end": 150.5,
+      "probability": 0.5
+    },
+    {
+      "word": "sada...)",
+      "start": 150.74,
+      "end": 152.5,
+      "probability": 0.11
+    },
+    {
+      "word": "Aaine",
+      "start": 152.5,
+      "end": 154.18,
+      "probability": 0.0
+    },
+    {
+      "word": "mein",
+      "start": 154.18,
+      "end": 154.68,
+      "probability": 0.004
+    },
+    {
+      "word": "dekha",
+      "start": 154.68,
+      "end": 155.86,
+      "probability": 0.407
+    },
+    {
+      "word": "pehli",
+      "start": 155.86,
+      "end": 156.54,
+      "probability": 0.521
+    },
+    {
+      "word": "baar",
+      "start": 156.54,
+      "end": 157.68,
+      "probability": 0.021
+    },
+    {
+      "word": "tumhein",
+      "start": 157.68,
+      "end": 158.58,
+      "probability": 0.001
+    },
+    {
+      "word": "Ho",
+      "start": 158.58,
+      "end": 159.86,
+      "probability": 0.0
+    },
+    {
+      "word": "gaya",
+      "start": 159.86,
+      "end": 160.72,
+      "probability": 0.207
+    },
+    {
+      "word": "pehli",
+      "start": 160.72,
+      "end": 161.54,
+      "probability": 0.848
+    },
+    {
+      "word": "nazar",
+      "start": 161.54,
+      "end": 162.08,
+      "probability": 0.609
+    },
+    {
+      "word": "mein",
+      "start": 162.08,
+      "end": 162.38,
+      "probability": 0.035
+    },
+    {
+      "word": "pyar",
+      "start": 162.38,
+      "end": 163.46,
+      "probability": 0.441
+    },
+    {
+      "word": "tumhein",
+      "start": 163.46,
+      "end": 164.46,
+      "probability": 0.814
+    },
+    {
+      "word": "Dhanak",
+      "start": 164.46,
+      "end": 165.16,
+      "probability": 0.013
+    },
+    {
+      "word": "se",
+      "start": 165.16,
+      "end": 165.38,
+      "probability": 0.402
+    },
+    {
+      "word": "rang",
+      "start": 165.38,
+      "end": 165.86,
+      "probability": 0.117
+    },
+    {
+      "word": "sab",
+      "start": 165.86,
+      "end": 166.54,
+      "probability": 0.001
+    },
+    {
+      "word": "khil",
+      "start": 166.54,
+      "end": 167.18,
+      "probability": 0.227
+    },
+    {
+      "word": "gaye",
+      "start": 167.18,
+      "end": 167.72,
+      "probability": 0.285
+    },
+    {
+      "word": "Jab",
+      "start": 167.72,
+      "end": 168.0,
+      "probability": 0.0
+    },
+    {
+      "word": "se",
+      "start": 168.0,
+      "end": 168.38,
+      "probability": 0.83
+    },
+    {
+      "word": "hum",
+      "start": 168.38,
+      "end": 168.66,
+      "probability": 0.231
+    },
+    {
+      "word": "is",
+      "start": 168.66,
+      "end": 168.96,
+      "probability": 0.001
+    },
+    {
+      "word": "mod",
+      "start": 168.96,
+      "end": 169.6,
+      "probability": 0.001
+    },
+    {
+      "word": "par",
+      "start": 169.6,
+      "end": 170.36,
+      "probability": 0.005
+    },
+    {
+      "word": "mil",
+      "start": 170.36,
+      "end": 170.58,
+      "probability": 0.0
+    },
+    {
+      "word": "gaye",
+      "start": 170.58,
+      "end": 171.42,
+      "probability": 0.487
+    },
+    {
+      "word": "Pehli",
+      "start": 171.42,
+      "end": 172.0,
+      "probability": 0.661
+    },
+    {
+      "word": "nazar",
+      "start": 172.0,
+      "end": 172.52,
+      "probability": 0.931
+    },
+    {
+      "word": "mein...",
+      "start": 172.52,
+      "end": 172.94,
+      "probability": 0.163
+    },
+    {
+      "word": "(Pehli",
+      "start": 172.94,
+      "end": 173.0,
+      "probability": 0.259
+    },
+    {
+      "word": "nazar",
+      "start": 173.0,
+      "end": 173.0,
+      "probability": 0.787
+    },
+    {
+      "word": "mein...)",
+      "start": 173.0,
+      "end": 173.02,
+      "probability": 0.513
+    },
+    {
+      "word": "Pehli",
+      "start": 173.02,
+      "end": 173.16,
+      "probability": 0.701
+    },
+    {
+      "word": "nazar",
+      "start": 173.16,
+      "end": 173.16,
+      "probability": 0.978
+    },
+    {
+      "word": "mein",
+      "start": 173.16,
+      "end": 173.16,
+      "probability": 0.734
+    },
+    {
+      "word": "pyar",
+      "start": 173.16,
+      "end": 173.2,
+      "probability": 0.496
+    },
+    {
+      "word": "tumhein...",
+      "start": 173.2,
+      "end": 173.3,
+      "probability": 0.698
+    },
+    {
+      "word": "Pehli",
+      "start": 175.14,
+      "end": 175.64,
+      "probability": 0.824
+    },
+    {
+      "word": "nazar",
+      "start": 175.64,
+      "end": 176.32,
+      "probability": 0.985
+    },
+    {
+      "word": "mein...",
+      "start": 176.32,
+      "end": 177.54,
+      "probability": 0.669
+    }
+  ],
+  "segments": [
+    {
+      "start": 7.58,
+      "end": 8.2,
+      "text": " (Rabba...",
+      "seek": null,
+      "tokens": [
+        522,
+        49,
+        455,
+        4231,
+        485
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " (Rabba...",
+          "start": 7.58,
+          "end": 8.2,
+          "probability": 0.0029571715771453456,
+          "tokens": [
+            522,
+            49,
+            455,
+            4231,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "start": 8.54,
+      "end": 11.1,
+      "text": " oh Rabba...)",
+      "seek": null,
+      "tokens": [
+        1954,
+        16781,
+        4231,
+        10050
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " oh",
+          "start": 8.54,
+          "end": 8.54,
+          "probability": 4.804618583875708e-05,
+          "tokens": [
+            1954
+          ]
+        },
+        {
+          "word": " Rabba...)",
+          "start": 8.54,
+          "end": 11.1,
+          "probability": 0.4003889509137177,
+          "tokens": [
+            16781,
+            4231,
+            10050
+          ]
+        }
+      ]
+    },
+    {
+      "start": 12.36,
+      "end": 18.31,
+      "text": " Tang galiyon ki is bheed mein Pao mere thak se gaye the Puranay",
+      "seek": null,
+      "tokens": [
+        22063,
+        7660,
+        4727,
+        266,
+        6315,
+        307,
+        272,
+        675,
+        292,
+        10777,
+        3426,
+        78,
+        8401,
+        258,
+        514,
+        369,
+        9049,
+        68,
+        264,
+        430,
+        12125,
+        320
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Tang",
+          "start": 12.36,
+          "end": 12.38,
+          "probability": 9.490292723057792e-05,
+          "tokens": [
+            22063
+          ]
+        },
+        {
+          "word": " galiyon",
+          "start": 12.38,
+          "end": 13.1,
+          "probability": 0.2457595641996401,
+          "tokens": [
+            7660,
+            4727,
+            266
+          ]
+        },
+        {
+          "word": " ki",
+          "start": 13.1,
+          "end": 13.32,
+          "probability": 0.9353768229484558,
+          "tokens": [
+            6315
+          ]
+        },
+        {
+          "word": " is",
+          "start": 13.32,
+          "end": 13.62,
+          "probability": 0.5991961359977722,
+          "tokens": [
+            307
+          ]
+        },
+        {
+          "word": " bheed",
+          "start": 13.62,
+          "end": 14.32,
+          "probability": 0.4727364592254162,
+          "tokens": [
+            272,
+            675,
+            292
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 14.32,
+          "end": 14.56,
+          "probability": 0.4007229804992676,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " Pao",
+          "start": 14.56,
+          "end": 15.56,
+          "probability": 0.40937450528144836,
+          "tokens": [
+            3426,
+            78
+          ]
+        },
+        {
+          "word": " mere",
+          "start": 15.56,
+          "end": 15.94,
+          "probability": 0.9608142375946045,
+          "tokens": [
+            8401
+          ]
+        },
+        {
+          "word": " thak",
+          "start": 15.94,
+          "end": 16.42,
+          "probability": 0.7952693104743958,
+          "tokens": [
+            258,
+            514
+          ]
+        },
+        {
+          "word": " se",
+          "start": 16.42,
+          "end": 16.72,
+          "probability": 0.8671218752861023,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 16.72,
+          "end": 17.22,
+          "probability": 0.6973343193531036,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " the",
+          "start": 17.22,
+          "end": 17.36,
+          "probability": 0.33971577882766724,
+          "tokens": [
+            264
+          ]
+        },
+        {
+          "word": " Puranay",
+          "start": 17.36,
+          "end": 18.31,
+          "probability": 0.1886919429525733,
+          "tokens": [
+            430,
+            12125,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "start": 18.34,
+      "end": 24.06,
+      "text": " sheeshe ki aik dukan par Kadam achanak ruk se gaye the Kaanch",
+      "seek": null,
+      "tokens": [
+        750,
+        279,
+        675,
+        6315,
+        37537,
+        1581,
+        5225,
+        971,
+        32248,
+        335,
+        2800,
+        282,
+        514,
+        367,
+        2034,
+        369,
+        9049,
+        68,
+        264,
+        10988,
+        4778
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " sheeshe",
+          "start": 18.34,
+          "end": 18.92,
+          "probability": 0.4529481331507365,
+          "tokens": [
+            750,
+            279,
+            675
+          ]
+        },
+        {
+          "word": " ki",
+          "start": 18.92,
+          "end": 19.1,
+          "probability": 0.8820379972457886,
+          "tokens": [
+            6315
+          ]
+        },
+        {
+          "word": " aik",
+          "start": 19.1,
+          "end": 19.38,
+          "probability": 0.0007200220134109259,
+          "tokens": [
+            37537
+          ]
+        },
+        {
+          "word": " dukan",
+          "start": 19.38,
+          "end": 20.06,
+          "probability": 0.3571098893880844,
+          "tokens": [
+            1581,
+            5225
+          ]
+        },
+        {
+          "word": " par",
+          "start": 20.06,
+          "end": 20.28,
+          "probability": 0.713434100151062,
+          "tokens": [
+            971
+          ]
+        },
+        {
+          "word": " Kadam",
+          "start": 20.28,
+          "end": 20.9,
+          "probability": 0.40081661380827427,
+          "tokens": [
+            32248,
+            335
+          ]
+        },
+        {
+          "word": " achanak",
+          "start": 20.9,
+          "end": 21.94,
+          "probability": 0.3928227871656418,
+          "tokens": [
+            2800,
+            282,
+            514
+          ]
+        },
+        {
+          "word": " ruk",
+          "start": 21.94,
+          "end": 22.22,
+          "probability": 0.776470959186554,
+          "tokens": [
+            367,
+            2034
+          ]
+        },
+        {
+          "word": " se",
+          "start": 22.22,
+          "end": 22.56,
+          "probability": 0.6800467371940613,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 22.56,
+          "end": 23.08,
+          "probability": 0.9365550875663757,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " the",
+          "start": 23.08,
+          "end": 23.32,
+          "probability": 0.9731613397598267,
+          "tokens": [
+            264
+          ]
+        },
+        {
+          "word": " Kaanch",
+          "start": 23.32,
+          "end": 24.06,
+          "probability": 0.22600599052384496,
+          "tokens": [
+            10988,
+            4778
+          ]
+        }
+      ]
+    },
+    {
+      "start": 24.06,
+      "end": 30.06,
+      "text": " ke tukde par chamki nazar Aks tumhara wahan dikha Mudh ke",
+      "seek": null,
+      "tokens": [
+        803,
+        256,
+        2034,
+        1479,
+        971,
+        8268,
+        2984,
+        20151,
+        289,
+        316,
+        1694,
+        13102,
+        71,
+        2419,
+        261,
+        21436,
+        1026,
+        74,
+        1641,
+        39231,
+        71,
+        803
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " ke",
+          "start": 24.06,
+          "end": 24.2,
+          "probability": 0.21520346403121948,
+          "tokens": [
+            803
+          ]
+        },
+        {
+          "word": " tukde",
+          "start": 24.2,
+          "end": 24.74,
+          "probability": 0.5332975387573242,
+          "tokens": [
+            256,
+            2034,
+            1479
+          ]
+        },
+        {
+          "word": " par",
+          "start": 24.74,
+          "end": 24.92,
+          "probability": 0.8571956157684326,
+          "tokens": [
+            971
+          ]
+        },
+        {
+          "word": " chamki",
+          "start": 24.92,
+          "end": 25.48,
+          "probability": 0.3233088329434395,
+          "tokens": [
+            8268,
+            2984
+          ]
+        },
+        {
+          "word": " nazar",
+          "start": 25.48,
+          "end": 25.98,
+          "probability": 0.6359926164150238,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " Aks",
+          "start": 25.98,
+          "end": 26.46,
+          "probability": 0.30961166578345,
+          "tokens": [
+            316,
+            1694
+          ]
+        },
+        {
+          "word": " tumhara",
+          "start": 26.46,
+          "end": 27.72,
+          "probability": 0.4920607314755519,
+          "tokens": [
+            13102,
+            71,
+            2419
+          ]
+        },
+        {
+          "word": " wahan",
+          "start": 27.72,
+          "end": 28.22,
+          "probability": 0.14289593137800694,
+          "tokens": [
+            261,
+            21436
+          ]
+        },
+        {
+          "word": " dikha",
+          "start": 28.22,
+          "end": 28.96,
+          "probability": 0.5925779305398464,
+          "tokens": [
+            1026,
+            74,
+            1641
+          ]
+        },
+        {
+          "word": " Mudh",
+          "start": 28.96,
+          "end": 29.94,
+          "probability": 0.008875649931724183,
+          "tokens": [
+            39231,
+            71
+          ]
+        },
+        {
+          "word": " ke",
+          "start": 29.94,
+          "end": 30.06,
+          "probability": 0.6543549299240112,
+          "tokens": [
+            803
+          ]
+        }
+      ]
+    },
+    {
+      "start": 30.06,
+      "end": 38.38,
+      "text": " dekha na tha abhi tak Par dil mera wahi bik gaya Ruk gayi hawa,",
+      "seek": null,
+      "tokens": [
+        368,
+        74,
+        1641,
+        1667,
+        43614,
+        410,
+        4954,
+        991,
+        3457,
+        11504,
+        275,
+        1663,
+        261,
+        27783,
+        26730,
+        290,
+        4427,
+        497,
+        2034,
+        9049,
+        72,
+        324,
+        4151,
+        11
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " dekha",
+          "start": 30.06,
+          "end": 30.64,
+          "probability": 0.6523573597272238,
+          "tokens": [
+            368,
+            74,
+            1641
+          ]
+        },
+        {
+          "word": " na",
+          "start": 30.64,
+          "end": 30.78,
+          "probability": 0.5571847558021545,
+          "tokens": [
+            1667
+          ]
+        },
+        {
+          "word": " tha",
+          "start": 30.78,
+          "end": 31.04,
+          "probability": 0.9523923397064209,
+          "tokens": [
+            43614
+          ]
+        },
+        {
+          "word": " abhi",
+          "start": 31.04,
+          "end": 31.58,
+          "probability": 0.0050920833600685,
+          "tokens": [
+            410,
+            4954
+          ]
+        },
+        {
+          "word": " tak",
+          "start": 31.58,
+          "end": 31.72,
+          "probability": 0.821443498134613,
+          "tokens": [
+            991
+          ]
+        },
+        {
+          "word": " Par",
+          "start": 31.82,
+          "end": 32.14,
+          "probability": 0.004844040609896183,
+          "tokens": [
+            3457
+          ]
+        },
+        {
+          "word": " dil",
+          "start": 32.14,
+          "end": 32.48,
+          "probability": 0.826683521270752,
+          "tokens": [
+            11504
+          ]
+        },
+        {
+          "word": " mera",
+          "start": 32.48,
+          "end": 33.04,
+          "probability": 0.5323116108775139,
+          "tokens": [
+            275,
+            1663
+          ]
+        },
+        {
+          "word": " wahi",
+          "start": 33.04,
+          "end": 33.6,
+          "probability": 0.4764090128010139,
+          "tokens": [
+            261,
+            27783
+          ]
+        },
+        {
+          "word": " bik",
+          "start": 33.6,
+          "end": 34.16,
+          "probability": 0.07105763256549835,
+          "tokens": [
+            26730
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 34.16,
+          "end": 34.88,
+          "probability": 0.7025717347860336,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " Ruk",
+          "start": 34.88,
+          "end": 37.0,
+          "probability": 0.5718921944499016,
+          "tokens": [
+            497,
+            2034
+          ]
+        },
+        {
+          "word": " gayi",
+          "start": 37.1,
+          "end": 37.64,
+          "probability": 0.4520018116927531,
+          "tokens": [
+            9049,
+            72
+          ]
+        },
+        {
+          "word": " hawa,",
+          "start": 37.64,
+          "end": 38.38,
+          "probability": 0.35972743978103,
+          "tokens": [
+            324,
+            4151,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "start": 38.38,
+      "end": 44.64,
+      "text": " thak gaya samaa Ek hi pal mein badla jahan Sunno na...",
+      "seek": null,
+      "tokens": [
+        258,
+        514,
+        290,
+        4427,
+        17768,
+        64,
+        33089,
+        4879,
+        3984,
+        10777,
+        1578,
+        875,
+        361,
+        21436,
+        6163,
+        1771,
+        1667,
+        485
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " thak",
+          "start": 38.38,
+          "end": 38.82,
+          "probability": 0.518665011972189,
+          "tokens": [
+            258,
+            514
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 38.82,
+          "end": 39.18,
+          "probability": 0.5311090797185898,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " samaa",
+          "start": 39.18,
+          "end": 40.04,
+          "probability": 0.05473596416413784,
+          "tokens": [
+            17768,
+            64
+          ]
+        },
+        {
+          "word": " Ek",
+          "start": 40.04,
+          "end": 40.18,
+          "probability": 0.0015066959895193577,
+          "tokens": [
+            33089
+          ]
+        },
+        {
+          "word": " hi",
+          "start": 40.18,
+          "end": 40.32,
+          "probability": 0.5467873215675354,
+          "tokens": [
+            4879
+          ]
+        },
+        {
+          "word": " pal",
+          "start": 40.32,
+          "end": 40.58,
+          "probability": 0.9340634346008301,
+          "tokens": [
+            3984
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 40.58,
+          "end": 40.92,
+          "probability": 0.7410798072814941,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " badla",
+          "start": 40.92,
+          "end": 41.88,
+          "probability": 0.1945836329832673,
+          "tokens": [
+            1578,
+            875
+          ]
+        },
+        {
+          "word": " jahan",
+          "start": 41.88,
+          "end": 42.34,
+          "probability": 0.07655085623264313,
+          "tokens": [
+            361,
+            21436
+          ]
+        },
+        {
+          "word": " Sunno",
+          "start": 42.34,
+          "end": 43.54,
+          "probability": 0.2704370766878128,
+          "tokens": [
+            6163,
+            1771
+          ]
+        },
+        {
+          "word": " na...",
+          "start": 43.54,
+          "end": 44.64,
+          "probability": 0.4502655677497387,
+          "tokens": [
+            1667,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "start": 46.36,
+      "end": 56.22,
+      "text": " Aaine mein dekha pehli baar tumhein Ho gaya pehli",
+      "seek": null,
+      "tokens": [
+        316,
+        7119,
+        10777,
+        368,
+        74,
+        1641,
+        520,
+        71,
+        2081,
+        4773,
+        289,
+        13102,
+        44448,
+        3631,
+        290,
+        4427,
+        520,
+        71,
+        2081
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Aaine",
+          "start": 46.36,
+          "end": 48.78,
+          "probability": 3.696490966831334e-05,
+          "tokens": [
+            316,
+            7119
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 48.78,
+          "end": 49.3,
+          "probability": 0.014954150654375553,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " dekha",
+          "start": 49.3,
+          "end": 50.48,
+          "probability": 0.3738733747353156,
+          "tokens": [
+            368,
+            74,
+            1641
+          ]
+        },
+        {
+          "word": " pehli",
+          "start": 50.48,
+          "end": 51.14,
+          "probability": 0.5145592739184698,
+          "tokens": [
+            520,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " baar",
+          "start": 51.14,
+          "end": 52.36,
+          "probability": 0.43936965614557266,
+          "tokens": [
+            4773,
+            289
+          ]
+        },
+        {
+          "word": " tumhein",
+          "start": 52.36,
+          "end": 53.36,
+          "probability": 0.21254981550737284,
+          "tokens": [
+            13102,
+            44448
+          ]
+        },
+        {
+          "word": " Ho",
+          "start": 53.36,
+          "end": 54.56,
+          "probability": 0.00029418960912153125,
+          "tokens": [
+            3631
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 54.56,
+          "end": 55.14,
+          "probability": 0.7580288052558899,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " pehli",
+          "start": 55.14,
+          "end": 56.22,
+          "probability": 0.7595379451910654,
+          "tokens": [
+            520,
+            71,
+            2081
+          ]
+        }
+      ]
+    },
+    {
+      "start": 56.22,
+      "end": 62.66,
+      "text": " nazar mein pyar tumhein Dhanak se rang sab khil gaye Jab",
+      "seek": null,
+      "tokens": [
+        20151,
+        289,
+        10777,
+        10664,
+        289,
+        13102,
+        44448,
+        413,
+        3451,
+        514,
+        369,
+        32434,
+        5560,
+        7168,
+        388,
+        9049,
+        68,
+        40319
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " nazar",
+          "start": 56.22,
+          "end": 56.72,
+          "probability": 0.6042827665805817,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 56.72,
+          "end": 57.02,
+          "probability": 0.8825544118881226,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " pyar",
+          "start": 57.02,
+          "end": 58.1,
+          "probability": 0.4794227937236428,
+          "tokens": [
+            10664,
+            289
+          ]
+        },
+        {
+          "word": " tumhein",
+          "start": 58.1,
+          "end": 59.08,
+          "probability": 0.8970483243465424,
+          "tokens": [
+            13102,
+            44448
+          ]
+        },
+        {
+          "word": " Dhanak",
+          "start": 59.08,
+          "end": 59.82,
+          "probability": 0.6018878817558289,
+          "tokens": [
+            413,
+            3451,
+            514
+          ]
+        },
+        {
+          "word": " se",
+          "start": 59.82,
+          "end": 60.06,
+          "probability": 0.738339900970459,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " rang",
+          "start": 60.06,
+          "end": 60.46,
+          "probability": 0.2612123191356659,
+          "tokens": [
+            32434
+          ]
+        },
+        {
+          "word": " sab",
+          "start": 60.46,
+          "end": 61.26,
+          "probability": 0.16178126633167267,
+          "tokens": [
+            5560
+          ]
+        },
+        {
+          "word": " khil",
+          "start": 61.26,
+          "end": 61.84,
+          "probability": 0.529341347515583,
+          "tokens": [
+            7168,
+            388
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 61.84,
+          "end": 62.44,
+          "probability": 0.5774547085165977,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " Jab",
+          "start": 62.44,
+          "end": 62.66,
+          "probability": 0.22690878808498383,
+          "tokens": [
+            40319
+          ]
+        }
+      ]
+    },
+    {
+      "start": 62.66,
+      "end": 68.6,
+      "text": " se hum is mod par mil gaye (Ho gaya pyar tumhein...",
+      "seek": null,
+      "tokens": [
+        369,
+        1484,
+        307,
+        1072,
+        971,
+        1962,
+        9049,
+        68,
+        522,
+        35633,
+        290,
+        4427,
+        10664,
+        289,
+        13102,
+        44448,
+        485
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " se",
+          "start": 62.66,
+          "end": 63.0,
+          "probability": 0.8199405670166016,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " hum",
+          "start": 63.0,
+          "end": 63.3,
+          "probability": 0.8576610088348389,
+          "tokens": [
+            1484
+          ]
+        },
+        {
+          "word": " is",
+          "start": 63.3,
+          "end": 63.62,
+          "probability": 0.001522642676718533,
+          "tokens": [
+            307
+          ]
+        },
+        {
+          "word": " mod",
+          "start": 63.62,
+          "end": 64.24,
+          "probability": 0.008153717964887619,
+          "tokens": [
+            1072
+          ]
+        },
+        {
+          "word": " par",
+          "start": 64.24,
+          "end": 64.84,
+          "probability": 0.2527081072330475,
+          "tokens": [
+            971
+          ]
+        },
+        {
+          "word": " mil",
+          "start": 64.84,
+          "end": 65.44,
+          "probability": 0.06325610727071762,
+          "tokens": [
+            1962
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 65.44,
+          "end": 66.2,
+          "probability": 0.9564946889877319,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " (Ho",
+          "start": 66.2,
+          "end": 66.48,
+          "probability": 0.006260209163883701,
+          "tokens": [
+            522,
+            35633
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 66.48,
+          "end": 67.26,
+          "probability": 0.9048399329185486,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " pyar",
+          "start": 67.26,
+          "end": 67.26,
+          "probability": 0.6145862638950348,
+          "tokens": [
+            10664,
+            289
+          ]
+        },
+        {
+          "word": " tumhein...",
+          "start": 67.26,
+          "end": 68.6,
+          "probability": 0.2422650432175336,
+          "tokens": [
+            13102,
+            44448,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "start": 68.6,
+      "end": 71.15,
+      "text": " ho gaya pyar...)",
+      "seek": null,
+      "tokens": [
+        1106,
+        290,
+        4427,
+        10664,
+        289,
+        10050
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " ho",
+          "start": 68.6,
+          "end": 69.12,
+          "probability": 0.011842363514006138,
+          "tokens": [
+            1106
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 69.12,
+          "end": 69.7,
+          "probability": 0.9810105264186859,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " pyar...)",
+          "start": 69.7,
+          "end": 71.15,
+          "probability": 0.6476869899779558,
+          "tokens": [
+            10664,
+            289,
+            10050
+          ]
+        }
+      ]
+    },
+    {
+      "start": 72.08,
+      "end": 73.62,
+      "text": " Kaan ki baali jab hili",
+      "seek": null,
+      "tokens": [
+        10988,
+        282,
+        6315,
+        4773,
+        5103,
+        33475,
+        276,
+        2312
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Kaan",
+          "start": 72.08,
+          "end": 72.4,
+          "probability": 0.5422323942184448,
+          "tokens": [
+            10988,
+            282
+          ]
+        },
+        {
+          "word": " ki",
+          "start": 72.4,
+          "end": 72.52,
+          "probability": 0.9202370643615723,
+          "tokens": [
+            6315
+          ]
+        },
+        {
+          "word": " baali",
+          "start": 72.52,
+          "end": 72.86,
+          "probability": 0.8126748204231262,
+          "tokens": [
+            4773,
+            5103
+          ]
+        },
+        {
+          "word": " jab",
+          "start": 72.86,
+          "end": 73.14,
+          "probability": 0.9588316082954407,
+          "tokens": [
+            33475
+          ]
+        },
+        {
+          "word": " hili",
+          "start": 73.14,
+          "end": 73.62,
+          "probability": 0.5367386043071747,
+          "tokens": [
+            276,
+            2312
+          ]
+        }
+      ]
+    },
+    {
+      "start": 74.5,
+      "end": 79.96,
+      "text": " tumhari Dhadkan meri bhi tezz hui Bazaar ki rounak phiki",
+      "seek": null,
+      "tokens": [
+        13102,
+        71,
+        3504,
+        413,
+        26326,
+        5225,
+        3551,
+        72,
+        272,
+        4954,
+        535,
+        4313,
+        2137,
+        72,
+        363,
+        12257,
+        289,
+        6315,
+        367,
+        1733,
+        514,
+        903,
+        9850
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " tumhari",
+          "start": 74.5,
+          "end": 75.16,
+          "probability": 0.3080359681722105,
+          "tokens": [
+            13102,
+            71,
+            3504
+          ]
+        },
+        {
+          "word": " Dhadkan",
+          "start": 75.16,
+          "end": 75.7,
+          "probability": 0.3704795370440479,
+          "tokens": [
+            413,
+            26326,
+            5225
+          ]
+        },
+        {
+          "word": " meri",
+          "start": 75.7,
+          "end": 76.18,
+          "probability": 0.6889282464981079,
+          "tokens": [
+            3551,
+            72
+          ]
+        },
+        {
+          "word": " bhi",
+          "start": 76.18,
+          "end": 76.52,
+          "probability": 0.8424628674983978,
+          "tokens": [
+            272,
+            4954
+          ]
+        },
+        {
+          "word": " tezz",
+          "start": 76.52,
+          "end": 77.28,
+          "probability": 0.08988136099651456,
+          "tokens": [
+            535,
+            4313
+          ]
+        },
+        {
+          "word": " hui",
+          "start": 77.28,
+          "end": 77.62,
+          "probability": 0.1461123483022675,
+          "tokens": [
+            2137,
+            72
+          ]
+        },
+        {
+          "word": " Bazaar",
+          "start": 77.62,
+          "end": 78.7,
+          "probability": 0.47582728167374927,
+          "tokens": [
+            363,
+            12257,
+            289
+          ]
+        },
+        {
+          "word": " ki",
+          "start": 78.7,
+          "end": 78.94,
+          "probability": 0.8026794791221619,
+          "tokens": [
+            6315
+          ]
+        },
+        {
+          "word": " rounak",
+          "start": 78.94,
+          "end": 79.56,
+          "probability": 0.179770597955212,
+          "tokens": [
+            367,
+            1733,
+            514
+          ]
+        },
+        {
+          "word": " phiki",
+          "start": 79.56,
+          "end": 79.96,
+          "probability": 0.019051793962717056,
+          "tokens": [
+            903,
+            9850
+          ]
+        }
+      ]
+    },
+    {
+      "start": 79.96,
+      "end": 85.48,
+      "text": " lagi Sirf tumhari aahat azeez hui Mudh ke dekha toh tum thi",
+      "seek": null,
+      "tokens": [
+        17742,
+        6144,
+        69,
+        13102,
+        71,
+        3504,
+        257,
+        545,
+        267,
+        257,
+        1381,
+        4371,
+        2137,
+        72,
+        39231,
+        71,
+        803,
+        368,
+        74,
+        1641,
+        281,
+        71,
+        13102,
+        30994
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " lagi",
+          "start": 79.96,
+          "end": 80.46,
+          "probability": 0.007636432070285082,
+          "tokens": [
+            17742
+          ]
+        },
+        {
+          "word": " Sirf",
+          "start": 80.88,
+          "end": 80.98,
+          "probability": 0.5596548020839691,
+          "tokens": [
+            6144,
+            69
+          ]
+        },
+        {
+          "word": " tumhari",
+          "start": 80.98,
+          "end": 81.82,
+          "probability": 0.685606007774671,
+          "tokens": [
+            13102,
+            71,
+            3504
+          ]
+        },
+        {
+          "word": " aahat",
+          "start": 81.82,
+          "end": 82.52,
+          "probability": 0.22136609256267548,
+          "tokens": [
+            257,
+            545,
+            267
+          ]
+        },
+        {
+          "word": " azeez",
+          "start": 82.52,
+          "end": 83.02,
+          "probability": 0.21235918762007108,
+          "tokens": [
+            257,
+            1381,
+            4371
+          ]
+        },
+        {
+          "word": " hui",
+          "start": 83.02,
+          "end": 83.54,
+          "probability": 0.9785151183605194,
+          "tokens": [
+            2137,
+            72
+          ]
+        },
+        {
+          "word": " Mudh",
+          "start": 83.54,
+          "end": 84.08,
+          "probability": 0.023679403588175774,
+          "tokens": [
+            39231,
+            71
+          ]
+        },
+        {
+          "word": " ke",
+          "start": 84.08,
+          "end": 84.26,
+          "probability": 0.5265305042266846,
+          "tokens": [
+            803
+          ]
+        },
+        {
+          "word": " dekha",
+          "start": 84.26,
+          "end": 84.74,
+          "probability": 0.6144680281480154,
+          "tokens": [
+            368,
+            74,
+            1641
+          ]
+        },
+        {
+          "word": " toh",
+          "start": 84.74,
+          "end": 85.08,
+          "probability": 0.4375030509836506,
+          "tokens": [
+            281,
+            71
+          ]
+        },
+        {
+          "word": " tum",
+          "start": 85.08,
+          "end": 85.26,
+          "probability": 0.9326031804084778,
+          "tokens": [
+            13102
+          ]
+        },
+        {
+          "word": " thi",
+          "start": 85.26,
+          "end": 85.48,
+          "probability": 0.1761140525341034,
+          "tokens": [
+            30994
+          ]
+        }
+      ]
+    },
+    {
+      "start": 85.48,
+      "end": 90.82,
+      "text": " samne Jhulfein hawa mein lehra rahi thi Har baat jo main",
+      "seek": null,
+      "tokens": [
+        3247,
+        716,
+        508,
+        71,
+        425,
+        2106,
+        259,
+        324,
+        4151,
+        10777,
+        476,
+        71,
+        424,
+        23490,
+        72,
+        30994,
+        3653,
+        4773,
+        267,
+        1488,
+        2135
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " samne",
+          "start": 85.48,
+          "end": 86.26,
+          "probability": 0.18869982659816742,
+          "tokens": [
+            3247,
+            716
+          ]
+        },
+        {
+          "word": " Jhulfein",
+          "start": 86.26,
+          "end": 87.36,
+          "probability": 0.29163341512903573,
+          "tokens": [
+            508,
+            71,
+            425,
+            2106,
+            259
+          ]
+        },
+        {
+          "word": " hawa",
+          "start": 87.36,
+          "end": 87.6,
+          "probability": 0.7002128064632416,
+          "tokens": [
+            324,
+            4151
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 87.6,
+          "end": 87.84,
+          "probability": 0.07970254868268967,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " lehra",
+          "start": 87.84,
+          "end": 88.38,
+          "probability": 0.45968907078107196,
+          "tokens": [
+            476,
+            71,
+            424
+          ]
+        },
+        {
+          "word": " rahi",
+          "start": 88.38,
+          "end": 88.82,
+          "probability": 0.7894189059734344,
+          "tokens": [
+            23490,
+            72
+          ]
+        },
+        {
+          "word": " thi",
+          "start": 88.82,
+          "end": 89.14,
+          "probability": 0.8590594530105591,
+          "tokens": [
+            30994
+          ]
+        },
+        {
+          "word": " Har",
+          "start": 89.14,
+          "end": 89.72,
+          "probability": 0.4321306347846985,
+          "tokens": [
+            3653
+          ]
+        },
+        {
+          "word": " baat",
+          "start": 89.72,
+          "end": 90.34,
+          "probability": 0.6884492337703705,
+          "tokens": [
+            4773,
+            267
+          ]
+        },
+        {
+          "word": " jo",
+          "start": 90.34,
+          "end": 90.62,
+          "probability": 0.832455575466156,
+          "tokens": [
+            1488
+          ]
+        },
+        {
+          "word": " main",
+          "start": 90.62,
+          "end": 90.82,
+          "probability": 0.20220887660980225,
+          "tokens": [
+            2135
+          ]
+        }
+      ]
+    },
+    {
+      "start": 90.82,
+      "end": 96.98,
+      "text": " kehna chahta tha Tumhari ankhein bata rahi thi Ruk gayi hawa,",
+      "seek": null,
+      "tokens": [
+        39616,
+        629,
+        6294,
+        39903,
+        43614,
+        314,
+        449,
+        71,
+        3504,
+        30890,
+        44448,
+        272,
+        3274,
+        23490,
+        72,
+        30994,
+        497,
+        2034,
+        9049,
+        72,
+        324,
+        4151,
+        11
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " kehna",
+          "start": 90.82,
+          "end": 91.3,
+          "probability": 0.47997361049056053,
+          "tokens": [
+            39616,
+            629
+          ]
+        },
+        {
+          "word": " chahta",
+          "start": 91.3,
+          "end": 91.9,
+          "probability": 0.31354281306266785,
+          "tokens": [
+            6294,
+            39903
+          ]
+        },
+        {
+          "word": " tha",
+          "start": 91.9,
+          "end": 92.2,
+          "probability": 0.9246122241020203,
+          "tokens": [
+            43614
+          ]
+        },
+        {
+          "word": " Tumhari",
+          "start": 92.2,
+          "end": 92.98,
+          "probability": 0.6423105234280229,
+          "tokens": [
+            314,
+            449,
+            71,
+            3504
+          ]
+        },
+        {
+          "word": " ankhein",
+          "start": 92.98,
+          "end": 93.64,
+          "probability": 0.008034164318814874,
+          "tokens": [
+            30890,
+            44448
+          ]
+        },
+        {
+          "word": " bata",
+          "start": 93.64,
+          "end": 94.1,
+          "probability": 0.5388509444892406,
+          "tokens": [
+            272,
+            3274
+          ]
+        },
+        {
+          "word": " rahi",
+          "start": 94.1,
+          "end": 94.74,
+          "probability": 0.9529920518398285,
+          "tokens": [
+            23490,
+            72
+          ]
+        },
+        {
+          "word": " thi",
+          "start": 94.74,
+          "end": 95.08,
+          "probability": 0.9822914600372314,
+          "tokens": [
+            30994
+          ]
+        },
+        {
+          "word": " Ruk",
+          "start": 95.08,
+          "end": 95.54,
+          "probability": 0.44749521638732404,
+          "tokens": [
+            497,
+            2034
+          ]
+        },
+        {
+          "word": " gayi",
+          "start": 95.54,
+          "end": 96.18,
+          "probability": 0.44565885642077774,
+          "tokens": [
+            9049,
+            72
+          ]
+        },
+        {
+          "word": " hawa,",
+          "start": 96.18,
+          "end": 96.98,
+          "probability": 0.5368182808160782,
+          "tokens": [
+            324,
+            4151,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "start": 97.12,
+      "end": 103.16,
+      "text": " thak gaya samaa Ek hi pal mein badla jahan Sunno na...",
+      "seek": null,
+      "tokens": [
+        258,
+        514,
+        290,
+        4427,
+        17768,
+        64,
+        33089,
+        4879,
+        3984,
+        10777,
+        1578,
+        875,
+        361,
+        21436,
+        6163,
+        1771,
+        1667,
+        485
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " thak",
+          "start": 97.12,
+          "end": 97.34,
+          "probability": 0.540607824921608,
+          "tokens": [
+            258,
+            514
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 97.34,
+          "end": 97.78,
+          "probability": 0.5946260243654251,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " samaa",
+          "start": 97.78,
+          "end": 98.6,
+          "probability": 0.10752256959676743,
+          "tokens": [
+            17768,
+            64
+          ]
+        },
+        {
+          "word": " Ek",
+          "start": 98.6,
+          "end": 98.7,
+          "probability": 0.0015579736791551113,
+          "tokens": [
+            33089
+          ]
+        },
+        {
+          "word": " hi",
+          "start": 98.7,
+          "end": 98.86,
+          "probability": 0.5130699872970581,
+          "tokens": [
+            4879
+          ]
+        },
+        {
+          "word": " pal",
+          "start": 98.86,
+          "end": 99.12,
+          "probability": 2.0739978481287835e-06,
+          "tokens": [
+            3984
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 99.12,
+          "end": 99.48,
+          "probability": 0.5362303853034973,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " badla",
+          "start": 99.48,
+          "end": 100.4,
+          "probability": 0.38139040768146515,
+          "tokens": [
+            1578,
+            875
+          ]
+        },
+        {
+          "word": " jahan",
+          "start": 100.4,
+          "end": 100.88,
+          "probability": 0.09734752401709557,
+          "tokens": [
+            361,
+            21436
+          ]
+        },
+        {
+          "word": " Sunno",
+          "start": 100.88,
+          "end": 102.06,
+          "probability": 0.06184026040136814,
+          "tokens": [
+            6163,
+            1771
+          ]
+        },
+        {
+          "word": " na...",
+          "start": 102.06,
+          "end": 103.16,
+          "probability": 0.2711448036134243,
+          "tokens": [
+            1667,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "start": 105.56,
+      "end": 115.56,
+      "text": " Aaine mein dekha pehli baar tumhein Ho gaya pehli nazar mein",
+      "seek": null,
+      "tokens": [
+        316,
+        7119,
+        10777,
+        368,
+        74,
+        1641,
+        520,
+        71,
+        2081,
+        4773,
+        289,
+        13102,
+        44448,
+        3631,
+        290,
+        4427,
+        520,
+        71,
+        2081,
+        20151,
+        289,
+        10777
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Aaine",
+          "start": 105.56,
+          "end": 107.36,
+          "probability": 4.155226724833483e-05,
+          "tokens": [
+            316,
+            7119
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 107.36,
+          "end": 108.22,
+          "probability": 0.04039390757679939,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " dekha",
+          "start": 108.22,
+          "end": 109.02,
+          "probability": 0.3772224336862564,
+          "tokens": [
+            368,
+            74,
+            1641
+          ]
+        },
+        {
+          "word": " pehli",
+          "start": 109.02,
+          "end": 109.7,
+          "probability": 0.5891774992148081,
+          "tokens": [
+            520,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " baar",
+          "start": 109.7,
+          "end": 110.9,
+          "probability": 0.10646537132561207,
+          "tokens": [
+            4773,
+            289
+          ]
+        },
+        {
+          "word": " tumhein",
+          "start": 110.9,
+          "end": 111.72,
+          "probability": 0.0045054273286950774,
+          "tokens": [
+            13102,
+            44448
+          ]
+        },
+        {
+          "word": " Ho",
+          "start": 111.72,
+          "end": 112.96,
+          "probability": 0.00019056258315686136,
+          "tokens": [
+            3631
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 112.96,
+          "end": 113.64,
+          "probability": 0.5481065362691879,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " pehli",
+          "start": 113.64,
+          "end": 114.74,
+          "probability": 0.7196806073188782,
+          "tokens": [
+            520,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " nazar",
+          "start": 114.74,
+          "end": 115.22,
+          "probability": 0.6367878168821335,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 115.22,
+          "end": 115.56,
+          "probability": 0.5871729850769043,
+          "tokens": [
+            10777
+          ]
+        }
+      ]
+    },
+    {
+      "start": 115.56,
+      "end": 123.38,
+      "text": " pyar tumhein Dhanak se rang sab khil gaye Jab se hum is mod par",
+      "seek": null,
+      "tokens": [
+        10664,
+        289,
+        13102,
+        44448,
+        413,
+        3451,
+        514,
+        369,
+        32434,
+        5560,
+        7168,
+        388,
+        9049,
+        68,
+        40319,
+        369,
+        1484,
+        307,
+        1072,
+        971
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " pyar",
+          "start": 115.56,
+          "end": 116.66,
+          "probability": 0.4660838357231114,
+          "tokens": [
+            10664,
+            289
+          ]
+        },
+        {
+          "word": " tumhein",
+          "start": 116.66,
+          "end": 117.7,
+          "probability": 0.9188939929008484,
+          "tokens": [
+            13102,
+            44448
+          ]
+        },
+        {
+          "word": " Dhanak",
+          "start": 117.7,
+          "end": 118.36,
+          "probability": 0.4481082834924261,
+          "tokens": [
+            413,
+            3451,
+            514
+          ]
+        },
+        {
+          "word": " se",
+          "start": 118.36,
+          "end": 118.58,
+          "probability": 0.44916272163391113,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " rang",
+          "start": 118.58,
+          "end": 119.0,
+          "probability": 0.3884977698326111,
+          "tokens": [
+            32434
+          ]
+        },
+        {
+          "word": " sab",
+          "start": 119.0,
+          "end": 119.7,
+          "probability": 0.0033580020535737276,
+          "tokens": [
+            5560
+          ]
+        },
+        {
+          "word": " khil",
+          "start": 119.7,
+          "end": 120.38,
+          "probability": 0.4817794407135807,
+          "tokens": [
+            7168,
+            388
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 120.38,
+          "end": 121.02,
+          "probability": 0.4676649495959282,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " Jab",
+          "start": 121.02,
+          "end": 121.18,
+          "probability": 0.1478583961725235,
+          "tokens": [
+            40319
+          ]
+        },
+        {
+          "word": " se",
+          "start": 121.18,
+          "end": 121.56,
+          "probability": 0.8121352791786194,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " hum",
+          "start": 121.56,
+          "end": 121.86,
+          "probability": 0.8767831325531006,
+          "tokens": [
+            1484
+          ]
+        },
+        {
+          "word": " is",
+          "start": 121.86,
+          "end": 122.18,
+          "probability": 0.041248686611652374,
+          "tokens": [
+            307
+          ]
+        },
+        {
+          "word": " mod",
+          "start": 122.18,
+          "end": 122.84,
+          "probability": 0.00010751079389592633,
+          "tokens": [
+            1072
+          ]
+        },
+        {
+          "word": " par",
+          "start": 122.84,
+          "end": 123.38,
+          "probability": 0.34010663628578186,
+          "tokens": [
+            971
+          ]
+        }
+      ]
+    },
+    {
+      "start": 129.03,
+      "end": 140.22,
+      "text": " mil gaye Ab na koi rasta yaad rahe Bus tera hi rasta yaad rahe",
+      "seek": null,
+      "tokens": [
+        1962,
+        9049,
+        68,
+        2847,
+        1667,
+        350,
+        4869,
+        367,
+        12468,
+        2478,
+        345,
+        23490,
+        68,
+        8006,
+        256,
+        1663,
+        4879,
+        367,
+        12468,
+        2478,
+        345,
+        23490,
+        68
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " mil",
+          "start": 129.03,
+          "end": 130.88,
+          "probability": 7.236626942130897e-08,
+          "tokens": [
+            1962
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 130.88,
+          "end": 130.88,
+          "probability": 0.11578817020745191,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " Ab",
+          "start": 130.88,
+          "end": 130.88,
+          "probability": 0.00023622979642823339,
+          "tokens": [
+            2847
+          ]
+        },
+        {
+          "word": " na",
+          "start": 130.88,
+          "end": 131.18,
+          "probability": 0.5975083708763123,
+          "tokens": [
+            1667
+          ]
+        },
+        {
+          "word": " koi",
+          "start": 131.18,
+          "end": 131.68,
+          "probability": 0.8493923842906952,
+          "tokens": [
+            350,
+            4869
+          ]
+        },
+        {
+          "word": " rasta",
+          "start": 131.68,
+          "end": 132.42,
+          "probability": 0.8612821698188782,
+          "tokens": [
+            367,
+            12468
+          ]
+        },
+        {
+          "word": " yaad",
+          "start": 132.44,
+          "end": 133.26,
+          "probability": 0.6287490278482437,
+          "tokens": [
+            2478,
+            345
+          ]
+        },
+        {
+          "word": " rahe",
+          "start": 133.26,
+          "end": 134.08,
+          "probability": 0.9294606745243073,
+          "tokens": [
+            23490,
+            68
+          ]
+        },
+        {
+          "word": " Bus",
+          "start": 134.08,
+          "end": 136.82,
+          "probability": 0.00213053310289979,
+          "tokens": [
+            8006
+          ]
+        },
+        {
+          "word": " tera",
+          "start": 136.82,
+          "end": 137.32,
+          "probability": 0.6570479571819305,
+          "tokens": [
+            256,
+            1663
+          ]
+        },
+        {
+          "word": " hi",
+          "start": 137.32,
+          "end": 137.68,
+          "probability": 0.8741384744644165,
+          "tokens": [
+            4879
+          ]
+        },
+        {
+          "word": " rasta",
+          "start": 137.68,
+          "end": 138.16,
+          "probability": 0.985499769449234,
+          "tokens": [
+            367,
+            12468
+          ]
+        },
+        {
+          "word": " yaad",
+          "start": 138.16,
+          "end": 139.08,
+          "probability": 0.983849048614502,
+          "tokens": [
+            2478,
+            345
+          ]
+        },
+        {
+          "word": " rahe",
+          "start": 139.08,
+          "end": 140.22,
+          "probability": 0.9960561990737915,
+          "tokens": [
+            23490,
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "start": 141.2,
+      "end": 148.26,
+      "text": " Sitar ki taar jaisi bajti hai Meri saanson mein ab teri sada",
+      "seek": null,
+      "tokens": [
+        318,
+        3981,
+        6315,
+        1846,
+        289,
+        361,
+        1527,
+        72,
+        23589,
+        7317,
+        21822,
+        6124,
+        72,
+        601,
+        34195,
+        10777,
+        410,
+        1796,
+        72,
+        262,
+        1538
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Sitar",
+          "start": 141.2,
+          "end": 142.6,
+          "probability": 0.4572298675775528,
+          "tokens": [
+            318,
+            3981
+          ]
+        },
+        {
+          "word": " ki",
+          "start": 142.6,
+          "end": 142.92,
+          "probability": 0.8841537833213806,
+          "tokens": [
+            6315
+          ]
+        },
+        {
+          "word": " taar",
+          "start": 142.92,
+          "end": 143.46,
+          "probability": 0.5909389778971672,
+          "tokens": [
+            1846,
+            289
+          ]
+        },
+        {
+          "word": " jaisi",
+          "start": 143.46,
+          "end": 144.08,
+          "probability": 0.5261100729306539,
+          "tokens": [
+            361,
+            1527,
+            72
+          ]
+        },
+        {
+          "word": " bajti",
+          "start": 144.08,
+          "end": 144.64,
+          "probability": 0.2604916470590979,
+          "tokens": [
+            23589,
+            7317
+          ]
+        },
+        {
+          "word": " hai",
+          "start": 144.64,
+          "end": 144.88,
+          "probability": 0.7806290984153748,
+          "tokens": [
+            21822
+          ]
+        },
+        {
+          "word": " Meri",
+          "start": 144.88,
+          "end": 145.68,
+          "probability": 0.6009627059102058,
+          "tokens": [
+            6124,
+            72
+          ]
+        },
+        {
+          "word": " saanson",
+          "start": 145.68,
+          "end": 146.2,
+          "probability": 0.16546021804970223,
+          "tokens": [
+            601,
+            34195
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 146.2,
+          "end": 146.72,
+          "probability": 0.6872416734695435,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " ab",
+          "start": 146.72,
+          "end": 147.04,
+          "probability": 0.8982270359992981,
+          "tokens": [
+            410
+          ]
+        },
+        {
+          "word": " teri",
+          "start": 147.04,
+          "end": 147.68,
+          "probability": 0.7013824582099915,
+          "tokens": [
+            1796,
+            72
+          ]
+        },
+        {
+          "word": " sada",
+          "start": 147.68,
+          "end": 148.26,
+          "probability": 0.6813616901636124,
+          "tokens": [
+            262,
+            1538
+          ]
+        }
+      ]
+    },
+    {
+      "start": 148.26,
+      "end": 157.68,
+      "text": " (Meri saanson mein teri sada...) Aaine mein dekha pehli baar",
+      "seek": null,
+      "tokens": [
+        522,
+        44,
+        16310,
+        601,
+        34195,
+        10777,
+        1796,
+        72,
+        262,
+        1538,
+        10050,
+        316,
+        7119,
+        10777,
+        368,
+        74,
+        1641,
+        520,
+        71,
+        2081,
+        4773,
+        289
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " (Meri",
+          "start": 148.26,
+          "end": 148.46,
+          "probability": 0.10243259370326996,
+          "tokens": [
+            522,
+            44,
+            16310
+          ]
+        },
+        {
+          "word": " saanson",
+          "start": 148.46,
+          "end": 149.22,
+          "probability": 0.8839852809906006,
+          "tokens": [
+            601,
+            34195
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 149.22,
+          "end": 149.64,
+          "probability": 0.9583216309547424,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " teri",
+          "start": 149.64,
+          "end": 150.5,
+          "probability": 0.49975190013481097,
+          "tokens": [
+            1796,
+            72
+          ]
+        },
+        {
+          "word": " sada...)",
+          "start": 150.74,
+          "end": 152.5,
+          "probability": 0.11018690835059412,
+          "tokens": [
+            262,
+            1538,
+            10050
+          ]
+        },
+        {
+          "word": " Aaine",
+          "start": 152.5,
+          "end": 154.18,
+          "probability": 6.0761904478567885e-05,
+          "tokens": [
+            316,
+            7119
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 154.18,
+          "end": 154.68,
+          "probability": 0.003553805174306035,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " dekha",
+          "start": 154.68,
+          "end": 155.86,
+          "probability": 0.4072771395246188,
+          "tokens": [
+            368,
+            74,
+            1641
+          ]
+        },
+        {
+          "word": " pehli",
+          "start": 155.86,
+          "end": 156.54,
+          "probability": 0.5211254060268402,
+          "tokens": [
+            520,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " baar",
+          "start": 156.54,
+          "end": 157.68,
+          "probability": 0.020997439045459032,
+          "tokens": [
+            4773,
+            289
+          ]
+        }
+      ]
+    },
+    {
+      "start": 157.68,
+      "end": 166.54,
+      "text": " tumhein Ho gaya pehli nazar mein pyar tumhein Dhanak se rang sab",
+      "seek": null,
+      "tokens": [
+        13102,
+        44448,
+        3631,
+        290,
+        4427,
+        520,
+        71,
+        2081,
+        20151,
+        289,
+        10777,
+        10664,
+        289,
+        13102,
+        44448,
+        413,
+        3451,
+        514,
+        369,
+        32434,
+        5560
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " tumhein",
+          "start": 157.68,
+          "end": 158.58,
+          "probability": 0.0005112198487040587,
+          "tokens": [
+            13102,
+            44448
+          ]
+        },
+        {
+          "word": " Ho",
+          "start": 158.58,
+          "end": 159.86,
+          "probability": 2.2243541025090963e-05,
+          "tokens": [
+            3631
+          ]
+        },
+        {
+          "word": " gaya",
+          "start": 159.86,
+          "end": 160.72,
+          "probability": 0.20677618123590946,
+          "tokens": [
+            290,
+            4427
+          ]
+        },
+        {
+          "word": " pehli",
+          "start": 160.72,
+          "end": 161.54,
+          "probability": 0.8480691711107889,
+          "tokens": [
+            520,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " nazar",
+          "start": 161.54,
+          "end": 162.08,
+          "probability": 0.6087019443511963,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 162.08,
+          "end": 162.38,
+          "probability": 0.03541448339819908,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " pyar",
+          "start": 162.38,
+          "end": 163.46,
+          "probability": 0.4406962160137482,
+          "tokens": [
+            10664,
+            289
+          ]
+        },
+        {
+          "word": " tumhein",
+          "start": 163.46,
+          "end": 164.46,
+          "probability": 0.8144301474094391,
+          "tokens": [
+            13102,
+            44448
+          ]
+        },
+        {
+          "word": " Dhanak",
+          "start": 164.46,
+          "end": 165.16,
+          "probability": 0.013490842344860235,
+          "tokens": [
+            413,
+            3451,
+            514
+          ]
+        },
+        {
+          "word": " se",
+          "start": 165.16,
+          "end": 165.38,
+          "probability": 0.4022155702114105,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " rang",
+          "start": 165.38,
+          "end": 165.86,
+          "probability": 0.11690667271614075,
+          "tokens": [
+            32434
+          ]
+        },
+        {
+          "word": " sab",
+          "start": 165.86,
+          "end": 166.54,
+          "probability": 0.0006558520835824311,
+          "tokens": [
+            5560
+          ]
+        }
+      ]
+    },
+    {
+      "start": 166.54,
+      "end": 172.94,
+      "text": " khil gaye Jab se hum is mod par mil gaye Pehli nazar mein...",
+      "seek": null,
+      "tokens": [
+        7168,
+        388,
+        9049,
+        68,
+        40319,
+        369,
+        1484,
+        307,
+        1072,
+        971,
+        1962,
+        9049,
+        68,
+        2396,
+        71,
+        2081,
+        20151,
+        289,
+        10777,
+        485
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " khil",
+          "start": 166.54,
+          "end": 167.18,
+          "probability": 0.22747744200751185,
+          "tokens": [
+            7168,
+            388
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 167.18,
+          "end": 167.72,
+          "probability": 0.28502735114307143,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " Jab",
+          "start": 167.72,
+          "end": 168.0,
+          "probability": 1.2011709259240888e-05,
+          "tokens": [
+            40319
+          ]
+        },
+        {
+          "word": " se",
+          "start": 168.0,
+          "end": 168.38,
+          "probability": 0.8303318619728088,
+          "tokens": [
+            369
+          ]
+        },
+        {
+          "word": " hum",
+          "start": 168.38,
+          "end": 168.66,
+          "probability": 0.23053394258022308,
+          "tokens": [
+            1484
+          ]
+        },
+        {
+          "word": " is",
+          "start": 168.66,
+          "end": 168.96,
+          "probability": 0.0013495044549927115,
+          "tokens": [
+            307
+          ]
+        },
+        {
+          "word": " mod",
+          "start": 168.96,
+          "end": 169.6,
+          "probability": 0.0010378288570791483,
+          "tokens": [
+            1072
+          ]
+        },
+        {
+          "word": " par",
+          "start": 169.6,
+          "end": 170.36,
+          "probability": 0.005152514204382896,
+          "tokens": [
+            971
+          ]
+        },
+        {
+          "word": " mil",
+          "start": 170.36,
+          "end": 170.58,
+          "probability": 0.0001815146388253197,
+          "tokens": [
+            1962
+          ]
+        },
+        {
+          "word": " gaye",
+          "start": 170.58,
+          "end": 171.42,
+          "probability": 0.4869348668726161,
+          "tokens": [
+            9049,
+            68
+          ]
+        },
+        {
+          "word": " Pehli",
+          "start": 171.42,
+          "end": 172.0,
+          "probability": 0.6614354761938254,
+          "tokens": [
+            2396,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " nazar",
+          "start": 172.0,
+          "end": 172.52,
+          "probability": 0.9305419921875,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " mein...",
+          "start": 172.52,
+          "end": 172.94,
+          "probability": 0.1625015288591385,
+          "tokens": [
+            10777,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "start": 172.94,
+      "end": 173.3,
+      "text": " (Pehli nazar mein...) Pehli nazar mein pyar tumhein...",
+      "seek": null,
+      "tokens": [
+        522,
+        47,
+        13301,
+        2081,
+        20151,
+        289,
+        10777,
+        10050,
+        2396,
+        71,
+        2081,
+        20151,
+        289,
+        10777,
+        10664,
+        289,
+        13102,
+        44448,
+        485
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " (Pehli",
+          "start": 172.94,
+          "end": 173.0,
+          "probability": 0.2590381506597623,
+          "tokens": [
+            522,
+            47,
+            13301,
+            2081
+          ]
+        },
+        {
+          "word": " nazar",
+          "start": 173.0,
+          "end": 173.0,
+          "probability": 0.7866657376289368,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " mein...)",
+          "start": 173.0,
+          "end": 173.02,
+          "probability": 0.51344433426857,
+          "tokens": [
+            10777,
+            10050
+          ]
+        },
+        {
+          "word": " Pehli",
+          "start": 173.02,
+          "end": 173.16,
+          "probability": 0.7009823073943456,
+          "tokens": [
+            2396,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " nazar",
+          "start": 173.16,
+          "end": 173.16,
+          "probability": 0.9781418144702911,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " mein",
+          "start": 173.16,
+          "end": 173.16,
+          "probability": 0.733530580997467,
+          "tokens": [
+            10777
+          ]
+        },
+        {
+          "word": " pyar",
+          "start": 173.16,
+          "end": 173.2,
+          "probability": 0.4964071060198876,
+          "tokens": [
+            10664,
+            289
+          ]
+        },
+        {
+          "word": " tumhein...",
+          "start": 173.2,
+          "end": 173.3,
+          "probability": 0.6980867832899094,
+          "tokens": [
+            13102,
+            44448,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "start": 175.14,
+      "end": 177.54,
+      "text": " Pehli nazar mein...",
+      "seek": null,
+      "tokens": [
+        2396,
+        71,
+        2081,
+        20151,
+        289,
+        10777,
+        485
+      ],
+      "temperature": null,
+      "avg_logprob": null,
+      "compression_ratio": null,
+      "no_speech_prob": null,
+      "words": [
+        {
+          "word": " Pehli",
+          "start": 175.14,
+          "end": 175.64,
+          "probability": 0.8244413832823435,
+          "tokens": [
+            2396,
+            71,
+            2081
+          ]
+        },
+        {
+          "word": " nazar",
+          "start": 175.64,
+          "end": 176.32,
+          "probability": 0.984590619802475,
+          "tokens": [
+            20151,
+            289
+          ]
+        },
+        {
+          "word": " mein...",
+          "start": 176.32,
+          "end": 177.54,
+          "probability": 0.6694842576980591,
+          "tokens": [
+            10777,
+            485
+          ]
+        }
+      ]
+    }
+  ],
+  "alignment_method": "stable-whisper-forced-alignment",
+  "structured_sections": [
+    {
+      "name": "Intro",
+      "lines": [
+        "(Rabba... oh Rabba...)"
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "lines": [
+        "Tang galiyon ki is bheed mein",
+        "Pao mere thak se gaye the",
+        "Puranay sheeshe ki aik dukan par",
+        "Kadam achanak ruk se gaye the",
+        "Kaanch ke tukde par chamki nazar",
+        "Aks tumhara wahan dikha",
+        "Mudh ke dekha na tha abhi tak",
+        "Par dil mera wahi bik gaya"
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "lines": [
+        "Ruk gayi hawa, thak gaya samaa",
+        "Ek hi pal mein badla jahan",
+        "Sunno na..."
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        "Aaine mein dekha pehli baar tumhein",
+        "Ho gaya pehli nazar mein pyar tumhein",
+        "Dhanak se rang sab khil gaye",
+        "Jab se hum is mod par mil gaye",
+        "(Ho gaya pyar tumhein... ho gaya pyar...)"
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "lines": [
+        "Kaan ki baali jab hili tumhari",
+        "Dhadkan meri bhi tezz hui",
+        "Bazaar ki rounak phiki lagi",
+        "Sirf tumhari aahat azeez hui",
+        "Mudh ke dekha toh tum thi samne",
+        "Jhulfein hawa mein lehra rahi thi",
+        "Har baat jo main kehna chahta tha",
+        "Tumhari ankhein bata rahi thi"
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "lines": [
+        "Ruk gayi hawa, thak gaya samaa",
+        "Ek hi pal mein badla jahan",
+        "Sunno na..."
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        "Aaine mein dekha pehli baar tumhein",
+        "Ho gaya pehli nazar mein pyar tumhein",
+        "Dhanak se rang sab khil gaye",
+        "Jab se hum is mod par mil gaye"
+      ]
+    },
+    {
+      "name": "Bridge",
+      "lines": [
+        "Ab na koi rasta yaad rahe",
+        "Bus tera hi rasta yaad rahe",
+        "Sitar ki taar jaisi bajti hai",
+        "Meri saanson mein ab teri sada",
+        "(Meri saanson mein teri sada...)"
+      ]
+    },
+    {
+      "name": "Chorus",
+      "lines": [
+        "Aaine mein dekha pehli baar tumhein",
+        "Ho gaya pehli nazar mein pyar tumhein",
+        "Dhanak se rang sab khil gaye",
+        "Jab se hum is mod par mil gaye"
+      ]
+    },
+    {
+      "name": "Outro",
+      "lines": [
+        "Pehli nazar mein...",
+        "(Pehli nazar mein...)",
+        "Pehli nazar mein pyar tumhein...",
+        "Pehli nazar mein..."
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "line_01",
+      "text": "(Rabba... oh Rabba...)",
+      "startTime": 7.58,
+      "endTime": 11.1,
+      "startFrame": 455,
+      "endFrame": 666,
+      "accentWords": [
+        "Rabba"
+      ],
+      "words": [
+        {
+          "id": "w_01_01",
+          "text": "(Rabba...",
+          "startFrame": 455,
+          "endFrame": 492
+        },
+        {
+          "id": "w_01_02",
+          "text": "oh",
+          "startFrame": 512,
+          "endFrame": 512
+        },
+        {
+          "id": "w_01_03",
+          "text": "Rabba...)",
+          "startFrame": 512,
+          "endFrame": 666
+        }
+      ]
+    },
+    {
+      "id": "line_02",
+      "text": "Tang galiyon ki is bheed mein",
+      "startTime": 12.36,
+      "endTime": 14.56,
+      "startFrame": 742,
+      "endFrame": 874,
+      "accentWords": [
+        "galiyon"
+      ],
+      "words": [
+        {
+          "id": "w_02_01",
+          "text": "Tang",
+          "startFrame": 742,
+          "endFrame": 743
+        },
+        {
+          "id": "w_02_02",
+          "text": "galiyon",
+          "startFrame": 743,
+          "endFrame": 786
+        },
+        {
+          "id": "w_02_03",
+          "text": "ki",
+          "startFrame": 786,
+          "endFrame": 799
+        },
+        {
+          "id": "w_02_04",
+          "text": "is",
+          "startFrame": 799,
+          "endFrame": 817
+        },
+        {
+          "id": "w_02_05",
+          "text": "bheed",
+          "startFrame": 817,
+          "endFrame": 859
+        },
+        {
+          "id": "w_02_06",
+          "text": "mein",
+          "startFrame": 859,
+          "endFrame": 874
+        }
+      ]
+    },
+    {
+      "id": "line_03",
+      "text": "Pao mere thak se gaye the",
+      "startTime": 14.56,
+      "endTime": 17.36,
+      "startFrame": 874,
+      "endFrame": 1042,
+      "accentWords": [
+        "thak"
+      ],
+      "words": [
+        {
+          "id": "w_03_01",
+          "text": "Pao",
+          "startFrame": 874,
+          "endFrame": 934
+        },
+        {
+          "id": "w_03_02",
+          "text": "mere",
+          "startFrame": 934,
+          "endFrame": 956
+        },
+        {
+          "id": "w_03_03",
+          "text": "thak",
+          "startFrame": 956,
+          "endFrame": 985
+        },
+        {
+          "id": "w_03_04",
+          "text": "se",
+          "startFrame": 985,
+          "endFrame": 1003
+        },
+        {
+          "id": "w_03_05",
+          "text": "gaye",
+          "startFrame": 1003,
+          "endFrame": 1033
+        },
+        {
+          "id": "w_03_06",
+          "text": "the",
+          "startFrame": 1033,
+          "endFrame": 1042
+        }
+      ]
+    },
+    {
+      "id": "line_04",
+      "text": "Puranay sheeshe ki aik dukan par",
+      "startTime": 17.36,
+      "endTime": 20.28,
+      "startFrame": 1042,
+      "endFrame": 1217,
+      "accentWords": [
+        "Puranay"
+      ],
+      "words": [
+        {
+          "id": "w_04_01",
+          "text": "Puranay",
+          "startFrame": 1042,
+          "endFrame": 1099
+        },
+        {
+          "id": "w_04_02",
+          "text": "sheeshe",
+          "startFrame": 1100,
+          "endFrame": 1135
+        },
+        {
+          "id": "w_04_03",
+          "text": "ki",
+          "startFrame": 1135,
+          "endFrame": 1146
+        },
+        {
+          "id": "w_04_04",
+          "text": "aik",
+          "startFrame": 1146,
+          "endFrame": 1163
+        },
+        {
+          "id": "w_04_05",
+          "text": "dukan",
+          "startFrame": 1163,
+          "endFrame": 1204
+        },
+        {
+          "id": "w_04_06",
+          "text": "par",
+          "startFrame": 1204,
+          "endFrame": 1217
+        }
+      ]
+    },
+    {
+      "id": "line_05",
+      "text": "Kadam achanak ruk se gaye the",
+      "startTime": 20.28,
+      "endTime": 23.32,
+      "startFrame": 1217,
+      "endFrame": 1399,
+      "accentWords": [
+        "achanak"
+      ],
+      "words": [
+        {
+          "id": "w_05_01",
+          "text": "Kadam",
+          "startFrame": 1217,
+          "endFrame": 1254
+        },
+        {
+          "id": "w_05_02",
+          "text": "achanak",
+          "startFrame": 1254,
+          "endFrame": 1316
+        },
+        {
+          "id": "w_05_03",
+          "text": "ruk",
+          "startFrame": 1316,
+          "endFrame": 1333
+        },
+        {
+          "id": "w_05_04",
+          "text": "se",
+          "startFrame": 1333,
+          "endFrame": 1354
+        },
+        {
+          "id": "w_05_05",
+          "text": "gaye",
+          "startFrame": 1354,
+          "endFrame": 1385
+        },
+        {
+          "id": "w_05_06",
+          "text": "the",
+          "startFrame": 1385,
+          "endFrame": 1399
+        }
+      ]
+    },
+    {
+      "id": "line_06",
+      "text": "Kaanch ke tukde par chamki nazar",
+      "startTime": 23.32,
+      "endTime": 25.98,
+      "startFrame": 1399,
+      "endFrame": 1559,
+      "accentWords": [
+        "Kaanch"
+      ],
+      "words": [
+        {
+          "id": "w_06_01",
+          "text": "Kaanch",
+          "startFrame": 1399,
+          "endFrame": 1444
+        },
+        {
+          "id": "w_06_02",
+          "text": "ke",
+          "startFrame": 1444,
+          "endFrame": 1452
+        },
+        {
+          "id": "w_06_03",
+          "text": "tukde",
+          "startFrame": 1452,
+          "endFrame": 1484
+        },
+        {
+          "id": "w_06_04",
+          "text": "par",
+          "startFrame": 1484,
+          "endFrame": 1495
+        },
+        {
+          "id": "w_06_05",
+          "text": "chamki",
+          "startFrame": 1495,
+          "endFrame": 1529
+        },
+        {
+          "id": "w_06_06",
+          "text": "nazar",
+          "startFrame": 1529,
+          "endFrame": 1559
+        }
+      ]
+    },
+    {
+      "id": "line_07",
+      "text": "Aks tumhara wahan dikha",
+      "startTime": 25.98,
+      "endTime": 28.96,
+      "startFrame": 1559,
+      "endFrame": 1738,
+      "accentWords": [
+        "tumhara"
+      ],
+      "words": [
+        {
+          "id": "w_07_01",
+          "text": "Aks",
+          "startFrame": 1559,
+          "endFrame": 1588
+        },
+        {
+          "id": "w_07_02",
+          "text": "tumhara",
+          "startFrame": 1588,
+          "endFrame": 1663
+        },
+        {
+          "id": "w_07_03",
+          "text": "wahan",
+          "startFrame": 1663,
+          "endFrame": 1693
+        },
+        {
+          "id": "w_07_04",
+          "text": "dikha",
+          "startFrame": 1693,
+          "endFrame": 1738
+        }
+      ]
+    },
+    {
+      "id": "line_08",
+      "text": "Mudh ke dekha na tha abhi tak",
+      "startTime": 28.96,
+      "endTime": 31.82,
+      "startFrame": 1738,
+      "endFrame": 1909,
+      "accentWords": [
+        "dekha"
+      ],
+      "words": [
+        {
+          "id": "w_08_01",
+          "text": "Mudh",
+          "startFrame": 1738,
+          "endFrame": 1796
+        },
+        {
+          "id": "w_08_02",
+          "text": "ke",
+          "startFrame": 1796,
+          "endFrame": 1804
+        },
+        {
+          "id": "w_08_03",
+          "text": "dekha",
+          "startFrame": 1804,
+          "endFrame": 1838
+        },
+        {
+          "id": "w_08_04",
+          "text": "na",
+          "startFrame": 1838,
+          "endFrame": 1847
+        },
+        {
+          "id": "w_08_05",
+          "text": "tha",
+          "startFrame": 1847,
+          "endFrame": 1862
+        },
+        {
+          "id": "w_08_06",
+          "text": "abhi",
+          "startFrame": 1862,
+          "endFrame": 1895
+        },
+        {
+          "id": "w_08_07",
+          "text": "tak",
+          "startFrame": 1895,
+          "endFrame": 1903
+        }
+      ]
+    },
+    {
+      "id": "line_09",
+      "text": "Par dil mera wahi bik gaya",
+      "startTime": 31.82,
+      "endTime": 34.88,
+      "startFrame": 1909,
+      "endFrame": 2093,
+      "accentWords": [
+        "wahi"
+      ],
+      "words": [
+        {
+          "id": "w_09_01",
+          "text": "Par",
+          "startFrame": 1909,
+          "endFrame": 1928
+        },
+        {
+          "id": "w_09_02",
+          "text": "dil",
+          "startFrame": 1928,
+          "endFrame": 1949
+        },
+        {
+          "id": "w_09_03",
+          "text": "mera",
+          "startFrame": 1949,
+          "endFrame": 1982
+        },
+        {
+          "id": "w_09_04",
+          "text": "wahi",
+          "startFrame": 1982,
+          "endFrame": 2016
+        },
+        {
+          "id": "w_09_05",
+          "text": "bik",
+          "startFrame": 2016,
+          "endFrame": 2050
+        },
+        {
+          "id": "w_09_06",
+          "text": "gaya",
+          "startFrame": 2050,
+          "endFrame": 2093
+        }
+      ]
+    },
+    {
+      "id": "line_10",
+      "text": "Ruk gayi hawa, thak gaya samaa",
+      "startTime": 34.88,
+      "endTime": 40.04,
+      "startFrame": 2093,
+      "endFrame": 2402,
+      "accentWords": [
+        "samaa"
+      ],
+      "words": [
+        {
+          "id": "w_10_01",
+          "text": "Ruk",
+          "startFrame": 2093,
+          "endFrame": 2220
+        },
+        {
+          "id": "w_10_02",
+          "text": "gayi",
+          "startFrame": 2226,
+          "endFrame": 2258
+        },
+        {
+          "id": "w_10_03",
+          "text": "hawa,",
+          "startFrame": 2258,
+          "endFrame": 2303
+        },
+        {
+          "id": "w_10_04",
+          "text": "thak",
+          "startFrame": 2303,
+          "endFrame": 2329
+        },
+        {
+          "id": "w_10_05",
+          "text": "gaya",
+          "startFrame": 2329,
+          "endFrame": 2351
+        },
+        {
+          "id": "w_10_06",
+          "text": "samaa",
+          "startFrame": 2351,
+          "endFrame": 2402
+        }
+      ]
+    },
+    {
+      "id": "line_11",
+      "text": "Ek hi pal mein badla jahan",
+      "startTime": 40.04,
+      "endTime": 42.34,
+      "startFrame": 2402,
+      "endFrame": 2540,
+      "accentWords": [
+        "badla"
+      ],
+      "words": [
+        {
+          "id": "w_11_01",
+          "text": "Ek",
+          "startFrame": 2402,
+          "endFrame": 2411
+        },
+        {
+          "id": "w_11_02",
+          "text": "hi",
+          "startFrame": 2411,
+          "endFrame": 2419
+        },
+        {
+          "id": "w_11_03",
+          "text": "pal",
+          "startFrame": 2419,
+          "endFrame": 2435
+        },
+        {
+          "id": "w_11_04",
+          "text": "mein",
+          "startFrame": 2435,
+          "endFrame": 2455
+        },
+        {
+          "id": "w_11_05",
+          "text": "badla",
+          "startFrame": 2455,
+          "endFrame": 2513
+        },
+        {
+          "id": "w_11_06",
+          "text": "jahan",
+          "startFrame": 2513,
+          "endFrame": 2540
+        }
+      ]
+    },
+    {
+      "id": "line_12",
+      "text": "Sunno na...",
+      "startTime": 42.34,
+      "endTime": 44.64,
+      "startFrame": 2540,
+      "endFrame": 2678,
+      "accentWords": [
+        "Sunno"
+      ],
+      "words": [
+        {
+          "id": "w_12_01",
+          "text": "Sunno",
+          "startFrame": 2540,
+          "endFrame": 2612
+        },
+        {
+          "id": "w_12_02",
+          "text": "na...",
+          "startFrame": 2612,
+          "endFrame": 2678
+        }
+      ]
+    },
+    {
+      "id": "line_13",
+      "text": "Aaine mein dekha pehli baar tumhein",
+      "startTime": 46.36,
+      "endTime": 53.36,
+      "startFrame": 2782,
+      "endFrame": 3202,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_13_01",
+          "text": "Aaine",
+          "startFrame": 2782,
+          "endFrame": 2927
+        },
+        {
+          "id": "w_13_02",
+          "text": "mein",
+          "startFrame": 2927,
+          "endFrame": 2958
+        },
+        {
+          "id": "w_13_03",
+          "text": "dekha",
+          "startFrame": 2958,
+          "endFrame": 3029
+        },
+        {
+          "id": "w_13_04",
+          "text": "pehli",
+          "startFrame": 3029,
+          "endFrame": 3068
+        },
+        {
+          "id": "w_13_05",
+          "text": "baar",
+          "startFrame": 3068,
+          "endFrame": 3142
+        },
+        {
+          "id": "w_13_06",
+          "text": "tumhein",
+          "startFrame": 3142,
+          "endFrame": 3202
+        }
+      ]
+    },
+    {
+      "id": "line_14",
+      "text": "Ho gaya pehli nazar mein pyar tumhein",
+      "startTime": 53.36,
+      "endTime": 59.08,
+      "startFrame": 3202,
+      "endFrame": 3545,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_14_01",
+          "text": "Ho",
+          "startFrame": 3202,
+          "endFrame": 3274
+        },
+        {
+          "id": "w_14_02",
+          "text": "gaya",
+          "startFrame": 3274,
+          "endFrame": 3308
+        },
+        {
+          "id": "w_14_03",
+          "text": "pehli",
+          "startFrame": 3308,
+          "endFrame": 3373
+        },
+        {
+          "id": "w_14_04",
+          "text": "nazar",
+          "startFrame": 3373,
+          "endFrame": 3403
+        },
+        {
+          "id": "w_14_05",
+          "text": "mein",
+          "startFrame": 3403,
+          "endFrame": 3421
+        },
+        {
+          "id": "w_14_06",
+          "text": "pyar",
+          "startFrame": 3421,
+          "endFrame": 3486
+        },
+        {
+          "id": "w_14_07",
+          "text": "tumhein",
+          "startFrame": 3486,
+          "endFrame": 3545
+        }
+      ]
+    },
+    {
+      "id": "line_15",
+      "text": "Dhanak se rang sab khil gaye",
+      "startTime": 59.08,
+      "endTime": 62.44,
+      "startFrame": 3545,
+      "endFrame": 3746,
+      "accentWords": [
+        "Dhanak"
+      ],
+      "words": [
+        {
+          "id": "w_15_01",
+          "text": "Dhanak",
+          "startFrame": 3545,
+          "endFrame": 3589
+        },
+        {
+          "id": "w_15_02",
+          "text": "se",
+          "startFrame": 3589,
+          "endFrame": 3604
+        },
+        {
+          "id": "w_15_03",
+          "text": "rang",
+          "startFrame": 3604,
+          "endFrame": 3628
+        },
+        {
+          "id": "w_15_04",
+          "text": "sab",
+          "startFrame": 3628,
+          "endFrame": 3676
+        },
+        {
+          "id": "w_15_05",
+          "text": "khil",
+          "startFrame": 3676,
+          "endFrame": 3710
+        },
+        {
+          "id": "w_15_06",
+          "text": "gaye",
+          "startFrame": 3710,
+          "endFrame": 3746
+        }
+      ]
+    },
+    {
+      "id": "line_16",
+      "text": "Jab se hum is mod par mil gaye",
+      "startTime": 62.44,
+      "endTime": 66.2,
+      "startFrame": 3746,
+      "endFrame": 3972,
+      "accentWords": [
+        "Jab"
+      ],
+      "words": [
+        {
+          "id": "w_16_01",
+          "text": "Jab",
+          "startFrame": 3746,
+          "endFrame": 3760
+        },
+        {
+          "id": "w_16_02",
+          "text": "se",
+          "startFrame": 3760,
+          "endFrame": 3780
+        },
+        {
+          "id": "w_16_03",
+          "text": "hum",
+          "startFrame": 3780,
+          "endFrame": 3798
+        },
+        {
+          "id": "w_16_04",
+          "text": "is",
+          "startFrame": 3798,
+          "endFrame": 3817
+        },
+        {
+          "id": "w_16_05",
+          "text": "mod",
+          "startFrame": 3817,
+          "endFrame": 3854
+        },
+        {
+          "id": "w_16_06",
+          "text": "par",
+          "startFrame": 3854,
+          "endFrame": 3890
+        },
+        {
+          "id": "w_16_07",
+          "text": "mil",
+          "startFrame": 3890,
+          "endFrame": 3926
+        },
+        {
+          "id": "w_16_08",
+          "text": "gaye",
+          "startFrame": 3926,
+          "endFrame": 3972
+        }
+      ]
+    },
+    {
+      "id": "line_17",
+      "text": "(Ho gaya pyar tumhein... ho gaya pyar...)",
+      "startTime": 66.2,
+      "endTime": 71.15,
+      "startFrame": 3972,
+      "endFrame": 4269,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_17_01",
+          "text": "(Ho",
+          "startFrame": 3972,
+          "endFrame": 3989
+        },
+        {
+          "id": "w_17_02",
+          "text": "gaya",
+          "startFrame": 3989,
+          "endFrame": 4036
+        },
+        {
+          "id": "w_17_03",
+          "text": "pyar",
+          "startFrame": 4036,
+          "endFrame": 4036
+        },
+        {
+          "id": "w_17_04",
+          "text": "tumhein...",
+          "startFrame": 4036,
+          "endFrame": 4116
+        },
+        {
+          "id": "w_17_05",
+          "text": "ho",
+          "startFrame": 4116,
+          "endFrame": 4147
+        },
+        {
+          "id": "w_17_06",
+          "text": "gaya",
+          "startFrame": 4147,
+          "endFrame": 4182
+        },
+        {
+          "id": "w_17_07",
+          "text": "pyar...)",
+          "startFrame": 4182,
+          "endFrame": 4269
+        }
+      ]
+    },
+    {
+      "id": "line_18",
+      "text": "Kaan ki baali jab hili tumhari",
+      "startTime": 72.08,
+      "endTime": 75.16,
+      "startFrame": 4325,
+      "endFrame": 4510,
+      "accentWords": [
+        "tumhari"
+      ],
+      "words": [
+        {
+          "id": "w_18_01",
+          "text": "Kaan",
+          "startFrame": 4325,
+          "endFrame": 4344
+        },
+        {
+          "id": "w_18_02",
+          "text": "ki",
+          "startFrame": 4344,
+          "endFrame": 4351
+        },
+        {
+          "id": "w_18_03",
+          "text": "baali",
+          "startFrame": 4351,
+          "endFrame": 4372
+        },
+        {
+          "id": "w_18_04",
+          "text": "jab",
+          "startFrame": 4372,
+          "endFrame": 4388
+        },
+        {
+          "id": "w_18_05",
+          "text": "hili",
+          "startFrame": 4388,
+          "endFrame": 4417
+        },
+        {
+          "id": "w_18_06",
+          "text": "tumhari",
+          "startFrame": 4470,
+          "endFrame": 4510
+        }
+      ]
+    },
+    {
+      "id": "line_19",
+      "text": "Dhadkan meri bhi tezz hui",
+      "startTime": 75.16,
+      "endTime": 77.62,
+      "startFrame": 4510,
+      "endFrame": 4657,
+      "accentWords": [
+        "Dhadkan"
+      ],
+      "words": [
+        {
+          "id": "w_19_01",
+          "text": "Dhadkan",
+          "startFrame": 4510,
+          "endFrame": 4542
+        },
+        {
+          "id": "w_19_02",
+          "text": "meri",
+          "startFrame": 4542,
+          "endFrame": 4571
+        },
+        {
+          "id": "w_19_03",
+          "text": "bhi",
+          "startFrame": 4571,
+          "endFrame": 4591
+        },
+        {
+          "id": "w_19_04",
+          "text": "tezz",
+          "startFrame": 4591,
+          "endFrame": 4637
+        },
+        {
+          "id": "w_19_05",
+          "text": "hui",
+          "startFrame": 4637,
+          "endFrame": 4657
+        }
+      ]
+    },
+    {
+      "id": "line_20",
+      "text": "Bazaar ki rounak phiki lagi",
+      "startTime": 77.62,
+      "endTime": 80.46,
+      "startFrame": 4657,
+      "endFrame": 4828,
+      "accentWords": [
+        "Bazaar"
+      ],
+      "words": [
+        {
+          "id": "w_20_01",
+          "text": "Bazaar",
+          "startFrame": 4657,
+          "endFrame": 4722
+        },
+        {
+          "id": "w_20_02",
+          "text": "ki",
+          "startFrame": 4722,
+          "endFrame": 4736
+        },
+        {
+          "id": "w_20_03",
+          "text": "rounak",
+          "startFrame": 4736,
+          "endFrame": 4774
+        },
+        {
+          "id": "w_20_04",
+          "text": "phiki",
+          "startFrame": 4774,
+          "endFrame": 4798
+        },
+        {
+          "id": "w_20_05",
+          "text": "lagi",
+          "startFrame": 4798,
+          "endFrame": 4828
+        }
+      ]
+    },
+    {
+      "id": "line_21",
+      "text": "Sirf tumhari aahat azeez hui",
+      "startTime": 80.88,
+      "endTime": 83.54,
+      "startFrame": 4853,
+      "endFrame": 5012,
+      "accentWords": [
+        "tumhari"
+      ],
+      "words": [
+        {
+          "id": "w_21_01",
+          "text": "Sirf",
+          "startFrame": 4853,
+          "endFrame": 4859
+        },
+        {
+          "id": "w_21_02",
+          "text": "tumhari",
+          "startFrame": 4859,
+          "endFrame": 4909
+        },
+        {
+          "id": "w_21_03",
+          "text": "aahat",
+          "startFrame": 4909,
+          "endFrame": 4951
+        },
+        {
+          "id": "w_21_04",
+          "text": "azeez",
+          "startFrame": 4951,
+          "endFrame": 4981
+        },
+        {
+          "id": "w_21_05",
+          "text": "hui",
+          "startFrame": 4981,
+          "endFrame": 5012
+        }
+      ]
+    },
+    {
+      "id": "line_22",
+      "text": "Mudh ke dekha toh tum thi samne",
+      "startTime": 83.54,
+      "endTime": 86.26,
+      "startFrame": 5012,
+      "endFrame": 5176,
+      "accentWords": [
+        "dekha"
+      ],
+      "words": [
+        {
+          "id": "w_22_01",
+          "text": "Mudh",
+          "startFrame": 5012,
+          "endFrame": 5045
+        },
+        {
+          "id": "w_22_02",
+          "text": "ke",
+          "startFrame": 5045,
+          "endFrame": 5056
+        },
+        {
+          "id": "w_22_03",
+          "text": "dekha",
+          "startFrame": 5056,
+          "endFrame": 5084
+        },
+        {
+          "id": "w_22_04",
+          "text": "toh",
+          "startFrame": 5084,
+          "endFrame": 5105
+        },
+        {
+          "id": "w_22_05",
+          "text": "tum",
+          "startFrame": 5105,
+          "endFrame": 5116
+        },
+        {
+          "id": "w_22_06",
+          "text": "thi",
+          "startFrame": 5116,
+          "endFrame": 5129
+        },
+        {
+          "id": "w_22_07",
+          "text": "samne",
+          "startFrame": 5129,
+          "endFrame": 5176
+        }
+      ]
+    },
+    {
+      "id": "line_23",
+      "text": "Jhulfein hawa mein lehra rahi thi",
+      "startTime": 86.26,
+      "endTime": 89.14,
+      "startFrame": 5176,
+      "endFrame": 5348,
+      "accentWords": [
+        "Jhulfein"
+      ],
+      "words": [
+        {
+          "id": "w_23_01",
+          "text": "Jhulfein",
+          "startFrame": 5176,
+          "endFrame": 5242
+        },
+        {
+          "id": "w_23_02",
+          "text": "hawa",
+          "startFrame": 5242,
+          "endFrame": 5256
+        },
+        {
+          "id": "w_23_03",
+          "text": "mein",
+          "startFrame": 5256,
+          "endFrame": 5270
+        },
+        {
+          "id": "w_23_04",
+          "text": "lehra",
+          "startFrame": 5270,
+          "endFrame": 5303
+        },
+        {
+          "id": "w_23_05",
+          "text": "rahi",
+          "startFrame": 5303,
+          "endFrame": 5329
+        },
+        {
+          "id": "w_23_06",
+          "text": "thi",
+          "startFrame": 5329,
+          "endFrame": 5348
+        }
+      ]
+    },
+    {
+      "id": "line_24",
+      "text": "Har baat jo main kehna chahta tha",
+      "startTime": 89.14,
+      "endTime": 92.2,
+      "startFrame": 5348,
+      "endFrame": 5532,
+      "accentWords": [
+        "chahta"
+      ],
+      "words": [
+        {
+          "id": "w_24_01",
+          "text": "Har",
+          "startFrame": 5348,
+          "endFrame": 5383
+        },
+        {
+          "id": "w_24_02",
+          "text": "baat",
+          "startFrame": 5383,
+          "endFrame": 5420
+        },
+        {
+          "id": "w_24_03",
+          "text": "jo",
+          "startFrame": 5420,
+          "endFrame": 5437
+        },
+        {
+          "id": "w_24_04",
+          "text": "main",
+          "startFrame": 5437,
+          "endFrame": 5449
+        },
+        {
+          "id": "w_24_05",
+          "text": "kehna",
+          "startFrame": 5449,
+          "endFrame": 5478
+        },
+        {
+          "id": "w_24_06",
+          "text": "chahta",
+          "startFrame": 5478,
+          "endFrame": 5514
+        },
+        {
+          "id": "w_24_07",
+          "text": "tha",
+          "startFrame": 5514,
+          "endFrame": 5532
+        }
+      ]
+    },
+    {
+      "id": "line_25",
+      "text": "Tumhari ankhein bata rahi thi",
+      "startTime": 92.2,
+      "endTime": 95.08,
+      "startFrame": 5532,
+      "endFrame": 5705,
+      "accentWords": [
+        "Tumhari"
+      ],
+      "words": [
+        {
+          "id": "w_25_01",
+          "text": "Tumhari",
+          "startFrame": 5532,
+          "endFrame": 5579
+        },
+        {
+          "id": "w_25_02",
+          "text": "ankhein",
+          "startFrame": 5579,
+          "endFrame": 5618
+        },
+        {
+          "id": "w_25_03",
+          "text": "bata",
+          "startFrame": 5618,
+          "endFrame": 5646
+        },
+        {
+          "id": "w_25_04",
+          "text": "rahi",
+          "startFrame": 5646,
+          "endFrame": 5684
+        },
+        {
+          "id": "w_25_05",
+          "text": "thi",
+          "startFrame": 5684,
+          "endFrame": 5705
+        }
+      ]
+    },
+    {
+      "id": "line_26",
+      "text": "Ruk gayi hawa, thak gaya samaa",
+      "startTime": 95.08,
+      "endTime": 98.6,
+      "startFrame": 5705,
+      "endFrame": 5916,
+      "accentWords": [
+        "samaa"
+      ],
+      "words": [
+        {
+          "id": "w_26_01",
+          "text": "Ruk",
+          "startFrame": 5705,
+          "endFrame": 5732
+        },
+        {
+          "id": "w_26_02",
+          "text": "gayi",
+          "startFrame": 5732,
+          "endFrame": 5771
+        },
+        {
+          "id": "w_26_03",
+          "text": "hawa,",
+          "startFrame": 5771,
+          "endFrame": 5819
+        },
+        {
+          "id": "w_26_04",
+          "text": "thak",
+          "startFrame": 5827,
+          "endFrame": 5840
+        },
+        {
+          "id": "w_26_05",
+          "text": "gaya",
+          "startFrame": 5840,
+          "endFrame": 5867
+        },
+        {
+          "id": "w_26_06",
+          "text": "samaa",
+          "startFrame": 5867,
+          "endFrame": 5916
+        }
+      ]
+    },
+    {
+      "id": "line_27",
+      "text": "Ek hi pal mein badla jahan",
+      "startTime": 98.6,
+      "endTime": 100.88,
+      "startFrame": 5916,
+      "endFrame": 6053,
+      "accentWords": [
+        "badla"
+      ],
+      "words": [
+        {
+          "id": "w_27_01",
+          "text": "Ek",
+          "startFrame": 5916,
+          "endFrame": 5922
+        },
+        {
+          "id": "w_27_02",
+          "text": "hi",
+          "startFrame": 5922,
+          "endFrame": 5932
+        },
+        {
+          "id": "w_27_03",
+          "text": "pal",
+          "startFrame": 5932,
+          "endFrame": 5947
+        },
+        {
+          "id": "w_27_04",
+          "text": "mein",
+          "startFrame": 5947,
+          "endFrame": 5969
+        },
+        {
+          "id": "w_27_05",
+          "text": "badla",
+          "startFrame": 5969,
+          "endFrame": 6024
+        },
+        {
+          "id": "w_27_06",
+          "text": "jahan",
+          "startFrame": 6024,
+          "endFrame": 6053
+        }
+      ]
+    },
+    {
+      "id": "line_28",
+      "text": "Sunno na...",
+      "startTime": 100.88,
+      "endTime": 103.16,
+      "startFrame": 6053,
+      "endFrame": 6190,
+      "accentWords": [
+        "Sunno"
+      ],
+      "words": [
+        {
+          "id": "w_28_01",
+          "text": "Sunno",
+          "startFrame": 6053,
+          "endFrame": 6124
+        },
+        {
+          "id": "w_28_02",
+          "text": "na...",
+          "startFrame": 6124,
+          "endFrame": 6190
+        }
+      ]
+    },
+    {
+      "id": "line_29",
+      "text": "Aaine mein dekha pehli baar tumhein",
+      "startTime": 105.56,
+      "endTime": 111.72,
+      "startFrame": 6334,
+      "endFrame": 6703,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_29_01",
+          "text": "Aaine",
+          "startFrame": 6334,
+          "endFrame": 6442
+        },
+        {
+          "id": "w_29_02",
+          "text": "mein",
+          "startFrame": 6442,
+          "endFrame": 6493
+        },
+        {
+          "id": "w_29_03",
+          "text": "dekha",
+          "startFrame": 6493,
+          "endFrame": 6541
+        },
+        {
+          "id": "w_29_04",
+          "text": "pehli",
+          "startFrame": 6541,
+          "endFrame": 6582
+        },
+        {
+          "id": "w_29_05",
+          "text": "baar",
+          "startFrame": 6582,
+          "endFrame": 6654
+        },
+        {
+          "id": "w_29_06",
+          "text": "tumhein",
+          "startFrame": 6654,
+          "endFrame": 6703
+        }
+      ]
+    },
+    {
+      "id": "line_30",
+      "text": "Ho gaya pehli nazar mein pyar tumhein",
+      "startTime": 111.72,
+      "endTime": 117.7,
+      "startFrame": 6703,
+      "endFrame": 7062,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_30_01",
+          "text": "Ho",
+          "startFrame": 6703,
+          "endFrame": 6778
+        },
+        {
+          "id": "w_30_02",
+          "text": "gaya",
+          "startFrame": 6778,
+          "endFrame": 6818
+        },
+        {
+          "id": "w_30_03",
+          "text": "pehli",
+          "startFrame": 6818,
+          "endFrame": 6884
+        },
+        {
+          "id": "w_30_04",
+          "text": "nazar",
+          "startFrame": 6884,
+          "endFrame": 6913
+        },
+        {
+          "id": "w_30_05",
+          "text": "mein",
+          "startFrame": 6913,
+          "endFrame": 6934
+        },
+        {
+          "id": "w_30_06",
+          "text": "pyar",
+          "startFrame": 6934,
+          "endFrame": 7000
+        },
+        {
+          "id": "w_30_07",
+          "text": "tumhein",
+          "startFrame": 7000,
+          "endFrame": 7062
+        }
+      ]
+    },
+    {
+      "id": "line_31",
+      "text": "Dhanak se rang sab khil gaye",
+      "startTime": 117.7,
+      "endTime": 121.02,
+      "startFrame": 7062,
+      "endFrame": 7261,
+      "accentWords": [
+        "Dhanak"
+      ],
+      "words": [
+        {
+          "id": "w_31_01",
+          "text": "Dhanak",
+          "startFrame": 7062,
+          "endFrame": 7102
+        },
+        {
+          "id": "w_31_02",
+          "text": "se",
+          "startFrame": 7102,
+          "endFrame": 7115
+        },
+        {
+          "id": "w_31_03",
+          "text": "rang",
+          "startFrame": 7115,
+          "endFrame": 7140
+        },
+        {
+          "id": "w_31_04",
+          "text": "sab",
+          "startFrame": 7140,
+          "endFrame": 7182
+        },
+        {
+          "id": "w_31_05",
+          "text": "khil",
+          "startFrame": 7182,
+          "endFrame": 7223
+        },
+        {
+          "id": "w_31_06",
+          "text": "gaye",
+          "startFrame": 7223,
+          "endFrame": 7261
+        }
+      ]
+    },
+    {
+      "id": "line_32",
+      "text": "Jab se hum is mod par mil gaye",
+      "startTime": 121.02,
+      "endTime": 130.88,
+      "startFrame": 7261,
+      "endFrame": 7853,
+      "accentWords": [
+        "Jab"
+      ],
+      "words": [
+        {
+          "id": "w_32_01",
+          "text": "Jab",
+          "startFrame": 7261,
+          "endFrame": 7271
+        },
+        {
+          "id": "w_32_02",
+          "text": "se",
+          "startFrame": 7271,
+          "endFrame": 7294
+        },
+        {
+          "id": "w_32_03",
+          "text": "hum",
+          "startFrame": 7294,
+          "endFrame": 7312
+        },
+        {
+          "id": "w_32_04",
+          "text": "is",
+          "startFrame": 7312,
+          "endFrame": 7331
+        },
+        {
+          "id": "w_32_05",
+          "text": "mod",
+          "startFrame": 7331,
+          "endFrame": 7370
+        },
+        {
+          "id": "w_32_06",
+          "text": "par",
+          "startFrame": 7370,
+          "endFrame": 7403
+        },
+        {
+          "id": "w_32_07",
+          "text": "mil",
+          "startFrame": 7742,
+          "endFrame": 7853
+        },
+        {
+          "id": "w_32_08",
+          "text": "gaye",
+          "startFrame": 7853,
+          "endFrame": 7853
+        }
+      ]
+    },
+    {
+      "id": "line_33",
+      "text": "Ab na koi rasta yaad rahe",
+      "startTime": 130.88,
+      "endTime": 134.08,
+      "startFrame": 7853,
+      "endFrame": 8045,
+      "accentWords": [
+        "rasta"
+      ],
+      "words": [
+        {
+          "id": "w_33_01",
+          "text": "Ab",
+          "startFrame": 7853,
+          "endFrame": 7853
+        },
+        {
+          "id": "w_33_02",
+          "text": "na",
+          "startFrame": 7853,
+          "endFrame": 7871
+        },
+        {
+          "id": "w_33_03",
+          "text": "koi",
+          "startFrame": 7871,
+          "endFrame": 7901
+        },
+        {
+          "id": "w_33_04",
+          "text": "rasta",
+          "startFrame": 7901,
+          "endFrame": 7945
+        },
+        {
+          "id": "w_33_05",
+          "text": "yaad",
+          "startFrame": 7946,
+          "endFrame": 7996
+        },
+        {
+          "id": "w_33_06",
+          "text": "rahe",
+          "startFrame": 7996,
+          "endFrame": 8045
+        }
+      ]
+    },
+    {
+      "id": "line_34",
+      "text": "Bus tera hi rasta yaad rahe",
+      "startTime": 134.08,
+      "endTime": 140.22,
+      "startFrame": 8045,
+      "endFrame": 8413,
+      "accentWords": [
+        "rasta"
+      ],
+      "words": [
+        {
+          "id": "w_34_01",
+          "text": "Bus",
+          "startFrame": 8045,
+          "endFrame": 8209
+        },
+        {
+          "id": "w_34_02",
+          "text": "tera",
+          "startFrame": 8209,
+          "endFrame": 8239
+        },
+        {
+          "id": "w_34_03",
+          "text": "hi",
+          "startFrame": 8239,
+          "endFrame": 8261
+        },
+        {
+          "id": "w_34_04",
+          "text": "rasta",
+          "startFrame": 8261,
+          "endFrame": 8290
+        },
+        {
+          "id": "w_34_05",
+          "text": "yaad",
+          "startFrame": 8290,
+          "endFrame": 8345
+        },
+        {
+          "id": "w_34_06",
+          "text": "rahe",
+          "startFrame": 8345,
+          "endFrame": 8413
+        }
+      ]
+    },
+    {
+      "id": "line_35",
+      "text": "Sitar ki taar jaisi bajti hai",
+      "startTime": 141.2,
+      "endTime": 144.88,
+      "startFrame": 8472,
+      "endFrame": 8693,
+      "accentWords": [
+        "Sitar"
+      ],
+      "words": [
+        {
+          "id": "w_35_01",
+          "text": "Sitar",
+          "startFrame": 8472,
+          "endFrame": 8556
+        },
+        {
+          "id": "w_35_02",
+          "text": "ki",
+          "startFrame": 8556,
+          "endFrame": 8575
+        },
+        {
+          "id": "w_35_03",
+          "text": "taar",
+          "startFrame": 8575,
+          "endFrame": 8608
+        },
+        {
+          "id": "w_35_04",
+          "text": "jaisi",
+          "startFrame": 8608,
+          "endFrame": 8645
+        },
+        {
+          "id": "w_35_05",
+          "text": "bajti",
+          "startFrame": 8645,
+          "endFrame": 8678
+        },
+        {
+          "id": "w_35_06",
+          "text": "hai",
+          "startFrame": 8678,
+          "endFrame": 8693
+        }
+      ]
+    },
+    {
+      "id": "line_36",
+      "text": "Meri saanson mein ab teri sada",
+      "startTime": 144.88,
+      "endTime": 148.26,
+      "startFrame": 8693,
+      "endFrame": 8896,
+      "accentWords": [
+        "saanson"
+      ],
+      "words": [
+        {
+          "id": "w_36_01",
+          "text": "Meri",
+          "startFrame": 8693,
+          "endFrame": 8741
+        },
+        {
+          "id": "w_36_02",
+          "text": "saanson",
+          "startFrame": 8741,
+          "endFrame": 8772
+        },
+        {
+          "id": "w_36_03",
+          "text": "mein",
+          "startFrame": 8772,
+          "endFrame": 8803
+        },
+        {
+          "id": "w_36_04",
+          "text": "ab",
+          "startFrame": 8803,
+          "endFrame": 8822
+        },
+        {
+          "id": "w_36_05",
+          "text": "teri",
+          "startFrame": 8822,
+          "endFrame": 8861
+        },
+        {
+          "id": "w_36_06",
+          "text": "sada",
+          "startFrame": 8861,
+          "endFrame": 8896
+        }
+      ]
+    },
+    {
+      "id": "line_37",
+      "text": "(Meri saanson mein teri sada...)",
+      "startTime": 148.26,
+      "endTime": 152.5,
+      "startFrame": 8896,
+      "endFrame": 9150,
+      "accentWords": [
+        "saanson"
+      ],
+      "words": [
+        {
+          "id": "w_37_01",
+          "text": "(Meri",
+          "startFrame": 8896,
+          "endFrame": 8908
+        },
+        {
+          "id": "w_37_02",
+          "text": "saanson",
+          "startFrame": 8908,
+          "endFrame": 8953
+        },
+        {
+          "id": "w_37_03",
+          "text": "mein",
+          "startFrame": 8953,
+          "endFrame": 8978
+        },
+        {
+          "id": "w_37_04",
+          "text": "teri",
+          "startFrame": 8978,
+          "endFrame": 9030
+        },
+        {
+          "id": "w_37_05",
+          "text": "sada...)",
+          "startFrame": 9044,
+          "endFrame": 9150
+        }
+      ]
+    },
+    {
+      "id": "line_38",
+      "text": "Aaine mein dekha pehli baar tumhein",
+      "startTime": 152.5,
+      "endTime": 158.58,
+      "startFrame": 9150,
+      "endFrame": 9515,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_38_01",
+          "text": "Aaine",
+          "startFrame": 9150,
+          "endFrame": 9251
+        },
+        {
+          "id": "w_38_02",
+          "text": "mein",
+          "startFrame": 9251,
+          "endFrame": 9281
+        },
+        {
+          "id": "w_38_03",
+          "text": "dekha",
+          "startFrame": 9281,
+          "endFrame": 9352
+        },
+        {
+          "id": "w_38_04",
+          "text": "pehli",
+          "startFrame": 9352,
+          "endFrame": 9392
+        },
+        {
+          "id": "w_38_05",
+          "text": "baar",
+          "startFrame": 9392,
+          "endFrame": 9461
+        },
+        {
+          "id": "w_38_06",
+          "text": "tumhein",
+          "startFrame": 9461,
+          "endFrame": 9515
+        }
+      ]
+    },
+    {
+      "id": "line_39",
+      "text": "Ho gaya pehli nazar mein pyar tumhein",
+      "startTime": 158.58,
+      "endTime": 164.46,
+      "startFrame": 9515,
+      "endFrame": 9868,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_39_01",
+          "text": "Ho",
+          "startFrame": 9515,
+          "endFrame": 9592
+        },
+        {
+          "id": "w_39_02",
+          "text": "gaya",
+          "startFrame": 9592,
+          "endFrame": 9643
+        },
+        {
+          "id": "w_39_03",
+          "text": "pehli",
+          "startFrame": 9643,
+          "endFrame": 9692
+        },
+        {
+          "id": "w_39_04",
+          "text": "nazar",
+          "startFrame": 9692,
+          "endFrame": 9725
+        },
+        {
+          "id": "w_39_05",
+          "text": "mein",
+          "startFrame": 9725,
+          "endFrame": 9743
+        },
+        {
+          "id": "w_39_06",
+          "text": "pyar",
+          "startFrame": 9743,
+          "endFrame": 9808
+        },
+        {
+          "id": "w_39_07",
+          "text": "tumhein",
+          "startFrame": 9808,
+          "endFrame": 9868
+        }
+      ]
+    },
+    {
+      "id": "line_40",
+      "text": "Dhanak se rang sab khil gaye",
+      "startTime": 164.46,
+      "endTime": 167.72,
+      "startFrame": 9868,
+      "endFrame": 10063,
+      "accentWords": [
+        "Dhanak"
+      ],
+      "words": [
+        {
+          "id": "w_40_01",
+          "text": "Dhanak",
+          "startFrame": 9868,
+          "endFrame": 9910
+        },
+        {
+          "id": "w_40_02",
+          "text": "se",
+          "startFrame": 9910,
+          "endFrame": 9923
+        },
+        {
+          "id": "w_40_03",
+          "text": "rang",
+          "startFrame": 9923,
+          "endFrame": 9952
+        },
+        {
+          "id": "w_40_04",
+          "text": "sab",
+          "startFrame": 9952,
+          "endFrame": 9992
+        },
+        {
+          "id": "w_40_05",
+          "text": "khil",
+          "startFrame": 9992,
+          "endFrame": 10031
+        },
+        {
+          "id": "w_40_06",
+          "text": "gaye",
+          "startFrame": 10031,
+          "endFrame": 10063
+        }
+      ]
+    },
+    {
+      "id": "line_41",
+      "text": "Jab se hum is mod par mil gaye",
+      "startTime": 167.72,
+      "endTime": 171.42,
+      "startFrame": 10063,
+      "endFrame": 10285,
+      "accentWords": [
+        "Jab"
+      ],
+      "words": [
+        {
+          "id": "w_41_01",
+          "text": "Jab",
+          "startFrame": 10063,
+          "endFrame": 10080
+        },
+        {
+          "id": "w_41_02",
+          "text": "se",
+          "startFrame": 10080,
+          "endFrame": 10103
+        },
+        {
+          "id": "w_41_03",
+          "text": "hum",
+          "startFrame": 10103,
+          "endFrame": 10120
+        },
+        {
+          "id": "w_41_04",
+          "text": "is",
+          "startFrame": 10120,
+          "endFrame": 10138
+        },
+        {
+          "id": "w_41_05",
+          "text": "mod",
+          "startFrame": 10138,
+          "endFrame": 10176
+        },
+        {
+          "id": "w_41_06",
+          "text": "par",
+          "startFrame": 10176,
+          "endFrame": 10222
+        },
+        {
+          "id": "w_41_07",
+          "text": "mil",
+          "startFrame": 10222,
+          "endFrame": 10235
+        },
+        {
+          "id": "w_41_08",
+          "text": "gaye",
+          "startFrame": 10235,
+          "endFrame": 10285
+        }
+      ]
+    },
+    {
+      "id": "line_42",
+      "text": "Pehli nazar mein...",
+      "startTime": 171.42,
+      "endTime": 172.94,
+      "startFrame": 10285,
+      "endFrame": 10376,
+      "accentWords": [
+        "Pehli"
+      ],
+      "words": [
+        {
+          "id": "w_42_01",
+          "text": "Pehli",
+          "startFrame": 10285,
+          "endFrame": 10320
+        },
+        {
+          "id": "w_42_02",
+          "text": "nazar",
+          "startFrame": 10320,
+          "endFrame": 10351
+        },
+        {
+          "id": "w_42_03",
+          "text": "mein...",
+          "startFrame": 10351,
+          "endFrame": 10376
+        }
+      ]
+    },
+    {
+      "id": "line_43",
+      "text": "(Pehli nazar mein...)",
+      "startTime": 172.94,
+      "endTime": 173.02,
+      "startFrame": 10376,
+      "endFrame": 10381,
+      "accentWords": [
+        "Pehli"
+      ],
+      "words": [
+        {
+          "id": "w_43_01",
+          "text": "(Pehli",
+          "startFrame": 10376,
+          "endFrame": 10380
+        },
+        {
+          "id": "w_43_02",
+          "text": "nazar",
+          "startFrame": 10380,
+          "endFrame": 10380
+        },
+        {
+          "id": "w_43_03",
+          "text": "mein...)",
+          "startFrame": 10380,
+          "endFrame": 10381
+        }
+      ]
+    },
+    {
+      "id": "line_44",
+      "text": "Pehli nazar mein pyar tumhein...",
+      "startTime": 173.02,
+      "endTime": 173.3,
+      "startFrame": 10381,
+      "endFrame": 10398,
+      "accentWords": [
+        "tumhein"
+      ],
+      "words": [
+        {
+          "id": "w_44_01",
+          "text": "Pehli",
+          "startFrame": 10381,
+          "endFrame": 10390
+        },
+        {
+          "id": "w_44_02",
+          "text": "nazar",
+          "startFrame": 10390,
+          "endFrame": 10390
+        },
+        {
+          "id": "w_44_03",
+          "text": "mein",
+          "startFrame": 10390,
+          "endFrame": 10390
+        },
+        {
+          "id": "w_44_04",
+          "text": "pyar",
+          "startFrame": 10390,
+          "endFrame": 10392
+        },
+        {
+          "id": "w_44_05",
+          "text": "tumhein...",
+          "startFrame": 10392,
+          "endFrame": 10398
+        }
+      ]
+    },
+    {
+      "id": "line_45",
+      "text": "Pehli nazar mein...",
+      "startTime": 175.14,
+      "endTime": 177.54,
+      "startFrame": 10508,
+      "endFrame": 10652,
+      "accentWords": [
+        "Pehli"
+      ],
+      "words": [
+        {
+          "id": "w_45_01",
+          "text": "Pehli",
+          "startFrame": 10508,
+          "endFrame": 10538
+        },
+        {
+          "id": "w_45_02",
+          "text": "nazar",
+          "startFrame": 10538,
+          "endFrame": 10579
+        },
+        {
+          "id": "w_45_03",
+          "text": "mein...",
+          "startFrame": 10579,
+          "endFrame": 10652
+        }
+      ]
+    }
+  ]
+}

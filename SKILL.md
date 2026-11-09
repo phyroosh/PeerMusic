@@ -28,11 +28,11 @@ Welcome to the **PeerMusic Motion Design Suite**. This repository is equipped wi
                                │
                                ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  STAGE 2: AI MUSIC COVER & THUMBNAIL ARTIST                 │
-│  • Song-Centric Concept Engine (Original Visual Identity)   │
-│  • Dual Formats: 16:9 YouTube Thumbnail & 1:1 Album Cover   │
-│  • Quality Benchmark: Atmospheric Depth & Serif/Script Type │
-│  • Conformed via `scripts/artwork_pipeline.py` & Synced     │
+│  STAGE 2: REMOTION COVER & THUMBNAIL STUDIO                 │
+│  • Code-Authored Editorial Art Direction                    │
+│  • Dual Compositions: 16:9 YouTube & 1:1 Streaming          │
+│  • Quality Benchmark: Material Depth, Type & Small-Size Read │
+│  • Conformed & Synced after Remotion Still Rendering         │
 └──────────────────────────────┬──────────────────────────────┘
                                │
                                ▼
@@ -110,39 +110,25 @@ When interacting with the user, agents MUST follow this exact conversational flo
 
 ---
 
-### Phase 2: AI Cover Artwork & YouTube Thumbnail Generation
+### Phase 2: Remotion Cover Artwork & YouTube Thumbnail Generation
 Once the song concept, lyrics, and MP3 are established:
-1. **Understand the Song**: Extract title, lyrical meaning, emotional core, narrative atmosphere, and authentic music props.
-2. **Strict Directives (Anti-Movie-Poster, Anti-Dilapidated-School & Anti-Synthetic-Font-Overlay)**:
-   - ❌ **Anti-Movie-Poster**: Never generate full-body posed actors walking down hallways or movie billing blocks. It must be an intimate, candid music single album cover.
-   - ❌ **Anti-Dilapidated School**: Never depict peeling paint, broken benches, or dingy government school corridors. Default to clean, modern, sun-drenched, stylish coming-of-age aesthetics.
-   - ❌ **Anti-Synthetic Font Overlay**: Never use programmatic scripts (e.g. Pillow / `PIL.ImageDraw`) to paste flat TrueType fonts onto clean photos for release covers. Programmatic overlays look amateurish, flat, and disconnected from the scene's lighting and depth. Release cover typography MUST be synthesized natively by the AI image generation model, where the Didone serif title and warm gold cursive script are organically integrated into the scene's lighting, halation, and negative space.
-   - ✅ **Intimate Music-Centric Subject**: Close-to-medium candid framing of an expressive young subject caught in an emotional/musical daydream with earphones/headphones.
-   - ✅ **Tactile Props in Soft Focus**: 2-3 narrative props (open lyric notebook, water bottle catching golden light, earphones, guitar).
-   - ✅ **Pure Fine-Art Background (NO Text) for Video Engine**: For Remotion lyric video backgrounds, strictly NO baked-in text, typography, or watermarks. The synchronized lyric engine handles all words separately.
-   - ✅ **Native AI Typography for Release Covers**: For YouTube thumbnails and Spotify covers, generate the image directly using the typography-enabled prompt so the lettering is seamlessly woven into the 35mm film halation and atmosphere.
-3. **Formulate Tailored Visual Concepts**:
-   - Run `python3 scripts/artwork_pipeline.py concept <song-slug>` to inspect the song and generate custom prompt directions.
-   - Design distinct, intentional compositions for both target formats using the **Master Cover Prompt Template**:
-     > *"A stylish, modern indie music single album cover and lyrical video thumbnail, [16:9 widescreen for `_thumb.jpg` / 1:1 square for `_cover_sq.jpg`]. An intimate, cinematic candid close-to-medium shot of [EXPRESSIVE YOUNG SUBJECT IN EMOTIVE REVERIE / DAYDREAMING, e.g. sitting beside a sun-drenched modern school window at golden hour, wearing white earphones, looking wistfully toward the classroom door with a tender, nostalgic smile], shot on a prime 35mm lens with [WARM GOLDEN HOUR SUNLIGHT / TWILIGHT BLUE HOUR / DIM AMBER LIGHTING]. Featuring [3-4 SPECIFIC NARRATIVE PROPS IN SOFT FOCUS, e.g. open spiral notebook with poetic handwritten lyrics, clear water bottle on modern desk catching golden light, earphones, subtle vintage indie record label emblem in the corner]. Rich cinematic color grading with warm amber highlights and soft muted tones, dreamy 35mm film halation, atmospheric dust motes, and shallow depth of field with creamy background blur. Importantly, preserve a natural clean out-of-focus area on the [UPPER-RIGHT / RIGHT] of the frame to serve as dedicated negative space for typography. Tasteful indie music single typography placed with generous negative space: '[MAIN SONG TITLE IN UPPERCASE]' in elegant, high-contrast warm cream Didone/Roman serif typography with wide aesthetic tracking, and directly below it '[POETIC HINGLISH SUBTITLE]' in subtle warm gold italic or cursive script. Authentic indie pop / playback music single release aesthetic, intimate and emotional, strictly NOT a movie poster."*
-4. **Generate Artwork with Nano Banana**:
-   - Use `generate_image` with the 16:9 prompt (widescreen YouTube Thumbnail) and 1:1 prompt (square album cover).
-5. **Evaluate, Compress & Conform Assets**:
-   - Save directly to standardized paths via:
-     ```bash
-     python3 scripts/artwork_pipeline.py process --song <song-slug> --source <img_path_16x9> --format 16x9
-     python3 scripts/artwork_pipeline.py process --song <song-slug> --source <img_path_1x1> --format 1x1
-     ```
-   - Automatically:
-     - Saves canonical 16:9 thumbnail to `public/covers/<slug>_thumb.jpg` (auto-compressed JPEG strictly $< 1.8$ MB for YouTube Data API limits).
-     - Saves canonical 1:1 square cover to `public/covers/<slug>_cover_sq.jpg` (high-res Spotify distribution cover).
-     - Saves production PNGs to `out/<slug>_cover_16x9.png` and `src/songs/<slug>/`.
-     - Syncs metadata in `studio/metadata.json` for localhost Studio UI detection.
+1. **Understand and Distill the Song**: Extract the title, emotional core, visual motif, color arc, and one editorial focal idea. The cover is a distilled single image, not a poster version of every lyric scene.
+2. **Strict Remotion-Only Creative Rule**:
+   - ❌ Do not use Nano Banana, `generate_image`, external image-generation APIs, or externally AI-generated artwork for final covers or thumbnails.
+   - ❌ Do not use Pillow/PIL to create final typography or take a raw video screenshot and call it a cover.
+   - ✅ Create a dedicated Remotion component at `src/songs/<slug>/cover/<Slug>Cover.tsx` and a `cover-plan.md` following [`docs/REMOTION_COVER_STUDIO_STANDARD.md`](docs/REMOTION_COVER_STUDIO_STANDARD.md).
+   - ✅ Build with code-authored visual layers: SVG, CSS, shapes, typography, lighting, material texture, controlled particles, and user-supplied/licensed media where appropriate.
+3. **Compose, Review, and Export Both Formats**:
+   - Register separately designed `<Slug>-Cover-16x9` and `<Slug>-Cover-1x1` Remotion compositions; never crop one to make the other.
+   - Render stills to `out/<slug>_cover_16x9.png` and `out/<slug>_cover_1x1.png`, inspect them at full resolution and mobile-thumbnail scale, and iterate until they meet the editorial quality gate.
+   - Use `scripts/artwork_pipeline.py` only to conform JPEGs, enforce size limits, and synchronize `studio/metadata.json`; it may not create the visual concept or typography.
 
 ---
 
 ### Phase 3: Suno MP3 to Motion Graphics Video (Remotion)
 When the user provides the Suno MP3 audio file:
+> **Maximum-effort requirement:** This phase is a premium, quality-first directing assignment. Do not rush to the first render or choose the fastest available template. Analyze the complete song, direct its full narrative arc, and continue through real rendered review until each scene earns its place in the film. Rendering successfully is only the beginning of verification, never the completion criterion.
+
 1. **Save audio** to `public/audio/<song_slug>.mp3`.
 2. **Mandatory Duration Guard (Hard Limit: 180.0s / 3:00 | Target: ~2:50–2:58)**:
    - Measure and validate the actual audio file:
@@ -159,12 +145,19 @@ When the user provides the Suno MP3 audio file:
    - Align words to vocals with `scripts/transcribe_sync.py` (which prunes any lines beyond the audio duration).
    - Assign unique IDs (`w_s01_01`, `w_s02_chai`) to every word.
    - Validate with `python3 scripts/validate_timeline.py <timeline.json>` (strictly asserts timeline <= 180.0s).
-4. **Default Visual Engine: Dynamic Song Cover Artwork System**:
-   - Every song renders with its own song-specific cover artwork as the primary visual element (`SongCoverArtworkSong`).
-   - Features slow Ken Burns zooms, subtle camera drift, ambient lighting breathing, and drifting 35mm atmospheric dust particles.
+4. **Visual Direction Selection: Three Official PeerMusic Options**:
+   - Ask which direction the user wants unless their request already establishes it: **Electric Neon Pulse**, **Liquid Crimson Silk**, or **🎬 Cinematic Atmospheric Lyric Film**.
+   - **Electric Neon Pulse** and **Liquid Crimson Silk** remain the two original, fully supported PeerMusic theme options. Use their existing audio-reactive compositions when selected.
+   - **🎬 Cinematic Atmospheric Lyric Film** is the third option. When selected, the agent generates breathtaking, evocative scenic environmental worlds (landscapes, nature, architecture, atmospheric lighting, weather, spatial depth) that match the song's musical mood, vibe, and aesthetic to display lyrics beautifully.
+   - 🌲 **Outdoor Scenic Primacy**: Strongly prioritize expansive, breathtaking **outdoor natural environments and open-air scenic stages** (mountain passes, misty valleys, alpine lakes, coastal bluffs, evergreen forest glades, starlit celestial horizons) over confined indoor rooms or tabletop props.
+   - ❌ **Strict Ban on Characters & Human Bodies**: Strictly zero characters, human bodies, silhouettes of people, faces, eyes, ears, limbs, or walking stick figures.
+   - ❌ **Anti-Literal Rule**: Do not try hard to literally animate what is being told or sung word-for-word. Avoid frantic 2-second visual whiplash.
+   - ✅ **Section-Driven Scene Architecture**: Organize scenes by musical sections (Intro, Verse 1, Chorus, Verse 2, Bridge, Outro). Each major section gets an evolving, living outdoor scenic environment tailored to the musical dynamics.
+   - For this option, create `src/songs/<slug>/visual-plan.md` following [`docs/NARRATIVE_LYRIC_FILM_STANDARD.md`](docs/NARRATIVE_LYRIC_FILM_STANDARD.md).
+   - Build separate scene components in `src/songs/<slug>/scenes/`; each provides an atmospheric sanctuary with ample chiaroscuro contrast for kinetic typography.
    - **Lyrics Only**: Zero headers, subtitles, song titles, artist tags, or footers. Zero text during instrumental sections.
-   - **Zero Capsules**: Direct-canvas placement with subtle feathered negative-space contrast scrim.
-   - **Optional Themes**: `CelestialEclipse` (cosmic void & golden corona) and `BotanicalScrapbook` remain available when explicitly requested.
+   - **Zero Capsules**: Direct-canvas placement with scene-aware contrast and no lyric cards.
+   - **High-effort implementation rule**: Do not reuse a scene or visual motif unchanged across an entire section. Build the song from bespoke scene components and evolve environments as the song progresses. Repeated choruses must receive new lighting, scale, or atmospheric escalation.
 5. **Preview in Remotion Studio**:
    ```bash
    npx remotion preview src/index.ts
@@ -177,6 +170,10 @@ When the user provides the Suno MP3 audio file:
    # Vertical (9:16 Reels/Shorts)
    npx remotion render src/index.ts KacchiNeendein-Vertical out/vertical.mp4
    ```
+7. **Mandatory Review Loop Before Delivery**:
+   - Inspect frames and moving excerpts from every distinct scene, every section boundary, and the final outro.
+   - Rework any scene that reads as generic wallpaper, a static cover loop, a repeated template, or an image unrelated to the lyric being sung.
+   - Do not call a video finished because the build passes. Finish only after the full narrative, typography timing, scene transitions, and 60fps render have been reviewed.
 
 ---
 
@@ -184,22 +181,22 @@ When the user provides the Suno MP3 audio file:
 
 | Component | Path | Description |
 | :--- | :--- | :--- |
-| **Motion Skill** | [`.agents/skills/remotion-motion-design/SKILL.md`](.agents/skills/remotion-motion-design/SKILL.md) | Master creative design manual: Dynamic Song Cover Artwork default, lyrics-only & anti-slop rules |
-| **Default Theme**| [`src/themes/cover-art/SongCoverArtworkSong.tsx`](src/themes/cover-art/SongCoverArtworkSong.tsx) | Official default theme: Full-bleed 16:9 cinematic cover artwork, Ken Burns motion, and synced lyrics |
+| **Motion Skill** | [`.agents/skills/remotion-motion-design/SKILL.md`](.agents/skills/remotion-motion-design/SKILL.md) | Master creative design manual: the two original themes plus atmospheric scenic lyric-film direction |
+| **Atmospheric Film Standard**| [`docs/NARRATIVE_LYRIC_FILM_STANDARD.md`](docs/NARRATIVE_LYRIC_FILM_STANDARD.md) | Required scenic worldbuilding contract and lyric display quality gate for option 3 |
 | **Celestial Lyrics**| [`src/engine/typography/CelestialLyricRenderer.tsx`](src/engine/typography/CelestialLyricRenderer.tsx) | Pure lyrics-only typography (English + Devanagari, no capsules, zero branding) |
 | **Lyrics Skill (Hindi)** | [`.agents/skills/bollywood-lyrics-writer/SKILL.md`](.agents/skills/bollywood-lyrics-writer/SKILL.md) | Bollywood songwriting craft & Suno tagging |
 | **Lyrics Skill (English)** | [`.agents/skills/english-song-writer/SKILL.md`](.agents/skills/english-song-writer/SKILL.md) | Beautiful English songwriting, Suno prompting & natural phrasing |
 | **Artwork Engine** | [`scripts/artwork_pipeline.py`](scripts/artwork_pipeline.py) | AI Cover & Thumbnail engine: concept formulation, conformance, and metadata sync |
 | **Generic Engine**| [`src/engine/`](src/engine/) | Reusable typography, layout, camera & atmospheric textures |
 | **Lyric Illumination**| [`src/engine/typography/CinematicLyricLine.tsx`](src/engine/typography/CinematicLyricLine.tsx) | Line-level illumination for archival alternative themes |
-| **Root Registry** | [`src/Root.tsx`](src/Root.tsx) | Registers 60 FPS 16:9 & 9:16 compositions dynamically with Song Cover Artwork default |
+| **Root Registry** | [`src/Root.tsx`](src/Root.tsx) | Registers 60 FPS 16:9 & 9:16 song-specific narrative compositions |
 | **Validator**     | [`scripts/validate_timeline.py`](scripts/validate_timeline.py) | Monotonic timestamp & override validator |
 
 ---
 
 ## 🎬 Core Technical Standards
 
-1. **Official Default Theme (Dynamic Song Cover Artwork)**: All new English and Hindi music videos strictly default to the **Dynamic Song Cover Artwork** aesthetic (`SongCoverArtworkSong` with `SongCoverBackdrop` and `CelestialLyricRenderer`). Features full-bleed 16:9 candid cinematic cover art, slow Ken Burns camera motion, and drifting 35mm dust motes.
+1. **Official Visual Directions**: All new English and Hindi lyric videos offer **Electric Neon Pulse**, **Liquid Crimson Silk**, and **Cinematic Atmospheric Lyric Film**. The third option focuses on breathtaking, evocative scenic environments and atmospheric stagecraft matching the song to display lyrics, strictly prohibiting characters or human body rendering. A cover image, equalizer, or decorative theme can support a scene but can never be that option's backbone.
 2. **Strict Lyrics-Only Display**: The actual song lyrics must be the **ONLY visible text** in the music video. Never render decorative uppercase headings, subtitles, scene tags, song titles, artist names, or footer branding. Never render Polaroid specimen cards, kraft paper gridlines, or English translations under the lyrics. During instrumental intros, interludes, and outros, display **zero text**.
 3. **Strictly No Capsule-Style Visuals**: Never use rounded-rect containers, pill-shaped badges, floating text cards, or background plates around lyrics. Text is rendered directly over the artwork with restrained golden-violet starlight glow.
 4. **Multilingual Script Support**: Support both English (`'Georgia' / 'Playfair Display'`) and Hindi Devanagari (`'Noto Serif Devanagari' / 'Rozha One'` with `letterSpacing: "normal"`).

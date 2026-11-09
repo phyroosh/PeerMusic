@@ -1,19 +1,70 @@
 import React from "react";
 import { Img, staticFile, useCurrentFrame } from "remotion";
 
-interface PeerMusicLogoBadgeProps {
+export interface PeerMusicLogoBadgeProps {
   size?: number;
   glowIntensity?: number;
+  variant?: "badge" | "logo" | "horizontal";
 }
 
 export const PeerMusicLogoBadge: React.FC<PeerMusicLogoBadgeProps> = ({
   size = 64,
   glowIntensity = 1,
+  variant = "badge",
 }) => {
   const frame = useCurrentFrame();
 
   // Subtle breathing pulse for the brand neon red glow
   const pulse = 0.85 + Math.sin(frame * 0.08) * 0.15 * glowIntensity;
+
+  if (variant === "logo") {
+    // Official high-resolution stacked logo from user master
+    return (
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          pointerEvents: "none",
+          zIndex: 50,
+          filter: `drop-shadow(0 0 ${16 * pulse}px rgba(255, 30, 39, ${0.45 * pulse}))`,
+        }}
+      >
+        <Img
+          src={staticFile("branding/peermusic_logo_transparent.png")}
+          style={{
+            height: `${size * 1.35}px`,
+            width: "auto",
+            objectFit: "contain",
+          }}
+        />
+      </div>
+    );
+  }
+
+  if (variant === "horizontal") {
+    // Official high-resolution horizontal lockup
+    return (
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          pointerEvents: "none",
+          zIndex: 50,
+          filter: `drop-shadow(0 0 ${16 * pulse}px rgba(255, 30, 39, ${0.4 * pulse}))`,
+        }}
+      >
+        <Img
+          src={staticFile("branding/peermusic_logo_horizontal.png")}
+          style={{
+            height: `${size * 0.85}px`,
+            width: "auto",
+            objectFit: "contain",
+          }}
+        />
+      </div>
+    );
+  }
 
   return (
     <div
